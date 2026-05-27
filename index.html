@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI选品推送 — 小红书带货自动化</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(135deg, #0D1117 0%, #161B22 50%, #0D1117 100%);
+    color: #E6EDF3;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ===== 导航 ===== */
+  .nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(13,17,23,0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(48,54,61,0.6);
+    padding: 12px 24px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-brand { font-size: 18px; font-weight: 700; color: #58A6FF; }
+  .nav-links { display: flex; gap: 24px; }
+  .nav-links a { color: #8B949E; text-decoration: none; font-size: 14px; transition: color 0.2s; }
+  .nav-links a:hover { color: #E6EDF3; }
+
+  /* ===== Hero 效果区 ===== */
+  .hero {
+    padding: 120px 24px 80px;
+    text-align: center;
+    position: relative;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(88,166,255,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(88,166,255,0.12);
+    border: 1px solid rgba(88,166,255,0.3);
+    color: #58A6FF;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, #E6EDF3 0%, #58A6FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .hero p {
+    font-size: 18px;
+    color: #8B949E;
+    max-width: 600px;
+    margin: 0 auto 32px;
+    line-height: 1.6;
+  }
+
+  /* ===== 实时数据卡片 ===== */
+  .live-section {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    padding: 0 24px;
+  }
+  .live-section h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #E6EDF3;
+  }
+  .live-section h2 .pulse {
+    display: inline-block;
+    width: 8px; height: 8px;
+    background: #3FB950;
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(63,185,80,0.4); }
+    50% { opacity: 0.7; box-shadow: 0 0 0 8px rgba(63,185,80,0); }
+  }
+  .live-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  .live-card {
+    background: rgba(22,27,34,0.8);
+    border: 1px solid rgba(48,54,61,0.8);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: border-color 0.3s, transform 0.2s;
+  }
+  .live-card:hover {
+    border-color: rgba(88,166,255,0.4);
+    transform: translateY(-2px);
+  }
+  .live-card .number {
+    font-size: 32px;
+    font-weight: 800;
+    color: #58A6FF;
+    line-height: 1;
+  }
+  .live-card .label {
+    font-size: 13px;
+    color: #8B949E;
+    margin-top: 8px;
+  }
+
+  /* ===== 今日选品展示 ===== */
+  .products-section {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    padding: 0 24px;
+  }
+  .products-section h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+  }
+  .product-item {
+    background: rgba(22,27,34,0.8);
+    border: 1px solid rgba(48,54,61,0.8);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.3s, transform 0.2s;
+  }
+  .product-item:hover {
+    border-color: rgba(88,166,255,0.4);
+    transform: translateY(-2px);
+  }
+  .product-item img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+    background: #21262D;
+  }
+  .product-item .info {
+    padding: 12px;
+  }
+  .product-item .name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .product-item .tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background: rgba(88,166,255,0.15);
+    color: #58A6FF;
+  }
+  .no-data {
+    text-align: center;
+    color: #484F58;
+    padding: 40px;
+    font-size: 14px;
+  }
+
+  /* ===== 过程区 ===== */
+  .process-section {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    padding: 0 24px;
+  }
+  .process-section h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .step-card {
+    background: rgba(22,27,34,0.8);
+    border: 1px solid rgba(48,54,61,0.8);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px; height: 32px;
+    background: rgba(88,166,255,0.15);
+    color: #58A6FF;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .step-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .step-card p {
+    font-size: 14px;
+    color: #8B949E;
+    line-height: 1.6;
+  }
+
+  /* ===== 对比区 ===== */
+  .compare-section {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    padding: 0 24px;
+  }
+  .compare-section h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(22,27,34,0.8);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(48,54,61,0.8);
+  }
+  .compare-table th {
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    background: rgba(22,27,34,0.6);
+    border-bottom: 1px solid rgba(48,54,61,0.8);
+  }
+  .compare-table th:first-child { color: #8B949E; }
+  .compare-table th:nth-child(2) { color: #3FB950; }
+  .compare-table th:nth-child(3) { color: #58A6FF; }
+  .compare-table td {
+    padding: 12px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(48,54,61,0.4);
+  }
+  .compare-table td:first-child { color: #8B949E; }
+  .compare-table .check { color: #3FB950; }
+  .compare-table .cross { color: #484F58; }
+
+  /* ===== 行动区 ===== */
+  .cta-section {
+    max-width: 600px;
+    margin: 0 auto 80px;
+    padding: 0 24px;
+    text-align: center;
+  }
+  .cta-section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .cta-section p {
+    color: #8B949E;
+    font-size: 16px;
+    margin-bottom: 32px;
+    line-height: 1.6;
+  }
+  .cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #238636, #2EA043);
+    color: #fff;
+    padding: 14px 36px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    min-width: 260px;
+    justify-content: center;
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(35,134,54,0.3);
+  }
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    color: #58A6FF;
+    padding: 12px 36px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid rgba(88,166,255,0.4);
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    min-width: 260px;
+    justify-content: center;
+  }
+  .btn-secondary:hover {
+    background: rgba(88,166,255,0.1);
+    border-color: rgba(88,166,255,0.6);
+  }
+
+  /* ===== Footer ===== */
+  .footer {
+    text-align: center;
+    padding: 32px 24px;
+    border-top: 1px solid rgba(48,54,61,0.6);
+    color: #484F58;
+    font-size: 13px;
+  }
+
+  /* ===== 更新时间 ===== */
+  .update-time {
+    text-align: center;
+    color: #484F58;
+    font-size: 12px;
+    margin-top: 16px;
+  }
+
+  /* ===== 响应式 ===== */
+  @media (max-width: 640px) {
+    .hero h1 { font-size: 32px; }
+    .hero p { font-size: 15px; }
+    .live-card .number { font-size: 24px; }
+    .nav-links { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- 导航 -->
+<nav class="nav">
+  <div class="nav-brand">AI选品推送</div>
+  <div class="nav-links">
+    <a href="#live">实时数据</a>
+    <a href="#process">工作原理</a>
+    <a href="#compare">方案对比</a>
+    <a href="#cta">立即获取</a>
+  </div>
+</nav>
+
+<!-- 效果区 -->
+<section class="hero">
+  <div class="hero-badge">每日自动运行 · 无需人工干预</div>
+  <h1>小红书带货<br>AI 自动化工作流</h1>
+  <p>搜索热门 → AI选品 → 生成图文 → 自动推送，每天5款精选好物直达飞书群</p>
+</section>
+
+<!-- 实时数据 -->
+<section class="live-section" id="live">
+  <h2><span class="pulse"></span>运行实况</h2>
+  <div class="live-grid">
+    <div class="live-card">
+      <div class="number" id="totalRuns">--</div>
+      <div class="label">累计执行次数</div>
+    </div>
+    <div class="live-card">
+      <div class="number" id="totalProducts">--</div>
+      <div class="label">已生成商品图文</div>
+    </div>
+    <div class="live-card">
+      <div class="number" id="lastRunDate">--</div>
+      <div class="label">最近执行</div>
+    </div>
+    <div class="live-card">
+      <div class="number" id="status">--</div>
+      <div class="label">运行状态</div>
+    </div>
+  </div>
+  <div class="update-time" id="updateTime">数据加载中...</div>
+</section>
+
+<!-- 今日选品 -->
+<section class="products-section">
+  <h2>今日精选好物</h2>
+  <div class="product-list" id="productList">
+    <div class="no-data">加载中，或今日尚未执行...</div>
+  </div>
+</section>
+
+<!-- 过程区 -->
+<section class="process-section" id="process">
+  <h2>工作原理</h2>
+  <div class="process-steps">
+    <div class="step-card">
+      <div class="step-num">1</div>
+      <h3>AI 搜索选品</h3>
+      <p>自动搜索小红书热门商品趋势，智能筛选5个差异化品类，避免同质化</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">2</div>
+      <h3>生成图文内容</h3>
+      <p>AI撰写商品详情，生成电商风格配图，组合成精美HTML图文卡片</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">3</div>
+      <h3>自动推送飞书</h3>
+      <p>截图压缩后上传图床，推送完整图文链接到飞书群，打开即看</p>
+    </div>
+  </div>
+</section>
+
+<!-- 对比区 -->
+<section class="compare-section" id="compare">
+  <h2>免费包 vs 付费包</h2>
+  <table class="compare-table">
+    <thead>
+      <tr><th>功能</th><th>免费包</th><th>付费包</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>AI选品推送工作流</td><td class="check">✓</td><td class="check">✓</td></tr>
+      <tr><td>图文部署指南</td><td class="check">✓</td><td class="check">✓</td></tr>
+      <tr><td>7天微信答疑</td><td class="check">✓</td><td class="check">✓</td></tr>
+      <tr><td>3套完整工作流配置</td><td class="cross">-</td><td class="check">✓</td></tr>
+      <tr><td>视频部署教程</td><td class="cross">-</td><td class="check">✓</td></tr>
+      <tr><td>完整排查手册</td><td class="cross">-</td><td class="check">✓</td></tr>
+      <tr><td>飞书推送模板</td><td class="cross">-</td><td class="check">✓</td></tr>
+      <tr><td>持续更新维护</td><td class="cross">-</td><td class="check">✓</td></tr>
+      <tr><td>价格</td><td>免费</td><td>¥99-499 起</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 行动区 -->
+<section class="cta-section" id="cta">
+  <h2>开始你的自动化选品</h2>
+  <p>免费获取配置包，30分钟搭好每日AI选品推送。有疑问可加微信咨询。</p>
+  <div class="cta-buttons">
+    <button class="btn-primary" onclick="handleGetFree()">🎁 免费获取配置包</button>
+    <button class="btn-secondary" onclick="handleWechat()">💬 加微信咨询</button>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>AI选品推送 — 小红书带货自动化工作流</p>
+  <p style="margin-top:4px;">© 2026 All rights reserved.</p>
+</footer>
+
+<script>
+// ===== 从 data.json 加载实时数据 =====
+async function loadData() {
+  try {
+    const res = await fetch('./data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('no data');
+    const data = await res.json();
+
+    // 统计数据
+    document.getElementById('totalRuns').textContent = data.totalRuns || 0;
+    document.getElementById('totalProducts').textContent = (data.totalRuns || 0) * 5;
+    document.getElementById('lastRunDate').textContent = data.lastRunDate || '--';
+    document.getElementById('status').textContent = data.status || '运行中';
+    document.getElementById('updateTime').textContent = '最近更新：' + (data.updateTime || '--');
+
+    // 今日选品
+    if (data.products && data.products.length > 0) {
+      const listEl = document.getElementById('productList');
+      listEl.innerHTML = data.products.map(p => `
+        <div class="product-item">
+          <img src="${p.image || ''}" alt="${p.name}" onerror="this.style.display='none'">
+          <div class="info">
+            <div class="name">${p.name}</div>
+            <span class="tag">${p.category || '好物'}</span>
+          </div>
+        </div>
+      `).join('');
+    } else {
+      document.getElementById('productList').innerHTML =
+        '<div class="no-data">今日尚未执行，稍后再来看看</div>';
+    }
+  } catch (e) {
+    document.getElementById('totalRuns').textContent = '0';
+    document.getElementById('totalProducts').textContent = '0';
+    document.getElementById('lastRunDate').textContent = '--';
+    document.getElementById('status').textContent = '待启动';
+    document.getElementById('updateTime').textContent = '等待首次执行数据';
+    document.getElementById('productList').innerHTML =
+      '<div class="no-data">等待首次执行数据...</div>';
+  }
+}
+
+// ===== 按钮动作 =====
+function handleGetFree() {
+  window.open('https://github.com/where20/xhs-product-push/releases', '_blank');
+}
+
+function handleWechat() {
+  alert('请搜索微信号：anwei609  添加时备注「AI选品」');
+}
+
+// ===== 启动 =====
+loadData();
+// 每5分钟刷新一次
+setInterval(loadData, 5 * 60 * 1000);
+</script>
+
+</body>
+</html>
