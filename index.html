@@ -124,7 +124,7 @@
 
   /* ===== 今日选品展示 ===== */
   .products-section {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto 60px;
     padding: 0 24px;
   }
@@ -136,8 +136,8 @@
   }
   .product-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
   }
   .product-item {
     background: rgba(22,27,34,0.8);
@@ -147,6 +147,8 @@
     transition: border-color 0.3s, transform 0.2s;
     cursor: pointer;
     position: relative;
+    display: flex;
+    flex-direction: column;
   }
   .product-item:hover {
     border-color: rgba(88,166,255,0.4);
@@ -154,12 +156,16 @@
   }
   .product-item .img-wrap {
     position: relative;
+    flex-shrink: 0;
+    background: #0D1117;
     overflow: hidden;
-    background: #21262D;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
   }
   .product-item .img-wrap img {
     width: 100%;
-    aspect-ratio: 2 / 3;
+    aspect-ratio: 9 / 20;
     object-fit: contain;
     display: block;
     background: #0D1117;
@@ -171,58 +177,67 @@
   /* 始终可见的放大按钮 */
   .product-item .zoom-btn {
     position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    width: 44px; height: 44px;
-    background: rgba(0,0,0,0.6);
-    border: 1px solid rgba(255,255,255,0.25);
+    top: 12px; right: 12px;
+    width: 36px; height: 36px;
+    background: rgba(0,0,0,0.55);
+    border: 1px solid rgba(255,255,255,0.2);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     pointer-events: none;
-    opacity: 0.7;
+    opacity: 0.85;
     transition: opacity 0.2s, background 0.2s, transform 0.2s;
   }
   .product-item:hover .zoom-btn {
     opacity: 1;
     background: rgba(88,166,255,0.3);
     border-color: rgba(88,166,255,0.5);
-    transform: translate(-50%, -50%) scale(1.1);
+    transform: scale(1.1);
   }
-  .product-item .info {
-    padding: 12px 14px;
-  }
-  .product-item .name {
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 6px;
-    line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .product-item .tag {
-    display: inline-block;
-    font-size: 11px;
-    padding: 2px 8px;
-    border-radius: 10px;
-    background: rgba(88,166,255,0.15);
-    color: #58A6FF;
-  }
-  /* 底部查看大图提示条 */
   .product-item .view-hint {
     position: absolute;
     bottom: 0; left: 0; right: 0;
-    padding: 6px;
+    padding: 8px;
     text-align: center;
     font-size: 12px;
-    color: rgba(255,255,255,0.6);
-    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    color: rgba(255,255,255,0.55);
+    background: linear-gradient(transparent, rgba(0,0,0,0.65));
     pointer-events: none;
+  }
+  .product-item .info {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .product-item .name {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #E6EDF3;
+  }
+  .product-item .category {
+    font-size: 13px;
+    color: #58A6FF;
+    font-weight: 500;
+  }
+  .product-item .tags-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+  }
+  .product-item .tags-wrap .tag-pill {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background: rgba(88,166,255,0.1);
+    color: #79C0FF;
+    border: 1px solid rgba(88,166,255,0.15);
   }
   .no-data {
     text-align: center;
@@ -572,7 +587,7 @@
   }
 
   /* ===== 响应式 ===== */
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     .hero h1 { font-size: 32px; }
     .hero p { font-size: 15px; }
     .live-card .number { font-size: 24px; }
@@ -580,7 +595,8 @@
     .lightbox-nav { width: 36px; height: 36px; font-size: 16px; }
     .lightbox-prev { left: 8px; }
     .lightbox-next { right: 8px; }
-    .product-list { grid-template-columns: repeat(2, 1fr); }
+    .product-list { grid-template-columns: 1fr; }
+    .product-item .name { font-size: 14px; }
   }
 </style>
 </head>
@@ -738,13 +754,14 @@ async function loadData() {
       listEl.innerHTML = currentProducts.map((p, i) => `
         <div class="product-item" onclick="openLightbox(${i})">
           <div class="img-wrap">
-            <img src="${p.image || ''}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22300%22><rect fill=%22%230D1117%22 width=%22200%22 height=%22300%22/><text fill=%22%23484F58%22 x=%22100%22 y=%22155%22 text-anchor=%22middle%22 font-size=%2214%22>暂无图片</text></svg>'">
+            <img src="${p.image || ''}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22340%22 height=%22754%22><rect fill=%22%230D1117%22 width=%22340%22 height=%22754%22/><text fill=%22%23484F58%22 x=%22170%22 y=%22380%22 text-anchor=%22middle%22 font-size=%2216%22>暂无图片</text></svg>'">
             <div class="zoom-btn">🔍</div>
-            <div class="view-hint">点击查看大图</div>
+            <div class="view-hint">点击查看完整大图</div>
           </div>
           <div class="info">
             <div class="name">${p.name}</div>
-            <span class="tag">${p.category || '好物'}</span>
+            <div class="category">${p.category || '精选好物'}</div>
+            ${(p.tags && p.tags.length > 0) ? `<div class="tags-wrap">${p.tags.map(t => `<span class="tag-pill">${t}</span>`).join('')}</div>` : ''}
           </div>
         </div>
       `).join('');
@@ -862,13 +879,14 @@ async function loadHistoryDay(date, el) {
       listEl.innerHTML = currentProducts.map((p, i) => `
         <div class="product-item" onclick="openLightbox(${i})">
           <div class="img-wrap">
-            <img src="${p.image || ''}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22300%22><rect fill=%22%230D1117%22 width=%22200%22 height=%22300%22/><text fill=%22%23484F58%22 x=%22100%22 y=%22155%22 text-anchor=%22middle%22 font-size=%2214%22>暂无图片</text></svg>'">
+            <img src="${p.image || ''}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22340%22 height=%22754%22><rect fill=%22%230D1117%22 width=%22340%22 height=%22754%22/><text fill=%22%23484F58%22 x=%22170%22 y=%22380%22 text-anchor=%22middle%22 font-size=%2216%22>暂无图片</text></svg>'">
             <div class="zoom-btn">🔍</div>
-            <div class="view-hint">点击查看大图</div>
+            <div class="view-hint">点击查看完整大图</div>
           </div>
           <div class="info">
             <div class="name">${p.name}</div>
-            <span class="tag">${p.category || '好物'}</span>
+            <div class="category">${p.category || '精选好物'}</div>
+            ${(p.tags && p.tags.length > 0) ? `<div class="tags-wrap">${p.tags.map(t => `<span class="tag-pill">${t}</span>`).join('')}</div>` : ''}
           </div>
         </div>
       `).join('');
