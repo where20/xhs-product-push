@@ -136,8 +136,8 @@
   }
   .product-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
   }
   .product-item {
     background: rgba(22,27,34,0.8);
@@ -145,28 +145,65 @@
     border-radius: 12px;
     overflow: hidden;
     transition: border-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    position: relative;
   }
   .product-item:hover {
     border-color: rgba(88,166,255,0.4);
     transform: translateY(-2px);
   }
-  .product-item img {
-    width: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
-    display: block;
+  .product-item .img-wrap {
+    position: relative;
+    overflow: hidden;
     background: #21262D;
   }
+  .product-item .img-wrap img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: contain;
+    display: block;
+    background: #0D1117;
+    transition: transform 0.3s ease;
+  }
+  .product-item:hover .img-wrap img {
+    transform: scale(1.03);
+  }
+  /* 始终可见的放大按钮 */
+  .product-item .zoom-btn {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 44px; height: 44px;
+    background: rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+    opacity: 0.7;
+    transition: opacity 0.2s, background 0.2s, transform 0.2s;
+  }
+  .product-item:hover .zoom-btn {
+    opacity: 1;
+    background: rgba(88,166,255,0.3);
+    border-color: rgba(88,166,255,0.5);
+    transform: translate(-50%, -50%) scale(1.1);
+  }
   .product-item .info {
-    padding: 12px;
+    padding: 12px 14px;
   }
   .product-item .name {
     font-size: 14px;
     font-weight: 600;
-    margin-bottom: 4px;
-    white-space: nowrap;
+    margin-bottom: 6px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
   }
   .product-item .tag {
     display: inline-block;
@@ -176,10 +213,191 @@
     background: rgba(88,166,255,0.15);
     color: #58A6FF;
   }
+  /* 底部查看大图提示条 */
+  .product-item .view-hint {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 6px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255,255,255,0.6);
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    pointer-events: none;
+  }
   .no-data {
     text-align: center;
     color: #484F58;
     padding: 40px;
+    font-size: 14px;
+    grid-column: 1 / -1;
+  }
+
+  /* ===== Lightbox 大图预览 ===== */
+  .lightbox {
+    display: none;
+    position: fixed; inset: 0; z-index: 9999;
+    background: rgba(0,0,0,0.92);
+    backdrop-filter: blur(8px);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .lightbox.active {
+    display: flex;
+    opacity: 1;
+  }
+  .lightbox img {
+    max-width: 95vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+  }
+  .lightbox.active img {
+    transform: scale(1);
+  }
+  .lightbox-close {
+    position: absolute;
+    top: 24px; right: 32px;
+    width: 44px; height: 44px;
+    background: rgba(48,54,61,0.8);
+    border: 1px solid rgba(88,166,255,0.3);
+    border-radius: 50%;
+    color: #E6EDF3;
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .lightbox-close:hover {
+    background: rgba(88,166,255,0.2);
+    border-color: #58A6FF;
+  }
+  .lightbox-nav {
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    width: 48px; height: 48px;
+    background: rgba(48,54,61,0.8);
+    border: 1px solid rgba(88,166,255,0.3);
+    border-radius: 50%;
+    color: #E6EDF3;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+  }
+  .lightbox-nav:hover { background: rgba(88,166,255,0.2); }
+  .lightbox-prev { left: 24px; }
+  .lightbox-next { right: 24px; }
+  .lightbox-title {
+    position: absolute;
+    bottom: 32px;
+    left: 50%; transform: translateX(-50%);
+    background: rgba(22,27,34,0.9);
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #E6EDF3;
+    border: 1px solid rgba(48,54,61,0.6);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lightbox-title a {
+    color: #58A6FF;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 2px 10px;
+    border: 1px solid rgba(88,166,255,0.3);
+    border-radius: 10px;
+    transition: background 0.2s;
+  }
+  .lightbox-title a:hover {
+    background: rgba(88,166,255,0.15);
+  }
+
+  /* ===== 历史记录区 ===== */
+  .history-section {
+    max-width: 900px;
+    margin: 0 auto 80px;
+    padding: 0 24px;
+  }
+  .history-section h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .history-timeline {
+    position: relative;
+    padding-left: 32px;
+  }
+  .history-timeline::before {
+    content: '';
+    position: absolute;
+    left: 11px; top: 0; bottom: 0;
+    width: 2px;
+    background: rgba(48,54,61,0.6);
+  }
+  .history-item {
+    position: relative;
+    margin-bottom: 16px;
+    padding: 14px 18px;
+    background: rgba(22,27,34,0.6);
+    border: 1px solid rgba(48,54,61,0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .history-item:hover {
+    border-color: rgba(88,166,255,0.4);
+    background: rgba(22,27,34,0.9);
+  }
+  .history-item::before {
+    content: '';
+    position: absolute;
+    left: -26px; top: 20px;
+    width: 10px; height: 10px;
+    background: #484F58;
+    border: 2px solid rgba(48,54,61,0.8);
+    border-radius: 50%;
+    transition: background 0.2s;
+  }
+  .history-item:hover::before {
+    background: #58A6FF;
+  }
+  .history-item.active {
+    border-color: rgba(88,166,255,0.6);
+    background: rgba(88,166,255,0.08);
+  }
+  .history-item.active::before {
+    background: #58A6FF;
+    box-shadow: 0 0 8px rgba(88,166,255,0.4);
+  }
+  .history-date {
+    font-size: 14px;
+    font-weight: 600;
+    color: #E6EDF3;
+    margin-bottom: 4px;
+  }
+  .history-meta {
+    font-size: 12px;
+    color: #8B949E;
+  }
+  .history-meta span {
+    margin-right: 16px;
+  }
+  .history-empty {
+    text-align: center;
+    color: #484F58;
+    padding: 30px;
     font-size: 14px;
   }
 
@@ -359,6 +577,10 @@
     .hero p { font-size: 15px; }
     .live-card .number { font-size: 24px; }
     .nav-links { display: none; }
+    .lightbox-nav { width: 36px; height: 36px; font-size: 16px; }
+    .lightbox-prev { left: 8px; }
+    .lightbox-next { right: 8px; }
+    .product-list { grid-template-columns: repeat(2, 1fr); }
   }
 </style>
 </head>
@@ -370,7 +592,7 @@
   <div class="nav-links">
     <a href="#live">实时数据</a>
     <a href="#process">工作原理</a>
-    <a href="#compare">方案对比</a>
+    <a href="#history">历史记录</a>
     <a href="#cta">立即获取</a>
   </div>
 </nav>
@@ -408,11 +630,20 @@
 
 <!-- 今日选品 -->
 <section class="products-section">
-  <h2>今日精选好物</h2>
+  <h2>今日精选好物 <span style="font-size:13px;color:#8B949E;font-weight:400;">（点击图片查看大图）</span></h2>
   <div class="product-list" id="productList">
     <div class="no-data">加载中，或今日尚未执行...</div>
   </div>
 </section>
+
+<!-- Lightbox 大图预览 -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <button class="lightbox-nav lightbox-prev" onclick="navigateLightbox(-1)">◀</button>
+  <img id="lightboxImg" src="" alt="">
+  <button class="lightbox-nav lightbox-next" onclick="navigateLightbox(1)">▶</button>
+  <div class="lightbox-title" id="lightboxTitle"></div>
+</div>
 
 <!-- 过程区 -->
 <section class="process-section" id="process">
@@ -436,8 +667,16 @@
   </div>
 </section>
 
+<!-- 历史记录区 -->
+<section class="history-section" id="history">
+  <h2>📅 历史更新记录</h2>
+  <div class="history-timeline" id="historyTimeline">
+    <div class="history-empty">加载中...</div>
+  </div>
+</section>
+
 <!-- 对比区 -->
-<section class="compare-section" id="compare">
+<section class="compare-section">
   <h2>免费包 vs 付费包</h2>
   <table class="compare-table">
     <thead>
@@ -474,6 +713,10 @@
 </footer>
 
 <script>
+// ===== 全局状态 =====
+let currentProducts = [];
+let currentIndex = 0;
+
 // ===== 从 data.json 加载实时数据 =====
 async function loadData() {
   try {
@@ -483,17 +726,22 @@ async function loadData() {
 
     // 统计数据
     document.getElementById('totalRuns').textContent = data.totalRuns || 0;
-    document.getElementById('totalProducts').textContent = (data.totalRuns || 0) * 5;
+    document.getElementById('totalProducts').textContent = data.totalProducts || 0;
     document.getElementById('lastRunDate').textContent = data.lastRunDate || '--';
     document.getElementById('status').textContent = data.status || '运行中';
     document.getElementById('updateTime').textContent = '最近更新：' + (data.updateTime || '--');
 
     // 今日选品
-    if (data.products && data.products.length > 0) {
+    currentProducts = data.products || [];
+    if (currentProducts.length > 0) {
       const listEl = document.getElementById('productList');
-      listEl.innerHTML = data.products.map(p => `
-        <div class="product-item">
-          <img src="${p.image || ''}" alt="${p.name}" onerror="this.style.display='none'">
+      listEl.innerHTML = currentProducts.map((p, i) => `
+        <div class="product-item" onclick="openLightbox(${i})">
+          <div class="img-wrap">
+            <img src="${p.image || ''}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22300%22><rect fill=%22%230D1117%22 width=%22200%22 height=%22300%22/><text fill=%22%23484F58%22 x=%22100%22 y=%22155%22 text-anchor=%22middle%22 font-size=%2214%22>暂无图片</text></svg>'">
+            <div class="zoom-btn">🔍</div>
+            <div class="view-hint">点击查看大图</div>
+          </div>
           <div class="info">
             <div class="name">${p.name}</div>
             <span class="tag">${p.category || '好物'}</span>
@@ -515,6 +763,128 @@ async function loadData() {
   }
 }
 
+// ===== Lightbox 大图预览 =====
+function openLightbox(index) {
+  currentIndex = index;
+  const p = currentProducts[index];
+  if (!p || !p.image) return;
+
+  document.getElementById('lightboxImg').src = p.image;
+  document.getElementById('lightboxTitle').innerHTML =
+    `${p.name} &nbsp;<a href="${p.image}" target="_blank" rel="noopener">查看原图 ↗</a>`;
+  document.getElementById('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function navigateLightbox(dir) {
+  let newIndex = currentIndex + dir;
+  if (newIndex < 0) newIndex = currentProducts.length - 1;
+  if (newIndex >= currentProducts.length) newIndex = 0;
+  currentIndex = newIndex;
+  const p = currentProducts[newIndex];
+  if (p && p.image) {
+    document.getElementById('lightboxImg').src = p.image;
+    document.getElementById('lightboxTitle').innerHTML =
+      `${p.name} &nbsp;<a href="${p.image}" target="_blank" rel="noopener">查看原图 ↗</a>`;
+  }
+}
+
+// 键盘操作
+document.addEventListener('keydown', function(e) {
+  const lb = document.getElementById('lightbox');
+  if (!lb.classList.contains('active')) return;
+  if (e.key === 'Escape') closeLightbox();
+  if (e.key === 'ArrowLeft') navigateLightbox(-1);
+  if (e.key === 'ArrowRight') navigateLightbox(1);
+});
+
+// 点击背景关闭
+document.getElementById('lightbox').addEventListener('click', function(e) {
+  if (e.target === this) closeLightbox();
+});
+
+// ===== 历史记录 =====
+async function loadHistory() {
+  const tl = document.getElementById('historyTimeline');
+  try {
+    const res = await fetch('./history/history.json?t=' + Date.now());
+    if (!res.ok) throw new Error('no history');
+    const list = await res.json();
+
+    if (!list || list.length === 0) {
+      tl.innerHTML = '<div class="history-empty">暂无历史记录，执行首次推送后出现</div>';
+      return;
+    }
+
+    // 倒序展示（最新在前）
+    const reversed = [...list].reverse();
+
+    tl.innerHTML = reversed.map((item, i) => {
+      const isLatest = i === 0;
+      return `
+        <div class="history-item${isLatest ? ' active' : ''}" onclick="loadHistoryDay('${item.date}', this)">
+          <div class="history-date">${isLatest ? '🟢 ' : '📌 '}${item.date}</div>
+          <div class="history-meta">
+            <span>第 ${item.totalRuns} 次执行</span>
+            <span>${item.productCount} 款商品</span>
+            <span>${item.updateTime || ''}</span>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // 存储历史列表供交互使用
+    window._historyList = list;
+  } catch (e) {
+    tl.innerHTML = '<div class="history-empty">历史记录加载失败</div>';
+  }
+}
+
+async function loadHistoryDay(date, el) {
+  // 高亮选中
+  document.querySelectorAll('.history-item').forEach(item => item.classList.remove('active'));
+  if (el) el.classList.add('active');
+
+  try {
+    const res = await fetch(`./history/${date}.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error('not found');
+    const data = await res.json();
+
+    // 更新商品列表为历史数据
+    currentProducts = data.products || [];
+    if (currentProducts.length > 0) {
+      const listEl = document.getElementById('productList');
+      listEl.innerHTML = currentProducts.map((p, i) => `
+        <div class="product-item" onclick="openLightbox(${i})">
+          <div class="img-wrap">
+            <img src="${p.image || ''}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22300%22><rect fill=%22%230D1117%22 width=%22200%22 height=%22300%22/><text fill=%22%23484F58%22 x=%22100%22 y=%22155%22 text-anchor=%22middle%22 font-size=%2214%22>暂无图片</text></svg>'">
+            <div class="zoom-btn">🔍</div>
+            <div class="view-hint">点击查看大图</div>
+          </div>
+          <div class="info">
+            <div class="name">${p.name}</div>
+            <span class="tag">${p.category || '好物'}</span>
+          </div>
+        </div>
+      `).join('');
+
+      // 更新标题标识
+      document.querySelector('.products-section h2').innerHTML =
+        `📅 ${date} 精选好物 <span style="font-size:13px;color:#8B949E;font-weight:400;">（点击图片查看大图）</span>`;
+
+      // 滚动到商品区
+      document.querySelector('.products-section').scrollIntoView({ behavior: 'smooth' });
+    }
+  } catch (e) {
+    console.error('加载历史数据失败:', e);
+  }
+}
+
 // ===== 按钮动作 =====
 function handleGetFree() {
   window.open('https://github.com/where20/xhs-product-push/releases', '_blank');
@@ -526,6 +896,7 @@ function handleWechat() {
 
 // ===== 启动 =====
 loadData();
+loadHistory();
 // 每5分钟刷新一次
 setInterval(loadData, 5 * 60 * 1000);
 </script>
