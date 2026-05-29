@@ -1,7 +1,60 @@
 {
-  "totalRuns": 0,
-  "lastRunDate": "--",
-  "status": "待启动",
-  "updateTime": "等待首次执行",
-  "products": []
+  "totalRuns": 1,
+  "totalProducts": 5,
+  "lastRunDate": "2026-05-28",
+  "status": "运行中",
+  "updateTime": "2026-05-29 08:56",
+  "products": [
+    {
+      "name": "步云·德训鞋复古休闲运动鞋",
+      "category": "👟 Athflow穿搭",
+      "tags": [
+        "#德训鞋",
+        "#Athflow",
+        "#复古穿搭"
+      ],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_card_full_1780016155477_1.jpg"
+    },
+    {
+      "name": "净螨Pro·智能UV除螨吸尘器",
+      "category": "🏠 居家清洁神器",
+      "tags": [
+        "#百搭单品",
+        "#运动休闲",
+        "#除螨仪"
+      ],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_card_full_1780016155477_1.jpg"
+    },
+    {
+      "name": "胶原时光·小分子胶原蛋白抗糖饮礼盒",
+      "category": "💧 内服养颜",
+      "tags": [
+        "#居家清洁",
+        "#UV杀菌",
+        "#健康家居"
+      ],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_card_full_1780016155477_1.jpg"
+    },
+    {
+      "name": "熨悦·手持蒸汽便携挂烫机",
+      "category": "👔 衣物护理专家",
+      "tags": [
+        "#换季必备",
+        "#胶原蛋白",
+        "#抗糖化"
+      ],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_card_full_1780016155477_1.jpg"
+    },
+    {
+      "name": "微风·桌面迷你无叶静音风扇",
+      "category": "🌿 夏日清凉伴侣",
+      "tags": [
+        "#内服美容",
+        "#小分子肽",
+        "#口服液"
+      ],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_card_full_1780016155477_1.jpg"
+    }
+  ],
+  "imageUrl": "https://cloudimgs.231203.xyz/api/images/product_card_full_1780016155477_1.jpg"
 }
