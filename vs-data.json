@@ -1,0 +1,147 @@
+{
+  "updateTime": "2026-05-30 15:30",
+  "hotProducts": [
+    {
+      "name": "TAGRY 蓝牙耳机 无线降噪",
+      "category": "🎧 消费电子",
+      "image": "https://cloudimgs.231203.xyz/api/images/earbuds_001.jpg",
+      "price": "¥259",
+      "originalPrice": "",
+      "sales": "月销 40,718",
+      "rating": "★ 4.4",
+      "tag": "月销 40,718"
+    },
+    {
+      "name": "便携式电动搅拌机 USB充电",
+      "category": "🥤 厨房小家电",
+      "image": "https://cloudimgs.231203.xyz/api/images/blender_001.jpg",
+      "price": "¥122",
+      "originalPrice": "",
+      "sales": "月销 4,691",
+      "rating": "★ 4.9",
+      "tag": "月销 4,691"
+    },
+    {
+      "name": "智能声波电动牙刷 多模式",
+      "category": "🪥 个护产品",
+      "image": "https://cloudimgs.231203.xyz/api/images/toothbrush_001.jpg",
+      "price": "¥429",
+      "originalPrice": "",
+      "sales": "满分好评",
+      "rating": "★ 5.0",
+      "tag": "满分好评"
+    },
+    {
+      "name": "盏如初 早餐营养燕窝粥 端午限定",
+      "category": "🍲 食品滋补",
+      "image": "https://cloudimgs.231203.xyz/api/images/birdnest_001.jpg",
+      "price": "¥39.9",
+      "originalPrice": "¥239.9",
+      "sales": "热销爆款",
+      "rating": "",
+      "tag": "折扣 -83%"
+    },
+    {
+      "name": "冷酸灵牙膏家庭组合套装 7件",
+      "category": "🦷 居家日用",
+      "image": "https://cloudimgs.231203.xyz/api/images/toothpaste_001.jpg",
+      "price": "¥27.9",
+      "originalPrice": "¥43.9",
+      "sales": "家庭必备",
+      "rating": "",
+      "tag": "折扣 -36%"
+    }
+  ],
+  "comparisons": [
+    {
+      "searchQuery": "智能音箱",
+      "searchResult": {
+        "name": "天猫精灵X6 / 小度Mate Pro",
+        "image": "https://cloudimgs.231203.xyz/api/images/speaker_001.jpg",
+        "category": "🔊 均价 ¥249-299 · 行业均价 ¥280",
+        "tags": ["¥299 天猫精灵X6", "¥249 小度Mate Pro", "市场萎缩-25%"]
+      },
+      "hotProduct": {
+        "name": "TAGRY 蓝牙耳机 无线降噪",
+        "image": "https://cloudimgs.231203.xyz/api/images/earbuds_001.jpg",
+        "category": "🎧 消费电子",
+        "price": "¥259",
+        "sales": "月销 40,718",
+        "rating": "★ 4.4",
+        "tags": ["月销 40,718", "★ 4.4"]
+      }
+    },
+    {
+      "searchQuery": "冷萃咖啡壶",
+      "searchResult": {
+        "name": "Koonan日式冷萃壶 / 1688批发款",
+        "image": "https://cloudimgs.231203.xyz/api/images/coldbrew_001.jpg",
+        "category": "☕ ¥21-80 · 月销4462-6963",
+        "tags": ["¥80 Koonan ★4.95", "¥28.5 1688批发", "月销6963"]
+      },
+      "hotProduct": {
+        "name": "便携式电动搅拌机 USB充电",
+        "image": "https://cloudimgs.231203.xyz/api/images/blender_001.jpg",
+        "category": "🥤 厨房小家电",
+        "price": "¥122",
+        "sales": "月销 4,691",
+        "rating": "★ 4.9",
+        "tags": ["月销 4,691", "★ 4.9"]
+      }
+    },
+    {
+      "searchQuery": "射频美容仪",
+      "searchResult": {
+        "name": "AMIRO觅光胶原炮S1 / 多效美容仪",
+        "image": "https://cloudimgs.231203.xyz/api/images/rfbeauty_001.jpg",
+        "category": "💄 ¥2000-5959 · 已售70+ · ★4.8",
+        "tags": ["¥5959 胶原炮S1", "¥2000+ 多效Turbo", "高圆圆同款"]
+      },
+      "hotProduct": {
+        "name": "智能声波电动牙刷 多模式",
+        "image": "https://cloudimgs.231203.xyz/api/images/toothbrush_001.jpg",
+        "category": "🪥 个护产品",
+        "price": "¥429",
+        "sales": "满分好评",
+        "rating": "★ 5.0",
+        "tags": ["满分好评", "★ 5.0"]
+      }
+    },
+    {
+      "searchQuery": "露营折叠桌椅",
+      "searchResult": {
+        "name": "铝合金蛋卷桌+月亮椅套装",
+        "image": "https://cloudimgs.231203.xyz/api/images/campset_001.jpg",
+        "category": "🏕️ ¥168-399 · 28697个商家在售",
+        "tags": ["月销5000+", "¥168 入门款", "¥399 高配款"]
+      },
+      "hotProduct": {
+        "name": "盏如初 早餐营养燕窝粥 端午限定",
+        "image": "https://cloudimgs.231203.xyz/api/images/birdnest_001.jpg",
+        "category": "🍲 食品滋补",
+        "price": "¥39.9",
+        "originalPrice": "¥239.9",
+        "sales": "热销爆款",
+        "tags": ["折扣 -83%", "热销爆款"]
+      }
+    },
+    {
+      "searchQuery": "多肉玻璃生态缸",
+      "searchResult": {
+        "name": "微景观生态缸 / 四方玻璃花瓶",
+        "image": "https://cloudimgs.231203.xyz/api/images/terrarium_001.jpg",
+        "category": "🌱 ¥28-76 · 月销3693-6122",
+        "tags": ["¥76 微景观 ★4.98", "¥33 四方缸", "月销6122"]
+      },
+      "hotProduct": {
+        "name": "冷酸灵牙膏家庭组合套装 7件",
+        "image": "https://cloudimgs.231203.xyz/api/images/toothpaste_001.jpg",
+        "category": "🦷 居家日用",
+        "price": "¥27.9",
+        "originalPrice": "¥43.9",
+        "sales": "家庭必备",
+        "tags": ["折扣 -36%", "家庭必备"]
+      }
+    }
+  ]
+}

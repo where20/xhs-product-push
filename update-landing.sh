@@ -318,7 +318,7 @@ print(f'✅ 历史索引已更新 ({len(index)} 条记录)')
 cd "$LANDING_DIR"
 if [ -d ".git" ]; then
   echo "🔄 推送到 GitHub Pages..."
-  git add data.json history/
+  git add data.json vs-data.json history/
   git commit -m "数据更新 $TODAY (第${NEW_TOTAL}次)" 2>/dev/null || echo "⚠️ 无变更，跳过提交"
 
   # 用 gh auth token 做 push（避免 502）

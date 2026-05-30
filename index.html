@@ -174,7 +174,6 @@
   .product-item:hover .img-wrap img {
     transform: scale(1.03);
   }
-  /* 始终可见的放大按钮 */
   .product-item .zoom-btn {
     position: absolute;
     top: 12px; right: 12px;
@@ -462,106 +461,7 @@
     line-height: 1.6;
   }
 
-  /* ===== 阿里巴巴热门商品对比区 ===== */
-  .alibaba-section {
-    max-width: 1100px;
-    margin: 0 auto 60px;
-    padding: 0 24px;
-  }
-  .alibaba-section h2 {
-    text-align: center;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 8px;
-  }
-  .alibaba-section .subtitle {
-    text-align: center;
-    font-size: 13px;
-    color: #8B949E;
-    margin-bottom: 28px;
-  }
-  .alibaba-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-    gap: 16px;
-  }
-  .alibaba-card {
-    background: rgba(22,27,34,0.8);
-    border: 1px solid rgba(48,54,61,0.8);
-    border-radius: 12px;
-    overflow: hidden;
-    transition: border-color 0.3s, transform 0.2s;
-    display: flex;
-    flex-direction: column;
-  }
-  .alibaba-card:hover {
-    border-color: rgba(255,106,0,0.5);
-    transform: translateY(-3px);
-  }
-  .alibaba-card .card-img {
-    width: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
-    display: block;
-    background: #0D1117;
-  }
-  .alibaba-card .card-body {
-    padding: 12px 14px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  .alibaba-card .card-cat {
-    font-size: 11px;
-    color: #FF6A00;
-    font-weight: 500;
-  }
-  .alibaba-card .card-name {
-    font-size: 14px;
-    font-weight: 600;
-    color: #E6EDF3;
-    line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .alibaba-card .card-price {
-    font-size: 18px;
-    font-weight: 800;
-    color: #FF6A00;
-    margin-top: auto;
-  }
-  .alibaba-card .card-price .orig {
-    font-size: 12px;
-    color: #484F58;
-    text-decoration: line-through;
-    font-weight: 400;
-    margin-left: 6px;
-  }
-  .alibaba-card .card-stats {
-    display: flex;
-    gap: 8px;
-    font-size: 11px;
-    color: #8B949E;
-    margin-top: 4px;
-  }
-  .alibaba-card .card-stats .star {
-    color: #E3B341;
-  }
-  .alibaba-card .card-tag {
-    display: inline-block;
-    font-size: 10px;
-    padding: 2px 8px;
-    border-radius: 8px;
-    background: rgba(255,106,0,0.1);
-    color: #FF8C33;
-    border: 1px solid rgba(255,106,0,0.15);
-    width: fit-content;
-  }
-
-  /* ===== 商品对比区 ===== */
+  /* ===== 商品对比区（动态渲染） ===== */
   .vs-section {
     max-width: 1100px;
     margin: 0 auto 60px;
@@ -604,10 +504,10 @@
     transform: translateY(-2px);
   }
   .vs-card.left {
-    border-color: rgba(88,166,255,0.3);
+    border-color: rgba(56,139,253,0.3);
   }
   .vs-card.left:hover {
-    border-color: rgba(88,166,255,0.6);
+    border-color: rgba(56,139,253,0.6);
   }
   .vs-card.right {
     border-color: rgba(255,106,0,0.3);
@@ -641,9 +541,9 @@
     font-weight: 500;
   }
   .vs-card.left .vs-source {
-    background: rgba(88,166,255,0.12);
-    color: #58A6FF;
-    border: 1px solid rgba(88,166,255,0.2);
+    background: rgba(56,139,253,0.12);
+    color: #388BFD;
+    border: 1px solid rgba(56,139,253,0.2);
   }
   .vs-card.right .vs-source {
     background: rgba(255,106,0,0.12);
@@ -664,6 +564,19 @@
     font-size: 11px;
     color: #8B949E;
   }
+  .vs-card .vs-price {
+    font-size: 16px;
+    font-weight: 800;
+    color: #FF6A00;
+    margin-top: 2px;
+  }
+  .vs-card .vs-price .orig {
+    font-size: 11px;
+    color: #484F58;
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 4px;
+  }
   .vs-card .vs-tags {
     display: flex;
     flex-wrap: wrap;
@@ -676,9 +589,9 @@
     border-radius: 6px;
   }
   .vs-card.left .vs-tags span {
-    background: rgba(88,166,255,0.08);
+    background: rgba(56,139,253,0.08);
     color: #79C0FF;
-    border: 1px solid rgba(88,166,255,0.12);
+    border: 1px solid rgba(56,139,253,0.12);
   }
   .vs-card.right .vs-tags span {
     background: rgba(255,106,0,0.08);
@@ -697,19 +610,19 @@
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #58A6FF, #FF6A00);
+    background: linear-gradient(135deg, #388BFD, #FF6A00);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 12px;
     font-weight: 800;
     color: #fff;
-    box-shadow: 0 0 16px rgba(88,166,255,0.2), 0 0 16px rgba(255,106,0,0.2);
+    box-shadow: 0 0 16px rgba(56,139,253,0.2), 0 0 16px rgba(255,106,0,0.2);
   }
   .vs-line {
     flex: 1;
     width: 2px;
-    background: linear-gradient(to bottom, rgba(88,166,255,0.4), rgba(255,106,0,0.4));
+    background: linear-gradient(to bottom, rgba(56,139,253,0.4), rgba(255,106,0,0.4));
     margin: 4px 0;
     border-radius: 1px;
   }
@@ -851,7 +764,7 @@
     .product-item .name { font-size: 14px; }
     .vs-pair { grid-template-columns: 1fr; gap: 0; }
     .vs-divider { flex-direction: row; padding: 8px 0; min-width: auto; }
-    .vs-line { height: 2px; width: auto; flex: 1; background: linear-gradient(to right, rgba(88,166,255,0.4), rgba(255,106,0,0.4)); margin: 0 4px; }
+    .vs-line { height: 2px; width: auto; flex: 1; background: linear-gradient(to right, rgba(56,139,253,0.4), rgba(255,106,0,0.4)); margin: 0 4px; }
     .vs-card .vs-img { width: 72px; height: 72px; }
   }
 </style>
@@ -863,7 +776,6 @@
   <div class="nav-brand">AI选品推送</div>
   <div class="nav-links">
     <a href="#live">实时数据</a>
-    <a href="#alibaba">热门商品</a>
     <a href="#vs">商品对比</a>
     <a href="#process">工作原理</a>
     <a href="#history">历史记录</a>
@@ -919,205 +831,12 @@
   <div class="lightbox-title" id="lightboxTitle"></div>
 </div>
 
-<!-- 阿里巴巴热门商品对比 -->
-<section class="alibaba-section" id="alibaba">
-  <h2>🔥 阿里巴巴热门商品</h2>
-  <p class="subtitle">数据来源：淘宝/天猫实时热销榜 · 2026年5月</p>
-  <div class="alibaba-grid">
-    <div class="alibaba-card">
-      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/earbuds_001.jpg" alt="TAGRY蓝牙耳机" loading="lazy">
-      <div class="card-body">
-        <div class="card-cat">🎧 消费电子</div>
-        <div class="card-name">TAGRY 蓝牙耳机 无线降噪</div>
-        <div class="card-tag">月销 40,718</div>
-        <div class="card-stats"><span class="star">★ 4.4</span><span>评分</span></div>
-        <div class="card-price">¥259</div>
-      </div>
-    </div>
-    <div class="alibaba-card">
-      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/blender_001.jpg" alt="便携式搅拌机" loading="lazy">
-      <div class="card-body">
-        <div class="card-cat">🥤 厨房小家电</div>
-        <div class="card-name">便携式电动搅拌机 USB充电</div>
-        <div class="card-tag">月销 4,691</div>
-        <div class="card-stats"><span class="star">★ 4.9</span><span>评分</span></div>
-        <div class="card-price">¥122</div>
-      </div>
-    </div>
-    <div class="alibaba-card">
-      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/toothbrush_001.jpg" alt="电动牙刷" loading="lazy">
-      <div class="card-body">
-        <div class="card-cat">🪥 个护产品</div>
-        <div class="card-name">智能声波电动牙刷 多模式</div>
-        <div class="card-tag">满分好评</div>
-        <div class="card-stats"><span class="star">★ 5.0</span><span>评分</span></div>
-        <div class="card-price">¥429</div>
-      </div>
-    </div>
-    <div class="alibaba-card">
-      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/birdnest_001.jpg" alt="燕窝粥" loading="lazy">
-      <div class="card-body">
-        <div class="card-cat">🍲 食品滋补</div>
-        <div class="card-name">盏如初 早餐营养燕窝粥 端午限定</div>
-        <div class="card-tag">折扣 -83%</div>
-        <div class="card-stats"><span>热销爆款</span></div>
-        <div class="card-price">¥39.9 <span class="orig">¥239.9</span></div>
-      </div>
-    </div>
-    <div class="alibaba-card">
-      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/toothpaste_001.jpg" alt="冷酸灵牙膏套装" loading="lazy">
-      <div class="card-body">
-        <div class="card-cat">🦷 居家日用</div>
-        <div class="card-name">冷酸灵牙膏家庭组合套装 7件</div>
-        <div class="card-tag">折扣 -36%</div>
-        <div class="card-stats"><span>家庭必备</span></div>
-        <div class="card-price">¥27.9 <span class="orig">¥43.9</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 好物推荐 vs 阿里巴巴同品类搜索对比 -->
+<!-- 选品阿里巴巴搜索结果 vs 阿里巴巴热门商品（动态渲染） -->
 <section class="vs-section" id="vs">
-  <h2>⚔️ AI选品 vs 阿里巴巴同款</h2>
-  <p class="subtitle">5组同品类搜索对比 · AI精选推荐与平台实际在售商品数据对照</p>
-  <div class="vs-pairs">
-
-    <!-- 第1组：智能音箱 -->
-    <div class="vs-pair">
-      <div class="vs-card left">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_1_1780125891465_1.jpg" alt="AI智能音箱" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🤖 AI 选品推荐</span>
-          <div class="vs-name">灵语·AI全屋智能控制音箱 Max</div>
-          <div class="vs-cat">🔊 智能家居 · HiFi音质 · 全屋联动</div>
-          <div class="vs-tags"><span>智能控制</span><span>20H续航</span><span>隐私安全</span></div>
-        </div>
-      </div>
-      <div class="vs-divider">
-        <div class="vs-line"></div>
-        <div class="vs-badge">VS</div>
-        <div class="vs-line"></div>
-      </div>
-      <div class="vs-card right">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/speaker_001.jpg" alt="天猫精灵" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🔍 阿里巴巴搜"智能音箱"</span>
-          <div class="vs-name">天猫精灵X6 / 小度Mate Pro</div>
-          <div class="vs-cat">🔊 均价 ¥249-299 · 行业均价 ¥280</div>
-          <div class="vs-tags"><span>¥299 天猫精灵X6</span><span>¥249 小度Mate Pro</span><span>市场萎缩-25%</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 第2组：冷萃咖啡壶 -->
-    <div class="vs-pair">
-      <div class="vs-card left">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_3_1780125892520_1.jpg" alt="冷萃咖啡壶" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🤖 AI 选品推荐</span>
-          <div class="vs-name">冷萃时光·高硼硅玻璃冷萃咖啡壶 1.2L</div>
-          <div class="vs-cat">☕ 夏日饮品 · 零塑料接触 · 14天保鲜</div>
-          <div class="vs-tags"><span>双层过滤</span><span>1.2L大容量</span><span>高硼硅玻璃</span></div>
-        </div>
-      </div>
-      <div class="vs-divider">
-        <div class="vs-line"></div>
-        <div class="vs-badge">VS</div>
-        <div class="vs-line"></div>
-      </div>
-      <div class="vs-card right">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/coldbrew_001.jpg" alt="冷萃壶淘宝款" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🔍 阿里巴巴搜"冷萃咖啡壶"</span>
-          <div class="vs-name">Koonan日式冷萃壶 / 1688批发款</div>
-          <div class="vs-cat">☕ ¥21-80 · 月销4462-6963</div>
-          <div class="vs-tags"><span>¥80 Koonan ★4.95</span><span>¥28.5 1688批发</span><span>月销6963</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 第3组：射频美容仪 -->
-    <div class="vs-pair">
-      <div class="vs-card left">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_4_1780125891816_1.jpg" alt="美容仪" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🤖 AI 选品推荐</span>
-          <div class="vs-name">颜究·家用六极射频提拉美容仪 Pro</div>
-          <div class="vs-cat">💄 美容仪器 · 三重技术 · 分区模式</div>
-          <div class="vs-tags"><span>智能控温</span><span>敏感肌可用</span><span>礼盒装</span></div>
-        </div>
-      </div>
-      <div class="vs-divider">
-        <div class="vs-line"></div>
-        <div class="vs-badge">VS</div>
-        <div class="vs-line"></div>
-      </div>
-      <div class="vs-card right">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/rfbeauty_001.jpg" alt="AMIRO觅光" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🔍 阿里巴巴搜"射频美容仪"</span>
-          <div class="vs-name">AMIRO觅光胶原炮S1 / 多效美容仪</div>
-          <div class="vs-cat">💄 ¥2000-5959 · 已售70+ · ★4.8</div>
-          <div class="vs-tags"><span>¥5959 胶原炮S1</span><span>¥2000+ 多效Turbo</span><span>高圆圆同款</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 第4组：露营桌椅 -->
-    <div class="vs-pair">
-      <div class="vs-card left">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_2_1780125890408_1.jpg" alt="露营桌椅" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🤖 AI 选品推荐</span>
-          <div class="vs-name">野趣·超轻铝合金露营折叠桌椅套装</div>
-          <div class="vs-cat">🏕️ 户外露营 · 超轻2.1kg · 30秒展收</div>
-          <div class="vs-tags"><span>全地形适配</span><span>人体工学</span><span>超轻2.1kg</span></div>
-        </div>
-      </div>
-      <div class="vs-divider">
-        <div class="vs-line"></div>
-        <div class="vs-badge">VS</div>
-        <div class="vs-line"></div>
-      </div>
-      <div class="vs-card right">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/campset_001.jpg" alt="蛋卷桌椅" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🔍 阿里巴巴搜"露营折叠桌椅"</span>
-          <div class="vs-name">铝合金蛋卷桌+月亮椅套装</div>
-          <div class="vs-cat">🏕️ ¥168-399 · 28697个商家在售</div>
-          <div class="vs-tags"><span>月销5000+</span><span>¥168 入门款</span><span>¥399 高配款</span></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 第5组：多肉生态缸 -->
-    <div class="vs-pair">
-      <div class="vs-card left">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_5_1780125890587_1.jpg" alt="生态缸" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🤖 AI 选品推荐</span>
-          <div class="vs-name">绿境·手工多肉组合玻璃生态缸</div>
-          <div class="vs-cat">🌱 绿植疗愈 · 超低维护 · 手工玻璃</div>
-          <div class="vs-tags"><span>治愈系</span><span>办公室好物</span><span>伴手礼</span></div>
-        </div>
-      </div>
-      <div class="vs-divider">
-        <div class="vs-line"></div>
-        <div class="vs-badge">VS</div>
-        <div class="vs-line"></div>
-      </div>
-      <div class="vs-card right">
-        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/terrarium_001.jpg" alt="微景观缸" loading="lazy">
-        <div class="vs-info">
-          <span class="vs-source">🔍 阿里巴巴搜"多肉玻璃生态缸"</span>
-          <div class="vs-name">微景观生态缸 / 四方玻璃花瓶</div>
-          <div class="vs-cat">🌱 ¥28-76 · 月销3693-6122</div>
-          <div class="vs-tags"><span>¥76 微景观 ★4.98</span><span>¥33 四方缸</span><span>月销6122</span></div>
-        </div>
-      </div>
-    </div>
-
+  <h2>⚔️ 选品阿里巴巴搜索 vs 热门商品</h2>
+  <p class="subtitle" id="vsSubtitle">数据动态加载中...</p>
+  <div class="vs-pairs" id="vsPairs">
+    <div class="no-data">加载对比数据中...</div>
   </div>
 </section>
 
@@ -1240,6 +959,78 @@ async function loadData() {
   }
 }
 
+// ===== 从 vs-data.json 加载对比数据（动态渲染） =====
+async function loadVsData() {
+  const container = document.getElementById('vsPairs');
+  const subtitleEl = document.getElementById('vsSubtitle');
+  try {
+    const res = await fetch('./vs-data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('no vs data');
+    const data = await res.json();
+
+    const comparisons = data.comparisons || [];
+    const updateTime = data.updateTime || '';
+
+    if (comparisons.length === 0) {
+      container.innerHTML = '<div class="no-data">暂无对比数据</div>';
+      subtitleEl.textContent = '等待数据加载';
+      return;
+    }
+
+    subtitleEl.textContent = `${comparisons.length}组对比 · 数据更新: ${updateTime}`;
+
+    container.innerHTML = comparisons.map(c => {
+      const left = c.searchResult || {};
+      const right = c.hotProduct || {};
+      const query = c.searchQuery || '';
+
+      // 左侧：选品在阿里巴巴搜索结果
+      const leftSource = query ? `🔍 阿里巴巴搜"${query}"` : '🔍 阿里巴巴搜索结果';
+      const leftTags = (left.tags || []).map(t => `<span>${t}</span>`).join('');
+
+      // 右侧：阿里巴巴热门商品
+      const rightSource = '🔥 阿里巴巴热门商品';
+      const rightTags = (right.tags || []).map(t => `<span>${t}</span>`).join('');
+      const rightPrice = right.price
+        ? `<div class="vs-price">${right.price}${right.originalPrice ? `<span class="orig">${right.originalPrice}</span>` : ''}</div>`
+        : '';
+
+      return `
+        <div class="vs-pair">
+          <div class="vs-card left">
+            <img class="vs-img" src="${left.image || ''}" alt="${left.name || ''}" loading="lazy" onerror="this.style.display='none'">
+            <div class="vs-info">
+              <span class="vs-source">${leftSource}</span>
+              <div class="vs-name">${left.name || '搜索结果'}</div>
+              <div class="vs-cat">${left.category || ''}</div>
+              ${leftTags ? `<div class="vs-tags">${leftTags}</div>` : ''}
+            </div>
+          </div>
+          <div class="vs-divider">
+            <div class="vs-line"></div>
+            <div class="vs-badge">VS</div>
+            <div class="vs-line"></div>
+          </div>
+          <div class="vs-card right">
+            <img class="vs-img" src="${right.image || ''}" alt="${right.name || ''}" loading="lazy" onerror="this.style.display='none'">
+            <div class="vs-info">
+              <span class="vs-source">${rightSource}</span>
+              <div class="vs-name">${right.name || '热门商品'}</div>
+              <div class="vs-cat">${right.category || ''}</div>
+              ${rightPrice}
+              ${rightTags ? `<div class="vs-tags">${rightTags}</div>` : ''}
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+  } catch (e) {
+    container.innerHTML = '<div class="no-data">对比数据加载失败，稍后再试</div>';
+    subtitleEl.textContent = '数据加载中';
+  }
+}
+
 // ===== Lightbox 大图预览 =====
 function openLightbox(index) {
   currentIndex = index;
@@ -1298,7 +1089,6 @@ async function loadHistory() {
       return;
     }
 
-    // 倒序展示（最新在前）
     const reversed = [...list].reverse();
 
     tl.innerHTML = reversed.map((item, i) => {
@@ -1315,7 +1105,6 @@ async function loadHistory() {
       `;
     }).join('');
 
-    // 存储历史列表供交互使用
     window._historyList = list;
   } catch (e) {
     tl.innerHTML = '<div class="history-empty">历史记录加载失败</div>';
@@ -1323,7 +1112,6 @@ async function loadHistory() {
 }
 
 async function loadHistoryDay(date, el) {
-  // 高亮选中
   document.querySelectorAll('.history-item').forEach(item => item.classList.remove('active'));
   if (el) el.classList.add('active');
 
@@ -1332,7 +1120,6 @@ async function loadHistoryDay(date, el) {
     if (!res.ok) throw new Error('not found');
     const data = await res.json();
 
-    // 更新商品列表为历史数据
     currentProducts = data.products || [];
     if (currentProducts.length > 0) {
       const listEl = document.getElementById('productList');
@@ -1351,11 +1138,9 @@ async function loadHistoryDay(date, el) {
         </div>
       `).join('');
 
-      // 更新标题标识
       document.querySelector('.products-section h2').innerHTML =
         `📅 ${date} 精选好物 <span style="font-size:13px;color:#8B949E;font-weight:400;">（点击图片查看大图）</span>`;
 
-      // 滚动到商品区
       document.querySelector('.products-section').scrollIntoView({ behavior: 'smooth' });
     }
   } catch (e) {
@@ -1374,9 +1159,11 @@ function handleWechat() {
 
 // ===== 启动 =====
 loadData();
+loadVsData();
 loadHistory();
 // 每5分钟刷新一次
 setInterval(loadData, 5 * 60 * 1000);
+setInterval(loadVsData, 5 * 60 * 1000);
 </script>
 
 </body>
