@@ -561,6 +561,159 @@
     width: fit-content;
   }
 
+  /* ===== 商品对比区 ===== */
+  .vs-section {
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    padding: 0 24px;
+  }
+  .vs-section h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .vs-section .subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #8B949E;
+    margin-bottom: 28px;
+  }
+  .vs-pairs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .vs-pair {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 0;
+    align-items: stretch;
+    min-height: 180px;
+  }
+  .vs-card {
+    background: rgba(22,27,34,0.8);
+    border: 1px solid rgba(48,54,61,0.8);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    gap: 16px;
+    transition: border-color 0.3s, transform 0.2s;
+  }
+  .vs-card:hover {
+    transform: translateY(-2px);
+  }
+  .vs-card.left {
+    border-color: rgba(88,166,255,0.3);
+  }
+  .vs-card.left:hover {
+    border-color: rgba(88,166,255,0.6);
+  }
+  .vs-card.right {
+    border-color: rgba(255,106,0,0.3);
+  }
+  .vs-card.right:hover {
+    border-color: rgba(255,106,0,0.6);
+  }
+  .vs-card .vs-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: #0D1117;
+  }
+  .vs-card .vs-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+  }
+  .vs-card .vs-source {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 8px;
+    width: fit-content;
+    font-weight: 500;
+  }
+  .vs-card.left .vs-source {
+    background: rgba(88,166,255,0.12);
+    color: #58A6FF;
+    border: 1px solid rgba(88,166,255,0.2);
+  }
+  .vs-card.right .vs-source {
+    background: rgba(255,106,0,0.12);
+    color: #FF8C33;
+    border: 1px solid rgba(255,106,0,0.2);
+  }
+  .vs-card .vs-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #E6EDF3;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .vs-card .vs-cat {
+    font-size: 11px;
+    color: #8B949E;
+  }
+  .vs-card .vs-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: auto;
+  }
+  .vs-card .vs-tags span {
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 6px;
+  }
+  .vs-card.left .vs-tags span {
+    background: rgba(88,166,255,0.08);
+    color: #79C0FF;
+    border: 1px solid rgba(88,166,255,0.12);
+  }
+  .vs-card.right .vs-tags span {
+    background: rgba(255,106,0,0.08);
+    color: #FF8C33;
+    border: 1px solid rgba(255,106,0,0.12);
+  }
+  .vs-divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    min-width: 48px;
+  }
+  .vs-badge {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #58A6FF, #FF6A00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    box-shadow: 0 0 16px rgba(88,166,255,0.2), 0 0 16px rgba(255,106,0,0.2);
+  }
+  .vs-line {
+    flex: 1;
+    width: 2px;
+    background: linear-gradient(to bottom, rgba(88,166,255,0.4), rgba(255,106,0,0.4));
+    margin: 4px 0;
+    border-radius: 1px;
+  }
+
   /* ===== 对比区 ===== */
   .compare-section {
     max-width: 900px;
@@ -696,6 +849,10 @@
     .lightbox-next { right: 8px; }
     .product-list { grid-template-columns: 1fr; }
     .product-item .name { font-size: 14px; }
+    .vs-pair { grid-template-columns: 1fr; gap: 0; }
+    .vs-divider { flex-direction: row; padding: 8px 0; min-width: auto; }
+    .vs-line { height: 2px; width: auto; flex: 1; background: linear-gradient(to right, rgba(88,166,255,0.4), rgba(255,106,0,0.4)); margin: 0 4px; }
+    .vs-card .vs-img { width: 72px; height: 72px; }
   }
 </style>
 </head>
@@ -707,6 +864,7 @@
   <div class="nav-links">
     <a href="#live">实时数据</a>
     <a href="#alibaba">热门商品</a>
+    <a href="#vs">商品对比</a>
     <a href="#process">工作原理</a>
     <a href="#history">历史记录</a>
     <a href="#cta">立即获取</a>
@@ -816,6 +974,150 @@
         <div class="card-price">¥27.9 <span class="orig">¥43.9</span></div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- 好物推荐 vs 阿里巴巴 商品对比 -->
+<section class="vs-section" id="vs">
+  <h2>⚔️ AI选品 vs 平台热销</h2>
+  <p class="subtitle">5组品类配对 · 智能推荐与传统爆款全方位对比</p>
+  <div class="vs-pairs">
+
+    <!-- 第1组：音频/智能 -->
+    <div class="vs-pair">
+      <div class="vs-card left">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_1_1780125891465_1.jpg" alt="AI智能音箱" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🤖 AI 选品推荐</span>
+          <div class="vs-name">灵语·AI全屋智能控制音箱 Max</div>
+          <div class="vs-cat">🔊 智能家居 · HiFi音质 · 全屋联动</div>
+          <div class="vs-tags"><span>智能控制</span><span>20H续航</span><span>隐私安全</span></div>
+        </div>
+      </div>
+      <div class="vs-divider">
+        <div class="vs-line"></div>
+        <div class="vs-badge">VS</div>
+        <div class="vs-line"></div>
+      </div>
+      <div class="vs-card right">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/earbuds_001.jpg" alt="蓝牙耳机" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🔥 淘宝/天猫热销</span>
+          <div class="vs-name">TAGRY 蓝牙耳机 无线降噪</div>
+          <div class="vs-cat">🎧 消费电子 · 月销4万+ · ¥259</div>
+          <div class="vs-tags"><span>月销40718</span><span>★4.4</span><span>无线降噪</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第2组：厨房小家电 -->
+    <div class="vs-pair">
+      <div class="vs-card left">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_3_1780125892520_1.jpg" alt="冷萃咖啡壶" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🤖 AI 选品推荐</span>
+          <div class="vs-name">冷萃时光·高硼硅玻璃冷萃咖啡壶 1.2L</div>
+          <div class="vs-cat">☕ 夏日饮品 · 零塑料接触 · 14天保鲜</div>
+          <div class="vs-tags"><span>双层过滤</span><span>1.2L大容量</span><span>高硼硅玻璃</span></div>
+        </div>
+      </div>
+      <div class="vs-divider">
+        <div class="vs-line"></div>
+        <div class="vs-badge">VS</div>
+        <div class="vs-line"></div>
+      </div>
+      <div class="vs-card right">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/blender_001.jpg" alt="便携搅拌机" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🔥 淘宝/天猫热销</span>
+          <div class="vs-name">便携式电动搅拌机 USB充电</div>
+          <div class="vs-cat">🥤 厨房小家电 · 月销4千+ · ¥122</div>
+          <div class="vs-tags"><span>月销4691</span><span>★4.9</span><span>USB充电</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第3组：个人护理 -->
+    <div class="vs-pair">
+      <div class="vs-card left">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_4_1780125891816_1.jpg" alt="美容仪" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🤖 AI 选品推荐</span>
+          <div class="vs-name">颜究·家用六极射频提拉美容仪 Pro</div>
+          <div class="vs-cat">💄 美容仪器 · 三重技术 · 分区模式</div>
+          <div class="vs-tags"><span>智能控温</span><span>敏感肌可用</span><span>礼盒装</span></div>
+        </div>
+      </div>
+      <div class="vs-divider">
+        <div class="vs-line"></div>
+        <div class="vs-badge">VS</div>
+        <div class="vs-line"></div>
+      </div>
+      <div class="vs-card right">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/toothbrush_001.jpg" alt="电动牙刷" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🔥 淘宝/天猫热销</span>
+          <div class="vs-name">智能声波电动牙刷 多模式</div>
+          <div class="vs-cat">🪥 个护产品 · 满分好评 · ¥429</div>
+          <div class="vs-tags"><span>满分好评</span><span>★5.0</span><span>多模式</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第4组：居家生活 -->
+    <div class="vs-pair">
+      <div class="vs-card left">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_2_1780125890408_1.jpg" alt="露营桌椅" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🤖 AI 选品推荐</span>
+          <div class="vs-name">野趣·超轻铝合金露营折叠桌椅套装</div>
+          <div class="vs-cat">🏕️ 户外露营 · 超轻2.1kg · 30秒展收</div>
+          <div class="vs-tags"><span>全地形适配</span><span>人体工学</span><span>超轻2.1kg</span></div>
+        </div>
+      </div>
+      <div class="vs-divider">
+        <div class="vs-line"></div>
+        <div class="vs-badge">VS</div>
+        <div class="vs-line"></div>
+      </div>
+      <div class="vs-card right">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/toothpaste_001.jpg" alt="冷酸灵牙膏" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🔥 淘宝/天猫热销</span>
+          <div class="vs-name">冷酸灵牙膏家庭组合套装 7件</div>
+          <div class="vs-cat">🦷 居家日用 · -36%折扣 · ¥27.9</div>
+          <div class="vs-tags"><span>折扣-36%</span><span>家庭必备</span><span>7件套</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第5组：生活方式/治愈 -->
+    <div class="vs-pair">
+      <div class="vs-card left">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/product_card_5_1780125890587_1.jpg" alt="生态缸" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🤖 AI 选品推荐</span>
+          <div class="vs-name">绿境·手工多肉组合玻璃生态缸</div>
+          <div class="vs-cat">🌱 绿植疗愈 · 超低维护 · 手工玻璃</div>
+          <div class="vs-tags"><span>治愈系</span><span>办公室好物</span><span>伴手礼</span></div>
+        </div>
+      </div>
+      <div class="vs-divider">
+        <div class="vs-line"></div>
+        <div class="vs-badge">VS</div>
+        <div class="vs-line"></div>
+      </div>
+      <div class="vs-card right">
+        <img class="vs-img" src="https://cloudimgs.231203.xyz/api/images/birdnest_001.jpg" alt="燕窝粥" loading="lazy">
+        <div class="vs-info">
+          <span class="vs-source">🔥 淘宝/天猫热销</span>
+          <div class="vs-name">盏如初 早餐营养燕窝粥 端午限定</div>
+          <div class="vs-cat">🍲 食品滋补 · -83%折扣 · ¥39.9</div>
+          <div class="vs-tags"><span>折扣-83%</span><span>端午限定</span><span>热销爆款</span></div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
