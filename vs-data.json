@@ -1,110 +1,111 @@
 {
-  "updateTime": "2026-05-30 15:30",
+  "updateTime": "2026-05-30 16:50",
+  "dataSource": "天猫/1688/亚马逊实测数据 · 2026年5月",
   "hotProducts": [
     {
-      "name": "TAGRY 蓝牙耳机 无线降噪",
+      "name": "TAGRY X08 无线蓝牙耳机",
       "category": "🎧 消费电子",
       "image": "https://cloudimgs.231203.xyz/api/images/earbuds_001.jpg",
-      "price": "¥259",
-      "originalPrice": "",
-      "sales": "月销 40,718",
+      "price": "$25.97",
+      "originalPrice": "$35.99",
+      "sales": "亚马逊耳机榜第9 · 79168条评论",
       "rating": "★ 4.4",
-      "tag": "月销 40,718"
+      "tag": "Amazon's Choice"
     },
     {
-      "name": "便携式电动搅拌机 USB充电",
+      "name": "便携式迷你榨汁杯 USB充电",
       "category": "🥤 厨房小家电",
       "image": "https://cloudimgs.231203.xyz/api/images/blender_001.jpg",
-      "price": "¥122",
+      "price": "¥39-89",
       "originalPrice": "",
-      "sales": "月销 4,691",
-      "rating": "★ 4.9",
-      "tag": "月销 4,691"
+      "sales": "1688 16016个厂家在售",
+      "rating": "",
+      "tag": "39~200元区间热销"
     },
     {
-      "name": "智能声波电动牙刷 多模式",
+      "name": "飞利浦/素士 声波电动牙刷",
       "category": "🪥 个护产品",
       "image": "https://cloudimgs.231203.xyz/api/images/toothbrush_001.jpg",
-      "price": "¥429",
+      "price": "¥149-499",
       "originalPrice": "",
-      "sales": "满分好评",
-      "rating": "★ 5.0",
-      "tag": "满分好评"
+      "sales": "品类月销10万+",
+      "rating": "",
+      "tag": "品类均价¥200"
     },
     {
-      "name": "盏如初 早餐营养燕窝粥 端午限定",
+      "name": "盏如初 即食燕窝粥 8碗装",
       "category": "🍲 食品滋补",
       "image": "https://cloudimgs.231203.xyz/api/images/birdnest_001.jpg",
       "price": "¥39.9",
-      "originalPrice": "¥239.9",
-      "sales": "热销爆款",
+      "originalPrice": "¥239.2",
+      "sales": "天猫旗舰店热销",
       "rating": "",
-      "tag": "折扣 -83%"
+      "tag": "满减后¥39.9/8碗"
     },
     {
-      "name": "冷酸灵牙膏家庭组合套装 7件",
+      "name": "冷酸灵牙膏泵式套装 10件",
       "category": "🦷 居家日用",
       "image": "https://cloudimgs.231203.xyz/api/images/toothpaste_001.jpg",
-      "price": "¥27.9",
-      "originalPrice": "¥43.9",
-      "sales": "家庭必备",
+      "price": "¥25.5",
+      "originalPrice": "",
+      "sales": "天猫官方旗舰店",
       "rating": "",
-      "tag": "折扣 -36%"
+      "tag": "10件套含5支牙膏"
     }
   ],
   "comparisons": [
     {
       "searchQuery": "智能音箱",
       "searchResult": {
-        "name": "天猫精灵X6 / 小度Mate Pro",
+        "name": "天猫精灵X6 · 小度Mate Pro",
         "image": "https://cloudimgs.231203.xyz/api/images/speaker_001.jpg",
-        "category": "🔊 均价 ¥249-299 · 行业均价 ¥280",
-        "tags": ["¥299 天猫精灵X6", "¥249 小度Mate Pro", "市场萎缩-25%"]
+        "category": "🔊 天猫精灵X6 原价¥439→¥274 · 小度Mate Pro 原价¥349→¥280",
+        "tags": ["天猫精灵X6 ¥274", "小度Mate Pro ¥280", "京东/天猫活动价"]
       },
       "hotProduct": {
-        "name": "TAGRY 蓝牙耳机 无线降噪",
+        "name": "TAGRY X08 无线蓝牙耳机",
         "image": "https://cloudimgs.231203.xyz/api/images/earbuds_001.jpg",
         "category": "🎧 消费电子",
-        "price": "¥259",
-        "sales": "月销 40,718",
+        "price": "$25.97",
+        "sales": "亚马逊耳机榜第9 · 79168条评论",
         "rating": "★ 4.4",
-        "tags": ["月销 40,718", "★ 4.4"]
+        "tags": ["Amazon's Choice", "★4.4 · 7.9万评", "$25.97"]
       }
     },
     {
       "searchQuery": "冷萃咖啡壶",
       "searchResult": {
-        "name": "Koonan日式冷萃壶 / 1688批发款",
+        "name": "Koonan日式冷萃壶 · 1688批发款",
         "image": "https://cloudimgs.231203.xyz/api/images/coldbrew_001.jpg",
-        "category": "☕ ¥21-80 · 月销4462-6963",
-        "tags": ["¥80 Koonan ★4.95", "¥28.5 1688批发", "月销6963"]
+        "category": "☕ Koonan旗舰店 ¥25.4(原¥88) ★4.5 · 1688批发¥21起",
+        "tags": ["Koonan ¥25.4 ★4.5", "1688批发¥21起", "月销13件(天猫)"]
       },
       "hotProduct": {
-        "name": "便携式电动搅拌机 USB充电",
+        "name": "便携式迷你榨汁杯 USB充电",
         "image": "https://cloudimgs.231203.xyz/api/images/blender_001.jpg",
         "category": "🥤 厨房小家电",
-        "price": "¥122",
-        "sales": "月销 4,691",
-        "rating": "★ 4.9",
-        "tags": ["月销 4,691", "★ 4.9"]
+        "price": "¥39-89",
+        "sales": "1688 16016个厂家在售",
+        "rating": "",
+        "tags": ["1688 16016家", "¥39-89", "热销品类"]
       }
     },
     {
       "searchQuery": "射频美容仪",
       "searchResult": {
-        "name": "AMIRO觅光胶原炮S1 / 多效美容仪",
+        "name": "AMIRO觅光 射频仪/胶原炮",
         "image": "https://cloudimgs.231203.xyz/api/images/rfbeauty_001.jpg",
-        "category": "💄 ¥2000-5959 · 已售70+ · ★4.8",
-        "tags": ["¥5959 胶原炮S1", "¥2000+ 多效Turbo", "高圆圆同款"]
+        "category": "💄 射频仪¥3199 · PRO MAX¥3399 · 胶原炮¥4799",
+        "tags": ["射频仪 ¥3199", "胶原炮 ¥4799", "天猫/京东官方价"]
       },
       "hotProduct": {
-        "name": "智能声波电动牙刷 多模式",
+        "name": "飞利浦/素士 声波电动牙刷",
         "image": "https://cloudimgs.231203.xyz/api/images/toothbrush_001.jpg",
         "category": "🪥 个护产品",
-        "price": "¥429",
-        "sales": "满分好评",
-        "rating": "★ 5.0",
-        "tags": ["满分好评", "★ 5.0"]
+        "price": "¥149-499",
+        "sales": "品类月销10万+",
+        "rating": "",
+        "tags": ["品类均价¥200", "月销10万+", "¥149-499"]
       }
     },
     {
@@ -112,35 +113,37 @@
       "searchResult": {
         "name": "铝合金蛋卷桌+月亮椅套装",
         "image": "https://cloudimgs.231203.xyz/api/images/campset_001.jpg",
-        "category": "🏕️ ¥168-399 · 28697个商家在售",
-        "tags": ["月销5000+", "¥168 入门款", "¥399 高配款"]
+        "category": "🏕️ 1688批发¥358/套 · 成交284套 · 淘宝¥99-399",
+        "tags": ["1688 ¥358 成交284套", "淘宝¥99-399", "探险者/STIGER等品牌"]
       },
       "hotProduct": {
-        "name": "盏如初 早餐营养燕窝粥 端午限定",
+        "name": "盏如初 即食燕窝粥 8碗装",
         "image": "https://cloudimgs.231203.xyz/api/images/birdnest_001.jpg",
         "category": "🍲 食品滋补",
         "price": "¥39.9",
-        "originalPrice": "¥239.9",
-        "sales": "热销爆款",
-        "tags": ["折扣 -83%", "热销爆款"]
+        "originalPrice": "¥239.2",
+        "sales": "天猫旗舰店热销",
+        "rating": "",
+        "tags": ["满减后¥39.9", "原价¥239.2", "8碗装"]
       }
     },
     {
       "searchQuery": "多肉玻璃生态缸",
       "searchResult": {
-        "name": "微景观生态缸 / 四方玻璃花瓶",
+        "name": "微景观生态瓶 · 四方玻璃花瓶",
         "image": "https://cloudimgs.231203.xyz/api/images/terrarium_001.jpg",
-        "category": "🌱 ¥28-76 · 月销3693-6122",
-        "tags": ["¥76 微景观 ★4.98", "¥33 四方缸", "月销6122"]
+        "category": "🌱 1688批发¥1.52起 · 月销4169件 · 淘宝¥15-76",
+        "tags": ["1688 ¥1.52起 月销4169", "淘宝¥15-76", "3205个厂家在售"]
       },
       "hotProduct": {
-        "name": "冷酸灵牙膏家庭组合套装 7件",
+        "name": "冷酸灵牙膏泵式套装 10件",
         "image": "https://cloudimgs.231203.xyz/api/images/toothpaste_001.jpg",
         "category": "🦷 居家日用",
-        "price": "¥27.9",
-        "originalPrice": "¥43.9",
-        "sales": "家庭必备",
-        "tags": ["折扣 -36%", "家庭必备"]
+        "price": "¥25.5",
+        "originalPrice": "",
+        "sales": "天猫官方旗舰店",
+        "rating": "",
+        "tags": ["10件套 ¥25.5", "含5支牙膏", "天猫官方旗舰店"]
       }
     }
   ]
