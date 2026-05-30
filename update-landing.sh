@@ -70,15 +70,23 @@ with open('$OUTPUT_DIR/product_card.html', 'r', encoding='utf-8') as f:
     html = f.read()
 
 names = re.findall(r'class=\"product-name[^>]*>\s*([^<]+)', html)
-tags = re.findall(r'class=\"product-tag[^>]*>\s*([^<]+)', html)
-sp_tags_all = re.findall(r'class=\"(?:tag-item|sp-tag)[^>]*>\s*([^<]+)', html)
+cats = re.findall(r'class=\"product-category[^>]*>\s*([^<]+)', html)
+
+# 提取标签：按 tags-wrap 分组，每组对应一个商品
+all_tags_html = re.findall(r'class=\"tags-wrap[^>]*>(.*?)</div>', html, re.DOTALL)
+product_tags = []
+for sec in all_tags_html:
+    tag_items = re.findall(r'class=\"(?:tag|tag-item|tag-pill|sp-tag)[^>]*>\s*([^<]+)', sec)
+    if not tag_items:
+        tag_items = re.findall(r'>([^<]+)</span>', sec)
+    product_tags.append([t.strip() for t in tag_items])
 
 products = []
 for i, name in enumerate(names[:5]):
     p = {
         'name': name.strip(),
-        'category': tags[i].strip() if i < len(tags) else '好物推荐',
-        'tags': sp_tags_all[i*3:(i+1)*3] if sp_tags_all else [],
+        'category': cats[i].strip() if i < len(cats) else '好物推荐',
+        'tags': product_tags[i] if i < len(product_tags) else [],
         'image': ''
     }
     products.append(p)
@@ -89,11 +97,11 @@ print(json.dumps(products, ensure_ascii=False))
   echo "✅ 提取到 ${PCOUNT} 个商品"
 fi
 
-# 方式B: 如果没有 HTML，但已有裁剪图 product_1.jpg ~ product_5.jpg，用默认名称
+# 方式B: 如果没有 HTML，但已有裁剪图 product_1.jpg ~ product_5.jpg 或 product_card_1.jpg ~ product_card_5.jpg
 if [ "$PRODUCTS_JSON" = "[]" ]; then
   HAS_CROPS=true
   for i in 1 2 3 4 5; do
-    if [ ! -f "$OUTPUT_DIR/product_${i}.jpg" ]; then
+    if [ ! -f "$OUTPUT_DIR/product_${i}.jpg" ] && [ ! -f "$OUTPUT_DIR/product_card_${i}.jpg" ]; then
       HAS_CROPS=false
       break
     fi
@@ -108,10 +116,15 @@ fi
 # ===== 步骤2: 裁剪全图（如需） =====
 CROP_DIR="$LANDING_DIR/.crop_tmp"
 
-# 检查是否已有裁剪图
+# 检查是否已有裁剪图（两种命名：product_N.jpg 或 product_card_N.jpg）
 ALREADY_CROPPED=true
+CROP_NAMES=""
 for i in 1 2 3 4 5; do
-  if [ ! -f "$OUTPUT_DIR/product_${i}.jpg" ]; then
+  if [ -f "$OUTPUT_DIR/product_${i}.jpg" ]; then
+    CROP_NAMES="product_${i}.jpg"
+  elif [ -f "$OUTPUT_DIR/product_card_${i}.jpg" ]; then
+    CROP_NAMES="product_card_${i}.jpg"
+  else
     ALREADY_CROPPED=false
     break
   fi
@@ -156,6 +169,14 @@ for i in range(5):
 elif [ "$ALREADY_CROPPED" = true ]; then
   echo "✅ 已有裁剪图，跳过裁剪"
   CROP_SOURCE="$OUTPUT_DIR"
+  # 确定裁剪图的实际命名模式
+  if [ -f "$OUTPUT_DIR/product_1.jpg" ]; then
+    CROP_PATTERN="product_%d.jpg"
+  elif [ -f "$OUTPUT_DIR/product_card_1.jpg" ]; then
+    CROP_PATTERN="product_card_%d.jpg"
+  else
+    CROP_PATTERN="product_%d.jpg"
+  fi
 elif [ -z "$FULL_IMAGE_PATH" ] || [ ! -f "$FULL_IMAGE_PATH" ]; then
   echo "⚠️  未找到全图文件，也没有已有裁剪图"
   CROP_SOURCE=""
@@ -167,8 +188,18 @@ URL_ARRAY="[]"
 
 if [ -n "$CROP_SOURCE" ]; then
   IMAGE_URLS=""
+  # 确定文件名模式
+  if [ -z "$CROP_PATTERN" ]; then
+    if [ -f "$CROP_SOURCE/product_1.jpg" ]; then
+      CROP_PATTERN="product_%d.jpg"
+    elif [ -f "$CROP_SOURCE/product_card_1.jpg" ]; then
+      CROP_PATTERN="product_card_%d.jpg"
+    else
+      CROP_PATTERN="product_%d.jpg"
+    fi
+  fi
   for i in 1 2 3 4 5; do
-    CROP_FILE="$CROP_SOURCE/product_${i}.jpg"
+    CROP_FILE=$(printf "$CROP_SOURCE/$CROP_PATTERN" $i)
     if [ -f "$CROP_FILE" ]; then
       UPLOAD=$(curl -s -m 60 -F "image=@$CROP_FILE" "$CDN_BASE/api/upload" 2>/dev/null || echo "")
       URL=$(echo "$UPLOAD" | $PYTHON -c "
@@ -294,8 +325,8 @@ if [ -d ".git" ]; then
   TOKEN=$(gh auth token 2>/dev/null || echo "")
   if [ -n "$TOKEN" ]; then
     REMOTE_URL=$(git remote get-url origin 2>/dev/null || echo "")
-    if echo "$REMOTEOTE_URL" | grep -q "https://"; then
-      PUSH_URL=$(echo "$REMOTEOTE_URL" | sed "s|https://|https://${TOKEN}@|")
+    if echo "$REMOTE_URL" | grep -q "https://"; then
+      PUSH_URL=$(echo "$REMOTE_URL" | sed "s|https://|https://${TOKEN}@|")
       git push "$PUSH_URL" main 2>&1 || echo "⚠️ 推送失败"
     else
       git push origin main 2>&1 || echo "⚠️ 推送失败"
