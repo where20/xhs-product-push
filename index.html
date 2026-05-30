@@ -462,6 +462,105 @@
     line-height: 1.6;
   }
 
+  /* ===== 阿里巴巴热门商品对比区 ===== */
+  .alibaba-section {
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    padding: 0 24px;
+  }
+  .alibaba-section h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .alibaba-section .subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #8B949E;
+    margin-bottom: 28px;
+  }
+  .alibaba-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 16px;
+  }
+  .alibaba-card {
+    background: rgba(22,27,34,0.8);
+    border: 1px solid rgba(48,54,61,0.8);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.3s, transform 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+  .alibaba-card:hover {
+    border-color: rgba(255,106,0,0.5);
+    transform: translateY(-3px);
+  }
+  .alibaba-card .card-img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+    background: #0D1117;
+  }
+  .alibaba-card .card-body {
+    padding: 12px 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .alibaba-card .card-cat {
+    font-size: 11px;
+    color: #FF6A00;
+    font-weight: 500;
+  }
+  .alibaba-card .card-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #E6EDF3;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .alibaba-card .card-price {
+    font-size: 18px;
+    font-weight: 800;
+    color: #FF6A00;
+    margin-top: auto;
+  }
+  .alibaba-card .card-price .orig {
+    font-size: 12px;
+    color: #484F58;
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 6px;
+  }
+  .alibaba-card .card-stats {
+    display: flex;
+    gap: 8px;
+    font-size: 11px;
+    color: #8B949E;
+    margin-top: 4px;
+  }
+  .alibaba-card .card-stats .star {
+    color: #E3B341;
+  }
+  .alibaba-card .card-tag {
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 8px;
+    background: rgba(255,106,0,0.1);
+    color: #FF8C33;
+    border: 1px solid rgba(255,106,0,0.15);
+    width: fit-content;
+  }
+
   /* ===== 对比区 ===== */
   .compare-section {
     max-width: 900px;
@@ -607,6 +706,7 @@
   <div class="nav-brand">AI选品推送</div>
   <div class="nav-links">
     <a href="#live">实时数据</a>
+    <a href="#alibaba">热门商品</a>
     <a href="#process">工作原理</a>
     <a href="#history">历史记录</a>
     <a href="#cta">立即获取</a>
@@ -660,6 +760,64 @@
   <button class="lightbox-nav lightbox-next" onclick="navigateLightbox(1)">▶</button>
   <div class="lightbox-title" id="lightboxTitle"></div>
 </div>
+
+<!-- 阿里巴巴热门商品对比 -->
+<section class="alibaba-section" id="alibaba">
+  <h2>🔥 阿里巴巴热门商品</h2>
+  <p class="subtitle">数据来源：淘宝/天猫实时热销榜 · 2026年5月</p>
+  <div class="alibaba-grid">
+    <div class="alibaba-card">
+      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/earbuds_001.jpg" alt="TAGRY蓝牙耳机" loading="lazy">
+      <div class="card-body">
+        <div class="card-cat">🎧 消费电子</div>
+        <div class="card-name">TAGRY 蓝牙耳机 无线降噪</div>
+        <div class="card-tag">月销 40,718</div>
+        <div class="card-stats"><span class="star">★ 4.4</span><span>评分</span></div>
+        <div class="card-price">¥259</div>
+      </div>
+    </div>
+    <div class="alibaba-card">
+      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/blender_001.jpg" alt="便携式搅拌机" loading="lazy">
+      <div class="card-body">
+        <div class="card-cat">🥤 厨房小家电</div>
+        <div class="card-name">便携式电动搅拌机 USB充电</div>
+        <div class="card-tag">月销 4,691</div>
+        <div class="card-stats"><span class="star">★ 4.9</span><span>评分</span></div>
+        <div class="card-price">¥122</div>
+      </div>
+    </div>
+    <div class="alibaba-card">
+      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/toothbrush_001.jpg" alt="电动牙刷" loading="lazy">
+      <div class="card-body">
+        <div class="card-cat">🪥 个护产品</div>
+        <div class="card-name">智能声波电动牙刷 多模式</div>
+        <div class="card-tag">满分好评</div>
+        <div class="card-stats"><span class="star">★ 5.0</span><span>评分</span></div>
+        <div class="card-price">¥429</div>
+      </div>
+    </div>
+    <div class="alibaba-card">
+      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/birdnest_001.jpg" alt="燕窝粥" loading="lazy">
+      <div class="card-body">
+        <div class="card-cat">🍲 食品滋补</div>
+        <div class="card-name">盏如初 早餐营养燕窝粥 端午限定</div>
+        <div class="card-tag">折扣 -83%</div>
+        <div class="card-stats"><span>热销爆款</span></div>
+        <div class="card-price">¥39.9 <span class="orig">¥239.9</span></div>
+      </div>
+    </div>
+    <div class="alibaba-card">
+      <img class="card-img" src="https://cloudimgs.231203.xyz/api/images/toothpaste_001.jpg" alt="冷酸灵牙膏套装" loading="lazy">
+      <div class="card-body">
+        <div class="card-cat">🦷 居家日用</div>
+        <div class="card-name">冷酸灵牙膏家庭组合套装 7件</div>
+        <div class="card-tag">折扣 -36%</div>
+        <div class="card-stats"><span>家庭必备</span></div>
+        <div class="card-price">¥27.9 <span class="orig">¥43.9</span></div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- 过程区 -->
 <section class="process-section" id="process">
