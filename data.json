@@ -3,36 +3,36 @@
   "totalProducts": 25,
   "lastRunDate": "2026-05-31",
   "status": "运行中",
-  "updateTime": "2026-05-31 11:34",
+  "updateTime": "2026-05-31 15:35",
   "products": [
     {
-      "name": "精选好物1",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "云遮·冰感UPF50+超轻防晒衣",
+      "category": "防晒服饰",
+      "tags": ["UPF50+", "轻薄透气", "冰感面料"],
       "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780198477233_1.jpg"
     },
     {
-      "name": "精选好物2",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "绡梦·冰丝凉感睡衣套装",
+      "category": "居家睡衣",
+      "tags": ["莫代尔冰丝", "凉爽透气", "丝滑舒适"],
       "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780198481523_1.jpg"
     },
     {
-      "name": "精选好物3",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "浪响·IPX7全防水户外蓝牙音箱",
+      "category": "蓝牙音箱",
+      "tags": ["IPX7防水", "360°环绕", "12H续航"],
       "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780198485799_1.jpg"
     },
     {
-      "name": "精选好物4",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "燃心·手工香薰蜡烛DIY套装",
+      "category": "手工DIY",
+      "tags": ["大豆蜡", "精油调香", "解压疗愈"],
       "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780198490394_1.jpg"
     },
     {
-      "name": "精选好物5",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "松筋·AI智能颈肩热敷按摩仪",
+      "category": "健康电器",
+      "tags": ["AI控温", "热敷放松", "TENS脉冲"],
       "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780198494152_1.jpg"
     }
   ],
