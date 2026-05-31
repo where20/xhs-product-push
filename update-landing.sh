@@ -97,7 +97,45 @@ print(json.dumps(products, ensure_ascii=False))
   echo "✅ 提取到 ${PCOUNT} 个商品"
 fi
 
-# 方式B: 如果没有 HTML，但已有裁剪图 product_1.jpg ~ product_5.jpg 或 product_card_1.jpg ~ product_card_5.jpg
+# 方式B: 从 gen_card.py 解析商品名称（自动化每次运行都会生成此文件）
+if [ "$PRODUCTS_JSON" = "[]" ] && [ -f "$OUTPUT_DIR/gen_card.py" ]; then
+  echo "🔍 从 gen_card.py 解析商品数据..."
+  PRODUCTS_JSON=$($PYTHON -c "
+import re, json
+
+with open('$OUTPUT_DIR/gen_card.py', 'r', encoding='utf-8') as f:
+    content = f.read()
+
+names = re.findall(r'\"name\":\s*\"([^\"]+)\"', content)
+subtitles = re.findall(r'\"subtitle\":\s*\"([^\"]+)\"', content)
+
+products = []
+for i, name in enumerate(names[:5]):
+    sub = subtitles[i] if i < len(subtitles) else ''
+    # 从 subtitle 提取标签
+    tags = [t.strip() for t in sub.split('·') if t.strip()] if sub else []
+    if not tags:
+        tags = [t.strip() for t in sub.split() if len(t.strip()) > 1] if sub else []
+    # 提取分类（subtitle第一个词或默认）
+    cat = tags[0] if tags else '好物推荐'
+    products.append({
+        'name': name.strip(),
+        'category': cat,
+        'tags': tags[:5] if tags else [],
+        'image': ''
+    })
+
+print(json.dumps(products, ensure_ascii=False))
+" 2>/dev/null || echo '[]')
+  PCOUNT=$(echo "$PRODUCTS_JSON" | $PYTHON -c "import sys,json; d=json.load(sys.stdin); print(len(d))" 2>/dev/null || echo "0")
+  if [ "$PCOUNT" -gt 0 ]; then
+    echo "✅ 从 gen_card.py 提取到 ${PCOUNT} 个商品"
+  else
+    PRODUCTS_JSON="[]"
+  fi
+fi
+
+# 方式C: 兜底 - 使用默认商品名
 if [ "$PRODUCTS_JSON" = "[]" ]; then
   HAS_CROPS=true
   for i in 1 2 3 4 5; do
@@ -108,7 +146,7 @@ if [ "$PRODUCTS_JSON" = "[]" ]; then
   done
 
   if [ "$HAS_CROPS" = true ]; then
-    echo "📋 未找到 HTML，使用已有裁剪图 + 默认商品名"
+    echo "📋 未找到商品信息来源，使用默认商品名"
     PRODUCTS_JSON='[{"name":"精选好物1","category":"好物推荐","tags":[],"image":""},{"name":"精选好物2","category":"好物推荐","tags":[],"image":""},{"name":"精选好物3","category":"好物推荐","tags":[],"image":""},{"name":"精选好物4","category":"好物推荐","tags":[],"image":""},{"name":"精选好物5","category":"好物推荐","tags":[],"image":""}]'
   fi
 fi
@@ -321,18 +359,21 @@ if [ -d ".git" ]; then
   git add data.json vs-data.json history/
   git commit -m "数据更新 $TODAY (第${NEW_TOTAL}次)" 2>/dev/null || echo "⚠️ 无变更，跳过提交"
 
-  # 用 gh auth token 做 push（避免 502）
+  # 用 gh auth token 做 push（避免 502），nohup 避免被 sandbox kill
   TOKEN=$(gh auth token 2>/dev/null || echo "")
   if [ -n "$TOKEN" ]; then
     REMOTE_URL=$(git remote get-url origin 2>/dev/null || echo "")
     if echo "$REMOTE_URL" | grep -q "https://"; then
       PUSH_URL=$(echo "$REMOTE_URL" | sed "s|https://|https://${TOKEN}@|")
-      git push "$PUSH_URL" main 2>&1 || echo "⚠️ 推送失败"
+      nohup git push "$PUSH_URL" main > /tmp/landing-push.log 2>&1 &
+      echo "🔄 推送中（后台）..."
     else
-      git push origin main 2>&1 || echo "⚠️ 推送失败"
+      nohup git push origin main > /tmp/landing-push.log 2>&1 &
+      echo "🔄 推送中（后台）..."
     fi
   else
-    git push origin main 2>&1 || echo "⚠️ 推送失败，请手动: cd $LANDING_DIR && git push origin main"
+    nohup git push origin main > /tmp/landing-push.log 2>&1 &
+    echo "🔄 推送中（后台）..."
   fi
   echo "✅ 已推送，落地页约1分钟后更新"
   echo "🌐 https://where20.github.io/xhs-product-push/"
