@@ -472,53 +472,109 @@
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
   .hot-section .subtitle {
     text-align: center;
     font-size: 13px;
     color: #8B949E;
     margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  /* Live indicator */
+  .live-dot {
+    width: 8px; height: 8px;
+    background: #3FB950;
+    border-radius: 50%;
+    display: inline-block;
+    animation: livePulse 2s ease-in-out infinite;
+  }
+  .live-dot::after {
+    content: '';
+    position: absolute;
+    width: 8px; height: 8px;
+    background: #3FB950;
+    border-radius: 50%;
+    animation: liveRing 2s ease-in-out infinite;
+  }
+  @keyframes livePulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+  @keyframes liveRing {
+    0% { transform: scale(1); opacity: 0.6; }
+    100% { transform: scale(2.5); opacity: 0; }
+  }
+  .update-time {
+    font-size: 12px;
+    color: #3FB950;
+    font-variant-numeric: tabular-nums;
   }
   .hot-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     gap: 16px;
   }
   .hot-card {
     background: rgba(22,27,34,0.8);
     border: 1px solid rgba(48,54,61,0.8);
-    border-radius: 12px;
-    padding: 18px 20px;
+    border-radius: 14px;
+    overflow: hidden;
     display: flex;
-    gap: 16px;
-    align-items: center;
-    transition: border-color 0.3s, transform 0.2s;
+    transition: border-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    cursor: pointer;
   }
   .hot-card:hover {
     border-color: rgba(88,166,255,0.4);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
   }
-  .hot-rank {
+  .hot-card-img {
+    width: 110px;
+    height: 110px;
     flex-shrink: 0;
-    width: 36px; height: 36px;
-    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background: rgba(48,54,61,0.5);
+  }
+  .hot-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  .hot-card:hover .hot-card-img img {
+    transform: scale(1.05);
+  }
+  .hot-card-img .hot-rank {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 26px; height: 26px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 800;
-    font-size: 16px;
-    color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    z-index: 2;
   }
-  .hot-rank.r1 { background: linear-gradient(135deg, #FF6A00, #FF2D55); }
-  .hot-rank.r2 { background: linear-gradient(135deg, #FF8C33, #FF6A00); }
-  .hot-rank.r3 { background: linear-gradient(135deg, #FFB366, #FF8C33); }
-  .hot-rank.r4, .hot-rank.r5 { background: rgba(48,54,61,0.8); color: #8B949E; }
-  .hot-info {
+  .hot-card-body {
     flex: 1;
     min-width: 0;
+    padding: 14px 16px;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    justify-content: center;
+    gap: 6px;
   }
   .hot-name {
     font-size: 14px;
@@ -531,16 +587,24 @@
   .hot-meta {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     font-size: 12px;
     color: #8B949E;
+    flex-wrap: wrap;
+  }
+  .hot-meta .sep {
+    color: rgba(48,54,61,0.8);
+  }
+  .hot-bottom {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
   }
   .hot-price {
     color: #FF6A00;
     font-weight: 700;
-    font-size: 15px;
-    margin-left: auto;
-    flex-shrink: 0;
+    font-size: 16px;
   }
   .hot-tag {
     font-size: 10px;
@@ -550,6 +614,19 @@
     color: #FF8C33;
     border: 1px solid rgba(255,106,0,0.15);
     white-space: nowrap;
+  }
+  .hot-tags {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  /* Refresh animation */
+  .hot-card.refreshing {
+    animation: cardRefresh 0.5s ease;
+  }
+  @keyframes cardRefresh {
+    0% { opacity: 0.5; transform: translateY(8px); }
+    100% { opacity: 1; transform: translateY(0); }
   }
 
   /* ===== 商品对比区（动态渲染） ===== */
@@ -926,7 +1003,12 @@
 <!-- 平台热门商品（动态渲染） -->
 <section class="hot-section" id="hot">
   <h2>🔥 平台热销榜</h2>
-  <p class="subtitle" id="hotSubtitle">数据动态加载中...</p>
+  <p class="subtitle">
+    <span class="live-dot" style="position:relative"></span>
+    <span>数据实时同步</span>
+    <span class="sep">·</span>
+    <span class="update-time" id="hotUpdateTime">加载中...</span>
+  </p>
   <div class="hot-grid" id="hotGrid">
     <div class="no-data">加载中...</div>
   </div>
@@ -1061,9 +1143,22 @@ async function loadData() {
 }
 
 // ===== 从 vs-data.json 加载热门商品 =====
+let lastHotUpdate = 0;
+
+function relativeTime(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr.replace(' ', 'T'));
+  const now = new Date();
+  const diff = Math.floor((now - d) / 1000);
+  if (diff < 60) return '刚刚更新';
+  if (diff < 3600) return Math.floor(diff / 60) + '分钟前更新';
+  if (diff < 86400) return Math.floor(diff / 3600) + '小时前更新';
+  return Math.floor(diff / 86400) + '天前更新';
+}
+
 async function loadHotProducts() {
   const container = document.getElementById('hotGrid');
-  const subtitleEl = document.getElementById('hotSubtitle');
+  const updateTimeEl = document.getElementById('hotUpdateTime');
   try {
     const res = await fetch('./vs-data.json?t=' + Date.now());
     if (!res.ok) throw new Error('no vs data');
@@ -1075,36 +1170,61 @@ async function loadHotProducts() {
 
     if (hotProducts.length === 0) {
       container.innerHTML = '<div class="no-data">暂无热门商品数据</div>';
-      subtitleEl.textContent = '等待数据加载';
+      updateTimeEl.textContent = '等待数据加载';
       return;
     }
 
-    subtitleEl.textContent = `${hotProducts.length}款热销商品 · ${dataSource}`;
+    // Update relative time
+    updateTimeEl.textContent = relativeTime(updateTime);
+    lastHotUpdate = Date.now();
 
     container.innerHTML = hotProducts.map((p, i) => {
-      const rankClass = i < 3 ? `r${i + 1}` : `r${i + 1}`;
+      const rankClass = `r${i + 1}`;
+      const hasImage = p.image && p.image.trim() !== '';
+      const imgHtml = hasImage
+        ? `<div class="hot-card-img"><img src="${p.image}" alt="${p.name || ''}" loading="lazy" /><div class="hot-rank ${rankClass}">${i + 1}</div></div>`
+        : `<div class="hot-card-img"><div class="hot-rank ${rankClass}" style="position:static;width:100%;height:100%;border-radius:0;font-size:32px">${i + 1}</div></div>`;
+
       return `
-        <div class="hot-card">
-          <div class="hot-rank ${rankClass}">${i + 1}</div>
-          <div class="hot-info">
+        <div class="hot-card refreshing">
+          ${imgHtml}
+          <div class="hot-card-body">
             <div class="hot-name" title="${p.name || ''}">${p.name || '未知商品'}</div>
             <div class="hot-meta">
               <span>${p.category || ''}</span>
+              <span class="sep">·</span>
               <span>${p.sales || ''}</span>
-              ${p.rating ? `<span>${p.rating}</span>` : ''}
+              ${p.rating ? `<span class="sep">·</span><span style="color:#FFB800">${p.rating}</span>` : ''}
             </div>
-            ${p.tag ? `<span class="hot-tag">${p.tag}</span>` : ''}
+            <div class="hot-bottom">
+              <div class="hot-tags">
+                ${p.tag ? `<span class="hot-tag">${p.tag}</span>` : ''}
+                <span class="hot-tag" style="background:rgba(56,139,253,0.1);color:#58A6FF;border-color:rgba(56,139,253,0.15)">${dataSource.split('·')[0] || '多平台'}</span>
+              </div>
+              ${p.price ? `<div class="hot-price">${p.price}</div>` : ''}
+            </div>
           </div>
-          ${p.price ? `<div class="hot-price">${p.price}</div>` : ''}
         </div>
       `;
     }).join('');
 
   } catch (e) {
     container.innerHTML = '<div class="no-data">热门商品数据加载失败</div>';
-    subtitleEl.textContent = '数据加载中';
+    updateTimeEl.textContent = '数据加载中';
   }
 }
+
+// Update relative time every 30s
+setInterval(() => {
+  const el = document.getElementById('hotUpdateTime');
+  if (el && lastHotUpdate) {
+    // Re-read the time from the data
+    fetch('./vs-data.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(d => { if (d.updateTime) el.textContent = relativeTime(d.updateTime); })
+      .catch(() => {});
+  }
+}, 30000);
 
 // ===== 从 vs-data.json 加载对比数据（动态渲染） =====
 async function loadVsData() {
@@ -1311,7 +1431,7 @@ loadVsData();
 loadHistory();
 // 每5分钟刷新一次
 setInterval(loadData, 5 * 60 * 1000);
-setInterval(loadHotProducts, 5 * 60 * 1000);
+setInterval(loadHotProducts, 60 * 1000);
 setInterval(loadVsData, 5 * 60 * 1000);
 </script>
 
