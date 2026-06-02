@@ -1,56 +1,108 @@
 {
-  "updateTime": "2026-06-02 10:20",
-  "dataSource": "天猫/淘宝/1688/买购网实测数据 · 2026年6月2日",
+  "updateTime": "2026-06-02 11:05",
+  "dataSource": "天猫/淘宝/1688/拼多多/买购网实测数据 · 2026年6月2日",
   "hotProducts": [
     {
-      "name": "润本驱蚊喷雾110ml",
+      "name": "TAGRY 主动降噪蓝牙耳机",
+      "category": "📱 数码音频",
+      "image": "",
+      "price": "¥280-350",
+      "originalPrice": "",
+      "sales": "拼多多月销69,499件",
+      "rating": "★ 4.5",
+      "tag": "拼多多热销TOP1"
+    },
+    {
+      "name": "Anker 磁吸充电宝 5000mAh",
+      "category": "🔋 充电配件",
+      "image": "",
+      "price": "¥400-500",
+      "originalPrice": "",
+      "sales": "拼多多月销30,783件",
+      "rating": "★ 4.6",
+      "tag": "MagSafe兼容"
+    },
+    {
+      "name": "bmani 无线降噪耳机 80H续航",
+      "category": "📱 数码音频",
+      "image": "",
+      "price": "¥200-250",
+      "originalPrice": "",
+      "sales": "拼多多月销22,469件",
+      "rating": "★ 4.4",
+      "tag": "LED显示续航"
+    },
+    {
+      "name": "电解质粉包（运动能量补给）",
+      "category": "🥤 健康保健",
+      "image": "",
+      "price": "¥1.4-3.3/包",
+      "originalPrice": "",
+      "sales": "阿里巴巴B2B销432,986件",
+      "rating": "★ 4.3",
+      "tag": "1688走量王"
+    },
+    {
+      "name": "快速美白精华 ODM定制",
+      "category": "💄 美容护肤",
+      "image": "",
+      "price": "¥2.2/件起",
+      "originalPrice": "",
+      "sales": "阿里巴巴B2B销5,346件",
+      "rating": "★ 4.5",
+      "tag": "高复购率"
+    }
+  ],
+  "selectedProducts": [
+    {
+      "name": "植感·植物精油超声波驱蚊器",
       "category": "🌿 驱蚊用品",
       "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780366840271_1.jpg",
-      "price": "¥12.9",
-      "originalPrice": "¥19.9",
-      "sales": "淘宝TOP榜·近2小时600件",
-      "rating": "★ 4.6",
-      "tag": "淘宝热销TOP7"
+      "price": "",
+      "originalPrice": "",
+      "sales": "",
+      "rating": "",
+      "tag": "今日选品"
     },
     {
-      "name": "水星家纺 莱赛尔天丝夏凉被",
+      "name": "凉云·A类凉感天丝夏凉被",
       "category": "🛏️ 夏凉被",
       "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780366846550_1.jpg",
-      "price": "¥200以内",
+      "price": "",
       "originalPrice": "",
-      "sales": "知乎618推荐·A类母婴",
-      "rating": "★ 4.7",
-      "tag": "618推荐款"
+      "sales": "",
+      "rating": "",
+      "tag": "今日选品"
     },
     {
-      "name": "九阳 LJ320 无线便携榨汁杯",
+      "name": "鲜萃·便携式无线榨汁杯 Pro",
       "category": "🥤 便携榨汁杯",
       "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780366851334_1.jpg",
-      "price": "¥65.5",
+      "price": "",
       "originalPrice": "",
-      "sales": "买购网2026热门榜·国补款",
-      "rating": "★ 4.8",
-      "tag": "百元以下首选"
+      "sales": "",
+      "rating": "",
+      "tag": "今日选品"
     },
     {
-      "name": "TAGRY 主动降噪蓝牙耳机",
+      "name": "声隐·AI主动降噪蓝牙耳机 X5",
       "category": "🎧 蓝牙耳机",
       "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780366856550_1.jpg",
-      "price": "¥35.99",
+      "price": "",
       "originalPrice": "",
-      "sales": "天猫月销40,718件",
-      "rating": "★ 4.4",
-      "tag": "天猫月销4万+"
+      "sales": "",
+      "rating": "",
+      "tag": "今日选品"
     },
     {
-      "name": "ULOMA 钛釜迷你智能电饭煲",
+      "name": "智煮·迷你多功能智能电饭煲",
       "category": "🍚 迷你电饭煲",
       "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780366859083_1.jpg",
-      "price": "¥31.13",
+      "price": "",
       "originalPrice": "",
-      "sales": "1688月销4400+件",
-      "rating": "★ 4.5",
-      "tag": "1688性价比TOP1"
+      "sales": "",
+      "rating": "",
+      "tag": "今日选品"
     }
   ],
   "comparisons": [
