@@ -461,6 +461,97 @@
     line-height: 1.6;
   }
 
+  /* ===== 热门商品区（动态渲染） ===== */
+  .hot-section {
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    padding: 0 24px;
+  }
+  .hot-section h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .hot-section .subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #8B949E;
+    margin-bottom: 24px;
+  }
+  .hot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+  .hot-card {
+    background: rgba(22,27,34,0.8);
+    border: 1px solid rgba(48,54,61,0.8);
+    border-radius: 12px;
+    padding: 18px 20px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    transition: border-color 0.3s, transform 0.2s;
+  }
+  .hot-card:hover {
+    border-color: rgba(88,166,255,0.4);
+    transform: translateY(-2px);
+  }
+  .hot-rank {
+    flex-shrink: 0;
+    width: 36px; height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff;
+  }
+  .hot-rank.r1 { background: linear-gradient(135deg, #FF6A00, #FF2D55); }
+  .hot-rank.r2 { background: linear-gradient(135deg, #FF8C33, #FF6A00); }
+  .hot-rank.r3 { background: linear-gradient(135deg, #FFB366, #FF8C33); }
+  .hot-rank.r4, .hot-rank.r5 { background: rgba(48,54,61,0.8); color: #8B949E; }
+  .hot-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .hot-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #E6EDF3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .hot-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #8B949E;
+  }
+  .hot-price {
+    color: #FF6A00;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+  .hot-tag {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: rgba(255,106,0,0.1);
+    color: #FF8C33;
+    border: 1px solid rgba(255,106,0,0.15);
+    white-space: nowrap;
+  }
+
   /* ===== 商品对比区（动态渲染） ===== */
   .vs-section {
     max-width: 1100px;
@@ -776,6 +867,7 @@
   <div class="nav-brand">AI选品推送</div>
   <div class="nav-links">
     <a href="#live">实时数据</a>
+    <a href="#hot">热销榜</a>
     <a href="#vs">商品对比</a>
     <a href="#process">工作原理</a>
     <a href="#history">历史记录</a>
@@ -831,9 +923,18 @@
   <div class="lightbox-title" id="lightboxTitle"></div>
 </div>
 
-<!-- 选品阿里巴巴搜索结果 vs 阿里巴巴热门商品（动态渲染） -->
+<!-- 平台热门商品（动态渲染） -->
+<section class="hot-section" id="hot">
+  <h2>🔥 平台热销榜</h2>
+  <p class="subtitle" id="hotSubtitle">数据动态加载中...</p>
+  <div class="hot-grid" id="hotGrid">
+    <div class="no-data">加载中...</div>
+  </div>
+</section>
+
+<!-- 选品阿里巴巴搜索结果 vs 竞品数据（动态渲染） -->
 <section class="vs-section" id="vs">
-  <h2>⚔️ 选品阿里巴巴搜索 vs 热门商品</h2>
+  <h2>⚔️ 选品搜索 vs 竞品数据</h2>
   <p class="subtitle" id="vsSubtitle">数据动态加载中...</p>
   <div class="vs-pairs" id="vsPairs">
     <div class="no-data">加载对比数据中...</div>
@@ -956,6 +1057,52 @@ async function loadData() {
     document.getElementById('updateTime').textContent = '等待首次执行数据';
     document.getElementById('productList').innerHTML =
       '<div class="no-data">等待首次执行数据...</div>';
+  }
+}
+
+// ===== 从 vs-data.json 加载热门商品 =====
+async function loadHotProducts() {
+  const container = document.getElementById('hotGrid');
+  const subtitleEl = document.getElementById('hotSubtitle');
+  try {
+    const res = await fetch('./vs-data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('no vs data');
+    const data = await res.json();
+
+    const hotProducts = data.hotProducts || [];
+    const dataSource = data.dataSource || '';
+    const updateTime = data.updateTime || '';
+
+    if (hotProducts.length === 0) {
+      container.innerHTML = '<div class="no-data">暂无热门商品数据</div>';
+      subtitleEl.textContent = '等待数据加载';
+      return;
+    }
+
+    subtitleEl.textContent = `${hotProducts.length}款热销商品 · ${dataSource}`;
+
+    container.innerHTML = hotProducts.map((p, i) => {
+      const rankClass = i < 3 ? `r${i + 1}` : `r${i + 1}`;
+      return `
+        <div class="hot-card">
+          <div class="hot-rank ${rankClass}">${i + 1}</div>
+          <div class="hot-info">
+            <div class="hot-name" title="${p.name || ''}">${p.name || '未知商品'}</div>
+            <div class="hot-meta">
+              <span>${p.category || ''}</span>
+              <span>${p.sales || ''}</span>
+              ${p.rating ? `<span>${p.rating}</span>` : ''}
+            </div>
+            ${p.tag ? `<span class="hot-tag">${p.tag}</span>` : ''}
+          </div>
+          ${p.price ? `<div class="hot-price">${p.price}</div>` : ''}
+        </div>
+      `;
+    }).join('');
+
+  } catch (e) {
+    container.innerHTML = '<div class="no-data">热门商品数据加载失败</div>';
+    subtitleEl.textContent = '数据加载中';
   }
 }
 
@@ -1159,10 +1306,12 @@ function handleWechat() {
 
 // ===== 启动 =====
 loadData();
+loadHotProducts();
 loadVsData();
 loadHistory();
 // 每5分钟刷新一次
 setInterval(loadData, 5 * 60 * 1000);
+setInterval(loadHotProducts, 5 * 60 * 1000);
 setInterval(loadVsData, 5 * 60 * 1000);
 </script>
 
