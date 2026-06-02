@@ -1,148 +1,147 @@
 {
-  "updateTime": "2026-05-31 15:35",
-  "dataSource": "天猫/京东/1688/淘宝实测数据 · 2026年5月31日",
+  "updateTime": "2026-06-02 10:20",
+  "dataSource": "天猫/淘宝/1688/买购网实测数据 · 2026年6月2日",
   "hotProducts": [
     {
-      "name": "小野和子帽檐款防晒服（关晓彤代言）",
-      "category": "👗 防晒服饰",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780195624234_1.jpg",
-      "price": "¥59.9",
-      "originalPrice": "¥144.9",
-      "sales": "淘宝TOP榜 · 近2小时热销",
+      "name": "润本驱蚊喷雾110ml",
+      "category": "🌿 驱蚊用品",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780366840271_1.jpg",
+      "price": "¥12.9",
+      "originalPrice": "¥19.9",
+      "sales": "淘宝TOP榜·近2小时600件",
+      "rating": "★ 4.6",
+      "tag": "淘宝热销TOP7"
+    },
+    {
+      "name": "水星家纺 莱赛尔天丝夏凉被",
+      "category": "🛏️ 夏凉被",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780366846550_1.jpg",
+      "price": "¥200以内",
+      "originalPrice": "",
+      "sales": "知乎618推荐·A类母婴",
+      "rating": "★ 4.7",
+      "tag": "618推荐款"
+    },
+    {
+      "name": "九阳 LJ320 无线便携榨汁杯",
+      "category": "🥤 便携榨汁杯",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780366851334_1.jpg",
+      "price": "¥65.5",
+      "originalPrice": "",
+      "sales": "买购网2026热门榜·国补款",
       "rating": "★ 4.8",
-      "tag": "天猫爆款"
+      "tag": "百元以下首选"
     },
     {
-      "name": "蕉内506S莫代尔冰丝睡衣套装",
-      "category": "💤 居家睡衣",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780195625975_1.jpg",
-      "price": "¥99-169",
+      "name": "TAGRY 主动降噪蓝牙耳机",
+      "category": "🎧 蓝牙耳机",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780366856550_1.jpg",
+      "price": "¥35.99",
       "originalPrice": "",
-      "sales": "京东50000+条评论",
-      "rating": "★ 4.7",
-      "tag": "京东TOP1"
+      "sales": "天猫月销40,718件",
+      "rating": "★ 4.4",
+      "tag": "天猫月销4万+"
     },
     {
-      "name": "JBL FLIP ESSENTIAL 2 防水蓝牙音箱",
-      "category": "🔊 蓝牙音箱",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780195627318_1.jpg",
-      "price": "¥499",
-      "originalPrice": "¥519",
-      "sales": "京东月销2000+",
-      "rating": "★ 4.7",
-      "tag": "JBL自营"
-    },
-    {
-      "name": "香薰蜡烛DIY材料包（大豆蜡+精油套装）",
-      "category": "🕯 手工DIY",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780195628633_1.jpg",
-      "price": "¥18-68",
+      "name": "ULOMA 钛釜迷你智能电饭煲",
+      "category": "🍚 迷你电饭煲",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780366859083_1.jpg",
+      "price": "¥31.13",
       "originalPrice": "",
-      "sales": "淘宝100+评价",
-      "rating": "★ 4.9",
-      "tag": "手工热销"
-    },
-    {
-      "name": "飞利浦PPM5203N颈肩按摩仪",
-      "category": "💆 健康个护",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780195629889_1.jpg",
-      "price": "¥299-599",
-      "originalPrice": "",
-      "sales": "知乎评测推荐TOP1",
+      "sales": "1688月销4400+件",
       "rating": "★ 4.5",
-      "tag": "品牌精选"
+      "tag": "1688性价比TOP1"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "UPF50+防晒衣 淘宝天猫",
+      "searchQuery": "超声波驱蚊器",
       "searchResult": {
-        "name": "查尔斯桃心UPF50+防晒衣（天猫官方旗舰店）",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780198477233_1.jpg",
-        "category": "¥189 · 月销1000+ · 推荐度98%",
-        "tags": ["UPF50+", "冰丝面料", "天猫官方"]
+        "name": "超声波驱蚊香薰除螨仪（1688批发）",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780366840271_1.jpg",
+        "category": "¥13.49 · 1688月销6个",
+        "tags": ["1688批发", "超声波", "香薰驱蚊"]
       },
       "hotProduct": {
-        "name": "小野和子帽檐款防晒服（关晓彤代言）",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780195624234_1.jpg",
-        "category": "👗 防晒服饰",
-        "price": "¥59.9",
-        "originalPrice": "¥144.9",
-        "sales": "淘宝TOP榜近2小时热销",
+        "name": "润本防叮咬驱蚊喷雾110ml",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780366840271_1.jpg",
+        "category": "个护/户外",
+        "price": "¥12.9（券后）",
+        "sales": "近2小时600件",
+        "rating": "★ 4.6",
+        "tags": ["天猫热销TOP7", "植物配方", "便携喷雾"]
+      }
+    },
+    {
+      "searchQuery": "天丝夏凉被 A类凉感",
+      "searchResult": {
+        "name": "网易严选果冻被8.0 AB面凉感夏凉被",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780366846550_1.jpg",
+        "category": "百元出头 · A类母婴·凉感值0.46",
+        "tags": ["A类母婴", "双面凉感", "可水洗"]
+      },
+      "hotProduct": {
+        "name": "水星家纺莱赛尔天丝夏凉被",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780366846550_1.jpg",
+        "category": "家纺床品",
+        "price": "不到¥200（国补后）",
+        "sales": "知乎618推荐",
+        "rating": "★ 4.7",
+        "tags": ["天丝面料", "7A抑菌", "降温5℃"]
+      }
+    },
+    {
+      "searchQuery": "便携无线榨汁杯",
+      "searchResult": {
+        "name": "九阳LJ320自动清洗多功能搅拌杯",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780366851334_1.jpg",
+        "category": "¥65.5 · 买购网2026热门榜TOP品牌",
+        "tags": ["国补款", "自动清洗", "婴儿辅食"]
+      },
+      "hotProduct": {
+        "name": "米家MJZZB01PL无线榨汁杯",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780366851334_1.jpg",
+        "category": "小家电",
+        "price": "¥119",
+        "sales": "买购网2026热门榜",
         "rating": "★ 4.8",
-        "tags": ["明星代言", "天猫爆款"]
+        "tags": ["304不锈钢", "USB充电", "满电榨12次"]
       }
     },
     {
-      "searchQuery": "冰丝睡衣 莫代尔 京东",
+      "searchQuery": "主动降噪蓝牙耳机",
       "searchResult": {
-        "name": "蕉内506S莫代尔冰丝睡衣（京东TOP1）",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780198481523_1.jpg",
-        "category": "¥99-169 · 50000+评论 · 冰丝凉感",
-        "tags": ["蕉内品牌", "50000+评论", "冰丝凉感"]
+        "name": "TAGRY蓝牙耳机（天猫爆款）",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780366856550_1.jpg",
+        "category": "¥35.99 · 天猫月销40,718件",
+        "tags": ["60H续航", "IPX5防水", "月销4万+"]
       },
       "hotProduct": {
-        "name": "蕉内506S莫代尔冰丝睡衣套装",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780195625975_1.jpg",
-        "category": "💤 居家睡衣",
-        "price": "¥99-169",
-        "sales": "京东50000+条评论",
+        "name": "bmani无线降噪耳机",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780366856550_1.jpg",
+        "category": "数码音频",
+        "price": "¥25.68",
+        "sales": "天猫月销22,469件",
+        "rating": "★ 4.4",
+        "tags": ["蓝牙5.4", "高性价比", "月销2万+"]
+      }
+    },
+    {
+      "searchQuery": "迷你智能电饭煲 1-2人",
+      "searchResult": {
+        "name": "ULOMA 0氟涂层钛釜内胆智能电饭煲",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780366859083_1.jpg",
+        "category": "¥31.13 · 1688月销4400+件",
+        "tags": ["1688销量TOP1", "钛釜内胆", "1-4人"]
+      },
+      "hotProduct": {
+        "name": "美的萌趣狐狸煲迷你电饭煲1.2L",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780366859083_1.jpg",
+        "category": "厨房小家电",
+        "price": "¥98.9",
+        "sales": "买购网2026热门榜",
         "rating": "★ 4.7",
-        "tags": ["京东TOP1", "莫代尔冰丝"]
-      }
-    },
-    {
-      "searchQuery": "IPX7防水蓝牙音箱 户外 京东",
-      "searchResult": {
-        "name": "JBL户外防水便携蓝牙音箱（IPX7/蓝牙5.3/12H续航）",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780198485799_1.jpg",
-        "category": "¥184-499 · IPX7防水 · 12H续航",
-        "tags": ["IPX7防水", "蓝牙5.3", "户外便携"]
-      },
-      "hotProduct": {
-        "name": "JBL FLIP ESSENTIAL 2 防水蓝牙音箱",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780195627318_1.jpg",
-        "category": "🔊 蓝牙音箱",
-        "price": "¥499",
-        "sales": "京东月销2000+",
-        "rating": "★ 4.7",
-        "tags": ["JBL自营", "好评97%"]
-      }
-    },
-    {
-      "searchQuery": "DIY香薰蜡烛材料包 大豆蜡 淘宝",
-      "searchResult": {
-        "name": "香薰蜡烛DIY材料包手工大豆蜡（含精油+模具）",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780198490394_1.jpg",
-        "category": "¥18-68 · 1688多款在售 · 30分钟速成",
-        "tags": ["大豆蜡", "植物精油", "手工DIY"]
-      },
-      "hotProduct": {
-        "name": "香薰蜡烛DIY材料包（大豆蜡+精油套装）",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780195628633_1.jpg",
-        "category": "🕯 手工DIY",
-        "price": "¥18-68",
-        "sales": "淘宝100+评价",
-        "rating": "★ 4.9",
-        "tags": ["手工热销", "好评分4.9"]
-      }
-    },
-    {
-      "searchQuery": "颈肩按摩仪 热敷 智能恒温 京东",
-      "searchResult": {
-        "name": "飞利浦PPM5203N / 倍轻松 / SKG 颈肩按摩仪（知乎横评TOP3）",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780198494152_1.jpg",
-        "category": "¥299-599 · 知乎横评推荐 · TENS+热敷",
-        "tags": ["品牌三巨头", "热敷+按摩", "知乎推荐"]
-      },
-      "hotProduct": {
-        "name": "飞利浦PPM5203N颈肩按摩仪",
-        "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780195629889_1.jpg",
-        "category": "💆 健康个护",
-        "price": "¥299-599",
-        "sales": "知乎评测推荐TOP1",
-        "rating": "★ 4.5",
-        "tags": ["品牌精选", "评测推荐"]
+        "tags": ["美的品牌", "1.2L迷你", "学生宿舍适用"]
       }
     }
   ]
