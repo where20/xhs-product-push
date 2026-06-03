@@ -670,6 +670,7 @@
   }
   .vs-card:hover {
     transform: translateY(-2px);
+    cursor: zoom-in;
   }
   .vs-card.left {
     border-color: rgba(56,139,253,0.3);
@@ -1094,6 +1095,8 @@
 // ===== 全局状态 =====
 let currentProducts = [];
 let currentIndex = 0;
+let currentVsProducts = [];
+let currentVsIndex = 0;
 
 // ===== 从 data.json 加载实时数据 =====
 async function loadData() {
@@ -1246,6 +1249,9 @@ async function loadVsData() {
 
     subtitleEl.textContent = `${comparisons.length}组对比 · 数据更新: ${updateTime}`;
 
+    // 重置 VS 图片数组
+    currentVsProducts = [];
+
     container.innerHTML = comparisons.map(c => {
       const left = c.searchResult || {};
       const right = c.hotProduct || {};
@@ -1262,10 +1268,15 @@ async function loadVsData() {
         ? `<div class="vs-price">${right.price}${right.originalPrice ? `<span class="orig">${right.originalPrice}</span>` : ''}</div>`
         : '';
 
+      const leftIndex = currentVsProducts.length;
+      if (left.image) currentVsProducts.push({ src: left.image, name: left.name || '搜索结果' });
+      const rightIndex = currentVsProducts.length;
+      if (right.image) currentVsProducts.push({ src: right.image, name: right.name || '热门商品' });
+
       return `
         <div class="vs-pair">
           <div class="vs-card left">
-            <img class="vs-img" src="${left.image || ''}" alt="${left.name || ''}" loading="lazy" onerror="this.style.display='none'">
+            <img class="vs-img" src="${left.image || ''}" alt="${left.name || ''}" loading="lazy" style="cursor:zoom-in" onclick="openVsLightbox(${leftIndex})" onerror="this.style.display='none'">
             <div class="vs-info">
               <span class="vs-source">${leftSource}</span>
               <div class="vs-name">${left.name || '搜索结果'}</div>
@@ -1279,7 +1290,7 @@ async function loadVsData() {
             <div class="vs-line"></div>
           </div>
           <div class="vs-card right">
-            <img class="vs-img" src="${right.image || ''}" alt="${right.name || ''}" loading="lazy" onerror="this.style.display='none'">
+            <img class="vs-img" src="${right.image || ''}" alt="${right.name || ''}" loading="lazy" style="cursor:zoom-in" onclick="openVsLightbox(${rightIndex})" onerror="this.style.display='none'">
             <div class="vs-info">
               <span class="vs-source">${rightSource}</span>
               <div class="vs-name">${right.name || '热门商品'}</div>
@@ -1314,6 +1325,17 @@ function openLightbox(index) {
 function closeLightbox() {
   document.getElementById('lightbox').classList.remove('active');
   document.body.style.overflow = '';
+}
+
+function openVsLightbox(index) {
+  currentVsIndex = index;
+  const p = currentVsProducts[index];
+  if (!p || !p.src) return;
+  document.getElementById('lightboxImg').src = p.src;
+  document.getElementById('lightboxTitle').innerHTML =
+    `${p.name} &nbsp;<a href="${p.src}" target="_blank" rel="noopener">查看原图 ↗</a>`;
+  document.getElementById('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
 }
 
 function navigateLightbox(dir) {
