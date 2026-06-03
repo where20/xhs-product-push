@@ -1,11 +1,11 @@
 {
-  "updateTime": "2026-06-03 07:00",
+  "updateTime": "2026-06-03 10:00",
   "dataSource": "天猫/淘宝/京东/1688实测数据 · 2026年6月",
   "hotProducts": [
     {
       "name": "小米手环10",
       "category": "智能穿戴",
-      "image": "",
+      "image": "https://cloudimgs.231203.xyz/api/images/hot1_xiaomi_band10_001.jpg",
       "price": "¥269",
       "originalPrice": "¥299",
       "sales": "月销5万+",
@@ -15,7 +15,7 @@
     {
       "name": "美的空气炸锅 小炎烤款",
       "category": "厨房电器",
-      "image": "",
+      "image": "https://cloudimgs.231203.xyz/api/images/hot2_midea_airfryer_001.jpg",
       "price": "¥349",
       "originalPrice": "¥499",
       "sales": "618热销10万+",
@@ -25,7 +25,7 @@
     {
       "name": "珀莱雅红宝石面霜 3.0",
       "category": "美妆护肤",
-      "image": "",
+      "image": "https://cloudimgs.231203.xyz/api/images/hot3_proya_cream_001.jpg",
       "price": "¥289",
       "originalPrice": "¥359",
       "sales": "天猫美妆TOP1",
@@ -35,7 +35,7 @@
     {
       "name": "追觅C1擦窗机器人",
       "category": "智能清洁",
-      "image": "",
+      "image": "https://cloudimgs.231203.xyz/api/images/hot4_dreame_robot_001_c.jpg",
       "price": "¥1529",
       "originalPrice": "¥1799",
       "sales": "京东好评5000+",
@@ -45,7 +45,7 @@
     {
       "name": "苏泊尔SF40FC871智能电饭煲",
       "category": "厨房电器",
-      "image": "",
+      "image": "https://cloudimgs.231203.xyz/api/images/hot5_supor_ricecooker_001_c.jpg",
       "price": "¥399",
       "originalPrice": "¥599",
       "sales": "月销2万+",
@@ -57,35 +57,35 @@
     {
       "name": "智窗·AI智能擦窗机器人 Pro",
       "category": "智能清洁",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780442387649_1.jpg",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_001.jpg",
       "tags": ["AI智能", "高层安全", "纳米清洁", "全自动"],
       "tag": "今日选品"
     },
     {
       "name": "深眠·天然乳胶护脊床垫",
       "category": "睡眠升级",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780442387689_1.jpg",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_001.jpg",
       "tags": ["天然乳胶", "护脊释压", "双面睡感", "抑菌防螨"],
       "tag": "今日选品"
     },
     {
       "name": "净息·家用智能空气净化器 Pro",
       "category": "健康环境",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780442387779_1.jpg",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_001.jpg",
       "tags": ["高效除醛", "UV杀菌", "超静音", "智能数显"],
       "tag": "今日选品"
     },
     {
       "name": "净瞳·超声波深层清洗机",
       "category": "个护清洁",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780442387688_1.jpg",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_001.jpg",
       "tags": ["高频声波", "UVC杀菌", "零磨损", "便携小巧"],
       "tag": "今日选品"
     },
     {
       "name": "灵腕·AI健康智能手表 S5",
       "category": "智能穿戴",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780442387690_1.jpg",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_001.jpg",
       "tags": ["超长续航", "健康监测", "轻薄设计", "100+运动"],
       "tag": "今日选品"
     }

@@ -3,37 +3,37 @@
   "totalProducts": 35,
   "lastRunDate": "2026-06-03",
   "status": "运行中",
-  "updateTime": "2026-06-03 07:30",
+  "updateTime": "2026-06-03 10:00",
   "products": [
     {
       "name": "智窗·AI智能擦窗机器人 Pro",
       "category": "智能清洁",
       "tags": ["AI智能", "高层安全", "纳米清洁", "全自动"],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780442387649_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_001.jpg"
     },
     {
       "name": "深眠·天然乳胶护脊床垫",
       "category": "睡眠升级",
       "tags": ["天然乳胶", "护脊释压", "双面睡感", "抑菌防螨"],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780442387689_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_001.jpg"
     },
     {
       "name": "净息·家用智能空气净化器 Pro",
       "category": "健康环境",
       "tags": ["高效除醛", "UV杀菌", "超静音", "智能数显"],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780442387779_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_001.jpg"
     },
     {
       "name": "净瞳·超声波深层清洗机",
       "category": "个护清洁",
       "tags": ["高频声波", "UVC杀菌", "零磨损", "便携小巧"],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780442387688_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_001.jpg"
     },
     {
       "name": "灵腕·AI健康智能手表 S5",
       "category": "智能穿戴",
       "tags": ["超长续航", "健康监测", "轻薄设计", "100+运动"],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780442387690_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_001.jpg"
     }
   ]
 }
