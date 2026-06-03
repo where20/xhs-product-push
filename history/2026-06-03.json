@@ -1,0 +1,39 @@
+{
+  "totalRuns": 6,
+  "totalProducts": 30,
+  "lastRunDate": "2026-06-02",
+  "status": "运行中",
+  "updateTime": "2026-06-02 10:20",
+  "products": [
+    {
+      "name": "植感·植物精油超声波驱蚊器",
+      "category": "夏季驱蚊",
+      "tags": ["天然精油", "静音无火", "母婴适用"],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780366840271_1.jpg"
+    },
+    {
+      "name": "凉云·A类凉感天丝夏凉被",
+      "category": "夏日床品",
+      "tags": ["A类凉感", "天丝亲肤", "机洗耐用"],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780366846550_1.jpg"
+    },
+    {
+      "name": "鲜萃·便携式无线榨汁杯 Pro",
+      "category": "健康饮品",
+      "tags": ["无线便携", "40秒速榨", "USB充电"],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780366851334_1.jpg"
+    },
+    {
+      "name": "声隐·AI主动降噪蓝牙耳机 X5",
+      "category": "数码音频",
+      "tags": ["AI降噪", "蓝牙5.4", "低延迟"],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780366856550_1.jpg"
+    },
+    {
+      "name": "智煮·迷你多功能智能电饭煲",
+      "category": "厨房小家电",
+      "tags": ["迷你容量", "陶瓷内胆", "智能控温"],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780366859083_1.jpg"
+    }
+  ]
+}
