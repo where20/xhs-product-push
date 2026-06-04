@@ -1,184 +1,184 @@
 {
-  "updateTime": "2026-06-03 10:00",
-  "dataSource": "天猫/淘宝/京东/1688实测数据 · 2026年6月",
+  "updateTime": "2026-06-04 00:21",
+  "dataSource": "天猫/淘宝/京东/拼多多实测数据 · 2026年6月",
   "hotProducts": [
     {
-      "name": "小米手环10",
-      "category": "智能穿戴",
-      "image": "https://cloudimgs.231203.xyz/api/images/hot1_xiaomi_band10_001.jpg",
-      "price": "¥269",
-      "originalPrice": "¥299",
-      "sales": "月销5万+",
-      "rating": "★ 4.8",
-      "tag": "618数码热卖"
+      "name": "小米REDMI K90 Max",
+      "category": "手机数码",
+      "image": "",
+      "price": "¥3499",
+      "originalPrice": "",
+      "sales": "京东618热销榜TOP2",
+      "rating": "",
+      "tag": "性价比之王"
     },
     {
-      "name": "美的空气炸锅 小炎烤款",
-      "category": "厨房电器",
-      "image": "https://cloudimgs.231203.xyz/api/images/hot2_midea_airfryer_001.jpg",
-      "price": "¥349",
-      "originalPrice": "¥499",
-      "sales": "618热销10万+",
-      "rating": "★ 4.7",
-      "tag": "天猫家电TOP"
+      "name": "ANRABESS女士短袖上衣",
+      "category": "时尚服饰",
+      "image": "",
+      "price": "$10.05(约¥72)",
+      "originalPrice": "",
+      "sales": "月销24,307件",
+      "rating": "",
+      "tag": "拼多多热销"
     },
     {
-      "name": "珀莱雅红宝石面霜 3.0",
-      "category": "美妆护肤",
-      "image": "https://cloudimgs.231203.xyz/api/images/hot3_proya_cream_001.jpg",
-      "price": "¥289",
-      "originalPrice": "¥359",
-      "sales": "天猫美妆TOP1",
-      "rating": "★ 4.9",
-      "tag": "国货销冠"
+      "name": "斯凯奇tritan运动水杯800ml",
+      "category": "运动水杯",
+      "image": "",
+      "price": "¥19(券后)",
+      "originalPrice": "¥99",
+      "sales": "天猫热销",
+      "rating": "",
+      "tag": "破冰价"
     },
     {
-      "name": "追觅C1擦窗机器人",
-      "category": "智能清洁",
-      "image": "https://cloudimgs.231203.xyz/api/images/hot4_dreame_robot_001_c.jpg",
-      "price": "¥1529",
-      "originalPrice": "¥1799",
-      "sales": "京东好评5000+",
-      "rating": "★ 4.6",
-      "tag": "以旧换新补贴"
+      "name": "Garvee便携式电暖器",
+      "category": "家居小家电",
+      "image": "",
+      "price": "$23.01(约¥167)",
+      "originalPrice": "",
+      "sales": "月销581件",
+      "rating": "",
+      "tag": "拼多多热销"
     },
     {
-      "name": "苏泊尔SF40FC871智能电饭煲",
-      "category": "厨房电器",
-      "image": "https://cloudimgs.231203.xyz/api/images/hot5_supor_ricecooker_001_c.jpg",
-      "price": "¥399",
-      "originalPrice": "¥599",
-      "sales": "月销2万+",
-      "rating": "★ 4.7",
-      "tag": "618厨房必买"
+      "name": "三只松鼠拇指小肉肠香辣肉枣肠",
+      "category": "零食小吃",
+      "image": "",
+      "price": "¥9.9(券后)",
+      "originalPrice": "",
+      "sales": "天猫热销·好评无限",
+      "rating": "",
+      "tag": "复购超高"
     }
   ],
   "selectedProducts": [
     {
-      "name": "智窗·AI智能擦窗机器人 Pro",
-      "category": "智能清洁",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_001.jpg",
-      "tags": ["AI智能", "高层安全", "纳米清洁", "全自动"],
+      "name": "颜活·9合1多功能面部护理美容仪 Pro",
+      "category": "美容护肤",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780529773795_1.jpg",
+      "tags": ["院线级护理", "9合1全能", "胶原蛋白", "便携设计"],
       "tag": "今日选品"
     },
     {
-      "name": "深眠·天然乳胶护脊床垫",
-      "category": "睡眠升级",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_001.jpg",
-      "tags": ["天然乳胶", "护脊释压", "双面睡感", "抑菌防螨"],
+      "name": "慢刻·便携式意式浓缩咖啡机 Mini",
+      "category": "生活电器",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780529772374_1.jpg",
+      "tags": ["15bar萃取", "双模兼容", "45秒出品", "超长续航"],
       "tag": "今日选品"
     },
     {
-      "name": "净息·家用智能空气净化器 Pro",
-      "category": "健康环境",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_001.jpg",
-      "tags": ["高效除醛", "UV杀菌", "超静音", "智能数显"],
+      "name": "宠伴·6L WiFi智能宠物喂食器 S2",
+      "category": "宠物用品",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780529772274_1.jpg",
+      "tags": ["远程喂食", "视频监控", "6L大容量", "防潮保鲜"],
       "tag": "今日选品"
     },
     {
-      "name": "净瞳·超声波深层清洗机",
-      "category": "个护清洁",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_001.jpg",
-      "tags": ["高频声波", "UVC杀菌", "零磨损", "便携小巧"],
+      "name": "极温·40oz不锈钢真空保温杯 Pro",
+      "category": "户外运动",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780529772377_1.jpg",
+      "tags": ["12h保温", "316不锈钢", "防漏设计", "1.2L大容量"],
       "tag": "今日选品"
     },
     {
-      "name": "灵腕·AI健康智能手表 S5",
-      "category": "智能穿戴",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_001.jpg",
-      "tags": ["超长续航", "健康监测", "轻薄设计", "100+运动"],
+      "name": "悠光·木质盖玻璃香薰蜡烛礼盒",
+      "category": "生活美学",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780529772376_1.jpg",
+      "tags": ["天然大豆蜡", "5款香型", "40h长燃", "精美礼盒"],
       "tag": "今日选品"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "擦窗机器人 淘宝 价格",
+      "searchQuery": "美容仪 射频 EMS",
       "searchResult": {
-        "name": "科沃斯W2S擦窗机器人",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780442932480_1.jpg",
-        "category": "¥1154.9 · 京东在售",
-        "tags": ["老牌家电", "品牌旗舰", "智能路径", "售后完善"]
+        "name": "AMIRO觅光胶原炮美容仪",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780532416296_1.jpg",
+        "category": "射频美容仪 · 好评率96.67%",
+        "tags": ["射频紧致", "LED光疗", "性价比"]
       },
       "hotProduct": {
-        "name": "洒拖派0lite擦窗机器人",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1780442979342_1.jpg",
-        "category": "智能清洁",
-        "price": "¥1281",
-        "sales": "2026品牌榜TOP1",
-        "rating": "★ 4.8",
-        "tags": ["双圆盘技术", "安全旗舰", "技术派代表"]
+        "name": "极萌Jmoon水光美容仪",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1780532450036_1.jpg",
+        "category": "美容护肤",
+        "price": "¥2699",
+        "sales": "天猫限时价",
+        "rating": "",
+        "tags": ["水光护理", "抗皱美白"]
       }
     },
     {
-      "searchQuery": "天然乳胶床垫 品牌 价格",
+      "searchQuery": "便携咖啡机 意式",
       "searchResult": {
-        "name": "帕迪亚Pdya泰国进口乳胶床垫",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780442951183_1.jpg",
-        "category": "¥1200-1800 · 知乎热销榜",
-        "tags": ["泰国原产", "高纯度乳胶", "透气防螨", "销量领先"]
+        "name": "Wacaco Nanopresso便携意式咖啡机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780532417717_1.jpg",
+        "category": "手动便携 · 兼容咖啡粉和胶囊",
+        "tags": ["手动加压", "超便携", "无需电"]
       },
       "hotProduct": {
-        "name": "雅兰兰梦旗舰版2.0乳胶床垫",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1780468380936_1.jpg",
-        "category": "睡眠升级",
-        "price": "¥1667",
-        "sales": "历史低价 · 京东好评2000+",
-        "rating": "★ 4.7",
-        "tags": ["双面睡感", "独立弹簧", "黄麻护脊", "90%乳胶"]
+        "name": "Barsetto便携胶囊咖啡机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1780532451188_1.jpg",
+        "category": "生活电器",
+        "price": "待查",
+        "sales": "数据待查",
+        "rating": "",
+        "tags": ["胶囊兼容", "自动加热"]
       }
     },
     {
-      "searchQuery": "家用空气净化器 价格 热销",
+      "searchQuery": "智能宠物喂食器 WiFi",
       "searchResult": {
-        "name": "小米空气净化器4 Pro H",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780442959189_1.jpg",
-        "category": "¥1376-1799 · 京东热销",
-        "tags": ["米家生态", "600CADR", "瑞士传感器", "性价比之王"]
+        "name": "小佩PETKIT SOLO智能喂食器AI可视版",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780532419089_1.jpg",
+        "category": "AI可视 · 实时视频喂食",
+        "tags": ["AI可视", "天猫热销", "¥399"]
       },
       "hotProduct": {
-        "name": "霍尼韦尔空气净化器",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1780468381125_1.jpg",
-        "category": "健康环境",
-        "price": "¥5299",
-        "sales": "天猫除甲醛品类热销TOP1",
-        "rating": "★ 4.9",
-        "tags": ["NASA供应商", "67年研发", "母婴级净化", "专业除醛"]
+        "name": "霍曼智能宠物喂食器",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1780532452639_1.jpg",
+        "category": "宠物用品",
+        "price": "待查",
+        "sales": "数据待查",
+        "rating": "",
+        "tags": ["APP控制", "定时投喂"]
       }
     },
     {
-      "searchQuery": "超声波清洗机 性价比 推荐",
+      "searchQuery": "不锈钢保温杯 大容量",
       "searchResult": {
-        "name": "希亦CG超声波清洗机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1780443357763_1.jpg",
-        "category": "¥179 · 好评率98%",
-        "tags": ["百元级", "48000Hz", "UVC杀菌", "便携设计"]
+        "name": "STANLEY Quencher H2.0不锈钢真空吸管杯887ml",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1780532420709_1.jpg",
+        "category": "¥258起 · 好评率98%",
+        "tags": ["Stanley", "好评98%", "887ml"]
       },
       "hotProduct": {
-        "name": "德意生专业超声波清洗机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1780468380938_1.jpg",
-        "category": "个护清洁",
-        "price": "¥299",
-        "sales": "月销5000+",
-        "rating": "★ 4.6",
-        "tags": ["数字显示", "大容量", "专业级", "多模式"]
+        "name": "膳魔师THERMOS经典不锈钢保温杯",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1780532454028_1.jpg",
+        "category": "户外运动",
+        "price": "待查",
+        "sales": "数据待查",
+        "rating": "",
+        "tags": ["THERMOS", "日本品牌", "500ml"]
       }
     },
     {
-      "searchQuery": "智能手表 运动 性价比 2026",
+      "searchQuery": "香薰蜡烛 大豆蜡 礼盒",
       "searchResult": {
-        "name": "小米手环9 Pro",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780442969411_1.jpg",
-        "category": "¥399 · 首销为上代3倍",
-        "tags": ["AMOLED大屏", "金属机身", "20天续航", "性价比标杆"]
+        "name": "Jo Malone祖玛珑英国梨小苍兰香薰蜡烛",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780532422128_1.jpg",
+        "category": "¥420-820 · 综合指数85412",
+        "tags": ["祖玛珑", "高端香氛", "礼盒装"]
       },
       "hotProduct": {
-        "name": "华为WATCH FIT 5",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1780443359406_1.jpg",
-        "category": "智能穿戴",
-        "price": "¥1099",
-        "sales": "2026年4月新品 · 国补后935元",
-        "rating": "★ 4.8",
-        "tags": ["方表旗舰", "超轻薄", "100+运动", "HarmonyOS"]
+        "name": "野兽派BEAST小小铃兰灯香薰蜡烛",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5b_001.jpg",
+        "category": "生活美学",
+        "price": "¥568",
+        "sales": "综合指数81059",
+        "rating": "",
+        "tags": ["野兽派", "国潮", "铃兰香调"]
       }
     }
   ]
