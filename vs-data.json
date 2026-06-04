@@ -1,184 +1,184 @@
 {
-  "updateTime": "2026-06-04 00:21",
-  "dataSource": "天猫/淘宝/京东/拼多多实测数据 · 2026年6月",
+  "updateTime": "2026-06-05 07:17",
+  "dataSource": "天猫/1688/拼多多实测数据 · 2026年6月",
   "hotProducts": [
     {
-      "name": "小米REDMI K90 Max",
-      "category": "手机数码",
-      "image": "",
-      "price": "¥3499",
-      "originalPrice": "",
-      "sales": "京东618热销榜TOP2",
-      "rating": "",
-      "tag": "性价比之王"
+      "name": "TAGRY X08 真无线蓝牙耳机",
+      "category": "数码音频",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780615684763_1.jpg",
+      "price": "¥258",
+      "originalPrice": "$35.99",
+      "sales": "月销40,718件",
+      "rating": "★ 4.3",
+      "tag": "跨境电商爆款"
     },
     {
-      "name": "ANRABESS女士短袖上衣",
-      "category": "时尚服饰",
+      "name": "韩国片状面膜 B2B批发",
+      "category": "美妆护肤",
       "image": "",
-      "price": "$10.05(约¥72)",
-      "originalPrice": "",
-      "sales": "月销24,307件",
-      "rating": "",
-      "tag": "拼多多热销"
+      "price": "¥0.22起",
+      "originalPrice": "$0.03",
+      "sales": "月销49,060件",
+      "rating": "1688热品",
+      "tag": "B2B批发爆款"
     },
     {
-      "name": "斯凯奇tritan运动水杯800ml",
-      "category": "运动水杯",
-      "image": "",
-      "price": "¥19(券后)",
-      "originalPrice": "¥99",
-      "sales": "天猫热销",
-      "rating": "",
-      "tag": "破冰价"
+      "name": "特漫德 户外折叠露营椅",
+      "category": "户外装备",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780615686609_1.jpg",
+      "price": "¥89-129",
+      "originalPrice": "",
+      "sales": "综合评分9.8/10",
+      "rating": "★ 9.8",
+      "tag": "宠物家庭露营首选"
     },
     {
-      "name": "Garvee便携式电暖器",
-      "category": "家居小家电",
-      "image": "",
-      "price": "$23.01(约¥167)",
+      "name": "摩飞 MR9802 便携榨汁杯",
+      "category": "生活小电器",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780615688641_1.jpg",
+      "price": "¥239",
       "originalPrice": "",
-      "sales": "月销581件",
-      "rating": "",
-      "tag": "拼多多热销"
+      "sales": "好评率98%",
+      "rating": "★ 4.8",
+      "tag": "天猫品类销冠"
     },
     {
-      "name": "三只松鼠拇指小肉肠香辣肉枣肠",
-      "category": "零食小吃",
-      "image": "",
-      "price": "¥9.9(券后)",
+      "name": "淑牌芯 1688化妆收纳包",
+      "category": "美妆收纳",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780615692517_1.jpg",
+      "price": "¥2.25起",
       "originalPrice": "",
-      "sales": "天猫热销·好评无限",
-      "rating": "",
-      "tag": "复购超高"
+      "sales": "成交125万+件",
+      "rating": "1688热销",
+      "tag": "跨境热卖收纳"
     }
   ],
   "selectedProducts": [
     {
-      "name": "颜活·9合1多功能面部护理美容仪 Pro",
-      "category": "美容护肤",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780529773795_1.jpg",
-      "tags": ["院线级护理", "9合1全能", "胶原蛋白", "便携设计"],
+      "name": "极光·60h超长续航蓝牙耳机 X3",
+      "category": "数码音频",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780614940138_1.jpg",
+      "tags": ["超长续航", "主动降噪", "IPX5防水"],
       "tag": "今日选品"
     },
     {
-      "name": "慢刻·便携式意式浓缩咖啡机 Mini",
-      "category": "生活电器",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780529772374_1.jpg",
-      "tags": ["15bar萃取", "双模兼容", "45秒出品", "超长续航"],
-      "tag": "今日选品"
-    },
-    {
-      "name": "宠伴·6L WiFi智能宠物喂食器 S2",
-      "category": "宠物用品",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780529772274_1.jpg",
-      "tags": ["远程喂食", "视频监控", "6L大容量", "防潮保鲜"],
-      "tag": "今日选品"
-    },
-    {
-      "name": "极温·40oz不锈钢真空保温杯 Pro",
+      "name": "轻野·超轻便携折叠露营椅",
       "category": "户外运动",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780529772377_1.jpg",
-      "tags": ["12h保温", "316不锈钢", "防漏设计", "1.2L大容量"],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780614987702_1.jpg",
+      "tags": ["超轻便携", "150kg承重", "折叠收纳"],
       "tag": "今日选品"
     },
     {
-      "name": "悠光·木质盖玻璃香薰蜡烛礼盒",
-      "category": "生活美学",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780529772376_1.jpg",
-      "tags": ["天然大豆蜡", "5款香型", "40h长燃", "精美礼盒"],
+      "name": "鲜榨·无线便携榨汁杯 Pro",
+      "category": "健康小电器",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780614993695_1.jpg",
+      "tags": ["40秒鲜榨", "TRITAN材质", "Type-C快充"],
+      "tag": "今日选品"
+    },
+    {
+      "name": "净蚊·仿生四重灭蚊器 K1",
+      "category": "母婴好物",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780614999848_1.jpg",
+      "tags": ["纯物理灭蚊", "28dB静音", "母婴安全"],
+      "tag": "今日选品"
+    },
+    {
+      "name": "旅妆·多功能旅行化妆包",
+      "category": "美妆收纳",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780615004883_1.jpg",
+      "tags": ["四层分区", "防水面料", "立体展开"],
       "tag": "今日选品"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "美容仪 射频 EMS",
+      "searchQuery": "蓝牙耳机 1688 Tagry 月销 价格",
       "searchResult": {
-        "name": "AMIRO觅光胶原炮美容仪",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780532416296_1.jpg",
-        "category": "射频美容仪 · 好评率96.67%",
-        "tags": ["射频紧致", "LED光疗", "性价比"]
+        "name": "Tagry X08 真无线蓝牙耳机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780615684763_1.jpg",
+        "category": "数码音频 · 跨境电商爆款 · 月销40,718件",
+        "tags": ["$35.99", "IPX5防水", "60h续航"]
       },
       "hotProduct": {
-        "name": "极萌Jmoon水光美容仪",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1780532450036_1.jpg",
-        "category": "美容护肤",
-        "price": "¥2699",
-        "sales": "天猫限时价",
-        "rating": "",
-        "tags": ["水光护理", "抗皱美白"]
+        "name": "漫步者 LolliPods Plus",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1780615695373_1.jpg",
+        "category": "天猫旗舰店",
+        "price": "¥199",
+        "sales": "好评率95%",
+        "rating": "★ 4.5",
+        "tags": ["半入耳式", "aptX解码", "品牌售后"]
       }
     },
     {
-      "searchQuery": "便携咖啡机 意式",
+      "searchQuery": "1688 折叠露营椅 特漫德 价格",
       "searchResult": {
-        "name": "Wacaco Nanopresso便携意式咖啡机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780532417717_1.jpg",
-        "category": "手动便携 · 兼容咖啡粉和胶囊",
-        "tags": ["手动加压", "超便携", "无需电"]
+        "name": "特漫德 宠物友好折叠露营椅",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780615686609_1.jpg",
+        "category": "户外装备 · 综合评分9.8 · 承重150kg",
+        "tags": ["碳钢支架", "600D牛津布", "¥89-129"]
       },
       "hotProduct": {
-        "name": "Barsetto便携胶囊咖啡机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1780532451188_1.jpg",
-        "category": "生活电器",
-        "price": "待查",
-        "sales": "数据待查",
-        "rating": "",
-        "tags": ["胶囊兼容", "自动加热"]
+        "name": "牧高笛 Mobi Garden 轻量露营椅",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1780615697374_1.jpg",
+        "category": "户外运动品牌",
+        "price": "¥159-199",
+        "sales": "天猫旗舰店热销",
+        "rating": "★ 9.6",
+        "tags": ["铝合金轻量", "品牌售后", "¥159-199"]
       }
     },
     {
-      "searchQuery": "智能宠物喂食器 WiFi",
+      "searchQuery": "天猫 便携榨汁杯 摩飞 MR9802 价格",
       "searchResult": {
-        "name": "小佩PETKIT SOLO智能喂食器AI可视版",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780532419089_1.jpg",
-        "category": "AI可视 · 实时视频喂食",
-        "tags": ["AI可视", "天猫热销", "¥399"]
+        "name": "摩飞 MR9802 翡冷绿 便携榨汁杯",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780615688641_1.jpg",
+        "category": "小电器 · 好评率98% · 天猫品类销冠",
+        "tags": ["¥239", "磁吸充电", "1L大容量"]
       },
       "hotProduct": {
-        "name": "霍曼智能宠物喂食器",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1780532452639_1.jpg",
-        "category": "宠物用品",
-        "price": "待查",
-        "sales": "数据待查",
-        "rating": "",
-        "tags": ["APP控制", "定时投喂"]
+        "name": "九阳 L4-L55 便携柠檬杯",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1780615699727_1.jpg",
+        "category": "高性价比入门款",
+        "price": "¥65.5",
+        "sales": "京东自营热销",
+        "rating": "★ 4.3",
+        "tags": ["¥65.5", "入门首选", "小巧便携"]
       }
     },
     {
-      "searchQuery": "不锈钢保温杯 大容量",
+      "searchQuery": "天猫 物理灭蚊器 希亦 K-lamp 价格",
       "searchResult": {
-        "name": "STANLEY Quencher H2.0不锈钢真空吸管杯887ml",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1780532420709_1.jpg",
-        "category": "¥258起 · 好评率98%",
-        "tags": ["Stanley", "好评98%", "887ml"]
+        "name": "希亦 K-lamp 四重仿生灭蚊器",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1780615690382_1.jpg",
+        "category": "母婴家电 · 灭蚊效率+160% · 纯物理0化学",
+        "tags": ["¥169-199", "UV紫光+负压", "母婴级安全"]
       },
       "hotProduct": {
-        "name": "膳魔师THERMOS经典不锈钢保温杯",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1780532454028_1.jpg",
-        "category": "户外运动",
-        "price": "待查",
-        "sales": "数据待查",
-        "rating": "",
-        "tags": ["THERMOS", "日本品牌", "500ml"]
+        "name": "小米米家 智能灭蚊器",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1780615701149_1.jpg",
+        "category": "小米生态链",
+        "price": "¥99",
+        "sales": "京东月销5,000+",
+        "rating": "★ 4.4",
+        "tags": ["¥99", "米家APP", "极简设计"]
       }
     },
     {
-      "searchQuery": "香薰蜡烛 大豆蜡 礼盒",
+      "searchQuery": "1688 化妆收纳包 旅行 淑牌芯 价格",
       "searchResult": {
-        "name": "Jo Malone祖玛珑英国梨小苍兰香薰蜡烛",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780532422128_1.jpg",
-        "category": "¥420-820 · 综合指数85412",
-        "tags": ["祖玛珑", "高端香氛", "礼盒装"]
+        "name": "淑牌芯 大容量旅行化妆收纳包",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780615692517_1.jpg",
+        "category": "1688批发 · 成交125万+ · 跨境热卖",
+        "tags": ["¥2.25起", "多色可选", "立式大开口"]
       },
       "hotProduct": {
-        "name": "野兽派BEAST小小铃兰灯香薰蜡烛",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5b_001.jpg",
-        "category": "生活美学",
-        "price": "¥568",
-        "sales": "综合指数81059",
-        "rating": "",
-        "tags": ["野兽派", "国潮", "铃兰香调"]
+        "name": "Little Fairy 原创旅行收纳包",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1780615703004_1.jpg",
+        "category": "天猫旗舰店",
+        "price": "¥13.8-15.8",
+        "sales": "天猫品类销量领先",
+        "rating": "★ 4.6",
+        "tags": ["¥13.8", "原创设计", "防泼水"]
       }
     }
   ]
