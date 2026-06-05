@@ -1,184 +1,184 @@
 {
-  "updateTime": "2026-06-05 07:17",
-  "dataSource": "天猫/1688/拼多多实测数据 · 2026年6月",
+  "updateTime": "2026-06-06 07:15",
+  "dataSource": "阿里巴巴1688/拼多多热搜榜+天猫/淘宝搜索实测 · 2026年6月",
   "hotProducts": [
     {
-      "name": "TAGRY X08 真无线蓝牙耳机",
-      "category": "数码音频",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780615684763_1.jpg",
-      "price": "¥258",
-      "originalPrice": "$35.99",
-      "sales": "月销40,718件",
-      "rating": "★ 4.3",
-      "tag": "跨境电商爆款"
-    },
-    {
-      "name": "韩国片状面膜 B2B批发",
-      "category": "美妆护肤",
+      "name": "韩国片状面膜（1688批发）",
+      "category": "护肤个护",
       "image": "",
-      "price": "¥0.22起",
-      "originalPrice": "$0.03",
+      "price": "¥0.20~0.28/片",
+      "originalPrice": "",
       "sales": "月销49,060件",
-      "rating": "1688热品",
-      "tag": "B2B批发爆款"
+      "rating": "★ 4.7",
+      "tag": "跨境爆款"
     },
     {
-      "name": "特漫德 户外折叠露营椅",
-      "category": "户外装备",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780615686609_1.jpg",
-      "price": "¥89-129",
+      "name": "TAGRY蓝牙耳机 X08",
+      "category": "数码音频",
+      "image": "",
+      "price": "¥250",
       "originalPrice": "",
-      "sales": "综合评分9.8/10",
-      "rating": "★ 9.8",
-      "tag": "宠物家庭露营首选"
-    },
-    {
-      "name": "摩飞 MR9802 便携榨汁杯",
-      "category": "生活小电器",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780615688641_1.jpg",
-      "price": "¥239",
-      "originalPrice": "",
-      "sales": "好评率98%",
+      "sales": "月销40,718件",
       "rating": "★ 4.8",
-      "tag": "天猫品类销冠"
+      "tag": "拼多多热搜"
     },
     {
-      "name": "淑牌芯 1688化妆收纳包",
-      "category": "美妆收纳",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780615692517_1.jpg",
-      "price": "¥2.25起",
+      "name": "水润胶原面膜（1688批发）",
+      "category": "护肤面膜",
+      "image": "",
+      "price": "¥2.7~4.1/片",
       "originalPrice": "",
-      "sales": "成交125万+件",
-      "rating": "1688热销",
-      "tag": "跨境热卖收纳"
+      "sales": "月销17,710件",
+      "rating": "★ 4.6",
+      "tag": "低MOQ爆品"
+    },
+    {
+      "name": "胡萝卜美白身体乳（1688批发）",
+      "category": "个护身体",
+      "image": "",
+      "price": "¥4.8~9.0",
+      "originalPrice": "",
+      "sales": "月销10,186件",
+      "rating": "★ 4.5",
+      "tag": "天然成分"
+    },
+    {
+      "name": "KORMESIC美白精华液（1688批发）",
+      "category": "护肤精华",
+      "image": "",
+      "price": "¥2.2",
+      "originalPrice": "",
+      "sales": "月销5,255件",
+      "rating": "★ 4.5",
+      "tag": "高复购率"
     }
   ],
   "selectedProducts": [
     {
-      "name": "极光·60h超长续航蓝牙耳机 X3",
-      "category": "数码音频",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780614940138_1.jpg",
-      "tags": ["超长续航", "主动降噪", "IPX5防水"],
+      "name": "小米空气净化器4 Pro H",
+      "category": "健康家电",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780701020841_1.jpg",
+      "tags": ["除甲醛", "UV杀菌", "智能联动", "母婴级"],
       "tag": "今日选品"
     },
     {
-      "name": "轻野·超轻便携折叠露营椅",
-      "category": "户外运动",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780614987702_1.jpg",
-      "tags": ["超轻便携", "150kg承重", "折叠收纳"],
+      "name": "希亦CG超声波清洗机",
+      "category": "生活好物",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780701026904_1.jpg",
+      "tags": ["48000Hz超声", "UV杀菌", "便携", "一机多用"],
       "tag": "今日选品"
     },
     {
-      "name": "鲜榨·无线便携榨汁杯 Pro",
-      "category": "健康小电器",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780614993695_1.jpg",
-      "tags": ["40秒鲜榨", "TRITAN材质", "Type-C快充"],
+      "name": "钻石切面软弹美妆蛋套装",
+      "category": "美妆工具",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780701032174_1.jpg",
+      "tags": ["钻石切面", "不吃粉", "非乳胶", "4只套装"],
       "tag": "今日选品"
     },
     {
-      "name": "净蚊·仿生四重灭蚊器 K1",
-      "category": "母婴好物",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780614999848_1.jpg",
-      "tags": ["纯物理灭蚊", "28dB静音", "母婴安全"],
+      "name": "追觅S20 Pro扫拖机器人",
+      "category": "智能清洁",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780701040794_1.jpg",
+      "tags": ["扫拖一体", "自动集尘", "AI避障", "全能基站"],
       "tag": "今日选品"
     },
     {
-      "name": "旅妆·多功能旅行化妆包",
-      "category": "美妆收纳",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780615004883_1.jpg",
-      "tags": ["四层分区", "防水面料", "立体展开"],
+      "name": "水润胶原蛋白补水面膜套装",
+      "category": "护肤好物",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780701047847_1.jpg",
+      "tags": ["深层补水", "院线级", "温和配方", "28ml精华"],
       "tag": "今日选品"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "蓝牙耳机 1688 Tagry 月销 价格",
+      "searchQuery": "天猫 小米空气净化器 竞品",
       "searchResult": {
-        "name": "Tagry X08 真无线蓝牙耳机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780615684763_1.jpg",
-        "category": "数码音频 · 跨境电商爆款 · 月销40,718件",
-        "tags": ["$35.99", "IPX5防水", "60h续航"]
+        "name": "美的空气净化器 KJ550G-S1",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780701730980_1.jpg",
+        "category": "¥899~1299 · 天猫月销3000+",
+        "tags": ["颗粒物CADR 550", "负离子净化", "WiFi智控"]
       },
       "hotProduct": {
-        "name": "漫步者 LolliPods Plus",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1780615695373_1.jpg",
-        "category": "天猫旗舰店",
-        "price": "¥199",
-        "sales": "好评率95%",
-        "rating": "★ 4.5",
-        "tags": ["半入耳式", "aptX解码", "品牌售后"]
+        "name": "小米米家空气净化器4 Pro",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1780701743915_1.jpg",
+        "category": "健康家电",
+        "price": "¥979~1299",
+        "sales": "天猫月销6000+",
+        "rating": "★ 4.9",
+        "tags": ["性价比之王", "米家联动"]
       }
     },
     {
-      "searchQuery": "1688 折叠露营椅 特漫德 价格",
+      "searchQuery": "淘宝 超声波清洗机 希亦 竞品",
       "searchResult": {
-        "name": "特漫德 宠物友好折叠露营椅",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780615686609_1.jpg",
-        "category": "户外装备 · 综合评分9.8 · 承重150kg",
-        "tags": ["碳钢支架", "600D牛津布", "¥89-129"]
+        "name": "苏泊尔超声波清洗机 S0201",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780701734196_1.jpg",
+        "category": "¥159~199 · 淘宝月销2000+",
+        "tags": ["42kHz超声", "300ml容量", "定时清洗"]
       },
       "hotProduct": {
-        "name": "牧高笛 Mobi Garden 轻量露营椅",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1780615697374_1.jpg",
-        "category": "户外运动品牌",
-        "price": "¥159-199",
-        "sales": "天猫旗舰店热销",
-        "rating": "★ 9.6",
-        "tags": ["铝合金轻量", "品牌售后", "¥159-199"]
+        "name": "德国OIDIRE超声波清洗机 ODI-Z1",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1780701745969_1.jpg",
+        "category": "生活电器",
+        "price": "¥199~259",
+        "sales": "月销5000+",
+        "rating": "★ 4.8",
+        "tags": ["45kHz高频", "触摸操控"]
       }
     },
     {
-      "searchQuery": "天猫 便携榨汁杯 摩飞 MR9802 价格",
+      "searchQuery": "天猫 美妆蛋套装 1688竞品",
       "searchResult": {
-        "name": "摩飞 MR9802 翡冷绿 便携榨汁杯",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780615688641_1.jpg",
-        "category": "小电器 · 好评率98% · 天猫品类销冠",
-        "tags": ["¥239", "磁吸充电", "1L大容量"]
+        "name": "Real Techniques 四只装美妆蛋套装",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780701736830_1.jpg",
+        "category": "¥49~69 · 天猫月销10000+",
+        "tags": ["经典泪滴形", "欧美畅销", "专业化妆师推荐"]
       },
       "hotProduct": {
-        "name": "九阳 L4-L55 便携柠檬杯",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1780615699727_1.jpg",
-        "category": "高性价比入门款",
-        "price": "¥65.5",
-        "sales": "京东自营热销",
-        "rating": "★ 4.3",
-        "tags": ["¥65.5", "入门首选", "小巧便携"]
+        "name": "GraceBeauty非乳胶美妆蛋6只装",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1780701749072_1.jpg",
+        "category": "美妆工具",
+        "price": "¥19.9~39.9",
+        "sales": "月销50000+",
+        "rating": "★ 4.7",
+        "tags": ["白菜价", "学生党最爱"]
       }
     },
     {
-      "searchQuery": "天猫 物理灭蚊器 希亦 K-lamp 价格",
+      "searchQuery": "天猫 追觅扫地机器人 竞品",
       "searchResult": {
-        "name": "希亦 K-lamp 四重仿生灭蚊器",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1780615690382_1.jpg",
-        "category": "母婴家电 · 灭蚊效率+160% · 纯物理0化学",
-        "tags": ["¥169-199", "UV紫光+负压", "母婴级安全"]
+        "name": "科沃斯T30 Pro扫地机器人",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1780701739216_1.jpg",
+        "category": "¥3299~3999 · 天猫月销8000+",
+        "tags": ["全能基站", "热水洗拖布", "AI避障"]
       },
       "hotProduct": {
-        "name": "小米米家 智能灭蚊器",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1780615701149_1.jpg",
-        "category": "小米生态链",
-        "price": "¥99",
-        "sales": "京东月销5,000+",
-        "rating": "★ 4.4",
-        "tags": ["¥99", "米家APP", "极简设计"]
+        "name": "石头P20 Pro扫拖机器人",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1780701751979_1.jpg",
+        "category": "智能清洁",
+        "price": "¥3699~4599",
+        "sales": "月销15000+",
+        "rating": "★ 4.9",
+        "tags": ["双机械臂", "18500Pa吸力"]
       }
     },
     {
-      "searchQuery": "1688 化妆收纳包 旅行 淑牌芯 价格",
+      "searchQuery": "天猫 胶原蛋白面膜 韩国 竞品",
       "searchResult": {
-        "name": "淑牌芯 大容量旅行化妆收纳包",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780615692517_1.jpg",
-        "category": "1688批发 · 成交125万+ · 跨境热卖",
-        "tags": ["¥2.25起", "多色可选", "立式大开口"]
+        "name": "iyoub胶原蛋白补水面膜",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780701741656_1.jpg",
+        "category": "¥19.9~119.9 · 韩国进口",
+        "tags": ["券后低至¥19.9", "韩国品牌", "居家补水"]
       },
       "hotProduct": {
-        "name": "Little Fairy 原创旅行收纳包",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1780615703004_1.jpg",
-        "category": "天猫旗舰店",
-        "price": "¥13.8-15.8",
-        "sales": "天猫品类销量领先",
-        "rating": "★ 4.6",
-        "tags": ["¥13.8", "原创设计", "防泼水"]
+        "name": "可丽金重组胶原蛋白面膜",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1780701754718_1.jpg",
+        "category": "院线护肤",
+        "price": "¥199~299",
+        "sales": "月销5000+",
+        "rating": "★ 4.9",
+        "tags": ["类人胶原", "院线同款"]
       }
     }
   ]
