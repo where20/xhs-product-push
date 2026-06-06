@@ -3,36 +3,66 @@
   "totalProducts": 55,
   "lastRunDate": "2026-06-07",
   "status": "运行中",
-  "updateTime": "2026-06-07 07:31",
+  "updateTime": "2026-06-07 07:32",
   "products": [
     {
-      "name": "精选好物1",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "希亦W1全自动擦窗机器人",
+      "category": "家居清洁",
+      "tags": [
+        "全自动擦窗",
+        "高层安全",
+        "AI智能清洁",
+        "干湿两用",
+        "超薄机身"
+      ],
       "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780788648933_1.jpg"
     },
     {
-      "name": "精选好物2",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "书客SKR2智能屏幕挂灯",
+      "category": "数码办公",
+      "tags": [
+        "屏幕挂灯",
+        "非对称光源",
+        "护眼办公",
+        "全光谱",
+        "桌面升级"
+      ],
       "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780788658235_1.jpg"
     },
     {
-      "name": "精选好物3",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "九阳Y1全自动破壁免洗豆浆机",
+      "category": "厨房家电",
+      "tags": [
+        "破壁免洗",
+        "智能预约",
+        "一机多用",
+        "自清洁",
+        "低噪音"
+      ],
       "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780788662496_1.jpg"
     },
     {
-      "name": "精选好物4",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "赫曼40oz不锈钢真空保温旅行杯",
+      "category": "生活方式",
+      "tags": [
+        "大容量水杯",
+        "316不锈钢",
+        "超长保温",
+        "高颜值",
+        "双盖设计"
+      ],
       "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780788665918_1.jpg"
     },
     {
-      "name": "精选好物5",
-      "category": "好物推荐",
-      "tags": [],
+      "name": "GRV智能多模式健身追踪手环",
+      "category": "智能穿戴",
+      "tags": [
+        "健身追踪",
+        "睡眠监测",
+        "超长续航",
+        "轻量设计",
+        "IP68防水"
+      ],
       "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780788669057_1.jpg"
     }
   ],
