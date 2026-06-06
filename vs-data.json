@@ -1,184 +1,184 @@
 {
-  "updateTime": "2026-06-06 07:15",
-  "dataSource": "阿里巴巴1688/拼多多热搜榜+天猫/淘宝搜索实测 · 2026年6月",
+  "updateTime": "2026-06-07 07:23",
+  "dataSource": "拼多多热搜榜+1688热销榜+天猫/京东搜索实测 · 2026年6月",
   "hotProducts": [
     {
-      "name": "韩国片状面膜（1688批发）",
-      "category": "护肤个护",
+      "name": "TAGRY蓝牙耳机 X08",
+      "category": "数码配件",
       "image": "",
-      "price": "¥0.20~0.28/片",
-      "originalPrice": "",
-      "sales": "月销49,060件",
-      "rating": "★ 4.7",
-      "tag": "跨境爆款"
+      "price": "¥280~350",
+      "originalPrice": "¥499",
+      "sales": "月销69,499件",
+      "rating": "★ 4.8",
+      "tag": "拼多多热搜TOP1"
     },
     {
-      "name": "TAGRY蓝牙耳机 X08",
+      "name": "Anker磁吸充电宝 5000mAh",
+      "category": "数码配件",
+      "image": "",
+      "price": "¥400~500",
+      "originalPrice": "",
+      "sales": "月销30,783件",
+      "rating": "★ 4.7",
+      "tag": "拼多多热销"
+    },
+    {
+      "name": "bmani无线运动耳机 T16",
       "category": "数码音频",
       "image": "",
-      "price": "¥250",
-      "originalPrice": "",
-      "sales": "月销40,718件",
-      "rating": "★ 4.8",
+      "price": "¥200~250",
+      "originalPrice": "¥399",
+      "sales": "月销22,469件",
+      "rating": "★ 4.6",
       "tag": "拼多多热搜"
     },
     {
-      "name": "水润胶原面膜（1688批发）",
-      "category": "护肤面膜",
+      "name": "科沃斯窗宝W2S擦窗机器人",
+      "category": "家居清洁",
       "image": "",
-      "price": "¥2.7~4.1/片",
-      "originalPrice": "",
-      "sales": "月销17,710件",
-      "rating": "★ 4.6",
-      "tag": "低MOQ爆品"
+      "price": "¥999",
+      "originalPrice": "¥1599",
+      "sales": "京东累计20万+台",
+      "rating": "★ 4.9",
+      "tag": "京东热卖榜第一"
     },
     {
-      "name": "胡萝卜美白身体乳（1688批发）",
-      "category": "个护身体",
+      "name": "小米手环9 Pro 银色版",
+      "category": "智能穿戴",
       "image": "",
-      "price": "¥4.8~9.0",
-      "originalPrice": "",
-      "sales": "月销10,186件",
-      "rating": "★ 4.5",
-      "tag": "天然成分"
-    },
-    {
-      "name": "KORMESIC美白精华液（1688批发）",
-      "category": "护肤精华",
-      "image": "",
-      "price": "¥2.2",
-      "originalPrice": "",
-      "sales": "月销5,255件",
-      "rating": "★ 4.5",
-      "tag": "高复购率"
+      "price": "¥200~300",
+      "originalPrice": "¥399",
+      "sales": "月销15,000+件",
+      "rating": "★ 4.7",
+      "tag": "天猫热销榜"
     }
   ],
   "selectedProducts": [
     {
-      "name": "小米空气净化器4 Pro H",
-      "category": "健康家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780701020841_1.jpg",
-      "tags": ["除甲醛", "UV杀菌", "智能联动", "母婴级"],
+      "name": "希亦W1全自动擦窗机器人",
+      "category": "家居清洁",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780787323728_1.jpg",
+      "tags": ["全自动擦窗","高层安全","AI智能清洁","干湿两用","超薄机身"],
       "tag": "今日选品"
     },
     {
-      "name": "希亦CG超声波清洗机",
-      "category": "生活好物",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780701026904_1.jpg",
-      "tags": ["48000Hz超声", "UV杀菌", "便携", "一机多用"],
+      "name": "书客SKR2智能屏幕挂灯",
+      "category": "数码办公",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780787329007_1.jpg",
+      "tags": ["屏幕挂灯","非对称光源","护眼办公","全光谱","桌面升级"],
       "tag": "今日选品"
     },
     {
-      "name": "钻石切面软弹美妆蛋套装",
-      "category": "美妆工具",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780701032174_1.jpg",
-      "tags": ["钻石切面", "不吃粉", "非乳胶", "4只套装"],
+      "name": "九阳Y1全自动破壁免洗豆浆机",
+      "category": "厨房家电",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780787334011_1.jpg",
+      "tags": ["破壁免洗","智能预约","一机多用","自清洁","低噪音"],
       "tag": "今日选品"
     },
     {
-      "name": "追觅S20 Pro扫拖机器人",
-      "category": "智能清洁",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780701040794_1.jpg",
-      "tags": ["扫拖一体", "自动集尘", "AI避障", "全能基站"],
+      "name": "赫曼40oz不锈钢真空保温旅行杯",
+      "category": "生活方式",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780787337154_1.jpg",
+      "tags": ["大容量水杯","316不锈钢","超长保温","高颜值","双盖设计"],
       "tag": "今日选品"
     },
     {
-      "name": "水润胶原蛋白补水面膜套装",
-      "category": "护肤好物",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780701047847_1.jpg",
-      "tags": ["深层补水", "院线级", "温和配方", "28ml精华"],
+      "name": "GRV智能多模式健身追踪手环",
+      "category": "智能穿戴",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780787339866_1.jpg",
+      "tags": ["健身追踪","睡眠监测","超长续航","轻量设计","IP68防水"],
       "tag": "今日选品"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "天猫 小米空气净化器 竞品",
+      "searchQuery": "1688 擦窗机器人 批发",
       "searchResult": {
-        "name": "美的空气净化器 KJ550G-S1",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780701730980_1.jpg",
-        "category": "¥899~1299 · 天猫月销3000+",
-        "tags": ["颗粒物CADR 550", "负离子净化", "WiFi智控"]
+        "name": "佛山慧迪智能擦窗机 · ¥181.66/台",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780788228461_1.jpg",
+        "category": "1688批发价 · 100件起批",
+        "tags": ["工厂直供","100件起批","比零售低35%","基础清洁","性价比之选"]
       },
       "hotProduct": {
-        "name": "小米米家空气净化器4 Pro",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1780701743915_1.jpg",
-        "category": "健康家电",
-        "price": "¥979~1299",
-        "sales": "天猫月销6000+",
+        "name": "科沃斯窗宝W2S全能基站版",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1780788230389_1.jpg",
+        "category": "家居清洁",
+        "price": "¥999",
+        "sales": "京东累计20万+",
         "rating": "★ 4.9",
-        "tags": ["性价比之王", "米家联动"]
+        "tags": ["京东热卖第一","好评99%+","基站自清洁","旗舰品牌","618爆款"]
       }
     },
     {
-      "searchQuery": "淘宝 超声波清洗机 希亦 竞品",
+      "searchQuery": "1688 屏幕挂灯 LED",
       "searchResult": {
-        "name": "苏泊尔超声波清洗机 S0201",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780701734196_1.jpg",
-        "category": "¥159~199 · 淘宝月销2000+",
-        "tags": ["42kHz超声", "300ml容量", "定时清洗"]
+        "name": "基础款LED屏幕挂灯 · ¥25~60/个",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780788231786_1.jpg",
+        "category": "1688批发价 · 10个起批 · USB供电",
+        "tags": ["基础照明","塑料外壳","USB供电","批发走量","简单安装"]
       },
       "hotProduct": {
-        "name": "德国OIDIRE超声波清洗机 ODI-Z1",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1780701745969_1.jpg",
-        "category": "生活电器",
-        "price": "¥199~259",
-        "sales": "月销5000+",
+        "name": "明基ScreenBar Halo2",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1780788232932_1.jpg",
+        "category": "数码办公",
+        "price": "¥1099",
+        "sales": "月销2000+",
         "rating": "★ 4.8",
-        "tags": ["45kHz高频", "触摸操控"]
+        "tags": ["工业设计奖","无线控制器","背光补偿","自动调光","专业级"]
       }
     },
     {
-      "searchQuery": "天猫 美妆蛋套装 1688竞品",
+      "searchQuery": "1688 破壁机 家用 批发",
       "searchResult": {
-        "name": "Real Techniques 四只装美妆蛋套装",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780701736830_1.jpg",
-        "category": "¥49~69 · 天猫月销10000+",
-        "tags": ["经典泪滴形", "欧美畅销", "专业化妆师推荐"]
+        "name": "基础款家用破壁机 · ¥80~150/台",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780788233902_1.jpg",
+        "category": "1688批发价 · 50台起批 · 需手动清洗",
+        "tags": ["基础功能","塑料杯体","需手动清洗","批发走量","入门级"]
       },
       "hotProduct": {
-        "name": "GraceBeauty非乳胶美妆蛋6只装",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1780701749072_1.jpg",
-        "category": "美妆工具",
-        "price": "¥19.9~39.9",
-        "sales": "月销50000+",
+        "name": "九阳轻音破壁机 L18-Y902",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1780788234984_1.jpg",
+        "category": "厨房家电",
+        "price": "¥299",
+        "sales": "天猫双11热销爆款",
         "rating": "★ 4.7",
-        "tags": ["白菜价", "学生党最爱"]
+        "tags": ["1.75L大容量","轻音降噪","12h预约","一键清洗","京东好评98%"]
       }
     },
     {
-      "searchQuery": "天猫 追觅扫地机器人 竞品",
+      "searchQuery": "1688 不锈钢保温杯 大容量",
       "searchResult": {
-        "name": "科沃斯T30 Pro扫地机器人",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1780701739216_1.jpg",
-        "category": "¥3299~3999 · 天猫月销8000+",
-        "tags": ["全能基站", "热水洗拖布", "AI避障"]
+        "name": "基础款不锈钢保温杯 · ¥15~35/个",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1780788236091_1.jpg",
+        "category": "1688批发价 · 100个起批 · 304不锈钢",
+        "tags": ["304不锈钢","基础保温","批发走量","简易包装","入门级"]
       },
       "hotProduct": {
-        "name": "石头P20 Pro扫拖机器人",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1780701751979_1.jpg",
-        "category": "智能清洁",
-        "price": "¥3699~4599",
-        "sales": "月销15000+",
-        "rating": "★ 4.9",
-        "tags": ["双机械臂", "18500Pa吸力"]
+        "name": "膳魔师JNL-502真空保温杯",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1780788237014_1.jpg",
+        "category": "生活方式",
+        "price": "¥259",
+        "sales": "京东月销5000+",
+        "rating": "★ 4.8",
+        "tags": ["316不锈钢","6h保温80℃+","170g超轻","日本品牌","口碑之选"]
       }
     },
     {
-      "searchQuery": "天猫 胶原蛋白面膜 韩国 竞品",
+      "searchQuery": "1688 健身手环 智能",
       "searchResult": {
-        "name": "iyoub胶原蛋白补水面膜",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780701741656_1.jpg",
-        "category": "¥19.9~119.9 · 韩国进口",
-        "tags": ["券后低至¥19.9", "韩国品牌", "居家补水"]
+        "name": "基础款健身手环 · ¥15~45/个",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780788238016_1.jpg",
+        "category": "1688批发价 · 100个起批 · 黑白屏",
+        "tags": ["基础计步","黑白显示屏","塑料表带","批发走量","无品牌"]
       },
       "hotProduct": {
-        "name": "可丽金重组胶原蛋白面膜",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1780701754718_1.jpg",
-        "category": "院线护肤",
-        "price": "¥199~299",
-        "sales": "月销5000+",
-        "rating": "★ 4.9",
-        "tags": ["类人胶原", "院线同款"]
+        "name": "小米手环9 Pro 银色健康版",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1780788239180_1.jpg",
+        "category": "智能穿戴",
+        "price": "¥279",
+        "sales": "京东月销15,000+",
+        "rating": "★ 4.7",
+        "tags": ["AMOLED彩屏","NFC支付","血氧监测","14天续航","5ATM防水"]
       }
     }
   ]
