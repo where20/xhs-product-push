@@ -1,184 +1,184 @@
 {
-  "updateTime": "2026-06-07 07:23",
-  "dataSource": "拼多多热搜榜+1688热销榜+天猫/京东搜索实测 · 2026年6月",
+  "updateTime": "2026-06-10 07:00",
+  "dataSource": "天猫/京东/1688/拼多多实测数据 · 2026年6月",
   "hotProducts": [
     {
-      "name": "TAGRY蓝牙耳机 X08",
-      "category": "数码配件",
+      "name": "AUTOMET女士两件套居家服",
+      "category": "女装/居家服",
       "image": "",
-      "price": "¥280~350",
-      "originalPrice": "¥499",
-      "sales": "月销69,499件",
-      "rating": "★ 4.8",
+      "price": "¥350",
+      "originalPrice": "¥48.33(亚马逊)",
+      "sales": "月销36,476件",
+      "rating": "★ 4.4",
+      "tag": "亚马逊家居服TOP1"
+    },
+    {
+      "name": "ANRABESS女士短袖上衣",
+      "category": "时尚服饰",
+      "image": "",
+      "price": "¥73",
+      "originalPrice": "¥10.05(亚马逊)",
+      "sales": "月销24,307件",
+      "rating": "数据待查",
       "tag": "拼多多热搜TOP1"
     },
     {
-      "name": "Anker磁吸充电宝 5000mAh",
-      "category": "数码配件",
+      "name": "RAXCO厨房用具套装",
+      "category": "厨房用品",
       "image": "",
-      "price": "¥400~500",
-      "originalPrice": "",
-      "sales": "月销30,783件",
-      "rating": "★ 4.7",
-      "tag": "拼多多热销"
+      "price": "¥290",
+      "originalPrice": "¥40.03(亚马逊)",
+      "sales": "月销1,244件",
+      "rating": "数据待查",
+      "tag": "厨房热销"
     },
     {
-      "name": "bmani无线运动耳机 T16",
-      "category": "数码音频",
+      "name": "Wi-Fi智能插座(美式)",
+      "category": "智能家居",
       "image": "",
-      "price": "¥200~250",
-      "originalPrice": "¥399",
-      "sales": "月销22,469件",
-      "rating": "★ 4.6",
-      "tag": "拼多多热搜"
+      "price": "¥40~47",
+      "originalPrice": "¥5.50(阿里巴巴)",
+      "sales": "B2B热销",
+      "rating": "数据待查",
+      "tag": "智能家居增长款"
     },
     {
-      "name": "科沃斯窗宝W2S擦窗机器人",
-      "category": "家居清洁",
+      "name": "Garvee便携式电暖器",
+      "category": "小家电",
       "image": "",
-      "price": "¥999",
-      "originalPrice": "¥1599",
-      "sales": "京东累计20万+台",
-      "rating": "★ 4.9",
-      "tag": "京东热卖榜第一"
-    },
-    {
-      "name": "小米手环9 Pro 银色版",
-      "category": "智能穿戴",
-      "image": "",
-      "price": "¥200~300",
-      "originalPrice": "¥399",
-      "sales": "月销15,000+件",
-      "rating": "★ 4.7",
-      "tag": "天猫热销榜"
+      "price": "¥167",
+      "originalPrice": "¥23.01(亚马逊)",
+      "sales": "月销581件",
+      "rating": "数据待查",
+      "tag": "冬季小家电爆款"
     }
   ],
   "selectedProducts": [
     {
-      "name": "希亦W1全自动擦窗机器人",
-      "category": "家居清洁",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1780787323728_1.jpg",
-      "tags": ["全自动擦窗","高层安全","AI智能清洁","干湿两用","超薄机身"],
+      "name": "南卡 OE GT2 开放式耳机",
+      "category": "数码耳机",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1781046544054_1.jpg",
+      "tags": ["开放式耳机", "运动佩戴", "低延迟", "超轻28g"],
       "tag": "今日选品"
     },
     {
-      "name": "书客SKR2智能屏幕挂灯",
-      "category": "数码办公",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1780787329007_1.jpg",
-      "tags": ["屏幕挂灯","非对称光源","护眼办公","全光谱","桌面升级"],
+      "name": "美的小炎烤空气炸锅",
+      "category": "厨房小家电",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1781046548813_1.jpg",
+      "tags": ["空气炸锅", "健康少油", "大容量", "一键烹饪"],
       "tag": "今日选品"
     },
     {
-      "name": "九阳Y1全自动破壁免洗豆浆机",
-      "category": "厨房家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1780787334011_1.jpg",
-      "tags": ["破壁免洗","智能预约","一机多用","自清洁","低噪音"],
+      "name": "戴森 Supersonic HD15 吹风机",
+      "category": "个护小家电",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1781046552420_1.jpg",
+      "tags": ["戴森吹风机", "护发不伤发", "智能温控", "快速干发"],
       "tag": "今日选品"
     },
     {
-      "name": "赫曼40oz不锈钢真空保温旅行杯",
-      "category": "生活方式",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1780787337154_1.jpg",
-      "tags": ["大容量水杯","316不锈钢","超长保温","高颜值","双盖设计"],
+      "name": "花西子空气蜜粉",
+      "category": "美妆护肤",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1781046557207_1.jpg",
+      "tags": ["定妆蜜粉", "控油持妆", "养肤底妆", "零粉感"],
       "tag": "今日选品"
     },
     {
-      "name": "GRV智能多模式健身追踪手环",
-      "category": "智能穿戴",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1780787339866_1.jpg",
-      "tags": ["健身追踪","睡眠监测","超长续航","轻量设计","IP68防水"],
+      "name": "小米空气净化器4 Lite",
+      "category": "生活家电",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1781046560673_1.jpg",
+      "tags": ["空气净化器", "除PM2.5", "智能联动", "静音守护"],
       "tag": "今日选品"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "1688 擦窗机器人 批发",
+      "searchQuery": "开放式耳机",
       "searchResult": {
-        "name": "佛山慧迪智能擦窗机 · ¥181.66/台",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1780788228461_1.jpg",
-        "category": "1688批发价 · 100件起批",
-        "tags": ["工厂直供","100件起批","比零售低35%","基础清洁","性价比之选"]
+        "name": "韶音OpenFit Air T511",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1781048209937_1.jpg",
+        "category": "¥448~598 · 京东月销2万+",
+        "tags": ["韶音品牌", "空气耳挂", "运动蓝牙"]
       },
       "hotProduct": {
-        "name": "科沃斯窗宝W2S全能基站版",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1780788230389_1.jpg",
-        "category": "家居清洁",
-        "price": "¥999",
-        "sales": "京东累计20万+",
-        "rating": "★ 4.9",
-        "tags": ["京东热卖第一","好评99%+","基站自清洁","旗舰品牌","618爆款"]
+        "name": "倍思Eli开放式耳机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1781048224410_1.jpg",
+        "category": "数码耳机",
+        "price": "¥199~259",
+        "sales": "月销5万+",
+        "rating": "★ 4.6",
+        "tags": ["高性价比", "透明充电盒", "运动耳夹"]
       }
     },
     {
-      "searchQuery": "1688 屏幕挂灯 LED",
+      "searchQuery": "空气炸锅",
       "searchResult": {
-        "name": "基础款LED屏幕挂灯 · ¥25~60/个",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1780788231786_1.jpg",
-        "category": "1688批发价 · 10个起批 · USB供电",
-        "tags": ["基础照明","塑料外壳","USB供电","批发走量","简单安装"]
+        "name": "九阳KL65-V9空气炸锅",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1781048213414_1.jpg",
+        "category": "¥699 · 月销8万+",
+        "tags": ["九阳品牌", "6.5L大容量", "可视窗"]
       },
       "hotProduct": {
-        "name": "明基ScreenBar Halo2",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1780788232932_1.jpg",
-        "category": "数码办公",
-        "price": "¥1099",
-        "sales": "月销2000+",
-        "rating": "★ 4.8",
-        "tags": ["工业设计奖","无线控制器","背光补偿","自动调光","专业级"]
-      }
-    },
-    {
-      "searchQuery": "1688 破壁机 家用 批发",
-      "searchResult": {
-        "name": "基础款家用破壁机 · ¥80~150/台",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1780788233902_1.jpg",
-        "category": "1688批发价 · 50台起批 · 需手动清洗",
-        "tags": ["基础功能","塑料杯体","需手动清洗","批发走量","入门级"]
-      },
-      "hotProduct": {
-        "name": "九阳轻音破壁机 L18-Y902",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1780788234984_1.jpg",
-        "category": "厨房家电",
-        "price": "¥299",
-        "sales": "天猫双11热销爆款",
+        "name": "苏泊尔KD60Y883空气炸锅",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1781048226796_1.jpg",
+        "category": "厨房小家电",
+        "price": "¥359",
+        "sales": "月销6万+",
         "rating": "★ 4.7",
-        "tags": ["1.75L大容量","轻音降噪","12h预约","一键清洗","京东好评98%"]
+        "tags": ["高性价比", "6L容量", "国补优惠"]
       }
     },
     {
-      "searchQuery": "1688 不锈钢保温杯 大容量",
+      "searchQuery": "吹风机",
       "searchResult": {
-        "name": "基础款不锈钢保温杯 · ¥15~35/个",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1780788236091_1.jpg",
-        "category": "1688批发价 · 100个起批 · 304不锈钢",
-        "tags": ["304不锈钢","基础保温","批发走量","简易包装","入门级"]
+        "name": "徕芬LF03高速吹风机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1781048215869_1.jpg",
+        "category": "¥599 · 月销10万+",
+        "tags": ["国产黑马", "11万转马达", "性价比王"]
       },
       "hotProduct": {
-        "name": "膳魔师JNL-502真空保温杯",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1780788237014_1.jpg",
-        "category": "生活方式",
-        "price": "¥259",
-        "sales": "京东月销5000+",
-        "rating": "★ 4.8",
-        "tags": ["316不锈钢","6h保温80℃+","170g超轻","日本品牌","口碑之选"]
+        "name": "追觅极光AHD7RD吹风机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1781048229223_1.jpg",
+        "category": "个护小家电",
+        "price": "¥899",
+        "sales": "月销5万+",
+        "rating": "★ 4.5",
+        "tags": ["高速马达", "金属风嘴", "国产品牌"]
       }
     },
     {
-      "searchQuery": "1688 健身手环 智能",
+      "searchQuery": "定妆蜜粉",
       "searchResult": {
-        "name": "基础款健身手环 · ¥15~45/个",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1780788238016_1.jpg",
-        "category": "1688批发价 · 100个起批 · 黑白屏",
-        "tags": ["基础计步","黑白显示屏","塑料表带","批发走量","无品牌"]
+        "name": "纪梵希四宫格散粉",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1781048218277_1.jpg",
+        "category": "¥239~390 · 京东累计销230万+",
+        "tags": ["国际大牌", "四色修容", "好评率96%"]
       },
       "hotProduct": {
-        "name": "小米手环9 Pro 银色健康版",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1780788239180_1.jpg",
-        "category": "智能穿戴",
-        "price": "¥279",
-        "sales": "京东月销15,000+",
-        "rating": "★ 4.7",
-        "tags": ["AMOLED彩屏","NFC支付","血氧监测","14天续航","5ATM防水"]
+        "name": "完美日记轻羽散粉",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1781048231860_1.jpg",
+        "category": "美妆护肤",
+        "price": "¥69~89",
+        "sales": "月销3万+",
+        "rating": "★ 4.3",
+        "tags": ["平价国货", "轻薄透气", "学生党首选"]
+      }
+    },
+    {
+      "searchQuery": "空气净化器",
+      "searchResult": {
+        "name": "352 X60空气净化器",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1781048221879_1.jpg",
+        "category": "¥1981~2299 · ZOL评分9.8",
+        "tags": ["专业净化", "三侧进风", "除甲醛"]
+      },
+      "hotProduct": {
+        "name": "华为智选720空气净化器3i",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1781048234759_1.jpg",
+        "category": "生活家电",
+        "price": "¥699",
+        "sales": "华为商城热销",
+        "rating": "数据待查",
+        "tags": ["华为智选", "HiLink智能", "原价999"]
       }
     }
   ]
