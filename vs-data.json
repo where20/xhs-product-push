@@ -1,184 +1,184 @@
 {
-  "updateTime": "2026-06-10 07:00",
-  "dataSource": "天猫/京东/1688/拼多多实测数据 · 2026年6月",
+  "updateTime": "2026-06-12 07:30",
+  "dataSource": "天猫/京东/拼多多/1688实测数据 · 2026年6月",
   "hotProducts": [
     {
-      "name": "AUTOMET女士两件套居家服",
-      "category": "女装/居家服",
-      "image": "",
-      "price": "¥350",
-      "originalPrice": "¥48.33(亚马逊)",
-      "sales": "月销36,476件",
+      "name": "TAGRY蓝牙耳机(60h续航)",
+      "category": "数码影音",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_right4.png",
+      "price": "¥280-350",
+      "originalPrice": "",
+      "sales": "月销69,499件",
       "rating": "★ 4.4",
-      "tag": "亚马逊家居服TOP1"
+      "tag": "拼多多蓝牙耳机TOP1"
     },
     {
-      "name": "ANRABESS女士短袖上衣",
-      "category": "时尚服饰",
-      "image": "",
-      "price": "¥73",
-      "originalPrice": "¥10.05(亚马逊)",
-      "sales": "月销24,307件",
-      "rating": "数据待查",
-      "tag": "拼多多热搜TOP1"
+      "name": "Anker磁吸充电宝(5000mAh)",
+      "category": "数码配件",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_right4.png",
+      "price": "¥400-500",
+      "originalPrice": "",
+      "sales": "月销30,783件",
+      "rating": "★ 4.5",
+      "tag": "拼多多充电宝热销"
     },
     {
-      "name": "RAXCO厨房用具套装",
-      "category": "厨房用品",
-      "image": "",
-      "price": "¥290",
-      "originalPrice": "¥40.03(亚马逊)",
-      "sales": "月销1,244件",
-      "rating": "数据待查",
-      "tag": "厨房热销"
+      "name": "bmani无线运动蓝牙耳机",
+      "category": "运动数码",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_left4.png",
+      "price": "¥200-250",
+      "originalPrice": "",
+      "sales": "月销22,469件",
+      "rating": "★ 4.4",
+      "tag": "80h续航运动耳机"
     },
     {
-      "name": "Wi-Fi智能插座(美式)",
-      "category": "智能家居",
-      "image": "",
-      "price": "¥40~47",
-      "originalPrice": "¥5.50(阿里巴巴)",
-      "sales": "B2B热销",
-      "rating": "数据待查",
-      "tag": "智能家居增长款"
+      "name": "颐莲玻尿酸补水面膜(10片装)",
+      "category": "美妆护肤",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_left5.png",
+      "price": "¥79",
+      "originalPrice": "",
+      "sales": "天猫月销5万+",
+      "rating": "★ 4.7",
+      "tag": "国货补水面膜爆款"
     },
     {
-      "name": "Garvee便携式电暖器",
-      "category": "小家电",
-      "image": "",
-      "price": "¥167",
-      "originalPrice": "¥23.01(亚马逊)",
-      "sales": "月销581件",
-      "rating": "数据待查",
-      "tag": "冬季小家电爆款"
+      "name": "小熊QXQ-B25K1超声波清洗机",
+      "category": "个护清洁",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_right1.png",
+      "price": "¥179",
+      "originalPrice": "",
+      "sales": "京东累计评价2万+",
+      "rating": "★ 4.3",
+      "tag": "百元清洗机性价比之选"
     }
   ],
   "selectedProducts": [
     {
-      "name": "南卡 OE GT2 开放式耳机",
-      "category": "数码耳机",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1781046544054_1.jpg",
-      "tags": ["开放式耳机", "运动佩戴", "低延迟", "超轻28g"],
+      "name": "希亦CG超声波清洗机",
+      "category": "个护清洁",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1781219653212_1.jpg",
+      "tags": ["48KHz高频", "UVC杀菌", "一机多用"],
       "tag": "今日选品"
     },
     {
-      "name": "美的小炎烤空气炸锅",
-      "category": "厨房小家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1781046548813_1.jpg",
-      "tags": ["空气炸锅", "健康少油", "大容量", "一键烹饪"],
+      "name": "海尔鲜活水Pro R793净水器",
+      "category": "厨房家电",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1781219660723_1.jpg",
+      "tags": ["1400G大通量", "七级过滤", "6年RO膜"],
       "tag": "今日选品"
     },
     {
-      "name": "戴森 Supersonic HD15 吹风机",
-      "category": "个护小家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1781046552420_1.jpg",
-      "tags": ["戴森吹风机", "护发不伤发", "智能温控", "快速干发"],
+      "name": "友望热活水扫地机器人",
+      "category": "智能清洁",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1781219667238_1.jpg",
+      "tags": ["80℃热活水", "20000Pa", "自清洁基站"],
       "tag": "今日选品"
     },
     {
-      "name": "花西子空气蜜粉",
+      "name": "TAGRY X80真无线降噪耳机",
+      "category": "数码影音",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1781219673364_1.jpg",
+      "tags": ["60h续航", "13mm动圈", "IPX5防水"],
+      "tag": "今日选品"
+    },
+    {
+      "name": "素食深层胶原蛋白补水面膜",
       "category": "美妆护肤",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1781046557207_1.jpg",
-      "tags": ["定妆蜜粉", "控油持妆", "养肤底妆", "零粉感"],
-      "tag": "今日选品"
-    },
-    {
-      "name": "小米空气净化器4 Lite",
-      "category": "生活家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1781046560673_1.jpg",
-      "tags": ["空气净化器", "除PM2.5", "智能联动", "静音守护"],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1781219679854_1.jpg",
+      "tags": ["植物胶原", "三层补水", "纯净护肤"],
       "tag": "今日选品"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "开放式耳机",
+      "searchQuery": "超声波清洗机 希亦CG vs 竞品",
       "searchResult": {
-        "name": "韶音OpenFit Air T511",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1781048209937_1.jpg",
-        "category": "¥448~598 · 京东月销2万+",
-        "tags": ["韶音品牌", "空气耳挂", "运动蓝牙"]
+        "name": "德国ODI-CS02超声波清洗机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1.png",
+        "category": "¥199 · 京东好评率96%",
+        "tags": ["48KHz", "进口换能器", "德系品质"]
       },
       "hotProduct": {
-        "name": "倍思Eli开放式耳机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1781048224410_1.jpg",
-        "category": "数码耳机",
-        "price": "¥199~259",
-        "sales": "月销5万+",
-        "rating": "★ 4.6",
-        "tags": ["高性价比", "透明充电盒", "运动耳夹"]
-      }
-    },
-    {
-      "searchQuery": "空气炸锅",
-      "searchResult": {
-        "name": "九阳KL65-V9空气炸锅",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1781048213414_1.jpg",
-        "category": "¥699 · 月销8万+",
-        "tags": ["九阳品牌", "6.5L大容量", "可视窗"]
-      },
-      "hotProduct": {
-        "name": "苏泊尔KD60Y883空气炸锅",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1781048226796_1.jpg",
-        "category": "厨房小家电",
-        "price": "¥359",
-        "sales": "月销6万+",
-        "rating": "★ 4.7",
-        "tags": ["高性价比", "6L容量", "国补优惠"]
-      }
-    },
-    {
-      "searchQuery": "吹风机",
-      "searchResult": {
-        "name": "徕芬LF03高速吹风机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1781048215869_1.jpg",
-        "category": "¥599 · 月销10万+",
-        "tags": ["国产黑马", "11万转马达", "性价比王"]
-      },
-      "hotProduct": {
-        "name": "追觅极光AHD7RD吹风机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1781048229223_1.jpg",
-        "category": "个护小家电",
-        "price": "¥899",
-        "sales": "月销5万+",
-        "rating": "★ 4.5",
-        "tags": ["高速马达", "金属风嘴", "国产品牌"]
-      }
-    },
-    {
-      "searchQuery": "定妆蜜粉",
-      "searchResult": {
-        "name": "纪梵希四宫格散粉",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1781048218277_1.jpg",
-        "category": "¥239~390 · 京东累计销230万+",
-        "tags": ["国际大牌", "四色修容", "好评率96%"]
-      },
-      "hotProduct": {
-        "name": "完美日记轻羽散粉",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1781048231860_1.jpg",
-        "category": "美妆护肤",
-        "price": "¥69~89",
-        "sales": "月销3万+",
+        "name": "小熊QXQ-B25K1超声波清洗机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1.png",
+        "category": "个护清洁",
+        "price": "¥179",
+        "sales": "京东评价2万+",
         "rating": "★ 4.3",
-        "tags": ["平价国货", "轻薄透气", "学生党首选"]
+        "tags": ["入门首选", "高性价比"]
       }
     },
     {
-      "searchQuery": "空气净化器",
+      "searchQuery": "RO反渗透净水器 海尔R793 vs 美的白泽",
       "searchResult": {
-        "name": "352 X60空气净化器",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1781048221879_1.jpg",
-        "category": "¥1981~2299 · ZOL评分9.8",
-        "tags": ["专业净化", "三侧进风", "除甲醛"]
+        "name": "美的白泽1000G Pro净水器",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2.png",
+        "category": "¥1550 · 京东评价20万+",
+        "tags": ["陶氏RO膜", "5年长效", "零陈水"]
       },
       "hotProduct": {
-        "name": "华为智选720空气净化器3i",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1781048234759_1.jpg",
-        "category": "生活家电",
-        "price": "¥699",
-        "sales": "华为商城热销",
-        "rating": "数据待查",
-        "tags": ["华为智选", "HiLink智能", "原价999"]
+        "name": "小米即热净水器Q800",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2.png",
+        "category": "厨房家电",
+        "price": "¥1299",
+        "sales": "京东评价50万+",
+        "rating": "★ 4.6",
+        "tags": ["即热出水", "米家生态", "高性价比"]
+      }
+    },
+    {
+      "searchQuery": "扫地机器人 友望热活水 vs 科沃斯T90",
+      "searchResult": {
+        "name": "科沃斯T90 PRO扫地机器人",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3.png",
+        "category": "¥3788~4290 · 京东评价20万+",
+        "tags": ["活水洗地", "零缠绕", "30.4%市占率"]
+      },
+      "hotProduct": {
+        "name": "石头P20 Ultra活水版",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3.png",
+        "category": "智能清洁",
+        "price": "¥3499-3999",
+        "sales": "京东评价10万+",
+        "rating": "★ 4.7",
+        "tags": ["热水洗拖布", "AI避障", "自动上下水"]
+      }
+    },
+    {
+      "searchQuery": "蓝牙耳机 TAGRY X80 vs bmani",
+      "searchResult": {
+        "name": "bmani无线运动耳机(80h续航)",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4.png",
+        "category": "¥200-250 · 拼多多月销22,469件",
+        "tags": ["80h续航", "耳挂式", "IPX7"]
+      },
+      "hotProduct": {
+        "name": "Anker Soundcore P40i降噪耳机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4.png",
+        "category": "数码影音",
+        "price": "¥349-399",
+        "sales": "亚马逊月销30,783件",
+        "rating": "★ 4.5",
+        "tags": ["主动降噪", "品牌旗舰", "App控制"]
+      }
+    },
+    {
+      "searchQuery": "补水面膜 素食胶原 vs 颐莲",
+      "searchResult": {
+        "name": "颐莲玻尿酸补水面膜(10片/盒)",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5.png",
+        "category": "¥79/盒 · 天猫月销5万+",
+        "tags": ["福瑞达出品", "多层玻尿酸", "国货爆款"]
+      },
+      "hotProduct": {
+        "name": "可复美胶原蛋白修护面膜",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5.png",
+        "category": "美妆护肤",
+        "price": "¥198/5片",
+        "sales": "天猫月销10万+",
+        "rating": "★ 4.8",
+        "tags": ["医美级", "类人胶原", "敏感肌"]
       }
     }
   ]
