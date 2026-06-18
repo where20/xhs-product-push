@@ -1,184 +1,184 @@
 {
-  "updateTime": "2026-06-17 07:30",
-  "dataSource": "天猫/京东/淘宝/1688实测数据 · 2026年6月",
+  "updateTime": "2026-06-19 07:00",
+  "dataSource": "淘宝/天猫/拼多多/1688 公开榜单与商品详情页实测数据 · 2026年6月",
   "hotProducts": [
     {
-      "name": "沃拓莱WZB-25F家用制冰机",
-      "category": "家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1781652290370_1.jpg",
-      "price": "¥459-579",
-      "originalPrice": "",
-      "sales": "月销9万+",
-      "rating": "★ 4.7",
-      "tag": "家用制冰机销量冠军"
-    },
-    {
-      "name": "米家智能宠物饮水机2",
-      "category": "宠物用品",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1781652303068_1.jpg",
-      "price": "¥199",
-      "originalPrice": "",
-      "sales": "月销3878件",
+      "name": "蕉下官方旗舰店 · 三防防晒衣（2026春夏新款）",
+      "category": "户外防晒",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1781824129467_1.jpg",
+      "price": "¥169-299",
+      "originalPrice": "¥299",
+      "sales": "天猫618抢先购防晒衣类目TOP3（5/16-5/26）",
       "rating": "★ 4.8",
-      "tag": "100天续航·3L大容量"
+      "tag": "天猫618爆款"
     },
     {
-      "name": "网易严选冰丝凉席2026款",
-      "category": "家纺床品",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1781652297223_1.jpg",
-      "price": "¥289",
-      "originalPrice": "",
-      "sales": "月销2万+件",
-      "rating": "★ 4.8",
-      "tag": "A类母婴抗菌冰丝"
-    },
-    {
-      "name": "Jisu Life L3挂脖风扇",
-      "category": "小家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1781652305595_1.jpg",
-      "price": "¥99-160",
-      "originalPrice": "",
-      "sales": "京东自营店TOP1",
-      "rating": "★ 4.7",
-      "tag": "Gen-Z夏日爆款"
-    },
-    {
-      "name": "Frigidaire EFIC189制冰机",
-      "category": "家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1781652316592_1.jpg",
-      "price": "¥899-1299",
-      "originalPrice": "",
-      "sales": "美亚销量TOP3",
+      "name": "Anua Zero-Cast 保湿物理防晒霜 SPF50+",
+      "category": "美妆个护",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1781824133649_1.jpg",
+      "price": "约$18（约¥128）",
+      "originalPrice": "—",
+      "sales": "Amazon月销14,918件",
       "rating": "★ 4.6",
-      "tag": "美式便携制冰机"
+      "tag": "亚马逊防晒爆款"
+    },
+    {
+      "name": "Garvee 便携式电暖器（季节反向）",
+      "category": "家居电器",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1781824137977_1.jpg",
+      "price": "$23.01",
+      "originalPrice": "—",
+      "sales": "拼多多月销581件",
+      "rating": "—",
+      "tag": "拼多多热销"
+    },
+    {
+      "name": "Coolski 24英寸饮料冰箱",
+      "category": "小型家电",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1781824140071_1.jpg",
+      "price": "$380.35 / 批发$293.36",
+      "originalPrice": "—",
+      "sales": "拼多多跨境月销13件",
+      "rating": "—",
+      "tag": "夏季冰箱爆款"
+    },
+    {
+      "name": "定制Logo玻尿酸紧致保湿精华（1688 B2B）",
+      "category": "美妆护肤",
+      "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1781824141816_1.jpg",
+      "price": "$0.78 - $1.02",
+      "originalPrice": "—",
+      "sales": "1688累计9,650件",
+      "rating": "重购率10.5%",
+      "tag": "1688热销"
     }
   ],
   "selectedProducts": [
     {
-      "name": "Petoneer智能宠物饮水机",
-      "category": "宠物用品",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1781651903517_1.jpg",
-      "tags": ["APP智控", "活水循环", "四层过滤", "静音低噪", "大容量"],
+      "name": "蕉下三防轻薄防晒衣",
+      "category": "户外防晒",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1781824060237_1.jpg",
+      "tags": ["UPF50+", "原纱防晒", "三防易打理", "198g超轻", "凉感速干"],
       "tag": "今日选品"
     },
     {
-      "name": "锐舞挂脖风扇X3 Pro",
-      "category": "夏季降温",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1781651910959_1.jpg",
-      "tags": ["挂脖解放", "无叶涡轮", "长续航", "轻量佩戴", "多档风速"],
+      "name": "素士H5负离子速干吹风机",
+      "category": "个人护理",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1781824071517_1.jpg",
+      "tags": ["3000万负离子", "57℃恒温", "1800W速干", "磁吸风嘴", "沙龙级"],
       "tag": "今日选品"
     },
     {
-      "name": "希亦K-lamp母婴级灭蚊灯",
-      "category": "家居生活",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1781651920134_1.jpg",
-      "tags": ["母婴安全", "纯物理", "智能光感", "低噪运行", "高效灭蚊"],
+      "name": "摩飞MR9800无线便携榨汁杯",
+      "category": "健康小家电",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1781824078863_1.jpg",
+      "tags": ["无线充电", "15杯续航", "母婴级材质", "6叶刀头", "便携随行"],
       "tag": "今日选品"
     },
     {
-      "name": "富安娜冰丝凉感四件套",
-      "category": "家纺床品",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1781651930997_1.jpg",
-      "tags": ["冰丝凉感", "A类母婴", "可机洗", "裸睡亲肤", "整夜干爽"],
+      "name": "全棉时代一次性纯棉洗脸巾",
+      "category": "日用消耗",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1781824085246_1.jpg",
+      "tags": ["100%纯棉", "OEKO-TEX认证", "无荧光剂", "珍珠平纹双面", "干湿两用"],
       "tag": "今日选品"
     },
     {
-      "name": "惠人HZ-300桌面制冰机",
-      "category": "夏季家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1781651941069_1.jpg",
-      "tags": ["6分钟出冰", "15kg日产", "低噪运行", "实心方冰", "可视化窗口"],
+      "name": "米家智能驱蚊器2",
+      "category": "家居防护",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1781824093699_1.jpg",
+      "tags": ["日本住友原药", "无烟无味", "米家智能联动", "28㎡覆盖", "90天长续航"],
       "tag": "今日选品"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "智能宠物饮水机 1688",
+      "searchQuery": "防晒衣 2026 UPF50+ 销量",
       "searchResult": {
-        "name": "米家智能宠物饮水机2(无线版)",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1781652290370_1.jpg",
-        "category": "199元 · 3L · 月销3878件",
-        "tags": ["100天续航", "四重过滤", "3L大容量"]
+        "name": "UV100 经典黑防晒衣 UPF50+",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1781824129467_1.jpg",
+        "category": "天猫主流价位 ¥150-300",
+        "tags": ["中端价位", "经典款", "UPF50+", "透气网眼"]
       },
       "hotProduct": {
-        "name": "PETKIT Eversweet 3 Pro宠物饮水机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1781652303068_1.jpg",
-        "category": "宠物用品",
-        "price": "¥499-799",
-        "sales": "全球累计销量100万+",
-        "rating": "★ 4.7",
-        "tags": ["智能APP", "活水循环", "海外热销"]
-      }
-    },
-    {
-      "searchQuery": "挂脖风扇 1688 批发",
-      "searchResult": {
-        "name": "几素FA76挂脖风扇(无叶Pro版)",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1781652292672_1.jpg",
-        "category": "160元 · 月销10万+ · 评分4.9",
-        "tags": ["无叶设计", "京东自营TOP1", "静音低噪"]
-      },
-      "hotProduct": {
-        "name": "Jisu Life L3便携挂脖风扇",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1781652305595_1.jpg",
-        "category": "小家电",
-        "price": "¥99-160",
-        "sales": "Gen-Z爆款",
-        "rating": "★ 4.7",
-        "tags": ["Z世代最爱", "多色可选", "轻量便携"]
-      }
-    },
-    {
-      "searchQuery": "灭蚊灯 1688 紫光 物理",
-      "searchResult": {
-        "name": "Muzili光触媒灭蚊灯",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1781652295128_1.jpg",
-        "category": "128元 · 京东好评99% · 月销5万+",
-        "tags": ["光触媒技术", "母婴适用", "低噪设计"]
-      },
-      "hotProduct": {
-        "name": "Relfe户外太阳能灭蚊灯",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1781652309356_1.jpg",
-        "category": "户外用品",
-        "price": "¥89-189",
-        "sales": "户外露营TOP榜",
+        "name": "迪卡侬 Quechua 男款防晒衣 UPF40+",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1781824133649_1.jpg",
+        "category": "户外防晒",
+        "price": "¥149-229",
+        "sales": "天猫户外防晒衣月榜前20",
         "rating": "★ 4.6",
-        "tags": ["太阳能充电", "户外露营", "仿火焰设计"]
+        "tags": ["户外大牌", "性价比", "多色可选"]
       }
     },
     {
-      "searchQuery": "冰丝凉席 天猫 价格",
+      "searchQuery": "负离子吹风机 销量 月销",
       "searchResult": {
-        "name": "Joybird冰丝凉感四件套",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1781652297223_1.jpg",
-        "category": "299-499元 · 月销8万+ · 评分4.9",
-        "tags": ["玉石纤维", "A类母婴", "可机洗"]
+        "name": "戴森 Dyson Supersonic 吹风机 HD15",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1781824137977_1.jpg",
+        "category": "高端定位 ¥2390-3290",
+        "tags": ["高端旗舰", "高速数码马达", "智能温控"]
       },
       "hotProduct": {
-        "name": "MUJI无印良品有机棉夏凉被",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1781652312468_1.jpg",
-        "category": "家纺床品",
-        "price": "¥450-650",
-        "sales": "MUJI天猫旗舰店TOP3",
+        "name": "飞利浦 Philips HP8230/00 负离子电吹风",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1781824140071_1.jpg",
+        "category": "个人护理",
+        "price": "¥299-449",
+        "sales": "天猫月销1.5万+",
+        "rating": "★ 4.7",
+        "tags": ["经典款", "2200W大功率", "可折叠"]
+      }
+    },
+    {
+      "searchQuery": "无线榨汁杯 便携 月销",
+      "searchResult": {
+        "name": "米家小米便携榨汁杯",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1781824141816_1.jpg",
+        "category": "中端定位 ¥89-159",
+        "tags": ["米家生态", "Type-C充电", "6叶刀头"]
+      },
+      "hotProduct": {
+        "name": "小熊（Bear）便携榨汁杯 LLJ-P03A1",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1781824143552_1.jpg",
+        "category": "健康小家电",
+        "price": "¥99-139",
+        "sales": "天猫月销2万+",
+        "rating": "★ 4.7",
+        "tags": ["国民品牌", "400ml大容量", "4叶刀头"]
+      }
+    },
+    {
+      "searchQuery": "一次性洗脸巾 纯棉 销量",
+      "searchResult": {
+        "name": "棉上 Mikiplum 一次性洗脸巾 80抽",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1781824146006_1.jpg",
+        "category": "平价定位 ¥19.9-39",
+        "tags": ["珍珠纹", "平价", "80抽装"]
+      },
+      "hotProduct": {
+        "name": "Girlcult 100抽一次性洗脸巾",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1781824149110_1.jpg",
+        "category": "日用消耗",
+        "price": "¥29.9-49.9",
+        "sales": "小红书月销1万+",
         "rating": "★ 4.8",
-        "tags": ["日式极简", "有机棉", "透气亲肤"]
+        "tags": ["韩系设计", "100抽", "压缩便携"]
       }
     },
     {
-      "searchQuery": "桌面制冰机 1688 销量",
+      "searchQuery": "智能驱蚊器 米家 销量",
       "searchResult": {
-        "name": "GE Profile Opal nugget制冰机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1781652300437_1.jpg",
-        "category": "4500-5500元 · 进口高端机型",
-        "tags": ["奶昔冰", "智能APP", "美亚销量冠军"]
+        "name": "雷达 Raid 电热蚊香片 30晚装",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1781824152980_1.jpg",
+        "category": "传统定位 ¥19.9-39.9",
+        "tags": ["美国品牌", "30晚装", "经典款"]
       },
       "hotProduct": {
-        "name": "Frigidaire EFIC189制冰机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1781652316592_1.jpg",
-        "category": "家电",
-        "price": "¥899-1299",
-        "sales": "美亚销量TOP3",
-        "rating": "★ 4.6",
-        "tags": ["美式便携", "6分钟出冰", "不锈钢外观"]
+        "name": "VAPE 未来 静音电热蚊香液",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1781824155974_1.jpg",
+        "category": "家居防护",
+        "price": "¥49-79",
+        "sales": "天猫月销5万+",
+        "rating": "★ 4.8",
+        "tags": ["日本品牌", "静音无味", "200日长效"]
       }
     }
   ]

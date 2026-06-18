@@ -1,70 +1,70 @@
 {
-  "totalRuns": 15,
-  "totalProducts": 75,
-  "lastRunDate": "2026-06-17",
+  "totalRuns": 16,
+  "totalProducts": 80,
+  "lastRunDate": "2026-06-19",
   "status": "运行中",
-  "updateTime": "2026-06-17 07:33",
+  "updateTime": "2026-06-19 07:15",
   "products": [
     {
-      "name": "Petoneer智能宠物饮水机",
-      "category": "宠物用品",
+      "name": "蕉下三防轻薄防晒衣",
+      "category": "户外防晒",
       "tags": [
-        "APP智控",
-        "活水循环",
-        "四层过滤",
-        "静音低噪",
-        "大容量"
+        "UPF50+",
+        "原纱防晒",
+        "三防易打理",
+        "198g超轻",
+        "凉感速干"
       ],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1781651903517_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1781824459711_1.jpg"
     },
     {
-      "name": "锐舞挂脖风扇X3 Pro",
-      "category": "夏季降温",
+      "name": "素士H5负离子速干吹风机",
+      "category": "个人护理",
       "tags": [
-        "挂脖解放",
-        "无叶涡轮",
-        "长续航",
-        "轻量佩戴",
-        "多档风速"
+        "3000万负离子",
+        "57℃恒温",
+        "1800W速干",
+        "磁吸风嘴",
+        "沙龙级"
       ],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1781651910959_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1781824479374_1.jpg"
     },
     {
-      "name": "希亦K-lamp母婴级灭蚊灯",
-      "category": "家居生活",
+      "name": "摩飞MR9800无线便携榨汁杯",
+      "category": "健康小家电",
       "tags": [
-        "母婴安全",
-        "纯物理",
-        "智能光感",
-        "低噪运行",
-        "高效灭蚊"
+        "无线充电",
+        "15杯续航",
+        "母婴级材质",
+        "6叶刀头",
+        "便携随行"
       ],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1781651920134_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1781824491747_1.jpg"
     },
     {
-      "name": "富安娜冰丝凉感四件套",
-      "category": "家纺床品",
+      "name": "全棉时代一次性纯棉洗脸巾",
+      "category": "日用消耗",
       "tags": [
-        "冰丝凉感",
-        "A类母婴",
-        "可机洗",
-        "裸睡亲肤",
-        "整夜干爽"
+        "100%纯棉",
+        "OEKO-TEX认证",
+        "无荧光剂",
+        "珍珠平纹双面",
+        "干湿两用"
       ],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1781651930997_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1781824500280_1.jpg"
     },
     {
-      "name": "惠人HZ-300桌面制冰机",
-      "category": "夏季家电",
+      "name": "米家智能驱蚊器2",
+      "category": "家居防护",
       "tags": [
-        "6分钟出冰",
-        "15kg日产",
-        "低噪运行",
-        "实心方冰",
-        "可视化窗口"
+        "日本住友原药",
+        "无烟无味",
+        "米家智能联动",
+        "28㎡覆盖",
+        "90天长续航"
       ],
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1781651941069_1.jpg"
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1781824510780_1.jpg"
     }
   ],
-  "imageUrl": "https://cloudimgs.231203.xyz/api/images/product_1_1781651903517_1.jpg"
+  "imageUrl": "https://cloudimgs.231203.xyz/api/images/product_1_1781824459711_1.jpg"
 }

@@ -1,0 +1,40 @@
+{
+  "totalRuns": 16,
+  "totalProducts": 80,
+  "lastRunDate": "2026-06-19",
+  "status": "运行中",
+  "updateTime": "2026-06-19 07:15",
+  "products": [
+    {
+      "name": "精选好物1",
+      "category": "好物推荐",
+      "tags": [],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1781824459711_1.jpg"
+    },
+    {
+      "name": "精选好物2",
+      "category": "好物推荐",
+      "tags": [],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1781824479374_1.jpg"
+    },
+    {
+      "name": "精选好物3",
+      "category": "好物推荐",
+      "tags": [],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1781824491747_1.jpg"
+    },
+    {
+      "name": "精选好物4",
+      "category": "好物推荐",
+      "tags": [],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1781824500280_1.jpg"
+    },
+    {
+      "name": "精选好物5",
+      "category": "好物推荐",
+      "tags": [],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1781824510780_1.jpg"
+    }
+  ],
+  "imageUrl": "https://cloudimgs.231203.xyz/api/images/product_1_1781824459711_1.jpg"
+}
