@@ -1,184 +1,184 @@
 {
-  "updateTime": "2026-06-22 09:00",
-  "dataSource": "天猫/淘宝/1688/拼多多实测数据 · 2026年6月",
+  "updateTime": "2026-06-23 07:00",
+  "dataSource": "天猫/淘宝/1688/拼多多/京东实测数据 · 2026年6月",
   "hotProducts": [
     {
-      "name": "SPIDERCASE磁吸防摔手机壳",
-      "category": "手机配件",
+      "name": "ANRABESS同款女士短袖上衣",
+      "category": "时尚服饰",
       "image": "",
-      "price": "¥15.99",
+      "price": "¥72",
       "originalPrice": "",
-      "sales": "月销101,091件",
-      "rating": "★ 4.8",
-      "tag": "磁吸支架"
+      "sales": "月销2.4万+件",
+      "rating": "★ 4.3",
+      "tag": "拼多多热销榜"
     },
     {
-      "name": "TAGRY X08蓝牙耳机",
+      "name": "多功能厨房用具套装",
+      "category": "家居厨房",
+      "image": "",
+      "price": "¥285",
+      "originalPrice": "",
+      "sales": "月销1200+件",
+      "rating": "★ 4.1",
+      "tag": "家居热销"
+    },
+    {
+      "name": "WHUTO无线便携搅拌机",
+      "category": "小家电",
+      "image": "",
+      "price": "¥465",
+      "originalPrice": "",
+      "sales": "月销379件",
+      "rating": "★ 4.5",
+      "tag": "厨房爆款"
+    },
+    {
+      "name": "1688白牌真无线蓝牙耳机",
       "category": "数码配件",
       "image": "",
-      "price": "¥29.99",
+      "price": "¥50",
       "originalPrice": "",
-      "sales": "月销40,718件",
-      "rating": "★ 4.7",
-      "tag": "60小时续航"
+      "sales": "月销2600+件",
+      "rating": "★ 4.0",
+      "tag": "1688热搜"
     },
     {
-      "name": "Anker 25000mAh充电宝",
-      "category": "数码配件",
+      "name": "韩国胶原蛋白面膜套装",
+      "category": "美妆护肤",
       "image": "",
-      "price": "¥89.99",
+      "price": "¥35",
       "originalPrice": "",
-      "sales": "月销21,096件",
-      "rating": "★ 4.9",
-      "tag": "三端口快充"
-    },
-    {
-      "name": "小熊Bear迷你洗衣机",
-      "category": "个护电器",
-      "image": "",
-      "price": "¥143-184",
-      "originalPrice": "",
-      "sales": "天猫超市热售",
+      "sales": "B2B热销单品",
       "rating": "★ 4.6",
-      "tag": "蓝光清洗"
-    },
-    {
-      "name": "Edifier漫步者书架音箱",
-      "category": "数码影音",
-      "image": "",
-      "price": "¥194-1400",
-      "originalPrice": "",
-      "sales": "亚马逊热销",
-      "rating": "★ 4.8",
-      "tag": "HiFi音质"
+      "tag": "跨境热款"
     }
   ],
   "selectedProducts": [
     {
-      "name": "希亦W1擦窗机器人",
-      "category": "智能家居",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1782093123772_1.jpg",
-      "tags": ["智能清洁", "高层擦窗", "安全防护"],
+      "name": "西圣Olite2开放式蓝牙耳机",
+      "category": "数码音频",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1782169133831_1.jpg",
+      "tags": ["不入耳", "3D音场", "18h续航"],
       "tag": "今日选品"
     },
     {
-      "name": "希亦CG超声波声波清洗机",
-      "category": "个人护理",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1782093139834_1.jpg",
-      "tags": ["超声波清洗", "杀菌消毒", "眼镜护理"],
+      "name": "书客SKR1智能屏幕挂灯",
+      "category": "桌面数码",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1782169142088_1.jpg",
+      "tags": ["AOT菱镜", "护眼黑科技", "无极调色"],
       "tag": "今日选品"
     },
     {
-      "name": "美的小炎烤空气炸锅",
-      "category": "厨房电器",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1782093154565_1.jpg",
-      "tags": ["免翻面", "多功能一体", "大容量"],
+      "name": "轻舟眠云感舒颈枕",
+      "category": "家居睡眠",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1782169149539_1.jpg",
+      "tags": ["9区承托", "0压绵", "抗菌防螨"],
       "tag": "今日选品"
     },
     {
-      "name": "希亦ACE2内衣洗衣机",
-      "category": "个护电器",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1782093172312_1.jpg",
-      "tags": ["杀菌消毒", "护衣洗涤", "迷你容量"],
+      "name": "大疆Osmo Pocket 3云台相机",
+      "category": "数码影像",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1782169156121_1.jpg",
+      "tags": ["1英寸大底", "三轴防抖", "4K/120P"],
       "tag": "今日选品"
     },
     {
-      "name": "华为WATCH FIT智能手表",
-      "category": "穿戴设备",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1782093185937_1.jpg",
-      "tags": ["健康管理", "运动监测", "超长续航"],
+      "name": "黄古林A类古藤席冰丝凉席",
+      "category": "家居床品",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1782169162564_1.jpg",
+      "tags": ["A类婴孕级", "古藤冰丝", "可折叠"],
       "tag": "今日选品"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "擦窗机器人 科沃斯 玻妞",
+      "searchQuery": "开放式蓝牙耳机 竞品",
       "searchResult": {
-        "name": "普通擦窗机器人",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1782093597787_1.jpg",
-        "category": "¥268-368 · 功能单一",
-        "tags": ["吸附力弱", "清洁效率低", "无智能导航"]
+        "name": "漫步者Comfo Solo开放式运动耳机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1782169295977_1.jpg",
+        "category": "¥379 · 月销8000+",
+        "tags": ["耳挂式运动", "IPX5防水", "蓝牙5.3"]
       },
       "hotProduct": {
-        "name": "科沃斯W1S擦窗机器人",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1782093626661_1.jpg",
-        "category": "智能清洁",
-        "price": "¥1000+",
+        "name": "南卡DeepSleep ANC降噪耳机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1782169298459_1.jpg",
+        "category": "数码音频",
+        "price": "¥689",
         "sales": "月销1万+",
-        "rating": "★ 4.6",
-        "tags": ["AI路径规划", "2500Pa吸力", "双边喷水"]
-      }
-    },
-    {
-      "searchQuery": "超声波清洗机 眼镜 首饰",
-      "searchResult": {
-        "name": "普通超声波清洗机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1782093602646_1.jpg",
-        "category": "¥59-169 · 无杀菌功能",
-        "tags": ["噪音较大", "清洁不彻底", "无UV杀菌"]
-      },
-      "hotProduct": {
-        "name": "专业级首饰清洗机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1782093631435_1.jpg",
-        "category": "个人护理",
-        "price": "¥200-500",
-        "sales": "月销5千+",
         "rating": "★ 4.7",
-        "tags": ["UV杀菌", "专业清洁", "大容量"]
+        "tags": ["主动降噪", "HiFi音质"]
       }
     },
     {
-      "searchQuery": "空气炸锅 美的 苏泊尔",
+      "searchQuery": "屏幕挂灯 竞品",
       "searchResult": {
-        "name": "苏泊尔可视化空气炸锅",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1782093607403_1.jpg",
-        "category": "¥55-898 · 功能各异",
-        "tags": ["普通加热", "容量偏小", "操作复杂"]
+        "name": "小米米家显示器挂灯1S",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1782169299771_1.jpg",
+        "category": "¥229 · 月销1万+",
+        "tags": ["无线遥控", "Ra95显色", "重力旋钮"]
       },
       "hotProduct": {
-        "name": "米家智能空气炸锅",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1782093637575_1.jpg",
-        "category": "厨房电器",
-        "price": "¥429",
-        "sales": "月销2万+",
+        "name": "明基ScreenBar Halo2",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1782169301145_1.jpg",
+        "category": "桌面数码",
+        "price": "¥1399",
+        "sales": "月销2000+",
         "rating": "★ 4.8",
-        "tags": ["APP互联", "5.5L全景可视", "自动烘干"]
+        "tags": ["背光灯", "人体感应", "无线控制"]
       }
     },
     {
-      "searchQuery": "内衣洗衣机 小型迷你",
+      "searchQuery": "护颈枕 竞品",
       "searchResult": {
-        "name": "小熊Bear迷你洗衣机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1782093613531_1.jpg",
-        "category": "¥143-184 · 基础洗涤",
-        "tags": ["蓝光杀菌", "内衣专用", "小型便携"]
+        "name": "睡眠博士AiSleep分区护颈枕",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1782169302753_1.jpg",
+        "category": "¥199-349 · 月销5000+",
+        "tags": ["蝶形分区", "慢回弹记忆棉", "高低可选"]
       },
       "hotProduct": {
-        "name": "美的折叠便携洗衣机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1782093640961_1.jpg",
-        "category": "个护电器",
-        "price": "¥99-199",
-        "sales": "月销3万+",
-        "rating": "★ 4.5",
-        "tags": ["折叠收纳", "旅行便携", "静音设计"]
+        "name": "梦百合MLILY 0压深睡枕Pro",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1782169304405_1.jpg",
+        "category": "家居睡眠",
+        "price": "¥599",
+        "sales": "月销8000+",
+        "rating": "★ 4.6",
+        "tags": ["非温感0压绵", "恒温设计"]
       }
     },
     {
-      "searchQuery": "智能手表 华为 小米",
+      "searchQuery": "口袋云台相机 竞品",
       "searchResult": {
-        "name": "华为WATCH GT智能手表",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1782093618988_1.jpg",
-        "category": "¥899-1299 · 经典圆形表盘",
-        "tags": ["长续航", "心率监测", "运动模式"]
+        "name": "Insta360 GO 3S 4K拇指相机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1782169305693_1.jpg",
+        "category": "¥2228 · 月销3000+",
+        "tags": ["磁吸安装", "35g超轻", "防水防尘"]
       },
       "hotProduct": {
-        "name": "Apple Watch Series 10",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1782093644924_1.jpg",
-        "category": "穿戴设备",
-        "price": "¥2999-3999",
-        "sales": "全球热销",
-        "rating": "★ 4.9",
-        "tags": ["全面健康监测", "S10芯片", "车祸检测"]
+        "name": "GoPro HERO13 Black运动相机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1782169307015_1.jpg",
+        "category": "数码影像",
+        "price": "¥3118",
+        "sales": "月销5000+",
+        "rating": "★ 4.7",
+        "tags": ["5.3K/60fps", "防水10m", "HyperSmooth"]
+      }
+    },
+    {
+      "searchQuery": "冰丝凉席 竞品",
+      "searchResult": {
+        "name": "水星家纺冰丝凉席三件套",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1782169308502_1.jpg",
+        "category": "¥139-259 · 月销2万+",
+        "tags": ["可机洗", "凉感面料", "床笠款"]
+      },
+      "hotProduct": {
+        "name": "罗莱家纺冰丝凉席",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1782169310030_1.jpg",
+        "category": "家居床品",
+        "price": "¥299",
+        "sales": "月销1万+",
+        "rating": "★ 4.8",
+        "tags": ["新疆棉", "A类标准", "抑菌"]
       }
     }
   ]
