@@ -1,184 +1,184 @@
 {
-  "updateTime": "2026-06-19 07:00",
-  "dataSource": "淘宝/天猫/拼多多/1688 公开榜单与商品详情页实测数据 · 2026年6月",
+  "updateTime": "2026-06-22 09:00",
+  "dataSource": "天猫/淘宝/1688/拼多多实测数据 · 2026年6月",
   "hotProducts": [
     {
-      "name": "蕉下官方旗舰店 · 三防防晒衣（2026春夏新款）",
-      "category": "户外防晒",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1781824129467_1.jpg",
-      "price": "¥169-299",
-      "originalPrice": "¥299",
-      "sales": "天猫618抢先购防晒衣类目TOP3（5/16-5/26）",
+      "name": "SPIDERCASE磁吸防摔手机壳",
+      "category": "手机配件",
+      "image": "",
+      "price": "¥15.99",
+      "originalPrice": "",
+      "sales": "月销101,091件",
       "rating": "★ 4.8",
-      "tag": "天猫618爆款"
+      "tag": "磁吸支架"
     },
     {
-      "name": "Anua Zero-Cast 保湿物理防晒霜 SPF50+",
-      "category": "美妆个护",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1781824133649_1.jpg",
-      "price": "约$18（约¥128）",
-      "originalPrice": "—",
-      "sales": "Amazon月销14,918件",
+      "name": "TAGRY X08蓝牙耳机",
+      "category": "数码配件",
+      "image": "",
+      "price": "¥29.99",
+      "originalPrice": "",
+      "sales": "月销40,718件",
+      "rating": "★ 4.7",
+      "tag": "60小时续航"
+    },
+    {
+      "name": "Anker 25000mAh充电宝",
+      "category": "数码配件",
+      "image": "",
+      "price": "¥89.99",
+      "originalPrice": "",
+      "sales": "月销21,096件",
+      "rating": "★ 4.9",
+      "tag": "三端口快充"
+    },
+    {
+      "name": "小熊Bear迷你洗衣机",
+      "category": "个护电器",
+      "image": "",
+      "price": "¥143-184",
+      "originalPrice": "",
+      "sales": "天猫超市热售",
       "rating": "★ 4.6",
-      "tag": "亚马逊防晒爆款"
+      "tag": "蓝光清洗"
     },
     {
-      "name": "Garvee 便携式电暖器（季节反向）",
-      "category": "家居电器",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1781824137977_1.jpg",
-      "price": "$23.01",
-      "originalPrice": "—",
-      "sales": "拼多多月销581件",
-      "rating": "—",
-      "tag": "拼多多热销"
-    },
-    {
-      "name": "Coolski 24英寸饮料冰箱",
-      "category": "小型家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1781824140071_1.jpg",
-      "price": "$380.35 / 批发$293.36",
-      "originalPrice": "—",
-      "sales": "拼多多跨境月销13件",
-      "rating": "—",
-      "tag": "夏季冰箱爆款"
-    },
-    {
-      "name": "定制Logo玻尿酸紧致保湿精华（1688 B2B）",
-      "category": "美妆护肤",
-      "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1781824141816_1.jpg",
-      "price": "$0.78 - $1.02",
-      "originalPrice": "—",
-      "sales": "1688累计9,650件",
-      "rating": "重购率10.5%",
-      "tag": "1688热销"
+      "name": "Edifier漫步者书架音箱",
+      "category": "数码影音",
+      "image": "",
+      "price": "¥194-1400",
+      "originalPrice": "",
+      "sales": "亚马逊热销",
+      "rating": "★ 4.8",
+      "tag": "HiFi音质"
     }
   ],
   "selectedProducts": [
     {
-      "name": "蕉下三防轻薄防晒衣",
-      "category": "户外防晒",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1781824060237_1.jpg",
-      "tags": ["UPF50+", "原纱防晒", "三防易打理", "198g超轻", "凉感速干"],
+      "name": "希亦W1擦窗机器人",
+      "category": "智能家居",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1782093123772_1.jpg",
+      "tags": ["智能清洁", "高层擦窗", "安全防护"],
       "tag": "今日选品"
     },
     {
-      "name": "素士H5负离子速干吹风机",
+      "name": "希亦CG超声波声波清洗机",
       "category": "个人护理",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1781824071517_1.jpg",
-      "tags": ["3000万负离子", "57℃恒温", "1800W速干", "磁吸风嘴", "沙龙级"],
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1782093139834_1.jpg",
+      "tags": ["超声波清洗", "杀菌消毒", "眼镜护理"],
       "tag": "今日选品"
     },
     {
-      "name": "摩飞MR9800无线便携榨汁杯",
-      "category": "健康小家电",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1781824078863_1.jpg",
-      "tags": ["无线充电", "15杯续航", "母婴级材质", "6叶刀头", "便携随行"],
+      "name": "美的小炎烤空气炸锅",
+      "category": "厨房电器",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1782093154565_1.jpg",
+      "tags": ["免翻面", "多功能一体", "大容量"],
       "tag": "今日选品"
     },
     {
-      "name": "全棉时代一次性纯棉洗脸巾",
-      "category": "日用消耗",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1781824085246_1.jpg",
-      "tags": ["100%纯棉", "OEKO-TEX认证", "无荧光剂", "珍珠平纹双面", "干湿两用"],
+      "name": "希亦ACE2内衣洗衣机",
+      "category": "个护电器",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1782093172312_1.jpg",
+      "tags": ["杀菌消毒", "护衣洗涤", "迷你容量"],
       "tag": "今日选品"
     },
     {
-      "name": "米家智能驱蚊器2",
-      "category": "家居防护",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1781824093699_1.jpg",
-      "tags": ["日本住友原药", "无烟无味", "米家智能联动", "28㎡覆盖", "90天长续航"],
+      "name": "华为WATCH FIT智能手表",
+      "category": "穿戴设备",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1782093185937_1.jpg",
+      "tags": ["健康管理", "运动监测", "超长续航"],
       "tag": "今日选品"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "防晒衣 2026 UPF50+ 销量",
+      "searchQuery": "擦窗机器人 科沃斯 玻妞",
       "searchResult": {
-        "name": "UV100 经典黑防晒衣 UPF50+",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1781824129467_1.jpg",
-        "category": "天猫主流价位 ¥150-300",
-        "tags": ["中端价位", "经典款", "UPF50+", "透气网眼"]
+        "name": "普通擦窗机器人",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1782093597787_1.jpg",
+        "category": "¥268-368 · 功能单一",
+        "tags": ["吸附力弱", "清洁效率低", "无智能导航"]
       },
       "hotProduct": {
-        "name": "迪卡侬 Quechua 男款防晒衣 UPF40+",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1781824133649_1.jpg",
-        "category": "户外防晒",
-        "price": "¥149-229",
-        "sales": "天猫户外防晒衣月榜前20",
+        "name": "科沃斯W1S擦窗机器人",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1782093626661_1.jpg",
+        "category": "智能清洁",
+        "price": "¥1000+",
+        "sales": "月销1万+",
         "rating": "★ 4.6",
-        "tags": ["户外大牌", "性价比", "多色可选"]
+        "tags": ["AI路径规划", "2500Pa吸力", "双边喷水"]
       }
     },
     {
-      "searchQuery": "负离子吹风机 销量 月销",
+      "searchQuery": "超声波清洗机 眼镜 首饰",
       "searchResult": {
-        "name": "戴森 Dyson Supersonic 吹风机 HD15",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1781824137977_1.jpg",
-        "category": "高端定位 ¥2390-3290",
-        "tags": ["高端旗舰", "高速数码马达", "智能温控"]
+        "name": "普通超声波清洗机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1782093602646_1.jpg",
+        "category": "¥59-169 · 无杀菌功能",
+        "tags": ["噪音较大", "清洁不彻底", "无UV杀菌"]
       },
       "hotProduct": {
-        "name": "飞利浦 Philips HP8230/00 负离子电吹风",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1781824140071_1.jpg",
+        "name": "专业级首饰清洗机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1782093631435_1.jpg",
         "category": "个人护理",
-        "price": "¥299-449",
-        "sales": "天猫月销1.5万+",
+        "price": "¥200-500",
+        "sales": "月销5千+",
         "rating": "★ 4.7",
-        "tags": ["经典款", "2200W大功率", "可折叠"]
+        "tags": ["UV杀菌", "专业清洁", "大容量"]
       }
     },
     {
-      "searchQuery": "无线榨汁杯 便携 月销",
+      "searchQuery": "空气炸锅 美的 苏泊尔",
       "searchResult": {
-        "name": "米家小米便携榨汁杯",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1781824141816_1.jpg",
-        "category": "中端定位 ¥89-159",
-        "tags": ["米家生态", "Type-C充电", "6叶刀头"]
+        "name": "苏泊尔可视化空气炸锅",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1782093607403_1.jpg",
+        "category": "¥55-898 · 功能各异",
+        "tags": ["普通加热", "容量偏小", "操作复杂"]
       },
       "hotProduct": {
-        "name": "小熊（Bear）便携榨汁杯 LLJ-P03A1",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1781824143552_1.jpg",
-        "category": "健康小家电",
-        "price": "¥99-139",
-        "sales": "天猫月销2万+",
-        "rating": "★ 4.7",
-        "tags": ["国民品牌", "400ml大容量", "4叶刀头"]
-      }
-    },
-    {
-      "searchQuery": "一次性洗脸巾 纯棉 销量",
-      "searchResult": {
-        "name": "棉上 Mikiplum 一次性洗脸巾 80抽",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1781824146006_1.jpg",
-        "category": "平价定位 ¥19.9-39",
-        "tags": ["珍珠纹", "平价", "80抽装"]
-      },
-      "hotProduct": {
-        "name": "Girlcult 100抽一次性洗脸巾",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1781824149110_1.jpg",
-        "category": "日用消耗",
-        "price": "¥29.9-49.9",
-        "sales": "小红书月销1万+",
+        "name": "米家智能空气炸锅",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1782093637575_1.jpg",
+        "category": "厨房电器",
+        "price": "¥429",
+        "sales": "月销2万+",
         "rating": "★ 4.8",
-        "tags": ["韩系设计", "100抽", "压缩便携"]
+        "tags": ["APP互联", "5.5L全景可视", "自动烘干"]
       }
     },
     {
-      "searchQuery": "智能驱蚊器 米家 销量",
+      "searchQuery": "内衣洗衣机 小型迷你",
       "searchResult": {
-        "name": "雷达 Raid 电热蚊香片 30晚装",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1781824152980_1.jpg",
-        "category": "传统定位 ¥19.9-39.9",
-        "tags": ["美国品牌", "30晚装", "经典款"]
+        "name": "小熊Bear迷你洗衣机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1782093613531_1.jpg",
+        "category": "¥143-184 · 基础洗涤",
+        "tags": ["蓝光杀菌", "内衣专用", "小型便携"]
       },
       "hotProduct": {
-        "name": "VAPE 未来 静音电热蚊香液",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1781824155974_1.jpg",
-        "category": "家居防护",
-        "price": "¥49-79",
-        "sales": "天猫月销5万+",
-        "rating": "★ 4.8",
-        "tags": ["日本品牌", "静音无味", "200日长效"]
+        "name": "美的折叠便携洗衣机",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1782093640961_1.jpg",
+        "category": "个护电器",
+        "price": "¥99-199",
+        "sales": "月销3万+",
+        "rating": "★ 4.5",
+        "tags": ["折叠收纳", "旅行便携", "静音设计"]
+      }
+    },
+    {
+      "searchQuery": "智能手表 华为 小米",
+      "searchResult": {
+        "name": "华为WATCH GT智能手表",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1782093618988_1.jpg",
+        "category": "¥899-1299 · 经典圆形表盘",
+        "tags": ["长续航", "心率监测", "运动模式"]
+      },
+      "hotProduct": {
+        "name": "Apple Watch Series 10",
+        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1782093644924_1.jpg",
+        "category": "穿戴设备",
+        "price": "¥2999-3999",
+        "sales": "全球热销",
+        "rating": "★ 4.9",
+        "tags": ["全面健康监测", "S10芯片", "车祸检测"]
       }
     }
   ]
