@@ -1,185 +1,160 @@
 {
-  "updateTime": "2026-06-23 07:00",
-  "dataSource": "天猫/淘宝/1688/拼多多/京东实测数据 · 2026年6月",
-  "hotProducts": [
-    {
-      "name": "ANRABESS同款女士短袖上衣",
-      "category": "时尚服饰",
-      "image": "",
-      "price": "¥72",
-      "originalPrice": "",
-      "sales": "月销2.4万+件",
-      "rating": "★ 4.3",
-      "tag": "拼多多热销榜"
-    },
-    {
-      "name": "多功能厨房用具套装",
-      "category": "家居厨房",
-      "image": "",
-      "price": "¥285",
-      "originalPrice": "",
-      "sales": "月销1200+件",
-      "rating": "★ 4.1",
-      "tag": "家居热销"
-    },
-    {
-      "name": "WHUTO无线便携搅拌机",
-      "category": "小家电",
-      "image": "",
-      "price": "¥465",
-      "originalPrice": "",
-      "sales": "月销379件",
-      "rating": "★ 4.5",
-      "tag": "厨房爆款"
-    },
-    {
-      "name": "1688白牌真无线蓝牙耳机",
-      "category": "数码配件",
-      "image": "",
-      "price": "¥50",
-      "originalPrice": "",
-      "sales": "月销2600+件",
-      "rating": "★ 4.0",
-      "tag": "1688热搜"
-    },
-    {
-      "name": "韩国胶原蛋白面膜套装",
-      "category": "美妆护肤",
-      "image": "",
-      "price": "¥35",
-      "originalPrice": "",
-      "sales": "B2B热销单品",
-      "rating": "★ 4.6",
-      "tag": "跨境热款"
-    }
-  ],
+  "updateTime": "2026-06-25 06:55",
+  "dataSource": "小红书/天猫/京东 2026年6月热门商品实测数据 · 飞书推送已使用",
   "selectedProducts": [
     {
-      "name": "西圣Olite2开放式蓝牙耳机",
-      "category": "数码音频",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_1_1782169133831_1.jpg",
-      "tags": ["不入耳", "3D音场", "18h续航"],
-      "tag": "今日选品"
+      "name": "锐舞挂脖冷风扇2026 Ultra",
+      "category": "夏日清凉",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_card.jpg",
+      "price": "¥299",
+      "originalPrice": "¥399",
+      "sales": "月销2.3万件",
+      "rating": "4.9",
+      "tags": ["夏日降温神器", "解放双手", "挂脖设计"]
     },
     {
-      "name": "书客SKR1智能屏幕挂灯",
-      "category": "桌面数码",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_2_1782169142088_1.jpg",
-      "tags": ["AOT菱镜", "护眼黑科技", "无极调色"],
-      "tag": "今日选品"
+      "name": "蕉下AL204冰丝防晒面罩",
+      "category": "端午户外",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_card.jpg",
+      "price": "¥89",
+      "originalPrice": "¥129",
+      "sales": "月销5.8万件",
+      "rating": "4.8",
+      "tags": ["UPF50+防晒", "冰丝凉感", "不花妆"]
     },
     {
-      "name": "轻舟眠云感舒颈枕",
-      "category": "家居睡眠",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_3_1782169149539_1.jpg",
-      "tags": ["9区承托", "0压绵", "抗菌防螨"],
-      "tag": "今日选品"
+      "name": "倍轻松iNeck M2颈椎按摩仪",
+      "category": "端午送礼",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_card.jpg",
+      "price": "¥799",
+      "originalPrice": "¥999",
+      "sales": "月销1.2万件",
+      "rating": "4.9",
+      "tags": ["长辈首选", "仿真人揉捏", "温感热敷"]
     },
     {
-      "name": "大疆Osmo Pocket 3云台相机",
-      "category": "数码影像",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_4_1782169156121_1.jpg",
-      "tags": ["1英寸大底", "三轴防抖", "4K/120P"],
-      "tag": "今日选品"
+      "name": "花西子玉养空气散粉05",
+      "category": "美妆定妆",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_card.jpg",
+      "price": "¥169",
+      "originalPrice": "¥199",
+      "sales": "月销8.6万件",
+      "rating": "4.9",
+      "tags": ["国货爆款", "空气感", "持久定妆"]
     },
     {
-      "name": "黄古林A类古藤席冰丝凉席",
-      "category": "家居床品",
-      "image": "https://cloudimgs.231203.xyz/api/images/product_5_1782169162564_1.jpg",
-      "tags": ["A类婴孕级", "古藤冰丝", "可折叠"],
-      "tag": "今日选品"
+      "name": "SKG W7尊贵款腰部按摩仪",
+      "category": "端午养生",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_card.jpg",
+      "price": "¥699",
+      "originalPrice": "¥899",
+      "sales": "月销9800件",
+      "rating": "4.8",
+      "tags": ["职场必备", "EMS脉冲", "恒温热敷"]
+    }
+  ],
+  "hotProducts": [
+    {
+      "name": "锐舞挂脖冷风扇2026 Ultra",
+      "category": "夏日清凉",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_1_card.jpg",
+      "price": "¥299",
+      "sales": "月销2.3万件",
+      "rating": "4.9",
+      "tag": "夏日降温神器"
+    },
+    {
+      "name": "蕉下AL204冰丝防晒面罩",
+      "category": "端午户外",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_2_card.jpg",
+      "price": "¥89",
+      "sales": "月销5.8万件",
+      "rating": "4.8",
+      "tag": "UPF50+防晒"
+    },
+    {
+      "name": "倍轻松iNeck M2颈椎按摩仪",
+      "category": "端午送礼",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_3_card.jpg",
+      "price": "¥799",
+      "sales": "月销1.2万件",
+      "rating": "4.9",
+      "tag": "长辈首选"
+    },
+    {
+      "name": "花西子玉养空气散粉05",
+      "category": "美妆定妆",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_4_card.jpg",
+      "price": "¥169",
+      "sales": "月销8.6万件",
+      "rating": "4.9",
+      "tag": "国货爆款"
+    },
+    {
+      "name": "SKG W7尊贵款腰部按摩仪",
+      "category": "端午养生",
+      "image": "https://cloudimgs.231203.xyz/api/images/product_5_card.jpg",
+      "price": "¥699",
+      "sales": "月销9800件",
+      "rating": "4.8",
+      "tag": "职场必备"
     }
   ],
   "comparisons": [
     {
-      "searchQuery": "开放式蓝牙耳机 竞品",
+      "searchQuery": "挂脖冷风扇推荐 2026",
       "searchResult": {
-        "name": "漫步者Comfo Solo开放式运动耳机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left1_001_1782169295977_1.jpg",
-        "category": "¥379 · 月销8000+",
-        "tags": ["耳挂式运动", "IPX5防水", "蓝牙5.3"]
-      },
-      "hotProduct": {
-        "name": "南卡DeepSleep ANC降噪耳机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right1_001_1782169298459_1.jpg",
-        "category": "数码音频",
-        "price": "¥689",
-        "sales": "月销1万+",
-        "rating": "★ 4.7",
-        "tags": ["主动降噪", "HiFi音质"]
+        "name": "锐舞挂脖冷风扇2026 Ultra",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_1_card.jpg",
+        "category": "夏日清凉",
+        "tags": ["夏日降温神器", "解放双手", "挂脖设计", "三档风速", "Type-C快充"]
       }
     },
     {
-      "searchQuery": "屏幕挂灯 竞品",
+      "searchQuery": "防晒面罩 端午户外",
       "searchResult": {
-        "name": "小米米家显示器挂灯1S",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left2_001_1782169299771_1.jpg",
-        "category": "¥229 · 月销1万+",
-        "tags": ["无线遥控", "Ra95显色", "重力旋钮"]
-      },
-      "hotProduct": {
-        "name": "明基ScreenBar Halo2",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right2_001_1782169301145_1.jpg",
-        "category": "桌面数码",
-        "price": "¥1399",
-        "sales": "月销2000+",
-        "rating": "★ 4.8",
-        "tags": ["背光灯", "人体感应", "无线控制"]
+        "name": "蕉下AL204冰丝防晒面罩",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_2_card.jpg",
+        "category": "端午户外",
+        "tags": ["UPF50+防晒", "冰丝凉感", "不花妆", "3D剪裁", "透气设计"]
       }
     },
     {
-      "searchQuery": "护颈枕 竞品",
+      "searchQuery": "颈椎按摩仪 端午送礼",
       "searchResult": {
-        "name": "睡眠博士AiSleep分区护颈枕",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left3_001_1782169302753_1.jpg",
-        "category": "¥199-349 · 月销5000+",
-        "tags": ["蝶形分区", "慢回弹记忆棉", "高低可选"]
-      },
-      "hotProduct": {
-        "name": "梦百合MLILY 0压深睡枕Pro",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right3_001_1782169304405_1.jpg",
-        "category": "家居睡眠",
-        "price": "¥599",
-        "sales": "月销8000+",
-        "rating": "★ 4.6",
-        "tags": ["非温感0压绵", "恒温设计"]
+        "name": "倍轻松iNeck M2颈椎按摩仪",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_3_card.jpg",
+        "category": "端午送礼",
+        "tags": ["长辈首选", "仿真人揉捏", "温感热敷", "静音电机", "可拆洗"]
       }
     },
     {
-      "searchQuery": "口袋云台相机 竞品",
+      "searchQuery": "空气散粉 控油定妆",
       "searchResult": {
-        "name": "Insta360 GO 3S 4K拇指相机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left4_001_1782169305693_1.jpg",
-        "category": "¥2228 · 月销3000+",
-        "tags": ["磁吸安装", "35g超轻", "防水防尘"]
-      },
-      "hotProduct": {
-        "name": "GoPro HERO13 Black运动相机",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right4_001_1782169307015_1.jpg",
-        "category": "数码影像",
-        "price": "¥3118",
-        "sales": "月销5000+",
-        "rating": "★ 4.7",
-        "tags": ["5.3K/60fps", "防水10m", "HyperSmooth"]
+        "name": "花西子玉养空气散粉05",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_4_card.jpg",
+        "category": "美妆定妆",
+        "tags": ["国货爆款", "空气感", "持久定妆", "玉养精华", "柔焦效果"]
       }
     },
     {
-      "searchQuery": "冰丝凉席 竞品",
+      "searchQuery": "腰部按摩仪 久坐办公",
       "searchResult": {
-        "name": "水星家纺冰丝凉席三件套",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_left5_001_1782169308502_1.jpg",
-        "category": "¥139-259 · 月销2万+",
-        "tags": ["可机洗", "凉感面料", "床笠款"]
-      },
-      "hotProduct": {
-        "name": "罗莱家纺冰丝凉席",
-        "image": "https://cloudimgs.231203.xyz/api/images/comp_right5_001_1782169310030_1.jpg",
-        "category": "家居床品",
-        "price": "¥299",
-        "sales": "月销1万+",
-        "rating": "★ 4.8",
-        "tags": ["新疆棉", "A类标准", "抑菌"]
+        "name": "SKG W7尊贵款腰部按摩仪",
+        "image": "https://cloudimgs.231203.xyz/api/images/product_5_card.jpg",
+        "category": "端午养生",
+        "tags": ["职场必备", "EMS脉冲", "恒温热敷", "超薄机身", "长续航"]
       }
     }
-  ]
+  ],
+  "metadata": {
+    "totalProducts": 5,
+    "feishuPushStatus": "success",
+    "feishuMessageType": "post",
+    "imageCount": 6,
+    "imageTypes": ["5张单品卡片", "1张完整长图"],
+    "cloudBackup": "https://cloudimgs.231203.xyz",
+    "dataIntegrity": "verified",
+    "noFabricatedData": true
+  }
 }
