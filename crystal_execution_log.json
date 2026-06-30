@@ -1,0 +1,75 @@
+{
+  "cron_name": "crystal-bracelet",
+  "execution_date": "2026-06-30",
+  "execution_time": "2026-06-30 08:20:35",
+  "status": "success_with_warnings",
+  "crystal": "白水晶",
+  "style": "高冷系",
+  "diversity": {
+    "light": "L8 (侧光立体)",
+    "background": "B2 (原木桌面)",
+    "prop": "P4 (茶杯瓷器)"
+  },
+  "images_generated": [
+    {
+      "name": "hook_001.jpg",
+      "type": "hook",
+      "size_kb": 153
+    },
+    {
+      "name": "detail_001.jpg",
+      "type": "detail",
+      "size_kb": 254
+    },
+    {
+      "name": "lifestyle_001.jpg",
+      "type": "lifestyle",
+      "size_kb": 204
+    }
+  ],
+  "composed_cards": [
+    {
+      "name": "hook_card.jpg",
+      "size_kb": 233
+    },
+    {
+      "name": "detail_card.jpg",
+      "size_kb": 301
+    },
+    {
+      "name": "lifestyle_card.jpg",
+      "size_kb": 259
+    },
+    {
+      "name": "crystal_card_full.jpg",
+      "size_kb": 762
+    }
+  ],
+  "copy": {
+    "title": "白水晶手串｜冷淡风的素净感",
+    "char_count": 18,
+    "body_char_count": 240,
+    "hashtags": [
+      "#白水晶",
+      "#水晶手串",
+      "#冷淡风穿搭",
+      "#极简配饰"
+    ]
+  },
+  "landing": {
+    "data_json": "/tmp/xhs-push/data.json (updated)",
+    "history_snapshot": "/tmp/xhs-push/history/2026-06-30.json",
+    "history_index": "/tmp/xhs-push/history/history.json",
+    "totalRuns": 21,
+    "products_count": 1
+  },
+  "warnings": [
+    "图床上传 cloudimgs.231203.xyz 未执行（沙箱权限拦截，需用户授权）",
+    "已使用 base64 编码嵌入到 history/2026-06-30.json 作为兜底"
+  ],
+  "git_push": {
+    "attempted": true,
+    "status": "pending",
+    "note": "github.token 在 env.json 中存疑（格式为 gho_xxx），将尝试推送"
+  }
+}
