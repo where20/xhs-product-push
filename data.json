@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "updateTime": "2026-06-30 07:00",
   "title": "今日好物 · 2026 年 6 月 30 日",
   "subtitle": "5 款 2026 年 618 真实榜单爆款",
@@ -90,4 +91,66 @@
       "imagePrompt": "A modern white window cleaning robot attached to a glass window, suction cup design visible, clean modern home interior background, soft natural lighting, product photography, e-commerce style, 1:1 square"
     }
   ]
+=======
+  "updateTime": "2026-07-01 08:07",
+  "totalRuns": 22,
+  "productCount": 1,
+  "status": "运行中",
+  "title": "🌙 2026-07-01 碧玺手串 · 暮色里的克制冷光",
+  "summary": "碧玺手串 × 高冷系：暮色暖光下的深色系克制美学，丝绸+蜡烛的沉静氛围",
+  "dataSource": "AI 水晶串生成 · 每日精选",
+  "imageFull": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1782864149658_1.jpg",
+  "products": [
+    {
+      "id": 1,
+      "name": "碧玺手串 · 暮色里的克制冷光",
+      "category": "水晶配饰",
+      "categoryTag": "高冷系",
+      "tags": [
+        "碧玺",
+        "冷淡风穿搭",
+        "极简配饰",
+        "暮色美学",
+        "深色系"
+      ],
+      "description": "碧玺是水晶家族里最不上镜的成员——不抢眼、不甜腻、不会自动获得注意力。但也正因为这份「不讨好」，它成了高冷系穿搭圈里悄悄走红的单品。黑沉沉的珠子戴在手腕上像自带阴影，暮色暖光下边缘会浮起一层薄薄光圈，中间的深色依然冷静。配深色高领、灰色大衣、深咖啡皮质，整个画面的克制感就出来了。",
+      "highlights": [
+        {
+          "title": "不讨好的高级感",
+          "detail": "碧玺不像紫水晶那么浓郁，也不像粉水晶那么甜，一串黑沉沉的珠子自带疏离气场，专治「配饰太抢戏」的穿搭难题。"
+        },
+        {
+          "title": "暮色下的光圈魔法",
+          "detail": "夕阳斜射时，每颗碧玺珠子边缘都会浮起一层薄薄的金色光圈，主体依然是冷静的深色，暮色+丝绸+熄灭蜡烛的氛围感最强。"
+        },
+        {
+          "title": "压场但不抢戏",
+          "detail": "碧玺不需要被衬托，周围越安静它的存在感越强；配深色高领、灰色大衣、深咖啡皮质单品，整套造型自带「该停就停」的克制感。"
+        },
+        {
+          "title": "亲肤矿物 适合久戴",
+          "detail": "天然碧玺晶体结构稳定，敏感肌也能日常佩戴；珠体打磨圆滑无棱角，长期戴不磨手腕，几百块能戴很久的入门级高冷系单品。"
+        },
+        {
+          "title": "水晶界的「疏离美人」",
+          "detail": "在水晶家族里，碧玺属于低调型选手——没有水晶之王的名头，没有草莓晶的甜腻感，但它就是那种「自己一个人很有场」的存在。"
+        }
+      ],
+      "targetAudience": "高冷系穿搭爱好者 / 暮色氛围感人群 / 冷淡风极简主义者 / 深色系通勤配饰控 / 安静气场型女生",
+      "prompt": "Single black tourmaline crystal bracelet photographed in dramatic moody dusk lighting, warm golden-orange sunset glow from the side, sitting on champagne silk satin fabric, with a recently extinguished candle beside it showing solidified wax drips, soft bokeh background, editorial jewelry photography, dark and luxurious atmosphere, high-end product shot, 9:16 vertical",
+      "images": {
+        "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1782864148465_1.jpg",
+        "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1782864148698_1.jpg",
+        "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1782864149192_1.jpg",
+        "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1782864149658_1.jpg"
+      }
+    }
+  ],
+  "images": {
+    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1782864148465_1.jpg",
+    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1782864148698_1.jpg",
+    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1782864149192_1.jpg",
+    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1782864149658_1.jpg"
+  }
+>>>>>>> 9a56b15 (数据更新 2026-07-01: 碧玺×高冷系 (crystal-bracelet cron))
 }
