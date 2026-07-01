@@ -1,98 +1,5 @@
 {
-<<<<<<< HEAD
-  "updateTime": "2026-06-30 07:00",
-  "title": "今日好物 · 2026 年 6 月 30 日",
-  "subtitle": "5 款 2026 年 618 真实榜单爆款",
-  "dataSource": "2026 年 618 实战好物榜单（企鹅号/小红书/微博三方汇总）",
-  "products": [
-    {
-      "id": 1,
-      "category": "数码外设",
-      "title": "西圣 GC1 游戏手柄 · 平价享高端",
-      "tagline": "百元价位，电竞级操控",
-      "description": "西圣 GC1 是一款定位百元价位的电竞级游戏手柄，凭借自研 AccuX 精准操控算法与 ForceTune 悬浮机甲摇杆，在操控手感上对标千元旗舰。支持 2.4G / 蓝牙 / Type-C 三模连接，输入延迟低至 0.5ms，原生六轴体感加持，无论是 PC 端大作、Switch 主机还是手游串流都能轻松驾驭。半透明幻雾晶透机身搭配 10 种 RGB 灯效，214g 轻量化机身配合 NanoSkin 亲肤涂层，长时间游戏也不累手。",
-      "highlights": [
-        "自研 AccuX 精准操控算法 + ForceTune 磁悬浮机甲摇杆，微操精准回中稳",
-        "三模连接（2.4G / 蓝牙 / Type-C），输入延迟低至 0.5ms",
-        "原生六轴体感传感器，1ms 动作映射，射击漂移更沉浸",
-        "ABXY 机械微动 + 一键宏定义，复杂连招轻松搞定",
-        "214g 轻量机身 + 10 种 RGB 灯效 + 多平台兼容"
-      ],
-      "tags": ["百元旗舰", "三模连接", "电竞级", "宏定义", "轻量化"],
-      "audience": "学生党、手游党、Switch 玩家、追求性价比的硬核玩家",
-      "imagePrompt": "A modern translucent smoky crystal gaming controller on pure white background, RGB lighting effect visible inside, ergonomic design, professional product photography, soft studio lighting, high detail, e-commerce style, 1:1 square"
-    },
-    {
-      "id": 2,
-      "category": "智能清洁",
-      "title": "云鲸 J5 扫地机器人 · 边角全覆盖",
-      "tagline": "15000Pa 大吸力，仿生手外扩",
-      "description": "云鲸 J5 延续家族圆润可爱外观，配置全面升级。15000Pa 强劲吸力轻松应对瓜子壳、长头发、咖啡粉等复杂垃圾；勒洛三角拖布配合 8N 恒定下压力旋转 180 转/分钟，重油污也能一次搞定。独家仿生手外扩加压清洁方案配合“倒车”设计，内转角、外转角都能实现零距离贴边。拖布外扩 + 扭屁股双重策略攻克低矮环境，整体使用体验向旗舰看齐。",
-      "highlights": [
-        "15000Pa 强劲吸力，大颗粒垃圾一次搞定",
-        "勒洛三角拖布 + 180 转/分钟 + 8N 恒压，重油污无忧",
-        "仿生手外扩加压 + 倒车设计，边角零距离贴边",
-        "拖布外扩 + 扭屁股双策略，深入低矮空间",
-        "圆润颜值 + 多重传感，颜值党清洁党双满足"
-      ],
-      "tags": ["大吸力", "仿生手", "贴边清洁", "低矮友好", "重油污"],
-      "audience": "养宠家庭、上班族、大户型、对边角清洁有执念的用户",
-      "imagePrompt": "A round cute white robot vacuum cleaner on a clean wooden floor, minimalist home interior background, modern design, soft natural lighting, product photography, e-commerce style, 1:1 square"
-    },
-    {
-      "id": 3,
-      "category": "数码影音",
-      "title": "华为 FreeBuds 6i 降噪蓝牙耳机 · 流光紫",
-      "tagline": "旗舰级降噪，安卓苹果通用",
-      "description": "华为 FreeBuds 6i 以流光紫配色为主打，颜值与实力兼具。旗舰级主动降噪能力大幅隔绝环境杂音，沉浸听歌体验拉满；音质清晰通透，延迟控制到位，玩游戏也毫无压力。机身佩戴轻盈，长时间使用无负担。亮眼配色时尚百搭，日常通勤、办公学习、户外运动都能轻松胜任。618 活动价给力，是入门降噪耳机里的真香选择。",
-      "highlights": [
-        "旗舰级主动降噪，地铁通勤都能轻松隔绝噪音",
-        "流光紫配色，颜值出众，时尚百搭",
-        "音质清晰通透，延迟低，游戏体验流畅",
-        "轻盈佩戴设计，长时间使用无负担",
-        "安卓苹果无缝兼容，通用性拉满"
-      ],
-      "tags": ["降噪", "流光紫", "低延迟", "通用兼容", "颜值担当"],
-      "audience": "通勤族、学生党、追剧党、游戏党、颜值控",
-      "imagePrompt": "Purple gradient wireless earbuds in charging case floating on white background, sleek modern design, soft studio lighting, professional product photography, glossy finish, e-commerce style, 1:1 square"
-    },
-    {
-      "id": 4,
-      "category": "个护电器",
-      "title": "飞利浦 S5277/02 剃须刀 · AI 智能调速",
-      "tagline": "125 次/秒胡须识别，敏感肌友好",
-      "description": "飞利浦深耕剃须领域多年的匠心之作。S5277/02 搭载 AI 智能调速技术，传感器每秒 125 次识别胡须密度，浓密区域自动加大动力，细软胡须处降低功率，避免敏感肌泛红刺痛。27 片欧洲进口自研磨刀片配合风驰切割系统，每分钟 350 万次切剃，下巴、喉结、嘴角死角都能紧密贴合。SkinGlide 润滑涂层降低摩擦，IPX7 全身水洗，1 小时续航 + 5 分钟快充，出差旅行更安心。",
-      "highlights": [
-        "AI 智能调速每秒 125 次识别胡须，敏感肌友好",
-        "27 片欧洲进口自研磨刀片 + 350 万次/分钟风驰切割",
-        "360° 灵动浮动三刀头，下巴喉结嘴角无死角",
-        "SkinGlide 润滑涂层 + IPX7 全身水洗",
-        "1 小时续航 + 5 分钟快充 + 旅行锁 + LED 屏显"
-      ],
-      "tags": ["AI 调速", "敏感肌友好", "进口刀片", "全身水洗", "快充"],
-      "audience": "敏感肌男士、商务差旅人士、追求效率的上班族",
-      "imagePrompt": "A premium black electric shaver with metallic silver accents on white background, modern industrial design, soft studio lighting, professional product photography, sleek and clean look, e-commerce style, 1:1 square"
-    },
-    {
-      "id": 5,
-      "category": "家居清洁",
-      "title": "希亦 W1 擦窗机器人 · 高层擦窗神器",
-      "tagline": "1+2 负压吸附 + Q-Stage 四段清洁",
-      "description": "希亦 W1 专为高层擦窗痛点设计，通过欧盟 CE、美国 FCC 权威认证。自研 1+2 负压联动吸附系统搭配 WSafe 断电防护与 150kg 承重安全绳，高空作业安全感拉满。独家 Q-Stage 四段式清洁矩阵配合六喷头纳米雾化与超声空化技术，水垢、雨渍、油污一次擦净，不留水痕。1.2kg 轻量化机身 + AI 智能识别边框 + 100ml 大水箱，落地窗、浴室玻璃、阳台门一机搞定。",
-      "highlights": [
-        "1+2 负压联动吸附 + 150kg 安全绳 + WSafe 断电防护",
-        "Q-Stage 四段式清洁 + 纳米雾化 + 超声空化",
-        "AI 智能识别边框，自动规划清洁路径",
-        "1.2kg 轻量化机身，女生老人轻松拎取",
-        "100ml 大水箱，一次加满清洁全屋窗户"
-      ],
-      "tags": ["高层安全", "智能路径", "不留水痕", "欧盟认证", "轻量化"],
-      "audience": "高楼层住户、大面积落地窗家庭、租房党、家有老人",
-      "imagePrompt": "A modern white window cleaning robot attached to a glass window, suction cup design visible, clean modern home interior background, soft natural lighting, product photography, e-commerce style, 1:1 square"
-    }
-  ]
-=======
-  "updateTime": "2026-07-01 08:07",
+  "updateTime": "2026-07-01 08:10",
   "totalRuns": 22,
   "productCount": 1,
   "status": "运行中",
@@ -152,5 +59,4 @@
     "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1782864149192_1.jpg",
     "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1782864149658_1.jpg"
   }
->>>>>>> 9a56b15 (数据更新 2026-07-01: 碧玺×高冷系 (crystal-bracelet cron))
 }
