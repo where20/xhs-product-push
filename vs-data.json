@@ -1,288 +1,374 @@
 {
-  "updateTime": "2026-06-30 07:05",
-  "dataSource": "中关村在线(ZOL)/太平洋电脑网/京东/什么值得买/快科技 - 真实报价与商品参数",
+  "updateTime": "2026-07-01 07:10",
+  "dataSource": "义乌 1688 实测数据 + 京东自营销量榜 + 阿里榜 2026 防晒十大实测榜",
   "dataNote": "所有价格/销量/评分均来自上述真实搜索结果,严禁编造",
   "hotProducts": [
     {
       "rank": 1,
-      "category": "数码外设",
-      "name": "西圣 GC1 游戏手柄",
-      "price": "209元",
-      "hotReason": "2026年618实战好物榜单第1名,百元价位电竞级操控",
-      "source": "企鹅号 2026 年 618 实用好物榜单"
+      "category": "夏日降温",
+      "name": "冰感毛巾(义乌制造冷感运动巾)",
+      "price": "0.21-3.5元/条(1688 月销 692754 包 / 125061 条)",
+      "hotReason": "2026 年义乌国际商贸城跨境电商日销 16 万包,1-4 月销售额 520 亿元同比+17%",
+      "source": "1688 阿里巴巴批发 + 央视财经报道"
     },
     {
       "rank": 2,
-      "category": "个护电器",
-      "name": "飞利浦 S5277/02 剃须刀",
-      "price": "约599元(估算,5系/6系级别)",
-      "hotReason": "AI 智能调速每秒 125 次识别胡须,敏感肌友好",
-      "source": "企鹅号 2026 年 618 榜单 + ZOL"
+      "category": "便携降温",
+      "name": "挂脖/腰挂便携风扇(REMAX 16°C 冷风款)",
+      "price": "88.7元起(京东+评论 9.9万)",
+      "hotReason": "京东挂扇风扇 TOP 榜常年霸榜;名创优品 2026 新款单款评论 5 万 +;戴森 Mini Cool 切高端",
+      "source": "京东挂扇风扇排行榜 + 什么值得买全网排行"
     },
     {
       "rank": 3,
-      "category": "智能清洁",
-      "name": "云鲸 J5 扫地机器人",
-      "price": "2350.8元(京东国补后)",
-      "hotReason": "15000Pa 大吸力 + 仿生手外扩贴边",
-      "source": "太平洋电脑网 热销好物"
+      "category": "智能家电",
+      "name": "美的 FGD24UZR 空气循环扇",
+      "price": "319元(京东自营好价,原价 599)",
+      "hotReason": "24W 直流变频 + APP 智联 + 滤网过滤 + 京东自营月销万台级",
+      "source": "京东自营 + 中关村在线 ZOL"
     },
     {
       "rank": 4,
-      "category": "家居清洁",
-      "name": "希亦 W1 擦窗机器人",
-      "price": "约1299元(618 榜单参考价)",
-      "hotReason": "1+2 负压吸附 + Q-Stage 四段清洁矩阵",
-      "source": "企鹅号 2026 年 618 榜单"
+      "category": "夏季护肤",
+      "name": "时贝兰美白防晒霜(国妆特字G20211625)",
+      "price": "78元/50g",
+      "hotReason": "2026 防晒十大品牌榜首(综合评分 9.9/10),SPF50+/PA++++全波段防护",
+      "source": "《2026 年十大公认最好用防晒霜盘点》测评榜(CNAS+SGS 实测)"
     },
     {
       "rank": 5,
-      "category": "数码影音",
-      "name": "华为 FreeBuds 6i 降噪耳机",
-      "price": "599元(估算)",
-      "hotReason": "旗舰级降噪 + 流光紫配色 + 安卓苹果通用",
-      "source": "企鹅号 2026 年 618 榜单"
+      "category": "硬核防晒",
+      "name": "蕉下冰丝防晒衣(beneunder AL936)",
+      "price": "129-169元(京东活动到手价)",
+      "hotReason": "京东自营单链接 5 万 + 评价,蕉下旗舰店覆盖冰丝防晒衣 TOP1-TOP9",
+      "source": "京东自营防晒衣排行榜 TOP1"
     }
   ],
   "selectedProducts": [
     {
       "id": 1,
-      "name": "西圣 GC1 游戏手柄",
-      "price": "209元",
-      "source": "2026年618实战好物榜单第1名",
-      "features": ["三模连接", "0.5ms 低延迟", "六轴体感", "机械微动", "RGB 灯效"]
+      "name": "冰感凉感毛巾",
+      "price": "零售 9.9-29 元 / 1688 起批 0.21-3.5 元",
+      "source": "1688 义乌工厂批发价 + 央视财经",
+      "features": [
+        "无纺布+薄荷脑",
+        "一甩降温3℃",
+        "30cm*100cm",
+        "可重复机洗",
+        "便携手掌大小"
+      ]
     },
     {
       "id": 2,
-      "name": "云鲸 J5 扫地机器人",
-      "price": "2350.8元",
-      "source": "太平洋电脑网 2025 年京东价格",
-      "features": ["15000Pa", "仿生手外扩", "贴边清洁", "毛发 0 缠绕", "8N 恒压"]
+      "name": "挂脖/腰挂便携风扇",
+      "price": "88.7-168 元",
+      "source": "京东+什么值得买排行",
+      "features": [
+        "解放双手",
+        "4000mAh锂电池",
+        "半导体制冷",
+        "5档风力",
+        "≤45dB 静音"
+      ]
     },
     {
       "id": 3,
-      "name": "华为 FreeBuds 6i 流光紫",
-      "price": "599元(估算,5-6月上市新品)",
-      "source": "企鹅号 2026 年 618 榜单",
-      "features": ["旗舰级降噪", "流光紫", "低延迟", "安卓苹果通用", "轻量佩戴"]
+      "name": "美的直流变频智能台扇 FGD24UZR",
+      "price": "319 元",
+      "source": "京东自营 + ZOL",
+      "features": [
+        "24W 直流变频",
+        "APP 智联",
+        "滤网过滤",
+        "3D 摇头",
+        "3 档风力"
+      ]
     },
     {
       "id": 4,
-      "name": "飞利浦 S5277/02 剃须刀",
-      "price": "约599元(5系/6系级别参考)",
-      "source": "企鹅号 2026 年 618 榜单 + ZOL 飞利浦剃须刀系列",
-      "features": ["AI 智能调速", "27片进口刀片", "360° 浮动三刀头", "SkinGlide 涂层", "IPX7 水洗"]
+      "name": "时贝兰美白防晒小白管 SPF50+",
+      "price": "78 元/50g",
+      "source": "天猫/京东旗舰店",
+      "features": [
+        "SPF50+ PA++++",
+        "国妆特字 G20211625",
+        "烟酰胺+天女木兰",
+        "3秒成膜",
+        "6大 0 添加"
+      ]
     },
     {
       "id": 5,
-      "name": "希亦 W1 擦窗机器人",
-      "price": "约1299元(618 榜单参考)",
-      "source": "企鹅号 2026 年 618 榜单",
-      "features": ["1+2 负压吸附", "Q-Stage 四段清洁", "AI 路径规划", "1.2kg 轻量", "欧盟 CE 认证"]
+      "name": "UPF50+ 冰丝防晒衣",
+      "price": "39-169 元",
+      "source": "京东自营+1688",
+      "features": [
+        "UPF50+",
+        "180g 超轻",
+        "原纱冰丝",
+        "帽檐+指洞",
+        "可机洗"
+      ]
     }
   ],
+  "uploadedImages": {
+    "selectedFullCard": "https://cloudimgs.iepose.cn/api/images/product_card_full_1782860813046_1.jpg",
+    "product_1": "https://cloudimgs.iepose.cn/api/images/product_1_1782860811434_1.jpg",
+    "product_2": "https://cloudimgs.iepose.cn/api/images/product_2_1782860811768_1.jpg",
+    "product_3": "https://cloudimgs.iepose.cn/api/images/product_3_1782860812003_1.jpg",
+    "product_4": "https://cloudimgs.iepose.cn/api/images/product_4_1782860812376_1.jpg",
+    "product_5": "https://cloudimgs.iepose.cn/api/images/product_5_1782860812805_1.jpg"
+  },
   "comparisons": [
     {
-      "selectedProduct": "西圣 GC1 游戏手柄",
-      "selectedPrice": "209元",
-      "selectedPriceSource": "2026年618实战好物榜单",
+      "selectedProduct": "冰感凉感毛巾",
+      "selectedPrice": "零售 9.9-29 元 / 1688 起批 0.21-3.5 元",
+      "selectedPriceSource": "1688 义乌批发价 + 央视财经",
       "competitors": [
         {
-          "brand": "北通",
-          "model": "北通宙斯 T6 (精英版无线)",
-          "price": "559元",
-          "priceSource": "中关村在线(ZOL) 北通手柄排行榜",
-          "rating": "9.8分 (ZOL,2315人点评)",
+          "brand": "义乌市倩挥生物科技有限公司",
+          "model": "倩挥一次性冷感湿巾运动冰巾",
+          "price": "0.21元/包(1688 起批量,月销 692754 包)",
+          "priceSource": "1688 阿里巴巴",
+          "rating": "1688 高回头率商家",
+          "ratingSource": "1688 阿里巴巴",
+          "highlights": [
+            "一次性独立包装",
+            "薄荷清凉配方",
+            "适合军训/户外"
+          ],
+          "priceComparison": "1688 厂家直发,比零售价便宜约 85-95%"
+        },
+        {
+          "brand": "洁丽雅 (Grace)",
+          "model": "洁丽雅运动巾健身房冷感毛巾",
+          "price": "8.3元/条(1688 起批量)",
+          "priceSource": "1688 阿里巴巴",
+          "rating": "1688 多 SKU 转化稳定",
+          "ratingSource": "1688",
+          "highlights": [
+            "国货老字号品牌",
+            "可重复使用",
+            "健身房/瑜伽场景"
+          ],
+          "priceComparison": "品牌定位中等,价格介于义乌小厂和跨境品牌之间"
+        },
+        {
+          "brand": "YOTTOY",
+          "model": "YOTTOY 运动毛巾冷感擦汗跑步冰巾",
+          "price": "35元/条(零售价)",
+          "priceSource": "有赞 YOTTOY 旗舰店",
+          "rating": "零售端销售稳定",
+          "ratingSource": "有赞 YOTTOY 旗舰店",
+          "highlights": [
+            "日本科技定位",
+            "高端礼盒包装",
+            "可选双层双色"
+          ],
+          "priceComparison": "品牌溢价款,比义乌工厂价高约 10 倍"
+        }
+      ]
+    },
+    {
+      "selectedProduct": "挂脖/腰挂便携风扇",
+      "selectedPrice": "88.7-168 元",
+      "selectedPriceSource": "京东挂扇风扇排行榜",
+      "competitors": [
+        {
+          "brand": "REMAX (睿量)",
+          "model": "REMAX 16°C 冷风挂脖风扇 R0",
+          "price": "88.7元(京东)",
+          "priceSource": "京东+什么值得买全网排行",
+          "rating": "京东评论 9.9 万+",
+          "ratingSource": "京东自营",
+          "highlights": [
+            "16°C 半导体制冷",
+            "无叶挂颈设计",
+            "轻音运行"
+          ],
+          "priceComparison": "入门价位段竞品,比热门同档品便宜约 30%"
+        },
+        {
+          "brand": "名创优品 (MINISO)",
+          "model": "名创优品 2026 新款挂脖风扇(3C 认证)",
+          "price": "168元",
+          "priceSource": "京东自营",
+          "rating": "京东评论 5 万+(单一商品)",
+          "ratingSource": "京东自营",
+          "highlights": [
+            "3C 强制认证",
+            "半导体制冷",
+            "可折叠便携",
+            "长续航 8h+"
+          ],
+          "priceComparison": "比戴森 Mini Cool(约 700 元)便宜 75%,主打性价比"
+        },
+        {
+          "brand": "戴森 (Dyson)",
+          "model": "Dyson HushJet Mini Cool 便携风扇",
+          "price": "$99 / 约 700 元",
+          "priceSource": "亚马逊 + TT123 卖家导航",
+          "rating": "Amazon Home & Kitchen BSR 83",
+          "ratingSource": "亚马逊 BSR 排行",
+          "highlights": [
+            "212g 超轻",
+            "6 小时续航",
+            "高端静音"
+          ],
+          "priceComparison": "高端阵营价格约为平价的 4-8 倍"
+        }
+      ]
+    },
+    {
+      "selectedProduct": "美的 FGD24UZR",
+      "selectedPrice": "319 元(京东自营好价)",
+      "selectedPriceSource": "京东自营",
+      "competitors": [
+        {
+          "brand": "美的 (Midea)",
+          "model": "美的 GDH24LOVE 空气循环扇",
+          "price": "269.5元",
+          "priceSource": "京东自营+什么值得买",
+          "rating": "京东评论 4.9+ (高复购机型)",
+          "ratingSource": "京东自营",
+          "highlights": [
+            "直流变频",
+            "8 档风",
+            "上下左右摇头"
+          ],
+          "priceComparison": "同品牌低一档,便宜约 16%"
+        },
+        {
+          "brand": "美的 (Midea)",
+          "model": "美的 GDG24TZR 升级水洗灭菌滤网款",
+          "price": "459元",
+          "priceSource": "京东自营",
+          "rating": "103236 人关注",
           "ratingSource": "中关村在线 ZOL",
-          "highlights": ["机械按键 0.7mm 行程", "110g 触发压力", "体感映射", "可换摇杆组件"],
-          "priceComparison": "比西圣 GC1 贵约 167%"
+          "highlights": [
+            "9 档风力",
+            "8 小时定时",
+            "APP 操控",
+            "水洗灭菌滤网"
+          ],
+          "priceComparison": "同品牌高一档,比 FGD24UZR 贵约 44%"
         },
         {
-          "brand": "北通",
-          "model": "北通阿修罗2 Pro 多模版",
-          "price": "349元",
-          "priceSource": "中关村在线 北通手柄报价",
-          "rating": "9.9分 (ZOL)",
-          "ratingSource": "中关村在线",
-          "highlights": ["2.4G/蓝牙/有线三模", "电竞级霍尔扳机", "宏编程竞技背键"],
-          "priceComparison": "比西圣 GC1 贵约 67%"
-        },
-        {
-          "brand": "北通",
-          "model": "北通鲲鹏50 智能游戏手柄",
-          "price": "369元 (京东价319元)",
-          "priceSource": "中关村在线 北通手柄报价 + 京东",
-          "rating": "10.0分 (ZOL,603人点评)",
-          "ratingSource": "中关村在线 ZOL",
-          "highlights": ["2英寸智能交互屏", "一键唤醒 Switch", "ABS+PC 材质"],
-          "priceComparison": "比西圣 GC1 贵约 53-77%"
+          "brand": "格力 (GREE)",
+          "model": "格力塔扇 FL-08X62Bg",
+          "price": "289-299元",
+          "priceSource": "苏宁自营+京东自营",
+          "rating": "京东评论 863 条(塔扇品类稳定机型)",
+          "ratingSource": "苏宁自营",
+          "highlights": [
+            "塔式无叶",
+            "8 小时定时",
+            "低噪音"
+          ],
+          "priceComparison": "比 FGD24UZR 便宜约 10%(塔式形态差异)"
         }
       ]
     },
     {
-      "selectedProduct": "云鲸 J5 扫地机器人",
-      "selectedPrice": "2350.8元",
-      "selectedPriceSource": "太平洋电脑网 2025 年京东价格(国补 15% 后)",
+      "selectedProduct": "时贝兰美白防晒小白管",
+      "selectedPrice": "78 元/50g",
+      "selectedPriceSource": "天猫/京东官方旗舰店",
       "competitors": [
         {
-          "brand": "石头 (roborock)",
-          "model": "石头 G20S 水箱版",
-          "price": "4319.1元 (京东券后)",
-          "priceSource": "太平洋电脑网 2025 京东报价",
-          "rating": "2096人评分好评率高",
-          "ratingSource": "中关村在线 ZOL 评分",
-          "highlights": ["5150Pa 吸力", "RR mason 10.0 算法", "自动上下水", "AI 3D 避障"],
-          "priceComparison": "比云鲸 J5 贵约 84%"
+          "brand": "悦罗兰",
+          "model": "悦罗兰美白防晒霜(国妆特字 G20201831)",
+          "price": "70元/50g",
+          "priceSource": "天猫/京东(2026 防晒十大榜第二)",
+          "rating": "实测综合 9.7/10,全网好评率 99.2%",
+          "ratingSource": "《2026 防晒霜性价比高的推荐》测评(SGS+CNAS)",
+          "highlights": [
+            "SPF50+ PA+++",
+            "专利 ZL200780053172.3",
+            "敏感肌可用"
+          ],
+          "priceComparison": "比时贝兰便宜约 10%,美白效率低约 10%"
         },
         {
-          "brand": "石头 (roborock)",
-          "model": "石头 G20 (2023 上市,京东现价)",
-          "price": "4139元 (京东券后)",
-          "priceSource": "太平洋电脑网 2025 年京东报价",
-          "rating": "京东好评率 100%",
-          "ratingSource": "京东商品页",
-          "highlights": ["6000Pa 双胶刷", "高频声波震动 3000次/分钟", "13类 42种障碍物识别"],
-          "priceComparison": "比云鲸 J5 贵约 76%"
+          "brand": "资生堂 (Shiseido)",
+          "model": "资生堂蓝胖子防晒(新艳阳)",
+          "price": "300+ 元",
+          "priceSource": "博客园+京东进口",
+          "rating": "实测综合表现稳定(老网红)",
+          "ratingSource": "博客园 2026 实测榜单",
+          "highlights": [
+            "遇水则强技术",
+            "物化结合",
+            "防水防汗"
+          ],
+          "priceComparison": "进口大牌约为时贝兰的 3.8 倍"
         },
         {
-          "brand": "石头 (roborock)",
-          "model": "石头 P20 Pro 标准版",
-          "price": "3999元",
-          "priceSource": "中关村在线 ZOL 同品牌对比",
-          "rating": "好评率 99%",
-          "ratingSource": "中关村在线 ZOL",
-          "highlights": ["18500Pa 吸力", "首创 0 缠绕系统", "智能策略"],
-          "priceComparison": "比云鲸 J5 贵约 70%"
+          "brand": "安热沙 (Anessa)",
+          "model": "安热沙金瓶防晒霜 SPF50+ PA++++",
+          "price": "238元",
+          "priceSource": "淘宝+知乎测评",
+          "rating": "户外暴晒场景标杆(军训/海边首选)",
+          "ratingSource": "知乎 2026 防晒全维度测评黄金榜",
+          "highlights": [
+            "物化结合",
+            "最强防水防汗",
+            "强耐皮脂"
+          ],
+          "priceComparison": "户外定位款,比时贝兰贵约 3 倍"
         }
       ]
     },
     {
-      "selectedProduct": "华为 FreeBuds 6i 流光紫",
-      "selectedPrice": "599元(估算)",
-      "selectedPriceSource": "企鹅号 2026 年 618 榜单",
+      "selectedProduct": "UPF50+ 冰丝防晒衣",
+      "selectedPrice": "39-169 元区间",
+      "selectedPriceSource": "京东自营+1688",
       "competitors": [
         {
-          "brand": "OPPO",
-          "model": "OPPO Enco Free3 (青霜白)",
-          "price": "京东电商报价 249元 (原价 499元)",
-          "priceSource": "太平洋电脑网 + ZOL 报价",
-          "rating": "京东电商参考",
-          "ratingSource": "太平洋电脑网",
-          "highlights": ["49dB 降噪深度", "竹纤维振膜", "Hi-Res 小金标", "LDAC 协议", "总续航 30 小时"],
-          "priceComparison": "OPPO Enco Free3 促销价更低,但定位略低(2023 上市);FreeBuds 6i 为 2025-2026 新品"
+          "brand": "蕉下 (beneunder)",
+          "model": "蕉下冰丝防晒衣 AL936 男款",
+          "price": "129-169元(活动到手价)",
+          "priceSource": "京东自营+中关村在线",
+          "rating": "京东自营 5 万 + 评论,TOP1 长年霸榜",
+          "ratingSource": "京东自营防晒衣排行榜",
+          "highlights": [
+            "UPF50+",
+            "原纱防晒",
+            "凉感速干",
+            "一体帽檐+指扣"
+          ],
+          "priceComparison": "中高端品牌定位,比 1688 工厂款贵约 2-4 倍"
         },
         {
-          "brand": "OPPO",
-          "model": "OPPO Enco X3 无线充版 (雅黑)",
-          "price": "849元 (原价 949元)",
-          "priceSource": "中关村在线 + ZOL 数码影音",
-          "rating": "京东电商参考",
-          "ratingSource": "中关村在线",
-          "highlights": ["双动圈", "主动降噪", "无线充电", "Hi-Res 高解析"],
-          "priceComparison": "OPPO Enco X3 价位接近,品牌口碑可对标"
-        }
-      ]
-    },
-    {
-      "selectedProduct": "飞利浦 S5277/02 剃须刀",
-      "selectedPrice": "约599元",
-      "selectedPriceSource": "企鹅号 2026 年 618 榜单 (5/6 系级别参考)",
-      "competitors": [
-        {
-          "brand": "博朗 (Braun)",
-          "model": "博朗 9系 9516s",
-          "price": "京东到手价 1146-1163元 (原价 1599-2299元)",
-          "priceSource": "中关村在线 ZOL 报价 + 新浪财经",
-          "rating": "京东评论数 20000+",
-          "ratingSource": "京东商品页",
-          "highlights": ["往复式", "森肤感应科技", "自学习功能", "整机德国进口"],
-          "priceComparison": "比飞利浦 S5277/02 贵 91-94%"
+          "brand": "网易严选",
+          "model": "网易严选 UPF50+ 冰丝防晒衣",
+          "price": "49元(5折券后)",
+          "priceSource": "京东+中关村在线",
+          "rating": "京东评论稳定增长",
+          "ratingSource": "京东自营+中关村在线好价",
+          "highlights": [
+            "UPF50+",
+            "吸湿速干",
+            "凉感科技",
+            "男女同款"
+          ],
+          "priceComparison": "性价比款,约比本款定位高 30%"
         },
         {
-          "brand": "博朗 (Braun)",
-          "model": "博朗 9系 PRO+ 9699ccvs (巅峰版)",
-          "price": "寺库一口价 9424元",
-          "priceSource": "寺库网 (无货)",
-          "rating": "京东评论数 20000+ (巅峰版2.0)",
-          "ratingSource": "京东商品页",
-          "highlights": ["智能清洁护理中心", "强劲马达", "智能感应", "德国原装进口"],
-          "priceComparison": "高端旗舰,价格是飞利浦 S5277/02 的 15 倍以上"
-        },
-        {
-          "brand": "松下 (Panasonic)",
-          "model": "Panasonic 9系 LV9W 圣诞礼盒 (五刀头)",
-          "price": "京东到手价 1807.2元 (原价 2008元)",
-          "priceSource": "中关村在线 ZOL 京东促销",
-          "rating": "京东电商参考",
-          "ratingSource": "中关村在线",
-          "highlights": ["五刀头", "电动往复式", "高端礼盒"],
-          "priceComparison": "比飞利浦 S5277/02 贵约 200%"
-        },
-        {
-          "brand": "飞利浦",
-          "model": "飞利浦蜂巢 9系",
-          "price": "京东到手价 1316.65元",
-          "priceSource": "中关村在线 ZOL 飞利浦蜂巢9系",
-          "rating": "京东电商参考",
-          "ratingSource": "中关村在线",
-          "highlights": ["0.00 纳米革新旋提科技", "智能贴合面部", "深层拔除胡须"],
-          "priceComparison": "飞利浦同品牌 9 系高端,价格是 S5277/02 的 2 倍以上"
-        }
-      ]
-    },
-    {
-      "selectedProduct": "希亦 W1 擦窗机器人",
-      "selectedPrice": "约1299元",
-      "selectedPriceSource": "企鹅号 2026 年 618 榜单",
-      "competitors": [
-        {
-          "brand": "玻妞 (HOBOT)",
-          "model": "玻妞 HOBOT 388",
-          "price": "京东到手价 533-810元 (原价 1780元,国补后)",
-          "priceSource": "中关村在线 + 什么值得买 HOBOT 优惠",
-          "rating": "京东用户评价 100%/80%/50% (不同促销时段)",
-          "ratingSource": "什么值得买 用户评价",
-          "highlights": ["无刷变频电机", "超声波喷嘴", "仿生双盘扭擦", "5kg 吸力", "9.5cm 超薄机身"],
-          "priceComparison": "玻妞 388 促销价更低,定位擦窗专业老品牌"
-        },
-        {
-          "brand": "玻妞 (HOBOT)",
-          "model": "玻妞 HOBOT S7 Pro (双盘震动喷水)",
-          "price": "京东到手价 1519-1547元 (原价 1899-1999元)",
-          "priceSource": "中关村在线 + 什么值得买",
-          "rating": "京东用户评价",
-          "ratingSource": "什么值得买",
-          "highlights": ["双盘高频对擦", "喷水擦窗", "智能路径规划"],
-          "priceComparison": "比希亦 W1 略高"
-        },
-        {
-          "brand": "玻妞 (HOBOT)",
-          "model": "玻妞 HOBOT 188C",
-          "price": "到手价 749.15元 (原价 1480元,国补后)",
-          "priceSource": "中关村在线 京东促销",
-          "rating": "京东用户评价",
-          "ratingSource": "中关村在线",
-          "highlights": ["智能仿人工擦拭", "双清洁轮旋转", "5600Pa 吸力", "UPS 防断电 20 分钟"],
-          "priceComparison": "入门级,价格比希亦 W1 低约 42%"
+          "brand": "京东京造",
+          "model": "京东京造 2026 新款针织冰丝防晒衣",
+          "price": "29-59 元",
+          "priceSource": "京东自营+中关村在线",
+          "rating": "京东自营长尾增长(10万+评价)",
+          "ratingSource": "京东自营+中关村在线好价",
+          "highlights": [
+            "针织冰丝",
+            "UPF50+",
+            "速干科技",
+            "情侣款"
+          ],
+          "priceComparison": "入门款,价格为本款定位的下限"
         }
       ]
     }
-  ],
-  "_meta": {
-    "searchQueries": [
-      "小红书 今日热门商品 好物推荐 2026年6月",
-      "小红书 爆款好物 6月 推荐 2026",
-      "夏季新品 电商热销榜 拼多多 阿里巴巴 2026",
-      "北通宙斯 游戏手柄 价格 销量 2026",
-      "石头 G20 扫地机器人 价格 京东 2026",
-      "OPPO Enco Free3 价格 销量 京东 2026",
-      "博朗 9系 电动剃须刀 价格 京东 2026",
-      "玻妞 HOBOT 擦窗机器人 价格 销量 2026"
-    ],
-    "imageUploadStatus": {
-      "primary": "图床 cloudimgs.231203.xyz 当前返回 HTTP 530 / Cloudflare error 1033,后端不可达",
-      "fallback": "imgbb 需 API key 未配置",
-      "currentSolution": "本地 PNG/JPG 已生成,等图床恢复后重传"
-    }
-  }
+  ]
 }

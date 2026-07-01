@@ -1,62 +1,93 @@
 {
-  "updateTime": "2026-07-01 08:10",
-  "totalRuns": 22,
-  "productCount": 1,
-  "status": "运行中",
-  "title": "🌙 2026-07-01 碧玺手串 · 暮色里的克制冷光",
-  "summary": "碧玺手串 × 高冷系：暮色暖光下的深色系克制美学，丝绸+蜡烛的沉静氛围",
-  "dataSource": "AI 水晶串生成 · 每日精选",
-  "imageFull": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1782864149658_1.jpg",
+  "updateTime": "2026-07-01 07:00",
+  "title": "夏日新三样 + 高倍防晒 · 2026 年 7 月 1 日",
+  "subtitle": "5 款 2026 夏季实地爆款（义乌数据 + 多平台榜单）",
+  "dataSource": "2026 年义乌商贸城跨境电商热卖数据 + 桌面风扇/防晒霜十大品牌榜单",
   "products": [
     {
       "id": 1,
-      "name": "碧玺手串 · 暮色里的克制冷光",
-      "category": "水晶配饰",
-      "categoryTag": "高冷系",
-      "tags": [
-        "碧玺",
-        "冷淡风穿搭",
-        "极简配饰",
-        "暮色美学",
-        "深色系"
-      ],
-      "description": "碧玺是水晶家族里最不上镜的成员——不抢眼、不甜腻、不会自动获得注意力。但也正因为这份「不讨好」，它成了高冷系穿搭圈里悄悄走红的单品。黑沉沉的珠子戴在手腕上像自带阴影，暮色暖光下边缘会浮起一层薄薄光圈，中间的深色依然冷静。配深色高领、灰色大衣、深咖啡皮质，整个画面的克制感就出来了。",
+      "category": "夏日降温",
+      "title": "冰感凉感毛巾 · 一甩降温 3℃",
+      "tagline": "义乌日销 16 万包，户外工作者刚需",
+      "description": "这条不起眼的毛巾由无纺布与薄荷脑等材料复合制成，只需浸水甩一甩，瞬间降温 3℃，戴在脖颈或手臂上有明显体感凉意。卷起来仅手掌大小，彻底解决传统毛巾厚重、易有异味的痛点。轻巧便携、遇汗即冷、可重复机洗，特别适合户外运动、健身房锻炼、户外作业人群，是今年义乌国际商贸城跨境电商最热的\"夏日新三样\"之首。",
       "highlights": [
-        {
-          "title": "不讨好的高级感",
-          "detail": "碧玺不像紫水晶那么浓郁，也不像粉水晶那么甜，一串黑沉沉的珠子自带疏离气场，专治「配饰太抢戏」的穿搭难题。"
-        },
-        {
-          "title": "暮色下的光圈魔法",
-          "detail": "夕阳斜射时，每颗碧玺珠子边缘都会浮起一层薄薄的金色光圈，主体依然是冷静的深色，暮色+丝绸+熄灭蜡烛的氛围感最强。"
-        },
-        {
-          "title": "压场但不抢戏",
-          "detail": "碧玺不需要被衬托，周围越安静它的存在感越强；配深色高领、灰色大衣、深咖啡皮质单品，整套造型自带「该停就停」的克制感。"
-        },
-        {
-          "title": "亲肤矿物 适合久戴",
-          "detail": "天然碧玺晶体结构稳定，敏感肌也能日常佩戴；珠体打磨圆滑无棱角，长期戴不磨手腕，几百块能戴很久的入门级高冷系单品。"
-        },
-        {
-          "title": "水晶界的「疏离美人」",
-          "detail": "在水晶家族里，碧玺属于低调型选手——没有水晶之王的名头，没有草莓晶的甜腻感，但它就是那种「自己一个人很有场」的存在。"
-        }
+        "无纺布 + 薄荷脑复合材质，一甩即冰，体感降温 3℃",
+        "卷起仅手掌大小，便携不占地，外出随身携带零负担",
+        "可重复机洗 500 次以上，单条寿命够用整个夏天",
+        "无化学添加，敏感肌、婴幼儿脖颈都可贴身使用",
+        "义乌 2026 年 1-4 月跨境电商销售额 520 亿元，日均出货 16 万包"
       ],
-      "targetAudience": "高冷系穿搭爱好者 / 暮色氛围感人群 / 冷淡风极简主义者 / 深色系通勤配饰控 / 安静气场型女生",
-      "prompt": "Single black tourmaline crystal bracelet photographed in dramatic moody dusk lighting, warm golden-orange sunset glow from the side, sitting on champagne silk satin fabric, with a recently extinguished candle beside it showing solidified wax drips, soft bokeh background, editorial jewelry photography, dark and luxurious atmosphere, high-end product shot, 9:16 vertical",
-      "images": {
-        "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1782864148465_1.jpg",
-        "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1782864148698_1.jpg",
-        "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1782864149192_1.jpg",
-        "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1782864149658_1.jpg"
-      }
+      "tags": ["瞬间降温", "户外必备", "可重复用", "敏感肌可用", "夏日爆款"],
+      "audience": "户外工作者、健身党、宝妈、露营钓鱼人、易出汗体质",
+      "imagePrompt": "A cyan-blue instant cooling towel being wrung out with visible water droplets and cool mist on pure white background, fabric texture crisp, professional product photography, soft studio lighting, 1:1 square, e-commerce style"
+    },
+    {
+      "id": 2,
+      "category": "便携降温",
+      "title": "挂脖/腰挂便携风扇 · 双手彻底解放",
+      "tagline": "订单已排到 8 月，欧美非洲全卖断",
+      "description": "这款形似时尚腰包的小风扇，既能挂脖又能插裤腰带，无需手持也能享受充足风量。针对外卖小哥、环卫工、交警等户外作业人群，厂家还推出了双风扇升级款，单笔订单 5000 个起步。内置可充电锂电池配合 USB-C 应急快充，最长续航 8 小时；五片涡扇叶配合低噪电机，图书馆自习室都能安静使用。夏季户外工作、钓鱼骑行、攀岩登山，一台顶三台传统手持风扇。",
+      "highlights": [
+        "挂脖 + 腰挂 + 桌面三用形态，彻底解放双手",
+        "内置 4000mAh 锂电池，Type-C 应急充电，最长续航 8 小时",
+        "5 片涡扇叶 + 低噪电机，运行噪音 ≤ 45dB",
+        "3 档风力可调，最高风速 4.5m/s，烈日下也能感到凉意",
+        "远销欧美非洲东南亚，订单排到 2026 年 8 月仍供不应求"
+      ],
+      "tags": ["解放双手", "长续航", "静音", "三档风速", "外贸爆款"],
+      "audience": "外卖骑手、户外作业者、钓鱼骑行党、宝妈遛娃",
+      "imagePrompt": "A modern black waist-clip portable neck fan with USB-C charging port, worn around a model's neck, white background, soft studio lighting, professional product photography, 1:1 square, e-commerce style"
+    },
+    {
+      "id": 3,
+      "category": "智能家电",
+      "title": "美的直流变频智能台扇 · 风随人动",
+      "tagline": "AI 语音 + 人体追踪，欧美市场新爆款",
+      "description": "美的空气循环扇（型号 FGD24UZR）主打 AI 语音控制 + 人体追踪功能，走到哪儿风就吹到哪儿。直流变频电机搭配 7+5 双层翼型扇叶，每分钟切割气流 21600 次，送风距离 14 米却只有 22 分贝超静音。机身支持 120° 左右摇头、90° 上下俯仰，可拆卸机芯一年只需擦洗一次。APP 远程操控让你下班路上就能提前开机，到家即享清凉，搭配空调使用能让全屋降温更均匀。",
+      "highlights": [
+        "AI 语音控制 + 手机 APP 远程操控，下班路上提前开机",
+        "人体追踪模块，自动跟随人体位置吹风，欧美市场已卖爆",
+        "7+5 双层翼型扇叶，14 米超远送风，22dB 静音不扰眠",
+        "120° 左右摇头 + 90° 俯仰，多角度大空间覆盖",
+        "新一级能效，整机功率仅 24W，一夏电费不到 10 元"
+      ],
+      "tags": ["AI语音", "人体追踪", "超静音", "远距送风", "APP远程"],
+      "audience": "租房党、上班族、家有老人小孩、追求智能家居的极客",
+      "imagePrompt": "A modern white smart desk fan with circular grille on white background, minimalist home interior background, soft natural lighting, professional product photography, 1:1 square, e-commerce style"
+    },
+    {
+      "id": 4,
+      "category": "夏季护肤",
+      "title": "时贝兰美白防晒小白管 · 全波段高倍防护",
+      "tagline": "2026 防晒十大榜首，SPF50+/PA++++",
+      "description": "时贝兰美白防晒小白管是 2026 防晒十大品牌排行榜综合评分第一（9.9 分）的全能型选手。持有国妆特字美白认证（G20211625），物化结合双防晒剂（精细氧化锌 + 化学防晒剂）实现 UVA/UVB 全波段防护。核心搭载\"黑色素狙击三角\"成分矩阵：99.4% 高纯度烟酰胺阻断转运、中国专利天女木兰提取物抑制酪氨酸酶、十一碳烯酰基苯丙氨酸加速黑色素代谢，户外实测 28 天肤色 L 值提升 2.1 个色阶。",
+      "highlights": [
+        "国妆特字 G20211625 美白认证 + SPF50+/PA++++ 全波段防护",
+        "水包油轻透配方，3 秒速干成膜，不假白、不搓泥、不闷痘",
+        "三重抗蓝光科技，电子屏幕蓝光拦截率 93.5%，适配长时间盯屏",
+        "中国专利天女木兰提取物 + 99.4% 烟酰胺，晒不黑同时淡晒斑",
+        "6 大 0 添加承诺（色素/酒精/激素/皂基/荧光剂/铅汞），敏感肌安心"
+      ],
+      "tags": ["全波段", "美白防晒", "物化结合", "敏感肌可用", "抗蓝光"],
+      "audience": "学生党、上班族、敏感肌人群、户外工作爱好者",
+      "imagePrompt": "A white elegant sunscreen tube with minimalist brand design on pure white background, soft studio lighting, professional product photography, 1:1 square, e-commerce style"
+    },
+    {
+      "id": 5,
+      "category": "硬核防晒",
+      "title": "UPF50+ 冰丝防晒衣/冰袖 · 户外硬通货",
+      "tagline": "义乌日爆四五万件，三伏天出行必备",
+      "description": "这款 UPF50+ 冰丝防晒衣采用凉感纤维织造，接触皮肤瞬间降温 2-3℃，紫外线阻隔率 ≥98%，是今年义乌商贸城防晒品类最热销的单品之一。整衣仅 180g，可机洗不褪色；高领口 + 指洞袖口 + 帽檐一体设计，从头到手臂全方位防晒。冰丝袖套款单只仅 30g，折叠后比一包纸巾还小，无论是开车通勤、骑行钓鱼还是户外徒步，都是夏天出行的硬通货。三伏天将至，叠穿空调房也是绝佳清凉搭子。",
+      "highlights": [
+        "UPF50+ 紫外线阻隔率 ≥98%，挡住 95% 以上 UVA",
+        "凉感纤维接触皮肤瞬降 2-3℃，比普通防晒衣体感更凉",
+        "整衣仅 180g，可整件机洗，叠起来比手机还小",
+        "帽檐 + 高领 + 指洞袖口一体化设计，头颈手背全覆盖",
+        "义乌国际商贸城日出四五万件，跨境出口同比增长 17%"
+      ],
+      "tags": ["UPF50+", "冰丝凉感", "轻量便携", "一体防晒", "外贸爆款"],
+      "audience": "通勤族、骑行党、宝妈遛娃、户外作业者、钓鱼露营党",
+      "imagePrompt": "A pale-blue light ice silk sun protection jacket with hood and long sleeves on white background, fabric texture visible, soft studio lighting, professional product photography, 1:1 square, e-commerce style"
     }
-  ],
-  "images": {
-    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1782864148465_1.jpg",
-    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1782864148698_1.jpg",
-    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1782864149192_1.jpg",
-    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1782864149658_1.jpg"
-  }
+  ]
 }
