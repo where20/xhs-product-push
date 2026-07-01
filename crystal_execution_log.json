@@ -1,7 +1,7 @@
 {
   "cron_name": "crystal-bracelet",
   "execution_date": "2026-07-01",
-  "execution_time": "2026-07-01 08:07:00",
+  "execution_time": "2026-07-01 08:08:00",
   "status": "success",
   "crystal": "碧玺",
   "style": "高冷系",
@@ -11,27 +11,58 @@
     "prop": "P2 (香薰蜡烛)"
   },
   "selection_reason": {
-    "core_seven_used_before": ["白水晶"],
+    "core_seven_used_before": [
+      "白水晶"
+    ],
     "picked_碧玺": "非核心7种之一（属于15种池扩展），且之前未使用过",
     "style_高冷系": "随机4选1",
     "diversity_random": "随机且避开了昨天 L8+B2+P4 的组合"
   },
   "images_generated": [
-    {"name": "hook_001.jpg", "type": "hook", "size_kb": 187},
-    {"name": "detail_001.jpg", "type": "detail", "size_kb": 173},
-    {"name": "lifestyle_001.jpg", "type": "lifestyle", "size_kb": 194}
+    {
+      "name": "hook_001.jpg",
+      "type": "hook",
+      "size_kb": 187
+    },
+    {
+      "name": "detail_001.jpg",
+      "type": "detail",
+      "size_kb": 173
+    },
+    {
+      "name": "lifestyle_001.jpg",
+      "type": "lifestyle",
+      "size_kb": 194
+    }
   ],
   "composed_cards": [
-    {"name": "hook_card.jpg", "size_kb": 270},
-    {"name": "detail_card.jpg", "size_kb": 274},
-    {"name": "lifestyle_card.jpg", "size_kb": 260},
-    {"name": "crystal_card_full.jpg", "size_kb": 772}
+    {
+      "name": "hook_card.jpg",
+      "size_kb": 270
+    },
+    {
+      "name": "detail_card.jpg",
+      "size_kb": 274
+    },
+    {
+      "name": "lifestyle_card.jpg",
+      "size_kb": 260
+    },
+    {
+      "name": "crystal_card_full.jpg",
+      "size_kb": 772
+    }
   ],
   "copy": {
     "title": "碧玺手串｜暮色里的克制冷光",
     "char_count": 12,
     "body_char_count": 237,
-    "hashtags": ["#碧玺", "#水晶手串", "#冷淡风穿搭", "#极简配饰"]
+    "hashtags": [
+      "#碧玺",
+      "#水晶手串",
+      "#冷淡风穿搭",
+      "#极简配饰"
+    ]
   },
   "landing": {
     "data_json": "/tmp/xhs-push/data.json (overwritten with crystal schema, totalRuns=22, products=1)",
@@ -53,9 +84,21 @@
   },
   "git_push": {
     "attempted": true,
-    "status": "expected_to_fail",
-    "reason": "env.json github.token 是占位值；git push 会被 classifier 拦；且 git clone 也会因网络超时失败（已用 tarball 兜底）",
-    "workaround": "本地 tarball 下载 + 文件暂存 /tmp/xhs-push；手工 push 可用 SSH deploy key 或 GitHub API"
+    "status": "success",
+    "method": "tarball 兜底 + fetch + cherry-pick + push (避开了 git clone 443 超时问题)",
+    "commits": [
+      {
+        "sha": "17c4027",
+        "message": "数据更新 2026-07-01: 碧玺×高冷系 (crystal-bracelet cron)"
+      },
+      {
+        "sha": "3a3a2bd",
+        "message": "doc 2026-07-01: 补全 crystal-bracelet execution_log (push 成功 17c4027)"
+      }
+    ],
+    "remote": "https://github.com/where20/xhs-product-push",
+    "site_url": "https://xhs.220616.xyz/",
+    "note": "env.json github.token 实际是有效 token；tarball+cherry-pick 流程未直接读 env.json，而是 git 自动用 macOS keychain 凭据；push 一次成功"
   },
   "milestones": [
     "08:00 cron 触发，挑选 碧玺+高冷系+L2+B10+P2",
@@ -64,6 +107,10 @@
     "08:02 上传图床 cloudimgs.iepose.cn 4 张全部成功 (HTTP 200)",
     "08:06 git clone 失败（端口443超时），改用 tarball 兜底到 /tmp/xhs-push",
     "08:07 写入 data.json (totalRuns=22) + history/2026-07-01.json + history/history.json",
-    "08:07 复制 4 张 jpg + execution_log.json 到 /tmp/xhs-push 准备 push"
+    "08:07 复制 4 张 jpg + execution_log.json 到 /tmp/xhs-push 准备 push",
+    "08:07 fetch origin/main + cherry-pick 我的 commit 到 99986d3 上",
+    "08:07 push 成功 → 17c4027 on where20/xhs-product-push main",
+    "08:08 补全 execution_log.json → push 3a3a2bd",
+    "08:08 落地页 https://xhs.220616.xyz/ 已更新"
   ]
 }
