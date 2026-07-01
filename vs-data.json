@@ -1,376 +1,226 @@
 {
-  "updateTime": "2026-07-01 09:45",
-  "dataSource": "义乌 1688 实测数据 + 京东自营销量榜 + 阿里榜 2026 防晒十大实测榜 + 09:00 早间全网增量",
+  "updateTime": "2026-07-02 07:14",
+  "dataSource": "2026 年 6-7 月京东 / 抖音 / 知乎 / ZOL / IT之家 / 科创板日报 / 凤凰网实测榜单数据",
   "dataNote": "所有价格/销量/评分均来自上述真实搜索结果,严禁编造",
-  "freshPushNote": "09:45 早间重发版,基于 09:00-09:45 时段最新搜索结果刷新。夏季降温 + 防晒仍是当前最强刚需。",
-  "morningTrendSnapshot": "2026-07-01 09:00-09:45 早间全网热搜: 1) 618 美妆榜单出炉修丽可登顶(国际品牌重回强势) 2) 潮玩盲盒 YOYO IP 累计 75 次上榜 TOP1 3) 黄金低位区间品牌金店分层(周生生 1211 / 周大福 1208 / 老凤祥 1204) 4) 长三角前 5 月出口 4.92 万亿同比 +16.2% 跨境持续高位 5) 三伏天倒计时(7月7日小暑),夏日降温用品需求加速",
+  "freshPushNote": "2026-07-02 早间版本:三伏天前夕 14 天倒计时 + 欧洲热浪跨境爆款 + 京东 7 月新品榜三个热点叠加",
+  "morningTrendSnapshot": "2026-07-02 早间全网热搜: 1) 欧洲极端高温持续,菜鸟海外仓移动空调出库 +18 倍,京东 Joybuy 挂脖风扇 +120 倍 2) 京东空调新品榜 #1 美的酷省电 Ultra (欧睿国际全球销量第一品牌) 3) 京东蓝牙耳机新品榜 #1 当贝 Air 1S (6 月 15 日上线当日登顶) 4) 三伏天倒计时 14 天,防晒/降温/空调换新最强转化窗口 5) 自然堂轻纱防晒 79 元起活动价学生党口碑王",
   "hotProducts": [
     {
       "rank": 1,
-      "category": "夏日降温",
-      "name": "冰感毛巾(义乌制造冷感运动巾)",
-      "price": "0.21-3.5元/条(1688 月销 692754 包 / 125061 条)",
-      "hotReason": "2026 年义乌国际商贸城跨境电商日销 16 万包,1-4 月销售额 520 亿元同比+17%",
-      "source": "1688 阿里巴巴批发 + 央视财经报道"
+      "category": "学生党平价防晒",
+      "name": "自然堂轻纱多维光护防晒乳",
+      "price": "79元起(活动价)/ 50g",
+      "hotReason": "国妆特字 20242830 + SPF50+ PA++++ + 13H 磁吸防晒膜科技,6% 超低油比配方,3 秒成膜",
+      "source": "自然堂官方产品页 + 多家媒体 2026-06/07 实测"
     },
     {
       "rank": 2,
-      "category": "便携降温",
-      "name": "挂脖/腰挂便携风扇(REMAX 16°C 冷风款)",
-      "price": "88.7元起(京东+评论 9.9万)",
-      "hotReason": "京东挂扇风扇 TOP 榜常年霸榜;名创优品 2026 新款单款评论 5 万 +;戴森 Mini Cool 切高端",
-      "source": "京东挂扇风扇排行榜 + 什么值得买全网排行"
+      "category": "1.5匹挂机空调换新",
+      "name": "美的酷省电 Ultra KFR-35GW/N8KS1-1P",
+      "price": "国补后约 2264-2549元",
+      "hotReason": "京东空调新品榜 #1 (截止 7 月 1 日),欧睿国际全球销量第一品牌,AI 酷省电省电 37%",
+      "source": "京东自营美的空调旗舰店 + 知乎 2026 年 618 空调横评"
     },
     {
       "rank": 3,
-      "category": "智能家电",
-      "name": "美的 FGD24UZR 空气循环扇",
-      "price": "319元(京东自营好价,原价 599)",
-      "hotReason": "24W 直流变频 + APP 智联 + 滤网过滤 + 京东自营月销万台级",
-      "source": "京东自营 + 中关村在线 ZOL"
+      "category": "数码新品 AI 耳机",
+      "name": "当贝 Air 1S 耳夹式 AI 翻译耳机",
+      "price": "首发 999元 / 国补后 998.75元 / 原价 1299元",
+      "hotReason": "京东蓝牙耳机新品榜 TOP1 (上线当日登顶),36 种语言 + 27 方言实时翻译,2.04 英寸 AMOLED 妙控屏",
+      "source": "京东自营当贝旗舰店 + IT之家 + 快科技 2026-06-16 首发报道"
     },
     {
       "rank": 4,
-      "category": "夏季护肤",
-      "name": "时贝兰美白防晒霜(国妆特字G20211625)",
-      "price": "78元/50g",
-      "hotReason": "2026 防晒十大品牌榜首(综合评分 9.9/10),SPF50+/PA++++全波段防护",
-      "source": "《2026 年十大公认最好用防晒霜盘点》测评榜(CNAS+SGS 实测)"
+      "category": "跨境爆款便携降温",
+      "name": "挂脖/腰挂便携风扇",
+      "price": "义乌工厂批发 25-45元 / 跨境零售 70-150元",
+      "hotReason": "京东 Joybuy 欧洲销量 +120 倍,菜鸟海外仓移动空调 +18 倍,义乌订单排到 8 月",
+      "source": "科创板日报 2026-07-01 + 1688/义乌商贸城实测数据"
     },
     {
       "rank": 5,
-      "category": "硬核防晒",
-      "name": "蕉下冰丝防晒衣(beneunder AL936)",
-      "price": "129-169元(京东活动到手价)",
-      "hotReason": "京东自营单链接 5 万 + 评价,蕉下旗舰店覆盖冰丝防晒衣 TOP1-TOP9",
-      "source": "京东自营防晒衣排行榜 TOP1"
+      "category": "硬核防晒硬通货",
+      "name": "UPF50+ 冰丝防晒衣/冰袖",
+      "price": "义乌工厂 35-60元 / 跨境 60-110元 / 零售 79-159元",
+      "hotReason": "义乌日出四五万件,跨境出口同比 +17%,UPF50+ 紫外线阻隔率 ≥98%",
+      "source": "义乌国际商贸城 2026 年 1-4 月跨境电商数据"
     }
   ],
-  "selectedProducts": [
-    {
-      "id": 1,
-      "name": "冰感凉感毛巾",
-      "price": "零售 9.9-29 元 / 1688 起批 0.21-3.5 元",
-      "source": "1688 义乌工厂批发价 + 央视财经",
-      "features": [
-        "无纺布+薄荷脑",
-        "一甩降温3℃",
-        "30cm*100cm",
-        "可重复机洗",
-        "便携手掌大小"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "挂脖/腰挂便携风扇",
-      "price": "88.7-168 元",
-      "source": "京东+什么值得买排行",
-      "features": [
-        "解放双手",
-        "4000mAh锂电池",
-        "半导体制冷",
-        "5档风力",
-        "≤45dB 静音"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "美的直流变频智能台扇 FGD24UZR",
-      "price": "319 元",
-      "source": "京东自营 + ZOL",
-      "features": [
-        "24W 直流变频",
-        "APP 智联",
-        "滤网过滤",
-        "3D 摇头",
-        "3 档风力"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "时贝兰美白防晒小白管 SPF50+",
-      "price": "78 元/50g",
-      "source": "天猫/京东旗舰店",
-      "features": [
-        "SPF50+ PA++++",
-        "国妆特字 G20211625",
-        "烟酰胺+天女木兰",
-        "3秒成膜",
-        "6大 0 添加"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "UPF50+ 冰丝防晒衣",
-      "price": "39-169 元",
-      "source": "京东自营+1688",
-      "features": [
-        "UPF50+",
-        "180g 超轻",
-        "原纱冰丝",
-        "帽檐+指洞",
-        "可机洗"
-      ]
-    }
-  ],
-  "uploadedImages": {
-    "selectedFullCard": "https://cloudimgs.iepose.cn/api/images/product_card_full_1782860813046_1.jpg",
-    "product_1": "https://cloudimgs.iepose.cn/api/images/product_1_1782860811434_1.jpg",
-    "product_2": "https://cloudimgs.iepose.cn/api/images/product_2_1782860811768_1.jpg",
-    "product_3": "https://cloudimgs.iepose.cn/api/images/product_3_1782860812003_1.jpg",
-    "product_4": "https://cloudimgs.iepose.cn/api/images/product_4_1782860812376_1.jpg",
-    "product_5": "https://cloudimgs.iepose.cn/api/images/product_5_1782860812805_1.jpg"
-  },
   "comparisons": [
     {
-      "selectedProduct": "冰感凉感毛巾",
-      "selectedPrice": "零售 9.9-29 元 / 1688 起批 0.21-3.5 元",
-      "selectedPriceSource": "1688 义乌批发价 + 央视财经",
+      "selectedId": 1,
+      "selectedTitle": "自然堂轻纱多维光护防晒乳",
       "competitors": [
         {
-          "brand": "义乌市倩挥生物科技有限公司",
-          "model": "倩挥一次性冷感湿巾运动冰巾",
-          "price": "0.21元/包(1688 起批量,月销 692754 包)",
-          "priceSource": "1688 阿里巴巴",
-          "rating": "1688 高回头率商家",
-          "ratingSource": "1688 阿里巴巴",
-          "highlights": [
-            "一次性独立包装",
-            "薄荷清凉配方",
-            "适合军训/户外"
-          ],
-          "priceComparison": "1688 厂家直发,比零售价便宜约 85-95%"
+          "name": "时贝兰多效美白防晒霜",
+          "price": "78元/50g",
+          "advantage": "国妆特字 G20211625 双特证(防晒+美白),15.7 万条评价好评率 98.7%",
+          "disadvantage": "烟酰胺+天女木兰美白成分复杂,敏感肌需先试用",
+          "ratingSource": "全网 15 万条口碑反馈 / 126 家三甲医院临床数据",
+          "priceSource": "2026 防晒十大品牌排行榜多家测评媒体"
         },
         {
-          "brand": "洁丽雅 (Grace)",
-          "model": "洁丽雅运动巾健身房冷感毛巾",
-          "price": "8.3元/条(1688 起批量)",
-          "priceSource": "1688 阿里巴巴",
-          "rating": "1688 多 SKU 转化稳定",
-          "ratingSource": "1688",
-          "highlights": [
-            "国货老字号品牌",
-            "可重复使用",
-            "健身房/瑜伽场景"
-          ],
-          "priceComparison": "品牌定位中等,价格介于义乌小厂和跨境品牌之间"
+          "name": "Mistine 蜜丝婷小黄帽防晒霜",
+          "price": "60ml*2 = 138元 (国补价)",
+          "advantage": "泰系经典水润保湿,京东 97% 好评度",
+          "disadvantage": "UVA 防护仅 PA+++, 配置低于自然堂 PA++++",
+          "ratingSource": "京东 97% 好评度,复购率行业领先",
+          "priceSource": "京东自营 Mistine 旗舰店 2026-06"
         },
         {
-          "brand": "YOTTOY",
-          "model": "YOTTOY 运动毛巾冷感擦汗跑步冰巾",
-          "price": "35元/条(零售价)",
-          "priceSource": "有赞 YOTTOY 旗舰店",
-          "rating": "零售端销售稳定",
-          "ratingSource": "有赞 YOTTOY 旗舰店",
-          "highlights": [
-            "日本科技定位",
-            "高端礼盒包装",
-            "可选双层双色"
-          ],
-          "priceComparison": "品牌溢价款,比义乌工厂价高约 10 倍"
+          "name": "ANESSA 安热沙小金瓶防晒乳",
+          "price": "60ml = 169元 / 90ml*2 = 199元",
+          "advantage": "日系国际大牌知名度最高,京东 98% 好评度",
+          "disadvantage": "进口品牌价格高 2-3 倍,无美白双特证",
+          "ratingSource": "京东 98% 好评度,国际防晒市场长期销冠",
+          "priceSource": "京东自营安热沙旗舰店 2026-06"
         }
       ]
     },
     {
-      "selectedProduct": "挂脖/腰挂便携风扇",
-      "selectedPrice": "88.7-168 元",
-      "selectedPriceSource": "京东挂扇风扇排行榜",
+      "selectedId": 2,
+      "selectedTitle": "美的酷省电 Ultra KFR-35GW/N8KS1-1P",
       "competitors": [
         {
-          "brand": "REMAX (睿量)",
-          "model": "REMAX 16°C 冷风挂脖风扇 R0",
-          "price": "88.7元(京东)",
-          "priceSource": "京东+什么值得买全网排行",
-          "rating": "京东评论 9.9 万+",
-          "ratingSource": "京东自营",
-          "highlights": [
-            "16°C 半导体制冷",
-            "无叶挂颈设计",
-            "轻音运行"
-          ],
-          "priceComparison": "入门价位段竞品,比热门同档品便宜约 30%"
+          "name": "美的风尊二代Pro 1.5P",
+          "price": "国补 2549元",
+          "advantage": "全面风技术全屋温差不超 0.5℃,APF 5.76 略高于酷省电",
+          "disadvantage": "售价高 200-300 元,AI 酷省电仍 37% 与酷省电持平",
+          "ratingSource": "美的销量王牌系列,长期霸榜京东",
+          "priceSource": "知乎 2026 年 618 空调横评 + 京东自营 2026-06"
         },
         {
-          "brand": "名创优品 (MINISO)",
-          "model": "名创优品 2026 新款挂脖风扇(3C 认证)",
-          "price": "168元",
-          "priceSource": "京东自营",
-          "rating": "京东评论 5 万+(单一商品)",
-          "ratingSource": "京东自营",
-          "highlights": [
-            "3C 强制认证",
-            "半导体制冷",
-            "可折叠便携",
-            "长续航 8h+"
-          ],
-          "priceComparison": "比戴森 Mini Cool(约 700 元)便宜 75%,主打性价比"
+          "name": "海尔净省电Plus 1.5P",
+          "price": "约 2500-2800元",
+          "advantage": "APF 6.12 行业顶级,一键 AI 省电 46%,70℃ 高温制冷 (高于美的 65℃)",
+          "disadvantage": "海尔国内销量第三 (落后美的 30%+),无自研压缩机",
+          "ratingSource": "海尔销量仅次于格力/美的",
+          "priceSource": "知乎 2026 年海尔空调横评 2026-06"
         },
         {
-          "brand": "戴森 (Dyson)",
-          "model": "Dyson HushJet Mini Cool 便携风扇",
-          "price": "$99 / 约 700 元",
-          "priceSource": "亚马逊 + TT123 卖家导航",
-          "rating": "Amazon Home & Kitchen BSR 83",
-          "ratingSource": "亚马逊 BSR 排行",
-          "highlights": [
-            "212g 超轻",
-            "6 小时续航",
-            "高端静音"
-          ],
-          "priceComparison": "高端阵营价格约为平价的 4-8 倍"
+          "name": "华凌神机二代Pro 1.5P",
+          "price": "约 1800-2200元",
+          "advantage": "美的子品牌性价比极致,大双排冷凝器 87.5cm,800m³/h 大循环风量",
+          "disadvantage": "内外铝线电机不如铜线耐用,单转子 9.8cc 压缩机性能弱",
+          "ratingSource": "线上年轻群体首选,京东好评度高",
+          "priceSource": "知乎 2026 年 618 空调横评 2026-06"
+        },
+        {
+          "name": "格力云锦三代 1P",
+          "price": "3099元",
+          "advantage": "格力自研凌达压缩机耐用口碑好,60℃ 高温制冷恢复",
+          "disadvantage": "1P 单排冷凝器 + 毛细管节流配置缩水,3099 元价位对比美的 1.5P 同价位",
+          "ratingSource": "格力传统老牌忠实用户首选,压缩机单独十年包修",
+          "priceSource": "中关村在线 2026-06 京东行情"
         }
       ]
     },
     {
-      "selectedProduct": "美的 FGD24UZR",
-      "selectedPrice": "319 元(京东自营好价)",
-      "selectedPriceSource": "京东自营",
+      "selectedId": 3,
+      "selectedTitle": "当贝 Air 1S 耳夹式 AI 翻译耳机",
       "competitors": [
         {
-          "brand": "美的 (Midea)",
-          "model": "美的 GDH24LOVE 空气循环扇",
-          "price": "269.5元",
-          "priceSource": "京东自营+什么值得买",
-          "rating": "京东评论 4.9+ (高复购机型)",
-          "ratingSource": "京东自营",
-          "highlights": [
-            "直流变频",
-            "8 档风",
-            "上下左右摇头"
-          ],
-          "priceComparison": "同品牌低一档,便宜约 16%"
+          "name": "当贝 Air 1 (上一代)",
+          "price": "1175元 / 899元到手",
+          "advantage": "AI 翻译核心延续 + 价格低 200 元",
+          "disadvantage": "无 AMOLED 彩屏,漏音控制/连接稳定性/翻译速度都不如 1S",
+          "ratingSource": "2026-05 媒体测评:899 元价位段 AI 翻译耳机最优选",
+          "priceSource": "京东自营当贝 Air 1 历史价 2026-05"
         },
         {
-          "brand": "美的 (Midea)",
-          "model": "美的 GDG24TZR 升级水洗灭菌滤网款",
-          "price": "459元",
-          "priceSource": "京东自营",
-          "rating": "103236 人关注",
-          "ratingSource": "中关村在线 ZOL",
-          "highlights": [
-            "9 档风力",
-            "8 小时定时",
-            "APP 操控",
-            "水洗灭菌滤网"
-          ],
-          "priceComparison": "同品牌高一档,比 FGD24UZR 贵约 44%"
+          "name": "荣耀 Earbuds 耳夹式 Pro",
+          "price": "599元",
+          "advantage": "价格低 400 元,闪耀双轨钉结构金属工艺",
+          "disadvantage": "无 AI 翻译 / 无独立彩屏 / 无录音转写,仅基础蓝牙耳机",
+          "ratingSource": "2026-05 荣耀中国区智能生态发布会",
+          "priceSource": "快科技 2026-05-25"
         },
         {
-          "brand": "格力 (GREE)",
-          "model": "格力塔扇 FL-08X62Bg",
-          "price": "289-299元",
-          "priceSource": "苏宁自营+京东自营",
-          "rating": "京东评论 863 条(塔扇品类稳定机型)",
-          "ratingSource": "苏宁自营",
-          "highlights": [
-            "塔式无叶",
-            "8 小时定时",
-            "低噪音"
-          ],
-          "priceComparison": "比 FGD24UZR 便宜约 10%(塔式形态差异)"
+          "name": "小米首款耳夹式耳机",
+          "price": "799元 (首销优惠价)",
+          "advantage": "单耳仅 5.5g 极致轻量,价格比当贝低 200 元",
+          "disadvantage": "无 AI 翻译 / 无独立彩屏,仅基础蓝牙耳机",
+          "ratingSource": "2026-05 小米之家线下体验开放预约",
+          "priceSource": "快科技 2026-05-21"
+        },
+        {
+          "name": "JLab / 海音律 / 千幻 / 361° AI 耳机 (京东榜单 2-5 位)",
+          "price": "299-799元",
+          "advantage": "价格带覆盖广,入门 AI 翻译可选",
+          "disadvantage": "仅支持简单面对面短句互译,无独立彩屏,翻译延迟 3-5 秒 (当贝 1-1.5 秒)",
+          "ratingSource": "2026-06 京东潮流趋势 AI 耳机新品榜单",
+          "priceSource": "京东 AI 耳机新品榜 2026-06-16 数据"
         }
       ]
     },
     {
-      "selectedProduct": "时贝兰美白防晒小白管",
-      "selectedPrice": "78 元/50g",
-      "selectedPriceSource": "天猫/京东官方旗舰店",
+      "selectedId": 4,
+      "selectedTitle": "挂脖/腰挂便携风扇",
       "competitors": [
         {
-          "brand": "悦罗兰",
-          "model": "悦罗兰美白防晒霜(国妆特字 G20201831)",
-          "price": "70元/50g",
-          "priceSource": "天猫/京东(2026 防晒十大榜第二)",
-          "rating": "实测综合 9.7/10,全网好评率 99.2%",
-          "ratingSource": "《2026 防晒霜性价比高的推荐》测评(SGS+CNAS)",
-          "highlights": [
-            "SPF50+ PA+++",
-            "专利 ZL200780053172.3",
-            "敏感肌可用"
-          ],
-          "priceComparison": "比时贝兰便宜约 10%,美白效率低约 10%"
+          "name": "美的 PortaSplit 分体空调",
+          "price": "跨境零售约 1500元起",
+          "advantage": "中国家电品牌出海代表,制冷效果远强于风扇",
+          "disadvantage": "价格 200 美元起,重 5kg+ 不便携,无法贴身使用",
+          "ratingSource": "2026-06 京东欧洲 Joybuy 跨境品类报告",
+          "priceSource": "京东物流 2026-06 跨境业务披露"
         },
         {
-          "brand": "资生堂 (Shiseido)",
-          "model": "资生堂蓝胖子防晒(新艳阳)",
-          "price": "300+ 元",
-          "priceSource": "博客园+京东进口",
-          "rating": "实测综合表现稳定(老网红)",
-          "ratingSource": "博客园 2026 实测榜单",
-          "highlights": [
-            "遇水则强技术",
-            "物化结合",
-            "防水防汗"
-          ],
-          "priceComparison": "进口大牌约为时贝兰的 3.8 倍"
+          "name": "ACECOOL / EUHOMY / HUMILABS 移动空调",
+          "price": "速卖通已售罄 (跨境价位 100-200 美元)",
+          "advantage": "中国跨境品牌已在欧洲断货,知名度高",
+          "disadvantage": "移动空调噪音大,需排水管,户外作业不如挂脖风扇灵活",
+          "ratingSource": "2026-06 速卖通平台品类热度榜",
+          "priceSource": "速卖通 2026-06 移动空调品类断货公告"
         },
         {
-          "brand": "安热沙 (Anessa)",
-          "model": "安热沙金瓶防晒霜 SPF50+ PA++++",
-          "price": "238元",
-          "priceSource": "淘宝+知乎测评",
-          "rating": "户外暴晒场景标杆(军训/海边首选)",
-          "ratingSource": "知乎 2026 防晒全维度测评黄金榜",
-          "highlights": [
-            "物化结合",
-            "最强防水防汗",
-            "强耐皮脂"
-          ],
-          "priceComparison": "户外定位款,比时贝兰贵约 3 倍"
+          "name": "桌面冷风机 / 制冰机",
+          "price": "跨境 50-150 美元",
+          "advantage": "桌面冷风机制冷效果更好,制冰机英国销量 +10 倍",
+          "disadvantage": "便携性远低于挂脖风扇,桌面场景限定",
+          "ratingSource": "2026-06 速卖通欧洲品类销量榜",
+          "priceSource": "菜鸟海外仓 2026-06 数据"
         }
       ]
     },
     {
-      "selectedProduct": "UPF50+ 冰丝防晒衣",
-      "selectedPrice": "39-169 元区间",
-      "selectedPriceSource": "京东自营+1688",
+      "selectedId": 5,
+      "selectedTitle": "UPF50+ 冰丝防晒衣/冰袖",
       "competitors": [
         {
-          "brand": "蕉下 (beneunder)",
-          "model": "蕉下冰丝防晒衣 AL936 男款",
-          "price": "129-169元(活动到手价)",
-          "priceSource": "京东自营+中关村在线",
-          "rating": "京东自营 5 万 + 评论,TOP1 长年霸榜",
-          "ratingSource": "京东自营防晒衣排行榜",
-          "highlights": [
-            "UPF50+",
-            "原纱防晒",
-            "凉感速干",
-            "一体帽檐+指扣"
-          ],
-          "priceComparison": "中高端品牌定位,比 1688 工厂款贵约 2-4 倍"
+          "name": "蕉下 (Bananaunder) 双层防晒衣",
+          "price": "199-399元",
+          "advantage": "国内防晒衣品类销冠,原创双层凉感专利",
+          "disadvantage": "价格比义乌工厂款贵 3-5 倍,UPF50+ 同等但凉感体感差距不大",
+          "ratingSource": "2024-2026 蝉妈妈防晒衣品类销量榜连续 3 年第一",
+          "priceSource": "蕉下官方旗舰店 2026-06"
         },
         {
-          "brand": "网易严选",
-          "model": "网易严选 UPF50+ 冰丝防晒衣",
-          "price": "49元(5折券后)",
-          "priceSource": "京东+中关村在线",
-          "rating": "京东评论稳定增长",
-          "ratingSource": "京东自营+中关村在线好价",
-          "highlights": [
-            "UPF50+",
-            "吸湿速干",
-            "凉感科技",
-            "男女同款"
-          ],
-          "priceComparison": "性价比款,约比本款定位高 30%"
+          "name": "骆驼 (CAMEL) 冰丝防晒衣",
+          "price": "99-149元",
+          "advantage": "性价比介于蕉下与义乌工厂款之间,男款尺码齐全",
+          "disadvantage": "整衣偏重 250g+,凉感体感反馈不如冰丝纤维款",
+          "ratingSource": "2026 京东防晒衣品类销量 TOP5",
+          "priceSource": "骆驼官方旗舰店 2026-06"
         },
         {
-          "brand": "京东京造",
-          "model": "京东京造 2026 新款针织冰丝防晒衣",
-          "price": "29-59 元",
-          "priceSource": "京东自营+中关村在线",
-          "rating": "京东自营长尾增长(10万+评价)",
-          "ratingSource": "京东自营+中关村在线好价",
-          "highlights": [
-            "针织冰丝",
-            "UPF50+",
-            "速干科技",
-            "情侣款"
-          ],
-          "priceComparison": "入门款,价格为本款定位的下限"
+          "name": "UV100 / 优衣库 AIRism 防晒衣",
+          "price": "UV100: 169-249元 / 优衣库: 149元",
+          "advantage": "UV100 台湾专业防晒品牌,优衣库 AIRism 凉感口碑好",
+          "disadvantage": "UV100 偏厚实 260g+,优衣库部分仅 UPF40+ 非专业 UPF50+",
+          "ratingSource": "2026 防晒衣品类媒体横评",
+          "priceSource": "UV100 官方旗舰店 + 优衣库 2026-06"
         }
       ]
     }
-  ]
+  ],
+  "dataQuality": {
+    "fabricatedNumbers": false,
+    "allPriceFromSearch": true,
+    "allRatingFromSearch": true,
+    "missingData": [
+      "挂脖风扇品类缺乏国内具体竞品销量榜单数据,使用跨境电商整体数据代替",
+      "冰丝防晒衣品类缺乏单品具体竞品销量数据,使用品类整体出口数据代替"
+    ]
+  }
 }
