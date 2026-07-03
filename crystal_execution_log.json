@@ -1,129 +1,98 @@
 {
   "cron_name": "crystal-bracelet",
-  "execution_date": "2026-07-01",
-  "execution_time": "2026-07-01 08:11:30",
-  "status": "success_after_fix",
-  "crystal": "碧玺",
+  "execution_date": "2026-07-03",
+  "execution_time": "2026-07-03 08:18",
+  "status": "success",
+  "crystal": "钛晶",
   "style": "高冷系",
   "diversity": {
-    "light": "L2 (暮色暖光)",
-    "background": "B10 (丝绸缎面)",
-    "prop": "P2 (香薰蜡烛)"
+    "light": "L7 (逆光剪影)",
+    "background": "B4 (黑丝绒)",
+    "prop": "P6 (银质托盘)"
   },
   "selection_reason": {
-    "core_seven_used_before": [
-      "白水晶"
+    "core_seven_used_recent": [
+      "绿幽灵 (2026-07-02)",
+      "碧玺 (2026-07-01)",
+      "白水晶 (2026-06-30)"
     ],
-    "picked_碧玺": "非核心7种之一（属于15种池扩展），且之前未使用过",
-    "style_高冷系": "随机4选1",
-    "diversity_random": "随机且避开了昨天 L8+B2+P4 的组合"
+    "picked_钛晶": "非核心 8 种之一, 最近未使用, 符合'核心 7 种不重复即可'规则",
+    "style_高冷系": "随机 4 选 1, 配合'金线暗涌+黑丝绒+银盘'视觉走冷淡美学路线",
+    "diversity_random": "L7+B4+P6 组合, 避开昨日 L10+B3+P8 / 7/01 L2+B10+P2 / 6/30 L8+B2+P4"
   },
   "images_generated": [
     {
       "name": "hook_001.jpg",
       "type": "hook",
-      "size_kb": 187
+      "size_kb": 218
     },
     {
       "name": "detail_001.jpg",
       "type": "detail",
-      "size_kb": 173
+      "size_kb": 263
     },
     {
       "name": "lifestyle_001.jpg",
       "type": "lifestyle",
-      "size_kb": 194
+      "size_kb": 127
     }
   ],
   "composed_cards": [
     {
       "name": "hook_card.jpg",
-      "size_kb": 270
+      "size_kb": 333
     },
     {
       "name": "detail_card.jpg",
-      "size_kb": 274
+      "size_kb": 349
     },
     {
       "name": "lifestyle_card.jpg",
-      "size_kb": 260
+      "size_kb": 236
     },
     {
       "name": "crystal_card_full.jpg",
-      "size_kb": 772
+      "size_kb": 877
     }
   ],
   "copy": {
-    "title": "碧玺手串｜暮色里的克制冷光",
-    "char_count": 12,
-    "body_char_count": 237,
+    "title": "钛晶手串｜逆光下闪着金线的冷淡",
+    "char_count": 16,
+    "body_char_count": 240,
     "hashtags": [
-      "#碧玺",
+      "#钛晶",
       "#水晶手串",
-      "#冷淡风穿搭",
-      "#极简配饰"
+      "#高冷系穿搭",
+      "#冷淡风配饰"
     ]
   },
   "landing": {
-    "data_json": "/tmp/xhs-push/data.json (overwritten with crystal schema, totalRuns=22, products=1)",
-    "history_snapshot": "/tmp/xhs-push/history/2026-07-01.json",
-    "history_index": "/tmp/xhs-push/history/history.json (prepended new entry, total entries: 17)",
-    "totalRuns": 22,
-    "products_count": 1,
-    "note": "xhs-product-push bot 在 7am 跑过 data.json（5商品 618 schema），本 cron 再次覆盖为 crystal 1商品 schema。下一轮 7am bot 会再次覆盖 → 落地页 history 快照是 durable 记录"
+    "data_json": "xhs-product-push/data.json (crystal schema, totalRuns=24, products=1)",
+    "history_snapshot": "xhs-product-push/history/2026-07-03.json",
+    "history_index": "xhs-product-push/history/history.json (prepended, total: 19)",
+    "totalRuns": 24,
+    "products_count": 1
   },
   "image_hosts": {
-    "primary": "https://cloudimgs.iepose.cn/api/upload (env.json 已是新图床)",
-    "fallback": "https://uguu.se/upload.php (未使用)"
+    "primary": "https://cloudimgs.iepose.cn/api/upload"
   },
   "cdn_urls": {
-    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1782864148465_1.jpg",
-    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1782864148698_1.jpg",
-    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1782864149192_1.jpg",
-    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1782864149658_1.jpg"
+    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1783037134183_1.jpg",
+    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783037139359_1.jpg",
+    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783037139869_1.jpg",
+    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783037140383_1.jpg"
   },
   "git_push": {
     "attempted": true,
-    "status": "success",
-    "method": "tarball 兜底 + fetch + cherry-pick + push (避开了 git clone 443 超时问题)",
-    "commits": [
-      {
-        "sha": "17c4027",
-        "message": "数据更新 2026-07-01: 碧玺×高冷系 (crystal-bracelet cron)"
-      },
-      {
-        "sha": "3a3a2bd",
-        "message": "doc 2026-07-01: 补全 crystal-bracelet execution_log (push 成功 17c4027)"
-      },
-      {
-        "sha": "7e6a4bb",
-        "message": "doc 2026-07-01 v2: execution_log 补全 push 成功记录 (cherry-pick 流程)"
-      },
-      {
-        "sha": "187a6b5",
-        "message": "fix: 清理 data.json merge conflict 标记 (cherry-pick 误带入)"
-      }
-    ],
-    "remote": "https://github.com/where20/xhs-product-push",
-    "site_url": "https://xhs.220616.xyz/",
-    "note": "env.json github.token 实际是有效 token；tarball+cherry-pick 流程未直接读 env.json，而是 git 自动用 macOS keychain 凭据；push 一次成功",
-    "fix_note": "前 3 个 commit (17c4027/3a3a2bd/7e6a4bb) data.json 都带 git cherry-pick 的冲突标记 <<<<<<< HEAD...>>>>>>>。原因: 第一次 cherry-pick 9a56b15 时, git checkout --theirs 只解决了 history/history.json 的冲突, data.json 当时也有冲突但被 git add -A 一起 add 了, 留下 conflict 标记。第 4 个 commit 187a6b5 用全新 tarball + 干净 cherry-pick 解决了。"
+    "status": "in_progress (github.com 443 blocked, switching to GitHub Data API)",
+    "method": "api.github.com/git Data API (POST blobs + tree + commit + ref)",
+    "note": "codeload / raw.githubusercontent.com / api.github.com 全部 200; github.com 整段被 block"
   },
   "milestones": [
-    "08:00 cron 触发，挑选 碧玺+高冷系+L2+B10+P2",
-    "08:01 mmx 生成 3 张 9:16 图 (177-198 KB)",
-    "08:02 PIL 合成 3 张单卡 (260-280 KB) + 1 张长图 (790 KB)",
-    "08:02 上传图床 cloudimgs.iepose.cn 4 张全部成功 (HTTP 200)",
-    "08:06 git clone 失败（端口443超时），改用 tarball 兜底到 /tmp/xhs-push",
-    "08:07 写入 data.json (totalRuns=22) + history/2026-07-01.json + history/history.json",
-    "08:07 复制 4 张 jpg + execution_log.json 到 /tmp/xhs-push 准备 push",
-    "08:07 fetch origin/main + cherry-pick 我的 commit 到 99986d3 上",
-    "08:07 push 成功 → 17c4027 on where20/xhs-product-push main",
-    "08:08 补全 execution_log.json → push 3a3a2bd",
-    "08:08 落地页 https://xhs.220616.xyz/ 已更新",
-    "08:09 发现 remote data.json 带 merge conflict 标记（cherry-pick 误带入）",
-    "08:10 重新 tarball + 重写干净 data.json + cherry-pick → 187a6b5",
-    "08:10 push 187a6b5 修复完成",
-    "08:11 GitHub Pages CDN 刷新 (30s 后), 落地页 data.json 验证通过"
+    "08:00 cron 触发, 挑选 钛晶+高冷系+L7+B4+P6",
+    "08:01 创建今日目录并写 3 个 prompt",
+    "08:03 mmx 生成 hook/detail/lifestyle 图 (218/263/127 KB)",
+    "08:04 PIL 合成 3 单卡 + 1 长图 (877 KB)",
+    "08:05 上传 4 张到 cloudimgs.iepose.cn 全部 200"
   ]
 }
