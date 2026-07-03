@@ -126,5 +126,11 @@
     "08:40 fourth check after 15 min: still 7/02 — Pages deploy lag, not CDN cache (raw is fresh)",
     "09:26 (1.5h 后) 发现 Pages build 28629970852 在 deploy 步骤失败, 而非代码问题",
     "09:27 用 Data API 推 follow-up commit 触发 Pages 重 deploy"
-  ]
+  ],
+  "pages_deploy_retry": {
+    "attempt_1_at": "2026-07-03T01:30:19Z",
+    "via": "API: POST /actions/runs/28632396273/rerun",
+    "status": "queued (stuck for 4+ min)",
+    "reason": "Two Data-API commits both failed Pages deploy step. github.com:443 came back online, retrying with real git push."
+  }
 }
