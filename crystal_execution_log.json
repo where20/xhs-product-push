@@ -2,7 +2,7 @@
   "cron_name": "crystal-bracelet",
   "execution_date": "2026-07-03",
   "execution_time": "2026-07-03 08:18",
-  "status": "success",
+  "status": "success_pages_deploy_failed_retry",
   "crystal": "钛晶",
   "style": "高冷系",
   "diversity": {
@@ -84,15 +84,47 @@
   },
   "git_push": {
     "attempted": true,
-    "status": "in_progress (github.com 443 blocked, switching to GitHub Data API)",
-    "method": "api.github.com/git Data API (POST blobs + tree + commit + ref)",
-    "note": "codeload / raw.githubusercontent.com / api.github.com 全部 200; github.com 整段被 block"
+    "status": "success (data layer); GitHub Pages deploy 失败, 已触发重 deploy",
+    "method": "api.github.com Git Data API (POST blobs + trees + commit + PATCH ref). github.com:443 持续 timeout (>30s), codeload / raw / api 全部 200",
+    "commit": "bdb9fa4704935dda130df1661b0a273a222d81d8",
+    "message": "数据更新 2026-07-03: 钛晶×高冷系 (crystal-bracelet cron)",
+    "remote": "https://github.com/where20/xhs-product-push",
+    "site_url": "https://xhs.220616.xyz/",
+    "pages_build_failure": {
+      "run_id": 28629970852,
+      "head_sha": "bdb9fa47",
+      "created_at": "2026-07-03T00:19:30Z",
+      "updated_at": "2026-07-03T00:20:20Z",
+      "conclusion": "failure",
+      "build_job": "success (Jekyll build OK)",
+      "deploy_job": "FAILED at 'Deploy to GitHub Pages'",
+      "report_status_job": "success",
+      "diagnosis": "Jekyll build + artifact upload 都成功, 部署到 Pages CDN 那一步失败 (GitHub 内部问题, 非代码)",
+      "impact": "Pages origin 继续 serve 7/02 commit (34c901b) 数据, 4 张图也仍是 7/02 字节数"
+    },
+    "verification": {
+      "raw_githubusercontent_com": "✅ totalRuns=24, 7/03 数据完整 (commit 在 main HEAD)",
+      "xhs_220616_xyz": "⚠️  仍 serve 7/02 数据, Pages 部署失败导致",
+      "4_image_cdn": "✅ all 200 OK at expected sizes (cloudimgs.iepose.cn)"
+    },
+    "remediation": "用 Git Data API 推一个 follow-up commit 触发 Pages 重 deploy"
   },
   "milestones": [
     "08:00 cron 触发, 挑选 钛晶+高冷系+L7+B4+P6",
     "08:01 创建今日目录并写 3 个 prompt",
     "08:03 mmx 生成 hook/detail/lifestyle 图 (218/263/127 KB)",
     "08:04 PIL 合成 3 单卡 + 1 长图 (877 KB)",
-    "08:05 上传 4 张到 cloudimgs.iepose.cn 全部 200"
+    "08:05 上传 4 张到 cloudimgs.iepose.cn 全部 200",
+    "08:13 git clone github.com:443 持续 timeout, 改走 codeload tarball + api.github.com Data API",
+    "08:18 通过 Data API POST 8 blobs (4 img + 4 json) + 2 trees + 1 commit + PATCH ref, 全部 2xx",
+    "08:19 推送 commit bdb9fa4 成功, 等 30s 验证 CDN 刷新",
+    "08:19 commit bdb9fa4 landed on main, 8 files changed (4 jpgs + data.json + execution_log + history.json + history/2026-07-03.json)",
+    "08:20 raw.githubusercontent.com/data.json shows totalRuns=24 ✅",
+    "08:25 first CDN check: xhs.220616.xyz still shows 7/02 (last-modified: 7/02 00:08:42)",
+    "08:30 second check after 5 min: still 7/02 (cache-control: max-age=600 honored, Fastly HIT)",
+    "08:35 third check after 10 min: still 7/02 (age resets to 0 but last-modified unchanged)",
+    "08:40 fourth check after 15 min: still 7/02 — Pages deploy lag, not CDN cache (raw is fresh)",
+    "09:26 (1.5h 后) 发现 Pages build 28629970852 在 deploy 步骤失败, 而非代码问题",
+    "09:27 用 Data API 推 follow-up commit 触发 Pages 重 deploy"
   ]
 }
