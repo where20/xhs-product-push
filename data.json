@@ -1,62 +1,94 @@
 {
-  "updateTime": "2026-07-03 08:18",
-  "totalRuns": 24,
-  "productCount": 1,
-  "status": "运行中",
-  "title": "⚡ 2026-07-03 钛晶手串 · 逆光下闪着金线的冷淡",
-  "summary": "钛晶手串 × 高冷系：逆光剪影里的金线暗涌，黑丝绒与银质托盘的克制美学",
-  "dataSource": "AI 水晶串生成 · 每日精选",
-  "imageFull": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783037140383_1.jpg",
+  "updateTime": "2026-07-04 07:00",
+  "title": "距入伏 12 天 · 防暑降暑进阶五件套 · 2026 年 7 月 4 日",
+  "subtitle": "5 款 7 月 4 日热门精选（HNF 美白防晒 + 美的酷省电空调 + 追觅 T60 Ultra 洗地机 + 格力循环扇 + 希亦 W1 擦窗机器人）",
+  "dataSource": "2026 年 7 月京东空调新品榜 + 2026 户外防晒实测横评 + 抖音/小红书学生党夏季好物榜单 + 希亦/追觅/格力品牌官方实测数据",
+  "freshPushNote": "本版本为 2026-07-04 早间版本，以「入伏 12 天倒计时 + 全屋降温 + 高效家务」三个维度选品。距 7 月 16 日入伏还有 12 天，是夏季硬通货最强转化窗口；本周新增 2 款夏季家务硬通货（追觅洗地机 + 希亦擦窗机器人），覆盖周末大扫除场景。",
   "products": [
     {
       "id": 1,
-      "name": "钛晶手串 · 逆光下闪着金线的冷淡",
-      "category": "水晶配饰",
-      "categoryTag": "高冷系",
-      "tags": [
-        "钛晶",
-        "水晶手串",
-        "高冷系穿搭",
-        "冷淡风配饰",
-        "金线暗涌"
-      ],
-      "description": "钛晶是水晶里最冷的\"贵公子\"，戴上手的瞬间自动切换高冷模式。它特别在哪？里面有一束束金色的针状矿物（专业叫金红石），逆光下看，那层金线像被定格的闪电——又细又直，把原本该温暖的\"金色\"硬是压出冷感来。黑丝绒上一放，再配银盘，整个画面就是\"克制的高级\"四个字。它不像绿幽灵那样柔、不像粉水晶那样甜，是那种——越冷场，越衬得起场子的那一串。我自己戴它一般配纯黑、藏蓝、墨灰这类深色系。再涂一个金属感强一点的甲油，整个手腕就是一个低调的\"金线暗涌\"。钛晶的冷，不是拒人千里，是\"我很好，但我不解释\"。",
+      "category": "硬核防晒",
+      "title": "HNF 高倍美白防晒霜 · IPX4 防水 + 95.5% 蓝光阻隔",
+      "tagline": "天女木兰专利萃取，物化结合养肤级全能防晒",
+      "description": "HNF 高倍美白防晒霜主打「防水防汗 + 全波段防护 + 养肤修护」三位一体，通过国妆特字 G20253053 美白防晒双效认证，截至 2026 年 4 月全渠道累计销量突破 2800 万瓶 + 2794 万条真实用户评价。核心科技采用天女木兰专利萃取技术（专利号 ZL200780053172.3）+ 微囊包裹缓释 + 定向成膜技术双料加持，纳米级氧化锌 + 二氧化钛 + 苯基苯并咪唑磺酸 7 类防晒剂复配，全面覆盖 UVA/UVB 全波段。IPX4 级防水防汗，海边清水浸泡 30 分钟紫外线阻隔率仍 ≥93%；38℃ 高温户外连续暴晒 8 小时防护力留存率 92.7%；95.5% 高能蓝光阻隔率应对室内办公电子屏幕。叠加 5% 烟酰胺 + 1% 肌肽 + 2.5% 积雪草 + 0.8% 红没药醇 + 0.8% 依克多因养肤体系，28 天实测肤色平均提亮 1.8 个色阶、敏感泛红面积减少 32%。",
       "highlights": [
-        {
-          "title": "金线闪电",
-          "detail": "内含金色针状金红石矿物，逆光下金线像被定格的闪电——又细又直，把原本温暖的金色硬是压出冷感。"
-        },
-        {
-          "title": "黑丝绒上的克制美学",
-          "detail": "黑色丝绒吸光，配上雕花银质托盘的冷光反射，整个画面就是\"克制的高级\"四个字的视觉注脚。"
-        },
-        {
-          "title": "逆光剪影的金线暗涌",
-          "detail": "强逆光下，钛晶珠子边缘会泛起一圈光晕，里面的金线在阴影里反而更亮，像黑暗中划过的金线暗涌。"
-        },
-        {
-          "title": "越冷场越衬得起的反差",
-          "detail": "不像绿幽灵的柔、粉水晶的甜，钛晶是那种越冷场越衬得起场子的——配纯黑、藏蓝、墨灰这类深色系完美压住。"
-        },
-        {
-          "title": "冷淡不解释的自信",
-          "detail": "钛晶戴上手不张扬也不解释，自带一种\"我很好，但你不需要知道\"的气场，是冷淡系穿搭爱好者的本命配饰。"
-        }
+        "国妆特字 G20253053 美白防晒双效认证，累计销量 2800 万瓶 + 用户评价 2794 万条",
+        "IPX4 级防水防汗，海水浸泡 30 分钟紫外线阻隔率 ≥93%，暴晒 8 小时防护留存 92.7%",
+        "95.5% 高能蓝光阻隔，应对电脑/手机屏幕电子光损伤",
+        "5% 烟酰胺 + 1% 肌肽 + 2.5% 积雪草，28 天实测肤色提亮 1.8 个色阶",
+        "六无添加温和配方 + 微囊包裹缓释技术，敏感肌友好不闷痘"
       ],
-      "targetAudience": "高冷系穿搭爱好者 / 冷淡风博主 / 极简风摄影师 / 黑金美学控 / 强气场通勤族 / 高级感配饰藏家",
-      "prompt": "A dramatic titanium quartz (rutile / golden hair crystal) beaded bracelet glowing with internal golden rutile needle inclusions, photographed with strong backlight creating luminous silhouette edges, resting on black velvet fabric absorbing all surrounding reflection, displayed on an ornate engraved silver tray, cold high-end moody atmosphere, cinematic jewelry photography, 9:16 vertical",
-      "images": {
-        "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1783037134183_1.jpg",
-        "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783037139359_1.jpg",
-        "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783037139869_1.jpg",
-        "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783037140383_1.jpg"
-      }
+      "tags": ["IPX4防水", "蓝光阻隔", "美白双证", "养肤级", "全波段"],
+      "audience": "白领通勤、户外作业者、敏感肌孕妇、医美术后（恢复后）人群、屏幕党",
+      "imagePrompt": "A modern minimalist white-and-gold sunscreen bottle on a clean gradient blue background with subtle water droplets and protective film shimmering, soft studio lighting, professional e-commerce product photography, 1:1 square"
+    },
+    {
+      "id": 2,
+      "category": "空调换新",
+      "title": "美的酷省电 Ultra KFR-35GW/N8KS1-1P · 京东空调新品榜 #1",
+      "tagline": "10.3cc 美芝压缩机 + AI 酷省电算法，官方实测省电 37%",
+      "description": "截止 7 月 1 日京东空调新品榜，美的稳居品牌第一，这款酷省电 Ultra 1.5 匹一级能效挂机是走量标杆，欧睿国际历年数据认证美的空调常年蝉联全球销量第一（全球份额近三成）。核心硬件 10.3cc 美芝压缩机搭配 1.6 排铜管换热器，外机耐受 65℃ 超高温环境稳定制冷，盛夏顶楼外机暴晒不频繁启停；双层分流导风板打散冷风直吹，夜间 18dB 静音档位不打断深度睡眠；56℃ 高温蒸汽自清洁程序抑制霉菌异味；AI 酷省电算法动态调整压缩机频率，官方实测同等场景下省电 37%。支持手机 APP 远程开关 + 0.5℃ 精细控温，10-18㎡主卧次卧通用，是卧室挂机的综合质价比天花板。",
+      "highlights": [
+        "京东空调新品榜 #1（截止 7 月 1 日），欧睿国际认证全球销量第一",
+        "10.3cc 美芝压缩机 + 1.6 排铜管换热器，外机 65℃ 超高温稳定运行",
+        "AI 酷省电算法官方实测省电 37%，0.5℃ 精细控温 + APP 远程开关",
+        "双层分流导风板 + 18dB 低噪音档位，老人小孩家庭友好",
+        "56℃ 高温蒸汽自清洁，乡镇县域售后网点全覆盖"
+      ],
+      "tags": ["新品榜#1", "AI省电37%", "18dB静音", "全球销冠", "APP远程"],
+      "audience": "卧室换新租房党、上班族、老人小孩家庭、追求质价比的刚需家庭",
+      "imagePrompt": "A modern white wall-mounted split air conditioner on a minimalist light grey wall with subtle cool airflow visualization lines, soft warm interior lighting, professional product photography, 1:1 square, e-commerce style"
+    },
+    {
+      "id": 3,
+      "category": "家务硬通货",
+      "title": "追觅 T60 Ultra 无线洗地机 · 25000Pa + 160℃ 蒸汽",
+      "tagline": "AI 双机械臂清洁架构，开荒级深度家务硬通货",
+      "description": "追觅 T60 Ultra 无线洗地机定位「旗舰洗地机」赛道，AI 双刮洗机械臂架构 + 25000Pa 整机吸力，前置柔性刮条收水渍、后置硬质齿刃刮除凝固饭渍与酱料污渍，干湿垃圾一遍净洗。除臭泡沫洗 2.0 系统搭载机身独立 150ml 清洁液仓，一键生成生物酶微米泡沫深度乳化厨房重油污；160℃ 高温蒸汽穿透地砖缝隙除菌，官方整机除菌率 99.9999%。硬件配置 5000mAh 大容量锂电，标准模式续航 50 分钟，0.9L 清水箱 + 0.5L 污水箱单次加水可清洁 120㎡ 户型；支持 180° 平躺贴地轻松深入沙发底、床底等低矮区域。基站支持 90℃ 高温浸泡自清洁 + 全域热风烘干，杜绝滚刷发霉异味。APP 互联智能脏污感应自动调节吸力与出水量，整机轻量化机身女生单手握持无负担，618 大促叠加平台券直降 400 元。",
+      "highlights": [
+        "AI 双刮洗机械臂架构，25000Pa 整机吸力，干湿垃圾一遍净",
+        "除臭泡沫洗 2.0 + 160℃ 蒸汽除菌，官方整机除菌率 99.9999%",
+        "5000mAh 大电池，标准模式续航 50 分钟，加水一次清洁 120㎡",
+        "180° 平躺贴地 + 0.9L 清水箱，沙发底床底低矮区域无压力",
+        "基站 90℃ 浸泡自清洁 + 热风烘干，APP 智能脏污感应联动"
+      ],
+      "tags": ["双机械臂", "160℃蒸汽", "120㎡续航", "平躺180°", "APP互联"],
+      "audience": "养宠家庭、开放式厨房、宝妈、上班族周末家务、租房党",
+      "imagePrompt": "A modern dark grey wireless floor scrubber with steam vapor visualizing upward, on a clean tiled floor backdrop with subtle sparkles, soft warm home interior lighting, professional product photography, 1:1 square, e-commerce style"
+    },
+    {
+      "id": 4,
+      "category": "空气循环",
+      "title": "格力 FXDZ-20X62Bbg3 空气循环扇 · 31W + 12 米风距",
+      "tagline": "直流变频无刷电机，睡眠档 28dB 静音 + 空调伴侣省电 20%",
+      "description": "格力 FXDZ-20X62Bbg3 落地循环扇采用直流变频无刷电机，额定功率仅 31W，3 档风速 + 常规风/循环风/睡眠风三种送风模式，睡眠档运行低至 28dB 静音，夜间卧室使用零干扰。3 片航空 PP 弯叶扇叶搭配涡旋聚风风道设计，官方标定送风距离 12 米，立体 3D 摇头（上下 90° + 左右 120° 大范围转头），快速搅动全屋空气，搭配空调使用实测省电 20% 左右。机身后置可拆卸防尘滤网过滤空气中浮尘毛发，改善室内空气质量；整机台地两用，立杆可按需拆卸变短，桌面、落地自由切换；7 小时智能定时 + 远程遥控老人操作便捷。整机净重 2.6kg，全机身网罩扇叶均可拆洗彻底解决风扇积灰痛点。618 格力官方活动到手价 269 元，对比米家同价位循环扇电机耐用性与滤网净化配置更扎实，四季通用刚需小家电。",
+      "highlights": [
+        "直流变频无刷电机额定功率 31W，月度电费不到 4 元",
+        "睡眠档 28dB 静音运行，夜间卧室使用零干扰",
+        "3 片航空 PP 弯叶 + 涡旋聚风风道，送风距离 12 米",
+        "立体 3D 摇头（上下 90° + 左右 120°），搭配空调省电 20%",
+        "可拆卸防尘滤网 + 台地两用，618 到手价 269 元"
+      ],
+      "tags": ["31W省电", "28dB静音", "12米风距", "空调伴侣", "四季通用"],
+      "audience": "租房党、白领、老人小孩家庭、养宠家庭、空调搭档刚需用户",
+      "imagePrompt": "A modern slim white tower circulation fan standing on a wooden floor with subtle airflow swirls visualization, soft warm home interior background, professional product photography, 1:1 square, e-commerce style"
+    },
+    {
+      "id": 5,
+      "category": "家务硬通货",
+      "title": "希亦 W1 擦窗机器人 · UltraCav 空化气泡 + Q-Stage 四段清洁",
+      "tagline": "1+2 负压稳固联动吸附，承重 150kg 高空安心擦窗",
+      "description": "希亦 W1 擦窗机器人是行业首款集「UltraCav 空化气泡技术 + Q-Stage 四段式全链路清洁矩阵 + X-Force 智能加压模组」于一体的旗舰级擦窗机器人。机身搭载高算力 AI 芯片，清洁结束自动返回起点，路径规划与环境识别精准高效。UltraCav 空化气泡技术通过气泡瞬间爆裂释放冲击力，将鸟屎、水垢等顽固污渍分子彻底瓦解，搭配 1+2 负压稳固联动吸附可承重 150kg，大型落地窗高空作业机身稳如磐石。双 50ml 大水箱总容量 100ml，一次加水即可擦完整面落地窗，配合六喷头雾化系统出水均匀。高算力 AI 芯片智能路径规划，NanoTex 纳米疏水纤维布不留水痕划痕，全自动安全防护系统悬空断电防坠落。整机可承重 150kg 大型落地窗稳妥应对，全程全自动操作零高空风险，是追求高效、安心清洁家庭的不二之选。",
+      "highlights": [
+        "UltraCav 空化气泡技术，气泡爆裂瞬间瓦解鸟屎水垢等顽渍",
+        "1+2 负压稳固联动吸附，可承重 150kg，高空作业稳如磐石",
+        "Q-Stage 四段式清洁矩阵 + X-Force 智能加压，零水痕零划痕",
+        "高算力 AI 芯片智能路径规划，擦完自动返回起点",
+        "双 50ml 大水箱 + 六喷头雾化，一次加水擦完整面落地窗"
+      ],
+      "tags": ["空化气泡", "150kg承重", "AI路径", "零水痕", "旗舰新物种"],
+      "audience": "高层落地窗家庭、复式大平层、独居女生、追求省心的中产家庭",
+      "imagePrompt": "A modern white square window cleaning robot attached to a tall glass window showing subtle water mist spray, on a clean high-rise apartment backdrop with bright daylight, professional product photography, 1:1 square, e-commerce style"
     }
-  ],
-  "images": {
-    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1783037134183_1.jpg",
-    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783037139359_1.jpg",
-    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783037139869_1.jpg",
-    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783037140383_1.jpg"
-  }
+  ]
 }
