@@ -84,7 +84,7 @@
   },
   "git_push": {
     "attempted": true,
-    "final_status": "success",
+    "final_status": "success_via_data_api",
     "method": "GitHub Data API (git protocol blocked: 75046ms timeout, fell back to api.github.com)",
     "commit_sha": "933f4a0436d9966f7c08f0a92f0240ede19aea8d",
     "tree_sha": "ab40b8cc84092bab51af9b80433a2d9eb7bfede0",
@@ -114,12 +114,43 @@
     "site_url": "https://xhs.220616.xyz/",
     "verification_final": {
       "raw_githubusercontent_crystal_card_full_jpg": "✅ 760305 bytes (matches local)",
+      "raw_githubusercontent_crystal_execution_log_json": "✅ 5790 bytes (final version)",
       "raw_githubusercontent_history_2026_07_04_json": "✅ totalRuns=25, 超七手串 × 氛围感",
       "raw_githubusercontent_history_json": "✅ 20 entries (was 19), today at head",
       "pages_build_28688828108": "✅ status=completed, conclusion=success",
+      "pages_build_28688909119": "✅ status=completed, conclusion=success (build + deploy + report all green)",
       "pages_site_history_json": "✅ 20 entries, head=2026-07-04",
-      "pages_site_history_2026_07_04_json": "✅ totalRuns=25, updateTime=2026-07-04 08:08"
-    }
+      "pages_site_history_2026_07_04_json": "✅ totalRuns=25, updateTime=2026-07-04 08:08",
+      "github_com_443_recovery": "✅ git protocol clone works after Data API push (1.8s latency)",
+      "lesson_learned": "github.com:443 was blocked at 08:06 (75046ms timeout), recovered by 08:13 after Data API push. The Data API approach worked end-to-end including Pages deploy this time. Redundant d8b82cf7 push hit the deploy failure pattern (Data API can fail Pages deploy), but the final c417e199 push succeeded."
+    },
+    "final_commit_sha": "c417e1991d6565bf685099f218e7cbdaa9952128",
+    "commits": [
+      {
+        "sha": "933f4a0436d9966f7c08f0a92f0240ede19aea8d",
+        "method": "Git Data API",
+        "message": "数据更新 2026-07-04: 超七×氛围感 (crystal-bracelet cron)",
+        "files": 7,
+        "pages_deploy_run": 28688828108,
+        "pages_deploy_result": "SUCCESS (build + deploy + report all green)"
+      },
+      {
+        "sha": "d8b82cf7465f9960176eb51e64e23b83441a6f7a",
+        "method": "Git Data API (redundant — same blob shas)",
+        "message": "数据更新 2026-07-04: 超七×氛围感 (crystal-bracelet cron)",
+        "files": 7,
+        "pages_deploy_run": 28688891342,
+        "pages_deploy_result": "FAILURE (deploy step)"
+      },
+      {
+        "sha": "c417e1991d6565bf685099f218e7cbdaa9952128",
+        "method": "Git Data API (final, with updated execution_log.json)",
+        "message": "数据更新 2026-07-04: 超七×氛围感 (crystal-bracelet cron)",
+        "files": 1,
+        "pages_deploy_run": 28688909119,
+        "pages_deploy_result": "SUCCESS (build + deploy + report all green)"
+      }
+    ]
   },
   "milestones": [
     "08:00 cron 触发, 挑选 超七+氛围感+L4+B10+P1",
