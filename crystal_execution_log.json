@@ -81,5 +81,63 @@
     "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783123377084_1.jpg",
     "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783123377520_1.jpg",
     "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783123377766_1.jpg"
-  }
+  },
+  "git_push": {
+    "attempted": true,
+    "final_status": "success",
+    "method": "GitHub Data API (git protocol blocked: 75046ms timeout, fell back to api.github.com)",
+    "commit_sha": "933f4a0436d9966f7c08f0a92f0240ede19aea8d",
+    "tree_sha": "ab40b8cc84092bab51af9b80433a2d9eb7bfede0",
+    "parent_sha": "398f2f126ebe6606b2c1de0ce3cbabc2a6a448af",
+    "files_pushed": [
+      "crystal_card_full.jpg",
+      "crystal_hook_card.jpg",
+      "crystal_detail_card.jpg",
+      "crystal_lifestyle_card.jpg",
+      "crystal_execution_log.json",
+      "history/2026-07-04.json",
+      "history/history.json"
+    ],
+    "blob_shas": {
+      "crystal_card_full.jpg": "36ebd078a4fcd1ecaac6b8b5e3a227b3b5deba1b",
+      "crystal_hook_card.jpg": "025ae9a1ff504e512087940623da2af1fa978364",
+      "crystal_detail_card.jpg": "36d1c1f977fe0913274fb68e8545c24817901129",
+      "crystal_lifestyle_card.jpg": "212003771e680bd1e60484f23b4d0dd82c54161e",
+      "crystal_execution_log.json": "688c1c2a1e244653fba88468f7767eca8ebd6334",
+      "history/2026-07-04.json": "1c28a3bb5d754a021a8e9b098196035142b4fb73",
+      "history/history.json": "15360ddb182b7183bbca7a164333b317f015955d"
+    },
+    "message": "数据更新 2026-07-04: 超七×氛围感 (crystal-bracelet cron)",
+    "pages_build_run_id": 28688828108,
+    "pages_build_result": "SUCCESS",
+    "remote": "https://github.com/where20/xhs-product-push",
+    "site_url": "https://xhs.220616.xyz/",
+    "verification_final": {
+      "raw_githubusercontent_crystal_card_full_jpg": "✅ 760305 bytes (matches local)",
+      "raw_githubusercontent_history_2026_07_04_json": "✅ totalRuns=25, 超七手串 × 氛围感",
+      "raw_githubusercontent_history_json": "✅ 20 entries (was 19), today at head",
+      "pages_build_28688828108": "✅ status=completed, conclusion=success",
+      "pages_site_history_json": "✅ 20 entries, head=2026-07-04",
+      "pages_site_history_2026_07_04_json": "✅ totalRuns=25, updateTime=2026-07-04 08:08"
+    }
+  },
+  "milestones": [
+    "08:00 cron 触发, 挑选 超七+氛围感+L4+B10+P1",
+    "08:01 创建今日目录并写 3 个 prompt",
+    "08:01 mmx 生成 hook/detail/lifestyle 图 (294/313/263 KB)",
+    "08:02 PIL 合成 3 单卡 (260/295/217 KB) + 1 长图 (742 KB)",
+    "08:02 上传 4 张到 cloudimgs.iepose.cn 全部 200 (timestamp 1783123376-779)",
+    "08:03 写 data.json (totalRuns=25) + history_2026-07-04.json + history_index.json",
+    "08:06 git clone github.com:443 第一次 timeout (75046ms), 改走 codeload tarball",
+    "08:07 提取 tarball 到 /tmp/xhs-push, codeload OK (1.86 MB)",
+    "08:07 验证 API 可达, env.json github.token 真值 (gho_WZF...)",
+    "08:08 复制今日产物到 /tmp/xhs-push (crystal_* 命名)",
+    "08:08 发现 history_index.json 漏合并, 重新从 raw.githubusercontent.com 拉取原 history.json (19 entries) 并 prepend 今日",
+    "08:08 POST 7 blobs + tree + commit + PATCH ref 全部 2xx",
+    "08:08 commit 933f4a04 landed on main, 7 files changed (4 jpgs + 3 json)",
+    "08:09 raw.githubusercontent.com 验证: 4 图新字节数 + history.json 20 entries ✅",
+    "08:11 Pages build 28688828108 success (deploy step 也过!)",
+    "08:13 github.com:443 恢复, 真 git clone /tmp/xhs-push2 成功",
+    "08:14 Pages CDN 验证: xhs.220616.xyz/history/2026-07-04.json 已是新数据 ✅"
+  ]
 }
