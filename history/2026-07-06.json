@@ -2,8 +2,6 @@
   "updateTime": "2026-07-06 07:00",
   "title": "距入伏 10 天 · 小暑前夜最后冲刺五件套 · 2026 年 7 月 6 日",
   "subtitle": "5 款 7 月 6 日精选（美的全面风 QM1 柜机 + 海尔净省电 Plus 柜机 + 美的厨清凉 FG100 厨房空调 + 追觅 H20 Ultra 旋锋版洗地机 + 九阳 K7Pro 紫火版豆浆机）",
-  "dataSource": "2026 年 7 月京东空调新品榜 + IT之家 美的全面风 QM1 首发评测 + 海尔官网净省电 Plus E1-1Plus 参数 + 中关村在线美的厨清凉 FG100 评测 + 追觅全球出货 1000 万台 2026-06 行业快讯 + 京东追觅 H20 Ultra 旋锋版活动报价 + 中关村在线 2026 家用豆浆机榜 + 九阳 K7Pro 紫火版官方商城",
-  "freshPushNote": "本版本为 2026-07-06 周一早间版本，以「距入伏 10 天 + 小暑前 1 天 + 暑期清凉厨房+客厅+清洁」四个维度选品。7-7 小暑 + 7-16 入伏前的最后冲刺窗口；柜机赛道切换到「美的全面风 QM1（性价比全能旗舰，APF 5.28）」+「海尔净省电 Plus（监狱机位极端工况）」双线对比；厨房健康首推嵌入式美的厨清凉 FG100 厨房专用空调（解决炒菜汗流浃背痛点）+ 九阳太空旗舰 K7Pro 豆浆机；清洁赛道首次纳入追觅 H20 Ultra 旋锋版洗地机（4.0 割毛技术 + 100°C 沸水自清洁 + 国补后 1219 元极致性价比）。",
   "products": [
     {
       "id": 1,
@@ -18,7 +16,13 @@
         "-35℃~65℃ 全工况运行 + 监狱机位 + 西晒顶楼 + 火炉城市极端工况适配",
         "i-ECO 酷省电算法节能率 38.2% + App 实时电量查询 + 4 小时电费 1 元"
       ],
-      "tags": ["全面风", "APF5.28", "1800m³/h", "4939元到手", "极速冷暖"],
+      "tags": [
+        "全面风",
+        "APF5.28",
+        "1800m³/h",
+        "4939元到手",
+        "极速冷暖"
+      ],
       "audience": "30-45㎡ 大客厅/客餐厅/打通横厅家庭、新房装修一步到位客餐厅柜机用户、外机环境恶劣（监狱机位/西晒/北方严寒）家庭、追求颜值与性能并存的旗舰派",
       "imagePrompt": "A modern minimalist silver standing air conditioner cabinet with a sleek full-screen floating panel display, soft cool airflow visualization drifting outward in a panoramic arc, in a spacious bright minimalist Chinese living room with wood floor and large window, professional product photography, 1:1 square, e-commerce style, premium feel"
     },
@@ -35,7 +39,13 @@
         "1750m³/h 循环风量 + 跃频科技 15 秒速冷 30 秒速热 + 90° 广角立体扫风 + 15m 远距送风",
         "WiFi 人感防直吹 + 双极离子除菌 + 56℃ 高温自清洁除菌率 99.9% + 三大定制自清洁模式"
       ],
-      "tags": ["APF5.20", "70℃不停机", "4230元到手", "跃频科技", "海尔智家"],
+      "tags": [
+        "APF5.20",
+        "70℃不停机",
+        "4230元到手",
+        "跃频科技",
+        "海尔智家"
+      ],
       "audience": "监狱机位/西晒顶楼/火炉城市极端外机环境家庭、30-50㎡ 大客厅、新房一步配齐客餐厅柜机用户、追求省电到极致的理性派",
       "imagePrompt": "A modern white tower air conditioner standing on a clean tiled floor in a minimalist Chinese apartment living room with large window showing bright daylight, soft warm interior lighting, professional product photography, 1:1 square, e-commerce style"
     },
@@ -52,7 +62,13 @@
         "内机 661×230×268mm 适配 600mm 标准集成吊顶，无需拆龙骨即可安装",
         "33 分贝业内最静音厨房空调 + App 远程操控 + 22 分贝夜间静音模式"
       ],
-      "tags": ["厨房专用", "防油烟", "5265元", "一级能效", "静音33dB"],
+      "tags": [
+        "厨房专用",
+        "防油烟",
+        "5265元",
+        "一级能效",
+        "静音33dB"
+      ],
       "audience": "夏季炒菜汗流浃背的开放式/封闭式厨房家庭、新房装修嵌入式厨房空调一步到位、二次改造厨房升级精装派、追求烹饪沉浸感的家庭",
       "imagePrompt": "A modern integrated ceiling-embedded kitchen air conditioner with clean white panel partially recessed into a minimalist Chinese kitchen ceiling with subtle LED ambient lighting, warm wood cabinetry below, professional product photography, 1:1 square, e-commerce style, modern kitchen interior"
     },
@@ -69,7 +85,13 @@
         "180° 恒动清洁 + 180° 平躺洗拖 + 超感 AI 双向助力 + 4000mAh 续航 40 分钟清洁 300㎡",
         "IDC 2026 Q1 全球洗地机销量销额双第一（23.7%/28%），全球累计出货 1000 万台"
       ],
-      "tags": ["4.0割毛", "100°C沸水", "1219元到手", "180°平躺", "追觅全球第一"],
+      "tags": [
+        "4.0割毛",
+        "100°C沸水",
+        "1219元到手",
+        "180°平躺",
+        "追觅全球第一"
+      ],
       "audience": "养宠家庭（猫毛/狗毛缠绕痛点）、有儿童家庭（深度除菌需求）、新房装修全屋清洁标配、二次升级替换传统拖把派的科技家庭",
       "imagePrompt": "A modern white and gray cordless wet-dry vacuum cleaner / floor washer with sleek futuristic design standing on a clean wood floor in a bright minimalist living room with soft natural light, professional product photography, 1:1 square, e-commerce style, tech-forward aesthetic"
     },
@@ -86,7 +108,13 @@
         "11+N 养生程序：低糖米糊还原糖降 52%、低嘌呤 2.0 降嘌呤 46%、阿胶/人参专属模式",
         "含钛陶瓷内胆 0 金属元素迁移，5.7 寸紫火彩屏 + 可调语音，300-1200ml 宽幅容量"
       ],
-      "tags": ["免手洗", "35dB轻音", "1999元", "11+N养生", "钛陶瓷"],
+      "tags": [
+        "免手洗",
+        "35dB轻音",
+        "1999元",
+        "11+N养生",
+        "钛陶瓷"
+      ],
       "audience": "精致妈妈、资深中产、新锐白领、控糖 / 痛风 / 孕期家庭、追求早餐效率与养生的家庭",
       "imagePrompt": "A modern compact off-white and gold soy milk maker / blender on a clean kitchen countertop, with subtle steam wisps and golden liquid suggesting freshly made soy milk, in a bright modern Chinese kitchen with warm wood accents, professional product photography, 1:1 square, e-commerce style"
     }
