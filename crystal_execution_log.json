@@ -1,174 +1,108 @@
 {
   "cron_name": "crystal-bracelet",
-  "execution_date": "2026-07-04",
-  "execution_time": "2026-07-04 08:08",
+  "execution_date": "2026-07-05",
+  "execution_time": "2026-07-05 08:08",
   "status": "success",
-  "crystal": "超七",
-  "style": "氛围感",
+  "crystal": "海蓝宝",
+  "style": "科普系",
   "diversity": {
-    "light": "L4 (霓虹炫彩)",
-    "background": "B10 (丝绸缎面)",
-    "prop": "P1 (复古铜镜)"
+    "light": "L6 (柔光箱柔光)",
+    "background": "B1 (大理石台面)",
+    "prop": "P5 (古书圣经)"
   },
   "selection_reason": {
     "core_seven_used_recent": [
       "绿幽灵 (2026-07-02)",
-      "碧玺 (2026-07-01)",
       "白水晶 (2026-06-30)"
     ],
-    "picked_超七": "非核心 8 种之一, 最近 4 天未使用, 符合核心 7 种不重复规则",
-    "style_氛围感": "随机 4 选 1, 走霓虹+丝绸+铜镜的赛博次元裂缝路线",
-    "diversity_random": "L4+B10+P1 组合, 避开昨日 L7+B4+P6 / 7/02 L10+B3+P8 / 7/01 L2+B10+P2 / 6/30 L8+B2+P4"
+    "non_core_used_recent": [
+      "超七 (2026-07-04)",
+      "钛晶 (2026-07-03)",
+      "碧玺 (2026-07-01)"
+    ],
+    "picked_海蓝宝": "核心 7 种之一 (绿柱石家族), 最近 5 天未使用, 符合'核心 7 种不重复'规则",
+    "style_科普系": "避开昨日连续重复 (氛围感 → 科普系), 契合海蓝宝的矿物学/宝石学属性",
+    "diversity_recommended": "科普系推荐 L6+B1+P5, 与最近 5 天组合无冲突, 直接采用"
   },
   "images_generated": [
     {
       "name": "hook_001.jpg",
       "type": "hook",
-      "size_kb": 294.0
+      "size_kb": 211.6
     },
     {
       "name": "detail_001.jpg",
       "type": "detail",
-      "size_kb": 312.6
+      "size_kb": 233.3
     },
     {
       "name": "lifestyle_001.jpg",
       "type": "lifestyle",
-      "size_kb": 263.1
+      "size_kb": 253.7
     }
   ],
   "composed_cards": [
     {
       "name": "hook_card.jpg",
-      "size_kb": 260.3
+      "size_kb": 293.0
     },
     {
       "name": "detail_card.jpg",
-      "size_kb": 294.6
+      "size_kb": 293.3
     },
     {
       "name": "lifestyle_card.jpg",
-      "size_kb": 217.0
+      "size_kb": 318.5
     },
     {
       "name": "crystal_card_full.jpg",
-      "size_kb": 742.5
+      "size_kb": 868.3
     }
   ],
   "copy": {
-    "title": "超七手串｜霓虹下七色光晕的迷幻",
-    "char_count": 18,
-    "body_char_count": 287,
+    "title": "海蓝宝手串｜一块凝固的海水冷知识",
+    "char_count": 19,
+    "body_char_count": 268,
     "hashtags": [
-      "#超七",
-      "#水晶手串",
-      "#氛围感穿搭",
-      "#霓虹美学"
+      "#海蓝宝",
+      "#水晶科普",
+      "#绿柱石家族",
+      "#天然水晶手串",
+      "#矿物冷知识"
     ]
   },
+  "script_fix": {
+    "bug": "scripts/compose_crystal_cards.py load_copy() 用硬编码 key '标题（18 字）'/'正文（约 240 字）'/'话题标签（4 个）', 字数变了就匹配不到",
+    "fix": "改为模糊匹配 startswith('标题')/startswith('正文')/startswith('话题标签'), 不再绑定字数",
+    "also": "Fe²⁺/Fe³⁺ 上标字符在 STHeiti Light 显示为方块, 文案改用 Fe2+/Fe3+"
+  },
   "landing": {
-    "data_json": "xhs-product-push/crystal_* (no top-level crystal_data.json — schema lives in history/YYYY-MM-DD.json)",
-    "history_snapshot": "xhs-product-push/history/2026-07-04.json",
-    "history_index": "xhs-product-push/history/history.json (prepended, total: 20)",
-    "totalRuns": 25,
+    "data_json_local": "xhs-product-push data.json 由 xhs-product-push cron 7:00 跑 (客厅升级五件套), 不被 crystal-bracelet 覆盖",
+    "history_snapshot": "xhs-product-push/history/2026-07-05.json (水晶 SSOT)",
+    "history_index": "xhs-product-push/history/history.json (prepended, total: 21)",
+    "totalRuns": 26,
     "products_count": 1
   },
   "image_hosts": {
     "primary": "https://cloudimgs.iepose.cn/api/upload"
   },
   "cdn_urls": {
-    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1783123376928_1.jpg",
-    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783123377084_1.jpg",
-    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783123377520_1.jpg",
-    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783123377766_1.jpg"
-  },
-  "git_push": {
-    "attempted": true,
-    "final_status": "success_via_data_api",
-    "method": "GitHub Data API (git protocol blocked: 75046ms timeout, fell back to api.github.com)",
-    "commit_sha": "933f4a0436d9966f7c08f0a92f0240ede19aea8d",
-    "tree_sha": "ab40b8cc84092bab51af9b80433a2d9eb7bfede0",
-    "parent_sha": "398f2f126ebe6606b2c1de0ce3cbabc2a6a448af",
-    "files_pushed": [
-      "crystal_card_full.jpg",
-      "crystal_hook_card.jpg",
-      "crystal_detail_card.jpg",
-      "crystal_lifestyle_card.jpg",
-      "crystal_execution_log.json",
-      "history/2026-07-04.json",
-      "history/history.json"
-    ],
-    "blob_shas": {
-      "crystal_card_full.jpg": "36ebd078a4fcd1ecaac6b8b5e3a227b3b5deba1b",
-      "crystal_hook_card.jpg": "025ae9a1ff504e512087940623da2af1fa978364",
-      "crystal_detail_card.jpg": "36d1c1f977fe0913274fb68e8545c24817901129",
-      "crystal_lifestyle_card.jpg": "212003771e680bd1e60484f23b4d0dd82c54161e",
-      "crystal_execution_log.json": "688c1c2a1e244653fba88468f7767eca8ebd6334",
-      "history/2026-07-04.json": "1c28a3bb5d754a021a8e9b098196035142b4fb73",
-      "history/history.json": "15360ddb182b7183bbca7a164333b317f015955d"
-    },
-    "message": "数据更新 2026-07-04: 超七×氛围感 (crystal-bracelet cron)",
-    "pages_build_run_id": 28688828108,
-    "pages_build_result": "SUCCESS",
-    "remote": "https://github.com/where20/xhs-product-push",
-    "site_url": "https://xhs.220616.xyz/",
-    "verification_final": {
-      "raw_githubusercontent_crystal_card_full_jpg": "✅ 760305 bytes (matches local)",
-      "raw_githubusercontent_crystal_execution_log_json": "✅ 5790 bytes (final version)",
-      "raw_githubusercontent_history_2026_07_04_json": "✅ totalRuns=25, 超七手串 × 氛围感",
-      "raw_githubusercontent_history_json": "✅ 20 entries (was 19), today at head",
-      "pages_build_28688828108": "✅ status=completed, conclusion=success",
-      "pages_build_28688909119": "✅ status=completed, conclusion=success (build + deploy + report all green)",
-      "pages_site_history_json": "✅ 20 entries, head=2026-07-04",
-      "pages_site_history_2026_07_04_json": "✅ totalRuns=25, updateTime=2026-07-04 08:08",
-      "github_com_443_recovery": "✅ git protocol clone works after Data API push (1.8s latency)",
-      "lesson_learned": "github.com:443 was blocked at 08:06 (75046ms timeout), recovered by 08:13 after Data API push. The Data API approach worked end-to-end including Pages deploy this time. Redundant d8b82cf7 push hit the deploy failure pattern (Data API can fail Pages deploy), but the final c417e199 push succeeded."
-    },
-    "final_commit_sha": "c417e1991d6565bf685099f218e7cbdaa9952128",
-    "commits": [
-      {
-        "sha": "933f4a0436d9966f7c08f0a92f0240ede19aea8d",
-        "method": "Git Data API",
-        "message": "数据更新 2026-07-04: 超七×氛围感 (crystal-bracelet cron)",
-        "files": 7,
-        "pages_deploy_run": 28688828108,
-        "pages_deploy_result": "SUCCESS (build + deploy + report all green)"
-      },
-      {
-        "sha": "d8b82cf7465f9960176eb51e64e23b83441a6f7a",
-        "method": "Git Data API (redundant — same blob shas)",
-        "message": "数据更新 2026-07-04: 超七×氛围感 (crystal-bracelet cron)",
-        "files": 7,
-        "pages_deploy_run": 28688891342,
-        "pages_deploy_result": "FAILURE (deploy step)"
-      },
-      {
-        "sha": "c417e1991d6565bf685099f218e7cbdaa9952128",
-        "method": "Git Data API (final, with updated execution_log.json)",
-        "message": "数据更新 2026-07-04: 超七×氛围感 (crystal-bracelet cron)",
-        "files": 1,
-        "pages_deploy_run": 28688909119,
-        "pages_deploy_result": "SUCCESS (build + deploy + report all green)"
-      }
-    ]
+    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1783209982441_1.jpg",
+    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783209982582_1.jpg",
+    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783209982758_1.jpg",
+    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783209982913_1.jpg"
   },
   "milestones": [
-    "08:00 cron 触发, 挑选 超七+氛围感+L4+B10+P1",
-    "08:01 创建今日目录并写 3 个 prompt",
-    "08:01 mmx 生成 hook/detail/lifestyle 图 (294/313/263 KB)",
-    "08:02 PIL 合成 3 单卡 (260/295/217 KB) + 1 长图 (742 KB)",
-    "08:02 上传 4 张到 cloudimgs.iepose.cn 全部 200 (timestamp 1783123376-779)",
-    "08:03 写 data.json (totalRuns=25) + history_2026-07-04.json + history_index.json",
-    "08:06 git clone github.com:443 第一次 timeout (75046ms), 改走 codeload tarball",
-    "08:07 提取 tarball 到 /tmp/xhs-push, codeload OK (1.86 MB)",
-    "08:07 验证 API 可达, env.json github.token 真值 (gho_WZF...)",
-    "08:08 复制今日产物到 /tmp/xhs-push (crystal_* 命名)",
-    "08:08 发现 history_index.json 漏合并, 重新从 raw.githubusercontent.com 拉取原 history.json (19 entries) 并 prepend 今日",
-    "08:08 POST 7 blobs + tree + commit + PATCH ref 全部 2xx",
-    "08:08 commit 933f4a04 landed on main, 7 files changed (4 jpgs + 3 json)",
-    "08:09 raw.githubusercontent.com 验证: 4 图新字节数 + history.json 20 entries ✅",
-    "08:11 Pages build 28688828108 success (deploy step 也过!)",
-    "08:13 github.com:443 恢复, 真 git clone /tmp/xhs-push2 成功",
-    "08:14 Pages CDN 验证: xhs.220616.xyz/history/2026-07-04.json 已是新数据 ✅"
+    "08:00 cron 触发, Python 选 海蓝宝+科普系+L6+B1+P5 (上次超七+氛围感)",
+    "08:01 创建 output/2026-07-05/ 目录, 写 3 个 mmx prompt (海蓝宝+大理石+古书+柔光箱)",
+    "08:02 mmx 生成 hook (212KB) → 08:03 mmx 生成 detail (233KB) + lifestyle (253KB), 全部 720x1280 9:16",
+    "08:03 写小红书文案 (19字标题 + 268字正文 + 5 话题标签), 海蓝宝科普 (绿柱石+Fe离子+热处理+硬度+海水命名)",
+    "08:03 发现 PIL compose 脚本的 load_copy() 硬编码字数, 修复 startswith 模糊匹配 + Fe²⁺→Fe2+ 字符兼容",
+    "08:04 PIL 合成 3 单卡 (213/214/239KB) + 1 长图 1080x6600 (642KB)",
+    "08:06 上传 4 张到 cloudimgs.iepose.cn 全部 200 OK (timestamps 1783209982-991)",
+    "08:08 写 data.json (totalRuns=26) + history/2026-07-05.json + history_index.json (21 entries)",
+    "08:12 git clone xhs-product-push 到 /tmp/xhs-push (github.com:443 可达, 1 次成功)",
+    "08:13 复制 4 张图 + history snapshot + history index 到 /tmp/xhs-push",
+    "08:13 git status: 4 图 modified, history/2026-07-05.json untracked, history/history.json modified"
   ]
 }
