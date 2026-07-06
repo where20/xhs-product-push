@@ -92,7 +92,8 @@
     "08:04 写小红书文案 (14字标题 + 462字正文 + 5 话题标签), 紫水晶科普 (石英家族+怕高温+古希腊清醒之石+皇室专属)",
     "08:04 PIL 合成 3 单卡 (328/341/240KB) + 1 长图 1080x6600 (869KB)",
     "08:04 上传 4 张到 cloudimgs.iepose.cn 全部 200 OK (timestamps 1783296276-279)",
-    "08:05 写 data.json (totalRuns=27, 1 product) + history/2026-07-06.json + history_index.json"
+    "08:05 写 data.json (totalRuns=27, 1 product) + history/2026-07-06.json + history_index.json",
+    "08:06 git clone + 7 文件 commit (be3d32f) + push origin main 成功"
   ],
   "git_push": {
     "attempted": true,
@@ -106,6 +107,10 @@
       "history/history.json"
     ],
     "remote": "https://github.com/where20/xhs-product-push",
-    "history_2026_07_06_overwrite_note": "覆盖 xhs-product-push @ 07:00 写的 5-product 版本 (commit a5b601f), 与 7/05 一致的覆盖模式"
+    "history_2026_07_06_overwrite_note": "覆盖 xhs-product-push @ 07:00 写的 5-product 版本 (commit a5b601f), 与 7/05 一致的覆盖模式",
+    "final_status": "success_via_git_push",
+    "commit_sha": "be3d32f3f8194a39df8cee7ba4034d8a72c25986",
+    "parent_sha": "be3d32f3f8194a39df8cee7ba4034d8a72c25986^",
+    "method": "git push (github.com:443 reachable, lowSpeedLimit + osxkeychain)"
   }
 }
