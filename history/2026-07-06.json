@@ -1,122 +1,58 @@
 {
-  "updateTime": "2026-07-06 07:00",
-  "title": "距入伏 10 天 · 小暑前夜最后冲刺五件套 · 2026 年 7 月 6 日",
-  "subtitle": "5 款 7 月 6 日精选（美的全面风 QM1 柜机 + 海尔净省电 Plus 柜机 + 美的厨清凉 FG100 厨房空调 + 追觅 H20 Ultra 旋锋版洗地机 + 九阳 K7Pro 紫火版豆浆机）",
+  "updateTime": "2026-07-06 08:05",
+  "totalRuns": 27,
+  "productCount": 1,
+  "status": "运行中",
+  "title": "⚡ 2026-07-06 紫水晶手串 · 冷淡风的紫色傲慢",
+  "summary": "紫水晶手串 × 高冷系：逆光剪影 + 黑丝绒 + 银质托盘 的冷淡紫色傲慢（石英家族/怕高温/皇室专属）",
+  "dataSource": "AI 水晶串生成 · 每日精选",
+  "imageFull": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783296277503_1.jpg",
   "products": [
     {
       "id": 1,
-      "category": "客厅柜机",
-      "title": "美的全面风 QM1 柜机 (KFR-72LW/QM1) · 风尊二代全面风 + 4 秒极速冷暖",
-      "tagline": "270mm 超宽风口 + 1800m³/h 大风量 + APF 5.28 超一级能效，国补后到手 4939 元",
-      "description": "美的全面风空调 QM1 (KFR-72LW/QM1) 是美的 2025 年 3 月发布的风尊二代旗舰柜机，2026 年持续位居京东空调新品榜第一梯队。3 匹版本首发定价 8999 元，叠加国补 15%+优惠券 500+以旧换新 300+晒图返现 30 元后京东到手价约 4939 元；2 匹版本首发价 5499 元，覆盖 30-50㎡ 大客厅/开放式餐厨。核心搭载美芝 24cc 大排量双缸压缩机 + 双排冷凝器 + 全效液冷散热系统，APF 能效值高达 5.28 远超新一级国标，4 秒极速出风、制冷速度相较普通机型快 3 倍，制热速度提升 1 倍。独创「森林仿生全面风」结构，270mm 超宽风口（同比常规柜机提升 134%）+ 23 层全面屏格栅 + 左右 5 层高尔夫球面导风翼 + 上下 15 层仿生鹰翼柔性百叶三重导风，夏天制冷形成「天幕风」缓缓沉降、冬天制热形成「地毯风」贴地暖流，全屋温差 ≤1℃，30-45㎡ 客餐厅/打通横厅送风无死角。运行耐受区间 -35℃~65℃，北方严寒 + 南方酷暑 + 监狱机位极端工况稳定运行，外机防锈抗腐蚀喷涂适配南方梅雨/沿海高湿。智能化搭载新一代酷省电 i-ECO 算法（节能率 38.2%）+ 4 小时电费低至 1 元 + App 实时电量查询，悬浮全面屏彩膜交互大屏 + 5 秒快拆清洁。搭载科大讯飞离线 AI 语音（0.4 秒极速响应、8 米远场识别），高颜值山脉银一体喷涂 + 钛白金金属质感面板，是 7 月小暑前客厅全能旗舰柜机的硬通货。",
-      "highlights": [
-        "京东空调新品榜第一梯队明星机型，3 匹首发 8999 元 → 国补后到手 4939 元",
-        "APF 能效值高达 5.28，4 秒极速出风，制冷快 3 倍 / 制热快 1 倍",
-        "270mm 超宽风口 + 1800m³/h 大风量 + 23 层全面屏格栅 + 5 层高尔夫球面导风翼三重导风",
-        "-35℃~65℃ 全工况运行 + 监狱机位 + 西晒顶楼 + 火炉城市极端工况适配",
-        "i-ECO 酷省电算法节能率 38.2% + App 实时电量查询 + 4 小时电费 1 元"
-      ],
+      "name": "紫水晶手串 · 冷淡风的紫色傲慢",
+      "category": "水晶配饰",
+      "categoryTag": "高冷系",
       "tags": [
-        "全面风",
-        "APF5.28",
-        "1800m³/h",
-        "4939元到手",
-        "极速冷暖"
+        "紫水晶",
+        "水晶手串",
+        "冷淡风穿搭",
+        "极简配饰",
+        "高冷系"
       ],
-      "audience": "30-45㎡ 大客厅/客餐厅/打通横厅家庭、新房装修一步到位客餐厅柜机用户、外机环境恶劣（监狱机位/西晒/北方严寒）家庭、追求颜值与性能并存的旗舰派",
-      "imagePrompt": "A modern minimalist silver standing air conditioner cabinet with a sleek full-screen floating panel display, soft cool airflow visualization drifting outward in a panoramic arc, in a spacious bright minimalist Chinese living room with wood floor and large window, professional product photography, 1:1 square, e-commerce style, premium feel"
-    },
-    {
-      "id": 2,
-      "category": "客厅柜机",
-      "title": "海尔净省电 Plus KFR-72LW/E1-1Plus · APF 5.20 + 1750m³/h 循环风量",
-      "tagline": "跃频科技 15 秒速冷 30 秒速热，国补后实付 4230 元，监狱机位极端工况首选",
-      "description": "海尔净省电 Plus KFR-72LW/E1-1Plus 是海尔 2026 主推的大 3P 立式柜机，定位「极端工况稳定运行」赛道。海尔官网建议零售价 7599 元，京东活动价 5599 元，叠加满 4000-500 + PLUS 立减 24 + 以旧换新 100 + 国补 15% 后实付约 4230 元，1.5 匹挂机版到手价 1746-1999 元覆盖主流家庭。整机 APF 能效值高达 5.20（超一级能效），官方数据对比普通一级能效机型省电幅度可达 50%。硬件配置采用全直流变频架构 + 电子膨胀阀 + 环保冷媒 R32 + 双排纯铜冷凝器 + 凉芯桥 Pro 散热技术，换热效率提升 30%，支持 70℃ 高温环境外机不停机运行，针对外机卡在狭小格栅「监狱机位」、房屋西晒暴晒、火炉城市夏季极端高温场景不容易触发高温保护停机。最大循环风量 1750m³/h，跃频科技 15 秒极速制冷 + 30 秒快速制热（实验室工况），90° 广角立体扫风、出风面积提升 23%，15m 远距送风。智能化配备 WiFi 人感防直吹识别系统 + 双极离子除菌模块 + 三种定制自清洁模式（内外机 56℃ 高温自清洁除菌率 99.9%）。接入海尔智家生态支持 APP 远程智控、超低电压启动、停电补偿，是 7 月小暑前空调换新 / 监狱机位 / 顶楼恶劣外机环境的硬通货。",
+      "description": "紫水晶最迷人不是它的紫，是它**懒得发光**。\n放在黑色丝绒上，配一只旧银盘，逆光剪影下每颗珠子边缘都自带一圈暗紫色的辉光——不亮，但就是不让你忽略。冷淡风穿搭里，它是最不费力的\"贵气感来源\"。\n几个小知识，给同样被它击中的姐妹：\n① 紫水晶是石英家族的一员，莫氏硬度 7，跟白水晶同族，区别就是致色元素——铁离子经过天然辐照形成的紫色空穴色心。所以它的紫是\"被光打出来的\"，不是染的。\n② 紫水晶怕高温。暴晒、温泉、洗澡都尽量摘下——450°C 以上它的紫色会褪成淡黄/透明，这是行业用来**人工合成黄水晶**的工艺。所以有时候你看到的\"紫黄晶\"就是紫水晶烧出来的。\n③ 古希腊人信它能\"保清醒不醉酒\"，所以酒杯上常刻紫水晶；中世纪欧洲把它当皇室专属，平民不能戴。\n我这串是乌拉圭产的深紫色，干净少瑕，配黑丝绒和雕花银盘拍逆光，最能出那种\"暗夜里不声不响地矜贵\"的感觉。",
       "highlights": [
-        "海尔官网建议零售 7599 元，京东活动价 5599 元，国补+满减+以旧换新后实付约 4230 元",
-        "APF 能效值高达 5.20，官方对比普通一级能效省电幅度可达 50%",
-        "70℃ 高温环境外机不停机运行 + 监狱机位 / 西晒顶楼 / 火炉城市极端工况适配",
-        "1750m³/h 循环风量 + 跃频科技 15 秒速冷 30 秒速热 + 90° 广角立体扫风 + 15m 远距送风",
-        "WiFi 人感防直吹 + 双极离子除菌 + 56℃ 高温自清洁除菌率 99.9% + 三大定制自清洁模式"
+        {
+          "title": "紫水晶是石英家族成员",
+          "detail": "莫氏硬度 7，跟白水晶同族。区别在致色元素——铁离子经过天然辐照形成紫色空穴色心，所以紫是\"被光打出来的\"，不是染的。"
+        },
+        {
+          "title": "紫水晶怕高温褪色",
+          "detail": "450°C 以上紫色会褪成淡黄/透明，这就是行业\"紫水晶烧成黄水晶\"的工艺。所以别戴着洗澡/暴晒/泡温泉。"
+        },
+        {
+          "title": "古希腊的清醒之石",
+          "detail": "古希腊酒杯上刻紫水晶，保清醒不醉酒。中世纪欧洲把它当皇室专属，平民佩戴会受罚。"
+        },
+        {
+          "title": "逆光剪影是它的最佳舞台",
+          "detail": "逆光下每颗珠子边缘都自带一圈暗紫色辉光——不亮，但不让你忽略。冷淡风穿搭里最不费力的贵气感来源。"
+        }
       ],
-      "tags": [
-        "APF5.20",
-        "70℃不停机",
-        "4230元到手",
-        "跃频科技",
-        "海尔智家"
-      ],
-      "audience": "监狱机位/西晒顶楼/火炉城市极端外机环境家庭、30-50㎡ 大客厅、新房一步配齐客餐厅柜机用户、追求省电到极致的理性派",
-      "imagePrompt": "A modern white tower air conditioner standing on a clean tiled floor in a minimalist Chinese apartment living room with large window showing bright daylight, soft warm interior lighting, professional product photography, 1:1 square, e-commerce style"
-    },
-    {
-      "id": 3,
-      "category": "厨房清凉",
-      "title": "美的厨清凉厨房空调 CKF-35FW/BN1Y-FG100 · 嵌入式集成吊顶 + 防油烟专研",
-      "tagline": "3550W 大冷量适配 11-17㎡ 厨房 + 仿生蚕茧滤网 + 京东到手 5265 元",
-      "description": "美的厨清凉厨房空调 CKF-35FW/BN1Y-FG100 是美的 2026 主推的厨房专用嵌入式集成吊顶空调，定位「夏季厨房烹饪清凉」刚需赛道。京东活动价 5949 元，下单叠加满 1000-95 折优惠券后实付约 5265 元；同系列「小凉方」CKFR-35FW/BN8Y-FG101（嵌入式吸顶式）京东活动价 2999 元、实付低至 2849 元覆盖入门款。整机 1.5 匹一级能效变频，APF 4.30，专为厨房高温高湿 + 油烟附着 + 频繁启停三重压力场景设计。硬件层面取消制热功能（制热功率 0W）专注强化制冷循环稳定性，内机尺寸 661×230×268mm 适配 600mm 标准集成吊顶模数（无需拆龙骨即可安装），运行噪音低至 33 分贝（业内最静音厨房空调）。耐油 ABS 面板表面喷涂防水防油涂层、回风口处搭载「仿生蚕茧滤网」长效拦截油烟和吸附油脂，内机零件表面喷涂防腐涂层强效防潮防腐（整机 72 个月保修延长厨房高湿环境耐用性）。3550W 制冷量精准匹配 11-17㎡ 封闭式厨房（避免小马拉大车或冷量过大直吹不适）。智能化支持 App 远程开机 / 操控 + 一级能效变频节能 + 22 分贝夜间静音模式（深夜晚餐烹饪不扰家人）。是 7 月小暑后「炒菜不再汗流浃背」厨房升级的硬通货解决方案。",
-      "highlights": [
-        "美的厨清凉厨房专用嵌入式空调，京东活动 5949 元 → 满 1000-95 折后实付 5265 元",
-        "3550W 制冷量精准匹配 11-17㎡ 厨房，APF 4.30 一级能效变频节能",
-        "耐油 ABS 面板 + 仿生蚕茧滤网长效拦截油烟 + 内机防腐涂层，整机 72 个月保修",
-        "内机 661×230×268mm 适配 600mm 标准集成吊顶，无需拆龙骨即可安装",
-        "33 分贝业内最静音厨房空调 + App 远程操控 + 22 分贝夜间静音模式"
-      ],
-      "tags": [
-        "厨房专用",
-        "防油烟",
-        "5265元",
-        "一级能效",
-        "静音33dB"
-      ],
-      "audience": "夏季炒菜汗流浃背的开放式/封闭式厨房家庭、新房装修嵌入式厨房空调一步到位、二次改造厨房升级精装派、追求烹饪沉浸感的家庭",
-      "imagePrompt": "A modern integrated ceiling-embedded kitchen air conditioner with clean white panel partially recessed into a minimalist Chinese kitchen ceiling with subtle LED ambient lighting, warm wood cabinetry below, professional product photography, 1:1 square, e-commerce style, modern kitchen interior"
-    },
-    {
-      "id": 4,
-      "category": "清洁电器",
-      "title": "追觅 H20 Ultra 旋锋版 洗地机 · 4.0 割毛技术 + 100°C 沸水自清洁",
-      "tagline": "18000Pa 强劲吸力 + 180° 平躺洗拖 + 国补后实付 1219 元",
-      "description": "追觅 H20 Ultra 旋锋版无线洗地机是追觅 2024 年 4 月上市的旗舰款洗地机，2026 年京东活动价 1698 元，叠加国补立减 15%（50.94 元）+ 以旧换新 43 元 + 满 1 件打 9 折后实付低至 1219.12 元；H20 Pro 助力版京东活动价 3199 元（券后）覆盖中高端。核心搭载 4.0 割毛技术彻底告别毛发缠绕烦恼（养宠家庭刚需），18000Pa 强劲吸力 + 108000 转高速电机 + 滚刷每分钟 520 转，配合 180° 恒动清洁 + 超感 AI 双向助力可轻松应对低矮空间与边角死角。100°C 沸水自清洁耐高温滚刷兼顾高效与静音，独家过氧化氢全链除菌技术以自来水制备安全无残留杀菌溶液，特别适合有儿童或宠物的家庭。硬件采用航空级材质 + 优化齿梳结构深度清洁，自清洁系统升级至 100°C 沸水清洗 + 双侧 0 贴边设计应对边缘墙角。4000 毫安时电池至高续航 40 分钟可清洁 300㎡ 房间。智能化支持 App 互联 + 实时清洁数据 + 双向 AI 助力让推拉都省力。追觅洗地机 2026 Q1 全球出货占比 23.7%、销额占比 28%（IDC 数据）位列全球第一，全球累计出货量 2026-06 突破 1000 万台（覆盖 120+ 国家 / 波兰市占率 70%），是中国智造在高端家电领域的代表品牌。",
-      "highlights": [
-        "追觅 H20 Ultra 旋锋版京东活动价 1698 元 → 国补+以旧换新+满 1 件打 9 折后实付 1219.12 元",
-        "4.0 割毛技术彻底告别毛发缠绕 + 18000Pa 强劲吸力 + 108000 转高速电机",
-        "100°C 沸水自清洁耐高温滚刷 + 独家过氧化氢全链除菌 + 双侧 0 贴边设计",
-        "180° 恒动清洁 + 180° 平躺洗拖 + 超感 AI 双向助力 + 4000mAh 续航 40 分钟清洁 300㎡",
-        "IDC 2026 Q1 全球洗地机销量销额双第一（23.7%/28%），全球累计出货 1000 万台"
-      ],
-      "tags": [
-        "4.0割毛",
-        "100°C沸水",
-        "1219元到手",
-        "180°平躺",
-        "追觅全球第一"
-      ],
-      "audience": "养宠家庭（猫毛/狗毛缠绕痛点）、有儿童家庭（深度除菌需求）、新房装修全屋清洁标配、二次升级替换传统拖把派的科技家庭",
-      "imagePrompt": "A modern white and gray cordless wet-dry vacuum cleaner / floor washer with sleek futuristic design standing on a clean wood floor in a bright minimalist living room with soft natural light, professional product photography, 1:1 square, e-commerce style, tech-forward aesthetic"
-    },
-    {
-      "id": 5,
-      "category": "厨房健康",
-      "title": "九阳不用手洗豆浆机 K7Pro 紫火版 · 1999 元太空旗舰养生款",
-      "tagline": "洗烘一体 + 变频轻音 35dB + 11+N 养生程序，打工人早餐 5 分钟搞定",
-      "description": "九阳不用手洗豆浆机 K7Pro 紫火版是九阳 2026 太空旗舰养生款豆浆机，零售价 1999 元，京东活动叠加国补后实付约 1646-1999 元，连续位列中关村在线 2026 家用豆浆机综合排行榜 TOP1（中关村在线品牌占有率 81.8%）。核心采用「洗烘一体」黑科技——制浆完成后自动启动三重清洁（高压喷洗 + 高温蒸洗 + 高速搅洗）+ AI 转阀自动排废水 + 自烘干保持内腔 7 天干燥 + 96 小时长效除菌（除菌率 99.9999%），全程免洗免擦免晾晒，彻底告别刀片割手、死角发霉、拆洗繁琐。搭载 BLDC 变频无刷电机 + 6 重太空科技降噪结构（2.3mm 加厚内胆 / 降噪蒸汽盖 / 隔音外壳 / 减震浮动安装），制浆平均噪音低至 35 分贝、噪音直降 82%，获中家院轻音 1 级认证，清晨制作不扰家人睡眠。11+N 定制养生程序覆盖低糖米糊（还原糖降 52%）、低嘌呤 2.0（降嘌呤 46%）、阿胶浆、人参浆专属模式（人参皂苷 +223%、氨基酸 +33%）等中式养生场景。含钛陶瓷内胆实现 0 金属元素迁移，耐刮耐磨抗菌易洁。300-1200ml 热饮宽幅容量 1-5 人灵活适配，5.7 寸紫火彩屏 + 可调语音长辈易上手。打工人早餐场景实测：睡前预约 + 5 分钟出浆 = 早起喝鲜豆浆，无需手洗 = 下班回家无后顾之忧。",
-      "highlights": [
-        "太空厨房研制单位九阳旗舰，1999 元同价位市占率 95%+，2026 家用豆浆机 TOP1",
-        "洗烘一体：高压喷洗+高温蒸洗+高速搅洗+AI 自动排废水+自烘干，96h 除菌率 99.9999%",
-        "BLDC 变频无刷电机 + 6 重降噪，整机噪音低至 35dB，中家院轻音 1 级认证",
-        "11+N 养生程序：低糖米糊还原糖降 52%、低嘌呤 2.0 降嘌呤 46%、阿胶/人参专属模式",
-        "含钛陶瓷内胆 0 金属元素迁移，5.7 寸紫火彩屏 + 可调语音，300-1200ml 宽幅容量"
-      ],
-      "tags": [
-        "免手洗",
-        "35dB轻音",
-        "1999元",
-        "11+N养生",
-        "钛陶瓷"
-      ],
-      "audience": "精致妈妈、资深中产、新锐白领、控糖 / 痛风 / 孕期家庭、追求早餐效率与养生的家庭",
-      "imagePrompt": "A modern compact off-white and gold soy milk maker / blender on a clean kitchen countertop, with subtle steam wisps and golden liquid suggesting freshly made soy milk, in a bright modern Chinese kitchen with warm wood accents, professional product photography, 1:1 square, e-commerce style"
+      "targetAudience": "冷淡风穿搭爱好者 / 极简主义者 / 黑丝绒+银盘爱好者 / 暗色系穿搭博主 / 紫水晶能量疗愈信仰者 / 高冷系审美人群",
+      "prompt": "Lifestyle editorial scene of a cold elegant woman at a baroque dressing table in a dimly lit boudoir, wearing an Amethyst crystal bracelet on her left wrist while her right hand rests on a stack of leather-bound tomes, the silver tray with the matching amethyst bracelet placed beside a single extinguished candle and a velvet jewelry box, strong backlight from a tall arched window behind her casting a violet rim glow on her silhouette and bracelet, dark moody atmosphere with deep shadows and selective purple highlights, black velvet curtain backdrop, aloof aristocratic cold beauty aesthetic, fashion editorial photography with cinematic noir lighting, 9:16 vertical, 8k",
+      "images": {
+        "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1783296276703_1.jpg",
+        "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783296276870_1.jpg",
+        "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783296277171_1.jpg",
+        "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783296277503_1.jpg"
+      }
     }
-  ]
+  ],
+  "images": {
+    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1783296276703_1.jpg",
+    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783296276870_1.jpg",
+    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783296277171_1.jpg",
+    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783296277503_1.jpg"
+  }
 }

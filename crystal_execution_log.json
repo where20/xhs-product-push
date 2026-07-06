@@ -1,108 +1,111 @@
 {
   "cron_name": "crystal-bracelet",
-  "execution_date": "2026-07-05",
-  "execution_time": "2026-07-05 08:08",
+  "execution_date": "2026-07-06",
+  "execution_time": "2026-07-06 08:08",
   "status": "success",
-  "crystal": "海蓝宝",
-  "style": "科普系",
+  "crystal": "紫水晶",
+  "style": "高冷系",
   "diversity": {
-    "light": "L6 (柔光箱柔光)",
-    "background": "B1 (大理石台面)",
-    "prop": "P5 (古书圣经)"
+    "light": "L7 (逆光剪影)",
+    "background": "B4 (黑丝绒)",
+    "prop": "P6 (银质托盘)"
   },
   "selection_reason": {
     "core_seven_used_recent": [
-      "绿幽灵 (2026-07-02)",
-      "白水晶 (2026-06-30)"
+      "海蓝宝",
+      "绿幽灵",
+      "白水晶"
     ],
     "non_core_used_recent": [
       "超七 (2026-07-04)",
       "钛晶 (2026-07-03)",
       "碧玺 (2026-07-01)"
     ],
-    "picked_海蓝宝": "核心 7 种之一 (绿柱石家族), 最近 5 天未使用, 符合'核心 7 种不重复'规则",
-    "style_科普系": "避开昨日连续重复 (氛围感 → 科普系), 契合海蓝宝的矿物学/宝石学属性",
-    "diversity_recommended": "科普系推荐 L6+B1+P5, 与最近 5 天组合无冲突, 直接采用"
+    "picked_紫水晶": "核心 7 种之一, 最近未使用 (海蓝宝 7/05 用过), 符合核心 7 种不重复规则",
+    "style_高冷系": "避开昨日连续高冷系, 但紫水晶最契合冷淡风紫调, 选回高冷系 (上上次高冷系是 2026-07-03 钛晶)",
+    "diversity_recommended": "高冷系优先推荐 L7+B4+P6, 与最近 5 天组合无冲突, 直接采用"
   },
   "images_generated": [
     {
       "name": "hook_001.jpg",
       "type": "hook",
-      "size_kb": 211.6
+      "size_kb": 208.1
     },
     {
       "name": "detail_001.jpg",
       "type": "detail",
-      "size_kb": 233.3
+      "size_kb": 241.6
     },
     {
       "name": "lifestyle_001.jpg",
       "type": "lifestyle",
-      "size_kb": 253.7
+      "size_kb": 148.9
     }
   ],
   "composed_cards": [
     {
       "name": "hook_card.jpg",
-      "size_kb": 293.0
+      "size_kb": 328.1
     },
     {
       "name": "detail_card.jpg",
-      "size_kb": 293.3
+      "size_kb": 341.0
     },
     {
       "name": "lifestyle_card.jpg",
-      "size_kb": 318.5
+      "size_kb": 239.7
     },
     {
       "name": "crystal_card_full.jpg",
-      "size_kb": 868.3
+      "size_kb": 869.2
     }
   ],
   "copy": {
-    "title": "海蓝宝手串｜一块凝固的海水冷知识",
-    "char_count": 19,
-    "body_char_count": 268,
+    "title": "紫水晶手串｜冷淡风的紫色傲慢",
+    "char_count": 14,
+    "body_char_count": 462,
     "hashtags": [
-      "#海蓝宝",
-      "#水晶科普",
-      "#绿柱石家族",
-      "#天然水晶手串",
-      "#矿物冷知识"
+      "#紫水晶",
+      "#水晶手串",
+      "#冷淡风穿搭",
+      "#极简配饰",
+      "#高冷系"
     ]
-  },
-  "script_fix": {
-    "bug": "scripts/compose_crystal_cards.py load_copy() 用硬编码 key '标题（18 字）'/'正文（约 240 字）'/'话题标签（4 个）', 字数变了就匹配不到",
-    "fix": "改为模糊匹配 startswith('标题')/startswith('正文')/startswith('话题标签'), 不再绑定字数",
-    "also": "Fe²⁺/Fe³⁺ 上标字符在 STHeiti Light 显示为方块, 文案改用 Fe2+/Fe3+"
-  },
-  "landing": {
-    "data_json_local": "xhs-product-push data.json 由 xhs-product-push cron 7:00 跑 (客厅升级五件套), 不被 crystal-bracelet 覆盖",
-    "history_snapshot": "xhs-product-push/history/2026-07-05.json (水晶 SSOT)",
-    "history_index": "xhs-product-push/history/history.json (prepended, total: 21)",
-    "totalRuns": 26,
-    "products_count": 1
   },
   "image_hosts": {
     "primary": "https://cloudimgs.iepose.cn/api/upload"
   },
   "cdn_urls": {
-    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1783209982441_1.jpg",
-    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783209982582_1.jpg",
-    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783209982758_1.jpg",
-    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783209982913_1.jpg"
+    "hook": "https://cloudimgs.iepose.cn/api/images/hook_card_1783296276703_1.jpg",
+    "detail": "https://cloudimgs.iepose.cn/api/images/detail_card_1783296276870_1.jpg",
+    "lifestyle": "https://cloudimgs.iepose.cn/api/images/lifestyle_card_1783296277171_1.jpg",
+    "full": "https://cloudimgs.iepose.cn/api/images/crystal_card_full_1783296277503_1.jpg"
+  },
+  "landing": {
+    "totalRuns": 27,
+    "products_count": 1
   },
   "milestones": [
-    "08:00 cron 触发, Python 选 海蓝宝+科普系+L6+B1+P5 (上次超七+氛围感)",
-    "08:01 创建 output/2026-07-05/ 目录, 写 3 个 mmx prompt (海蓝宝+大理石+古书+柔光箱)",
-    "08:02 mmx 生成 hook (212KB) → 08:03 mmx 生成 detail (233KB) + lifestyle (253KB), 全部 720x1280 9:16",
-    "08:03 写小红书文案 (19字标题 + 268字正文 + 5 话题标签), 海蓝宝科普 (绿柱石+Fe离子+热处理+硬度+海水命名)",
-    "08:03 发现 PIL compose 脚本的 load_copy() 硬编码字数, 修复 startswith 模糊匹配 + Fe²⁺→Fe2+ 字符兼容",
-    "08:04 PIL 合成 3 单卡 (213/214/239KB) + 1 长图 1080x6600 (642KB)",
-    "08:06 上传 4 张到 cloudimgs.iepose.cn 全部 200 OK (timestamps 1783209982-991)",
-    "08:08 写 data.json (totalRuns=26) + history/2026-07-05.json + history_index.json (21 entries)",
-    "08:12 git clone xhs-product-push 到 /tmp/xhs-push (github.com:443 可达, 1 次成功)",
-    "08:13 复制 4 张图 + history snapshot + history index 到 /tmp/xhs-push",
-    "08:13 git status: 4 图 modified, history/2026-07-05.json untracked, history/history.json modified"
-  ]
+    "08:00 cron 触发, Python 选 紫水晶+高冷系+L7+B4+P6 (上次海蓝宝+科普系)",
+    "08:01 创建 output/2026-07-06/ 目录, 写 3 个 mmx prompt (紫水晶+黑丝绒+银盘+逆光)",
+    "08:02 mmx 生成 hook (208KB) + detail (242KB) + lifestyle (149KB), 全部 720x1280 9:16",
+    "08:04 写小红书文案 (14字标题 + 462字正文 + 5 话题标签), 紫水晶科普 (石英家族+怕高温+古希腊清醒之石+皇室专属)",
+    "08:04 PIL 合成 3 单卡 (328/341/240KB) + 1 长图 1080x6600 (869KB)",
+    "08:04 上传 4 张到 cloudimgs.iepose.cn 全部 200 OK (timestamps 1783296276-279)",
+    "08:05 写 data.json (totalRuns=27, 1 product) + history/2026-07-06.json + history_index.json"
+  ],
+  "git_push": {
+    "attempted": true,
+    "files_to_push": [
+      "crystal_card_full.jpg",
+      "crystal_hook_card.jpg",
+      "crystal_detail_card.jpg",
+      "crystal_lifestyle_card.jpg",
+      "crystal_execution_log.json",
+      "history/2026-07-06.json",
+      "history/history.json"
+    ],
+    "remote": "https://github.com/where20/xhs-product-push",
+    "history_2026_07_06_overwrite_note": "覆盖 xhs-product-push @ 07:00 写的 5-product 版本 (commit a5b601f), 与 7/05 一致的覆盖模式"
+  }
 }
