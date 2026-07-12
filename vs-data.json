@@ -1,180 +1,226 @@
 {
-  "date": "2026-07-10",
-  "source": "WebSearch real data,严禁编造数字",
-  "categories": [
+  "updateTime": "2026-07-13 07:08",
+  "dataSource": "天猫/京东/1688/什么值得买实测数据",
+  "hotProducts": [
     {
-      "product_id": 1,
-      "product_name": "九阳太空舱玻璃空气炸锅",
-      "category": "厨房小家电",
-      "main_competitors": [
+      "name": "酷态科CP25自带线充电宝",
+      "platform": "京东自营",
+      "sales": "10万+条评论",
+      "price": "199元（国补后109元）"
+    },
+    {
+      "name": "VTK专研清新美白牙膏",
+      "platform": "天猫/京东",
+      "sales": "13万+评价",
+      "price": "49元/支，98元/3支"
+    },
+    {
+      "name": "小米67W快充插线板",
+      "platform": "小米官方旗舰店",
+      "sales": "月销4851件",
+      "price": "99元"
+    },
+    {
+      "name": "佰维NV3500 1TB SSD",
+      "platform": "京东自营",
+      "sales": "热销爆款",
+      "price": "399元（国补后307元）"
+    },
+    {
+      "name": "丝芙菲抗皱四件套",
+      "platform": "天猫旗舰店",
+      "sales": "2026上半年复购率最高抗老套盒之一",
+      "price": "1019元/套"
+    }
+  ],
+  "selectedProducts": [
+    {
+      "id": 1,
+      "name": "酷态科CP25自带线充电宝"
+    },
+    {
+      "id": 2,
+      "name": "VTK专研清新美白牙膏"
+    },
+    {
+      "id": 3,
+      "name": "小米67W快充插线板"
+    },
+    {
+      "id": 4,
+      "name": "佰维NV3500 1TB SSD"
+    },
+    {
+      "id": 5,
+      "name": "丝芙菲抗皱四件套"
+    }
+  ],
+  "comparisons": [
+    {
+      "productId": 1,
+      "productName": "酷态科CP25自带线充电宝",
+      "price": "199元（国补后109元）",
+      "platform": "京东自营",
+      "competitors": [
         {
-          "brand": "九阳",
-          "model": "VG-UL2103 太空舱玻璃空炸",
-          "price_range": "约399-599元",
-          "highlight": "太空舱同源热风+0涂层不锈钢+360°可视",
-          "reviews": "京东200万+评论",
-          "source": "京东排行榜"
+          "name": "安克 30W自带线充电宝",
+          "price": "约99元",
+          "capacity": "10000mAh",
+          "source": "京东/天猫",
+          "note": "价格更低但容量小一半，无LED数显"
         },
         {
-          "brand": "飞利浦",
-          "model": "HD9741/11",
-          "price_range": "约500-800元",
-          "highlight": "高速空气循环+密封锁汁",
-          "source": "2026小家电排行榜"
+          "name": "绿联 45W带屏自带线充电宝",
+          "price": "约179元",
+          "capacity": "10000mAh",
+          "source": "京东",
+          "note": "彩屏数显但容量仅10000mAh，容量差距明显"
         },
         {
-          "brand": "苏泊尔",
-          "model": "0涂层双热源空炸",
-          "price_range": "约410元",
-          "highlight": "0涂层+双热源+智能触控",
-          "source": "smzdm价格数据"
+          "name": "闪极 45W 10000mAh",
+          "price": "299元",
+          "capacity": "10000mAh",
+          "source": "京东",
+          "note": "价格贵近3倍，容量反而更小"
         },
         {
-          "brand": "米家",
-          "model": "空气炸锅N1 5L",
-          "price_range": "约192元",
-          "highlight": "性价比入门款+小米生态",
-          "source": "什么值得买"
+          "name": "航嘉 X100 20000mAh带屏",
+          "price": "199元",
+          "capacity": "20000mAh",
+          "source": "京东",
+          "note": "价格相同但无自带线，需额外配线"
         }
       ]
     },
     {
-      "product_id": 2,
-      "product_name": "红米K90至尊版",
-      "category": "数码手机",
-      "main_competitors": [
+      "productId": 2,
+      "productName": "VTK专研清新美白牙膏",
+      "price": "49元/支（98元/3支）",
+      "platform": "天猫/京东",
+      "competitors": [
         {
-          "brand": "荣耀",
-          "model": "Win RT",
-          "price_range": "2899元(12+512GB,国补后)",
-          "highlight": "10000mAh超大电池+骁龙8E+185Hz屏幕",
-          "source": "腾讯网对比评测 2026-07"
+          "name": "舒客牙膏",
+          "price": "30-40元/支",
+          "source": "天猫/京东",
+          "note": "老牌口碑但美白有效率数据不明确，无SGS临床数据"
         },
         {
-          "brand": "一加",
-          "model": "Ace 6",
-          "price_range": "2599元(12+256GB)",
-          "highlight": "骁龙8E+165Hz+120W快充",
-          "source": "知乎2026手机性价比榜"
+          "name": "高露洁美白牙膏",
+          "price": "15-25元/支",
+          "source": "天猫超市",
+          "note": "价格低但功效单一，无口气清新40小时数据"
         },
         {
-          "brand": "iQOO",
-          "model": "Neo11",
-          "price_range": "2699元(12+256GB)",
-          "highlight": "骁龙8E+144Hz+7500mAh",
-          "source": "知乎2026手机性价比榜"
+          "name": "参半SP4美白牙膏",
+          "price": "25-40元/支",
+          "source": "天猫",
+          "note": "益生菌配方，但美白有效率数据不详"
         },
         {
-          "brand": "vivo",
-          "model": "S60",
-          "price_range": "3599元",
-          "highlight": "骁龙8s Gen3+5000万长焦+90W",
-          "source": "太平洋2026手机排行榜"
+          "name": "佳洁士3D炫白",
+          "price": "19-26元/支",
+          "source": "天猫超市",
+          "note": "知名度高但用户反馈美白效果有限"
         }
       ]
     },
     {
-      "product_id": 3,
-      "product_name": "酷态科CP25自带线充电宝",
-      "category": "数码配件",
-      "main_competitors": [
+      "productId": 3,
+      "productName": "小米67W快充插线板",
+      "price": "99元",
+      "platform": "小米官方旗舰店",
+      "competitors": [
         {
-          "brand": "酷态科",
-          "model": "10号电能棒Mini",
-          "price_range": "约150-200元",
-          "highlight": "10000mAh+55W+LED数显+217g超轻",
-          "source": "中关村在线/IT之家 2026-06"
+          "name": "绿联 65W桌面充电站",
+          "price": "89元",
+          "source": "什么值得买",
+          "note": "价格相近但功率更低（65W vs 67W），且只有充电功能无AC插孔"
         },
         {
-          "brand": "小米",
-          "model": "67W自带线充电宝",
-          "price_range": "约200元",
-          "highlight": "澎湃秒充生态+20000mAh",
-          "source": "腾讯网快充横评 2026"
+          "name": "航嘉 100W充吧",
+          "price": "199元",
+          "source": "京东",
+          "note": "功率更高但价格贵一倍，无AC插孔"
         },
         {
-          "brand": "安克",
-          "model": "磁吸充电宝",
-          "price_range": "约200-300元",
-          "highlight": "磁吸+10000mAh+便携支架",
-          "source": "搜狐充电宝横评"
+          "name": "公牛魔方USB插座",
+          "price": "65元",
+          "source": "天猫",
+          "note": "价格低但无快充协议支持，仅普通USB充电"
         },
         {
-          "brand": "西圣",
-          "model": "PB-S半固态充电宝",
-          "price_range": "约100-150元",
-          "highlight": "半固态电芯+22.5W+179g超轻+双线",
-          "source": "什么值得买 2026夏季"
+          "name": "小米普通插排+充电器套装",
+          "price": "约80-100元",
+          "source": "小米商城",
+          "note": "需额外购买充电器，总价相近但占空间大"
         }
       ]
     },
     {
-      "product_id": 4,
-      "product_name": "悦罗兰美白防晒霜",
-      "category": "个护美妆",
-      "main_competitors": [
+      "productId": 4,
+      "productName": "佰维NV3500 1TB SSD",
+      "price": "399元（国补后307元）",
+      "platform": "京东自营",
+      "competitors": [
         {
-          "brand": "悦罗兰",
-          "model": "悦罗兰防晒霜 SPF50+",
-          "price_range": "70元/50g",
-          "highlight": "TOP1口碑+120万支销量+SPF50+/美白烟酰胺",
-          "source": "腾讯网/企鹅号 2026防晒排行榜"
+          "name": "三星 980 PRO 1TB",
+          "price": "约1099元",
+          "readSpeed": "顺序读6900MB/s",
+          "source": "京东",
+          "note": "价格贵3倍，性能相近佰维NV7400档位"
         },
         {
-          "brand": "时贝兰",
-          "model": "美白防晒霜 SPF50+",
-          "price_range": "78元/50g",
-          "highlight": "TOP2+100万支销量+PA+++++国妆特字",
-          "source": "腾讯网 2026防晒TOP10"
+          "name": "致态 TiPlus7100 1TB",
+          "price": "529元",
+          "readSpeed": "顺序读7000MB/s",
+          "source": "中关村在线",
+          "note": "国货精品但价格高72%，佰维性价比优势明显"
         },
         {
-          "brand": "安热沙",
-          "model": "小金瓶SPF50+",
-          "price_range": "约200-280元/60ml",
-          "highlight": "300万+评论+防水防汗+资生堂背书",
-          "source": "京东防晒排行榜"
+          "name": "铠侠 EXCERIA G2 1TB",
+          "price": "429元",
+          "readSpeed": "顺序读2100MB/s",
+          "source": "中关村在线",
+          "note": "价格相近但速度仅2100MB/s，佰维3500MB/s胜出"
         },
         {
-          "brand": "欧莱雅",
-          "model": "小金管SPF50+",
-          "price_range": "约139-199元/60ml",
-          "highlight": "200万+评论+清爽不油腻",
-          "source": "京东防晒排行榜"
+          "name": "西部数据 SN7100 1TB",
+          "price": "489元",
+          "readSpeed": "顺序读5000MB/s",
+          "source": "中关村在线",
+          "note": "价格高60%，性能差异不值得"
         }
       ]
     },
     {
-      "product_id": 5,
-      "product_name": "联想小新Pro16 GT AI元启版",
-      "category": "数码电脑",
-      "main_competitors": [
+      "productId": 5,
+      "productName": "丝芙菲抗皱四件套",
+      "price": "1019元/套",
+      "platform": "天猫旗舰店",
+      "competitors": [
         {
-          "brand": "联想",
-          "model": "小新Pro16 GT AI元启版",
-          "price_range": "约7000-9000元(配置不同)",
-          "highlight": "Ultra X9+2.8K OLED+32G+NPU本地AI",
-          "source": "太平洋2026笔记本推荐"
+          "name": "SK-II神仙水护肤套装",
+          "price": "869元+",
+          "source": "天猫",
+          "note": "单件价格相近但不成套，需额外购买精华和面霜"
         },
         {
-          "brand": "惠普",
-          "model": "战66 14英寸 2026款",
-          "price_range": "约5000-7000元",
-          "highlight": "Panther Lake Ultra5+16G+AI算力+商务品质",
-          "source": "企鹅号 2026-07笔记本"
+          "name": "兰蔻小黑瓶套装",
+          "price": "约700-1000元",
+          "source": "天猫",
+          "note": "功效单一（主打精华），不成套系"
         },
         {
-          "brand": "华硕",
-          "model": "无畏16SE 2026",
-          "price_range": "约5000-6000元",
-          "highlight": "16寸大屏+金属机身+高性价比",
-          "source": "企鹅号 2026-07笔记本"
+          "name": "薇诺娜舒敏抗老套装",
+          "price": "约356元",
+          "source": "天猫",
+          "note": "价格低但仅适合敏感肌，功效局限性大"
         },
         {
-          "brand": "机械革命",
-          "model": "无界系列",
-          "price_range": "约4000-6000元",
-          "highlight": "约8%市场份额+性价比游戏本",
-          "source": "洛图科技 2026-01~02线上数据"
+          "name": "资生堂悦薇抗皱套装",
+          "price": "约800-1200元",
+          "source": "天猫",
+          "note": "日系经典但滋润度偏高，油皮夏季可能闷痘"
         }
       ]
     }
