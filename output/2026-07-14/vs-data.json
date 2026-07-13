@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-07-14",
+  "data_source_note": "所有价格/参数均来自搜索结果（天猫、京东、ZOL、什么值得买等公开页面），严禁编造。",
+  "hotProducts": [
+    {
+      "id": 1,
+      "name": "小米手环9 Pro",
+      "price": "¥399（日常）/¥339（国补后）/¥209（极限好价）",
+      "rating": "中关村在线热榜TOP1",
+      "monthly_sales_source": "京东/天猫/小米官网",
+      "key_specs": "1.74英寸AMOLED/1200nits/21天续航/150+运动/独立GNSS/NFC/小米澎湃OS2"
+    },
+    {
+      "id": 2,
+      "name": "中兴巡天AX3000路由器",
+      "price": "¥149（京东日常）",
+      "rating": "ZOL热榜TOP1/9.9分",
+      "monthly_sales_source": "京东/ZOL",
+      "key_specs": "WiFi6/3000Mbps/自研双核/128设备/Mesh组网/160MHz"
+    },
+    {
+      "id": 3,
+      "name": "德施曼Q5FPro智能门锁",
+      "price": "¥1649-2234（多平台促销区间）",
+      "rating": "奥维云网2026Q1指纹锁零售额TOP1品牌主力机型",
+      "monthly_sales_source": "苏宁易购/京东/ZOL",
+      "key_specs": "3D人脸识别0.5s/上下双摄/4英寸大屏/十大解锁/GPTfinger2.0/7750mAh双电池"
+    },
+    {
+      "id": 4,
+      "name": "绿联65W三口氮化镓充电器",
+      "price": "¥79.9（天猫/京东日常）",
+      "rating": "天猫30天销70000+件/评分4.9",
+      "monthly_sales_source": "天猫/京东",
+      "key_specs": "GaN/2C1A三接口/65W PD/折叠插脚/智能功率分配/全协议兼容"
+    },
+    {
+      "id": 5,
+      "name": "云鲸J5扫地机器人",
+      "price": "¥3799（官方）/¥2635（国补后）/¥1599-1799（促销）",
+      "rating": "4000元价位段23%市场份额/2024年Q1上市",
+      "monthly_sales_source": "京东/天猫/ZOL",
+      "key_specs": "15000Pa吸力/仿生手拖地/0缠绕/LDS+3D结构光/鲸灵托管2.0Pro/45-75℃热水洗/全链路抑菌"
+    }
+  ],
+  "comparisons": [
+    {
+      "product_id": 1,
+      "product_name": "小米手环9 Pro",
+      "competitors": [
+        {
+          "name": "华为手环11",
+          "price": "¥259（标准版）/¥279（NFC版）",
+          "source": "ZOL太平洋电脑网、什么值得买",
+          "pros": "TruSeen5.0心率精度高/鸿蒙生态深度联动/快充45分钟充满",
+          "cons": "1.62英寸屏略小/无独立GPS/仅100种运动模式/AOD续航仅3天",
+          "key_specs": "1.62英寸AMOLED/300mAh/100种运动/鸿蒙OS/无独立GPS"
+        },
+        {
+          "name": "华为手环11 Pro",
+          "price": "¥369",
+          "source": "ZOL太平洋电脑网",
+          "pros": "独立GNSS五星定位/HRV情绪健康/专业睡眠分析",
+          "cons": "价格偏高/比小米手环9 Pro贵¥70-100",
+          "key_specs": "独立GPS/1.62英寸AMOLED/300mAh/60Hz"
+        },
+        {
+          "name": "荣耀手环10",
+          "price": "¥229",
+          "source": "ZOL太平洋电脑网",
+          "pros": "价格最低/1.57英寸AMOLED/4MB+48MB内存",
+          "cons": "无GPS/无NFC/无独立GNSS/无小米生态兼容iOS更好",
+          "key_specs": "1.57英寸AMOLED/无GPS/NFC需额外版本/4MB RAM"
+        },
+        {
+          "name": "三星Galaxy Fit3",
+          "price": "¥339",
+          "source": "什么值得买",
+          "pros": "1.6英寸AMOLED/50米防水/13天续航/三星生态",
+          "cons": "无NFC(国内版)/价格偏高/无独立GPS",
+          "key_specs": "1.6英寸AMOLED/50米防水/100+运动/无NFC"
+        }
+      ]
+    },
+    {
+      "product_id": 2,
+      "product_name": "中兴巡天AX3000路由器",
+      "competitors": [
+        {
+          "name": "TP-LINK XDR3030",
+          "price": "¥249",
+          "source": "ZOL中关村在线",
+          "pros": "FLogic 820平台性能更强/立式散热更好/5GHz三根天线信号增强",
+          "cons": "比中兴AX3000贵¥100/外观立式占地",
+          "key_specs": "WiFi6/BE3600/5GHz三根天线/立式"
+        },
+        {
+          "name": "小米AX3000T",
+          "price": "¥128",
+          "source": "ZOL/什么值得买",
+          "pros": "价格最低/小米智能生态/NFC碰连/Android设备友好",
+          "cons": "128MB ROM+256MB RAM刷机限制大/无Mesh一键互联",
+          "key_specs": "WiFi6/3000Mbps/自研Mesh/128元"
+        },
+        {
+          "name": "华为AX3 Pro",
+          "price": "¥399",
+          "source": "ZOL中关村在线",
+          "pros": "凌霄芯片低延迟/鸿蒙生态/穿墙能力强",
+          "cons": "价格最高（¥399）/WiFi6非WiFi7",
+          "key_specs": "WiFi6/凌霄芯片/4根天线/鸿蒙生态"
+        },
+        {
+          "name": "腾达云霄AX3000",
+          "price": "¥229",
+          "source": "ZOL热榜",
+          "pros": "价格适中/ZOL评分10.0满分",
+          "cons": "知名度不如中兴TP/固件更新较慢",
+          "key_specs": "WiFi6/3000Mbps/四天线"
+        }
+      ]
+    },
+    {
+      "product_id": 3,
+      "product_name": "德施曼Q5FPro智能门锁",
+      "competitors": [
+        {
+          "name": "凯迪仕K20 Pro",
+          "price": "¥1999-2399",
+          "source": "京东/天猫",
+          "pros": "指静脉识别（不怕指纹模糊）/远程可视对讲",
+          "cons": "无人脸识别/仅上摄单摄/价格相近但功能更少",
+          "key_specs": "指静脉+指纹/单摄/无3D人脸"
+        },
+        {
+          "name": "小米智能门锁Pro",
+          "price": "¥1299-1599",
+          "source": "京东/小米官网",
+          "pros": "米家生态/价格最低/3D结构光人脸+指纹",
+          "cons": "无猫眼大屏/无人脸上下双摄/品牌溢价弱于德施曼",
+          "key_specs": "3D人脸+指纹/米家生态/无4英寸大屏"
+        },
+        {
+          "name": "鹿客SV40指静脉智能锁",
+          "price": "¥1699-1899",
+          "source": "京东/天猫",
+          "pros": "指静脉识别（老人小孩友好）/鹿客APP生态",
+          "cons": "无人脸识别/无大屏/功能较单一",
+          "key_specs": "指静脉+密码/NFC/无人脸"
+        },
+        {
+          "name": "萤石DL31FVS智能门锁",
+          "price": "¥2199-2599",
+          "source": "京东/天猫",
+          "pros": "萤石视频云存储/安防生态/3D人脸+猫眼",
+          "cons": "价格最高/无下摄快递看护/无十大解锁方式",
+          "key_specs": "3D人脸/萤石云/单摄/无十大解锁"
+        }
+      ]
+    },
+    {
+      "product_id": 4,
+      "product_name": "绿联65W三口氮化镓充电器",
+      "competitors": [
+        {
+          "name": "Anker 65W GaN充电器",
+          "price": "¥149-179",
+          "source": "天猫/ZOL",
+          "pros": "全球品牌认知度最高/PD协议兼容最好/质保18个月换新",
+          "cons": "价格是绿联2倍/国货之光性价比更高",
+          "key_specs": "GaN/2C1A/65W/18个月质保"
+        },
+        {
+          "name": "闪极65W充电器",
+          "price": "¥89-99",
+          "source": "天猫/京东",
+          "pros": "价格相近/透明科幻外观/2C1A",
+          "cons": "品牌知名度不如绿联/不支持部分华为SCP协议",
+          "key_specs": "GaN/2C1A/65W/透明设计"
+        },
+        {
+          "name": "Aohi 65W充电器",
+          "price": "¥129-149",
+          "source": "天猫/ZOL",
+          "pros": "黄光呼吸灯设计独特/体积最小/全协议兼容",
+          "cons": "仅2个接口/价格更高/品牌偏小众",
+          "key_specs": "GaN/单C+1A/65W/体积最小"
+        },
+        {
+          "name": "倍思65W GaN充电器",
+          "price": "¥89-109",
+          "source": "天猫/京东",
+          "pros": "价格最低/2C+1A/折叠插脚",
+          "cons": "发热略高/部分批次兼容性问题",
+          "key_specs": "GaN/2C1A/65W/折叠插脚"
+        }
+      ]
+    },
+    {
+      "product_id": 5,
+      "product_name": "云鲸J5扫地机器人",
+      "competitors": [
+        {
+          "name": "追觅X50s Pro增强版",
+          "price": "¥5000+",
+          "source": "腾讯网2025扫地机横评",
+          "pros": "25000Pa吸力最强/8cm越障/100℃高温煮洗/双机械臂",
+          "cons": "价格最高（是J5的1.3倍）/适合大户型高端用户",
+          "key_specs": "25000Pa/8cm越障/100℃洗拖布/双机械臂"
+        },
+        {
+          "name": "石头P20 Pro",
+          "price": "¥3999-4599",
+          "source": "腾讯网2025扫地机横评",
+          "pros": "18500Pa吸力/RRmind GPT大模型AI交互/越障4cm",
+          "cons": "越障仅4cm不如J5（2cm）/毛发缠绕率0.3%比J5稍高",
+          "key_specs": "18500Pa/AI大模型/4cm越障/RRGmind GPT"
+        },
+        {
+          "name": "科沃斯X8 PRO PLUS AI",
+          "price": "¥4999+",
+          "source": "腾讯网2025扫地机横评",
+          "pros": "滚筒拖布（活水技术）/75℃高温洗/75℃滚筒压强4000Pa",
+          "cons": "滚筒结构湿滑地面避障偶发/机身较厚/价格最高",
+          "key_specs": "13000Pa/滚筒活水/75℃/机身厚/价格高"
+        },
+        {
+          "name": "米家M40扫地机器人",
+          "price": "¥1999-2599",
+          "source": "腾讯网2025扫地机横评",
+          "pros": "米家生态/小爱同学控制/价格最低/双机械臂",
+          "cons": "12000Pa吸力偏弱/噪音77dB最高/AI脏污识别仅顶配有",
+          "key_specs": "12000Pa/双机械臂/米家生态/77dB噪音"
+        }
+      ]
+    }
+  ]
+}
