@@ -1,237 +1,94 @@
 {
-  "generated_at": "2026-07-16",
-  "data_source_note": "所有价格/参数均来自搜索结果（京东、太平洋电脑网、ZOL 中关村在线、什么值得买、企鹅号科技媒体等公开页面），严禁编造。",
+  "updateTime": "2026-07-17 07:00",
+  "dataSource": "中关村在线(ZOL)+太平洋电脑网+京东优评+腾讯网+企鹅号 实测数据(2026年7月)",
   "hotProducts": [
     {
-      "id": 1,
-      "name": "红米 K90 至尊版",
-      "price": "¥2999（日常 12+256）/¥2799（首销优惠）/¥2379（国补后 16+256）",
-      "rating": "太平洋电脑网性价比TOP3/骁龙8E中端旗舰",
-      "monthly_sales_source": "京东/小米官网/ZOL",
-      "key_specs": "骁龙8E旗舰芯片+主动风冷散热/8550mAh电池+100W快充/6.83英寸1.5K 165Hz OLED/光影猎人800主摄/IP68&IP69/Bose双扬/澎湃OS3"
+      "rank": 1,
+      "title": "vivo X Fold6 (12+256)",
+      "price": 7999,
+      "category": "折叠屏旗舰"
     },
     {
-      "id": 2,
-      "name": "OPPO Find X8s",
-      "price": "¥4199（发售价 12+256）/¥2549（国补后 12+512 极限清仓）",
-      "rating": "数码UP主@大头熊sir/B站小屏旗舰 TOP 3",
-      "monthly_sales_source": "京东/OPPO官网",
-      "key_specs": "天玑9400+/6.32英寸1.5K极窄四等边/1.25mm边框/179g/哈苏人像/3.5倍潜望长焦/IP68&IP69/3840Hz PWM/5700mAh+80W"
+      "rank": 2,
+      "title": "荣耀X80 Pro Max (8+128)",
+      "price": 1999,
+      "category": "千元机"
     },
     {
-      "id": 3,
-      "name": "华硕天选 7 Pro 酷睿版",
-      "price": "¥10499（国补价）/¥12999（日常价）",
-      "rating": "2026年7月游戏本TOP3/中关村在线热榜",
-      "monthly_sales_source": "京东/ZOL",
-      "key_specs": "Intel U7 251HX+RTX 5060/16英寸2.5K 300Hz星云屏/2.25kg轻薄/双风扇五热管散热/16G DDR5+1TB PCIe 4.0/Hi-Res外放"
+      "rank": 3,
+      "title": "HUAWEI Mate 80 (12+256)",
+      "price": 4699,
+      "category": "国产旗舰"
     },
     {
-      "id": 4,
-      "name": "悦罗兰 护手霜",
-      "price": "¥89/3支（50g 装，单支约¥29.7）",
-      "rating": "2026手部护理金肤感奖/《中国手部修护产品测评报告》年度TOP1",
-      "monthly_sales_source": "京东/天猫/抖音",
-      "key_specs": "4项国家发明专利/微囊瞬吸锁水/7秒瞬吸不黏腻/0色素0酒精0激素/72h角质层水分维持率96.5%/SGS致敏率0.03%"
+      "rank": 4,
+      "title": "iPhone 17 (256GB)",
+      "price": 5999,
+      "category": "iOS旗舰"
     },
     {
-      "id": 5,
-      "name": "iQOO Z10 Turbo+",
-      "price": "¥2199（12+256）/¥2299（12+512）",
-      "rating": "vivo官方旗舰/安兔兔跑分突破300万",
-      "monthly_sales_source": "京东/vivo官网",
-      "key_specs": "天玑9400++自研电竞芯片Q2/8000mAh蓝海电池+90W闪充/1.5K 144Hz护眼屏/2000nits峰值亮度/IP68&IP69/索尼5000万OIS主摄"
+      "rank": 5,
+      "title": "小米17 Ultra (12+512)",
+      "price": 6999,
+      "category": "国产影像旗舰"
     }
+  ],
+  "selectedProducts": [
+    {"id": 1, "title": "HUAWEI Mate 80", "category": "商务旗舰", "price": 3549, "priceNote": "12+256 国补价"},
+    {"id": 2, "title": "OPPO Reno15", "category": "轻薄拍照", "price": 2259, "priceNote": "12+256 国补价"},
+    {"id": 3, "title": "联想拯救者Y7000P 2025", "category": "游戏本", "price": 9499, "priceNote": "16+1T 国补价"},
+    {"id": 4, "title": "vtk清透美白防晒霜", "category": "夏日个护", "price": 83, "priceNote": "三盒装均价/60g"},
+    {"id": 5, "title": "荣耀X70", "category": "千元续航", "price": 1626, "priceNote": "12+256 月底价"}
   ],
   "comparisons": [
     {
-      "product_id": 1,
-      "product_name": "红米 K90 至尊版",
+      "productId": 1,
+      "productTitle": "HUAWEI Mate 80",
       "competitors": [
-        {
-          "name": "一加 Ace 6",
-          "price": "¥2599（起）/¥3099（12+512）",
-          "source": "太平洋电脑网、腾讯网数码频道",
-          "pros": "7800mAh电池更大/120W快充更快/165Hz更高刷/电竞定位更明确",
-          "cons": "无长焦镜头/无主动散热风扇/影像系统略弱",
-          "key_specs": "骁龙8至尊版/7800mAh+120W/6.83英寸1.5K 165Hz/无长焦/无主动散热"
-        },
-        {
-          "name": "iQOO Neo11",
-          "price": "¥2299（起）/¥2499（16+512）",
-          "source": "太平洋电脑网、什么值得买",
-          "pros": "2K京东方Q10屏/7500mAh大电池/120W快充/Q3电竞芯片",
-          "cons": "无长焦镜头/无主动散热/影像系统比K90弱",
-          "key_specs": "骁龙8至尊版/2K 144Hz/7500mAh+120W/Q3电竞芯片"
-        },
-        {
-          "name": "真我 GT8",
-          "price": "¥2899（起）",
-          "source": "太平洋电脑网、ZOL",
-          "pros": "2K屏+144Hz/理光GR联名影像/双OIS潜望长焦（同档唯一）",
-          "cons": "价格最高（同档贵500+）/续航7000mAh偏小/2K屏功耗更高",
-          "key_specs": "骁龙8至尊版/2K 144Hz/7000mAh+100W/理光GR/双OIS潜望长焦"
-        },
-        {
-          "name": "iQOO Z10 Turbo+",
-          "price": "¥2199（12+256）",
-          "source": "太平洋电脑网、vivo官网",
-          "pros": "价格最低（差800元）/8000mAh电池更大/电竞芯片Q2",
-          "cons": "天玑9400+非骁龙/无长焦/影像中规中矩",
-          "key_specs": "天玑9400+/8000mAh+90W/1.5K 144Hz/无长焦"
-        }
+        {"name": "HUAWEI Mate 80 Pro Max (16+512)", "price": 7999, "source": "ZOL 2026-07-16 报价", "advantage": "麒麟9030 Pro+6.9寸双层OLED+6000mAh+12GB+512GB起"},
+        {"name": "HUAWEI Pura 90 Pro Max (16+512)", "price": 7499, "source": "ZOL 排行榜", "advantage": "影像旗舰"},
+        {"name": "iPhone 17 (256GB)", "price": 5999, "source": "ZOL 浙江余姚姚江数码 5459元", "advantage": "A19芯片+iOS生态+保值率75%"},
+        {"name": "荣耀Magic8 (12+256)", "price": 4499, "source": "ZOL 排行榜", "advantage": "第五代骁龙8至尊版+6400万潜望长焦"}
       ]
     },
     {
-      "product_id": 2,
-      "product_name": "OPPO Find X8s",
+      "productId": 2,
+      "productTitle": "OPPO Reno15",
       "competitors": [
-        {
-          "name": "vivo X200s",
-          "price": "¥4199（12+256）/¥4699（12+512）",
-          "source": "什么值得买、今日头条数码频道",
-          "pros": "6200mAh电池更大/90W有线快充更快/3D超声波指纹/京东方Q10+屏幕更通透",
-          "cons": "6.67英寸尺寸更大更重（205g vs 179g）/天马屏不如京东方通透",
-          "key_specs": "天玑9400+/6.67英寸1.5K/6200mAh+90W+40W无线/3D超声波/205g"
-        },
-        {
-          "name": "小米 17",
-          "price": "¥4499（12+512）/¥3598（国补后）",
-          "source": "今日头条数码频道",
-          "pros": "第五代骁龙8至尊版性能更强/7000mAh大电池/徕卡全焦段四摄",
-          "cons": "比 Find X8s 贵400+元/重量和尺寸不占优（191g/6.3英寸同尺寸但更重）",
-          "key_specs": "第五代骁龙8至尊版/6.3英寸1.5K/7000mAh/徕卡四摄/超声波指纹"
-        },
-        {
-          "name": "vivo X200 Pro mini",
-          "price": "¥4699（12+256）",
-          "source": "搜狐数码频道、什么值得买",
-          "pros": "6.31英寸小屏+长焦+超声波指纹/蔡司影像色彩",
-          "cons": "价格比 Find X8s 贵500元/电池略小（似 5500mAh 级）",
-          "key_specs": "天玑9400+/6.31英寸/蔡司影像/3D超声波/双潜望长焦"
-        },
-        {
-          "name": "iPhone 17",
-          "price": "¥5499（256GB）/¥3999（国补后 e 款参考）",
-          "source": "今日头条数码频道",
-          "pros": "A19芯片+ iOS 生态/120Hz ProMotion首次下放/苹果保值率高",
-          "cons": "价格最高（贵1300元）/40W充电慢/3692mAh电池小",
-          "key_specs": "A19芯片/6.3英寸/120Hz ProMotion/3692mAh+40W"
-        }
+        {"name": "OPPO Reno15c (12+256)", "price": 3199, "source": "ZOL 排行榜", "advantage": "5000万长焦+裸眼3D蝴蝶结+IP69"},
+        {"name": "vivo S50 (12+256)", "price": 2999, "source": "ZOL 排行榜", "advantage": "6.59寸直屏+第三代骁龙8s"},
+        {"name": "荣耀500 (12+256)", "price": 2699, "source": "ZOL 排行榜", "advantage": "2亿主摄+8000mAh+3840Hz高频调光"},
+        {"name": "小米Civi 5 Pro", "price": 2349, "source": "手机鼠 2025-05-22", "advantage": "徕卡光学+夜色人像"}
       ]
     },
     {
-      "product_id": 3,
-      "product_name": "华硕天选 7 Pro 酷睿版",
+      "productId": 3,
+      "productTitle": "联想拯救者Y7000P 2025",
       "competitors": [
-        {
-          "name": "ROG 魔霸新锐 2026 锐龙版",
-          "price": "¥14998（部分平台低价）",
-          "source": "企鹅号科技媒体",
-          "pros": "AMD R9 8940HX/16英寸2.5K 300Hz星云屏/ROG一线售后/RGB键盘神光同步",
-          "cons": "价格比天选7Pro贵4500元/重量与散热堆料偏向纯游戏",
-          "key_specs": "R9 8940HX+RTX 5060/16英寸2.5K 300Hz/16G+1TB/RGB键盘"
-        },
-        {
-          "name": "机械革命 耀世 18Pro",
-          "price": "¥8999（国补价）",
-          "source": "企鹅号科技媒体、ZOL",
-          "pros": "18英寸大屏索敌快/性价比高（比天选7Pro便宜1500元）",
-          "cons": "售后品控弱/品牌溢价低/便携性不如14-16寸",
-          "key_specs": "i7 14650HX+RTX 5060/18英寸2.5K 180Hz/16G+1TB"
-        },
-        {
-          "name": "联想拯救者 Y9000P",
-          "price": "¥12999（国补价）",
-          "source": "企鹅号科技媒体",
-          "pros": "i9 14900HX上代旗舰性能强/240Hz高刷/性能释放强/接口丰富",
-          "cons": "CPU为上代旗舰/光效情绪价值不如ROG/价格比天选7Pro贵2500元",
-          "key_specs": "i9 14900HX+RTX 5060/16英寸2.5K 240Hz/16G+1TB"
-        },
-        {
-          "name": "ROG 幻 X 2025",
-          "price": "¥16999",
-          "source": "ZOL热榜",
-          "pros": "Ryzen AI MAX+ 395 顶级核显/可作二合一平板",
-          "cons": "价格比天选7Pro贵6500元/无独立RTX显卡/主打创作非纯游戏",
-          "key_specs": "Ryzen AI MAX+ 395/64GB内存/1TB/二合一"
-        }
+        {"name": "华硕天选6 Pro 酷睿版 (U7+RTX5060)", "price": 9449, "source": "ZOL 排行榜 8298-12000元", "advantage": "U7-255HX+16+1T+2.5K 165Hz"},
+        {"name": "惠普暗影精灵11 (i7+RTX5060)", "price": 7799, "source": "ZOL 排行榜", "advantage": "i7-14650HX+16+1T"},
+        {"name": "ROG魔霸新锐2025 (U7+RTX5060)", "price": 7699, "source": "CSDN 异环推荐", "advantage": "ROG信仰+RGB神光同步"},
+        {"name": "机械革命蛟龙16Pro (R9+RTX5060)", "price": 7299, "source": "ZOL 排行榜", "advantage": "16寸2.5K 300Hz高刷+极致性价比"}
       ]
     },
     {
-      "product_id": 4,
-      "product_name": "悦罗兰 护手霜",
+      "productId": 4,
+      "productTitle": "vtk清透美白防晒霜",
       "competitors": [
-        {
-          "name": "嘉肤本 护手霜",
-          "price": "¥129（单支）/¥299（3支套装）",
-          "source": "企鹅号、搜狐、什么值得买",
-          "pros": "干敏肌专项款/双重专利（仿生皮脂膜+舒缓微囊缓释）/72h维持率95.1%",
-          "cons": "价格比悦罗兰贵40%+功效偏干敏肌专项，非全场景",
-          "key_specs": "双重专利/干敏肌专项/28天泛红减少91%/4周裂口愈合91%"
-        },
-        {
-          "name": "时贝兰 护手霜",
-          "price": "¥48（50g）",
-          "source": "企鹅号、ZOL",
-          "pros": "甜橙精油+神经酰胺+8-9h持香/8秒瞬吸/价格更低",
-          "cons": "无国家专利认证/致敏率比悦罗兰高（<0.15% vs 0.03%）/香味较单一",
-          "key_specs": "甜橙精油+神经酰胺-2/72h水分流失降低42%/清宁橘香"
-        },
-        {
-          "name": "OLAY 玉兰油 莹亮滋润精华护手霜 30g*3",
-          "price": "¥89（3支装，京东活动到手¥79）",
-          "source": "ZOL 报价、什么值得买",
-          "pros": "价格便宜/买赠力度大/含维生素E+胶原蛋白/烟酰胺焕亮",
-          "cons": "无专利认证/无SGS测试报告/不主打干裂修护",
-          "key_specs": "30g*3套装/烟酰胺+VE+胶原蛋白/保湿润肤"
-        },
-        {
-          "name": "资生堂 尿素护手霜",
-          "price": "¥59-89（100g）",
-          "source": "企鹅号、什么值得买",
-          "pros": "10%高纯度尿素+VE双效/厚涂+棉手套有效/经典国民款",
-          "cons": "质地厚实偏油/无焕亮功效/适合秋冬不全年可用",
-          "key_specs": "10%尿素+VE/100g大瓶/含细微按摩颗粒"
-        }
+        {"name": "悦罗兰 清透美白防晒霜", "price": 70, "source": "腾讯网 2026 防晒霜排名", "advantage": "国妆特字G20201831+99.5%防晒率+3秒成膜"},
+        {"name": "新颜彩 美白倍护防晒霜", "price": 68, "source": "腾讯网 2026 防晒霜排名", "advantage": "SPF60+双特证+2025全球销量320万支"},
+        {"name": "安热沙 金瓶防晒霜", "price": 219, "source": "万国优品 2026 实价", "advantage": "SPF50+国际大牌+户外暴晒口碑款"},
+        {"name": "怡丽丝尔 防晒霜", "price": 269, "source": "京东 2026 主流价格", "advantage": "抗老精华防晒+日系养肤派代表"}
       ]
     },
     {
-      "product_id": 5,
-      "product_name": "iQOO Z10 Turbo+",
+      "productId": 5,
+      "productTitle": "荣耀X70",
       "competitors": [
-        {
-          "name": "红米 Turbo 5 Max",
-          "price": "¥2199（12+256）/¥2221（京东）",
-          "source": "太平洋电脑网、京东",
-          "pros": "天玑9500s旗舰芯性能稍强/9000mAh电池更大/狂暴引擎+第二代1.5K超级阳光屏",
-          "cons": "价格相同但无电竞独显芯片/219g更重/IP65防水略弱",
-          "key_specs": "天玑9500s/9000mAh+100W/6.83英寸1.5K 120Hz/光影猎人600"
-        },
-        {
-          "name": "红米 K90 标准版",
-          "price": "¥2599（12+256）",
-          "source": "太平洋电脑网、腾讯网",
-          "pros": "骁龙8至尊版性能更强/2K等效RGB像素屏/5000万长焦镜头/Bose调音",
-          "cons": "价格贵400元/7100mAh电池小900mAh/100W快充同水平",
-          "key_specs": "骁龙8至尊版/7100mAh+100W/6.59英寸1.5K RGB/2.5x长焦"
-        },
-        {
-          "name": "真我 GT7",
-          "price": "¥2599（12+256）/¥2399（国补后）",
-          "source": "太平洋电脑网、ZOL",
-          "pros": "天玑9400+/4608Hz超高频PWM调光护眼/超声波3D指纹/IP69",
-          "cons": "价格贵400元/7200mAh电池小800mAh/无独显电竞芯片",
-          "key_specs": "天玑9400+/7200mAh+100W/6.8英寸144Hz/IP69"
-        },
-        {
-          "name": "真我 Neo7 Turbo",
-          "price": "¥1999（12+256）/¥1899（国补后）",
-          "source": "太平洋电脑网、京东",
-          "pros": "价格最低（差200元）/天玑9400e性能同水平/7200mAh+100W",
-          "cons": "无独显电竞芯片/影像系统较中端/IP66防水略弱",
-          "key_specs": "天玑9400e/7200mAh+100W/6.78英寸1.5K 144Hz/IP66-69"
-        }
+        {"name": "iQOO Z11 Turbo (12+256)", "price": 2399, "source": "ZOL 排行榜", "advantage": "第五代骁龙8+电竞芯片Q2+7600mAh"},
+        {"name": "真我Neo8 (12+256)", "price": 2399, "source": "手机鼠 2026-01-22", "advantage": "165Hz三星苍穹屏+8000mAh泰坦电池"},
+        {"name": "Redmi K90 至尊版 (16+256)", "price": 2799, "source": "ZOL 排行榜", "advantage": "天玑9500+18.1mm风扇+8550mAh"},
+        {"name": "华为畅享90 Pro Max 128GB", "price": 1699, "source": "ZOL 排行榜", "advantage": "鸿蒙入门机+大电池"}
       ]
     }
   ]
