@@ -1,95 +1,267 @@
 {
-  "updateTime": "2026-07-17 07:00",
-  "dataSource": "中关村在线(ZOL)+太平洋电脑网+京东优评+腾讯网+企鹅号 实测数据(2026年7月)",
+  "updateTime": "2026-07-18 07:00",
+  "dataSource": "天猫/淘宝/京东实测价格 + 2026 7月各品类专业评测榜单数据",
   "hotProducts": [
     {
-      "rank": 1,
-      "title": "vivo X Fold6 (12+256)",
-      "price": 7999,
-      "category": "折叠屏旗舰"
+      "name": "漫友 H20Pro 头戴降噪耳机",
+      "price": 399,
+      "platform": "天猫",
+      "category": "数码音频",
+      "highlights": "40mm 蚕丝振膜 + AGC 德国智能降噪 + 200h 续航 + 双蓝牙 6.0"
     },
     {
-      "rank": 2,
-      "title": "荣耀X80 Pro Max (8+128)",
-      "price": 1999,
-      "category": "千元机"
+      "name": "南卡 Clip Super2 开放式耳机",
+      "price": 389,
+      "platform": "天猫",
+      "category": "数码音频",
+      "highlights": "SuperSound OS 3.0 声学系统 + 蓝牙 6.0 + 0.06s 低延迟游戏模式"
     },
     {
-      "rank": 3,
-      "title": "HUAWEI Mate 80 (12+256)",
-      "price": 4699,
-      "category": "国产旗舰"
+      "name": "宣致蜗牛原液套装",
+      "price": 199,
+      "platform": "淘宝",
+      "category": "美妆护肤",
+      "highlights": "天然蜗牛原液 + 黄河故道产地 + 央视主持人和演员同款"
     },
     {
-      "rank": 4,
-      "title": "iPhone 17 (256GB)",
-      "price": 5999,
-      "category": "iOS旗舰"
+      "name": "微热山丘凤梨酥",
+      "price": 143,
+      "platform": "天猫",
+      "category": "美食零食",
+      "highlights": "1 颗凤梨 7 块凤梨酥 + 全黄油酥皮 + Costco 在售"
     },
     {
-      "rank": 5,
-      "title": "小米17 Ultra (12+512)",
-      "price": 6999,
-      "category": "国产影像旗舰"
+      "name": "Future Foods 英式经典蘑菇脆",
+      "price": 29.9,
+      "platform": "天猫",
+      "category": "美食零食",
+      "highlights": "整朵厚切蘑菇 + 黑松露/双倍切达芝士 + 低温慢烘"
     }
   ],
   "selectedProducts": [
-    {"id": 1, "title": "HUAWEI Mate 80", "category": "商务旗舰", "price": 3549, "priceNote": "12+256 国补价"},
-    {"id": 2, "title": "OPPO Reno15", "category": "轻薄拍照", "price": 2259, "priceNote": "12+256 国补价"},
-    {"id": 3, "title": "联想拯救者Y7000P 2025", "category": "游戏本", "price": 9499, "priceNote": "16+1T 国补价"},
-    {"id": 4, "title": "vtk清透美白防晒霜", "category": "夏日个护", "price": 83, "priceNote": "三盒装均价/60g"},
-    {"id": 5, "title": "荣耀X70", "category": "千元续航", "price": 1626, "priceNote": "12+256 月底价"}
+    {
+      "id": 1,
+      "name": "九阳不用手洗豆浆机 K7Pro 紫火版",
+      "price": 1999,
+      "platform": "京东/天猫",
+      "category": "厨房养生"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 17 Pro Max 256GB",
+      "price": 8699,
+      "platform": "京东/天猫/苹果官网",
+      "category": "数码旗舰"
+    },
+    {
+      "id": 3,
+      "name": "REDMI 头戴降噪耳机",
+      "price": 349,
+      "nationalSubsidyPrice": 296.65,
+      "platform": "小米商城",
+      "category": "数码音频"
+    },
+    {
+      "id": 4,
+      "name": "VTK 专研清新美白牙膏",
+      "price": 49,
+      "bulkPrice": "98元/3支 (均价 32.7元/支)",
+      "platform": "天猫/京东",
+      "category": "口腔个护"
+    },
+    {
+      "id": 5,
+      "name": "红米 K90 至尊版 16+512",
+      "price": 2999,
+      "platform": "京东/小米商城",
+      "category": "性能旗舰"
+    }
   ],
   "comparisons": [
     {
       "productId": 1,
-      "productTitle": "HUAWEI Mate 80",
+      "productName": "九阳不用手洗豆浆机 K7Pro 紫火版 ¥1999",
       "competitors": [
-        {"name": "HUAWEI Mate 80 Pro Max (16+512)", "price": 7999, "source": "ZOL 2026-07-16 报价", "advantage": "麒麟9030 Pro+6.9寸双层OLED+6000mAh+12GB+512GB起"},
-        {"name": "HUAWEI Pura 90 Pro Max (16+512)", "price": 7499, "source": "ZOL 排行榜", "advantage": "影像旗舰"},
-        {"name": "iPhone 17 (256GB)", "price": 5999, "source": "ZOL 浙江余姚姚江数码 5459元", "advantage": "A19芯片+iOS生态+保值率75%"},
-        {"name": "荣耀Magic8 (12+256)", "price": 4499, "source": "ZOL 排行榜", "advantage": "第五代骁龙8至尊版+6400万潜望长焦"}
-      ]
+        {
+          "name": "美的 静享破壁豆浆机 MJ-M100",
+          "price": 1899,
+          "highlight": "10 重降噪 + 1.2L 大容量 + 12h 预约",
+          "weakness": "无免手洗功能,需手动刷洗"
+        },
+        {
+          "name": "苏泊尔 轻音免滤破壁豆浆机 SP66R",
+          "price": 1799,
+          "highlight": "六叶钝刀 + 四维扰流,免过滤直接饮用",
+          "weakness": "无免手洗自清洁,容量仅 1.75L 不及 K7Pro 1.2L 热饮档"
+        },
+        {
+          "name": "小熊 轻音小巧破壁豆浆机 F01G1",
+          "price": 799,
+          "highlight": "小巧机身,租房宿舍适用,1.5L 适中容量",
+          "weakness": "无免手洗、无太空科技轻音,材质仅食品级基本款"
+        },
+        {
+          "name": "西屋 轻音高口感破壁豆浆机 WFB-HS0466",
+          "price": 2299,
+          "highlight": "无刷电机 + 静音舱底座 + 八叶刀头真空破壁",
+          "weakness": "无免手洗无自动排废水,容量 1.35L 偏小"
+        },
+        {
+          "name": "奥克斯 实用多功能免滤豆浆机",
+          "price": 499,
+          "highlight": "高性价比基础款,12h 预约 + 一键自清洁",
+          "weakness": "无含钛陶瓷内胆,无降嘌呤专业养生程序"
+        }
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8666a326aee22352"
     },
     {
       "productId": 2,
-      "productTitle": "OPPO Reno15",
+      "productName": "iPhone 17 Pro Max 256GB ¥8699",
       "competitors": [
-        {"name": "OPPO Reno15c (12+256)", "price": 3199, "source": "ZOL 排行榜", "advantage": "5000万长焦+裸眼3D蝴蝶结+IP69"},
-        {"name": "vivo S50 (12+256)", "price": 2999, "source": "ZOL 排行榜", "advantage": "6.59寸直屏+第三代骁龙8s"},
-        {"name": "荣耀500 (12+256)", "price": 2699, "source": "ZOL 排行榜", "advantage": "2亿主摄+8000mAh+3840Hz高频调光"},
-        {"name": "小米Civi 5 Pro", "price": 2349, "source": "手机鼠 2025-05-22", "advantage": "徕卡光学+夜色人像"}
-      ]
+        {
+          "name": "vivo X Fold6 全能大折叠",
+          "price": 7999,
+          "highlight": "折叠屏 + 一屏四用 + OriginOS 6 Fold 系统",
+          "weakness": "折叠屏折痕问题 + 重量 320g+ 单手操作不便"
+        },
+        {
+          "name": "华为 Pura 80 Pro (预估)",
+          "price": 6999,
+          "highlight": "麒麟 9020 + 鸿蒙 5.0 + 国产旗舰",
+          "weakness": "iOS 生态用户迁移成本高,GMS 服务缺失"
+        },
+        {
+          "name": "小米 15 Pro",
+          "price": 5299,
+          "highlight": "骁龙 8E + 徕卡光学 + 6000mAh",
+          "weakness": "影像算法 vs iPhone 略弱,保值率不及"
+        },
+        {
+          "name": "OPPO Find X8 Pro",
+          "price": 5999,
+          "highlight": "天玑 9400 + 双潜望长焦 + 哈苏合作",
+          "weakness": "ColorOS 流畅度长期使用不如 iOS"
+        },
+        {
+          "name": "三星 Galaxy S25 Ultra",
+          "price": 9699,
+          "highlight": "S Pen + 2 亿像素 + One UI 7",
+          "weakness": "国行版比美版贵 1500+,系统本地化不足"
+        }
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8656a5642ea81852"
     },
     {
       "productId": 3,
-      "productTitle": "联想拯救者Y7000P 2025",
+      "productName": "REDMI 头戴降噪耳机 ¥349 / 国补 296.65",
       "competitors": [
-        {"name": "华硕天选6 Pro 酷睿版 (U7+RTX5060)", "price": 9449, "source": "ZOL 排行榜 8298-12000元", "advantage": "U7-255HX+16+1T+2.5K 165Hz"},
-        {"name": "惠普暗影精灵11 (i7+RTX5060)", "price": 7799, "source": "ZOL 排行榜", "advantage": "i7-14650HX+16+1T"},
-        {"name": "ROG魔霸新锐2025 (U7+RTX5060)", "price": 7699, "source": "CSDN 异环推荐", "advantage": "ROG信仰+RGB神光同步"},
-        {"name": "机械革命蛟龙16Pro (R9+RTX5060)", "price": 7299, "source": "ZOL 排行榜", "advantage": "16寸2.5K 300Hz高刷+极致性价比"}
-      ]
+        {
+          "name": "索尼 WH-CH720N",
+          "price": 799,
+          "highlight": "192g 超轻 + 50h 续航 + Type-C 充电",
+          "weakness": "无 72h 超长续航,降噪深度不及 REDMI 42dB 旗舰级"
+        },
+        {
+          "name": "漫步者 W820NB",
+          "price": 449,
+          "highlight": "220g 轻量 + 38dB 降噪 + Hi-Res 认证",
+          "weakness": "降噪深度 38dB 略低,无 96kHz/24bit 有线金标"
+        },
+        {
+          "name": "万魔 SonoFlow",
+          "price": 549,
+          "highlight": "Hi-Res 双认证 + LDAC 无损 + 70h 续航",
+          "weakness": "不支持小米澎湃互联,生态联动缺失"
+        },
+        {
+          "name": "QCY H3S",
+          "price": 279,
+          "highlight": "102h 超长续航 + 56dB 降噪 + 蓝牙 6.0",
+          "weakness": "无 Hi-Res 金标,做工塑料感"
+        },
+        {
+          "name": "西伯利亚 DM02",
+          "price": 199,
+          "highlight": "136h 续航 + LHDC 高清 + 折叠便携",
+          "weakness": "无主动降噪,品牌力较弱"
+        }
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6656a437b1975652"
     },
     {
       "productId": 4,
-      "productTitle": "vtk清透美白防晒霜",
+      "productName": "VTK 专研清新美白牙膏 ¥49/支",
       "competitors": [
-        {"name": "悦罗兰 清透美白防晒霜", "price": 70, "source": "腾讯网 2026 防晒霜排名", "advantage": "国妆特字G20201831+99.5%防晒率+3秒成膜"},
-        {"name": "新颜彩 美白倍护防晒霜", "price": 68, "source": "腾讯网 2026 防晒霜排名", "advantage": "SPF60+双特证+2025全球销量320万支"},
-        {"name": "安热沙 金瓶防晒霜", "price": 219, "source": "万国优品 2026 实价", "advantage": "SPF50+国际大牌+户外暴晒口碑款"},
-        {"name": "怡丽丝尔 防晒霜", "price": 269, "source": "京东 2026 主流价格", "advantage": "抗老精华防晒+日系养肤派代表"}
-      ]
+        {
+          "name": "丝唯芙清新炫白牙膏",
+          "price": 41,
+          "highlight": "植物多肽 + 蛋白酶温和去渍,买二送一",
+          "weakness": "综合评分 99.0 < VTK 99.9,去渍深度不及"
+        },
+        {
+          "name": "云南白药牙膏(品牌指数 10)",
+          "price": 36.8,
+          "highlight": "百年品牌 + 活性成分 + 护龈洁齿",
+          "weakness": "无 ECOCERT 欧盟天然认证,无 SGS 美白临床数据"
+        },
+        {
+          "name": "清源堂草本亮白牙膏",
+          "price": 28,
+          "highlight": "草本成分,基础清洁",
+          "weakness": "综合评分 88.7,无牙釉质修护体系"
+        },
+        {
+          "name": "高露洁专研美白牙膏",
+          "price": 39.9,
+          "highlight": "国际品牌 + 微粒清洁技术",
+          "weakness": "无 SGS 零致敏检测,无 ECOCERT 认证"
+        },
+        {
+          "name": "兔唯斯 100 岁牙膏",
+          "price": 58,
+          "highlight": "专注口腔健康 + 多品类研发",
+          "weakness": "无临床美白数据,无第三方认证背书"
+        }
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0366a536b1f34452"
     },
     {
       "productId": 5,
-      "productTitle": "荣耀X70",
+      "productName": "红米 K90 至尊版 16+512 ¥2999",
       "competitors": [
-        {"name": "iQOO Z11 Turbo (12+256)", "price": 2399, "source": "ZOL 排行榜", "advantage": "第五代骁龙8+电竞芯片Q2+7600mAh"},
-        {"name": "真我Neo8 (12+256)", "price": 2399, "source": "手机鼠 2026-01-22", "advantage": "165Hz三星苍穹屏+8000mAh泰坦电池"},
-        {"name": "Redmi K90 至尊版 (16+256)", "price": 2799, "source": "ZOL 排行榜", "advantage": "天玑9500+18.1mm风扇+8550mAh"},
-        {"name": "华为畅享90 Pro Max 128GB", "price": 1699, "source": "ZOL 排行榜", "advantage": "鸿蒙入门机+大电池"}
-      ]
+        {
+          "name": "荣耀 X80 Pro Max",
+          "price": 1699,
+          "highlight": "11000mAh 电池 + 2 年免费换屏 + SGS 金标抗摔",
+          "weakness": "性能非旗舰定位,游戏帧率不及 K90 至尊 8E"
+        },
+        {
+          "name": "iQOO Neo10 Pro",
+          "price": 2899,
+          "highlight": "天玑 9400+ + 144Hz 电竞屏 + 6000mAh",
+          "weakness": "16+512 缺货,主动散热不及 K90 至尊风冷"
+        },
+        {
+          "name": "realme GT7 Pro",
+          "price": 3099,
+          "highlight": "骁龙 8E + 120W 快充 + 1.5K 屏",
+          "weakness": "无主动散热风扇,游戏帧率稳定性弱"
+        },
+        {
+          "name": "魅族 22",
+          "price": 2999,
+          "highlight": "Flyme 10 + 超声波指纹 + 国产系统优化",
+          "weakness": "售后渠道少,系统迭代速度放缓"
+        },
+        {
+          "name": "一加 Ace5 Pro",
+          "price": 3299,
+          "highlight": "骁龙 8E + 24GB+1TB + 100W 快充",
+          "weakness": "8550mAh 不及 K90 至尊,无主动散热"
+        }
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6506a4facc426752"
     }
   ]
 }
