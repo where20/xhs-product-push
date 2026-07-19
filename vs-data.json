@@ -1,265 +1,270 @@
 {
-  "updateTime": "2026-07-19 07:00",
-  "dataSource": "天猫/淘宝/京东实测价格 + 2026 7月学习机/洗地机/防晒霜/美容仪品类专业评测榜单数据",
+  "updateTime": "2026-07-20 07:00",
+  "dataSource": "ZOL/京东/知乎/企鹅号/太平洋电脑网 真实榜单数据(2026年7月)",
   "hotProducts": [
     {
-      "name": "九阳不用手洗豆浆机 K7Pro 紫火版",
-      "price": 1999,
-      "platform": "天猫/京东",
-      "category": "厨房养生",
-      "highlights": "洗烘一体 + 11+N 养生程序 + 行业一级能效 + 太空轻音 35dB"
-    },
-    {
-      "name": "OPPO Pad 5 8GB/128GB",
-      "price": 2599,
-      "platform": "天猫/京东",
-      "category": "数码教育",
-      "highlights": "11.61 寸 2.8K 屏 + 天玑 8350 + 8GB RAM, ZOL 教育平板 TOP3"
-    },
-    {
-      "name": "海尔 Z10-WU1 洗地机",
-      "price": 2599,
-      "platform": "天猫/京东",
-      "category": "智能清洁",
-      "highlights": "ZOL 热门洗地机 TOP1 + 10.0 分 + 海尔大品牌"
-    },
-    {
-      "name": "迪卡侬 OHCSUNNY 防晒衣",
-      "price": 99,
-      "platform": "天猫旗舰店",
-      "category": "户外防晒",
-      "highlights": "UPF50+ + 100% 锦纶 + 轻薄便携 + 山系户外风格"
-    },
-    {
-      "name": "金茉 G20 美容仪",
-      "price": 10199,
-      "platform": "天猫",
-      "category": "美容仪",
-      "highlights": "ZOL 美容仪 TOP1 + 10.0 分 + 多极射频 + 明星同款"
-    }
-  ],
-  "selectedProducts": [
-    {
       "id": 1,
-      "name": "科大讯飞 T90 Pro AI 学习机",
-      "price": 7999,
-      "platform": "京东/天猫",
-      "category": "数码教育"
+      "name": "海尔小红花 531L 十字门冰箱",
+      "category": "热搜冰箱",
+      "price": 4966,
+      "source": "https://zhuanlan.zhihu.com/p/659042483",
+      "highlight": "海尔 2026 双系统零嵌主力,545L 十字门升级款"
     },
     {
       "id": 2,
-      "name": "小猿 R1 AI 全场景学习平板",
+      "name": "美的 508L 法式四门(国民三杰)",
+      "category": "热搜冰箱",
       "price": 3299,
-      "platform": "京东/天猫",
-      "category": "数码教育"
+      "source": "https://zhuanlan.zhihu.com/p/267814869",
+      "highlight": "3000元档最热销法式冰箱,PST+ 19分钟极速净味"
     },
     {
       "id": 3,
-      "name": "追觅 T60 Ultra 无线洗地机",
-      "price": 3699,
-      "platform": "京东/天猫",
-      "category": "智能清洁"
+      "name": "卡萨帝原石 650L 十字门三系统",
+      "category": "热搜冰箱",
+      "price": 11999,
+      "source": "https://zhuanlan.zhihu.com/p/659042483",
+      "highlight": "独立三系统+MRA低氧窖藏,卡萨帝旗舰代表作"
     },
     {
       "id": 4,
-      "name": "时贝兰美白防晒霜",
-      "price": 78,
-      "platform": "天猫/京东",
-      "category": "个护美妆"
+      "name": "美的 酷省电二代 Pro 1.5匹挂机",
+      "category": "热搜空调",
+      "price": 1888,
+      "source": "https://jd.zol.com.cn/more/3_3160_3.shtml",
+      "highlight": "2026年7月京东ZOL家电导购最热,新一级能效爆款"
     },
     {
       "id": 5,
-      "name": "雅萌 ACE M18 美容仪",
-      "price": 3199,
-      "platform": "天猫/京东",
-      "category": "美容仪"
+      "name": "联想小新 Pro 14 2026 酷睿Ultra5",
+      "category": "热搜笔电",
+      "price": 8499,
+      "source": "https://nb.zol.com.cn/list.html",
+      "highlight": "2026暑期换机王者,标压Ultra5+16英寸大屏"
     }
+  ],
+  "selectedProducts": [
+    "海尔云溪 502L 零嵌法式四门冰箱",
+    "美的 酷省电 Ultra 1.5 匹挂机空调",
+    "老席匠 1200D 冰丝凉席三件套 1.8m",
+    "荣耀 MagicBook Pro 14 AI 轻薄本",
+    "蕉下 风冷防晒衣 双风扇降温服"
   ],
   "comparisons": [
     {
-      "productId": 1,
-      "productName": "科大讯飞 T90 Pro AI 学习机 ¥7999",
+      "selectedId": 1,
+      "selectedProduct": "海尔云溪 502L 零嵌法式四门冰箱",
+      "selectedPrice": 7221,
+      "source": "https://zhuanlan.zhihu.com/p/267814869",
       "competitors": [
         {
-          "name": "步步高 S10 学习机",
-          "price": 6999,
-          "highlight": "14.2 寸类朗伯光刻屏 + VICO A+ 认证 + 2000+ 经典母题 + 99% 正版教材",
-          "weakness": "硬件参数略低于 T90 Pro,AI 算法更新节奏比科大讯飞星火大模型慢"
+          "name": "海尔山茶花 510L 法式多门",
+          "price": 6280,
+          "highlight": "594mm超薄零嵌+全空间保鲜+EPP超净",
+          "weakness": "少了双系统,冷藏冷冻共用蒸发器",
+          "source": "https://zhuanlan.zhihu.com/p/267814869"
         },
         {
-          "name": "学而思 P4 AI 学习机",
-          "price": 2598,
-          "highlight": "学而思自研大模型 + 全场景智能伴学 + 3974.12 元原价立减 1376",
-          "weakness": "屏幕小,题库更新频次低于讯飞,无中高考 9 科拓展"
+          "name": "卡萨帝揽光 520L 法式零嵌",
+          "price": 12067,
+          "highlight": "MRA低氧窖藏+星空面光源+钢化玻璃面板",
+          "weakness": "贵4800元主要买氛围灯+玻璃面板,双系统同款但MRA溢价",
+          "source": "https://yp.jd.com/7372667ea2a6790bac9.html"
         },
         {
-          "name": "小猿 T6 AI 学习机",
-          "price": 7999,
-          "highlight": "京东小学学习机热卖榜 TOP1 + 30 亿精品题库 + 13.2 寸 2.2K 柔光屏",
-          "weakness": "价位相同,小猿主打诊学练闭环,讯飞主打星火大模型 1 对 1,功能重叠度高"
+          "name": "海尔山茶花 502L 法式带制冰",
+          "price": 6534,
+          "highlight": "9.0kg/12h暴力冷冻+双系统+自动制冰盒",
+          "weakness": "日耗电0.97度,制冰是手动盒不是自动制冰机",
+          "source": "https://zhuanlan.zhihu.com/p/161629291"
         },
         {
-          "name": "作业帮 T50 学习机",
-          "price": 5399,
-          "highlight": "12.7 寸高清大屏 + 8GB+4GB 运存 + DeepSeek 大模型 + 256GB 存储",
-          "weakness": "护眼技术比讯飞稍弱,作业批改准确率数据未公开"
+          "name": "美的 508L 法式多门",
+          "price": 3299,
+          "highlight": "PST+19分钟极速净味+双系统循环",
+          "weakness": "非零嵌(668*833*1898mm),两侧需留10cm散热缝",
+          "source": "https://zhuanlan.zhihu.com/p/267814869"
         },
         {
-          "name": "优学派 U90 学习平板",
-          "price": 5298,
-          "highlight": "512GB 大存储 + AI 精准学 + 儿童学习电脑定位 + 赠打印机礼",
-          "weakness": "品牌力不及科大讯飞,课程资源更新频次低"
+          "name": "容声 526L 法式多门",
+          "price": 3399,
+          "highlight": "蓝光SPA+离子净味+526L大容量",
+          "weakness": "没有自动制冰,冷冻力8.0kg/12h略弱于美的508",
+          "source": "https://zhuanlan.zhihu.com/p/267814869"
         }
-      ],
-      "source": "https://pad.zol.com.cn/list.html (ZOL 学习机频道 7/4)"
+      ]
     },
     {
-      "productId": 2,
-      "productName": "小猿 R1 AI 全场景学习平板 ¥3299",
+      "selectedId": 2,
+      "selectedProduct": "美的 酷省电 Ultra 1.5 匹挂机空调",
+      "selectedPrice": 2699,
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2396a44fff319952",
       "competitors": [
         {
-          "name": "科大讯飞 T20 Pro 13.3 寸学生平板",
-          "price": 9299,
-          "highlight": "立减 2700 元 + 13.3 寸大屏 + 1 对 1 精准学 + AI 作文精细化点评",
-          "weakness": "价位高于 R1 三倍,适合预算充足家庭,R1 性价比更高"
-        },
-        {
-          "name": "步步高 S10 Air 中端均衡款",
-          "price": 4999,
-          "highlight": "12.7 寸化学蚀刻护眼屏 + VICO A+ 认证 + 新东方分层培优 + 7 月新增灵趣锁屏",
-          "weakness": "价位高于 R1 1700 元,屏幕分辨率不及 R1 2.2K"
-        },
-        {
-          "name": "网易有道 AI 学习机 (3000-4800 段)",
-          "price": 3800,
-          "highlight": "依托词典翻译核心技术 + 课本点读 + 口语纠音 + 外文读物资源丰富",
-          "weakness": "全科系统培优能力不及 R1,只适合英语听说读写专项提升"
-        },
-        {
-          "name": "小霸王 入门平价款",
-          "price": 1999,
-          "highlight": "2000 元以内基础同步 + 小学 1-4 年级基础点读 + 硬件稳定",
-          "weakness": "无 AI 算法,无英语深度学习,只适合短期过渡"
-        },
-        {
-          "name": "魔爪 中高考刷题备考",
-          "price": 4500,
-          "highlight": "海量真题母题库 + 多维度自定义组卷 + 解题步骤拆解详细",
-          "weakness": "题库刷题为主,诊学练闭环不及 R1,适合初中生中高考备考"
-        }
-      ],
-      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3186a50bcfa01752"
-    },
-    {
-      "productId": 3,
-      "productName": "追觅 T60 Ultra 无线洗地机 ¥3699",
-      "competitors": [
-        {
-          "name": "添可芙万 Stretch Plus 洗地机",
-          "price": 2490,
-          "highlight": "ZOL 热门洗地机 TOP2 + 9.9 分 + 添可清洁电器龙头 + 180° 平躺",
-          "weakness": "无 160℃ 高温蒸汽,无 AI 双机械臂架构,厨房重油污清洁力不及 T60 Ultra"
-        },
-        {
-          "name": "石头 A30 Pro Steam 2.0 洗地机",
-          "price": 4312,
-          "highlight": "高温蒸汽 + 双滚刷 + 智能恒压活水清洁系统 + 边吸边洗边刮",
-          "weakness": "原价为 4312.42 元,无 AI 双机械臂,机械臂刮污能力不及 T60 Ultra"
-        },
-        {
-          "name": "海尔 Z10-WU1 洗地机",
-          "price": 2599,
-          "highlight": "ZOL 热门洗地机 TOP1 + 10.0 分 + 海尔大品牌 + 性价比",
-          "weakness": "无 25000Pa 顶级吸力,无高温蒸汽,无 AI 机械臂"
-        },
-        {
-          "name": "米家 高温无线洗地机",
-          "price": 3499,
-          "highlight": "米家生态链 + 9.0 分 + 高温洗功能 + APP 互联",
-          "weakness": "ZOL 评分 9.0 低于追觅 T60 Ultra,无除臭泡沫洗 2.0"
-        },
-        {
-          "name": "苏泊尔 EMC-K2 洗地机",
-          "price": 1099,
-          "highlight": "百元价位入门 + 高性价比 + 苏泊尔品质",
-          "weakness": "吸力/智能化不及 T60 Ultra,只适合小户型基础清洁"
-        }
-      ],
-      "source": "https://new.qq.com/rain/a/20260630A085JP00"
-    },
-    {
-      "productId": 4,
-      "productName": "时贝兰美白防晒霜 ¥78",
-      "competitors": [
-        {
-          "name": "悦罗兰防晒霜 (国妆特字 G20201831)",
-          "price": 70,
-          "highlight": "6 大 0 添加 + 80 分钟水浴后防晒留存 91.5% + 物化结合 + 油痘肌友好",
-          "weakness": "无美白特证,无烟酰胺+天女木兰双专利,防晒黑率 97.8% 略低于时贝兰 99.2%"
-        },
-        {
-          "name": "vtk 清透美白防晒霜 (国妆特字 G20210477)",
-          "price": 99,
-          "highlight": "国妆特字双证 + 上海市皮肤病医院 SPF 64 实测 + PFA 18 + 蓝光阻隔 94%",
-          "weakness": "价位高于时贝兰 21 元,男士油皮控油数据不如时贝兰 28.6% 油脂下降"
-        },
-        {
-          "name": "安热沙金灿防晒乳 60ml (资生堂)",
-          "price": 229,
-          "highlight": "日系防晒经典 + 物理+化学 + 抗水抗汗教科书级别 + 户外海边标配",
-          "weakness": "酒精含量较高,敏感肌不能用,价位 3 倍于时贝兰"
-        },
-        {
-          "name": "理肤泉大哥大 UVMUNE 400",
-          "price": 159,
-          "highlight": "欧莱雅集团 + 麦角硫因 + 物化结合 + 敏感肌友好",
-          "weakness": "无美白特证,价位 2 倍于时贝兰,户外 12.5h 持久性数据未公开"
-        },
-        {
-          "name": "薇诺娜清透防晒乳 SPF48 PA+++",
-          "price": 136,
-          "highlight": "敏感肌专研 + 温和无刺激 + 纯化学防晒 + 跟妆不搓泥",
-          "weakness": "防晒值 SPF48 不及 PA++++ 满级,适合日常通勤但非户外高强度场景"
-        }
-      ],
-      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5916a5a1e8662852"
-    },
-    {
-      "productId": 5,
-      "productName": "雅萌 ACE M18 美容仪 ¥3199",
-      "competitors": [
-        {
-          "name": "极萌 M30H 胶原炮 Max",
-          "price": 4399,
-          "highlight": "ZOL 美容仪 TOP4 + 9.9 分 + 院线级超脉冲 + 快速紧致水光肌 + 王心凌同款",
-          "weakness": "价位高 1200 元,微电流刺激感稍强,敏感肌需建立耐受"
-        },
-        {
-          "name": "金茉 G20 美容仪",
-          "price": 10199,
-          "highlight": "ZOL 美容仪 TOP1 + 10.0 分 + 瑞士医美级 + 多极射频",
-          "weakness": "价位 3 倍于雅萌 M18,预算敏感型用户难以承受"
-        },
-        {
-          "name": "科施佳 QuasarMD Mask Pro 美容面罩",
-          "price": 4499,
-          "highlight": "ZOL TOP7 + 9.9 分 + 四大光波矩阵 + 院线级光疗 + 金·卡戴珊同款",
-          "weakness": "彩光路线非射频,主打修护提亮而非淡纹提拉,功能方向与 M18 不同"
-        },
-        {
-          "name": "Tripollar StopVx 美容仪",
-          "price": 4999,
-          "highlight": "ZOL TOP16 + 9.0 分 + 以色列射频老牌 + 双极射频 + 初普同厂",
-          "weakness": "价位高 1800 元,无眼周模式,需搭配凝胶使用"
-        },
-        {
-          "name": "OGP 美容仪 (张钧甯同款)",
+          "name": "美的 酷省电二代 Pro 1.5匹",
           "price": 3199,
-          "highlight": "智能射频 + 多极射频 + 微电流 + 红蓝光 + 冰敷 + 手机 APP 定制方案",
-          "weakness": "需配合手机使用,出门不便,无雅萌 YA-MAN 品牌力"
+          "highlight": "2026新品,1.5匹新一级能效,京东到手1888",
+          "weakness": "比Ultra贵500但配置差不多,Ultra仍为美的1.5匹标杆",
+          "source": "https://jd.zol.com.cn/more/3_3160_3.shtml"
+        },
+        {
+          "name": "格力云锦 Pro 1.5匹挂机",
+          "price": 3399,
+          "highlight": "全直流变频+56℃高温自清洁+AI动态节能",
+          "weakness": "1.6排冷凝器比Ultra减配,高温工况制冷略弱",
+          "source": "http://detail.zol.com.cn/air-condition/index1258493.shtml"
+        },
+        {
+          "name": "格力云佩 1.5匹挂机",
+          "price": 4049,
+          "highlight": "双排冷凝器+360°运动大导风板+二代冷酷外机",
+          "weakness": "贵1350元,适合预算充足且对外机用料要求极致的用户",
+          "source": "https://zhuanlan.zhihu.com/p/682702457"
+        },
+        {
+          "name": "海尔净省电 Plus 1.5匹",
+          "price": 2299,
+          "highlight": "海尔入门款+AI节能算法+56℃自清洁",
+          "weakness": "外机用料比美的酷省电Ultra精简,极端高温外机位易保护",
+          "source": "https://zhuanlan.zhihu.com/p/342386454"
+        },
+        {
+          "name": "小米巨省电 Pro 1.5匹",
+          "price": 2496,
+          "highlight": "能效比6.3(行业第一)+米家灵云节能2.0+双排铜管",
+          "weakness": "内机导风板简单,送风体验比美的Ultra弱",
+          "source": "https://zhuanlan.zhihu.com/p/342386454"
         }
-      ],
-      "source": "https://top.zol.com.cn/compositor/1137/manu_51171.html"
+      ]
+    },
+    {
+      "selectedId": 3,
+      "selectedProduct": "老席匠 1200D 冰丝凉席三件套 1.8m",
+      "selectedPrice": 618,
+      "source": "https://zhuanlan.zhihu.com/p/371993251",
+      "competitors": [
+        {
+          "name": "水星家纺 A类冰丝凉席",
+          "price": 278,
+          "highlight": "国民家纺品牌+A类母婴标准+凉感0.28+蜂窝席底",
+          "weakness": "150D低密,凉感和耐用度比1200D老席匠弱",
+          "source": "https://zhuanlan.zhihu.com/p/692713347"
+        },
+        {
+          "name": "网易严选 果冻冰丝席",
+          "price": 289,
+          "highlight": "60%聚酯+40%锦纶+7A抗菌+A类母婴",
+          "weakness": "100出头百元价位,凉感系数0.28-0.31,只有席面+1枕套,不是三件套",
+          "source": "https://zhuanlan.zhihu.com/p/692713347"
+        },
+        {
+          "name": "罗莱家纺 A类冰丝席三件套",
+          "price": 498,
+          "highlight": "600D高密冰丝+Q-max 0.31+蜂窝席底+3D透气层",
+          "weakness": "凉感系数(0.31)比老席匠1200D(0.49)低,Q-max差距明显",
+          "source": "https://zhuanlan.zhihu.com/p/692713347"
+        },
+        {
+          "name": "黄古林 经典古藤席三件套",
+          "price": 290,
+          "highlight": "古藤编织+Q-max 0.31+3D透气层+30天无理由",
+          "weakness": "藤席不是冰丝席,凉感和表面光滑度比老席匠冰丝弱",
+          "source": "https://zhuanlan.zhihu.com/p/371993251"
+        },
+        {
+          "name": "富安娜 冰丝席 1.8x2米",
+          "price": 238,
+          "highlight": "国民家纺品牌+150D提花+可机洗+性价比",
+          "weakness": "面料主体聚酯+纤维素但占比未标注,150D比老席匠1200D密度低",
+          "source": "https://zhuanlan.zhihu.com/p/371993251"
+        }
+      ]
+    },
+    {
+      "selectedId": 4,
+      "selectedProduct": "荣耀 MagicBook Pro 14 AI 轻薄本",
+      "selectedPrice": 6099,
+      "source": "https://zhuanlan.zhihu.com/p/161629291",
+      "competitors": [
+        {
+          "name": "联想小新 Pro14 GT AI元启版",
+          "price": 6599,
+          "highlight": "锐龙AI 9 H 465+32G+1T+2.8K OLED 120Hz",
+          "weakness": "贵500元,锐龙AI 9在Adobe生态兼容略弱于酷睿Ultra",
+          "source": "https://zhuanlan.zhihu.com/p/266311340"
+        },
+        {
+          "name": "ThinkBook 14+ AI 轻薄本",
+          "price": 6999,
+          "highlight": "Ultra5二代+16G+3K 120Hz+RJ45网线接口",
+          "weakness": "16G板载内存,32G版本要加价,接口虽多但重量1.5kg比荣耀重",
+          "source": "https://zhuanlan.zhihu.com/p/266311340"
+        },
+        {
+          "name": "戴尔灵越 16 Plus",
+          "price": 7499,
+          "highlight": "酷睿5 210H+16G+1T+2.5K 16英寸大屏",
+          "weakness": "10nm工艺老架构,睿频4.8GHz,性能比Ultra5弱约15%",
+          "source": "https://xinwen.pconline.com.cn/1233/12339118.html"
+        },
+        {
+          "name": "惠普星 Book Pro Air 14",
+          "price": 6998,
+          "highlight": "1.09kg超轻+Ultra5 225H+2.8K OLED 1100nits HDR",
+          "weakness": "12.75mm至薄机身散热受限,高负载下性能释放45W不如荣耀",
+          "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6576a463eef44252"
+        },
+        {
+          "name": "华为 MateBook 14",
+          "price": 7598,
+          "highlight": "Ultra5 125H+2.5K触控屏+华为生态多屏协同",
+          "weakness": "16G板载内存不支持升级,价格贵1500元,生态绑定用户才划算",
+          "source": "https://zhuanlan.zhihu.com/p/266311340"
+        }
+      ]
+    },
+    {
+      "selectedId": 5,
+      "selectedProduct": "蕉下 风冷防晒衣 双风扇降温服",
+      "selectedPrice": 419,
+      "source": "https://zhuanlan.zhihu.com/p/360959193",
+      "competitors": [
+        {
+          "name": "蕉下 透气防晒衣 AS599",
+          "price": 229,
+          "highlight": "全网眼透气系统+原纱工艺+UPF50+冰丝凉感",
+          "weakness": "无风扇主动降温,遮热降温完全靠面料隔热,7.2℃效果弱于风冷款",
+          "source": "https://zhuanlan.zhihu.com/p/360959193"
+        },
+        {
+          "name": "oh sunny 男士防晒衣 护脸款",
+          "price": 175,
+          "highlight": "TWLIGHT原纱面料+UPF50+大帽檐+护脸+指套",
+          "weakness": "无风扇,主要靠面料隔热+凉感纤维,大暑正午降温效果有限",
+          "source": "https://zhuanlan.zhihu.com/p/360959193"
+        },
+        {
+          "name": "VVC 男士防晒衣蕾罗娜面料",
+          "price": 151,
+          "highlight": "蕾罗娜防晒面料+UPF50+10CM加宽帽檐+18CM护脸",
+          "weakness": "无风扇+防晒指数(UPF50+)是国标基础级,实测遮热不如蕉下风冷",
+          "source": "https://zhuanlan.zhihu.com/p/360959193"
+        },
+        {
+          "name": "北归线 T8 原纱防晒衣",
+          "price": 400,
+          "highlight": "UPF287.7(实测)+0.32凉感系数+母婴A类+5年抗衰",
+          "weakness": "无风扇主动送风,正午暴晒10分钟+大汗时降温效果不如风冷",
+          "source": "https://zhuanlan.zhihu.com/p/360959193"
+        },
+        {
+          "name": "Gakior 冰晶原纱防晒衣",
+          "price": 559,
+          "highlight": "UPF250+实测+0.3凉感+A类婴儿级+8大权威认证",
+          "weakness": "无风扇,主要靠TiO₂防晒因子+原纱隔热,140元价差送风扇是蕉下风冷的差异化",
+          "source": "https://zhuanlan.zhihu.com/p/360959193"
+        }
+      ]
     }
   ]
 }
