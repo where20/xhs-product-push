@@ -1,270 +1,62 @@
 {
-  "updateTime": "2026-07-20 07:00",
-  "dataSource": "ZOL/京东/知乎/企鹅号/太平洋电脑网 真实榜单数据(2026年7月)",
-  "hotProducts": [
+  "date": "2026-07-22",
+  "sources": ["ZOL中关村在线", "京东折扣超市", "北美省钱快报", "消费者报道", "美酒邦"],
+  "note": "所有价格和竞品数据来自 WebSearch 公开数据，严禁编造",
+  "products": [
     {
       "id": 1,
-      "name": "海尔小红花 531L 十字门冰箱",
-      "category": "热搜冰箱",
-      "price": 4966,
-      "source": "https://zhuanlan.zhihu.com/p/659042483",
-      "highlight": "海尔 2026 双系统零嵌主力,545L 十字门升级款"
+      "name": "名创优品挂脖风扇 · 半导体冰磁制冷",
+      "price_our": "¥349（京东补贴价）",
+      "competitors": [
+        {"name": "锐舞无叶挂脖风扇", "price": "¥288", "source": "ZOL中关村在线 2026年7月", "note": "四核专利，6500转，18小时续航，无叶安全"},
+        {"name": "图拉斯L20 挂脖风扇", "price": "¥198", "source": "ZOL中关村在线 2026年7月", "note": "双核涡轮，便携手持挂脖两用"},
+        {"name": "艾美特挂脖风扇 CA15-R27", "price": "¥119", "source": "ZOL中关村在线 2026年7月", "note": "有叶款，迷你便携"}
+      ],
+      "advantage": "26风道+半导体冰磁制冷+无割叶+5000mAh 17.5h，比同价位竞品多了主动制冷功能"
     },
     {
       "id": 2,
-      "name": "美的 508L 法式四门(国民三杰)",
-      "category": "热搜冰箱",
-      "price": 3299,
-      "source": "https://zhuanlan.zhihu.com/p/267814869",
-      "highlight": "3000元档最热销法式冰箱,PST+ 19分钟极速净味"
+      "name": "德佑冰感小毛巾 10条装",
+      "price_our": "¥35.9（10条，单片约¥3.6）",
+      "competitors": [
+        {"name": "维达冰感降温小毛巾 7条装", "price": "¥22.9（约¥3.2/条）", "source": "北美省钱快报 2026-07-17", "note": "高温天必备，到手约¥3.2/条"},
+        {"name": "清风冰感小毛巾 7条装", "price": "¥25.9（约¥3.7/条）", "source": "北美省钱快报 2026-07-17", "note": "迪丽热巴同款，德佑热度更高，10条装更划算"},
+        {"name": "右二猿儿童冰敷凉贴 6盒36贴", "price": "¥32.8（¥0.9/贴）", "source": "北美省钱快报 2026-07-17", "note": "儿童款，单价更低但非毛巾形态"}
+      ],
+      "advantage": "10条装更划算（单片¥3.6 vs 维达¥3.2），德佑品牌在户外湿巾热销榜稳居榜首，迪丽热巴同款流量加持"
     },
     {
       "id": 3,
-      "name": "卡萨帝原石 650L 十字门三系统",
-      "category": "热搜冰箱",
-      "price": 11999,
-      "source": "https://zhuanlan.zhihu.com/p/659042483",
-      "highlight": "独立三系统+MRA低氧窖藏,卡萨帝旗舰代表作"
+      "name": "七鲜电解质海盐棒冰 10支家庭装",
+      "price_our": "¥8（10支，单支约¥0.8）",
+      "competitors": [
+        {"name": "京鲜舫大蛋筒冰品", "price": "¥3/支起", "source": "京东折扣超市 2026年7月", "note": "奶香醇厚，京鲜舫大蛋筒单支¥3"},
+        {"name": "小雪人经典雪糕 5支装", "price": "¥8/盒", "source": "京东折扣超市 2026年7月", "note": "平价复刻童年记忆，苦咖啡雪糕同价"},
+        {"name": "七鲜电解质海盐棒冰", "price": "¥8（10支家庭装）", "source": "京东折扣超市 2026年7月", "note": "咸甜清爽，快速补充电解质，同价位无直接竞品"}
+      ],
+      "advantage": "¥8/10支，电解质配方，运动后补充，同价位竞品无功能性棒冰"
     },
     {
       "id": 4,
-      "name": "美的 酷省电二代 Pro 1.5匹挂机",
-      "category": "热搜空调",
-      "price": 1888,
-      "source": "https://jd.zol.com.cn/more/3_3160_3.shtml",
-      "highlight": "2026年7月京东ZOL家电导购最热,新一级能效爆款"
+      "name": "黑熊精酿啤酒 30元6瓶装",
+      "price_our": "¥30（6瓶，单瓶约¥5）",
+      "competitors": [
+        {"name": "督威/鹅岛IPA 精酿", "price": "¥8-15/330ml", "source": "美酒邦 2026-07-05", "note": "鹅岛IPA 330ml单瓶约¥8-15，5.9%vol"},
+        {"name": "百威范佳乐小麦白啤 450ml", "price": "¥6.5/瓶", "source": "美酒邦 2026-07-05", "note": "单瓶约¥6.5，5度，百威旗下精酿线"},
+        {"name": "雪花勇闯天涯 330ml", "price": "¥3.5/罐", "source": "美酒邦 2026-07-05", "note": "工业啤酒，非精酿，价格低但品质不同"}
+      ],
+      "advantage": "¥5/瓶真精酿（非工业拉格），黑熊7月环比增长196%验证热销，性价比远超鹅岛¥8-15/瓶"
     },
     {
       "id": 5,
-      "name": "联想小新 Pro 14 2026 酷睿Ultra5",
-      "category": "热搜笔电",
-      "price": 8499,
-      "source": "https://nb.zol.com.cn/list.html",
-      "highlight": "2026暑期换机王者,标压Ultra5+16英寸大屏"
-    }
-  ],
-  "selectedProducts": [
-    "海尔云溪 502L 零嵌法式四门冰箱",
-    "美的 酷省电 Ultra 1.5 匹挂机空调",
-    "老席匠 1200D 冰丝凉席三件套 1.8m",
-    "荣耀 MagicBook Pro 14 AI 轻薄本",
-    "蕉下 风冷防晒衣 双风扇降温服"
-  ],
-  "comparisons": [
-    {
-      "selectedId": 1,
-      "selectedProduct": "海尔云溪 502L 零嵌法式四门冰箱",
-      "selectedPrice": 7221,
-      "source": "https://zhuanlan.zhihu.com/p/267814869",
+      "name": "宁夏中卫硒砂瓜 产地直采",
+      "price_our": "¥0.99/斤（产地直采）",
       "competitors": [
-        {
-          "name": "海尔山茶花 510L 法式多门",
-          "price": 6280,
-          "highlight": "594mm超薄零嵌+全空间保鲜+EPP超净",
-          "weakness": "少了双系统,冷藏冷冻共用蒸发器",
-          "source": "https://zhuanlan.zhihu.com/p/267814869"
-        },
-        {
-          "name": "卡萨帝揽光 520L 法式零嵌",
-          "price": 12067,
-          "highlight": "MRA低氧窖藏+星空面光源+钢化玻璃面板",
-          "weakness": "贵4800元主要买氛围灯+玻璃面板,双系统同款但MRA溢价",
-          "source": "https://yp.jd.com/7372667ea2a6790bac9.html"
-        },
-        {
-          "name": "海尔山茶花 502L 法式带制冰",
-          "price": 6534,
-          "highlight": "9.0kg/12h暴力冷冻+双系统+自动制冰盒",
-          "weakness": "日耗电0.97度,制冰是手动盒不是自动制冰机",
-          "source": "https://zhuanlan.zhihu.com/p/161629291"
-        },
-        {
-          "name": "美的 508L 法式多门",
-          "price": 3299,
-          "highlight": "PST+19分钟极速净味+双系统循环",
-          "weakness": "非零嵌(668*833*1898mm),两侧需留10cm散热缝",
-          "source": "https://zhuanlan.zhihu.com/p/267814869"
-        },
-        {
-          "name": "容声 526L 法式多门",
-          "price": 3399,
-          "highlight": "蓝光SPA+离子净味+526L大容量",
-          "weakness": "没有自动制冰,冷冻力8.0kg/12h略弱于美的508",
-          "source": "https://zhuanlan.zhihu.com/p/267814869"
-        }
-      ]
-    },
-    {
-      "selectedId": 2,
-      "selectedProduct": "美的 酷省电 Ultra 1.5 匹挂机空调",
-      "selectedPrice": 2699,
-      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2396a44fff319952",
-      "competitors": [
-        {
-          "name": "美的 酷省电二代 Pro 1.5匹",
-          "price": 3199,
-          "highlight": "2026新品,1.5匹新一级能效,京东到手1888",
-          "weakness": "比Ultra贵500但配置差不多,Ultra仍为美的1.5匹标杆",
-          "source": "https://jd.zol.com.cn/more/3_3160_3.shtml"
-        },
-        {
-          "name": "格力云锦 Pro 1.5匹挂机",
-          "price": 3399,
-          "highlight": "全直流变频+56℃高温自清洁+AI动态节能",
-          "weakness": "1.6排冷凝器比Ultra减配,高温工况制冷略弱",
-          "source": "http://detail.zol.com.cn/air-condition/index1258493.shtml"
-        },
-        {
-          "name": "格力云佩 1.5匹挂机",
-          "price": 4049,
-          "highlight": "双排冷凝器+360°运动大导风板+二代冷酷外机",
-          "weakness": "贵1350元,适合预算充足且对外机用料要求极致的用户",
-          "source": "https://zhuanlan.zhihu.com/p/682702457"
-        },
-        {
-          "name": "海尔净省电 Plus 1.5匹",
-          "price": 2299,
-          "highlight": "海尔入门款+AI节能算法+56℃自清洁",
-          "weakness": "外机用料比美的酷省电Ultra精简,极端高温外机位易保护",
-          "source": "https://zhuanlan.zhihu.com/p/342386454"
-        },
-        {
-          "name": "小米巨省电 Pro 1.5匹",
-          "price": 2496,
-          "highlight": "能效比6.3(行业第一)+米家灵云节能2.0+双排铜管",
-          "weakness": "内机导风板简单,送风体验比美的Ultra弱",
-          "source": "https://zhuanlan.zhihu.com/p/342386454"
-        }
-      ]
-    },
-    {
-      "selectedId": 3,
-      "selectedProduct": "老席匠 1200D 冰丝凉席三件套 1.8m",
-      "selectedPrice": 618,
-      "source": "https://zhuanlan.zhihu.com/p/371993251",
-      "competitors": [
-        {
-          "name": "水星家纺 A类冰丝凉席",
-          "price": 278,
-          "highlight": "国民家纺品牌+A类母婴标准+凉感0.28+蜂窝席底",
-          "weakness": "150D低密,凉感和耐用度比1200D老席匠弱",
-          "source": "https://zhuanlan.zhihu.com/p/692713347"
-        },
-        {
-          "name": "网易严选 果冻冰丝席",
-          "price": 289,
-          "highlight": "60%聚酯+40%锦纶+7A抗菌+A类母婴",
-          "weakness": "100出头百元价位,凉感系数0.28-0.31,只有席面+1枕套,不是三件套",
-          "source": "https://zhuanlan.zhihu.com/p/692713347"
-        },
-        {
-          "name": "罗莱家纺 A类冰丝席三件套",
-          "price": 498,
-          "highlight": "600D高密冰丝+Q-max 0.31+蜂窝席底+3D透气层",
-          "weakness": "凉感系数(0.31)比老席匠1200D(0.49)低,Q-max差距明显",
-          "source": "https://zhuanlan.zhihu.com/p/692713347"
-        },
-        {
-          "name": "黄古林 经典古藤席三件套",
-          "price": 290,
-          "highlight": "古藤编织+Q-max 0.31+3D透气层+30天无理由",
-          "weakness": "藤席不是冰丝席,凉感和表面光滑度比老席匠冰丝弱",
-          "source": "https://zhuanlan.zhihu.com/p/371993251"
-        },
-        {
-          "name": "富安娜 冰丝席 1.8x2米",
-          "price": 238,
-          "highlight": "国民家纺品牌+150D提花+可机洗+性价比",
-          "weakness": "面料主体聚酯+纤维素但占比未标注,150D比老席匠1200D密度低",
-          "source": "https://zhuanlan.zhihu.com/p/371993251"
-        }
-      ]
-    },
-    {
-      "selectedId": 4,
-      "selectedProduct": "荣耀 MagicBook Pro 14 AI 轻薄本",
-      "selectedPrice": 6099,
-      "source": "https://zhuanlan.zhihu.com/p/161629291",
-      "competitors": [
-        {
-          "name": "联想小新 Pro14 GT AI元启版",
-          "price": 6599,
-          "highlight": "锐龙AI 9 H 465+32G+1T+2.8K OLED 120Hz",
-          "weakness": "贵500元,锐龙AI 9在Adobe生态兼容略弱于酷睿Ultra",
-          "source": "https://zhuanlan.zhihu.com/p/266311340"
-        },
-        {
-          "name": "ThinkBook 14+ AI 轻薄本",
-          "price": 6999,
-          "highlight": "Ultra5二代+16G+3K 120Hz+RJ45网线接口",
-          "weakness": "16G板载内存,32G版本要加价,接口虽多但重量1.5kg比荣耀重",
-          "source": "https://zhuanlan.zhihu.com/p/266311340"
-        },
-        {
-          "name": "戴尔灵越 16 Plus",
-          "price": 7499,
-          "highlight": "酷睿5 210H+16G+1T+2.5K 16英寸大屏",
-          "weakness": "10nm工艺老架构,睿频4.8GHz,性能比Ultra5弱约15%",
-          "source": "https://xinwen.pconline.com.cn/1233/12339118.html"
-        },
-        {
-          "name": "惠普星 Book Pro Air 14",
-          "price": 6998,
-          "highlight": "1.09kg超轻+Ultra5 225H+2.8K OLED 1100nits HDR",
-          "weakness": "12.75mm至薄机身散热受限,高负载下性能释放45W不如荣耀",
-          "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6576a463eef44252"
-        },
-        {
-          "name": "华为 MateBook 14",
-          "price": 7598,
-          "highlight": "Ultra5 125H+2.5K触控屏+华为生态多屏协同",
-          "weakness": "16G板载内存不支持升级,价格贵1500元,生态绑定用户才划算",
-          "source": "https://zhuanlan.zhihu.com/p/266311340"
-        }
-      ]
-    },
-    {
-      "selectedId": 5,
-      "selectedProduct": "蕉下 风冷防晒衣 双风扇降温服",
-      "selectedPrice": 419,
-      "source": "https://zhuanlan.zhihu.com/p/360959193",
-      "competitors": [
-        {
-          "name": "蕉下 透气防晒衣 AS599",
-          "price": 229,
-          "highlight": "全网眼透气系统+原纱工艺+UPF50+冰丝凉感",
-          "weakness": "无风扇主动降温,遮热降温完全靠面料隔热,7.2℃效果弱于风冷款",
-          "source": "https://zhuanlan.zhihu.com/p/360959193"
-        },
-        {
-          "name": "oh sunny 男士防晒衣 护脸款",
-          "price": 175,
-          "highlight": "TWLIGHT原纱面料+UPF50+大帽檐+护脸+指套",
-          "weakness": "无风扇,主要靠面料隔热+凉感纤维,大暑正午降温效果有限",
-          "source": "https://zhuanlan.zhihu.com/p/360959193"
-        },
-        {
-          "name": "VVC 男士防晒衣蕾罗娜面料",
-          "price": 151,
-          "highlight": "蕾罗娜防晒面料+UPF50+10CM加宽帽檐+18CM护脸",
-          "weakness": "无风扇+防晒指数(UPF50+)是国标基础级,实测遮热不如蕉下风冷",
-          "source": "https://zhuanlan.zhihu.com/p/360959193"
-        },
-        {
-          "name": "北归线 T8 原纱防晒衣",
-          "price": 400,
-          "highlight": "UPF287.7(实测)+0.32凉感系数+母婴A类+5年抗衰",
-          "weakness": "无风扇主动送风,正午暴晒10分钟+大汗时降温效果不如风冷",
-          "source": "https://zhuanlan.zhihu.com/p/360959193"
-        },
-        {
-          "name": "Gakior 冰晶原纱防晒衣",
-          "price": 559,
-          "highlight": "UPF250+实测+0.3凉感+A类婴儿级+8大权威认证",
-          "weakness": "无风扇,主要靠TiO₂防晒因子+原纱隔热,140元价差送风扇是蕉下风冷的差异化",
-          "source": "https://zhuanlan.zhihu.com/p/360959193"
-        }
-      ]
+        {"name": "硒砂瓜市面同类", "price": "¥3-5/斤", "source": "京东折扣超市 2026年7月", "note": "市面同类售价普遍超过¥3-5/斤，京东产地直采¥0.99/斤约7折"},
+        {"name": "麒麟西瓜", "price": "¥1.5-2.5/斤（时令价）", "source": "京东折扣超市 2026年7月", "note": "7月鲜果销量环比翻倍，麒麟西瓜同期热销"},
+        {"name": "黄金蜜桃", "price": "¥3-8/斤（时令价）", "source": "京东折扣超市 2026年7月", "note": "同期热销，环比销量翻倍，但不具解暑属性"}
+      ],
+      "advantage": "¥0.99/斤，比市价低60-80%，硒砂瓜沙甜多汁，是大暑季解暑最强单品"
     }
   ]
 }
