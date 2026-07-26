@@ -1,180 +1,155 @@
 {
-  "updateTime": "2026-07-26T07:00:00+08:00",
-  "dataSource": "天猫/淘宝/1688/京东实测数据",
-  "hotProducts": [
-    {
-      "name": "添可芙万Stretch Plus超能版",
-      "platform": "京东",
-      "price": "¥2500-3000",
-      "sales": "系列热销200万+台",
-      "keySpecs": "180°躺平洗地机、自动清洁、除菌速干、0缠毛",
-      "source": "京东热搜榜"
-    },
-    {
-      "name": "戴森BP04空气净化器",
-      "platform": "京东/天猫",
-      "price": "约¥699",
-      "sales": "10000+评价",
-      "keySpecs": "新房除甲醛、去猫狗皮屑、母婴宠护认证、50dB静音",
-      "source": "京东去除空气净化器排行榜"
-    },
-    {
-      "name": "科沃斯T90 PRO扫地机器人",
-      "platform": "京东",
-      "price": "¥3270-4116",
-      "sales": "5000+评价",
-      "keySpecs": "30000Pa吸力、PowerBoost瞬时超充、扫拖洗烘四合一",
-      "source": "2026年7月数码家电好物清单"
-    },
-    {
-      "name": "宫菱GAX纯钛保温杯",
-      "platform": "天猫",
-      "price": "¥599",
-      "sales": "20万+销量",
-      "keySpecs": "99.9%一级纯钛、12-24h保温、0涂层0胶水、欧盟CE认证",
-      "source": "2026年保温杯十大品牌综合榜单"
-    },
-    {
-      "name": "霍尼韦尔宠物空气净化器KJ520F-C22W",
-      "platform": "京东",
-      "price": "约¥4999",
-      "sales": "10000+评价",
-      "keySpecs": "吸猫毛除异味、母婴级0臭氧泄漏、杀菌消毒",
-      "source": "京东宠物空气净化器排行榜TOP1"
-    }
+  "date": "2026-07-27",
+  "sources": [
+    "知乎/太平洋电脑网 2026年7月洗地机榜单",
+    "腾讯网 洗地机技术路线横评 2026-07",
+    "奥维云网 2024年1-10月洗地机线上市场份额",
+    "Amazon Best Sellers 水杯类目 2026-07",
+    "小牛行研 美国保温杯市场格局报告 2024",
+    "知乎/腾讯 Stanley Quencher爆火案例分析"
   ],
-  "selectedProducts": [
-    {
-      "id": 1,
-      "name": "追觅T60 Ultra无线洗地机",
-      "price": "¥2398 (7月19日活动价，原价约¥2800）",
-      "platform": "京东/天猫",
-      "sales": "2000+评价",
-      "keySpecs": "28KPa吸力、9.85cm超薄机身、双刮洗机械臂",
-      "source": "2026年7月数码家电好物清单"
+  "competitors": {
+    "洗地机": {
+      "market_overview": "2024年1-10月中国洗地机线上销量同比增长32.87%，销额同比增长11.38%，行业均价从3000元降至2100元",
+      "top_brands": [
+        {
+          "rank": 1,
+          "brand": "添可",
+          "share": "41.7%",
+          "trend": "-7.49%",
+          "note": "连续6年中国销量销额第一，连续4年全球销量第一；添可芙万系列热销200万+台",
+          "price_range": "1255-5346元",
+          "core_tech": "恒压活水清洁系统，360°全向AI助航"
+        },
+        {
+          "rank": 2,
+          "brand": "追觅",
+          "share": "22.43%",
+          "trend": "+5.34%",
+          "note": "2026年7月洗地机TOP1（追觅H70 Ultra Station），增长迅猛",
+          "price_range": "934-4998元",
+          "core_tech": "高转速电机，108000转/分钟，230℃高温蒸汽"
+        },
+        {
+          "rank": 3,
+          "brand": "石头",
+          "share": "5.48%",
+          "trend": "+0.87%",
+          "note": "618期间洗地机市场份额30.76%登顶行业第一；石头A30 Pro Steam 2.0获京东蒸汽热水洗地机热卖榜冠军",
+          "price_range": "1019-3824元",
+          "core_tech": "180°C活性蒸汽+90°C热水双效洗地，双重鲨齿0缠毛"
+        },
+        {
+          "rank": 4,
+          "brand": "云鲸",
+          "share": "5.46%",
+          "trend": "+4.4%",
+          "note": "F1/F2性价比之选，S2 Island大户型养宠优选",
+          "price_range": "1444-3397元",
+          "core_tech": "80℃热活水自补热，AI脏污感应"
+        },
+        {
+          "rank": 5,
+          "brand": "美的",
+          "share": "4.91%",
+          "trend": "持平",
+          "note": "美的S60/S60 Ultra，等离子除味，1521-3009元",
+          "price_range": "1400-2390元"
+        }
+      ],
+      "price_trend": "头部品牌降价幅度超16%，1500-2500元成主流价格段"
     },
-    {
-      "id": 2,
-      "name": "科沃斯T90 PRO扫地机器人",
-      "price": "¥3270-4116",
-      "platform": "京东",
-      "sales": "5000+评价",
-      "keySpecs": "30000Pa吸力、PowerBoost瞬时超充、ZeroTangle灵缠4.0",
-      "source": "2026年7月数码家电好物清单"
+    "保温杯": {
+      "market_overview": "美国保温杯市场STANLEY 2023年底爆发式增长，TikTok撞车事件营销成行业经典案例；Owala 2024年快速崛起",
+      "top_brands": [
+        {
+          "rank": 1,
+          "brand": "STANLEY",
+          "market_share": "美国约11%",
+          "note": "2021年杯壶业务同比+215%；Quencher H2.0 40oz亚马逊品类销冠；2023年11月撞车事件营销后月销71-117万件",
+          "price_range": "¥199-319（国内）",
+          "core_feature": "40oz（1.18L）超大容量，保冷30小时，Tritan抗摔"
+        },
+        {
+          "rank": 2,
+          "brand": "Owala",
+          "market_share": "快速崛起品牌",
+          "note": "亚马逊水杯类Bestseller第1/2名；FreeSip双饮口差异化设计，TikTok新媒体营销驱动",
+          "price_range": "¥151-232（Amazon CNY）",
+          "core_feature": "双饮口（吸管+敞口），30oz（887ml），24h保冷"
+        },
+        {
+          "rank": 3,
+          "brand": "Hydro Flask",
+          "market_share": "与STANLEY收入体量相近",
+          "note": "美国传统头部品牌，双层真空隔热，12小时保温",
+          "price_range": "¥264-291（Amazon）",
+          "core_feature": "粉末涂层防滑防刮，多种瓶盖可选"
+        },
+        {
+          "rank": 4,
+          "brand": "YETI",
+          "market_share": "美国约15%",
+          "note": "耐用性著称，双层真空，6h+保温，但颜色单一",
+          "price_range": "较高",
+          "core_feature": "极致耐用，防锈防腐"
+        },
+        {
+          "rank": 5,
+          "brand": "Simple Modern",
+          "note": "2022年亚马逊保温杯销售额榜首，STANLEY平替定位",
+          "price_range": "较低",
+          "core_feature": "高颜值+高性价比，DTC社媒打法"
+        }
+      ]
     },
-    {
-      "id": 3,
-      "name": "DREAME GOVAC 200L扫拖机器人",
-      "price": "$80.40（原价$299.99，Walmart活动价）",
-      "platform": "Walmart",
-      "sales": "热销中",
-      "keySpecs": "13000Pa吸力、LDS激光导航、5200mAh大电池",
-      "source": "2026年7月北美DealMoon热搜"
+    "空气炸锅": {
+      "note": "飞利浦（Philips）5000系列在京东热卖，空气炸锅品类持续热销",
+      "top_brands": [
+        {"brand": "Philips", "note": "5000系列9L大容量，Rapid Air技术，油脂减少97%"},
+        {"brand": "Ninja", "note": "Foodi系列，多功能（炸/烤/脱水）"},
+        {"brand": "Cosori", "note": "亚马逊热销，性价比型号多"}
+      ]
     },
-    {
-      "id": 4,
-      "name": "DARZ D9母婴空气净化器",
-      "price": "约¥699-1299",
-      "platform": "天猫/京东",
-      "sales": "好评热销中",
-      "keySpecs": "颗粒物CADR 500+m³/h、甲醛CADR 300+m³/h、紫外+银离子+负离子三重复合灭菌",
-      "source": "2026空气净化器家用热门推荐榜单"
-    },
-    {
-      "id": 5,
-      "name": "Owala FreeSip双饮口保温杯",
-      "price": "约¥139-169",
-      "platform": "天猫国际/京东",
-      "sales": "2026年北美热销爆款",
-      "keySpecs": "双饮口（吸管+直饮）、24h保冷、防冷凝外壁、BPA Free",
-      "source": "DealMoon 2026年7月热门好物"
+    "户外帐篷": {
+      "note": "轻量化户外趋势明显，速开/便携/防晒为核心卖点",
+      "top_brands": [
+        {"brand": "各平台速开沙滩帐", "note": "3秒速开，轻量化1.2kg，UPF50+，¥199-329"},
+        {"brand": "Naturehike/挪客", "note": "国内户外露营头部品牌，轻量化设计"},
+        {"brand": "迪卡侬", "note": "入门级户外装备，性价比赛道"}
+      ]
     }
-  ],
-  "comparisons": [
+  },
+  "our_products_vs_competitors": [
     {
-      "productId": 1,
-      "selected": {
-        "name": "追觅T60 Ultra无线洗地机",
-        "price": "¥2398",
-        "rating": "2000+评价，好评率高",
-        "advantage": "28KPa超大吸力+9.85cm超薄机身，性价比最高的超薄洗地机",
-        "image": "comp_tiandu.jpg"
-      },
-      "competitor": {
-        "name": "添可芙万Stretch Plus超能版",
-        "price": "¥2500-3000",
-        "rating": "系列热销200万+台",
-        "advantage": "180°躺平设计更灵活，但价格更高、吸力相当",
-        "image": "comp_tiandu.jpg"
-      }
+      "our_product": "追觅H15 Pro（¥1099）",
+      "competitors": ["追觅T60 Ultra（¥2398）", "添可Stretch Plus（¥1567）", "石头A30 Pro（¥1699）"],
+      "advantage": "价格最低（¥1099），21000Pa大吸力，性价比突出",
+      "disadvantage": "非蒸汽款，无高温杀菌；品牌溢价低于添可"
     },
     {
-      "productId": 2,
-      "selected": {
-        "name": "科沃斯T90 PRO扫地机器人",
-        "price": "¥3270-4116",
-        "rating": "5000+评价",
-        "advantage": "30000Pa顶级吸力+PowerBoost超充，200㎡一次扫完不中断",
-        "image": "comp_stone.jpg"
-      },
-      "competitor": {
-        "name": "石头A30 Pro Steam",
-        "price": "约¥3000-3500",
-        "rating": "热销中",
-        "advantage": "蒸汽热水洗地，高温杀菌，但机身厚14cm无法深入低矮家具底部",
-        "image": "comp_stone.jpg"
-      }
+      "our_product": "Owala FreeSip（¥169）",
+      "competitors": ["Stanley Quencher H2.0（¥199）", "Hydro Flask（¥264+）"],
+      "advantage": "价格比Stanley低¥30，双饮口设计更灵活，Amazon销冠第1/2",
+      "disadvantage": "品牌知名度不如Stanley，缺少社交媒体爆款事件背书"
     },
     {
-      "productId": 3,
-      "selected": {
-        "name": "DREAME GOVAC 200L扫拖机器人",
-        "price": "$80.40（ Walmart活动价）",
-        "rating": "Walmart热销中",
-        "advantage": "LDS激光导航+5200mAh长续航，活动价性价比极高",
-        "image": "comp_dreame.jpg"
-      },
-      "competitor": {
-        "name": "米家扫地机器人5 Pro",
-        "price": "约¥2000-2500",
-        "rating": "20000+评价",
-        "advantage": "米家生态智能联动，但吸力和续航略低于DREAME 200L",
-        "image": "comp_dreame.jpg"
-      }
+      "our_product": "速开沙滩帐（¥199）",
+      "competitors": ["Naturehike轻量帐（¥300+）", "迪卡侬入门帐（¥150-250）"],
+      "advantage": "3秒速开，1.2kg超轻，¥199性价比高",
+      "disadvantage": "非专业户外品牌，轻量化/防水指标低于专业露营帐"
     },
     {
-      "productId": 4,
-      "selected": {
-        "name": "DARZ D9母婴空气净化器",
-        "price": "约¥699-1299",
-        "rating": "好评热销中",
-        "advantage": "七重过滤+三重复合灭菌，百元档唯一母婴特护型，30dB静音",
-        "image": "comp_honeywell.jpg"
-      },
-      "competitor": {
-        "name": "霍尼韦尔KJ520F-C22W宠物空净",
-        "price": "约¥4999",
-        "rating": "10000+评价，排行榜TOP1",
-        "advantage": "品牌更知名、销量更高，但价格是DARZ D9的4-7倍",
-        "image": "comp_honeywell.jpg"
-      }
+      "our_product": "Philips 5000空气炸锅（¥399）",
+      "competitors": ["Philips 5000系列（¥399）", "Ninja Foodi（$149）", "Cosori（$89）"],
+      "advantage": "9L超大容量（竞品多为5-6L），Philips品牌背书强",
+      "disadvantage": "国内水货/假货风险，需确保正品渠道"
     },
     {
-      "productId": 5,
-      "selected": {
-        "name": "Owala FreeSip双饮口保温杯",
-        "price": "约¥139-169",
-        "rating": "2026北美爆款",
-        "advantage": "双饮口设计（吸管+直饮二合一），防冷凝外壁，价格适中",
-        "image": "comp_stanley.jpg"
-      },
-      "competitor": {
-        "name": "STANLEY Quencher巨无霸保温杯",
-        "price": "约¥180-280",
-        "rating": "10000+评价",
-        "advantage": "品牌知名度更高，容量更大(40oz)，但重量较重，无双饮口",
-        "image": "comp_stanley.jpg"
-      }
+      "our_product": "Stanley Quencher H2.0（¥199）",
+      "competitors": ["STANLEY官方（¥319）", "Owala FreeSip（¥169）"],
+      "advantage": "比官方定价低¥120，TikTok爆款背书，40oz超大容量",
+      "disadvantage": "存在假货风险，需确保正品溯源"
     }
   ]
 }

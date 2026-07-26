@@ -1,8 +1,11 @@
 {
-  "product_1.jpg": "https://cloudimgs.iepose.cn/api/images/product_1_1784675057007_1.jpg",
-  "product_2.jpg": "https://cloudimgs.iepose.cn/api/images/product_2_1784675057219_1.jpg",
-  "product_3.jpg": "https://cloudimgs.iepose.cn/api/images/product_3_1784675057781_1.jpg",
-  "product_4.jpg": "https://cloudimgs.iepose.cn/api/images/product_4_1784675058043_1.jpg",
-  "product_5.jpg": "https://cloudimgs.iepose.cn/api/images/product_5_1784675058264_1.jpg",
-  "product_card_full.jpg": "https://cloudimgs.iepose.cn/api/images/product_card_full_1784675058612_1.jpg"
+  "date": "2026-07-27",
+  "images": {
+    "product_1": "https://cloudimgs.iepose.cn/api/images/product_1_1785107035220_1.jpg",
+    "product_2": "https://cloudimgs.iepose.cn/api/images/product_2_1785107035505_1.jpg",
+    "product_3": "https://cloudimgs.iepose.cn/api/images/product_3_1785107035896_1.jpg",
+    "product_4": "https://cloudimgs.iepose.cn/api/images/product_4_1785107036420_1.jpg",
+    "product_5": "https://cloudimgs.iepose.cn/api/images/product_5_1785107036883_1.jpg",
+    "product_card_full": "https://cloudimgs.iepose.cn/api/images/product_card_full_1785107037200_1.jpg"
+  }
 }
