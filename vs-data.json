@@ -1,155 +1,170 @@
 {
-  "date": "2026-07-27",
-  "sources": [
-    "知乎/太平洋电脑网 2026年7月洗地机榜单",
-    "腾讯网 洗地机技术路线横评 2026-07",
-    "奥维云网 2024年1-10月洗地机线上市场份额",
-    "Amazon Best Sellers 水杯类目 2026-07",
-    "小牛行研 美国保温杯市场格局报告 2024",
-    "知乎/腾讯 Stanley Quencher爆火案例分析"
-  ],
-  "competitors": {
-    "洗地机": {
-      "market_overview": "2024年1-10月中国洗地机线上销量同比增长32.87%，销额同比增长11.38%，行业均价从3000元降至2100元",
-      "top_brands": [
-        {
-          "rank": 1,
-          "brand": "添可",
-          "share": "41.7%",
-          "trend": "-7.49%",
-          "note": "连续6年中国销量销额第一，连续4年全球销量第一；添可芙万系列热销200万+台",
-          "price_range": "1255-5346元",
-          "core_tech": "恒压活水清洁系统，360°全向AI助航"
-        },
-        {
-          "rank": 2,
-          "brand": "追觅",
-          "share": "22.43%",
-          "trend": "+5.34%",
-          "note": "2026年7月洗地机TOP1（追觅H70 Ultra Station），增长迅猛",
-          "price_range": "934-4998元",
-          "core_tech": "高转速电机，108000转/分钟，230℃高温蒸汽"
-        },
-        {
-          "rank": 3,
-          "brand": "石头",
-          "share": "5.48%",
-          "trend": "+0.87%",
-          "note": "618期间洗地机市场份额30.76%登顶行业第一；石头A30 Pro Steam 2.0获京东蒸汽热水洗地机热卖榜冠军",
-          "price_range": "1019-3824元",
-          "core_tech": "180°C活性蒸汽+90°C热水双效洗地，双重鲨齿0缠毛"
-        },
-        {
-          "rank": 4,
-          "brand": "云鲸",
-          "share": "5.46%",
-          "trend": "+4.4%",
-          "note": "F1/F2性价比之选，S2 Island大户型养宠优选",
-          "price_range": "1444-3397元",
-          "core_tech": "80℃热活水自补热，AI脏污感应"
-        },
-        {
-          "rank": 5,
-          "brand": "美的",
-          "share": "4.91%",
-          "trend": "持平",
-          "note": "美的S60/S60 Ultra，等离子除味，1521-3009元",
-          "price_range": "1400-2390元"
-        }
-      ],
-      "price_trend": "头部品牌降价幅度超16%，1500-2500元成主流价格段"
+  "updateTime": "2026-07-30 07:00",
+  "dataSource": "京东/淘宝/什么值得买实测数据",
+  "hotProducts": [
+    {
+      "name": "酷态科CP25充电宝",
+      "source": "京东",
+      "price": "约130元",
+      "sales": "京东50万+评论",
+      "rating": "京东热销榜TOP1"
     },
-    "保温杯": {
-      "market_overview": "美国保温杯市场STANLEY 2023年底爆发式增长，TikTok撞车事件营销成行业经典案例；Owala 2024年快速崛起",
-      "top_brands": [
-        {
-          "rank": 1,
-          "brand": "STANLEY",
-          "market_share": "美国约11%",
-          "note": "2021年杯壶业务同比+215%；Quencher H2.0 40oz亚马逊品类销冠；2023年11月撞车事件营销后月销71-117万件",
-          "price_range": "¥199-319（国内）",
-          "core_feature": "40oz（1.18L）超大容量，保冷30小时，Tritan抗摔"
-        },
-        {
-          "rank": 2,
-          "brand": "Owala",
-          "market_share": "快速崛起品牌",
-          "note": "亚马逊水杯类Bestseller第1/2名；FreeSip双饮口差异化设计，TikTok新媒体营销驱动",
-          "price_range": "¥151-232（Amazon CNY）",
-          "core_feature": "双饮口（吸管+敞口），30oz（887ml），24h保冷"
-        },
-        {
-          "rank": 3,
-          "brand": "Hydro Flask",
-          "market_share": "与STANLEY收入体量相近",
-          "note": "美国传统头部品牌，双层真空隔热，12小时保温",
-          "price_range": "¥264-291（Amazon）",
-          "core_feature": "粉末涂层防滑防刮，多种瓶盖可选"
-        },
-        {
-          "rank": 4,
-          "brand": "YETI",
-          "market_share": "美国约15%",
-          "note": "耐用性著称，双层真空，6h+保温，但颜色单一",
-          "price_range": "较高",
-          "core_feature": "极致耐用，防锈防腐"
-        },
-        {
-          "rank": 5,
-          "brand": "Simple Modern",
-          "note": "2022年亚马逊保温杯销售额榜首，STANLEY平替定位",
-          "price_range": "较低",
-          "core_feature": "高颜值+高性价比，DTC社媒打法"
-        }
-      ]
+    {
+      "name": "小米氮化镓67W插线板",
+      "source": "京东",
+      "price": "89-99元",
+      "sales": "京东200万+评论",
+      "rating": "热搜榜TOP3"
     },
-    "空气炸锅": {
-      "note": "飞利浦（Philips）5000系列在京东热卖，空气炸锅品类持续热销",
-      "top_brands": [
-        {"brand": "Philips", "note": "5000系列9L大容量，Rapid Air技术，油脂减少97%"},
-        {"brand": "Ninja", "note": "Foodi系列，多功能（炸/烤/脱水）"},
-        {"brand": "Cosori", "note": "亚马逊热销，性价比型号多"}
-      ]
+    {
+      "name": "绿联67W超能块充电宝",
+      "source": "淘宝",
+      "price": "149元",
+      "sales": "百元档品质全能王",
+      "rating": "新国标起草单位"
     },
-    "户外帐篷": {
-      "note": "轻量化户外趋势明显，速开/便携/防晒为核心卖点",
-      "top_brands": [
-        {"brand": "各平台速开沙滩帐", "note": "3秒速开，轻量化1.2kg，UPF50+，¥199-329"},
-        {"brand": "Naturehike/挪客", "note": "国内户外露营头部品牌，轻量化设计"},
-        {"brand": "迪卡侬", "note": "入门级户外装备，性价比赛道"}
-      ]
+    {
+      "name": "倍思氮化镓65W插线板",
+      "source": "京东",
+      "price": "约279元",
+      "sales": "京东10万+评论",
+      "rating": "桌面充电站销量TOP"
+    },
+    {
+      "name": "Anker P25i真无线耳机",
+      "source": "Amazon/Walmart",
+      "price": "约15美元",
+      "sales": "北美热销",
+      "rating": "百元档口碑之选"
     }
-  },
-  "our_products_vs_competitors": [
+  ],
+  "selectedProducts": [
     {
-      "our_product": "追觅H15 Pro（¥1099）",
-      "competitors": ["追觅T60 Ultra（¥2398）", "添可Stretch Plus（¥1567）", "石头A30 Pro（¥1699）"],
-      "advantage": "价格最低（¥1099），21000Pa大吸力，性价比突出",
-      "disadvantage": "非蒸汽款，无高温杀菌；品牌溢价低于添可"
+      "id": 1,
+      "name": "酷态科CP25自带线充电宝",
+      "category": "数码配件",
+      "price": "约130元",
+      "highlights": ["自带线", "55W快充", "聚合物电芯"]
     },
     {
-      "our_product": "Owala FreeSip（¥169）",
-      "competitors": ["Stanley Quencher H2.0（¥199）", "Hydro Flask（¥264+）"],
-      "advantage": "价格比Stanley低¥30，双饮口设计更灵活，Amazon销冠第1/2",
-      "disadvantage": "品牌知名度不如Stanley，缺少社交媒体爆款事件背书"
+      "id": 2,
+      "name": "小米67W氮化镓插线板",
+      "category": "桌面好物",
+      "price": "约89元",
+      "highlights": ["67W快充", "氮化镓", "桌面整洁"]
     },
     {
-      "our_product": "速开沙滩帐（¥199）",
-      "competitors": ["Naturehike轻量帐（¥300+）", "迪卡侬入门帐（¥150-250）"],
-      "advantage": "3秒速开，1.2kg超轻，¥199性价比高",
-      "disadvantage": "非专业户外品牌，轻量化/防水指标低于专业露营帐"
+      "id": 3,
+      "name": "佰维NV3500 1TB SSD",
+      "category": "电脑配件",
+      "price": "约849元",
+      "highlights": ["PCIE3.0", "大厂品质", "高性价比"]
     },
     {
-      "our_product": "Philips 5000空气炸锅（¥399）",
-      "competitors": ["Philips 5000系列（¥399）", "Ninja Foodi（$149）", "Cosori（$89）"],
-      "advantage": "9L超大容量（竞品多为5-6L），Philips品牌背书强",
-      "disadvantage": "国内水货/假货风险，需确保正品渠道"
+      "id": 4,
+      "name": "Anker Soundcore P25i耳机",
+      "category": "音频装备",
+      "price": "约109元",
+      "highlights": ["真无线", "轻便", "防水"]
     },
     {
-      "our_product": "Stanley Quencher H2.0（¥199）",
-      "competitors": ["STANLEY官方（¥319）", "Owala FreeSip（¥169）"],
-      "advantage": "比官方定价低¥120，TikTok爆款背书，40oz超大容量",
-      "disadvantage": "存在假货风险，需确保正品溯源"
+      "id": 5,
+      "name": "北鼎茶水分离泡茶杯",
+      "category": "生活好物",
+      "price": "约249元",
+      "highlights": ["茶水分离", "316不锈钢", "国货精品"]
+    }
+  ],
+  "comparisons": [
+    {
+      "productId": 1,
+      "productName": "酷态科CP25充电宝",
+      "vs": [
+        {
+          "name": "小米自带线20000mAh",
+          "price": "169元",
+          "sales": "京东200万+评论",
+          "diff": "酷态科55W更快，小米生态联动更好"
+        },
+        {
+          "name": "绿联67W超能块",
+          "price": "149元",
+          "sales": "新国标起草单位认证",
+          "diff": "酷态科55W更快，绿联车规级电芯"
+        }
+      ]
+    },
+    {
+      "productId": 2,
+      "productName": "小米67W氮化镓插线板",
+      "vs": [
+        {
+          "name": "公牛67W PD插座",
+          "price": "约200元",
+          "sales": "京东20万+评论",
+          "diff": "小米89元性价比更高，支持小米私有协议"
+        },
+        {
+          "name": "绿联65W桌面充电站",
+          "price": "约150元",
+          "sales": "京东10万+评论",
+          "diff": "绿联65W略低，小米67W功率更强"
+        }
+      ]
+    },
+    {
+      "productId": 3,
+      "productName": "佰维NV3500 1TB SSD",
+      "vs": [
+        {
+          "name": "梵想S500 1TB",
+          "price": "约799元",
+          "sales": "主流选择",
+          "diff": "佰维849元价格相近，品控更稳定"
+        },
+        {
+          "name": "金邦P3A 2TB",
+          "price": "约1399元",
+          "sales": "QLC入门款",
+          "diff": "佰维1TB 849元性价比更高"
+        }
+      ]
+    },
+    {
+      "productId": 4,
+      "productName": "Anker Soundcore P25i耳机",
+      "vs": [
+        {
+          "name": "倍思卡片磁吸充电宝",
+          "price": "约159元",
+          "sales": "多配色选择",
+          "diff": "耳机vs充电宝，功能不同"
+        },
+        {
+          "name": "TOZO A1无线耳机",
+          "price": "约17美元",
+          "sales": "Amazon热销",
+          "diff": "Anker品牌更强，P25i音质更佳"
+        }
+      ]
+    },
+    {
+      "productId": 5,
+      "productName": "北鼎茶水分离泡茶杯",
+      "vs": [
+        {
+          "name": "宫菱钛杯保温杯",
+          "price": "约399元",
+          "sales": "安全无毒性能之王",
+          "diff": "北鼎249元性价比更高，茶水分离设计更实用"
+        },
+        {
+          "name": "膳魔师保温杯",
+          "price": "约138-199元",
+          "sales": "京东热销",
+          "diff": "北鼎茶水分离特色功能，无竞品直接对标"
+        }
+      ]
     }
   ]
 }
