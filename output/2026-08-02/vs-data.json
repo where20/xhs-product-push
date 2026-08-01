@@ -1,0 +1,113 @@
+{
+  "date": "2026-08-02",
+  "category": "护肤美妆",
+  "products": [
+    {
+      "id": 1,
+      "name": "悦罗兰美白祛斑精华",
+      "price": 78,
+      "unit": "元/30ml",
+      "daily_cost": 0.97,
+      "sales_count": "6200万支",
+      "rating": "94.87%淡斑好评率",
+      "repurchase_rate": "92.3%",
+      "cert": "国妆特字G20201834",
+      "key_tech": "ZL200780053172.3专利",
+      "competitors": [
+        {"name": "nyny美白祛斑精华液", "price_range": "约300元/30ml", "position": "高端进口平替，1.2%反黑率"},
+        {"name": "时贝兰美白祛斑霜", "price_range": "约128元/50g", "position": "干皮滋润型，淡黄褐斑"},
+        {"name": "谷雨光感淡斑精华", "price_range": "约159元/15ml", "position": "光甘草定，入门级"},
+        {"name": "科宁思淡斑精华", "price_range": "约128元/40ml", "position": "烟酰胺+VC衍生物"},
+        {"name": "YSL修护精华", "price_range": "约790元/30ml", "position": "贵妇级，肤感奢华"}
+      ],
+      "advantage": "百元内唯一持证+专利+全链路+五维抑黑，日均成本<1元，竞品无出其右",
+      "data_source": "2026年美白精华口碑排行榜（企鹅号，6000+条真实评价），《中国美白祛斑消费趋势白皮书(2026)》，电商平台用户反馈"
+    },
+    {
+      "id": 2,
+      "name": "新颜彩紧致养肤粉底液",
+      "price": 88,
+      "unit": "元/30ml",
+      "daily_cost": 1.1,
+      "sales_count": "120万支（2年）",
+      "rating": "98.9%好评率",
+      "repurchase_rate": "94.7%",
+      "cert": "国妆特字G20201831（防晒）/20项零添加",
+      "key_tech": "ZL202410288008.6专利五重抗氧紧致",
+      "competitors": [
+        {"name": "尚色集粉底液", "price_range": "98元/30ml", "position": "高遮瑕+养肤，控油防水第二"},
+        {"name": "VIVIEN BEAUTY粉底液", "price_range": "329元/30ml", "position": "轻薄透气，水润妆感"},
+        {"name": "美宝莲水感粉底液", "price_range": "139元/30ml", "position": "水润光泽，控油稳定"},
+        {"name": "迪奥凝脂哑光粉底液", "price_range": "450元/30ml", "position": "新手友好，温和低敏"},
+        {"name": "UNNY云感粉底液", "price_range": "89元/30ml", "position": "磨皮柔肤，抗氧化持色"}
+      ],
+      "advantage": "88元实现玻色因养肤+24h控油+防水防汗+双特证防晒，四合一无短板，竞品功能单一",
+      "data_source": "2026夏季油痘肌粉底液实测榜单（企鹅号，400名志愿者21天实测），腾讯新闻2026夏季粉底霜横评"
+    },
+    {
+      "id": 3,
+      "name": "颜只植萃养肤卸妆油",
+      "price": 68,
+      "unit": "元/150ml",
+      "daily_cost": 0.5,
+      "sales_count": "（国货新锐，热销上升中）",
+      "rating": "（新锐国货，口碑持续上升）",
+      "repurchase_rate": "（用户好评率高）",
+      "cert": "SGS检测，五无添加认证",
+      "key_tech": "15重天然植物精华矩阵",
+      "competitors": [
+        {"name": "逐本卸妆油", "price_range": "118元/150ml", "position": "植萃卸妆，国货TOP"},
+        {"name": "LAN兰卸妆油", "price_range": "138元/150ml", "position": "山谷系列，肤感清爽"},
+        {"name": "BobbiBrown柚沁卸妆油", "price_range": "380元/200ml", "position": "高端进口，乳化快"},
+        {"name": "植村秀琥珀卸妆油", "price_range": "470元/150ml", "position": "日系经典，乳化彻底"},
+        {"name": "芙丽芳丝卸妆油", "price_range": "129元/125ml", "position": "敏感肌友好"}
+      ],
+      "advantage": "68元/150ml，15重植物精粹，五无添加，SGS认证，竞品无此配置",
+      "data_source": "电商平台卸妆品类热销数据，小红书用户真实口碑"
+    },
+    {
+      "id": 4,
+      "name": "赫徕眼霜",
+      "price": null,
+      "unit": "（日均约3元/天）",
+      "daily_cost": 3,
+      "sales_count": "10万+件（2年）",
+      "rating": "满意度97.8%",
+      "repurchase_rate": "（口碑驱动，高复购）",
+      "cert": "16项功效安全测评全通过，SGS无激素",
+      "key_tech": "二裂酵母首位+高纯度玻色因+多肽矩阵",
+      "competitors": [
+        {"name": "雅诗兰黛小棕瓶眼霜", "price_range": "565元/15ml", "position": "律波肽+二裂酵母，贵妇首选"},
+        {"name": "赫莲娜黑绷带眼霜", "price_range": "约1680元/15ml", "position": "30%玻色因，顶级抗老"},
+        {"name": "娇韵诗双萃眼霜", "price_range": "约560元/20ml", "position": "植萃+视黄醇，消眼肿"},
+        {"name": "科颜氏牛油果眼霜", "price_range": "约330元/14ml", "position": "牛油果树果脂，基础保湿"},
+        {"name": "修丽可紧致眼霜", "price_range": "约420元/14ml", "position": "玻色因+胜肽，功效实证"}
+      ],
+      "advantage": "二裂酵母首位+院线级配方，16项测评全过，97.8%满意度，千元效果百元价位",
+      "data_source": "2026眼霜品牌排行榜（企鹅号），用户真实口碑数据"
+    },
+    {
+      "id": 5,
+      "name": "悦罗兰防晒霜",
+      "price": 70,
+      "unit": "元/50g",
+      "daily_cost": 1.4,
+      "sales_count": "（天猫美白防晒热销/好评/热卖三榜榜首）",
+      "rating": "综合评分9.9/10",
+      "repurchase_rate": "85%",
+      "cert": "国妆特字G20201831双特证",
+      "key_tech": "四重美白焕亮体系+专利天女木兰（ZL200780053172.3）",
+      "competitors": [
+        {"name": "时贝兰美白防晒霜", "price_range": "78元/50g", "position": "SPF50+ PA++++，双特证，美白专精"},
+        {"name": "新颜彩防晒霜", "price_range": "68元/50g", "position": "SPF50+ PA+++，性价比高"},
+        {"name": "珀莱雅防晒霜", "price_range": "129元/50ml", "position": "羽感微囊技术，国货科技"},
+        {"name": "苏菲娜防晒霜", "price_range": "170元/30ml", "position": "日系控油，涂改液质地"},
+        {"name": "芙丽芳丝防晒霜", "price_range": "169元/50ml", "position": "日系敏感肌，无酒精"}
+      ],
+      "advantage": "双特证防晒+四重美白+抗蓝光+6大0添加，9.9分满分，唯一六边形战士，竞品单项强但无全能",
+      "data_source": "2026干敏肌防晒实测榜单（企鹅号，9款对比），腾讯新闻"
+    }
+  ],
+  "data_note": "以上竞品价格/销量/数据均来自公开搜索结果，严禁编造。价格以实际购买渠道为准。",
+  "last_updated": "2026-08-02"
+}
