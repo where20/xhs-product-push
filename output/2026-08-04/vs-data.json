@@ -1,0 +1,142 @@
+{
+  "date": "2026-08-04",
+  "sources": [
+    "企鹅号/摄狼自媒体 - 小红书热门网红相机集锦 (2026-08-02)",
+    "企鹅号 - 2026年8月折叠屏手机降价攻略 (2026-08-02)",
+    "太平洋电脑网 - 折叠屏手机价格表 (2026-08)",
+    "企鹅号 - 2026学生党祛痘印平价好物分享 (2026-08)",
+    "企鹅号 - 花西子防晒彩妆套装推荐 (2026-08-02)",
+    "91家纺网 - 夏季家纺爆款排行榜 (2026-07)"
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "OPPO Find N6 折叠屏手机",
+      "category": "数码手机",
+      "competitors": [
+        {
+          "name": "华为Mate X7",
+          "price": "12999元起 (12+256G)",
+          "differentiator": "红枫原色影像,鸿蒙生态",
+          "source": "太平洋电脑网 2026-08"
+        },
+        {
+          "name": "三星Galaxy Z Fold7",
+          "price": "13999元起 (12+256G)",
+          "differentiator": "215g轻量化,Galaxy AI功能",
+          "source": "太平洋电脑网 2026-08"
+        },
+        {
+          "name": "荣耀Magic V6",
+          "price": "8999元起 (16+1TB版)",
+          "differentiator": "7150mAh大电池,续航最强",
+          "source": "企鹅号 2026-08-02"
+        },
+        {
+          "name": "vivo X Fold6",
+          "price": "7999元起",
+          "differentiator": "原子工作台AI办公,7000mAh",
+          "source": "太平洋电脑网 2026-08"
+        }
+      ],
+      "market_note": "IDC 2026Q1: OPPO以16%市场份额位列行业前三，Find N6为当季最畅销折叠屏新品",
+      "our_advantage": "8999元无感折痕旗舰，8月限时立减1000元，性价比最高"
+    },
+    {
+      "id": 2,
+      "name": "富士 Fujifilm X100VI 相机",
+      "category": "数码相机",
+      "competitors": [
+        {
+          "name": "富士 X-M5",
+          "price": "5000元起 (二手跌破5000元)",
+          "differentiator": "355g最轻富士微单,20种胶片模拟",
+          "source": "企鹅号 2026-08-02"
+        },
+        {
+          "name": "索尼 ZV-E10II",
+          "price": "5499元起",
+          "differentiator": "AI对焦,竖拍直播成熟",
+          "source": "企鹅号 2026-08-02"
+        },
+        {
+          "name": "大疆 Osmo Pocket 3",
+          "price": "3499元起",
+          "differentiator": "1英寸传感器,三轴机械云台",
+          "source": "企鹅号 2026-08-02"
+        }
+      ],
+      "market_note": "2026年7月国行涨价至12290元，9月全球再涨11%。#富士直出#话题23亿次浏览",
+      "our_advantage": "小红书氛围感顶流，40MP直出胶片模拟，#富士直出#话题23亿浏览"
+    },
+    {
+      "id": 3,
+      "name": "奥丽琳祛痘印精华液",
+      "category": "美妆护肤",
+      "competitors": [
+        {
+          "name": "悦罗兰防晒霜(护肤类)",
+          "price": "70元/50g",
+          "differentiator": "99.9%紫外线阻隔率,SPF60",
+          "source": "企鹅号 2026-08"
+        },
+        {
+          "name": "三五记",
+          "price": "平价",
+          "differentiator": "祛痘+防印双重功效",
+          "source": "企鹅号 2026-08"
+        }
+      ],
+      "market_note": "2026学生党实测榜单: 祛痘印需求高增长，悦罗兰防晒霜综合评分9.8",
+      "our_advantage": "国家药监局备案,重组III型胶原蛋白+PDRN,医用级无菌标准"
+    },
+    {
+      "id": 4,
+      "name": "花西子防晒彩妆套装",
+      "category": "美妆彩妆",
+      "competitors": [
+        {
+          "name": "完美日记",
+          "price": "平价",
+          "differentiator": "淘系销量持续下滑44%",
+          "source": "36氪/知乎数据"
+        },
+        {
+          "name": "珀莱雅",
+          "price": "中高端",
+          "differentiator": "大单品战略,淘系排名第5",
+          "source": "36氪数据 2024"
+        },
+        {
+          "name": "薇诺娜(敏感肌防晒)",
+          "price": "特护霜类",
+          "differentiator": "敏感肌防晒月销886万+",
+          "source": "知乎电商数据"
+        }
+      ],
+      "market_note": "2020年7月数据: 花西子GMV 1.94亿同比+165.5%; 完美日记下滑44%。防晒品类7月逆势增长+13%/+24%",
+      "our_advantage": "七效合一减少叠加步骤，莲叶御光膜防晒，花养配方"
+    },
+    {
+      "id": 5,
+      "name": "冰豆豆凉席三件套",
+      "category": "家居家纺",
+      "competitors": [
+        {
+          "name": "珍贝家纺 凉感豆豆枕套",
+          "price": "4元/件",
+          "differentiator": "A类品质,平台销量第1",
+          "source": "91家纺网 热搜指数17548"
+        },
+        {
+          "name": "TPU防水床笠",
+          "price": "5元起",
+          "differentiator": "跨境外贸,平台热搜第2",
+          "source": "91家纺网 热搜指数7056"
+        }
+      ],
+      "market_note": "91家纺网热搜: 冰豆豆凉席系列搜索热度最高(热搜指数17548),A类母婴级凉感产品需求旺盛",
+      "our_advantage": "A类母婴级,PE高分子凉感,360度全包不跑偏,机洗速干"
+    }
+  ]
+}
