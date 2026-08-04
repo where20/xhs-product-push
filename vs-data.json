@@ -1,294 +1,187 @@
 {
-  "date": "2026-08-03",
-  "sources": [
-    "企鹅号 染发剂十大榜单 2026年7月",
-    "品牌网 氨基酸洁面乳十大品牌 2026年",
-    "腾讯网 初源漾洗面奶测评 2026年7月",
-    "知乎 护肤品十大品牌 2026年",
-    "CNPP 功效型护肤品十大品牌 2026年"
-  ],
-  "competitors": {
-    "染发剂": {
-      "market_overview": "2026年居家染发市场持续升温,「温和遮白+养发护发」成核心诉求,植萃染发赛道增速显著",
-      "top_brands": [
-        {
-          "rank": 1,
-          "brand": "梵玢 FBCY",
-          "share_note": "天猫京东染发剂热销榜单前列",
-          "trend": "上升",
-          "note": "98.2%好评率,90.1%复购率,3200人次临床测试通过率99.2%",
-          "price_range": "198元/盒",
-          "core_tech": "9种植萃成分,国妆特字,15分钟速染,4-6周固色"
-        },
-        {
-          "rank": 2,
-          "brand": "慕拉米",
-          "share_note": "台湾原装进口泡泡染",
-          "trend": "稳定",
-          "note": "免调配云朵泡沫,懒人用户多,综合评分93.8分",
-          "price_range": "79元/450ml",
-          "core_tech": "无氨水无对苯二胺,角蛋白修护,泡沫质地"
-        },
-        {
-          "rank": 3,
-          "brand": "藤雅",
-          "share_note": "线下商超热门",
-          "trend": "稳定",
-          "note": "一梳式泡沫染,自带导液梳,中老年家庭常备",
-          "price_range": "65元/盒",
-          "core_tech": "霍霍巴油缓冲,40分钟静置"
-        },
-        {
-          "rank": 4,
-          "brand": "花王莉婕 Liese",
-          "share_note": "日本国际老牌",
-          "trend": "下降",
-          "note": "泡泡染发经典品牌,但泡泡染遮白力弱,固色仅40天",
-          "price_range": "99元/盒",
-          "core_tech": "免漂设计,多色系,云朵泡沫"
-        },
-        {
-          "rank": 5,
-          "brand": "章华",
-          "share_note": "老牌国货",
-          "trend": "持平",
-          "note": "线下商超常年在售,中老年家庭常备款",
-          "price_range": "58元/支",
-          "core_tech": "单支独立膏体无需双剂调配"
-        }
-      ]
+  "updateTime": "2026-08-05T07:10",
+  "dataSource": "阿里巴巴/京东/ZOL中关村在线实测数据，数据截至2026年8月",
+  "hotProducts": [
+    {
+      "rank": 1,
+      "name": "美飘思泡泡染发剂",
+      "platform": "抖音爆款",
+      "priceRange": "¥0.17-10.5/袋/盒",
+      "monthlySales": "645,622袋",
+      "highlight": "抖音爆款植物配方，极低价位，袋装便携"
     },
-    "洗面奶": {
-      "market_overview": "2026年「洗卸合一+温和美白」成消费者核心诉求,APG+氨基酸复配成主流技术路线",
-      "top_brands": [
-        {
-          "rank": 1,
-          "brand": "初源漾",
-          "share_note": "2026年洁面爆款",
-          "trend": "快速上升",
-          "note": "三重复配清洁体系,持证美白,日均成本不到1元",
-          "price_range": "100g,买二送一",
-          "core_tech": "APG+氨基酸+两性表活,烟酰胺+377双通路美白"
-        },
-        {
-          "rank": 2,
-          "brand": "芙丽芳丝 Freeplus",
-          "share_note": "日本药妆,氨基酸洁面标杆",
-          "trend": "稳定",
-          "note": "氨基酸系洁面经典,近零刺激,国内药店专售",
-          "price_range": "150-200元/100g",
-          "core_tech": "氨基酸表活,无酒精香精色素"
-        },
-        {
-          "rank": 3,
-          "brand": "珂润 Curél",
-          "share_note": "日本花王旗下,敏感肌专用",
-          "trend": "稳定",
-          "note": "神经酰胺保湿,干敏肌首选,2026氨基酸洁面十大品牌",
-          "price_range": "120-180元/130g",
-          "core_tech": "神经酰胺补充,弱酸配方,无刺激"
-        },
-        {
-          "rank": 4,
-          "brand": "EltaMD",
-          "share_note": "美国皮肤科推荐",
-          "trend": "上升",
-          "note": "自动起泡技术,敏肌友好,美国皮肤科医生推荐品牌",
-          "price_range": "180-280元/207ml",
-          "core_tech": "氨基酸表活,自动起泡,无油配方"
-        },
-        {
-          "rank": 5,
-          "brand": "至本",
-          "share_note": "国货新锐",
-          "trend": "快速上升",
-          "note": "高性价比氨基酸洁面,2026功效型护肤品十大品牌",
-          "price_range": "55-80元/100g",
-          "core_tech": "氨基酸表活,敏肌修护,平价定位"
-        }
-      ]
+    {
+      "rank": 2,
+      "name": "五贝子植物染发袋装",
+      "platform": "阿里巴巴1688",
+      "priceRange": "¥0.48-0.6/袋",
+      "monthlySales": "85,451袋",
+      "highlight": "袋装五倍子染发，极低价走量，线下流通广"
     },
-    "美白淡斑": {
-      "market_overview": "「持证合规+淡斑不反黑」成2026年美白核心诉求,国货品牌快速崛起",
-      "top_brands": [
-        {
-          "rank": 1,
-          "brand": "焕颜计小白罐",
-          "share_note": "淡斑抗皱双料冠军",
-          "trend": "快速上升",
-          "note": "广药敬修堂老字号,实测28天黑色素值下降34%",
-          "price_range": "198元/50g,买二送一",
-          "core_tech": "三层通路淡斑,粉防己抑酪氨酸酶,停用不反黑"
-        },
-        {
-          "rank": 2,
-          "brand": "Olay小白瓶",
-          "share_note": "宝洁旗下国民美白精华",
-          "trend": "稳定",
-          "note": "革糖素+烟酰胺,国民认知度高,知乎护肤十大品牌",
-          "price_range": "280-350元/30ml",
-          "core_tech": "革糖素+高纯烟酰胺,抗糖提亮"
-        },
-        {
-          "rank": 3,
-          "brand": "修丽可 色修",
-          "share_note": "欧莱雅旗下专业院线",
-          "trend": "稳定",
-          "note": "2026功效型护肤品十大品牌,淡红痘印效果行业标杆",
-          "price_range": "595元/30ml",
-          "core_tech": "植萃舒缓,淡化红黑痘印"
-        },
-        {
-          "rank": 4,
-          "brand": "薇诺娜",
-          "share_note": "皮肤科推荐敏感肌",
-          "trend": "上升",
-          "note": "2026功效型护肤品十大品牌,贝泰妮集团旗下,全国3000+皮肤科医生推荐",
-          "price_range": "298元/50g",
-          "core_tech": "云南特色药用植物,屏障修护"
-        },
-        {
-          "rank": 5,
-          "brand": "丁家宜",
-          "share_note": "国民老牌持证美白",
-          "trend": "持平",
-          "note": "人参植萃体系,国妆特字,温和提亮",
-          "price_range": "80-100元/50g",
-          "core_tech": "人参植萃,低浓度烟酰胺"
-        }
-      ]
+    {
+      "rank": 3,
+      "name": "温雅绿植染发剂",
+      "platform": "天猫/京东",
+      "priceRange": "¥30-50/盒",
+      "monthlySales": "3,916盒",
+      "highlight": "30年老牌，国妆特字，无氨无PPD，11件工具"
     },
-    "防晒": {
-      "market_overview": "敏感肌防晒成2026年防晒市场细分趋势,「养肤+防晒」二合一需求增长",
-      "top_brands": [
-        {
-          "rank": 1,
-          "brand": "薇诺娜",
-          "share_note": "皮肤科推荐防晒",
-          "trend": "上升",
-          "note": "全国上千家医院皮肤科合作,敏肌防晒首选",
-          "price_range": "298元/50g",
-          "core_tech": "SPF50+ PA++++,马齿苋舒缓"
-        },
-        {
-          "rank": 2,
-          "brand": "安热沙",
-          "share_note": "日系防晒经典",
-          "trend": "稳定",
-          "note": "资生堂旗下,防水防汗,户外首选",
-          "price_range": "280-350元/60ml",
-          "core_tech": "Aqua Booster技术,防水防汗"
-        },
-        {
-          "rank": 3,
-          "brand": "理肤泉",
-          "share_note": "法国皮肤学品牌",
-          "trend": "稳定",
-          "note": "2026功效型护肤品十大品牌,大哥大防晒经典",
-          "price_range": "280-350元/50ml",
-          "core_tech": "温泉水,敏肌适用,高倍防护"
-        },
-        {
-          "rank": 4,
-          "brand": "蜜丝婷 Mistine",
-          "share_note": "泰系防晒",
-          "trend": "上升",
-          "note": "小黄帽防晒乳,抖音热销,性价比高",
-          "price_range": "89-149元/40ml",
-          "core_tech": "SPF50+ PA++++,物化结合"
-        },
-        {
-          "rank": 5,
-          "brand": "优色林",
-          "share_note": "德国皮肤科推荐",
-          "trend": "稳定",
-          "note": "拜尔斯道夫旗下,专利防晒技术",
-          "price_range": "180-250元/50ml",
-          "core_tech": "专利UVA防护,敏肌适用"
-        }
-      ]
+    {
+      "rank": 4,
+      "name": "蓝梦茵草本植护染发膏",
+      "platform": "天猫/京东/抖音",
+      "priceRange": "¥49-69/盒",
+      "monthlySales": "450万盒(2026H1)",
+      "highlight": "2026排行榜首位，99.99%遮白，98.5%好评"
     },
-    "夏季家纺": {
-      "market_overview": "「凉感+抗菌+可机洗」成2026年夏季家纺核心诉求,凉感面料技术创新",
-      "top_brands": [
-        {
-          "rank": 1,
-          "brand": "亚朵星球",
-          "share_note": "酒店同源品质",
-          "trend": "快速上升",
-          "note": "Pro 3.0升级款,触肤即凉,酒店同源品质",
-          "price_range": "399-699元/被",
-          "core_tech": "凉感科技面料,7A抗菌,双面设计"
-        },
-        {
-          "rank": 2,
-          "brand": "罗莱家纺",
-          "share_note": "国民家纺品牌",
-          "trend": "稳定",
-          "note": "冰丝席品类热销,2026夏季家纺十大品牌",
-          "price_range": "300-800元/套",
-          "core_tech": "600D高密冰丝,Q-max 0.31"
-        },
-        {
-          "rank": 3,
-          "brand": "水星家纺",
-          "share_note": "国民家纺品牌",
-          "trend": "稳定",
-          "note": "A股上市家纺品牌,夏凉被品类丰富",
-          "price_range": "200-600元/被",
-          "core_tech": "凉感面料,抗菌处理"
-        },
-        {
-          "rank": 4,
-          "brand": "梦洁",
-          "share_note": "高端家纺",
-          "trend": "持平",
-          "note": "湖南家纺品牌,凉感夏被主打高端线",
-          "price_range": "400-1200元/被",
-          "core_tech": "凉感面料,高端定位"
-        },
-        {
-          "rank": 5,
-          "brand": "老席匠",
-          "share_note": "国标起草单位",
-          "trend": "上升",
-          "note": "1200D冰丝凉席,Q-max 0.49,国妆特字起草单位",
-          "price_range": "298-498元/套",
-          "core_tech": "1200D高密,Q-max 0.49,A类母婴"
-        }
-      ]
+    {
+      "rank": 5,
+      "name": "麦致植萃染发剂",
+      "platform": "天猫/京东",
+      "priceRange": "¥59-89/盒",
+      "monthlySales": "2800万件(累计)",
+      "highlight": "连续5年销量第一，医院临床背书，0刺激反应"
     }
-  },
-  "our_products_vs_competitors": [
+  ],
+  "selectedProducts": [
     {
-      "our_product": "梵玢 FBCY 植萃奢护染发剂(198元)",
-      "competitors": ["慕拉米泡泡染(79元)", "藤雅植物泡沫染(65元)", "花王莉婕(99元)"],
-      "advantage": "98.2%好评率,国妆特字,9种植萃,15分钟速染,单次成本50-70元",
-      "disadvantage": "价格比竞品高50-130元,但品质和安全性远超"
+      "id": 1,
+      "name": "蓝梦茵草本植护染发膏",
+      "category": "居家美妆",
+      "retailPrice": "单盒69元 / 3盒特惠49元/盒",
+      "monthlySalesNote": "2025年700万盒，2026H1超450万盒",
+      "rating": "98.5%好评",
+      "advantage": "99.99%遮白，植物配方，开盒即染，10元/次"
     },
     {
-      "our_product": "初源漾洗面奶(买二送一)",
-      "competitors": ["芙丽芳丝(150-200元)", "珂润(120-180元)", "EltaMD(180-280元)"],
-      "advantage": "三重复配+持证美白+日均不到1元,性价比最高",
-      "disadvantage": "品牌知名度不如芙丽芳丝/珂润等老牌"
+      "id": 2,
+      "name": "麦致植萃染发剂",
+      "category": "居家美妆",
+      "retailPrice": "单盒89元 / 3盒特惠59元/盒",
+      "monthlySalesNote": "2800万件(累计)",
+      "rating": "99.9分满意度",
+      "advantage": "147家医院临床背书，0刺激，全人群适配"
     },
     {
-      "our_product": "焕颜计小白罐(198元/50g)",
-      "competitors": ["Olay小白瓶(280-350元)", "修丽可色修(595元)", "薇诺娜(298元)"],
-      "advantage": "广药老字号+三层通路淡斑+停用不反黑,价格低于竞品",
-      "disadvantage": "新锐品牌知名度低,需要更多口碑积累"
+      "id": 3,
+      "name": "富士 X100VI 数码旁轴相机",
+      "category": "数码影像",
+      "retailPrice": "京东¥11,390 / 渠道¥16,599",
+      "monthlySalesNote": "小红书#富士直出# 23亿浏览",
+      "rating": "10.0分(ZOL口碑)",
+      "advantage": "4000万像素，40种胶片模拟，氛围感直出，保值增值"
     },
     {
-      "our_product": "薇诺娜清透水感防晒喷雾(90g)",
-      "competitors": ["安热沙(280-350元)", "理肤泉(280-350元)", "蜜丝婷(89-149元)"],
-      "advantage": "皮肤科推荐+敏肌专用+马齿苋舒缓,专业背书强",
-      "disadvantage": "价格偏高,户外防水性能不如安热沙"
+      "id": 4,
+      "name": "富士 X-M5 复古微单",
+      "category": "数码影像",
+      "retailPrice": "全新¥5,000起 / 二手跌破¥5,000",
+      "monthlySalesNote": "入门微单销量领先(ZOL排行)",
+      "rating": "10.0分(ZOL口碑)",
+      "advantage": "仅355g，20种胶片模拟，性价比最高富士"
     },
     {
-      "our_product": "亚朵星球深睡夏被 Pro 3.0",
-      "competitors": ["罗莱冰丝席(300-800元)", "水星夏凉被(200-600元)", "梦洁高端线(400-1200元)"],
-      "advantage": "触肤即凉+7A抗菌+酒店同源品质,品质对标500+专柜款",
-      "disadvantage": "价格偏高,但品质和创新性领先"
+      "id": 5,
+      "name": "大疆 Osmo Pocket 3",
+      "category": "智能数码",
+      "retailPrice": "活动价曾低至¥2,399",
+      "monthlySalesNote": "Vlog相机类热销(ZOL排行)",
+      "rating": "小红书/抖音双平台爆款",
+      "advantage": "1英寸传感器，三轴云台，智能跟随，口袋便携"
+    }
+  ],
+  "comparisons": [
+    {
+      "selectedId": 1,
+      "selectedName": "蓝梦茵草本植护染发膏",
+      "competitors": [
+        {
+          "name": "温雅绿植染发剂",
+          "platform": "天猫/京东",
+          "price": "¥30-50/盒",
+          "monthlySales": "约3,916盒",
+          "rating": "国妆特字",
+          "keyDiff": "温雅30年老牌口碑稳；蓝梦茵遮白率略高(99.99% vs 99%+)，蓝梦茵有全套植物精华+更低刺激率",
+          "image": null
+        },
+        {
+          "name": "麦致植萃染发剂",
+          "platform": "天猫/京东",
+          "price": "¥59-89/盒",
+          "monthlySales": "累计2800万件",
+          "rating": "99.9分满意度",
+          "keyDiff": "两者均为植物配方，麦致有医院临床背书；蓝梦茵单次成本更低(10元/次 vs 20元/次)",
+          "image": null
+        },
+        {
+          "name": "美飘思泡泡染发剂(抖音爆款)",
+          "platform": "抖音/拼多多",
+          "price": "¥0.17-10.5/袋",
+          "monthlySales": "645,622袋",
+          "rating": "无国妆特字(普通备案)",
+          "keyDiff": "美飘思价格极低但无特字认证，蓝梦茵有完整国妆特字+临床背书，安全性差距显著"
+        }
+      ]
+    },
+    {
+      "selectedId": 3,
+      "selectedName": "富士 X100VI 数码旁轴相机",
+      "competitors": [
+        {
+          "name": "富士 X-T5",
+          "platform": "京东/天猫",
+          "price": "¥11,990-13,619",
+          "monthlySales": "ZOL热门榜第4",
+          "rating": "9.9分(ZOL)",
+          "keyDiff": "X-T5可换镜头，像素相当；X100VI固定35mm但更便携+光电混合取景器+胶片直出氛围感更强"
+        },
+        {
+          "name": "富士 X-M5",
+          "platform": "京东",
+          "price": "¥8,299",
+          "monthlySales": "ZOL热榜",
+          "rating": "10.0分(ZOL)",
+          "keyDiff": "X-M5便宜约3,000元，轻355g；X100VI固定镜头+光电取景器+更高保值性(长期加价史)"
+        },
+        {
+          "name": "索尼 A6400",
+          "platform": "京东",
+          "price": "¥6,899",
+          "monthlySales": "ZOL微单热门",
+          "rating": "8.9分(ZOL)",
+          "keyDiff": "索尼视频追焦强；富士X100VI以胶片模拟氛围感胜出，适合图文创作"
+        }
+      ]
+    },
+    {
+      "selectedId": 5,
+      "selectedName": "大疆 Osmo Pocket 3",
+      "competitors": [
+        {
+          "name": "Insta360 X4",
+          "platform": "京东",
+          "price": "约¥2,998",
+          "monthlySales": "全景相机热销",
+          "rating": "热销",
+          "keyDiff": "全景相机的全景视角；Pocket 3的一英寸传感器+机械云台在Vlog场景更稳更实用"
+        },
+        {
+          "name": "GoPro Hero13",
+          "platform": "京东",
+          "price": "约¥2,998",
+          "monthlySales": "运动相机热销",
+          "rating": "热销",
+          "keyDiff": "GoPro运动场景更强；Pocket 3的智能跟随+竖拍切换对探店/带货内容更友好"
+        },
+        {
+          "name": "索尼 ZV-E10II",
+          "platform": "京东",
+          "price": "¥5,499",
+          "monthlySales": "Vlog微单热销",
+          "rating": "5,499元起",
+          "keyDiff": "ZV-E10II传感器更大可换镜头；Pocket 3口袋便携+机械云台防抖，小白用户门槛更低"
+        }
+      ]
     }
   ]
 }
