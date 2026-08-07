@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-08",
+  "products": [
+    {
+      "id": 1,
+      "name": "小米巨省电1.5P壁挂空调 N1A1",
+      "price": "¥1500（补贴后）",
+      "category": "夏热刚需·空调",
+      "tag": "#空调 #省电 #小米生态",
+      "selling_point": "APF 5.13超一级能效｜30秒速冷｜680m³/h大循环｜米家APP智控",
+      "cloudimgs": "https://cloudimgs.iepose.cn/api/images/product_1_1786143906896_1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Redmi G27U 4K电竞显示器",
+      "price": "¥1599",
+      "category": "数码装备·显示器",
+      "tag": "#4K显示器 #电竞 #Redmi",
+      "selling_point": "4K 160Hz / 1080P 320Hz双模｜1ms GTG｜ΔE<2｜DisplayHDR 400",
+      "cloudimgs": "https://cloudimgs.iepose.cn/api/images/product_2_1786143907555_1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Redmi Turbo 4 Pro 手机",
+      "price": "¥2200（16G+1T补贴后）",
+      "category": "数码旗舰·手机",
+      "tag": "#手机 #骁龙8S Gen4 #性价比",
+      "selling_point": "骁龙8S Gen4旗舰芯｜16GB+1TB超大存储｜高性价比旗舰",
+      "cloudimgs": "https://cloudimgs.iepose.cn/api/images/product_3_1786143908814_1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "OPPO Find N6 折叠屏手机",
+      "price": "¥8999（12GB+256GB，全渠道立减1000元）",
+      "category": "数码折叠·旗舰",
+      "tag": "#折叠屏 #OPPO #哈苏影像",
+      "selling_point": "无感折痕｜钛合金天穹铰链｜哈苏2亿四摄｜6000mAh冰川电池｜80W闪充",
+      "cloudimgs": "https://cloudimgs.iepose.cn/api/images/product_4_1786143910014_1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "霸王茶姬·秋天第一杯奶茶",
+      "price": "¥1.9起（平台补贴）",
+      "category": "食品饮料·情绪消费",
+      "tag": "#奶茶 #秋天第一杯 #霸王茶姬 #热梗消费",
+      "selling_point": "上海522杯排队3h｜情绪消费+热梗消费典型｜各平台补贴1.9元起",
+      "cloudimgs": "https://cloudimgs.iepose.cn/api/images/product_5_1786143911313_1.jpg"
+    }
+  ],
+  "full_card": "https://cloudimgs.iepose.cn/api/images/product_card_full_1786143913117_1.jpg",
+  "slices": [
+    "https://cloudimgs.iepose.cn/api/images/product_slice_1_1786143913816_1.jpg",
+    "https://cloudimgs.iepose.cn/api/images/product_slice_2_1786143914448_1.jpg",
+    "https://cloudimgs.iepose.cn/api/images/product_slice_3_1786143915183_1.jpg",
+    "https://cloudimgs.iepose.cn/api/images/product_slice_4_1786143915940_1.jpg",
+    "https://cloudimgs.iepose.cn/api/images/product_slice_5_1786143916730_1.jpg"
+  ],
+  "feishu_pushed": true,
+  "feishu_push_time": "2026-08-08",
+  "feishu_images_count": 11,
+  "git_commit_hash": null
+}
