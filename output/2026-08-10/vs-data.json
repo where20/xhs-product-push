@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-10",
+  "hotProducts": [
+    {
+      "rank": 1,
+      "name": "小米空调巨省电N1A1",
+      "category": "家电",
+      "search_trend": "热搜霸榜",
+      "avg_price": 1799,
+      "source": "ZOL中关村在线/京东"
+    },
+    {
+      "rank": 2,
+      "name": "Redmi G27U 4K电竞显示器",
+      "category": "数码配件",
+      "search_trend": "电竞季热销",
+      "avg_price": 1599,
+      "source": "ZOL中关村在线/太平洋电脑网"
+    },
+    {
+      "rank": 3,
+      "name": "Redmi Turbo 4 Pro",
+      "category": "手机通讯",
+      "search_trend": "国补热门机型",
+      "avg_price": 1999,
+      "source": "快科技/太平洋电脑网"
+    },
+    {
+      "rank": 4,
+      "name": "大疆Osmo Pocket 3",
+      "category": "影像数码",
+      "search_trend": "Vlog神器热卖",
+      "avg_price": 2299,
+      "source": "DJI官方商城/什么值得买"
+    },
+    {
+      "rank": 5,
+      "name": "认养一头牛纯牛奶",
+      "category": "食品饮料",
+      "search_trend": "双十一乳业销量冠军品牌",
+      "avg_price": 65,
+      "source": "搜狐/知乎/什么值得买"
+    }
+  ],
+  "competitors": [
+    {
+      "product": "小米空调N1A1",
+      "vs": [
+        {
+          "name": "美的酷省电Pro",
+          "price": "约¥2399",
+          "highlight": "一线大牌，AI省电算法"
+        },
+        {
+          "name": "格力云欢Pro",
+          "price": "约¥3599",
+          "highlight": "格力旗舰，压缩机更强"
+        },
+        {
+          "name": "华凌N8HE1",
+          "price": "约¥2299",
+          "highlight": "美的子品牌，性价比高"
+        },
+        {
+          "name": "奥克斯KFR-35GW",
+          "price": "约¥2199",
+          "highlight": "价格屠夫，定频低价"
+        }
+      ]
+    },
+    {
+      "product": "Redmi G27U",
+      "vs": [
+        {
+          "name": "LG 27GP95U",
+          "price": "约¥2799",
+          "highlight": "Nano IPS，4K@144Hz，98% DCI-P3"
+        },
+        {
+          "name": "华硕VG27AQL3A",
+          "price": "约¥1699",
+          "highlight": "2K@180Hz，ELMB Sync"
+        },
+        {
+          "name": "蚂蚁电竞ANT27VU",
+          "price": "约¥1999",
+          "highlight": "4K@160Hz，1ms GTG，95% DCI-P3"
+        },
+        {
+          "name": "创维G27U MAX",
+          "price": "约¥2499",
+          "highlight": "QD-MiniLED，160Hz，2000nits"
+        }
+      ]
+    },
+    {
+      "product": "Redmi Turbo 4 Pro",
+      "vs": [
+        {
+          "name": "iQOO Neo10 Pro",
+          "price": "约¥3199",
+          "highlight": "天玑9400，超声波指纹"
+        },
+        {
+          "name": "一加 Ace 5 Pro",
+          "price": "约¥2999",
+          "highlight": "骁龙8至尊版，风冷散热"
+        },
+        {
+          "name": "真我GT7 Pro",
+          "price": "约¥2899",
+          "highlight": "6500mAh，潜望长焦"
+        }
+      ]
+    },
+    {
+      "product": "大疆Osmo Pocket 3",
+      "vs": [
+        {
+          "name": "索尼ZV-1",
+          "price": "约¥4399",
+          "highlight": "一英寸传感器，人脸优先对焦"
+        },
+        {
+          "name": "GoPro HERO12",
+          "price": "约¥2998",
+          "highlight": "5.3K视频，HyperSmooth防抖"
+        },
+        {
+          "name": "佳能G7X Mark III",
+          "price": "约¥4299",
+          "highlight": "翻转屏，vlog友好"
+        },
+        {
+          "name": "影石Insta360 GO3S",
+          "price": "约¥1999",
+          "highlight": "拇指相机，磁吸配件生态"
+        }
+      ]
+    },
+    {
+      "product": "认养一头牛纯牛奶",
+      "vs": [
+        {
+          "name": "蒙牛特仑苏",
+          "price": "约¥65/箱",
+          "highlight": "3.6g乳蛋白，沙漠有机奶源"
+        },
+        {
+          "name": "伊利金典",
+          "price": "约¥40/箱",
+          "highlight": "3.6g乳蛋白，120mg乳钙"
+        },
+        {
+          "name": "光明致优",
+          "price": "约¥45/箱",
+          "highlight": "娟姗奶源，口感醇厚"
+        },
+        {
+          "name": "圣牧有机",
+          "price": "约¥55/箱",
+          "highlight": "沙漠有机，全程欧盟认证"
+        }
+      ]
+    }
+  ]
+}
