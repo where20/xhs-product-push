@@ -1,0 +1,136 @@
+{
+  "date": "2026-08-11",
+  "products": [
+    {
+      "name": "小米巨省电1.5P壁挂空调 N1A1",
+      "our_price": "¥1500-1899",
+      "competitors": [
+        {
+          "name": "华凌神机二代Pro",
+          "price": "¥2399",
+          "apf": "5.76",
+          "highlight": "双排超导冷凝器+电子膨胀阀，800m³/h大风量"
+        },
+        {
+          "name": "美的酷省电二代Pro",
+          "price": "¥2399",
+          "apf": "5.80",
+          "highlight": "双排铜管+电子膨胀阀，AI酷省电算法，8小时0.8度电"
+        },
+        {
+          "name": "格力云佳Pro",
+          "price": "¥2799",
+          "apf": "5.31",
+          "highlight": "格力凌达压缩机，十年质保，660m³/h风量"
+        },
+        {
+          "name": "海尔净省电Plus",
+          "price": "¥2469",
+          "apf": "6.12",
+          "highlight": "双排铜管，灵犀AI节能，省电46%，AI人体感知"
+        }
+      ],
+      "advantage": "N1A1 APF 5.27 + 米家App生态 + 整机十年质保，同价位智能体验最优，1.5匹新一级能效入门首选"
+    },
+    {
+      "name": "Redmi G27U 4K电竞显示器",
+      "our_price": "¥1599",
+      "competitors": [
+        {
+          "name": "LG 27UQ850",
+          "price": "¥3699",
+          "spec": "4K IPS, 60Hz, HDR400, 98% DCI-P3",
+          "highlight": "LG Nano IPS面板，色彩准确，专业设计级"
+        },
+        {
+          "name": "华硕ROG PG27UQR",
+          "price": "¥4699",
+          "spec": "4K IPS, 160Hz, HDR600, G-Sync",
+          "highlight": "ROG信仰加持，ELMB-SYNC，HDR600认证"
+        },
+        {
+          "name": "KTC H27E6",
+          "price": "¥1079",
+          "spec": "2K 320Hz, Fast IPS, HDR400",
+          "highlight": "同价位刷新率最高，但非4K分辨率"
+        }
+      ],
+      "advantage": "¥1599 4K+160Hz+1ms GTG+HDR400，同价位唯一4K高刷电竞屏，性价比无出其右"
+    },
+    {
+      "name": "追觅T60 Ultra无线洗地机",
+      "our_price": "¥3699",
+      "competitors": [
+        {
+          "name": "添可芙万Stretch Plus",
+          "price": "¥2790",
+          "spec": "18000Pa吸力，180°躺平，12.3cm厚度",
+          "highlight": "软包电池质保3年，双重引力水气分离，40分钟续航"
+        },
+        {
+          "name": "石头A30 Pro Steam 2.0",
+          "price": "¥3299",
+          "spec": "26000Pa吸力，9.1cm超薄，蒸汽自清洁",
+          "highlight": "双鲨齿0缠毛专利，AI智感全向助力，25000Pa暴风吸力"
+        },
+        {
+          "name": "云鲸S3 Max Island",
+          "price": "¥3999",
+          "spec": "23000Pa，4D立体防缠，90°C智能双熨干",
+          "highlight": "多功能集成基站，自清洁灵动岛，MINI剪刀手自动剪毛"
+        }
+      ],
+      "advantage": "T60 Ultra 25Kpa真空度+5000mAh电池+AI双压机械臂+泡沫净洗，国补后到手约¥2398，同价位功能最全"
+    },
+    {
+      "name": "Redmi Turbo 4 Pro 16G+1T",
+      "our_price": "¥2200(国补后)",
+      "competitors": [
+        {
+          "name": "iQOO Neo10 Pro",
+          "price": "¥3199",
+          "spec": "天玑9400, 6.78\"2K, 120W快充",
+          "highlight": "旗舰芯片，游戏体验强，OriginOS 5系统"
+        },
+        {
+          "name": "一加 Ace 6 至尊版",
+          "price": "¥3499",
+          "spec": "骁龙8 Gen3, 165Hz高刷屏, 9000mAh",
+          "highlight": "电竞三芯下放，游戏体验拉满"
+        },
+        {
+          "name": "真我GT Neo 6",
+          "price": "¥1999",
+          "spec": "骁龙8s Gen3, 1.5K屏, 5500mAh",
+          "highlight": "同价位竞品，但芯片和电池均弱于Turbo 4 Pro"
+        }
+      ],
+      "advantage": "骁龙8s Gen4+7550mAh金沙江电池+90W快充，国补后¥1699起，销量破百万，同档性能续航最强"
+    },
+    {
+      "name": "美的云朵二代无风感空调",
+      "our_price": "¥3200-3700(国补后)",
+      "competitors": [
+        {
+          "name": "格力云轩健康款",
+          "price": "¥4199",
+          "spec": "APF 5.32, 紫外线杀菌, 衡温立体送风",
+          "highlight": "UVC PRO深紫外线除菌，母婴级健康标准，十年质保"
+        },
+        {
+          "name": "海尔净省电Plus",
+          "price": "¥2469",
+          "spec": "APF 6.12, AI人体感知, 800m³/h",
+          "highlight": "行业最高能效比，AI灵犀节能，省电46%，雷达避人吹"
+        },
+        {
+          "name": "大金康达气流挂机",
+          "price": "¥4000+",
+          "spec": "康达效应冷风，0.2m/s风速，温湿独立控制",
+          "highlight": "日系精密工艺，气流柔和度行业最优，适合高端用户"
+        }
+      ],
+      "advantage": "第二代双翼无风感+0.3m/s柔风+四重母婴净护+分阶段母婴模式（孕期/0-3岁/3岁+），京东销量TOP1无风感品类，¥3499性价比最优"
+    }
+  ]
+}

@@ -1,51 +1,51 @@
 {
-  "date": "2026-08-05",
-  "generated": "2026-08-05T07:11:34.861583",
+  "date": "2026-08-11",
+  "generated": "2026-08-11T07:00:00.000000",
   "products": [
     {
       "id": 1,
-      "name": "蓝梦茵草本植护染发膏",
-      "category": "居家美妆",
-      "price": "单盒69元/3盒特惠49元",
-      "source": "搜索结果整理"
+      "name": "小米巨省电1.5P壁挂空调 N1A1",
+      "category": "家电空调",
+      "price": "¥1500-1899",
+      "source": "搜索结果整理（IT之家/ZOL/知乎）"
     },
     {
       "id": 2,
-      "name": "麦致植萃染发剂",
-      "category": "居家美妆",
-      "price": "单盒89元/3盒特惠59元",
-      "source": "搜索结果整理"
+      "name": "Redmi G27U 4K电竞显示器",
+      "category": "数码外设",
+      "price": "¥1599",
+      "source": "搜索结果整理（IT之家/企鹅号）"
     },
     {
       "id": 3,
-      "name": "富士 X100VI 数码旁轴相机",
-      "category": "数码影像",
-      "price": "京东11390元起",
-      "source": "ZOL中关村"
+      "name": "Redmi Turbo 4 Pro 16G+1T",
+      "category": "数码手机",
+      "price": "¥2200(国补后)",
+      "source": "搜索结果整理（太平洋/中关村/快科技）"
     },
     {
       "id": 4,
-      "name": "富士 X-M5 复古微单",
-      "category": "数码影像",
-      "price": "全新5000元起",
-      "source": "ZOL中关村"
+      "name": "追觅T60 Ultra无线洗地机",
+      "category": "清洁家电",
+      "price": "¥2398(国补后)",
+      "source": "搜索结果整理（太平洋/知乎）"
     },
     {
       "id": 5,
-      "name": "大疆 Osmo Pocket 3",
-      "category": "智能数码",
-      "price": "活动价曾低至2399元",
-      "source": "搜索结果整理"
+      "name": "美的云朵二代无风感空调",
+      "category": "家电空调",
+      "price": "¥3200-3700(国补后)",
+      "source": "搜索结果整理（京东/知乎）"
     }
   ],
   "imageUrls": {
-    "full": "https://cloudimgs.iepose.cn/api/images/product_card_full_1785884949367_1.jpg",
+    "full": "https://cloudimgs.iepose.cn/api/images/product_card_full_1786403012830_1.jpg",
     "slices": [
-      "https://cloudimgs.iepose.cn/api/images/product_slice_1.jpg",
-      "https://cloudimgs.iepose.cn/api/images/product_slice_2.jpg",
-      "https://cloudimgs.iepose.cn/api/images/product_slice_3.jpg",
-      "https://cloudimgs.iepose.cn/api/images/product_slice_4.jpg",
-      "https://cloudimgs.iepose.cn/api/images/product_slice_5.jpg"
+      "https://cloudimgs.iepose.cn/api/images/product_slice_1_1786403014107_1.jpg",
+      "https://cloudimgs.iepose.cn/api/images/product_slice_2_1786403014266_1.jpg",
+      "https://cloudimgs.iepose.cn/api/images/product_slice_3_1786403014519_1.jpg",
+      "https://cloudimgs.iepose.cn/api/images/product_slice_4_1786403014794_1.jpg",
+      "https://cloudimgs.iepose.cn/api/images/product_slice_5_1786403015105_1.jpg"
     ]
   }
 }
