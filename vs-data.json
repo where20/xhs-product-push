@@ -1,156 +1,215 @@
 {
-  "date": "2026-08-07",
-  "products": [
+  "updateTime": "2026-08-12 07:09",
+  "dataSource": "天猫/京东/中关村在线/什么值得买实测数据",
+  "hotProducts": [
     {
-      "name": "小米巨省电1.5P空调 N1A1",
-      "our_price": "约1500元（国补后）",
-      "competitors": [
-        {
-          "brand": "格力 云佳",
-          "model": "KFR-35GW/NhGs1BGt",
-          "price": "2799-3099元",
-          "key_specs": "APF 5.27，凌达压缩机，1.6排铜管，电子膨胀阀，10年质保",
-          "advantage": "自研压缩机，品牌口碑扎实，10年质保",
-          "weakness": "价格贵500-800元，智能化弱，无米家生态"
-        },
-        {
-          "brand": "华凌 神机二代",
-          "model": "KFR-35GW/N8HE1II",
-          "price": "日常1500-1600元，大促1200-1300元",
-          "key_specs": "双排铜管，电子膨胀阀，全直流变频",
-          "advantage": "美的旗下，同价位配置最强，性价比极高",
-          "weakness": "无米家生态，线下售后网点较少"
-        },
-        {
-          "brand": "美的 酷省电",
-          "model": "KFR-35GW/N8KS1-1Q",
-          "price": "约2587-2699元",
-          "key_specs": "APF 5.30，全直流变频，冷媒流量控制",
-          "advantage": "节能技术成熟，静音好，售后网络完善",
-          "weakness": "价格约2000元，智能化一般"
-        }
-      ]
+      "name": "小米巨省电1.5P壁挂空调 N1A1",
+      "platform": "京东热销榜",
+      "price": "约1500元",
+      "ranking": "1.5匹挂机销量TOP3",
+      "highlight": "小米空调品牌占有率8.2%，仅次于美的、格力"
+    },
+    {
+      "name": "华凌超省电Pro N8HA1Ⅲ-P",
+      "platform": "京东热销榜",
+      "price": "约1359元",
+      "ranking": "千元神机，销量领先",
+      "highlight": "美的子品牌，性价比极高，京东销量断层领先"
     },
     {
       "name": "Redmi G27U 4K电竞显示器",
-      "our_price": "活动价1599元",
+      "platform": "小米官网",
+      "price": "1599元",
+      "ranking": "最便宜4K高刷显示器之一",
+      "highlight": "4K 160Hz双模，小米模具和售后保障"
+    },
+    {
+      "name": "iQOO Z10 Turbo Pro",
+      "platform": "京东/天猫",
+      "price": "1999元起",
+      "ranking": "2026年旗舰爆款",
+      "highlight": "骁龙8s Gen4+自研Q1芯片，120W快充"
+    },
+    {
+      "name": "曼图雅紫草舒缓棒",
+      "platform": "天猫旗舰店",
+      "price": "29.8元/支",
+      "ranking": "天猫母婴止痒类目TOP",
+      "highlight": "全渠道累计销付突破60万件"
+    }
+  ],
+  "selectedProducts": [
+    {
+      "id": 1,
+      "name": "小米巨省电1.5P壁挂空调 N1A1",
+      "category": "家用电器",
+      "price": "约1500元",
+      "keyAdvantage": "超一级能效APF 5.30，智能控制，静音设计"
+    },
+    {
+      "id": 2,
+      "name": "Redmi G27U 4K电竞显示器",
+      "category": "数码配件",
+      "price": "1599元",
+      "keyAdvantage": "4K 160Hz高刷，HDR400，旋转升降支架"
+    },
+    {
+      "id": 3,
+      "name": "Redmi Turbo 4 Pro 手机 16G+1T",
+      "category": "数码手机",
+      "price": "约2200元(国补后)",
+      "keyAdvantage": "骁龙8S Gen4，7550mAh大电池，全金属边框"
+    },
+    {
+      "id": 4,
+      "name": "曼图雅紫草舒缓棒",
+      "category": "母婴用品",
+      "price": "29.8元/支",
+      "keyAdvantage": "11秒止痒99.1%，24小时防抓，0激素0酒精"
+    },
+    {
+      "id": 5,
+      "name": "姿生怡鱼子酱胶原塑颜面膜",
+      "category": "美妆护肤",
+      "price": "约300元/罐",
+      "keyAdvantage": "鲟鱼子酱+低温冷萃专利，SGS无刺激认证"
+    }
+  ],
+  "comparisons": [
+    {
+      "selected": "小米巨省电1.5P壁挂空调 N1A1",
+      "price": "约1500元",
       "competitors": [
         {
-          "brand": "HKC 神盾MG27U",
-          "model": "MG27U",
-          "price": "约3500-4000元",
-          "key_specs": "LG WR8 Nano IPS，4K@160Hz，98% DCI-P3，HDR600",
-          "advantage": "Nano IPS面板色彩更出色，HDR600亮度更高",
-          "weakness": "价格是Redmi G27U的2倍以上，无双模切换"
+          "name": "美的酷省电二代KFR-35GW/KS2",
+          "price": "约1799元",
+          "diff": "+300元",
+          "advantage": "APF 5.35更高，AI酷省电算法，760m³/h大风量",
+          "weakness": "价格更高，智能生态不如小米"
         },
         {
-          "brand": "HKC IG27U",
-          "model": "IG27U",
-          "price": "约2000元",
-          "key_specs": "4K@160Hz，95% DCI-P3，MiniLED背光",
-          "advantage": "MiniLED对比度高，HDR规格好",
-          "weakness": "无双模切换，品牌知名度不如Redmi"
+          "name": "格力云佳Pro",
+          "price": "约2799元",
+          "diff": "+1300元",
+          "advantage": "格力自研压缩机，十年质保，极端环境稳定",
+          "weakness": "价格高出近一倍，无智能生态"
         },
         {
-          "brand": "ASUS VG27AQ",
-          "model": "VG27AQ",
-          "price": "约1800-2000元",
-          "key_specs": "2K@165Hz，IPS，1ms MPRT",
-          "advantage": "品牌可靠，华硕售后，TUF电竞系列口碑好",
-          "weakness": "仅2K分辨率（非4K），刷新率低于Redmi双模"
+          "name": "华凌超省电Pro",
+          "price": "约1359元",
+          "diff": "-141元",
+          "advantage": "更便宜，美的售后，ECO省电",
+          "weakness": "无左右扫风，智能化程度较低"
         }
       ]
     },
     {
-      "name": "大疆 Osmo Pocket 3",
-      "our_price": "标准版3499元",
+      "selected": "Redmi G27U 4K电竞显示器",
+      "price": "1599元",
       "competitors": [
         {
-          "brand": "GoPro Hero 13",
-          "model": "Hero 13 Black",
-          "price": "约3499元",
-          "key_specs": "5.3K@60fps，HyperSmooth 6.0防水，模块化镜头",
-          "advantage": "防水防尘，模块化生态，运动场景适用",
-          "weakness": "无机械云台，防抖不如Pocket 3，无竖拍原生切换"
+          "name": "LG 27GP95U",
+          "price": "约3999元",
+          "diff": "+2400元",
+          "advantage": "Nano IPS，HDR600，更专业的色准",
+          "weakness": "价格高出1.5倍，无内置音箱"
         },
         {
-          "brand": "Insta360 X4",
-          "model": "X4",
-          "price": "约3499元",
-          "key_specs": "8K全景，隐形自拍杆，AI剪辑",
-          "advantage": "全景记录，AI创意玩法丰富",
-          "weakness": "非传统手持形态，全景素材后期处理复杂"
+          "name": "AOC AG273QXP/D",
+          "price": "约2499元",
+          "diff": "+900元",
+          "advantage": "Nano IPS，HDR400，遮光罩",
+          "weakness": "只有2K 165Hz，非4K分辨率"
         },
         {
-          "brand": "索尼 ZV-1 II",
-          "model": "ZV-1 II",
-          "price": "约5199元",
-          "key_specs": "1英寸Exmor RS，18-50mm超广角，指向性麦克风",
-          "advantage": "1英寸传感器画质好，超广角适合Vlog",
-          "weakness": "无机械云台防抖，价格更高"
+          "name": "HKC MG27U",
+          "price": "约2299元",
+          "diff": "+700元",
+          "advantage": "4K 160Hz，Nano IPS，HDR600",
+          "weakness": "品牌知名度和售后不如小米"
         }
       ]
     },
     {
-      "name": "Redmi Turbo 4 Pro",
-      "our_price": "16G+1T约2200元（国补后）",
+      "selected": "Redmi Turbo 4 Pro 手机 16G+1T",
+      "price": "约2200元",
       "competitors": [
         {
-          "brand": "一加 Ace 5 Pro",
-          "model": "Ace 5 Pro",
-          "price": "约2500-3000元（16+256）",
-          "key_specs": "骁龙8 Gen3，1.5K护眼直屏，陶瓷机身，6100mAh",
-          "advantage": "骁龙8 Gen3（比8S Gen4更强），陶瓷质感好",
-          "weakness": "同存储价格更贵，无1TB选项"
+          "name": "iQOO Z10 Turbo Pro",
+          "price": "约1999元",
+          "diff": "-200元",
+          "advantage": "自研Q1电竞芯片，120W快充，144Hz高刷",
+          "weakness": "塑料中框，品牌知名度略低"
         },
         {
-          "brand": "realme GT 7",
-          "model": "GT 7",
-          "price": "约2400-2800元",
-          "key_specs": "天玑9400+，7000mAh超大电池，144Hz直屏",
-          "advantage": "天玑9400+性能强，7000mAh续航怪兽",
-          "weakness": "价格略高，品牌知名度不如Redmi"
+          "name": "一加 Ace 5V",
+          "price": "约1999元",
+          "diff": "-200元",
+          "advantage": "7000mAh超大电池，天玑9系旗舰平台",
+          "weakness": "塑料中框，系统相对简洁"
         },
         {
-          "brand": "iQOO Neo 10",
-          "model": "Neo 10",
-          "price": "约2600-3000元",
-          "key_specs": "骁龙8 Gen3，120W快充，自研电竞芯片Q2",
-          "advantage": "120W快充速度更快，电竞芯片游戏体验好",
-          "weakness": "价格更高，无1TB存储"
+          "name": "真我GT Neo7",
+          "price": "约1999元",
+          "diff": "-200元",
+          "advantage": "6800mAh电池，天玑8400+处理器",
+          "weakness": "品牌影响力不如红米"
         }
       ]
     },
     {
-      "name": "蓝梦茵草本植护染发膏",
-      "our_price": "单盒69元，3盒特惠约49元/盒",
+      "selected": "曼图雅紫草舒缓棒",
+      "price": "29.8元/支",
       "competitors": [
         {
-          "brand": "欧莱雅 卓韵霜",
-          "model": "卓韵霜系列",
-          "price": "单盒约80-100元",
-          "key_specs": "OLAY配方，氨基酸染护，上色均匀",
-          "advantage": "国际品牌背书，配方成熟，知名度高",
-          "weakness": "价格更高，非植物配方，刺鼻气味"
+          "name": "六神止痒膏",
+          "price": "约19.9元/支",
+          "diff": "-9.9元",
+          "advantage": "国民品牌认知度更高，价格更便宜",
+          "weakness": "持效防搔抓率仅92.3%，不如曼图雅"
         },
         {
-          "brand": "施华蔻 怡然",
-          "model": "怡然植物染发系列",
-          "price": "单盒约70-90元",
-          "key_specs": "草本精华，无氨配方，染护一体",
-          "advantage": "施华蔻专业线口碑好，植物成分认可度高",
-          "weakness": "遮白效果弱于蓝梦茵，价格相近"
+          "name": "可优比紫草膏",
+          "price": "约39元/支",
+          "diff": "+9.2元",
+          "advantage": "家庭装常备，肤感清透",
+          "weakness": "综合持效6小时，不如曼图雅24小时"
         },
         {
-          "brand": "花王 莉捷",
-          "model": "莉捷泡染发剂",
-          "price": "单盒约60-80元",
-          "key_specs": "泡沫质地，上色快速，无需调配",
-          "advantage": "泡沫质地使用方便，日本品牌背书",
-          "weakness": "遮白率一般，非植物配方，固色时间短"
+          "name": "S-quitofree止痒膏",
+          "price": "约89元/支",
+          "diff": "+59.2元",
+          "advantage": "德国跨境配方，户外蠓虫叮咬效果好",
+          "weakness": "价格高出2倍，重度出汗后需补涂"
+        }
+      ]
+    },
+    {
+      "selected": "姿生怡鱼子酱胶原塑颜面膜",
+      "price": "约300元/罐",
+      "competitors": [
+        {
+          "name": "珀莱雅红宝石面膜3.0",
+          "price": "约199元/5片",
+          "diff": "+约50元/次",
+          "advantage": "国货大品牌，渠道广，知名度高",
+          "weakness": "单次使用成本高，无鲟鱼子酱成分"
+        },
+        {
+          "name": "欧莱雅玻色因安瓶面膜",
+          "price": "约339元/20片",
+          "diff": "+约15元/次",
+          "advantage": "国际大牌，玻色因抗老成分",
+          "weakness": "单次成本更高，性价比不如姿生怡"
+        },
+        {
+          "name": "理肤泉B5面膜",
+          "price": "约449元/15片",
+          "diff": "+约30元/次",
+          "advantage": "温泉水背景，敏感肌修护专家",
+          "weakness": "无抗老成分，更偏急救舒缓而非抗老"
         }
       ]
     }
-  ],
-  "data_source": "基于2026年8月电商平台搜索结果整理，价格为参考区间，实际以购买渠道为准"
+  ]
 }
