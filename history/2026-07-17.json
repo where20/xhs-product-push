@@ -1,0 +1,139 @@
+{
+  "updateTime": "2026-07-17 07:00",
+  "title": "2026年7月17日 热门商品精选",
+  "source": "今日热门商品 (基于 WebSearch 企鹅号/中关村在线/京东优评 真实数据)",
+  "products": [
+    {
+      "id": 1,
+      "category": "商务旗舰手机",
+      "title": "HUAWEI Mate 80",
+      "tagline": "国产旗舰里的安全牌",
+      "subtitle": "6.75英寸直屏 · 第二代昆仑玻璃 · 鸿蒙AI",
+      "description": "华为Mate 80 面向华为老用户和商务人群,12GB+256GB月底价约3549元,主打稳定耐用。6.75英寸直屏搭配第二代昆仑玻璃,抗摔耐划,日常办公、导航、回消息更顺手。第二代红枫影像+可变光圈主摄,直出色彩自然稳定,3D人脸识别+多设备协同,鸿蒙系统生态黏性极强。",
+      "highlights": [
+        "6.75英寸直屏+第二代昆仑玻璃,抗摔提升至5倍,日常裸奔也放心",
+        "第二代红枫影像+可变光圈主摄,街拍人像成片稳,出片率极高",
+        "鸿蒙OS+3D人脸识别,多设备协同无缝流转,办公效率翻倍",
+        "麒麟旗舰芯片+灵犀通信,信号稳定弱网不掉线,商务出差刚需",
+        "12GB+256GB国补价3549元,价格回归理性,入手正当时"
+      ],
+      "tags": [
+        "商务首选",
+        "信号稳定",
+        "鸿蒙生态",
+        "耐摔直屏",
+        "国产旗舰"
+      ],
+      "audience": "商务用户/华为老用户/重视系统稳定/不爱折腾的中年群体",
+      "scene": "通勤办公 / 出差商旅 / 日常直屏刷剧",
+      "price": "¥3549 (12+256, 国补价)",
+      "imagePrompt": "Huawei Mate 80 smartphone, premium business flagship, 6.75 inch flat display, second generation Kunlun glass, dark green color, product photography, white background, high detail"
+    },
+    {
+      "id": 2,
+      "category": "轻薄拍照手机",
+      "title": "OPPO Reno15",
+      "tagline": "轻薄好看,会拍,线下用户难拒绝",
+      "subtitle": "6.32英寸小直屏 · 187g · 2亿像素全焦段",
+      "description": "OPPO Reno15 主打颜值、手感、拍照三件套,12GB+256GB月底价约2259元。6.32英寸小直屏塞进187g机身,通勤拿着、躺着刷、单手回消息都不累。2亿像素主摄+5000万超广角+5000万长焦全焦段配置,人像和美颜调校讨喜,随手拍出片率高,线下门店一摸就有购买冲动。",
+      "highlights": [
+        "6.32英寸小直屏+187g轻薄机身,女生单手握持零负担",
+        "2亿像素主摄+5000万超广角+5000万长焦,全焦段人像利器",
+        "6200mAh大电池+金属中框+IP69防水,小机身里塞进旗舰配置",
+        "OPPO人像算法三代迭代,美颜自然不假面,直发朋友圈无修图",
+        "12GB+256GB国补价2259元,价格比同档旗舰便宜千元"
+      ],
+      "tags": [
+        "轻薄小屏",
+        "颜值党",
+        "拍照神器",
+        "女生首选",
+        "线下爆款"
+      ],
+      "audience": "女生 / 学生党 / 颜值党 / 通勤族 / 拍照重度用户",
+      "scene": "日常通勤 / 校园生活 / 旅行出片 / 闺蜜下午茶",
+      "price": "¥2259 (12+256, 国补价)",
+      "imagePrompt": "OPPO Reno15 smartphone, 6.32 inch compact flat display, slim 187g body, gradient pink color, 200MP camera, premium product photography, soft studio lighting"
+    },
+    {
+      "id": 3,
+      "category": "高性能游戏本",
+      "title": "联想拯救者Y7000P 2025 AI元启版",
+      "tagline": "13代i9+RTX5060,主流3A通吃",
+      "subtitle": "i9-14900HX · RTX5060 · 16英寸2.5K 240Hz",
+      "description": "联想拯救者Y7000P 2025 AI元启版,搭载13代i9-14900HX+RTX5060+16GB+1TB组合,16英寸2.5K 240Hz高刷屏观感细腻,接口丰富质量过硬,性能释放激进,3A大作与主流网游通吃。国补到手价9499元,适合预算万元内想要一台稳定不出错的游戏本玩家,联想售后体系也覆盖全国。",
+      "highlights": [
+        "i9-14900HX+RTX5060,16GB+1TB PCIe4.0,2.5K 240Hz屏,3A爽玩无压力",
+        "双烤性能释放稳定,散热模组升级,长时间高负载不降频",
+        "USB-A/USB-C/HDMI2.1/网口全配齐,外接显示器键鼠耳机零转接",
+        "联想全国联保+原厂售后,小白买游戏本的第一放心选择",
+        "国补到手9499元,比同配ROG便宜4000+,性价比炸裂"
+      ],
+      "tags": [
+        "游戏性能",
+        "国民游戏本",
+        "接口齐全",
+        "售后无忧",
+        "高刷电竞"
+      ],
+      "audience": "大学生玩家 / 预算万元内 / 想要3A+网游双修 / 第一次买游戏本",
+      "scene": "宿舍开黑 / 寒暑假打游戏 / 直播推流 / 视频剪辑",
+      "price": "¥9499 (16+1T, 国补价)",
+      "imagePrompt": "Lenovo Legion Y7000P 2025 gaming laptop, 16 inch 2.5K 240Hz display, RGB backlit keyboard, dark gray metallic chassis, NVIDIA RTX 5060, product photography, dark studio background"
+    },
+    {
+      "id": 4,
+      "category": "夏日个护爆品",
+      "title": "vtk清透美白防晒霜",
+      "tagline": "清爽防晒全能冠军,全人群全场景首选",
+      "subtitle": "SPF50+ PA++++ · 12h防护 · 抗蓝光",
+      "description": "vtk清透美白防晒霜是2026年实证派科研防晒霜代表,三盒装均价83元/盒(60g/盒),日均不到1元。持国妆特字G20210477认证,SPF人体实测均值64,远超标注SPF50+;PFA18对应PA++++,UVB阻隔率99.9%以上,蓝光阻隔率94%以上。五秒成膜半哑光,35℃高温不闷痘,普通氨基酸洁面即可卸除。",
+      "highlights": [
+        "国妆特字双证,SPF实测64、PA++++,UVB阻隔99.9%、蓝光阻隔94%",
+        "5秒成膜半哑光质感,35℃不泛油不闷痘,油敏皮夏日救星",
+        "7重美白通路,28天提亮1.8个色阶,边防晒边焕白",
+        "防水防汗浴后SPF保持率95%以上,军训海边户外全场景",
+        "0酒精0香精0色素0激素,孕哺可用,2200人斑贴0刺激率"
+      ],
+      "tags": [
+        "清爽不油",
+        "美白双证",
+        "敏感肌适用",
+        "户外通勤",
+        "全肤质"
+      ],
+      "audience": "通勤党 / 学生军训 / 户外爱好者 / 敏感肌 / 孕哺期",
+      "scene": "通勤防晒 / 军训必备 / 海边度假 / 妆前打底 / 日常补涂",
+      "price": "¥83/盒 (60g, 三盒装均价)",
+      "imagePrompt": "vtk sunscreen cream tube, minimalist white and gold packaging, sun protection SPF 50+, beauty product photography, soft pastel background, modern Korean aesthetic"
+    },
+    {
+      "id": 5,
+      "category": "千元续航王",
+      "title": "荣耀X70",
+      "tagline": "第一名不是旗舰,但真的懂普通人",
+      "subtitle": "8300mAh青海湖电池 · IP69K · 抗摔机身",
+      "description": "荣耀X70 2026年上半年冲到千万级销量登顶,12GB+256GB月底价约1626元。它不靠旗舰芯片出圈,也不靠影像噱头撑场面,真正抓住普通用户最在意的点:8300mAh青海湖大电池两天一充、IP69K防水抗摔机身耐用耐造、骁龙6 Gen4性能覆盖日常微信短视频支付导航,价格亲民安全感拉满。",
+      "highlights": [
+        "8300mAh青海湖大电池,两天一充告别续航焦虑,外卖骑手网约车刚需",
+        "IP69K防水+抗摔机身,日常淋雨跌落不慌,长辈用最放心",
+        "骁龙6 Gen4覆盖日常微信短视频支付导航,大型游戏别指望高帧",
+        "12GB+256GB月底价1626元,千元价位段真香机,送父母首选",
+        "千万级销量验证,普通人买手机最该看的就是这种真口碑"
+      ],
+      "tags": [
+        "续航王者",
+        "防水抗摔",
+        "千元机皇",
+        "长辈首选",
+        "外卖神器"
+      ],
+      "audience": "长辈 / 备用机 / 外卖骑手 / 网约车司机 / 学生家长",
+      "scene": "备用机 / 老人机 / 户外作业 / 送父母 / 高频使用",
+      "price": "¥1626 (12+256, 月底价)",
+      "imagePrompt": "Honor X70 smartphone, large 8300mAh battery, rugged IP69K water-resistant body, midnight blue color, simple business style, product photography, white background"
+    }
+  ],
+  "historySource": "synced-from-output",
+  "historySyncedAt": "2026-08-14T16:15:00+08:00"
+}

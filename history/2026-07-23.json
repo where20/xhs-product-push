@@ -1,0 +1,134 @@
+{
+  "date": "2026-07-23",
+  "title": "三伏天居家清凉季 · 5 件降温神器",
+  "subtitle": "制冰机 · 直流变频扇 · AI循环扇 · 节能空调 · 智能冰吧",
+  "products": [
+    {
+      "id": 1,
+      "category": "居家制冰",
+      "title": "惠康HZB-16AT 双重抑菌制冰机",
+      "tagline": "UV实时消毒 · 纳米抗菌内胆 · 6分钟出冰",
+      "description": "三伏天最幸福的事，莫过于打开冰箱拿出一杯透心凉的冰饮。惠康这款双重抑菌制冰机，UV紫外线实时消毒加上纳米抗菌内胆，从制冰到储冰全程洁净，冰块可直接入口。最快6分钟出冰，单次9颗，储冰量高达61颗，无论是独享冰咖还是家庭聚会都能从容应对。机身小巧不占台面，一键触控老人也能用，京东清凉季补贴价只要257元。",
+      "highlights": [
+        "UV紫外线实时消毒+纳米抗菌内胆，双重杀菌，冰块洁净可直饮",
+        "最快6分钟出冰，单次出冰9颗，储冰量61颗，满足家庭聚会需求",
+        "子弹头圆冰设计，大小冰可调，硬度高不易融化",
+        "一键自清洁功能，制冰结束后自动清洗，卫生无忧",
+        "机身小巧不占台面，一键触控操作，老人也能轻松上手"
+      ],
+      "tags": [
+        "UV消毒",
+        "抗菌内胆",
+        "6分钟出冰",
+        "自清洁",
+        "小巧便携"
+      ],
+      "audience": "居家冰饮爱好者 / 夏日囤冰家庭 / 奶茶咖啡DIY人群",
+      "price_ref": "¥257（政府补贴价）/ 原价¥309",
+      "price_origin": "日常价约¥409",
+      "mmx_prompt": "A sleek white countertop ice maker machine on a modern kitchen counter, glossy finish, modern minimalist kitchen interior, condensation droplets on the machine, ice cubes visible inside the transparent window, bright natural daylight from window, product photography style, 1:1 square format, clean background."
+    },
+    {
+      "id": 2,
+      "category": "静音风扇",
+      "title": "艾美特轻语系列 直流变频落地扇",
+      "tagline": "21.8dB超低噪音 · 9档风量 · 独立驱蚊模块",
+      "description": "空调开太久费电，风扇直吹又怕着凉。艾美特轻语系列直流变频落地扇，自研安睡直流电机，噪音低至21.8dB，9档风量自由调节，老人孩子都能找到最舒适那一档。搭载独立驱蚊模块，搭配市面主流驱蚊液，吹风同时温和驱蚊，守护整夜安眠。台地两用设计，卧室、客厅、书房随时切换，京东补贴后仅169元。",
+      "highlights": [
+        "自研安睡直流电机，运行噪音低至21.8dB，夜间近乎无声",
+        "9档风量调节，满足老人、孩子、成人不同体感需求",
+        "独立驱蚊模块，可替换市面主流驱蚊液，吹风同时温和驱蚊",
+        "台地两用设计，卧室、客厅、书房多场景灵活切换",
+        "一级能效直流变频，9小时定时关机，省电省心"
+      ],
+      "tags": [
+        "超低噪音",
+        "直流变频",
+        "驱蚊功能",
+        "台地两用",
+        "一级能效"
+      ],
+      "audience": "母婴家庭 / 浅眠人群 / 老人房 · 客厅纳凉",
+      "price_ref": "¥169（政府补贴价）",
+      "price_origin": "日常价约¥249",
+      "mmx_prompt": "A tall elegant floor standing electric fan in a clean white bedroom, minimalist Scandinavian interior design, soft morning light through sheer curtains, wooden floor, peaceful and cozy atmosphere, product photography style, 1:1 square format."
+    },
+    {
+      "id": 3,
+      "category": "AI循环扇",
+      "title": "格力织风者AI+ 智能空气循环扇",
+      "tagline": "AI温感识温调速 · 语音智控 · 12米超长送风",
+      "description": "想让整个房间快速降温，一台风扇显然不够。格力织风者AI+循环扇，AI温感识别系统实时监测室温，自动调节风速，不用动手张嘴就来。螺旋桨式扇叶配合直流变频电机，12米超长送风距离，3D立体宽域送风，把冷气均匀铺满全屋。母婴级抗菌防护滤网，睡眠模式噪音低至19.8分贝，329元买一台全家享受。",
+      "highlights": [
+        "AI温感识别系统，实时监测室温自动调节风速，解放双手",
+        "螺旋桨式扇叶+直流变频电机，12米超长送风，3D宽域立体送风",
+        "母婴级抗菌防护滤网，有效减少二次污染，吹出洁净风",
+        "睡眠模式噪音低至19.8dB，几乎无声，适合婴儿房和主卧",
+        "支持AI语音智控，开机即用，操作零门槛"
+      ],
+      "tags": [
+        "AI温感",
+        "12米送风",
+        "抗菌滤网",
+        "语音智控",
+        "超静音"
+      ],
+      "audience": "大户型家庭 / 母婴家庭 / 追求全屋清凉的消费者",
+      "price_ref": "¥329（政府补贴价）",
+      "price_origin": "日常价约¥499",
+      "mmx_prompt": "A modern AI-powered air circulator fan in a contemporary living room, sleek silver and white design, futuristic smart home aesthetic, warm ambient lighting, visible airflow pattern illustration, clean modern interior, product photography, 1:1 square format."
+    },
+    {
+      "id": 4,
+      "category": "节能空调",
+      "title": "海尔净省电Plus 大1.5匹挂机空调",
+      "tagline": "APF值6.12超一级能效 · 双排铜管 · 精准控温",
+      "description": "三伏天开空调，电费账单让人心惊。海尔净省电Plus挂机，APF值高达6.12，远超一级能效标准，冷暖更快、更省电。外机双排铜管设计，散热效率更高；电子膨胀阀精准控温，室内温度波动小，体感更舒适。政府补贴后仅2124元，一台空调用十年，省下的电费比空调本身还多。",
+      "highlights": [
+        "APF值6.12，远超一级能效，实测比普通空调省电约30%",
+        "外机双排铜管设计，换热效率更高，制冷制热速度更快",
+        "电子膨胀阀精准控温，室内温差波动小，体感舒适不忽冷忽热",
+        "智能WiFi远程控制，下班路上提前开机，到家即享清凉",
+        "56℃自清洁技术，出风洁净无异味，呼吸健康有保障"
+      ],
+      "tags": [
+        "超一级能效",
+        "双排铜管",
+        "智能WiFi",
+        "自清洁",
+        "省电30%"
+      ],
+      "audience": "有娃家庭 / 电费敏感家庭 / 大户型客厅",
+      "price_ref": "¥2124（政府补贴价）",
+      "price_origin": "日常价约¥2799",
+      "mmx_prompt": "A sleek white wall-mounted split air conditioner in a modern Chinese living room, minimalist interior, soft diffused light, neat and clean environment, contemporary furniture, product photography, 1:1 square format."
+    },
+    {
+      "id": 5,
+      "category": "智能冰吧",
+      "title": "小熊Bear 智能制冰机 6分钟速冰款",
+      "tagline": "40dB静音 · 预约制冰 · 触显操作",
+      "description": "睡前预约，起床就有新鲜冰块。小熊Bear这款制冰机，6-8分钟出冰一次，每次9颗子弹冰，日产量99-108颗，轻松满足一家三口全天需求。ABS树脂层+加厚高密发泡层+食品级接触层，三层材质保障食品安全。低噪节能压缩机，运行仅40分贝，夜间不扰眠。触显屏幕操作，大小冰可选，缺水满冰自动提示，智能又省心。",
+      "highlights": [
+        "6-8分钟出冰一次，日产99-108颗，满足全家全天冰量需求",
+        "ABS树脂+高密发泡+食品级接触层，三层材质食品安全有保障",
+        "低噪节能压缩机，运行噪音仅40dB，夜间不扰眠",
+        "24小时预约制冰功能，睡前预约、起床即用，智能便捷",
+        "触显屏幕操作，大小冰可选，缺水/满冰自动提示"
+      ],
+      "tags": [
+        "静音制冰",
+        "预约制冰",
+        "触显操作",
+        "食品级安全",
+        "日产百颗"
+      ],
+      "audience": "有娃家庭 / 冰饮爱好者 / 追求静音体验的用户",
+      "price_ref": "¥459（京东热销价）",
+      "price_origin": "日常价约¥499",
+      "mmx_prompt": "A cute compact white ice maker machine with a digital display screen, placed on a white marble kitchen counter, small modern apartment kitchen, soft overhead lighting, condensation drops on the machine surface, clean and fresh aesthetic, product photography style, 1:1 square format."
+    }
+  ],
+  "historySource": "synced-from-output",
+  "historySyncedAt": "2026-08-14T16:15:00+08:00"
+}

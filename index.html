@@ -1485,28 +1485,43 @@ async function loadHistoryDay(date, el) {
     currentProducts = data.products || [];
     if (currentProducts.length > 0) {
       const listEl = document.getElementById('productList');
-      listEl.innerHTML = currentProducts.map((p, i) => `
-        <div class="product-item" onclick="openLightbox(${i})">
-          <div class="img-wrap">
-            <img src="${p.image || ''}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22340%22 height=%22754%22><rect fill=%22%230D1117%22 width=%22340%22 height=%22754%22/><text fill=%22%23484F58%22 x=%22170%22 y=%22380%22 text-anchor=%22middle%22 font-size=%2216%22>暂无图片</text></svg>'">
-            <div class="zoom-btn">🔍</div>
-            <div class="view-hint">点击查看完整大图</div>
+      // 兼容新旧结构（有 image 用 image，无则用 products 数组里第一个 images 数组）
+      listEl.innerHTML = currentProducts.map((p, i) => {
+        const img = p.image || (p.images && p.images[0]) || '';
+        const links = p.links || {};
+        const linkBtns = [];
+        if (links.jd)     linkBtns.push(`<a class="jd" href="${links.jd}" target="_blank" rel="noopener">🏪 京东</a>`);
+        if (links.taobao) linkBtns.push(`<a class="taobao" href="${links.taobao}" target="_blank" rel="noopener">🛒 淘宝</a>`);
+        if (links.pdd)    linkBtns.push(`<a class="pdd" href="${links.pdd}" target="_blank" rel="noopener">💬 拼多多</a>`);
+        const tagsHtml = (p.tags || []).map(t => `<span class="tag-pill">${t}</span>`).join('');
+        return `
+          <div class="product-item" onclick="openLightbox(${i})">
+            <div class="img-wrap">
+              <img src="${img}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'">
+              <div class="zoom-btn">🔍</div>
+              <div class="view-hint">点击查看完整大图</div>
+            </div>
+            <div class="info">
+              <div class="name">${p.name}</div>
+              <div class="category">${p.category || '精选好物'}</div>
+              ${p.priceRange ? `<div class="price">${p.priceRange}</div>` : ''}
+              ${tagsHtml ? `<div class="tags-wrap">${tagsHtml}</div>` : ''}
+              ${linkBtns.length > 0 ? `<div class="platform-links">${linkBtns.join('')}</div>` : ''}
+            </div>
           </div>
-          <div class="info">
-            <div class="name">${p.name}</div>
-            <div class="category">${p.category || '精选好物'}</div>
-            ${(p.tags && p.tags.length > 0) ? `<div class="tags-wrap">${p.tags.map(t => `<span class="tag-pill">${t}</span>`).join('')}</div>` : ''}
-          </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
 
       document.querySelector('.products-section h2').innerHTML =
-        `📅 ${date} 精选好物 <span style="font-size:13px;color:#8B949E;font-weight:400;">（点击图片查看大图）</span>`;
+        `📅 ${date} 精选好物 <span style="font-size:13px;color:#8B949E;font-weight:400;">（点击历史商品卡片可查看大图）</span>`;
 
       document.querySelector('.products-section').scrollIntoView({ behavior: 'smooth' });
+    } else {
+      alert(`${date} 这一天没有商品数据`);
     }
   } catch (e) {
     console.error('加载历史数据失败:', e);
+    alert(`加载 ${date} 历史数据失败：${e.message || '文件不存在'}\n可能该日期的 output 文件未同步到 history/`);
   }
 }
 
