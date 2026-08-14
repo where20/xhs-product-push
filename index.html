@@ -1223,10 +1223,33 @@ let currentIndex = 0;
 let currentVsProducts = [];
 let currentVsIndex = 0;
 
+// 智能 fetch：优先读今天日期子路径，404 时回退根路径（绕开 CDN 缓存）
+async function smartFetchData() {
+  const today = new Date().toISOString().slice(0, 10);
+  const ts = Date.now();
+  // 优先读今天日期子路径（新 URL，CDN 没缓存，立即拉新版）
+  try {
+    const r = await fetch(`./output/${today}/data.json?t=${ts}`);
+    if (r.ok) return r;
+  } catch (e) {}
+  // 回退到根路径
+  return await fetch(`./data.json?t=${ts}`);
+}
+
+async function smartFetchVs() {
+  const today = new Date().toISOString().slice(0, 10);
+  const ts = Date.now();
+  try {
+    const r = await fetch(`./output/${today}/vs-data.json?t=${ts}`);
+    if (r.ok) return r;
+  } catch (e) {}
+  return await fetch(`./vs-data.json?t=${ts}`);
+}
+
 // ===== 从 data.json 加载实时数据 =====
 async function loadData() {
   try {
-    const res = await fetch('./data.json?t=' + Date.now());
+    const res = await smartFetchData();
     if (!res.ok) throw new Error('no data');
     const data = await res.json();
 
@@ -1364,7 +1387,7 @@ async function loadHotProducts() {
   const container = document.getElementById('hotGrid');
   const updateTimeEl = document.getElementById('hotUpdateTime');
   try {
-    const res = await fetch('./vs-data.json?t=' + Date.now());
+    const res = await smartFetchVs();
     if (!res.ok) throw new Error('no vs data');
     const data = await res.json();
 
@@ -1423,7 +1446,7 @@ setInterval(() => {
   const el = document.getElementById('hotUpdateTime');
   if (el && lastHotUpdate) {
     // Re-read the time from the data
-    fetch('./vs-data.json?t=' + Date.now())
+    fetch('./output/' + new Date().toISOString().slice(0,10) + '/vs-data.json?t=' + Date.now()).catch(() => fetch('./vs-data.json?t=' + Date.now()))
       .then(r => r.json())
       .then(d => { if (d.updateTime) el.textContent = relativeTime(d.updateTime); })
       .catch(() => {});
@@ -1435,7 +1458,7 @@ async function loadVsData() {
   const container = document.getElementById('vsPairs');
   const subtitleEl = document.getElementById('vsSubtitle');
   try {
-    const res = await fetch('./vs-data.json?t=' + Date.now());
+    const res = await smartFetchVs();
     if (!res.ok) throw new Error('no vs data');
     const data = await res.json();
 
@@ -1454,7 +1477,7 @@ async function loadVsData() {
     currentVsProducts = [];
 
     // 从今日选品 product 获取主商品信息（读 data.json 单商品结构）
-    const prodRes = await fetch('./data.json?t=' + Date.now()).catch(() => null);
+    const prodRes = await smartFetchData().catch(() => null);
     const prodData = prodRes && prodRes.ok ? await prodRes.json() : {};
     const mainProduct = prodData.product || {};
     const mainImg = mainProduct.image || '';
