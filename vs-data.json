@@ -8,7 +8,10 @@
       "price": "约1500-1800元（国补后）",
       "rating": "好评率97%+",
       "note": "盛夏8月空调需求旺季，苏宁易购显示月销1768台",
-      "image": "orig_product_1.jpg"
+      "image": "orig_product_1.jpg",
+      "category": "数码电子",
+      "sales": "月销1768+",
+      "tag": "热销"
     },
     {
       "name": "Redmi G27U 4K电竞显示器",
@@ -16,7 +19,10 @@
       "price": "约1599元（活动价）",
       "rating": "京东10万+评论",
       "note": "4K高刷显示器热榜常驻，HKC/AOC同类产品竞争激烈",
-      "image": "orig_product_2.jpg"
+      "image": "orig_product_2.jpg",
+      "category": "数码电子",
+      "sales": "10万+评论",
+      "tag": "热销"
     },
     {
       "name": "Redmi Turbo 4 Pro 手机 16G+1TB",
@@ -24,7 +30,10 @@
       "price": "约1999元（国补后）",
       "rating": "评分4.6/5",
       "note": "1TB大容量手机性价比标杆，中关村在线热门推荐",
-      "image": "orig_product_3.jpg"
+      "image": "orig_product_3.jpg",
+      "category": "数码电子",
+      "sales": "评分4.6/5",
+      "tag": "热销"
     },
     {
       "name": "兰蔻菁纯臻护护肤礼盒",
@@ -32,7 +41,10 @@
       "price": "约480-780元",
       "rating": "好评率98%+",
       "note": "七夕送礼季大牌护肤礼盒，京东「礼上加礼777」活动加持",
-      "image": "orig_product_4.jpg"
+      "image": "orig_product_4.jpg",
+      "category": "美妆护肤",
+      "sales": "好评率98%+",
+      "tag": "热销"
     },
     {
       "name": "意肤美白祛斑霜",
@@ -40,7 +52,10 @@
       "price": "约158元（50g）",
       "rating": "好评率98.9%，近128万条评价样本",
       "note": "五通路淡斑成分体系，28天实测数据亮眼，院线渠道布局",
-      "image": "orig_product_5.jpg"
+      "image": "orig_product_5.jpg",
+      "category": "美妆护肤",
+      "sales": "128万+评价",
+      "tag": "热销"
     }
   ],
   "selectedProducts": [
