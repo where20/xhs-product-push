@@ -1,0 +1,83 @@
+{
+  "date": "2026-08-14",
+  "dataSource": "WebSearch 搜索结果整理",
+  "totalRuns": 3,
+  "totalProducts": 15,
+  "lastRunDate": "2026-08-14",
+  "status": "运行中",
+  "updateTime": "2026-08-14 07:30",
+  "product": {
+    "id": 3,
+    "name": "Redmi Turbo 4 Pro",
+    "subtitle": "骁龙8S Gen4 · 7550mAh巨无霸电池 · 全金属边框",
+    "category": "数码电子",
+    "description": "大容量手机越来越贵，这款反而性价比炸裂！Redmi Turbo 4 Pro，骁龙8S Gen4处理器，与8 Elite同款架构，日常使用流畅不卡顿。核心亮点是全金属边框+7550mAh超大容量电池，续航焦虑彻底解决。屏幕是1.5K护眼直屏，长时间刷视频不累眼。适合作为备用机、游戏机，或者送给长辈/学生党的主力机。",
+    "highlights": [
+      "骁龙8S Gen4处理器，与8 Elite同架构，日常性能无瓶颈",
+      "7550mAh超大容量电池，两天一充，告别续航焦虑",
+      "全金属边框，质感出色，2000元档难得的工艺水准",
+      "1.5K护眼直屏，长时间使用护眼舒适",
+      "国补后性价比炸裂，8月换机季首选"
+    ],
+    "tags": ["大容量", "超长续航", "性价比旗舰", "国补神机", "护眼屏幕"],
+    "target": "学生党、送礼备用机、大内存刚需、长辈用户",
+    "image": "orig_product_3.jpg",
+    "configurations": [
+      {
+        "id": "c1",
+        "name": "12GB+256GB 标配版",
+        "price": "约1699元",
+        "originalPrice": "约1999元",
+        "tag": "入门首选",
+        "specs": {
+          "内存": "12GB LPDDR5X",
+          "存储": "256GB UFS 3.1",
+          "电池": "7550mAh",
+          "快充": "90W"
+        },
+        "links": {
+          "jd": "https://search.jd.com/Search?keyword=Redmi+Turbo4+Pro+12+256",
+          "taobao": "https://s.taobao.com/search?q=Redmi+Turbo4+Pro+12GB+256GB",
+          "pdd": "https://youhui.pinduoduo.com/search-result?keyword=Redmi+Turbo4+Pro+12GB"
+        }
+      },
+      {
+        "id": "c2",
+        "name": "16GB+512GB 高配版",
+        "price": "约1999元",
+        "originalPrice": "约2299元",
+        "tag": "均衡之选",
+        "specs": {
+          "内存": "16GB LPDDR5X",
+          "存储": "512GB UFS 3.1",
+          "电池": "7550mAh",
+          "快充": "90W"
+        },
+        "links": {
+          "jd": "https://search.jd.com/Search?keyword=Redmi+Turbo4+Pro+16+512",
+          "taobao": "https://s.taobao.com/search?q=Redmi+Turbo4+Pro+16GB+512GB",
+          "pdd": "https://youhui.pinduoduo.com/search-result?keyword=Redmi+Turbo4+Pro+16GB"
+        }
+      },
+      {
+        "id": "c3",
+        "name": "16GB+1TB 顶配版（推荐）",
+        "price": "约2200元",
+        "originalPrice": "约2599元",
+        "tag": "性价比之王",
+        "recommended": true,
+        "specs": {
+          "内存": "16GB LPDDR5X",
+          "存储": "1TB UFS 3.1",
+          "电池": "7550mAh",
+          "快充": "90W"
+        },
+        "links": {
+          "jd": "https://search.jd.com/Search?keyword=Redmi+Turbo4+Pro+16+1T",
+          "taobao": "https://s.taobao.com/search?q=Redmi+Turbo4+Pro+16GB+1TB",
+          "pdd": "https://youhui.pinduoduo.com/search-result?keyword=Redmi+Turbo4+Pro+1TB"
+        }
+      }
+    ]
+  }
+}
