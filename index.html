@@ -125,7 +125,7 @@
     margin-top: 8px;
   }
 
-  /* ===== 今日精选选品展示（单商品+多配置） ===== */
+  /* ===== 今日精选选品展示（5 商品卡片 grid） ===== */
   .products-section {
     max-width: 1100px;
     margin: 0 auto 60px;
@@ -136,42 +136,48 @@
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 24px;
-    color: #E6EDF3;
   }
-  /* 单商品大卡片 */
-  .product-feature {
-    background: rgba(22,27,34,0.85);
-    border: 1px solid rgba(48,54,61,0.8);
-    border-radius: 16px;
-    overflow: hidden;
+  .product-list {
     display: grid;
-    grid-template-columns: 340px 1fr;
-    min-height: 420px;
-    transition: border-color 0.3s;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
   }
-  .product-feature:hover {
-    border-color: rgba(88,166,255,0.3);
-  }
-  /* 左：图片区 */
-  .product-feature .feature-img-wrap {
-    position: relative;
-    background: #0D1117;
-    cursor: zoom-in;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .product-item {
+    background: rgba(22,27,34,0.8);
+    border: 1px solid rgba(48,54,61,0.8);
+    border-radius: 12px;
     overflow: hidden;
+    transition: border-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
   }
-  .product-feature .feature-img-wrap img {
+  .product-item:hover {
+    border-color: rgba(88,166,255,0.4);
+    transform: translateY(-2px);
+  }
+  .product-item .img-wrap {
+    position: relative;
+    flex-shrink: 0;
+    background: #0D1117;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .product-item .img-wrap img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    background: #0D1117;
     transition: transform 0.3s ease;
   }
-  .product-feature:hover .feature-img-wrap img {
+  .product-item:hover .img-wrap img {
     transform: scale(1.03);
   }
-  .feature-img-wrap .zoom-btn {
+  .product-item .zoom-btn {
     position: absolute;
     top: 12px; right: 12px;
     width: 36px; height: 36px;
@@ -183,50 +189,51 @@
     justify-content: center;
     font-size: 16px;
     color: #fff;
-    opacity: 0.85;
-    transition: opacity 0.2s, background 0.2s;
     pointer-events: none;
+    opacity: 0.85;
+    transition: opacity 0.2s, background 0.2s, transform 0.2s;
   }
-  .product-feature:hover .zoom-btn {
+  .product-item:hover .zoom-btn {
     opacity: 1;
     background: rgba(88,166,255,0.3);
+    border-color: rgba(88,166,255,0.5);
+    transform: scale(1.1);
   }
-  /* 右：配置区 */
-  .product-feature .feature-right {
-    padding: 28px 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    overflow-y: auto;
-  }
-  .feature-right .feature-header {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  .feature-right .feature-category {
+  .product-item .view-hint {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 8px;
+    text-align: center;
     font-size: 12px;
+    color: rgba(255,255,255,0.55);
+    background: linear-gradient(transparent, rgba(0,0,0,0.65));
+    pointer-events: none;
+  }
+  .product-item .info {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .product-item .name {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #E6EDF3;
+  }
+  .product-item .category {
+    font-size: 13px;
     color: #58A6FF;
     font-weight: 500;
-    letter-spacing: 0.5px;
   }
-  .feature-right .feature-name {
-    font-size: 20px;
-    font-weight: 800;
-    color: #E6EDF3;
-    line-height: 1.3;
-  }
-  .feature-right .feature-subtitle {
-    font-size: 13px;
-    color: #8B949E;
-    line-height: 1.5;
-  }
-  .feature-right .tags-wrap {
+  .product-item .tags-wrap {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
+    margin-top: 4px;
   }
-  .feature-right .tag-pill {
+  .product-item .tags-wrap .tag-pill {
     font-size: 11px;
     padding: 3px 10px;
     border-radius: 10px;
@@ -234,131 +241,32 @@
     color: #79C0FF;
     border: 1px solid rgba(88,166,255,0.15);
   }
-  /* 配置对比表 */
-  .config-section-title {
+  .product-item .price {
     font-size: 14px;
-    font-weight: 600;
-    color: #8B949E;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .config-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .config-table th {
-    padding: 10px 14px;
-    font-size: 12px;
-    font-weight: 600;
-    color: #8B949E;
-    text-align: left;
-    background: rgba(13,17,23,0.6);
-    border-bottom: 1px solid rgba(48,54,61,0.6);
-    white-space: nowrap;
-  }
-  .config-table th:first-child { border-radius: 8px 0 0 0; }
-  .config-table th:last-child { border-radius: 0 8px 0 0; }
-  .config-table td {
-    padding: 12px 14px;
-    font-size: 13px;
-    border-bottom: 1px solid rgba(48,54,61,0.3);
-    vertical-align: middle;
-  }
-  .config-table tr:last-child td { border-bottom: none; }
-  .config-table .cfg-name {
-    font-weight: 600;
-    color: #E6EDF3;
-    white-space: nowrap;
-  }
-  .config-table .cfg-tag {
-    display: inline-block;
-    font-size: 10px;
-    padding: 2px 7px;
-    border-radius: 6px;
-    margin-left: 6px;
-    vertical-align: middle;
-    font-weight: 500;
-  }
-  .cfg-tag.recommended {
-    background: rgba(63,185,80,0.15);
-    color: #3FB950;
-    border: 1px solid rgba(63,185,80,0.25);
-  }
-  .cfg-tag.default {
-    background: rgba(88,166,255,0.1);
-    color: #58A6FF;
-    border: 1px solid rgba(88,166,255,0.15);
-  }
-  .config-table .cfg-price {
     color: #FF6A00;
     font-weight: 700;
-    white-space: nowrap;
+    margin-top: 4px;
   }
-  .config-table .cfg-orig {
-    font-size: 11px;
-    color: #484F58;
-    text-decoration: line-through;
-    margin-left: 4px;
-  }
-  .config-table .cfg-specs {
-    font-size: 11px;
-    color: #8B949E;
-    line-height: 1.6;
-  }
-  /* 平台链接按钮 */
-  .cfg-links {
+  .product-item .platform-links {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
   }
-  .cfg-link-btn {
+  .product-item .platform-links a {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
     padding: 4px 10px;
     border-radius: 6px;
     font-size: 11px;
     font-weight: 600;
     text-decoration: none;
     transition: opacity 0.2s, transform 0.15s;
-    white-space: nowrap;
-    width: fit-content;
   }
-  .cfg-link-btn:hover { opacity: 0.85; transform: translateY(-1px); }
-  .cfg-link-btn.jd { background: #E1251B; color: #fff; }
-  .cfg-link-btn.taobao { background: #FF5000; color: #fff; }
-  .cfg-link-btn.pdd { background: #E1302A; color: #fff; }
-  .cfg-link-btn .platform-icon {
-    font-size: 12px;
-    line-height: 1;
-  }
-  /* 特色亮点 */
-  .feature-highlights {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    padding: 16px;
-    background: rgba(13,17,23,0.4);
-    border-radius: 10px;
-    border: 1px solid rgba(48,54,61,0.4);
-  }
-  .feature-highlights .highlight-item {
-    font-size: 12px;
-    color: #8B949E;
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    line-height: 1.5;
-  }
-  .feature-highlights .highlight-item::before {
-    content: '✓';
-    color: #3FB950;
-    font-weight: 700;
-    flex-shrink: 0;
-    margin-top: 1px;
-  }
+  .product-item .platform-links a:hover { opacity: 0.85; transform: translateY(-1px); }
+  .product-item .platform-links .jd { background: #E1251B; color: #fff; }
+  .product-item .platform-links .taobao { background: #FF5000; color: #fff; }
+  .product-item .platform-links .pdd { background: #E1302A; color: #fff; }
   .no-data {
     text-align: center;
     color: #484F58;
@@ -1082,7 +990,7 @@
 <section class="hero">
   <div class="hero-badge">每日自动运行 · 无需人工干预</div>
   <h1>小红书带货<br>AI 自动化工作流</h1>
-  <p>搜索热门 → AI精选 → 配置对比 → 多平台购买链接，每日精选好物直达飞书群</p>
+  <p>搜索热门 → AI选品 → 生成图文 → 自动推送，每天5款精选好物直达飞书群</p>
 </section>
 
 <!-- 实时数据 -->
@@ -1111,8 +1019,8 @@
 
 <!-- 今日精选选品 -->
 <section class="products-section">
-  <h2>🎯 今日精选选品</h2>
-  <div id="productFeature">
+  <h2>今日精选好物 <span style="font-size:13px;color:#8B949E;font-weight:400;">（点击图片查看大图）</span></h2>
+  <div class="product-list" id="productList">
     <div class="no-data">加载中，或今日尚未执行...</div>
   </div>
 </section>
@@ -1156,7 +1064,7 @@
     <div class="step-card">
       <div class="step-num">1</div>
       <h3>AI 搜索选品</h3>
-      <p>自动搜索小红书热门商品趋势，智能筛选当日最佳单品，多配置多平台对比一目了然</p>
+      <p>自动搜索小红书热门商品趋势，智能筛选5个差异化品类，避免同质化</p>
     </div>
     <div class="step-card">
       <div class="step-num">2</div>
@@ -1260,93 +1168,38 @@ async function loadData() {
     document.getElementById('status').textContent = data.status || '运行中';
     document.getElementById('updateTime').textContent = '最近更新：' + (data.updateTime || '--');
 
-    // 今日精选选品（单商品+多配置）
-    const product = data.product;
-    const container = document.getElementById('productFeature');
-
-    if (product) {
-      const imgSrc = product.image || '';
-      // 平台链接HTML
-      function cfgLinks(config) {
-        const links = config.links || {};
-        const btns = [];
-        if (links.jd)     btns.push(`<a class="cfg-link-btn jd" href="${links.jd}" target="_blank" rel="noopener">🏪 京东</a>`);
-        if (links.taobao)  btns.push(`<a class="cfg-link-btn taobao" href="${links.taobao}" target="_blank" rel="noopener">🛒 淘宝</a>`);
-        if (links.pdd)    btns.push(`<a class="cfg-link-btn pdd" href="${links.pdd}" target="_blank" rel="noopener">💬 拼多多</a>`);
-        return btns.join('');
-      }
-      // specs HTML
-      function cfgSpecs(config) {
-        const specs = config.specs || {};
-        return Object.entries(specs).map(([k, v]) => `<div>${k}: <strong>${v}</strong></div>`).join('');
-      }
-      // 配置行
-      const configRows = (product.configurations || []).map(cfg => {
-        const tagHtml = cfg.tag
-          ? `<span class="cfg-tag ${cfg.recommended ? 'recommended' : 'default'}">${cfg.tag}</span>`
-          : '';
+    // 今日精选选品（5 个不同商品卡片）
+    currentProducts = data.products || [];
+    if (currentProducts.length > 0) {
+      const listEl = document.getElementById('productList');
+      listEl.innerHTML = currentProducts.map((p, i) => {
+        // 平台链接按钮
+        const links = p.links || {};
+        const linkBtns = [];
+        if (links.jd)     linkBtns.push(`<a class="jd" href="${links.jd}" target="_blank" rel="noopener">🏪 京东</a>`);
+        if (links.taobao) linkBtns.push(`<a class="taobao" href="${links.taobao}" target="_blank" rel="noopener">🛒 淘宝</a>`);
+        if (links.pdd)    linkBtns.push(`<a class="pdd" href="${links.pdd}" target="_blank" rel="noopener">💬 拼多多</a>`);
+        const tagsHtml = (p.tags || []).map(t => `<span class="tag-pill">${t}</span>`).join('');
         return `
-          <tr>
-            <td>
-              <div class="cfg-name">${cfg.name}</div>${tagHtml}
-            </td>
-            <td>
-              <span class="cfg-price">${cfg.price}</span>
-              ${cfg.originalPrice ? `<span class="cfg-orig">${cfg.originalPrice}</span>` : ''}
-            </td>
-            <td><div class="cfg-specs">${cfgSpecs(cfg)}</div></td>
-            <td><div class="cfg-links">${cfgLinks(cfg)}</div></td>
-          </tr>
+          <div class="product-item" onclick="openLightbox(${i})">
+            <div class="img-wrap">
+              <img src="${p.image || ''}" alt="${p.name}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22340%22 height=%22340%22><rect fill=%22%230D1117%22 width=%22340%22 height=%22340%22/><text fill=%22%23484F58%22 x=%22170%22 y=%22175%22 text-anchor=%22middle%22 font-size=%2216%22>暂无图片</text></svg>'">
+              <div class="zoom-btn">🔍</div>
+              <div class="view-hint">点击查看完整大图</div>
+            </div>
+            <div class="info">
+              <div class="name">${p.name}</div>
+              <div class="category">${p.category || '精选好物'}</div>
+              ${p.priceRange ? `<div class="price">${p.priceRange}</div>` : ''}
+              ${(p.tags && p.tags.length > 0) ? `<div class="tags-wrap">${tagsHtml}</div>` : ''}
+              ${linkBtns.length > 0 ? `<div class="platform-links">${linkBtns.join('')}</div>` : ''}
+            </div>
+          </div>
         `;
       }).join('');
-
-      // 亮点
-      const highlightsHtml = (product.highlights || []).map(h =>
-        `<div class="highlight-item">${h}</div>`
-      ).join('');
-
-      // tags
-      const tagsHtml = (product.tags || []).map(t => `<span class="tag-pill">${t}</span>`).join('');
-
-      container.innerHTML = `
-        <div class="product-feature">
-          <div class="feature-img-wrap" style="cursor:zoom-in" onclick="openSingleLightbox('${imgSrc}', '${product.name}')">
-            <img src="${imgSrc}" alt="${product.name}" loading="lazy" onerror="this.style.display='none'" />
-            <div class="zoom-btn">🔍</div>
-          </div>
-          <div class="feature-right">
-            <div class="feature-header">
-              <div class="feature-category">${product.category || '精选好物'}</div>
-              <div class="feature-name">${product.name}</div>
-              ${product.subtitle ? `<div class="feature-subtitle">${product.subtitle}</div>` : ''}
-              ${tagsHtml ? `<div class="tags-wrap">${tagsHtml}</div>` : ''}
-            </div>
-
-            ${highlightsHtml ? `
-            <div class="feature-highlights">${highlightsHtml}</div>
-            ` : ''}
-
-            ${configRows ? `
-            <div>
-              <div class="config-section-title">📊 配置对比</div>
-              <table class="config-table">
-                <thead>
-                  <tr>
-                    <th>配置版本</th>
-                    <th>到手价</th>
-                    <th>核心规格</th>
-                    <th>购买链接</th>
-                  </tr>
-                </thead>
-                <tbody>${configRows}</tbody>
-              </table>
-            </div>
-            ` : ''}
-          </div>
-        </div>
-      `;
     } else {
-      container.innerHTML = '<div class="no-data">今日尚未执行，稍后再来看看</div>';
+      document.getElementById('productList').innerHTML =
+        '<div class="no-data">今日尚未执行，稍后再来看看</div>';
     }
   } catch (e) {
     document.getElementById('totalRuns').textContent = '0';
@@ -1354,19 +1207,9 @@ async function loadData() {
     document.getElementById('lastRunDate').textContent = '--';
     document.getElementById('status').textContent = '待启动';
     document.getElementById('updateTime').textContent = '等待首次执行数据';
-    document.getElementById('productFeature').innerHTML =
+    document.getElementById('productList').innerHTML =
       '<div class="no-data">等待首次执行数据...</div>';
   }
-}
-
-// 单图大图预览（选品区块专用）
-function openSingleLightbox(src, name) {
-  const lb = document.getElementById('lightbox');
-  const img = document.getElementById('lightboxImg');
-  const title = document.getElementById('lightboxTitle');
-  img.src = src;
-  title.innerHTML = `<span>${name || ''}</span>`;
-  lb.classList.add('active');
 }
 
 // ===== 从 vs-data.json 加载热门商品 =====
@@ -1476,22 +1319,25 @@ async function loadVsData() {
     // 重置 VS 图片数组
     currentVsProducts = [];
 
-    // 从今日选品 product 获取主商品信息（读 data.json 单商品结构）
+    // 从今日选品 data.json 拿 5 个商品图（用 products 数组）
     const prodRes = await smartFetchData().catch(() => null);
     const prodData = prodRes && prodRes.ok ? await prodRes.json() : {};
-    const mainProduct = prodData.product || {};
-    const mainImg = mainProduct.image || '';
-    const mainName = mainProduct.name || '';
-    const mainPrice = mainProduct.priceRange || '';
-
-    // 全局左侧图索引（主商品只用一张）
-    const mainIndex = mainImg ? (currentVsProducts.push({ src: mainImg, name: mainName }), currentVsProducts.length - 1) : -1;
+    const productsArr = prodData.products || [];
+    const productById = {};
+    productsArr.forEach(p => { productById[p.id] = p; });
 
     container.innerHTML = comparisons.map(c => {
       const productName = c.productName || '';
-      const vsItems = c.vs || [];
+      const productId = c.productId;
+      const mainProduct = productById[productId] || {};
+      const mainImg = mainProduct.image || '';
+      const mainName = mainProduct.name || productName;
+      const mainPrice = mainProduct.priceRange || '';
+
+      const mainIndex = mainImg ? (currentVsProducts.push({ src: mainImg, name: mainName }), currentVsProducts.length - 1) : -1;
 
       // 每组：左侧=今日精选主商品，右侧=竞品列表（只取第一个）
+      const vsItems = c.vs || [];
       const competitor = vsItems[0] || {};
       const compIndex = currentVsProducts.length;
       if (competitor.image) currentVsProducts.push({ src: competitor.image, name: competitor.name || '' });
@@ -1504,7 +1350,7 @@ async function loadVsData() {
           <div class="vs-card left">
             ${mainImg ? `<img class="vs-img" src="${mainImg}" alt="${mainName}" loading="lazy" style="cursor:zoom-in" onclick="openVsLightbox(${mainIndex})" onerror="this.style.display='none'">` : ''}
             <div class="vs-info">
-              <span class="vs-source">🎯 今日精选</span>
+              <span class="vs-source">🎯 今日精选 #${productId || ''}</span>
               <div class="vs-name">${mainName}</div>
               <div class="vs-cat">${mainProduct.category || ''}</div>
               ${mainPrice ? `<div class="vs-price">${mainPrice}</div>` : ''}

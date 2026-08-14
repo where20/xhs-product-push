@@ -82,67 +82,23 @@ def upload_image(token, img_path):
 
 def build_card(image_keys, date_str, product_data=None):
     """构建飞书卡片：
-    - 顶部：主商品图（单张 orig_product_N.jpg）
-    - 中部：配置对比表（名称 / 价格 / 购买链接）
+    - 5 张精选商品图（orig_product_1~5.jpg）
     - 底部：来源说明
     """
     elements = []
 
-    # 图片（单商品）
-    for fname in image_keys:
-        elements.append({"tag": "img", "img_key": image_keys[fname]})
-
-    # 配置对比
-    if product_data:
-        elements.append({"tag": "hr"})
-        elements.append({
-            "tag": "div",
-            "text": {
-                "tag": "lark_md",
-                "content": f"**📦 {product_data.get('name', '精选好物')}**\n_{product_data.get('subtitle', '')}_\n\n**📊 配置对比**"
-            }
-        })
-
-        configs = product_data.get('configurations', [])
-        for cfg in configs:
-            cfg_tag = cfg.get('tag', '')
-            rec_tag = ' ⭐ 推荐' if cfg.get('recommended') else ''
-            price = cfg.get('price', '')
-            orig = cfg.get('originalPrice', '')
-            orig_str = f' ~~{orig}~~' if orig else ''
-            specs = cfg.get('specs', {})
-            spec_str = ' / '.join(f'{k}:{v}' for k, v in specs.items())
-            links = cfg.get('links', {})
-
-            link_parts = []
-            if links.get('jd'):     link_parts.append(f'[京东购买]({links["jd"]})')
-            if links.get('taobao'): link_parts.append(f'[淘宝购买]({links["taobao"]})')
-            if links.get('pdd'):    link_parts.append(f'[拼多多]({links["pdd"]})')
-            link_str = ' | '.join(link_parts)
-
-            content = f"**{cfg.get('name', '')}**{rec_tag} {cfg_tag}\n"
-            content += f"{price}{orig_str}\n"
-            if spec_str: content += f"`{spec_str}`\n"
-            if link_str: content += link_str
-            content += "\n---\n"
-
-            elements.append({
-                "tag": "div",
-                "text": {"tag": "lark_md", "content": content.strip()}
-            })
-    else:
-        # 无 data.json 时回退旧逻辑
-        ordered = [f"orig_product_{i}.jpg" for i in range(1, 6)]
-        for i, fname in enumerate(ordered):
-            if fname in image_keys:
-                elements.append({"tag": "img", "img_key": image_keys[fname]})
-                if i < len(ordered) - 1:
-                    elements.append({"tag": "hr"})
+    # 按 orig_product_1~5 顺序排版图片
+    ordered = [f"orig_product_{i}.jpg" for i in range(1, 6)]
+    for i, fname in enumerate(ordered):
+        if fname in image_keys:
+            elements.append({"tag": "img", "img_key": image_keys[fname]})
+            if i < len(ordered) - 1:
+                elements.append({"tag": "hr"})
 
     elements.append({
         "tag": "note",
         "elements": [
-            {"tag": "plain_text", "content": f"📅 {date_str} | AI选品推送 | xhs.220616.xyz"}
+            {"tag": "plain_text", "content": f"📅 {date_str} | 图床: cloudimgs.iepose.cn | 共 {len(image_keys)} 张"}
         ]
     })
 
@@ -151,8 +107,8 @@ def build_card(image_keys, date_str, product_data=None):
         "card": {
             "config": {"wide_screen_mode": True},
             "header": {
-                "title": {"tag": "plain_text", "content": f"🎯 今日精选 · {date_str}"},
-                "template": "blue"
+                "title": {"tag": "plain_text", "content": f"📦 今日好物推荐 · {date_str}"},
+                "template": "red"
             },
             "elements": elements
         }
@@ -190,17 +146,16 @@ def main():
         print("⚠️ 跳过飞书推送 (webhook_url 为占位)")
         sys.exit(0)
 
-    # 读取 data.json 拿 product info（单商品+多配置）
-    product_data = None
+    # 读取 data.json 拿商品统计（仅 5 商品结构下的 products 数组）
+    products = None
     data_json_path = os.path.join(output_dir, "data.json")
     if os.path.exists(data_json_path):
         try:
             with open(data_json_path) as f:
                 dj = json.load(f)
-                product_data = dj.get("product")
-                if product_data:
-                    print(f"✅ 读取到精选商品: {product_data.get('name', '?')}")
-                    print(f"   配置数: {len(product_data.get('configurations', []))}")
+                products = dj.get("products")
+                if products:
+                    print(f"✅ 读取到 {len(products)} 个精选商品")
         except Exception as e:
             print(f"⚠️ data.json 读取失败: {e}")
 
@@ -211,32 +166,17 @@ def main():
     token = get_token(app_id, app_secret)
     print(f"✅")
 
-    # Step 2: 上传图片
-    # 新结构：只上传精选商品的 orig_product_{id}.jpg
-    # 旧结构回退：扫全部 orig_product_*.jpg
+    # Step 2: 上传图片（5 张商品图，orig_product_1~5.jpg）
+    image_files = sorted(glob.glob(os.path.join(output_dir, "orig_product_*.jpg")))
     image_keys = {}
-    if product_data and product_data.get("id") and product_data.get("image"):
-        # 新结构：单商品精准上传
-        fname = product_data["image"]
-        img_path = os.path.join(output_dir, fname)
-        if os.path.exists(img_path):
-            print(f"  [2/4] 上传精选图 {fname} ...", end=" ", flush=True)
-            try:
-                image_keys[fname] = upload_image(token, img_path)
-                print(f"✅ img_key={image_keys[fname][:30]}...")
-            except Exception as e:
-                print(f"❌ {e}")
-    else:
-        # 旧结构回退：扫全部
-        image_files = sorted(glob.glob(os.path.join(output_dir, "orig_product_*.jpg")))
-        for img_path in image_files:
-            fname = os.path.basename(img_path)
-            print(f"  [2/4] 上传 {fname} ...", end=" ", flush=True)
-            try:
-                image_keys[fname] = upload_image(token, img_path)
-                print(f"✅ img_key={image_keys[fname][:30]}...")
-            except Exception as e:
-                print(f"❌ {e}")
+    for img_path in image_files:
+        fname = os.path.basename(img_path)
+        print(f"  [2/4] 上传 {fname} ...", end=" ", flush=True)
+        try:
+            image_keys[fname] = upload_image(token, img_path)
+            print(f"✅ img_key={image_keys[fname][:30]}...")
+        except Exception as e:
+            print(f"❌ {e}")
 
     if not image_keys:
         print("⚠️ 没有成功上传的图片,跳过推送")
@@ -244,8 +184,8 @@ def main():
 
     # Step 3: 拼卡
     print("  [3/4] 构建 interactive card ...", end=" ", flush=True)
-    card = build_card(image_keys, date_str, product_data)
-    print(f"✅")
+    card = build_card(image_keys, date_str)
+    print(f"✅ ({len(image_keys)} 张图)")
 
     # Step 4: POST webhook
     print("  [4/4] POST 到飞书 webhook ...", end=" ", flush=True)
