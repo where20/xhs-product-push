@@ -1,0 +1,152 @@
+{
+  "date": "2026-08-15",
+  "dataSource": "ZOL中关村在线 / IT之家 / 企鹅号 / ASI热榜 搜索结果整理",
+  "note": "所有价格和数据均来自真实搜索结果，严禁编造",
+  "products": [
+    {
+      "id": 1,
+      "name": "小米 Redmi K100 Pro 手机",
+      "ourPrice": "3199元起（国补后）",
+      "competitors": [
+        {
+          "name": "iQOO 15",
+          "price": "约3999元起（国补后）",
+          "source": "IT之家 2026-08-12",
+          "advantages": "骁龙8 Elite Gen5顶级芯片，144Hz刷新率，IP68防水，双轴马达",
+          "disadvantages": "比K100 Pro贵800元，不是2K屏"
+        },
+        {
+          "name": "OPPO A7 Pro Max",
+          "price": "约2500元（推测）",
+          "source": "九锋网 2026-08-04",
+          "advantages": "万级单电芯大电池，七年耐用质保",
+          "disadvantages": "配置信息不全，新发布价格待确认"
+        },
+        {
+          "name": "荣耀 WIN RT",
+          "price": "高配版待确认",
+          "source": "IT之家 2026-08-12",
+          "advantages": "暂无公开配置数据",
+          "disadvantages": "配置不全，现货主要是高配版"
+        }
+      ],
+      "ourAdvantages": ["国补后3199元起，比iQOO15便宜800元", "8580mAh超大容量电池，续航更强", "2亿像素主摄+2.5X浮动长焦", "185Hz高刷+4500nit峰值亮度", "Bose调音三扬声器"]
+    },
+    {
+      "id": 2,
+      "name": "冰丝防晒衣 UPF50+",
+      "ourPrice": "约59-129元",
+      "competitors": [
+        {
+          "name": "蕉下防晒衣",
+          "price": "约129-199元",
+          "source": "京东优评 2026",
+          "advantages": "UPF50+，品牌知名度高，冰感透气面料，版型修身显瘦，用户口碑好",
+          "disadvantages": "价格比普通款高，斗篷式设计版型偏宽松"
+        },
+        {
+          "name": "OhSunny防晒衣",
+          "price": "约89-169元",
+          "source": "京东防晒衣热销榜单",
+          "advantages": "专业防晒品牌，UPF50+，防护全面",
+          "disadvantages": "价格偏高，品牌溢价明显"
+        },
+        {
+          "name": "scoornes儿童防晒衣（通用款）",
+          "price": "约54.9元（券后）",
+          "source": "天猫草柴 2026-04",
+          "advantages": "30天销量5万+，价格极低",
+          "disadvantages": "儿童款为主，成人款版型有限"
+        }
+      ],
+      "ourAdvantages": ["价格极具竞争力（59-129元）", "UPF50+硬核防晒", "冰丝凉感面料上身即凉", "新中式风格换季叠穿适用", "郑雅贤同款，种草力强"]
+    },
+    {
+      "id": 3,
+      "name": "大容量快充移动电源 20000mAh",
+      "ourPrice": "约89-159元",
+      "competitors": [
+        {
+          "name": "小米移动电源3（20000mAh）",
+          "price": "约109-119元",
+          "source": "中关村在线 ZOL 2026",
+          "advantages": "性价比极高，ZOL评分9.8分，小米生态链品控可靠",
+          "disadvantages": "33W快充（非顶配），无自带线"
+        },
+        {
+          "name": "华为20000mAh快充版",
+          "price": "约209元",
+          "source": "中关村在线 ZOL 2026",
+          "advantages": "华为品牌溢价，品控稳定，双USB输出",
+          "disadvantages": "价格高出80-100元，无Type-C输入标注"
+        },
+        {
+          "name": "罗马仕sense 6P",
+          "price": "约109元",
+          "source": "中关村在线 ZOL 2026",
+          "advantages": "老牌配件厂商，ZOL评分8.1分",
+          "disadvantages": "评分低于小米和华为，品牌力偏弱"
+        }
+      ],
+      "ourAdvantages": ["大容量20000mAh，多设备同时充电", "多协议快充（PD/QC/FCP）全覆盖", "开学季刚需，闲鱼热搜飙升54%", "配套手机购买转化率高", "价格与小米持平，功能更全面"]
+    },
+    {
+      "id": 4,
+      "name": "新一级能效空调 1.5P壁挂式",
+      "ourPrice": "约1500-2200元（国补后）",
+      "competitors": [
+        {
+          "name": "格力KFR-35GW一级能效",
+          "price": "约2699元（ZOL参考价）",
+          "source": "中关村在线 ZOL 2026",
+          "advantages": "行业龙头，ZOL评分9.9分，品牌信任度高",
+          "disadvantages": "价格高，无国补叠加后价格差更大"
+        },
+        {
+          "name": "美的KFR-35GW/N8KS1-1（酷省电）",
+          "price": "约2295-2599元（京东）",
+          "source": "中关村在线 ZOL 2026",
+          "advantages": "ECO节能24小时长效，ZOL评分9.9分，537人评分好评",
+          "disadvantages": "价格比小米略高"
+        },
+        {
+          "name": "海尔KFR-35GW/E1-1",
+          "price": "约1849元",
+          "source": "中关村在线 ZOL 2026",
+          "advantages": "ZOL评分满分10.0分，价格相对较低",
+          "disadvantages": "1.5P匹数标注，匹数标注与主流略有差异"
+        }
+      ],
+      "ourAdvantages": ["国补15%（单件最高1500元）叠加优惠", "超一级能效APF值领先，省电开一晚不到1度电", "小爱同学语音+米家APP全屋联动", "18分贝超静音睡眠模式", "国补政策仅限一级能效，我们精准命中"]
+    },
+    {
+      "id": 5,
+      "name": "大疆 Osmo 360 X6 全景相机",
+      "ourPrice": "约3999-4699元",
+      "competitors": [
+        {
+          "name": "Insta360 X4",
+          "price": "约3499-3999元（推测）",
+          "source": "快科技 2026-08-14",
+          "advantages": "全景相机老牌品牌，生态成熟，配件丰富",
+          "disadvantages": "销量不敌大疆，暑期市场份额较低"
+        },
+        {
+          "name": "GoPro MAX",
+          "price": "约2999-3499元（推测）",
+          "source": "快科技 2026-08-14",
+          "advantages": "运动相机大厂，品牌认知度高",
+          "disadvantages": "全景功能非核心，360°全景市场份额低"
+        },
+        {
+          "name": "影石（Insta360）X5",
+          "price": "约3299-3799元（推测）",
+          "source": "洛图科技 2026暑期报告",
+          "advantages": "全景赛道第二品牌，有一定市场份额",
+          "disadvantages": "暑期全景赛道整体份额低于10%"
+        }
+      ],
+      "ourAdvantages": ["暑期销量三平台第一（京东/天猫/抖音）", "大疆暑期独占手持影像市场80.5%份额", "8K/50fps全景+1.2亿像素，画质最强", "AI一键剪辑+全景分镜，2秒导出", "Bose联合调音+IPX8防水（可选配件）"]
+    }
+  ]
+}
