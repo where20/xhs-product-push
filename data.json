@@ -24,7 +24,7 @@
       "target": "新房装修、空调换代、夏日消暑、租房升级",
       "priceRange": "约1500-1800元",
       "source": "2026年8月值得购买电子产品推荐",
-      "image": "product_1.jpg"
+      "image": "orig_product_1.jpg"
     },
     {
       "id": 2,
@@ -48,7 +48,7 @@
       "target": "电竞玩家、设计师、影视爱好者、性价比党",
       "priceRange": "约1599-1799元",
       "source": "2026年8月值得购买电子产品推荐",
-      "image": "product_2.jpg"
+      "image": "orig_product_2.jpg"
     },
     {
       "id": 3,
@@ -72,7 +72,7 @@
       "target": "学生党、送礼备用机、大内存刚需、长辈用户",
       "priceRange": "约2200元（国补后）",
       "source": "2026年8月值得购买电子产品推荐",
-      "image": "product_3.jpg"
+      "image": "orig_product_3.jpg"
     },
     {
       "id": 4,
@@ -96,7 +96,7 @@
       "target": "七夕送礼、恋人送礼、女性长辈、生日礼物",
       "priceRange": "约480-780元",
       "source": "2026年8月礼物推荐热搜",
-      "image": "product_4.jpg"
+      "image": "orig_product_4.jpg"
     },
     {
       "id": 5,
@@ -120,7 +120,7 @@
       "target": "熬夜党、晒后修复、色斑困扰、肤色不均人群",
       "priceRange": "约158元（50g）",
       "source": "2026美白护肤品口碑排行榜",
-      "image": "product_5.jpg"
+      "image": "orig_product_5.jpg"
     }
   ]
 }
