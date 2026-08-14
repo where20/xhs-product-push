@@ -1256,10 +1256,35 @@ async function loadVsData() {
     // 重置 VS 图片数组
     currentVsProducts = [];
 
-    container.innerHTML = comparisons.map(c => {
-      const left = c.searchResult || {};
-      const right = c.hotProduct || {};
-      const query = c.searchQuery || '';
+    // 适配现有 vs-data.json 结构: {comparisons: [{productId, productName, vs: [...]}]}
+    const pairs = [];
+    comparisons.forEach(c => {
+      const left = {
+        name: c.productName,
+        category: c.productId ? `选品 #${c.productId}` : '',
+        image: `orig_product_${c.productId}.jpg`,
+        tags: ['选品'],
+      };
+      (c.vs || []).forEach(v => {
+        pairs.push({
+          left: left,
+          right: {
+            name: v.name,
+            price: v.price,
+            source: v.source,
+            pros: v.pros,
+            cons: v.cons,
+            tags: ['竞品'],
+          },
+          searchQuery: c.productName,
+        });
+      });
+    });
+
+    container.innerHTML = pairs.map(p => {
+      const left = p.left;
+      const right = p.right;
+      const query = p.searchQuery || '';
 
       // 左侧：选品在阿里巴巴搜索结果
       const leftSource = query ? `🔍 阿里巴巴搜"${query}"` : '🔍 阿里巴巴搜索结果';
