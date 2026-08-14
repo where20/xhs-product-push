@@ -107,281 +107,232 @@
     "status": "运行中"
   },
   {
-    "date": "2026-06-30",
-    "totalRuns": 16,
-    "productCount": 5,
-    "updateTime": "2026-06-30 07:00",
-    "status": "运行中"
-  },
-  {
-    "date": "2026-07-01",
-    "totalRuns": 17,
-    "productCount": 5,
-    "updateTime": "2026-07-01 09:45",
-    "status": "运行中"
-  },
-  {
-    "date": "2026-07-02",
-    "totalRuns": 18,
-    "productCount": 5,
-    "updateTime": "2026-07-02 07:00",
-    "status": "运行中"
-  },
-  {
-    "date": "2026-07-03",
-    "totalRuns": 19,
-    "productCount": 1,
-    "updateTime": "2026-07-03 08:18",
-    "status": "运行中"
-  },
-  {
-    "date": "2026-07-04",
-    "totalRuns": 20,
-    "productCount": 5,
-    "updateTime": "2026-07-04 07:00",
-    "status": "运行中"
-  },
-  {
-    "date": "2026-07-05",
-    "totalRuns": 21,
-    "productCount": 5,
-    "updateTime": "2026-07-05 07:00",
-    "status": "运行中"
-  },
-  {
-    "date": "2026-07-06",
-    "totalRuns": 22,
-    "productCount": 5,
-    "updateTime": "2026-07-06 07:00",
-    "status": "运行中"
-  },
-  {
     "date": "2026-07-07",
-    "totalRuns": 23,
+    "totalRuns": 16,
     "productCount": 5,
     "updateTime": "2026-07-07 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-07-08",
-    "totalRuns": 24,
+    "totalRuns": 17,
     "productCount": 5,
     "updateTime": "2026-07-08 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-07-09",
-    "totalRuns": 25,
+    "totalRuns": 18,
     "productCount": 5,
     "updateTime": "2026-07-09 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-10",
-    "totalRuns": 26,
+    "totalRuns": 19,
     "productCount": 5,
     "updateTime": "2026-07-10 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-11",
-    "totalRuns": 27,
+    "totalRuns": 20,
     "productCount": 5,
     "updateTime": "2026-07-11 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-12",
-    "totalRuns": 28,
+    "totalRuns": 21,
     "productCount": 5,
     "updateTime": "2026-07-12 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-07-13",
-    "totalRuns": 29,
+    "totalRuns": 22,
     "productCount": 5,
     "updateTime": "2026-07-13 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-14",
-    "totalRuns": 30,
+    "totalRuns": 23,
     "productCount": 5,
     "updateTime": "2026-07-14 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-16",
-    "totalRuns": 31,
+    "totalRuns": 24,
     "productCount": 5,
     "updateTime": "2026-07-16 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-17",
-    "totalRuns": 32,
+    "totalRuns": 25,
     "productCount": 5,
     "updateTime": "2026-07-17 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-07-18",
-    "totalRuns": 33,
+    "totalRuns": 26,
     "productCount": 5,
     "updateTime": "2026-07-18 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-07-19",
-    "totalRuns": 34,
+    "totalRuns": 27,
     "productCount": 5,
     "updateTime": "2026-07-19 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-07-20",
-    "totalRuns": 35,
+    "totalRuns": 28,
     "productCount": 5,
     "updateTime": "2026-07-20 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-07-21",
-    "totalRuns": 36,
+    "totalRuns": 29,
     "productCount": 5,
     "updateTime": "2026-07-21 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-22",
-    "totalRuns": 37,
+    "totalRuns": 30,
     "productCount": 5,
     "updateTime": "2026-07-22 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-23",
-    "totalRuns": 38,
+    "totalRuns": 31,
     "productCount": 5,
     "updateTime": "2026-07-23 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-24",
-    "totalRuns": 39,
+    "totalRuns": 32,
     "productCount": 5,
     "updateTime": "2026-07-24 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-25",
-    "totalRuns": 40,
+    "totalRuns": 33,
     "productCount": 5,
     "updateTime": "2026-07-25 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-26",
-    "totalRuns": 41,
+    "totalRuns": 34,
     "productCount": 5,
     "updateTime": "2026-07-26 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-27",
-    "totalRuns": 42,
+    "totalRuns": 35,
     "productCount": 5,
     "updateTime": "2026-07-27 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-28",
-    "totalRuns": 43,
+    "totalRuns": 36,
     "productCount": 5,
     "updateTime": "2026-07-28 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-07-29",
-    "totalRuns": 44,
+    "totalRuns": 37,
     "productCount": 5,
     "updateTime": "2026-07-29T07:00:00",
     "status": "运行中"
   },
   {
     "date": "2026-07-30",
-    "totalRuns": 45,
+    "totalRuns": 38,
     "productCount": 5,
     "updateTime": "2026-07-30 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-07-31",
-    "totalRuns": 46,
+    "totalRuns": 39,
     "productCount": 5,
     "updateTime": "2026-07-31 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-08-01",
-    "totalRuns": 47,
+    "totalRuns": 40,
     "productCount": 5,
     "updateTime": "2026-08-01 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-08-02",
-    "totalRuns": 48,
+    "totalRuns": 41,
     "productCount": 5,
     "updateTime": "2026-08-02 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-08-03",
-    "totalRuns": 49,
+    "totalRuns": 42,
     "productCount": 5,
     "updateTime": "2026-08-03 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-08-08",
-    "totalRuns": 50,
+    "totalRuns": 43,
     "productCount": 5,
     "updateTime": "2026-08-08 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-08-09",
-    "totalRuns": 51,
+    "totalRuns": 44,
     "productCount": 5,
     "updateTime": "2026-08-09 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-08-10",
-    "totalRuns": 52,
+    "totalRuns": 45,
     "productCount": 5,
     "updateTime": "2026-08-10 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-08-12",
-    "totalRuns": 53,
+    "totalRuns": 46,
     "productCount": 5,
     "updateTime": "2026-08-12 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-08-13",
-    "totalRuns": 54,
+    "totalRuns": 47,
     "productCount": 5,
     "updateTime": "2026-08-13 07:00",
     "status": "运行中"
   },
   {
     "date": "2026-08-14",
-    "totalRuns": 55,
+    "totalRuns": 48,
     "productCount": 5,
     "updateTime": "2026-08-14 07:30",
     "status": "运行中"
