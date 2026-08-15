@@ -1,0 +1,175 @@
+{
+  "updateTime": "2026-08-16 07:00",
+  "dataSource": "天猫/淘宝/京东实测数据 (WebSearch 2026-08-16)",
+  "hotProducts": [
+    {
+      "name": "兰蔻菁纯臻护系列",
+      "platform": "京东",
+      "priceRange": "480-780元",
+      "rating": "好评率98%+",
+      "source": "京东美妆礼盒品类销量标杆"
+    },
+    {
+      "name": "雅诗兰黛明星修护套装",
+      "platform": "京东",
+      "priceRange": "580-880元",
+      "rating": "好评率98%+",
+      "source": "全球销量超10亿瓶,30%用户多次回购"
+    },
+    {
+      "name": "SK-II神仙水护肤套装",
+      "platform": "京东/天猫",
+      "priceRange": "690-1280元",
+      "rating": "精华品类回购率第一",
+      "source": "社交媒体讨论度极高"
+    },
+    {
+      "name": "小米巨省电1.5P空调 N1A1",
+      "platform": "京东",
+      "priceRange": "约1500元",
+      "rating": "京东热销",
+      "source": "8月热门电子产品推荐"
+    },
+    {
+      "name": "Redmi G27U 4K显示器",
+      "platform": "京东",
+      "priceRange": "约1599元",
+      "rating": "最便宜4K高刷显示器之一",
+      "source": "8月热门电子产品推荐"
+    }
+  ],
+  "selectedProducts": [
+    {
+      "id": 1,
+      "name": "小米巨省电1.5P壁挂空调 N1A1",
+      "priceRange": "约1500元",
+      "source": "京东热销"
+    },
+    {
+      "id": 2,
+      "name": "Redmi G27U 4K电竞显示器",
+      "priceRange": "约1599元",
+      "source": "京东热销"
+    },
+    {
+      "id": 3,
+      "name": "Redmi Turbo 4 Pro (16GB+1TB)",
+      "priceRange": "约2200元(国补价)",
+      "source": "京东热销"
+    },
+    {
+      "id": 4,
+      "name": "雅诗兰黛明星修护套装",
+      "priceRange": "580-880元",
+      "source": "京东好评率98%+"
+    },
+    {
+      "id": 5,
+      "name": "SK-II神仙水护肤套装",
+      "priceRange": "690-1280元",
+      "source": "精华品类回购率第一"
+    }
+  ],
+  "comparisons": [
+    {
+      "productId": 1,
+      "productName": "小米巨省电1.5P壁挂空调 N1A1",
+      "competitors": [
+        {
+          "name": "格力变频空调 云佳系列",
+          "platform": "京东",
+          "priceRange": "约2000元",
+          "rating": "好评率96%+",
+          "diff": "格力价格高33%,品牌知名度更高;小米性价比突出"
+        },
+        {
+          "name": "美的变频空调 风观系列",
+          "platform": "京东",
+          "priceRange": "约1800元",
+          "rating": "好评率97%+",
+          "diff": "美的价格高20%,渠道覆盖更广"
+        }
+      ]
+    },
+    {
+      "productId": 2,
+      "productName": "Redmi G27U 4K电竞显示器",
+      "competitors": [
+        {
+          "name": "AOC 27英寸4K显示器 U27N3R",
+          "platform": "京东",
+          "priceRange": "约2000元",
+          "rating": "好评率95%+",
+          "diff": "AOC价格高25%,但接口更丰富"
+        },
+        {
+          "name": "LG 27英寸4K显示器 27UP600",
+          "platform": "京东",
+          "priceRange": "约2500元",
+          "rating": "好评率96%+",
+          "diff": "LG价格高56%,但面板品质更好"
+        }
+      ]
+    },
+    {
+      "productId": 3,
+      "productName": "Redmi Turbo 4 Pro (16GB+1TB)",
+      "competitors": [
+        {
+          "name": "荣耀GT Pro (12GB+256GB)",
+          "platform": "京东",
+          "priceRange": "约2400元",
+          "rating": "好评率96%+",
+          "diff": "荣耀存储小75%但价格相近"
+        },
+        {
+          "name": "一加 Ace 5 Pro (16GB+512GB)",
+          "platform": "京东",
+          "priceRange": "约2800元",
+          "rating": "好评率95%+",
+          "diff": "一加存储小50%但价格高27%"
+        }
+      ]
+    },
+    {
+      "productId": 4,
+      "productName": "雅诗兰黛明星修护套装",
+      "competitors": [
+        {
+          "name": "兰蔻菁纯臻护系列",
+          "platform": "京东",
+          "priceRange": "480-780元",
+          "rating": "好评率98%+",
+          "diff": "兰蔻价格相近,法式品牌调性不同"
+        },
+        {
+          "name": "修丽可CE精华套装",
+          "platform": "天猫",
+          "priceRange": "约900元",
+          "rating": "好评率97%+",
+          "diff": "修丽可价格相近,专研成分路线"
+        }
+      ]
+    },
+    {
+      "productId": 5,
+      "productName": "SK-II神仙水护肤套装",
+      "competitors": [
+        {
+          "name": "海蓝之谜精粹水套装",
+          "platform": "天猫",
+          "priceRange": "约1500元",
+          "rating": "好评率97%+",
+          "diff": "海蓝之谜价格相近,贵妇品牌竞争"
+        },
+        {
+          "name": "莱伯妮鱼子精华套装",
+          "platform": "天猫",
+          "priceRange": "约2000元",
+          "rating": "好评率96%+",
+          "diff": "莱伯妮价格高45%,瑞士顶级品牌"
+        }
+      ]
+    }
+  ]
+}
