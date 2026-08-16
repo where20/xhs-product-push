@@ -1,0 +1,114 @@
+{
+  "date": "2026-08-17",
+  "dataSource": "WebSearch 搜索结果整理",
+  "products": [
+    {
+      "id": 1,
+      "name": "大疆 Osmo Pocket 4",
+      "vsCompetitors": [
+        {
+          "name": "影石 Insta360 Luna Ultra",
+          "price": "标准套餐3999元",
+          "highlights": "与徕卡联合研发,双摄方案(一英寸主摄+F1.8大光圈),4K 10bit i-Log格式,自带遥控和图传的分离屏",
+          "weakness": "价格比大疆Pocket4高1000元"
+        },
+        {
+          "name": "GoPro Hero13 Black",
+          "price": "约3198元",
+          "highlights": "运动相机老品牌,配件生态丰富",
+          "weakness": "无物理云台防抖,画质和Vlog体验不如Pocket系列"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "小米路由器 BE6500",
+      "vsCompetitors": [
+        {
+          "name": "TP-LINK BE6500",
+          "price": "约620元(ZOL参考价)",
+          "highlights": "WiFi7,双频,全2.5G网口",
+          "weakness": "CPU性能一般,内存未知,无小米Mesh生态"
+        },
+        {
+          "name": "华硕TUF小旋风Pro BE6500",
+          "price": "约542元(活动价)",
+          "highlights": "高通四核1.5G处理器,DDR4 1GB内存,游戏加速功能",
+          "weakness": "国补前原价较高(~941元)"
+        },
+        {
+          "name": "华为BE7 Pro",
+          "price": "约554元(补贴后)",
+          "highlights": "全2.5G网口,星闪网关,华为生态",
+          "weakness": "WiFi规格BE3600,仅3600Mbps,不如小米BE6500"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "戴森 Airwrap 多功能造型器",
+      "vsCompetitors": [
+        {
+          "name": "徕芬高速吹风机 SE",
+          "price": "约399元",
+          "highlights": "11.5万转/分钟,自研电机,国产爆款",
+          "weakness": "仅为吹风机,无卷发造型功能,品控投诉较多"
+        },
+        {
+          "name": "戴森Corrale直发器",
+          "price": "约3690元",
+          "highlights": "弧形面板,柔性包覆发束,减少50%热损伤",
+          "weakness": "仅直发功能,单一用途"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "九阳小旋风破壁机 B70",
+      "vsCompetitors": [
+        {
+          "name": "美的 MJ-BL1511A",
+          "price": "约899元",
+          "highlights": "1500W大功率,1.75L,八重降噪",
+          "weakness": "噪音40-50分贝,不如B70的35分贝"
+        },
+        {
+          "name": "苏泊尔小方糖SP925R",
+          "price": "约799元",
+          "highlights": "可拆刀头,316不锈钢零涂层",
+          "weakness": "未明确静音数据,转速仅45000r/min"
+        },
+        {
+          "name": "西屋 HS0958",
+          "price": "约2299元",
+          "highlights": "1400W,2.2L大容量,国际品牌",
+          "weakness": "价格是九阳B70的3倍,性价比低"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "创维酷开柔光 K6+ 85寸 Mini LED",
+      "vsCompetitors": [
+        {
+          "name": "海信小墨E5S 85寸",
+          "price": "约8587元(国补后)",
+          "highlights": "4200nits亮度,RGB-MiniLED,墨晶屏抗反光",
+          "weakness": "价格比K6+高约3000元,性价比低"
+        },
+        {
+          "name": "TCL 85T8G Max",
+          "price": "约6999元",
+          "highlights": "量子点广色域,144Hz高刷,2.1声道音响",
+          "weakness": "普通LED背光,非Mini LED"
+        },
+        {
+          "name": "华为Vision智慧屏6 85寸",
+          "price": "约9070元",
+          "highlights": "SuperMiniLED,黑晶屏,华为生态",
+          "weakness": "价格高约3500元"
+        }
+      ]
+    }
+  ]
+}
