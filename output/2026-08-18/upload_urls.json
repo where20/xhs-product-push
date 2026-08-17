@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-18",
+  "note": "图床 iepose/231203 均已下线，改用 GitHub Pages CDN URL",
+  "uploaded": [
+    {
+      "name": "product_1.jpg",
+      "url": "https://xhs.220616.xyz/output/2026-08-18/product_1.jpg"
+    },
+    {
+      "name": "product_2.jpg",
+      "url": "https://xhs.220616.xyz/output/2026-08-18/product_2.jpg"
+    },
+    {
+      "name": "product_3.jpg",
+      "url": "https://xhs.220616.xyz/output/2026-08-18/product_3.jpg"
+    },
+    {
+      "name": "product_4.jpg",
+      "url": "https://xhs.220616.xyz/output/2026-08-18/product_4.jpg"
+    },
+    {
+      "name": "product_5.jpg",
+      "url": "https://xhs.220616.xyz/output/2026-08-18/product_5.jpg"
+    },
+    {
+      "name": "product_card_full.jpg",
+      "url": "https://xhs.220616.xyz/output/2026-08-18/product_card_full.jpg"
+    }
+  ]
+}
