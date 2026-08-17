@@ -1,125 +1,125 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-17",
   "dataSource": "WebSearch 搜索结果整理",
-  "totalRuns": 3,
-  "totalProducts": 15,
-  "lastRunDate": "2026-08-14",
+  "totalRuns": 4,
+  "totalProducts": 20,
+  "lastRunDate": "2026-08-17",
   "status": "运行中",
-  "updateTime": "2026-08-14 07:30",
+  "updateTime": "2026-08-17 07:30",
   "products": [
     {
       "id": 1,
-      "name": "小米巨省电1.5P壁挂空调 N1A1（双排款）",
+      "name": "大疆 Osmo Pocket 4 口袋云台相机",
       "category": "数码电子",
-      "description": "盛夏续航天花板！小米N1A1双排款壁挂空调，超一级能效APF值行业领先，变频冷暖精准控温。亲测开一整晚睡眠风，省电静音不冷不热，35℃高温天续命神器。白色极简机身适配各种装修风格，小爱同学语音控制，躺在床上就能开关空调。",
+      "description": "随身出片神器！大疆 Pocket 4 搭载 1 英寸 CMOS 传感器，4K 120fps 超清录制配合三轴机械云台，防抖稳如泰山。2 英寸旋转触控屏横竖屏一键切换，单手握持随手拍。智能跟随 6.0 锁定目标不丢焦，探店、Vlog、单人创作全能驾驭。续航升级至 4 小时，还支持 DJI Mic 2 无线收音，音质一步到位。小巧到能装进口袋，出门带上它，记录生活不将就。",
       "highlights": [
-        "超一级能效APF值，变频省电，实测开一晚不到1度电",
-        "双排冷凝器，换热效率更高，制冷速度比单排快30%以上",
-        "小爱同学语音控制+米家APP远程操控，智能家居联动",
-        "18分贝超静音睡眠模式，夜里开空调不吵人",
-        "30秒速冷/60秒速热，炎夏回家不用等"
+        "1英寸CMOS传感器 + 4K 120fps，画质碾压同价位运动相机",
+        "三轴机械云台物理防抖，跑拍、骑行画面稳如泰山",
+        "智能跟随6.0，指哪跟哪，单人创作不求人",
+        "2英寸翻转屏横竖屏秒切，短视频创作者标配",
+        "4小时长续航 + 支持DJI Mic 2无线收音，创作体验完整"
       ],
-      "tags": ["节能省电", "智能家居", "静音设计", "速冷速热", "性价比"],
-      "target": "新房装修、空调换代、夏日消暑、租房升级",
-      "priceRange": "约1500-1800元",
-      "source": "2026年8月值得购买电子产品推荐",
+      "tags": ["Vlog神器", "防抖云台", "随身出片", "短视频创作", "画质旗舰"],
+      "target": "短视频创作者、Vlog博主、旅行爱好者、探店达人",
+      "priceRange": "约2199-2499元",
+      "source": "2026年8月热门数码推荐",
       "image": "orig_product_1.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=小米N1A1空调",
-        "taobao": "https://s.taobao.com/search?q=小米N1A1空调",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=小米N1A1空调"
+        "jd": "https://search.jd.com/Search?keyword=大疆Osmo+Pocket+4",
+        "taobao": "https://s.taobao.com/search?q=大疆Osmo+Pocket+4",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=大疆Osmo+Pocket+4"
       }
     },
     {
       "id": 2,
-      "name": "Redmi G27U 4K电竞显示器 27英寸",
+      "name": "小米路由器 BE6500 WiFi7",
       "category": "数码电子",
-      "description": "目前最便宜的4K高刷显示器！Redmi G27U，27英寸IPS面板，4K 160Hz + 1080P 320Hz双模切换，支持HDR400，兼顾画质与电竞双重需求。小米模具+小米售后的组合，比杂牌显示器更有保障。",
+      "description": "300元价位最强全2.5G口路由器！小米BE6500，WiFi7协议，MLO双频并发，5Gbps无线速率。IPQ5322处理器 + 512MB大内存，多设备同时在线不卡顿。实测8台设备并发打游戏、刷剧、下载三不误。小米路由器App轻松管理，Mesh组网一键扩展，大户型全覆盖。8月活动价308元，国补后性价比拉满，300元档闭眼入。",
       "highlights": [
-        "4K 160Hz + 1080P 320Hz双模，兼顾画质和高刷电竞",
-        "IPS广视角面板，HDR400认证，色彩还原精准",
-        "小米模具+小米售后，比杂牌更有保障，翻车率低",
-        "旋转升降支架，横竖屏自由切换，多场景适用",
-        "双DP+双HDMI2.1接口，连接PC/游戏主机/笔记本全覆盖"
+        "全2.5G网口 × 4，300元档唯一选择，内网NAS传输超快",
+        "WiFi7 MLO双频并发，5Gbps无线速率，多设备并发不抢网",
+        "512MB大内存 + IPQ5322处理器，多设备稳定在线",
+        "支持小米Mesh组网，大户型一键无缝扩展",
+        "国补后308元，300元档性价比之王"
       ],
-      "tags": ["4K高刷", "电竞显示器", "双模切换", "性价比神屏", "小米品质"],
-      "target": "电竞玩家、设计师、影视爱好者、性价比党",
-      "priceRange": "约1599-1799元",
-      "source": "2026年8月值得购买电子产品推荐",
+      "tags": ["WiFi7", "全2.5G口", "多设备", "大户型Mesh", "性价比"],
+      "target": "大户型家庭、电竞玩家、NAS用户、数码爱好者",
+      "priceRange": "约308-399元",
+      "source": "2026年8月值得购买的路由器推荐",
       "image": "orig_product_2.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=Redmi+G27U",
-        "taobao": "https://s.taobao.com/search?q=Redmi+G27U",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=Redmi+G27U"
+        "jd": "https://search.jd.com/Search?keyword=小米BE6500路由器",
+        "taobao": "https://s.taobao.com/search?q=小米BE6500路由器",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=小米BE6500路由器"
       }
     },
     {
       "id": 3,
-      "name": "Redmi Turbo 4 Pro 手机 16GB+1TB",
-      "category": "数码电子",
-      "description": "大容量手机越来越贵，这款反而性价比炸裂！Redmi Turbo 4 Pro，16GB+1TB顶配，国补后仅2200元。CPU采用骁龙8S Gen4，与8 Elite同款架构。核心亮点是全金属边框+7550mAh超大容量电池，续航焦虑彻底解决。",
+      "name": "戴森 Airwrap 多功能空气造型器",
+      "category": "美妆个护",
+      "description": "卷发棒的天花板！戴森 Airwrap 利用气流原理卷发，不伤发丝，超180℃高温的告别了。用完头发顺滑有光泽，不像普通卷发棒那样毛躁干枯。换上不同配件，一机搞定卷发、直发、刘海打理，新手也能一次成功。礼盒包装精美，送礼自用两相宜。贵是贵，但一台用三年，折算下来每天不到5块钱，发质好的话真的值。",
       "highlights": [
-        "16GB+1TB顶配，国补后约2200元，大容量性价比之王",
-        "骁龙8S Gen4处理器，与8 Elite同架构，日常性能无瓶颈",
-        "7550mAh超大容量电池，两天一充，告别续航焦虑",
-        "全金属边框，质感出色，2000元档难得的工艺水准",
-        "1.5K护眼直屏，长时间使用护眼舒适"
+        "气流卷发技术，最高不超过150℃，热损伤减少50%以上",
+        "一机多用：卷发、直发、刘海、蓬松，配件换着来",
+        "头发顺滑有光泽，不像传统卷发棒的干枯毛躁",
+        "新手友好，成功率高，不用反复练习就能上手",
+        "精美礼盒包装，送礼体面，自用有仪式感"
       ],
-      "tags": ["大容量", "超长续航", "性价比旗舰", "国补神机", "护眼屏幕"],
-      "target": "学生党、送礼备用机、大内存刚需、长辈用户",
-      "priceRange": "约2200元（国补后）",
-      "source": "2026年8月值得购买电子产品推荐",
+      "tags": ["护发卷发", "一机多用", "送礼首选", "戴森品质", "沙龙级"],
+      "target": "追求品质女生、自用犒赏、送礼、细软塌发质",
+      "priceRange": "约3699-4299元",
+      "source": "2026年8月值得买的礼物推荐",
       "image": "orig_product_3.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=Redmi+Turbo4+Pro",
-        "taobao": "https://s.taobao.com/search?q=Redmi+Turbo4+Pro",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=Redmi+Turbo4+Pro"
+        "jd": "https://search.jd.com/Search?keyword=戴森Airwrap",
+        "taobao": "https://s.taobao.com/search?q=戴森Airwrap",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=戴森Airwrap"
       }
     },
     {
       "id": 4,
-      "name": "兰蔻菁纯臻护护肤礼盒套装",
-      "category": "美妆护肤",
-      "description": "七夕送礼不知道怎么选？兰蔻菁纯闭眼入！2026年升级版玫瑰精萃修护系列，核心成分玫瑰精萃深层滋养，抗氧化和光泽感双提升。礼盒包装自带法式高级感，开盒仪式感满满。",
+      "name": "九阳小旋风破壁机 B70",
+      "category": "小家电",
+      "description": "破壁机界的技术派！九阳小旋风B70，变频直流无刷电机，8重降噪技术，夜间使用也不扰人。实测噪音最低42分贝，凌晨给娃打米糊不怕吵醒全家。1500mL大容量，冷热双打，豆浆、米糊、果汁、冰沙一键搞定。自动清洗+热风烘干，内胆不留残渣。太空抗菌技术下放，大肠杆菌抑菌率99.99%，用着放心。懒人早餐神器，全家老小都爱。",
       "highlights": [
-        "2026年升级版玫瑰精萃配方，抗氧化+光泽感双重提升",
-        "轻盈质地，盛夏使用无负担，四季皆宜不挑肤质",
-        "法式优雅礼盒包装，高级感开盒体验，自带仪式感",
-        "品牌渗透率85%+，送礼精准识别，京东好评率98%+",
-        "适合恋人/妻子/女性长辈，多场景覆盖，翻车率极低"
+        "8重降噪技术，噪音低至42分贝，深夜使用不扰人",
+        "变频直流无刷电机，粉碎细腻无渣，口感顺滑",
+        "1500mL大容量，冷热双打，全家早餐一步到位",
+        "自动清洗+热风烘干，内胆无残留，真正懒人友好",
+        "太空抗菌技术，抑菌率99.99%，健康安全有保障"
       ],
-      "tags": ["七夕送礼", "大牌护肤", "抗老修护", "玫瑰精萃", "高档礼盒"],
-      "target": "七夕送礼、恋人送礼、女性长辈、生日礼物",
-      "priceRange": "约480-780元",
-      "source": "2026年8月礼物推荐热搜",
+      "tags": ["静音破壁", "早餐神器", "自动清洗", "健康家电", "全家适用"],
+      "target": "宝妈家庭、注重健康、早餐刚需、懒人上班族",
+      "priceRange": "约599-799元",
+      "source": "2026年小家电红榜推荐",
       "image": "orig_product_4.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=兰蔻菁纯",
-        "taobao": "https://s.taobao.com/search?q=兰蔻菁纯礼盒",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=兰蔻菁纯"
+        "jd": "https://search.jd.com/Search?keyword=九阳小旋风破壁机B70",
+        "taobao": "https://s.taobao.com/search?q=九阳小旋风破壁机B70",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=九阳小旋风破壁机B70"
       }
     },
     {
       "id": 5,
-      "name": "意肤美白祛斑霜 50g",
-      "category": "美妆护肤",
-      "description": "夏天晒黑了怎么白回来？这款口碑型美白祛斑霜值得关注。意肤美白祛斑霜，配方围绕377+光甘草定+烟酰胺+VC衍生物+传明酸五大通路，覆盖黑色素全链路。28天实测数据亮眼：皮肤亮度提升38.9%，黑色素指数下降51.6%。",
+      "name": "创维酷开柔光 K6+ 85寸 Mini LED 电视",
+      "category": "大家电",
+      "description": "5599元买85寸Mini LED，这价格还要什么自行车！酷开K6+ 2026款，Mini LED背光配合晰柔光屏，AG25防眩层+双LR低反，彻底解决白天电视反光问题，白天不拉窗帘也能看。130%sRGB高色域 + 180Hz高刷，体育赛事、游戏大片都流畅。20bits精细控光，暗场不泛白，亮场不过曝。护眼六重奏：无频闪、低蓝光、MEMC运动补帧，小朋友看动画片也不担心伤眼。",
       "highlights": [
-        "五通路配方：377+光甘草定+烟酰胺+VC衍生物+传明酸",
-        "28天实测：亮度+38.9%、黑色素-51.6%、色斑面积-48.2%",
-        "无酒精/香精/人工色素，敏感肌友好",
-        "近128万条评价样本，好评率98.9%",
-        "50g约158元，折合每天不到3元"
+        "85寸Mini LED，5599元档位唯一选择，性价比封顶",
+        "晰柔光屏AG25防眩层，白天不拉窗帘也能看",
+        "130%sRGB高色域 + 180Hz高刷，体育游戏全能",
+        "20bits精细控光，画面对比度强，暗场亮场表现均衡",
+        "六重护眼，低蓝光+无频闪+MEMC，适合有娃家庭"
       ],
-      "tags": ["美白淡斑", "夏季必备", "五通路抑黑", "敏感肌可用", "高复购"],
-      "target": "熬夜党、晒后修复、色斑困扰、肤色不均人群",
-      "priceRange": "约158元（50g）",
-      "source": "2026美白护肤品口碑排行榜",
+      "tags": ["85寸大屏", "Mini LED", "护眼电视", "性价比旗舰", "客厅升级"],
+      "target": "客厅升级、大家庭、电影爱好者、体育赛事观众",
+      "priceRange": "约5599-6599元",
+      "source": "2026年Mini LED电视全价位推荐",
       "image": "orig_product_5.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=意肤美白祛斑霜",
-        "taobao": "https://s.taobao.com/search?q=意肤美白祛斑霜",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=意肤美白祛斑霜"
+        "jd": "https://search.jd.com/Search?keyword=创维酷开K6+85寸",
+        "taobao": "https://s.taobao.com/search?q=创维酷开K6+85寸",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=创维酷开K6+85寸"
       }
     }
   ]
