@@ -7,6 +7,7 @@
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
 <title>AI选品推送 — 小红书带货自动化</title>
+<meta name="data-version" content="1786932158" />
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -1131,41 +1132,42 @@ let currentIndex = 0;
 let currentVsProducts = [];
 let currentVsIndex = 0;
 
-// 智能 fetch：路径级版本化（commit hash 子路径），彻底绕过 GitHub Pages CDN 缓存 bug
+// 智能 fetch：路径级版本化（每个 push 的时间戳子路径），彻底绕过 GitHub Pages CDN 缓存 bug
+function getDataVersion() {
+  const meta = document.querySelector('meta[name="data-version"]');
+  return meta ? meta.getAttribute('content') : '';
+}
 async function smartFetchData() {
   const today = new Date().toISOString().slice(0, 10);
+  const version = getDataVersion();
+  // 优先读 output/{date}/data.json（每个 push 不同 commit，CDN 视为新文件）
   try {
-    // 优先读 output/{date}/data.json（每次 push 不同 commit，CDN 视为新文件）
     const r = await fetch(`./output/${today}/data.json`);
     if (r.ok) return r;
   } catch (e) {}
-  // 备用：读版本化路径 v/{hash}/data.json（每个 commit 不同 hash，CDN 不缓存）
-  try {
-    const vr = await fetch(`./v/current.txt`);
-    if (vr.ok) {
-      const version = (await vr.text()).trim();
+  // 备用：读版本化路径 v/{时间戳}/data.json（路径级版本，绕过 CDN）
+  if (version) {
+    try {
       const r2 = await fetch(`./v/${version}/data.json`);
       if (r2.ok) return r2;
-    }
-  } catch (e) {}
+    } catch (e) {}
+  }
   // 最终 fallback 到根路径（已知 GitHub Pages CDN 会缓存旧版，仅作保底）
   return await fetch(`./data.json`);
 }
-
 async function smartFetchVs() {
   const today = new Date().toISOString().slice(0, 10);
+  const version = getDataVersion();
   try {
     const r = await fetch(`./output/${today}/vs-data.json`);
     if (r.ok) return r;
   } catch (e) {}
-  try {
-    const vr = await fetch(`./v/current.txt`);
-    if (vr.ok) {
-      const version = (await vr.text()).trim();
+  if (version) {
+    try {
       const r2 = await fetch(`./v/${version}/vs-data.json`);
       if (r2.ok) return r2;
-    }
-  } catch (e) {}
+    } catch (e) {}
+  }
   return await fetch(`./vs-data.json`);
 }
 
