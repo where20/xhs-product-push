@@ -1,125 +1,155 @@
 {
   "date": "2026-08-17",
   "dataSource": "WebSearch 搜索结果整理",
-  "totalRuns": 4,
-  "totalProducts": 20,
+  "totalRuns": 5,
+  "totalProducts": 25,
   "lastRunDate": "2026-08-17",
   "status": "运行中",
-  "updateTime": "2026-08-17 07:30",
+  "updateTime": "2026-08-17 09:45",
   "products": [
     {
       "id": 1,
-      "name": "大疆 Osmo Pocket 4 口袋云台相机",
+      "name": "Retroid Pocket 5 掌上游戏机",
       "category": "数码电子",
-      "description": "随身出片神器！大疆 Pocket 4 搭载 1 英寸 CMOS 传感器，4K 120fps 超清录制配合三轴机械云台，防抖稳如泰山。2 英寸旋转触控屏横竖屏一键切换，单手握持随手拍。智能跟随 6.0 锁定目标不丢焦，探店、Vlog、单人创作全能驾驭。续航升级至 4 小时，还支持 DJI Mic 2 无线收音，音质一步到位。小巧到能装进口袋，出门带上它，记录生活不将就。",
+      "description": "口袋里的主机级体验！Retroid Pocket 5，骁龙865旗舰芯+8GB内存，安卓13+Linux双系统，5.5寸AMOLED 1080P触控屏，握持手感一流。实测玩《原神》中画质稳定60帧，《王国之泪》模拟器完美运行。折叠屏手机大小揣兜就走，等地铁再也不无聊。一台机器玩遍 Steam/PS2/3DS/Switch 全平台，掌机党终极退烧之选。",
       "highlights": [
-        "1英寸CMOS传感器 + 4K 120fps，画质碾压同价位运动相机",
-        "三轴机械云台物理防抖，跑拍、骑行画面稳如泰山",
-        "智能跟随6.0，指哪跟哪，单人创作不求人",
-        "2英寸翻转屏横竖屏秒切，短视频创作者标配",
-        "4小时长续航 + 支持DJI Mic 2无线收音，创作体验完整"
+        "骁龙865 + 8GB RAM，安卓13+Linux双系统，流畅运行主流模拟器",
+        "5.5寸AMOLED 1080P触控屏，色彩艳丽，阳光下也清晰可见",
+        "Steam/PS2/3DS/Switch 全平台覆盖，一机走天下",
+        "续航实测6小时+，支持45W快充回血",
+        "支持蓝牙手柄连接，双人同屏游玩更爽"
       ],
-      "tags": ["Vlog神器", "防抖云台", "随身出片", "短视频创作", "画质旗舰"],
-      "target": "短视频创作者、Vlog博主、旅行爱好者、探店达人",
-      "priceRange": "约2199-2499元",
-      "source": "2026年8月热门数码推荐",
+      "tags": [
+        "掌机",
+        "模拟器",
+        "骁龙865",
+        "AMOLED",
+        "退烧之选"
+      ],
+      "target": "怀旧游戏玩家、掌机爱好者、出行打发时间",
+      "priceRange": "约1458-1699元",
+      "source": "2026年8月数码好物推荐",
       "image": "orig_product_1.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=大疆Osmo+Pocket+4",
-        "taobao": "https://s.taobao.com/search?q=大疆Osmo+Pocket+4",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=大疆Osmo+Pocket+4"
+        "jd": "https://search.jd.com/Search?keyword=Retroid+Pocket+5",
+        "taobao": "https://s.taobao.com/search?q=Retroid+Pocket+5",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=Retroid+Pocket+5"
       }
     },
     {
       "id": 2,
-      "name": "小米路由器 BE6500 WiFi7",
-      "category": "数码电子",
-      "description": "300元价位最强全2.5G口路由器！小米BE6500，WiFi7协议，MLO双频并发，5Gbps无线速率。IPQ5322处理器 + 512MB大内存，多设备同时在线不卡顿。实测8台设备并发打游戏、刷剧、下载三不误。小米路由器App轻松管理，Mesh组网一键扩展，大户型全覆盖。8月活动价308元，国补后性价比拉满，300元档闭眼入。",
+      "name": "哈趣 H3 Pro 投影仪",
+      "category": "小家电",
+      "description": "千元投影仪卷王！哈趣H3 Pro，实测开箱即用的卧室影院神器。1080P物理分辨率 + 自动对焦+梯形校正，随便放床头柜就能投出方正大屏。关灯效果直接对标两千元档，开灯勉强可用。附赠幕布支架套餐，总价不到700元，学生党租房族首选。暑假宅家看球打游戏，大屏沉浸感手机平板给不了。",
       "highlights": [
-        "全2.5G网口 × 4，300元档唯一选择，内网NAS传输超快",
-        "WiFi7 MLO双频并发，5Gbps无线速率，多设备并发不抢网",
-        "512MB大内存 + IPQ5322处理器，多设备稳定在线",
-        "支持小米Mesh组网，大户型一键无缝扩展",
-        "国补后308元，300元档性价比之王"
+        "1080P物理分辨率，自动对焦+四向梯形校正，3秒即用",
+        "LED光源实测流明300ANSI+，关灯效果对标两千元档",
+        "内置双5W音响，支持蓝牙连接外部音箱",
+        "支持侧投、吊装、桌面多种安装方式",
+        "附赠便携幕布+三脚架，总价不到700元性价比无敌"
       ],
-      "tags": ["WiFi7", "全2.5G口", "多设备", "大户型Mesh", "性价比"],
-      "target": "大户型家庭、电竞玩家、NAS用户、数码爱好者",
-      "priceRange": "约308-399元",
-      "source": "2026年8月值得购买的路由器推荐",
+      "tags": [
+        "投影仪",
+        "千元档",
+        "1080P",
+        "自动对焦",
+        "宿舍神器"
+      ],
+      "target": "学生党、租房族、暑假宅家人群、卧室影院",
+      "priceRange": "约600-800元",
+      "source": "2026年暑期数码好物推荐",
       "image": "orig_product_2.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=小米BE6500路由器",
-        "taobao": "https://s.taobao.com/search?q=小米BE6500路由器",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=小米BE6500路由器"
+        "jd": "https://search.jd.com/Search?keyword=哈趣H3Pro投影仪",
+        "taobao": "https://s.taobao.com/search?q=哈趣H3Pro",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=哈趣H3Pro"
       }
     },
     {
       "id": 3,
-      "name": "戴森 Airwrap 多功能空气造型器",
-      "category": "美妆个护",
-      "description": "卷发棒的天花板！戴森 Airwrap 利用气流原理卷发，不伤发丝，超180℃高温的告别了。用完头发顺滑有光泽，不像普通卷发棒那样毛躁干枯。换上不同配件，一机搞定卷发、直发、刘海打理，新手也能一次成功。礼盒包装精美，送礼自用两相宜。贵是贵，但一台用三年，折算下来每天不到5块钱，发质好的话真的值。",
+      "name": "金邦 P3A 2TB NVMe SSD",
+      "category": "数码电子",
+      "description": "目前最划算的2TB仓库盘！金邦P3A，PCIe 3.0协议，读速2400MB/s，写入2000MB/s，京东自营3年质保。QLC颗粒但价格真香，2TB不到500元，比买机械硬盘还划算。给笔记本扩容、装游戏盘、NAS下载盘，选它准没错。存储涨价前夕赶紧囤一块，错过这波不知道下次什么价。",
       "highlights": [
-        "气流卷发技术，最高不超过150℃，热损伤减少50%以上",
-        "一机多用：卷发、直发、刘海、蓬松，配件换着来",
-        "头发顺滑有光泽，不像传统卷发棒的干枯毛躁",
-        "新手友好，成功率高，不用反复练习就能上手",
-        "精美礼盒包装，送礼体面，自用有仪式感"
+        "2TB超大容量，京东自营到手不到500元",
+        "PCIe 3.0 NVMe，M.2 2280规格，笔记本台式机通用",
+        "读速2400MB/s，写入2000MB/s，QLC入门级但够用",
+        "3年质保京东自营，售后有保障，比杂牌放心",
+        "轻薄设计，发热量低，笔记本加装首选"
       ],
-      "tags": ["护发卷发", "一机多用", "送礼首选", "戴森品质", "沙龙级"],
-      "target": "追求品质女生、自用犒赏、送礼、细软塌发质",
-      "priceRange": "约3699-4299元",
-      "source": "2026年8月值得买的礼物推荐",
+      "tags": [
+        "SSD",
+        "2TB",
+        "NVMe",
+        "低价囤货",
+        "仓库盘"
+      ],
+      "target": "装机用户、笔记本扩容、游戏仓库、NAS下载盘",
+      "priceRange": "约450-550元",
+      "source": "2026年8月装机推荐",
       "image": "orig_product_3.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=戴森Airwrap",
-        "taobao": "https://s.taobao.com/search?q=戴森Airwrap",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=戴森Airwrap"
+        "jd": "https://search.jd.com/Search?keyword=金邦P3A+2TB",
+        "taobao": "https://s.taobao.com/search?q=金邦P3A+2TB",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=金邦P3A+2TB"
       }
     },
     {
       "id": 4,
-      "name": "九阳小旋风破壁机 B70",
-      "category": "小家电",
-      "description": "破壁机界的技术派！九阳小旋风B70，变频直流无刷电机，8重降噪技术，夜间使用也不扰人。实测噪音最低42分贝，凌晨给娃打米糊不怕吵醒全家。1500mL大容量，冷热双打，豆浆、米糊、果汁、冰沙一键搞定。自动清洗+热风烘干，内胆不留残渣。太空抗菌技术下放，大肠杆菌抑菌率99.99%，用着放心。懒人早餐神器，全家老小都爱。",
+      "name": "华为 WATCH GT 6 Pro 智能手表",
+      "category": "数码电子",
+      "description": "华为旗舰手表里的全能选手！WATCH GT 6 Pro曜石黑，46mm大表盘，钛金属表壳+蓝宝石玻璃，质感碾压同价位竞品。21天超长续航告别电量焦虑，ECG心电分析+血氧+睡眠监测，健康数据全面。骑行模式支持GPS轨迹记录，商务运动两不误。支持无线充电，放上手表就能回血。",
       "highlights": [
-        "8重降噪技术，噪音低至42分贝，深夜使用不扰人",
-        "变频直流无刷电机，粉碎细腻无渣，口感顺滑",
-        "1500mL大容量，冷热双打，全家早餐一步到位",
-        "自动清洗+热风烘干，内胆无残留，真正懒人友好",
-        "太空抗菌技术，抑菌率99.99%，健康安全有保障"
+        "21天超长续航，实测重度使用也能撑一周",
+        "ECG心电分析+血氧+压力+睡眠监测，健康管理全能",
+        "钛金属表壳+蓝宝石玻璃，质感精致不输Apple Watch",
+        "100+运动模式，新增骑行GPS轨迹记录",
+        "支持无线充电+反向充电，躺床上随手放即充"
       ],
-      "tags": ["静音破壁", "早餐神器", "自动清洗", "健康家电", "全家适用"],
-      "target": "宝妈家庭、注重健康、早餐刚需、懒人上班族",
-      "priceRange": "约599-799元",
-      "source": "2026年小家电红榜推荐",
+      "tags": [
+        "智能手表",
+        "华为",
+        "超长续航",
+        "ECG",
+        "钛金属"
+      ],
+      "target": "商务人士、运动爱好者、健康管理、华为生态用户",
+      "priceRange": "约1688-1988元",
+      "source": "2026年8月穿戴设备推荐",
       "image": "orig_product_4.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=九阳小旋风破壁机B70",
-        "taobao": "https://s.taobao.com/search?q=九阳小旋风破壁机B70",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=九阳小旋风破壁机B70"
+        "jd": "https://search.jd.com/Search?keyword=华为WATCH+GT6+Pro",
+        "taobao": "https://s.taobao.com/search?q=华为WATCH+GT6+Pro",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=华为WATCH+GT6+Pro"
       }
     },
     {
       "id": 5,
-      "name": "创维酷开柔光 K6+ 85寸 Mini LED 电视",
-      "category": "大家电",
-      "description": "5599元买85寸Mini LED，这价格还要什么自行车！酷开K6+ 2026款，Mini LED背光配合晰柔光屏，AG25防眩层+双LR低反，彻底解决白天电视反光问题，白天不拉窗帘也能看。130%sRGB高色域 + 180Hz高刷，体育赛事、游戏大片都流畅。20bits精细控光，暗场不泛白，亮场不过曝。护眼六重奏：无频闪、低蓝光、MEMC运动补帧，小朋友看动画片也不担心伤眼。",
+      "name": "OPPO Find N6 折叠屏手机",
+      "category": "数码电子",
+      "description": "折叠屏里的轻薄天花板！OPPO Find N6，骁龙8至尊版芯片+5000万哈苏影像，折叠态仅9.3mm，重量轻至229g，比很多直板旗舰还轻。内屏7.1寸LTPO 120Hz，外屏6.3寸单手操控无压力。实测折叠40万次无忧，IPX8防水，商务出行带一部顶两部。卫星通信版还能发求救信号，户外玩家刚需。",
       "highlights": [
-        "85寸Mini LED，5599元档位唯一选择，性价比封顶",
-        "晰柔光屏AG25防眩层，白天不拉窗帘也能看",
-        "130%sRGB高色域 + 180Hz高刷，体育游戏全能",
-        "20bits精细控光，画面对比度强，暗场亮场表现均衡",
-        "六重护眼，低蓝光+无频闪+MEMC，适合有娃家庭"
+        "骁龙8至尊版+16GB内存，性能释放激进，原神满帧",
+        "哈苏5000万三摄，折叠形态可做悬停自拍，比三脚架还稳",
+        "229g+9.3mm折叠厚度，比肩直板旗舰，轻薄碾压竞品",
+        "IPX8防水+40万次折叠无忧认证，耐用性拉满",
+        "卫星通信版支持双向卫星消息，无信号山区也能求救"
       ],
-      "tags": ["85寸大屏", "Mini LED", "护眼电视", "性价比旗舰", "客厅升级"],
-      "target": "客厅升级、大家庭、电影爱好者、体育赛事观众",
-      "priceRange": "约5599-6599元",
-      "source": "2026年Mini LED电视全价位推荐",
+      "tags": [
+        "折叠屏",
+        "骁龙8",
+        "哈苏影像",
+        "轻薄旗舰",
+        "卫星通信"
+      ],
+      "target": "商务人士、数码极客、户外玩家、手机摄影爱好者",
+      "priceRange": "约8999-10999元",
+      "source": "2026年8月旗舰手机推荐",
       "image": "orig_product_5.jpg",
       "links": {
-        "jd": "https://search.jd.com/Search?keyword=创维酷开K6+85寸",
-        "taobao": "https://s.taobao.com/search?q=创维酷开K6+85寸",
-        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=创维酷开K6+85寸"
+        "jd": "https://search.jd.com/Search?keyword=OPPO+Find+N6",
+        "taobao": "https://s.taobao.com/search?q=OPPO+Find+N6",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=OPPO+Find+N6"
       }
     }
   ]
