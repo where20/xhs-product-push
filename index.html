@@ -1132,43 +1132,40 @@ let currentIndex = 0;
 let currentVsProducts = [];
 let currentVsIndex = 0;
 
-// 智能 fetch：路径级版本化（每个 push 的时间戳子路径），彻底绕过 GitHub Pages CDN 缓存 bug
+// 智能 fetch：版本参数 bust 浏览器缓存 + 路径版本 bust CDN 缓存，双重保险
+const DATA_VERSION = '1786932158'; // 每次 push 后同步更新此值（也写进 meta data-version 供 meta 读取）
 function getDataVersion() {
-  const meta = document.querySelector('meta[name="data-version"]');
-  return meta ? meta.getAttribute('content') : '';
+  return DATA_VERSION;
+}
+function bust(url) {
+  return url + '?v=' + DATA_VERSION;
 }
 async function smartFetchData() {
   const today = new Date().toISOString().slice(0, 10);
-  const version = getDataVersion();
-  // 优先读 output/{date}/data.json（每个 push 不同 commit，CDN 视为新文件）
+  // 路径1: output/{date}/（每个 push 不同 commit，CDN 新鲜）
   try {
-    const r = await fetch(`./output/${today}/data.json`);
+    const r = await fetch(bust(`./output/${today}/data.json`));
     if (r.ok) return r;
   } catch (e) {}
-  // 备用：读版本化路径 v/{时间戳}/data.json（路径级版本，绕过 CDN）
-  if (version) {
-    try {
-      const r2 = await fetch(`./v/${version}/data.json`);
-      if (r2.ok) return r2;
-    } catch (e) {}
-  }
-  // 最终 fallback 到根路径（已知 GitHub Pages CDN 会缓存旧版，仅作保底）
-  return await fetch(`./data.json`);
+  // 路径2: v/{版本}/（时间戳路径，完全绕过 CDN 缓存）
+  try {
+    const r2 = await fetch(bust(`./v/${DATA_VERSION}/data.json`));
+    if (r2.ok) return r2;
+  } catch (e) {}
+  // 最终 fallback 到根路径（加版本参数，浏览器会重新请求）
+  return await fetch(bust('./data.json'));
 }
 async function smartFetchVs() {
   const today = new Date().toISOString().slice(0, 10);
-  const version = getDataVersion();
   try {
-    const r = await fetch(`./output/${today}/vs-data.json`);
+    const r = await fetch(bust(`./output/${today}/vs-data.json`));
     if (r.ok) return r;
   } catch (e) {}
-  if (version) {
-    try {
-      const r2 = await fetch(`./v/${version}/vs-data.json`);
-      if (r2.ok) return r2;
-    } catch (e) {}
-  }
-  return await fetch(`./vs-data.json`);
+  try {
+    const r2 = await fetch(bust(`./v/${DATA_VERSION}/vs-data.json`));
+    if (r2.ok) return r2;
+  } catch (e) {}
+  return await fetch(bust('./vs-data.json'));
 }
 
 // ===== 从 data.json 加载实时数据 =====
