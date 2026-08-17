@@ -1131,27 +1131,42 @@ let currentIndex = 0;
 let currentVsProducts = [];
 let currentVsIndex = 0;
 
-// 智能 fetch：优先读今天日期子路径，404 时回退根路径（绕开 CDN 缓存）
+// 智能 fetch：路径级版本化（commit hash 子路径），彻底绕过 GitHub Pages CDN 缓存 bug
 async function smartFetchData() {
   const today = new Date().toISOString().slice(0, 10);
-  const ts = Date.now();
-  // 优先读今天日期子路径（新 URL，CDN 没缓存，立即拉新版）
   try {
-    const r = await fetch(`./output/${today}/data.json?t=${ts}`);
+    // 优先读 output/{date}/data.json（每次 push 不同 commit，CDN 视为新文件）
+    const r = await fetch(`./output/${today}/data.json`);
     if (r.ok) return r;
   } catch (e) {}
-  // 回退到根路径
-  return await fetch(`./data.json?t=${ts}`);
+  // 备用：读版本化路径 v/{hash}/data.json（每个 commit 不同 hash，CDN 不缓存）
+  try {
+    const vr = await fetch(`./v/current.txt`);
+    if (vr.ok) {
+      const version = (await vr.text()).trim();
+      const r2 = await fetch(`./v/${version}/data.json`);
+      if (r2.ok) return r2;
+    }
+  } catch (e) {}
+  // 最终 fallback 到根路径（已知 GitHub Pages CDN 会缓存旧版，仅作保底）
+  return await fetch(`./data.json`);
 }
 
 async function smartFetchVs() {
   const today = new Date().toISOString().slice(0, 10);
-  const ts = Date.now();
   try {
-    const r = await fetch(`./output/${today}/vs-data.json?t=${ts}`);
+    const r = await fetch(`./output/${today}/vs-data.json`);
     if (r.ok) return r;
   } catch (e) {}
-  return await fetch(`./vs-data.json?t=${ts}`);
+  try {
+    const vr = await fetch(`./v/current.txt`);
+    if (vr.ok) {
+      const version = (await vr.text()).trim();
+      const r2 = await fetch(`./v/${version}/vs-data.json`);
+      if (r2.ok) return r2;
+    }
+  } catch (e) {}
+  return await fetch(`./vs-data.json`);
 }
 
 // ===== 从 data.json 加载实时数据 =====

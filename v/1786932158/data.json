@@ -1,0 +1,156 @@
+{
+  "date": "2026-08-17",
+  "dataSource": "WebSearch 搜索结果整理",
+  "totalRuns": 5,
+  "totalProducts": 25,
+  "lastRunDate": "2026-08-17",
+  "status": "运行中",
+  "updateTime": "2026-08-17 09:45",
+  "products": [
+    {
+      "id": 1,
+      "name": "Retroid Pocket 5 掌上游戏机",
+      "category": "数码电子",
+      "description": "口袋里的主机级体验！Retroid Pocket 5，骁龙865旗舰芯+8GB内存，安卓13+Linux双系统，5.5寸AMOLED 1080P触控屏，握持手感一流。实测玩《原神》中画质稳定60帧，《王国之泪》模拟器完美运行。折叠屏手机大小揣兜就走，等地铁再也不无聊。一台机器玩遍 Steam/PS2/3DS/Switch 全平台，掌机党终极退烧之选。",
+      "highlights": [
+        "骁龙865 + 8GB RAM，安卓13+Linux双系统，流畅运行主流模拟器",
+        "5.5寸AMOLED 1080P触控屏，色彩艳丽，阳光下也清晰可见",
+        "Steam/PS2/3DS/Switch 全平台覆盖，一机走天下",
+        "续航实测6小时+，支持45W快充回血",
+        "支持蓝牙手柄连接，双人同屏游玩更爽"
+      ],
+      "tags": [
+        "掌机",
+        "模拟器",
+        "骁龙865",
+        "AMOLED",
+        "退烧之选"
+      ],
+      "target": "怀旧游戏玩家、掌机爱好者、出行打发时间",
+      "priceRange": "约1458-1699元",
+      "source": "2026年8月数码好物推荐",
+      "image": "orig_product_1.jpg",
+      "links": {
+        "jd": "https://search.jd.com/Search?keyword=Retroid+Pocket+5",
+        "taobao": "https://s.taobao.com/search?q=Retroid+Pocket+5",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=Retroid+Pocket+5"
+      }
+    },
+    {
+      "id": 2,
+      "name": "哈趣 H3 Pro 投影仪",
+      "category": "小家电",
+      "description": "千元投影仪卷王！哈趣H3 Pro，实测开箱即用的卧室影院神器。1080P物理分辨率 + 自动对焦+梯形校正，随便放床头柜就能投出方正大屏。关灯效果直接对标两千元档，开灯勉强可用。附赠幕布支架套餐，总价不到700元，学生党租房族首选。暑假宅家看球打游戏，大屏沉浸感手机平板给不了。",
+      "highlights": [
+        "1080P物理分辨率，自动对焦+四向梯形校正，3秒即用",
+        "LED光源实测流明300ANSI+，关灯效果对标两千元档",
+        "内置双5W音响，支持蓝牙连接外部音箱",
+        "支持侧投、吊装、桌面多种安装方式",
+        "附赠便携幕布+三脚架，总价不到700元性价比无敌"
+      ],
+      "tags": [
+        "投影仪",
+        "千元档",
+        "1080P",
+        "自动对焦",
+        "宿舍神器"
+      ],
+      "target": "学生党、租房族、暑假宅家人群、卧室影院",
+      "priceRange": "约600-800元",
+      "source": "2026年暑期数码好物推荐",
+      "image": "orig_product_2.jpg",
+      "links": {
+        "jd": "https://search.jd.com/Search?keyword=哈趣H3Pro投影仪",
+        "taobao": "https://s.taobao.com/search?q=哈趣H3Pro",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=哈趣H3Pro"
+      }
+    },
+    {
+      "id": 3,
+      "name": "金邦 P3A 2TB NVMe SSD",
+      "category": "数码电子",
+      "description": "目前最划算的2TB仓库盘！金邦P3A，PCIe 3.0协议，读速2400MB/s，写入2000MB/s，京东自营3年质保。QLC颗粒但价格真香，2TB不到500元，比买机械硬盘还划算。给笔记本扩容、装游戏盘、NAS下载盘，选它准没错。存储涨价前夕赶紧囤一块，错过这波不知道下次什么价。",
+      "highlights": [
+        "2TB超大容量，京东自营到手不到500元",
+        "PCIe 3.0 NVMe，M.2 2280规格，笔记本台式机通用",
+        "读速2400MB/s，写入2000MB/s，QLC入门级但够用",
+        "3年质保京东自营，售后有保障，比杂牌放心",
+        "轻薄设计，发热量低，笔记本加装首选"
+      ],
+      "tags": [
+        "SSD",
+        "2TB",
+        "NVMe",
+        "低价囤货",
+        "仓库盘"
+      ],
+      "target": "装机用户、笔记本扩容、游戏仓库、NAS下载盘",
+      "priceRange": "约450-550元",
+      "source": "2026年8月装机推荐",
+      "image": "orig_product_3.jpg",
+      "links": {
+        "jd": "https://search.jd.com/Search?keyword=金邦P3A+2TB",
+        "taobao": "https://s.taobao.com/search?q=金邦P3A+2TB",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=金邦P3A+2TB"
+      }
+    },
+    {
+      "id": 4,
+      "name": "华为 WATCH GT 6 Pro 智能手表",
+      "category": "数码电子",
+      "description": "华为旗舰手表里的全能选手！WATCH GT 6 Pro曜石黑，46mm大表盘，钛金属表壳+蓝宝石玻璃，质感碾压同价位竞品。21天超长续航告别电量焦虑，ECG心电分析+血氧+睡眠监测，健康数据全面。骑行模式支持GPS轨迹记录，商务运动两不误。支持无线充电，放上手表就能回血。",
+      "highlights": [
+        "21天超长续航，实测重度使用也能撑一周",
+        "ECG心电分析+血氧+压力+睡眠监测，健康管理全能",
+        "钛金属表壳+蓝宝石玻璃，质感精致不输Apple Watch",
+        "100+运动模式，新增骑行GPS轨迹记录",
+        "支持无线充电+反向充电，躺床上随手放即充"
+      ],
+      "tags": [
+        "智能手表",
+        "华为",
+        "超长续航",
+        "ECG",
+        "钛金属"
+      ],
+      "target": "商务人士、运动爱好者、健康管理、华为生态用户",
+      "priceRange": "约1688-1988元",
+      "source": "2026年8月穿戴设备推荐",
+      "image": "orig_product_4.jpg",
+      "links": {
+        "jd": "https://search.jd.com/Search?keyword=华为WATCH+GT6+Pro",
+        "taobao": "https://s.taobao.com/search?q=华为WATCH+GT6+Pro",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=华为WATCH+GT6+Pro"
+      }
+    },
+    {
+      "id": 5,
+      "name": "OPPO Find N6 折叠屏手机",
+      "category": "数码电子",
+      "description": "折叠屏里的轻薄天花板！OPPO Find N6，骁龙8至尊版芯片+5000万哈苏影像，折叠态仅9.3mm，重量轻至229g，比很多直板旗舰还轻。内屏7.1寸LTPO 120Hz，外屏6.3寸单手操控无压力。实测折叠40万次无忧，IPX8防水，商务出行带一部顶两部。卫星通信版还能发求救信号，户外玩家刚需。",
+      "highlights": [
+        "骁龙8至尊版+16GB内存，性能释放激进，原神满帧",
+        "哈苏5000万三摄，折叠形态可做悬停自拍，比三脚架还稳",
+        "229g+9.3mm折叠厚度，比肩直板旗舰，轻薄碾压竞品",
+        "IPX8防水+40万次折叠无忧认证，耐用性拉满",
+        "卫星通信版支持双向卫星消息，无信号山区也能求救"
+      ],
+      "tags": [
+        "折叠屏",
+        "骁龙8",
+        "哈苏影像",
+        "轻薄旗舰",
+        "卫星通信"
+      ],
+      "target": "商务人士、数码极客、户外玩家、手机摄影爱好者",
+      "priceRange": "约8999-10999元",
+      "source": "2026年8月旗舰手机推荐",
+      "image": "orig_product_5.jpg",
+      "links": {
+        "jd": "https://search.jd.com/Search?keyword=OPPO+Find+N6",
+        "taobao": "https://s.taobao.com/search?q=OPPO+Find+N6",
+        "pdd": "https://youhui.pinduoduo.com/search-result?keyword=OPPO+Find+N6"
+      }
+    }
+  ]
+}
