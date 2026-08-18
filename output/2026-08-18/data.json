@@ -24,7 +24,9 @@
         "入门滚筒",
         "大家电",
         "高温除菌"
-      ]
+      ],
+      "image": "https://cloudimgs.iepose.cn/api/images/product_1_1787015967603_1.jpg",
+      "cardImage": "https://cloudimgs.iepose.cn/api/images/product_1_1787015967603_1.jpg"
     },
     {
       "id": 2,
@@ -48,7 +50,9 @@
         "变频",
         "一级能效",
         "京东爆款"
-      ]
+      ],
+      "image": "https://cloudimgs.iepose.cn/api/images/product_2_1787015968194_1.jpg",
+      "cardImage": "https://cloudimgs.iepose.cn/api/images/product_2_1787015968194_1.jpg"
     },
     {
       "id": 3,
@@ -72,7 +76,9 @@
         "百元耳机",
         "数码配件",
         "通勤必备"
-      ]
+      ],
+      "image": "https://cloudimgs.iepose.cn/api/images/product_3_1787015968516_1.jpg",
+      "cardImage": "https://cloudimgs.iepose.cn/api/images/product_3_1787015968516_1.jpg"
     },
     {
       "id": 4,
@@ -96,7 +102,9 @@
         "影音设备",
         "国补",
         "客厅升级"
-      ]
+      ],
+      "image": "https://cloudimgs.iepose.cn/api/images/product_4_1787015969222_1.jpg",
+      "cardImage": "https://cloudimgs.iepose.cn/api/images/product_4_1787015969222_1.jpg"
     },
     {
       "id": 5,
@@ -120,7 +128,10 @@
         "AI避障",
         "扫拖一体",
         "国补"
-      ]
+      ],
+      "image": "https://cloudimgs.iepose.cn/api/images/product_5_1787015969729_1.jpg",
+      "cardImage": "https://cloudimgs.iepose.cn/api/images/product_5_1787015969729_1.jpg"
     }
-  ]
+  ],
+  "fullCardImage": "https://cloudimgs.iepose.cn/api/images/product_card_full_1787015970124_1.jpg"
 }
