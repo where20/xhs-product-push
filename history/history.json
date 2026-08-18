@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-08-14",
-    "totalRuns": 1,
-    "productCount": 5,
-    "updateTime": "2026-08-14 07:30",
-    "status": "已完成"
-  },
-  {
-    "date": "2026-08-15",
-    "totalRuns": 2,
-    "productCount": 5,
-    "updateTime": "2026-08-15 07:30",
-    "status": "已完成"
-  },
-  {
-    "date": "2026-08-16",
-    "totalRuns": 3,
-    "productCount": 5,
-    "updateTime": "2026-08-16 07:30",
-    "status": "运行中"
-  },
-  {
     "date": "2026-08-17",
     "totalRuns": 4,
     "productCount": 5,
