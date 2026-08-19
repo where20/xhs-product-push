@@ -268,6 +268,53 @@
   .product-item .platform-links .jd { background: #E1251B; color: #fff; }
   .product-item .platform-links .taobao { background: #FF5000; color: #fff; }
   .product-item .platform-links .pdd { background: #E1302A; color: #fff; }
+
+  /* ===== 详情展开 ===== */
+  .detail-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px 16px;
+    margin: 0 16px 12px;
+    border-radius: 8px;
+    background: rgba(88,166,255,0.08);
+    border: 1px solid rgba(88,166,255,0.2);
+    color: #79C0FF;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    user-select: none;
+  }
+  .detail-toggle:hover {
+    background: rgba(88,166,255,0.16);
+    border-color: rgba(88,166,255,0.4);
+  }
+  .detail-toggle .toggle-arrow {
+    transition: transform 0.25s ease;
+  }
+  .product-details {
+    padding: 0 16px 16px;
+  }
+  .product-details .detail-desc {
+    font-size: 13px;
+    color: #8B949E;
+    line-height: 1.7;
+    margin: 0 0 12px;
+  }
+  .product-details .detail-highlights {
+    margin: 0;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .product-details .detail-highlights li {
+    font-size: 12.5px;
+    color: #8B949E;
+    line-height: 1.5;
+  }
+
   .no-data {
     text-align: center;
     color: #484F58;
@@ -1208,6 +1255,15 @@ async function loadData() {
               ${(p.tags && p.tags.length > 0) ? `<div class="tags-wrap">${tagsHtml}</div>` : ''}
               ${linkBtns.length > 0 ? `<div class="platform-links">${linkBtns.join('')}</div>` : ''}
             </div>
+            ${(p.description || (p.highlights && p.highlights.length > 0)) ? `
+            <div class="detail-toggle" onclick="event.stopPropagation();toggleDetails(this)">
+              <span class="toggle-text">查看详情</span>
+              <svg class="toggle-arrow" viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
+            </div>
+            <div class="product-details" style="display:none">
+              ${p.description ? `<p class="detail-desc">${p.description}</p>` : ''}
+              ${(p.highlights && p.highlights.length > 0) ? `<ul class="detail-highlights">${p.highlights.map(h => `<li>${h}</li>`).join('')}</ul>` : ''}
+            </div>` : ''}
           </div>
         `;
       }).join('');
@@ -1397,6 +1453,21 @@ async function loadVsData() {
 }
 
 // ===== Lightbox 大图预览 =====
+function toggleDetails(btn) {
+  const details = btn.nextElementSibling;
+  const arrow = btn.querySelector('.toggle-arrow');
+  const text = btn.querySelector('.toggle-text');
+  if (details.style.display === 'none') {
+    details.style.display = 'block';
+    arrow.style.transform = 'rotate(180deg)';
+    text.textContent = '收起详情';
+  } else {
+    details.style.display = 'none';
+    arrow.style.transform = '';
+    text.textContent = '查看详情';
+  }
+}
+
 function openLightbox(index) {
   currentIndex = index;
   const p = currentProducts[index];
