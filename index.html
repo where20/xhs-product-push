@@ -1249,7 +1249,7 @@ async function loadData() {
               <div class="view-hint">点击查看完整大图</div>
             </div>
             <div class="info">
-              <div class="name">${p.name}</div>
+              <div class="name">${p.title || p.name || ''}</div>
               <div class="category">${p.category || '精选好物'}</div>
               ${p.priceRange ? `<div class="price">${p.priceRange}</div>` : ''}
               ${(p.tags && p.tags.length > 0) ? `<div class="tags-wrap">${tagsHtml}</div>` : ''}
@@ -1587,7 +1587,7 @@ async function loadHistoryDay(date, el) {
               <div class="view-hint">点击查看完整大图</div>
             </div>
             <div class="info">
-              <div class="name">${p.name}</div>
+              <div class="name">${p.title || p.name || ''}</div>
               <div class="category">${p.category || '精选好物'}</div>
               ${p.priceRange ? `<div class="price">${p.priceRange}</div>` : ''}
               ${tagsHtml ? `<div class="tags-wrap">${tagsHtml}</div>` : ''}
