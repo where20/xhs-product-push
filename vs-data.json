@@ -58,14 +58,14 @@
           "price": "¥199",
           "pros": "价格更低，美的品牌认知度高",
           "cons": "无可视化窗口，容量4.5L更小，无免翻面双热源",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/0_1787131454145_1.jpg"
         },
         {
           "name": "苏泊尔 KD50D826 空气炸锅",
           "price": "¥259",
           "pros": "苏泊尔品牌口碑好，5L容量适中",
           "cons": "无可视化窗口，单热源需翻面，内胆非0涂层",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/1.jpg"
         }
       ]
     },
@@ -78,14 +78,14 @@
           "price": "¥399",
           "pros": "美的品牌认知度广，功率1250W打得更细",
           "cons": "需手动清洗，无热风烘干功能，内胆非316钛钢",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/2.jpg"
         },
         {
           "name": "西屋 WFB-VD016 破壁机",
           "price": "¥599",
           "pros": "西屋进口品牌，静音效果好",
           "cons": "无免手洗功能，需手动清洁，功能单一",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/3.jpg"
         }
       ]
     },
@@ -98,14 +98,14 @@
           "price": "¥2499",
           "pros": "戴森品牌顶级，风嘴配件丰富，设计感强",
           "cons": "价格是徕芬15倍，负离子浓度相同，核心性能无代差",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/4.jpg"
         },
         {
           "name": "小米 H501 高速吹风机",
           "price": "¥229",
           "pros": "米家生态联动，价格亲民，11万转电机",
           "cons": "负离子浓度不如徕芬，无智能恒温50次/秒校准",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/5.jpg"
         }
       ]
     },
@@ -118,14 +118,14 @@
           "price": "¥1299",
           "pros": "德龙品牌专业，15Bar泵压意式正宗",
           "cons": "无研磨功能，需另配磨豆器，冰萃功能缺失，价格更贵",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/6.jpg"
         },
         {
           "name": "飞利浦 HD7762 美式咖啡机",
           "price": "¥499",
           "pros": "飞利浦品牌可靠，价格亲民，有研磨功能",
           "cons": "无冰咖萃取模式，无浓度调节，保温时间短",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/7.jpg"
         }
       ]
     },
@@ -138,14 +138,14 @@
           "price": "¥35",
           "pros": "清洁膏品类开创者，品牌知名度高",
           "cons": "价格是万必洁5倍，实际清洁效果差异不大",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/8.jpg"
         },
         {
           "name": "大公鸡管家（Chante Clair）多功能清洁剂",
           "price": "¥45",
           "pros": "意大利品牌，柑橘配方去油强，多场景适用",
           "cons": "是液体喷雾不是膏体，对锅底焦渍效果弱，价格贵6倍",
-          "image": ""
+          "image": "https://cloudimgs.iepose.cn/api/images/9.jpg"
         }
       ]
     }
