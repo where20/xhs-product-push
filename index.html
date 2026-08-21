@@ -6,7 +6,7 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<title>AI选品推送 — 小红书带货自动化</title>
+<title>AI选品推送 v1787267344 — 小红书带货自动化</title>
 <meta name="data-version" content="1787267344" />
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -1063,6 +1063,7 @@
     </div>
   </div>
   <div class="update-time" id="updateTime">数据加载中...</div>
+  <div id="debugVersion" style="position:fixed;top:60px;right:12px;background:rgba(255,107,53,0.95);color:#fff;padding:6px 10px;border-radius:6px;font-size:11px;font-family:monospace;z-index:9999;box-shadow:0 2px 8px rgba(0,0,0,0.3);">HTML v1787267344</div>
 </section>
 
 <!-- 今日精选选品 -->
@@ -1181,6 +1182,9 @@ let currentVsIndex = 0;
 
 // 智能 fetch：版本参数 bust 浏览器缓存 + 路径版本 bust CDN 缓存，双重保险
 const DATA_VERSION = '1787267344'; // 每次 push 后同步更新此值（也写进 meta data-version 供 meta 读取）
+// 调试用:页面顶部显眼显示当前 DATA_VERSION,刷新后如果看到旧版本号说明 HTML 被缓存
+document.title = 'AI选品推送 v' + DATA_VERSION + ' — 小红书带货自动化';
+console.log('[xhs-push] DATA_VERSION =', DATA_VERSION, 'build:', new Date().toISOString());
 function getDataVersion() {
   return DATA_VERSION;
 }
