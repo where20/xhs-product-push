@@ -1064,6 +1064,7 @@
   </div>
   <div class="update-time" id="updateTime">数据加载中...</div>
   <div id="debugVersion" style="position:fixed;top:60px;right:12px;background:rgba(255,107,53,0.95);color:#fff;padding:6px 10px;border-radius:6px;font-size:11px;font-family:monospace;z-index:9999;box-shadow:0 2px 8px rgba(0,0,0,0.3);">HTML v1787267344</div>
+  <div id="debugFetch" style="position:fixed;top:96px;right:12px;background:rgba(31,111,235,0.95);color:#fff;padding:6px 10px;border-radius:6px;font-size:10px;font-family:monospace;z-index:9999;box-shadow:0 2px 8px rgba(0,0,0,0.3);max-width:380px;word-break:break-all;">数据: 加载中...</div>
 </section>
 
 <!-- 今日精选选品 -->
@@ -1201,19 +1202,20 @@ async function smartFetchData() {
     const u1 = bust(`./output/${today}/data.json`);
     const r = await fetch(u1, FETCH_OPTS);
     tried.push({url: u1, status: r.status});
-    if (r.ok) { console.log('[xhs-push] data path1 OK:', u1); return r; }
+    if (r.ok) { console.log('[xhs-push] data path1 OK:', u1); return {res: r, url: u1}; }
   } catch (e) { tried.push({err: e.message}); }
   // 路径2: v/{版本}/（时间戳路径，完全绕过 CDN 缓存）
   try {
     const u2 = bust(`./v/${DATA_VERSION}/data.json`);
     const r2 = await fetch(u2, FETCH_OPTS);
     tried.push({url: u2, status: r2.status});
-    if (r2.ok) { console.log('[xhs-push] data path2 OK:', u2); return r2; }
+    if (r2.ok) { console.log('[xhs-push] data path2 OK:', u2); return {res: r2, url: u2}; }
   } catch (e) { tried.push({err: e.message}); }
   // 最终 fallback 到根路径
   const u3 = bust('./data.json');
   console.warn('[xhs-push] data fallback to root, tried:', tried);
-  return await fetch(u3, FETCH_OPTS);
+  const r3 = await fetch(u3, FETCH_OPTS);
+  return {res: r3, url: u3};
 }
 async function smartFetchVs() {
   const today = new Date().toISOString().slice(0, 10);
@@ -1231,9 +1233,12 @@ async function smartFetchVs() {
 // ===== 从 data.json 加载实时数据 =====
 async function loadData() {
   try {
-    const res = await smartFetchData();
+    const {res, url} = await smartFetchData();
     if (!res.ok) throw new Error('no data');
     const data = await res.json();
+    // 调试:实时显示 fetch 来源 + data date
+    const dbg = document.getElementById('debugFetch');
+    if (dbg) dbg.textContent = `data: ${data.date} | ${data.products ? data.products.length : 0}商品 | fetch: ${url}`;
 
     // 统计数据
     document.getElementById('totalRuns').textContent = data.totalRuns || 0;
@@ -1403,7 +1408,8 @@ async function loadVsData() {
     currentVsProducts = [];
 
     // 从今日选品 data.json 拿 5 个商品图（用 products 数组）
-    const prodRes = await smartFetchData().catch(() => null);
+    const prodRet = await smartFetchData().catch(() => null);
+    const prodRes = prodRet ? prodRet.res : null;
     const prodData = prodRes && prodRes.ok ? await prodRes.json() : {};
     const productsArr = prodData.products || [];
     const productById = {};
