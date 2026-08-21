@@ -1180,7 +1180,7 @@ let currentIndex = 0;
 let currentVsProducts = [];
 let currentVsIndex = 0;
 
-// 智能 fetch：版本参数 bust 浏览器缓存 + 路径版本 bust CDN 缓存，双重保险
+// 智能 fetch：版本参数 bust 浏览器缓存 + 路径版本 bust CDN 缓存 + cache:'no-store' 彻底绕过浏览器 fetch 缓存
 const DATA_VERSION = '1787267344'; // 每次 push 后同步更新此值（也写进 meta data-version 供 meta 读取）
 // 调试用:页面顶部显眼显示当前 DATA_VERSION,刷新后如果看到旧版本号说明 HTML 被缓存
 document.title = 'AI选品推送 v' + DATA_VERSION + ' — 小红书带货自动化';
@@ -1189,34 +1189,43 @@ function getDataVersion() {
   return DATA_VERSION;
 }
 function bust(url) {
-  return url + '?v=' + DATA_VERSION;
+  return url + '?v=' + DATA_VERSION + '&t=' + Date.now();
 }
+// cache:'no-store' 强制 fetch 绕过浏览器 HTTP cache + disk cache,每次都重新请求
+const FETCH_OPTS = { cache: 'no-store' };
 async function smartFetchData() {
   const today = new Date().toISOString().slice(0, 10);
+  const tried = [];
   // 路径1: output/{date}/（每个 push 不同 commit，CDN 新鲜）
   try {
-    const r = await fetch(bust(`./output/${today}/data.json`));
-    if (r.ok) return r;
-  } catch (e) {}
+    const u1 = bust(`./output/${today}/data.json`);
+    const r = await fetch(u1, FETCH_OPTS);
+    tried.push({url: u1, status: r.status});
+    if (r.ok) { console.log('[xhs-push] data path1 OK:', u1); return r; }
+  } catch (e) { tried.push({err: e.message}); }
   // 路径2: v/{版本}/（时间戳路径，完全绕过 CDN 缓存）
   try {
-    const r2 = await fetch(bust(`./v/${DATA_VERSION}/data.json`));
-    if (r2.ok) return r2;
-  } catch (e) {}
-  // 最终 fallback 到根路径（加版本参数，浏览器会重新请求）
-  return await fetch(bust('./data.json'));
+    const u2 = bust(`./v/${DATA_VERSION}/data.json`);
+    const r2 = await fetch(u2, FETCH_OPTS);
+    tried.push({url: u2, status: r2.status});
+    if (r2.ok) { console.log('[xhs-push] data path2 OK:', u2); return r2; }
+  } catch (e) { tried.push({err: e.message}); }
+  // 最终 fallback 到根路径
+  const u3 = bust('./data.json');
+  console.warn('[xhs-push] data fallback to root, tried:', tried);
+  return await fetch(u3, FETCH_OPTS);
 }
 async function smartFetchVs() {
   const today = new Date().toISOString().slice(0, 10);
   try {
-    const r = await fetch(bust(`./output/${today}/vs-data.json`));
+    const r = await fetch(bust(`./output/${today}/vs-data.json`), FETCH_OPTS);
     if (r.ok) return r;
   } catch (e) {}
   try {
-    const r2 = await fetch(bust(`./v/${DATA_VERSION}/vs-data.json`));
+    const r2 = await fetch(bust(`./v/${DATA_VERSION}/vs-data.json`), FETCH_OPTS);
     if (r2.ok) return r2;
   } catch (e) {}
-  return await fetch(bust('./vs-data.json'));
+  return await fetch(bust('./vs-data.json'), FETCH_OPTS);
 }
 
 // ===== 从 data.json 加载实时数据 =====
@@ -1363,7 +1372,7 @@ setInterval(() => {
   const el = document.getElementById('hotUpdateTime');
   if (el && lastHotUpdate) {
     // Re-read the time from the data
-    fetch('./output/' + new Date().toISOString().slice(0,10) + '/vs-data.json?t=' + Date.now()).catch(() => fetch('./vs-data.json?t=' + Date.now()))
+    fetch('./output/' + new Date().toISOString().slice(0,10) + '/vs-data.json?t=' + Date.now(), FETCH_OPTS).catch(() => fetch('./vs-data.json?t=' + Date.now(), FETCH_OPTS))
       .then(r => r.json())
       .then(d => { if (d.updateTime) el.textContent = relativeTime(d.updateTime); })
       .catch(() => {});
@@ -1531,7 +1540,7 @@ document.getElementById('lightbox').addEventListener('click', function(e) {
 async function loadHistory() {
   const tl = document.getElementById('historyTimeline');
   try {
-    const res = await fetch('./history/history.json?t=' + Date.now());
+    const res = await fetch('./history/history.json?t=' + Date.now(), FETCH_OPTS);
     if (!res.ok) throw new Error('no history');
     const list = await res.json();
 
@@ -1567,7 +1576,7 @@ async function loadHistoryDay(date, el) {
   if (el) el.classList.add('active');
 
   try {
-    const res = await fetch(`./history/${date}.json?t=${Date.now()}`);
+    const res = await fetch(`./history/${date}.json?t=${Date.now()}`, FETCH_OPTS);
     if (!res.ok) throw new Error('not found');
     const data = await res.json();
 
