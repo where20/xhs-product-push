@@ -1,21 +1,21 @@
 [
   {
     "date": "2026-08-19",
-    "totalRuns": 6,
+    "totalRuns": 1,
     "productCount": 5,
     "updateTime": "2026-08-19 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-08-20",
-    "totalRuns": 7,
+    "totalRuns": 2,
     "productCount": 5,
     "updateTime": "2026-08-20 07:30",
     "status": "运行中"
   },
   {
     "date": "2026-08-21",
-    "totalRuns": 8,
+    "totalRuns": 3,
     "productCount": 5,
     "updateTime": "2026-08-21 07:30",
     "status": "运行中"
@@ -25,6 +25,13 @@
     "totalRuns": 4,
     "productCount": 5,
     "updateTime": "2026-08-22 07:30",
+    "status": "运行中"
+  },
+  {
+    "date": "2026-08-23",
+    "totalRuns": 5,
+    "productCount": 5,
+    "updateTime": "2026-08-23 07:30",
     "status": "运行中"
   }
 ]
