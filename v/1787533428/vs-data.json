@@ -1,0 +1,151 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24 07:30",
+  "competitors": [
+    {
+      "product_id": 1,
+      "product_name": "得力魔方插座转换器一转四",
+      "our_price": "12.9",
+      "competitors": [
+        {
+          "name": "公牛一转三迷你插座",
+          "price": "12.91",
+          "source": "天猫超市",
+          "monthly_sales": "月销1万+",
+          "note": "无USB口，只有3个AC插孔"
+        },
+        {
+          "name": "小米魔方转换器5位",
+          "price": "29.9",
+          "source": "天猫小米旗舰店",
+          "monthly_sales": "月销2万+",
+          "note": "带USB口，5位总控，过载保护"
+        },
+        {
+          "name": "公牛100W氮化镓快充魔方插座",
+          "price": "92.9",
+          "source": "京东公牛旗舰店",
+          "monthly_sales": "月销5000+",
+          "note": "2C2A+3插孔，100W快充，功能最全但价格高"
+        }
+      ],
+      "our_advantage": "12.9元=一转四面+USB-A+USB-C+Qi无线充四合一，同价位功能最全"
+    },
+    {
+      "product_id": 2,
+      "product_name": "九阳mini电热水壶1L",
+      "our_price": "33.04",
+      "competitors": [
+        {
+          "name": "美的电热水壶1.5L",
+          "price": "54",
+          "source": "天猫京东美的旗舰店",
+          "monthly_sales": "月销10万+",
+          "note": "1.5L容量更大，品牌知名度高"
+        },
+        {
+          "name": "小熊电热水壶1.5L",
+          "price": "41-169",
+          "source": "天猫京东小熊旗舰店",
+          "monthly_sales": "月销5万+",
+          "note": "产品线丰富，颜值高，价格区间大"
+        },
+        {
+          "name": "苏泊尔电热水壶1.7L",
+          "price": "69",
+          "source": "天猫苏泊尔旗舰店",
+          "monthly_sales": "月销3万+",
+          "note": "容量更大，品牌可靠"
+        }
+      ],
+      "our_advantage": "1L黄金容量适合1-2人，33元性价比极高，3分钟速沸不等待"
+    },
+    {
+      "product_id": 3,
+      "product_name": "蜂花防脱洗发水750ml",
+      "our_price": "17.9",
+      "competitors": [
+        {
+          "name": "思芸堂防脱洗发水300g",
+          "price": "78",
+          "source": "天猫京东旗舰店",
+          "monthly_sales": "累计500万瓶",
+          "note": "防脱率98.5%，临床实测，功效最强但价格高"
+        },
+        {
+          "name": "悦罗兰防脱洗发水300ml",
+          "price": "98",
+          "source": "天猫旗舰店",
+          "monthly_sales": "好评50万+条",
+          "note": "温和高效，复购率93.8%，口碑好但单价高"
+        },
+        {
+          "name": "多芬防脱修护洗发水",
+          "price": "30-40",
+          "source": "天猫超市",
+          "monthly_sales": "月销2万+",
+          "note": "氨基酸表活，温和但防脱率78.5%"
+        }
+      ],
+      "our_advantage": "17.9元/750ml，国货老牌，固发防脱实测82%，性价比之王"
+    },
+    {
+      "product_id": 4,
+      "product_name": "水卫士防溅水香氛洁厕泡泡",
+      "our_price": "19.9",
+      "competitors": [
+        {
+          "name": "威猛先生洁厕液",
+          "price": "29.9",
+          "source": "天猫超市",
+          "monthly_sales": "月销10万+",
+          "note": "品牌知名度高，清洁力强但无香氛"
+        },
+        {
+          "name": "蓝月亮厕清",
+          "price": "25.9",
+          "source": "天猫超市",
+          "monthly_sales": "月销5万+",
+          "note": "老牌清洁品牌，去污效果好但无泡沫挂壁"
+        },
+        {
+          "name": "花王洁厕喷雾",
+          "price": "45",
+          "source": "天猫超市",
+          "monthly_sales": "月销1万+",
+          "note": "日系品牌，温和香型但价格偏高"
+        }
+      ],
+      "our_advantage": "19.9元/2瓶，泡沫挂壁+香氛除味二合一，平价大碗"
+    },
+    {
+      "product_id": 5,
+      "product_name": "一次性洗脸巾加厚款",
+      "our_price": "14.9",
+      "competitors": [
+        {
+          "name": "尔木萄云享洗脸巾(5包装)",
+          "price": "59.9",
+          "source": "天猫尔木萄旗舰店",
+          "monthly_sales": "复购率41.7%",
+          "note": "100%精梳棉，75g/㎡，婴儿A类标准，综合测评第一"
+        },
+        {
+          "name": "全棉时代纯棉洗脸巾(6包装)",
+          "price": "119",
+          "source": "天猫全棉时代旗舰店",
+          "monthly_sales": "月销3万+",
+          "note": "100%新疆长绒棉，医护级认证，但单价0.83元/抽较高"
+        },
+        {
+          "name": "棉柔世家168抽悬挂款",
+          "price": "32.9",
+          "source": "天猫棉柔世家旗舰店",
+          "monthly_sales": "月销2万+",
+          "note": "100%新疆长绒棉，敏感肌首选，悬挂设计，单抽约0.2元"
+        }
+      ],
+      "our_advantage": "14.9元/60抽，加厚不掉絮，随用随扔，极致性价比"
+    }
+  ]
+}
