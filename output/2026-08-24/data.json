@@ -17,11 +17,26 @@
         "巴掌大小不占桌面，桌面瞬间整洁",
         "赠运费险，12.9元学生党闭眼入"
       ],
-      "tags": ["数码配件", "插座转换器", "桌面收纳", "开学必备", "宿舍好物"],
+      "tags": [
+        "数码配件",
+        "插座转换器",
+        "桌面收纳",
+        "开学必备",
+        "宿舍好物"
+      ],
       "source": "天猫得力官方旗舰店",
       "monthly_sales": "月销3万+",
       "rating": "4.9",
-      "category": "数码配件"
+      "category": "数码配件",
+      "image": "./output/2026-08-24/product_1.jpg",
+      "images": [
+        "./output/2026-08-24/orig_product_1.jpg",
+        "./output/2026-08-24/product_1.jpg"
+      ],
+      "links": {
+        "taobao": "https://s.taobao.com/search?q=得力魔方插座转换器一转四",
+        "jd": "https://search.jd.com/Search?keyword=得力魔方插座转换器一转四"
+      }
     },
     {
       "id": 2,
@@ -37,11 +52,26 @@
         "3分钟速沸，早八人不用等太久",
         "迷你体积放桌面，随时有热水喝"
       ],
-      "tags": ["小家电", "电热水壶", "一人食", "办公室好物", "居家必备"],
+      "tags": [
+        "小家电",
+        "电热水壶",
+        "一人食",
+        "办公室好物",
+        "居家必备"
+      ],
       "source": "天猫/京东九阳官方旗舰店",
       "monthly_sales": "日均200+，累计10万+",
       "rating": "4.9",
-      "category": "小家电"
+      "category": "小家电",
+      "image": "./output/2026-08-24/product_2.jpg",
+      "images": [
+        "./output/2026-08-24/orig_product_2.jpg",
+        "./output/2026-08-24/product_2.jpg"
+      ],
+      "links": {
+        "taobao": "https://s.taobao.com/search?q=九阳mini电热水壶1L",
+        "jd": "https://search.jd.com/Search?keyword=九阳mini电热水壶1L"
+      }
     },
     {
       "id": 3,
@@ -57,11 +87,26 @@
         "750ml不到20元，性价比天花板",
         "防脱率82%，轻度脱发日常养护够用"
       ],
-      "tags": ["个护", "洗发水", "防脱固发", "国货平价", "学生党"],
+      "tags": [
+        "个护",
+        "洗发水",
+        "防脱固发",
+        "国货平价",
+        "学生党"
+      ],
       "source": "天猫蜂花官方旗舰店",
       "monthly_sales": "天猫月销5万+",
       "rating": "4.8",
-      "category": "个护美妆"
+      "category": "个护美妆",
+      "image": "./output/2026-08-24/product_3.jpg",
+      "images": [
+        "./output/2026-08-24/orig_product_3.jpg",
+        "./output/2026-08-24/product_3.jpg"
+      ],
+      "links": {
+        "taobao": "https://s.taobao.com/search?q=蜂花防脱洗发水750ml",
+        "jd": "https://search.jd.com/Search?keyword=蜂花防脱洗发水750ml"
+      }
     },
     {
       "id": 4,
@@ -77,11 +122,26 @@
         "2瓶19.9元，一次清洁不到一块钱",
         "懒人神器，喷完等几分钟冲掉即可"
       ],
-      "tags": ["家居清洁", "洁厕用品", "卫生间神器", "懒人好物", "平价神器"],
+      "tags": [
+        "家居清洁",
+        "洁厕用品",
+        "卫生间神器",
+        "懒人好物",
+        "平价神器"
+      ],
       "source": "天猫水卫士旗舰店",
       "monthly_sales": "天猫月销1万+",
       "rating": "4.7",
-      "category": "家居清洁"
+      "category": "家居清洁",
+      "image": "./output/2026-08-24/product_4.jpg",
+      "images": [
+        "./output/2026-08-24/orig_product_4.jpg",
+        "./output/2026-08-24/product_4.jpg"
+      ],
+      "links": {
+        "taobao": "https://s.taobao.com/search?q=水卫士防溅水香氛洁厕泡泡",
+        "jd": "https://search.jd.com/Search?keyword=水卫士防溅水香氛洁厕泡泡"
+      }
     },
     {
       "id": 5,
@@ -97,11 +157,31 @@
         "一巾多用：洗脸→擦桌→擦镜子",
         "14.9元60抽，一抽不到两毛五"
       ],
-      "tags": ["护肤日用", "洗脸巾", "洁面巾", "敏感肌", "懒人好物"],
+      "tags": [
+        "护肤日用",
+        "洗脸巾",
+        "洁面巾",
+        "敏感肌",
+        "懒人好物"
+      ],
       "source": "天猫/拼多多",
       "monthly_sales": "全网月销10万+",
       "rating": "4.8",
-      "category": "护肤日用"
+      "category": "护肤日用",
+      "image": "./output/2026-08-24/product_5.jpg",
+      "images": [
+        "./output/2026-08-24/orig_product_5.jpg",
+        "./output/2026-08-24/product_5.jpg"
+      ],
+      "links": {
+        "taobao": "https://s.taobao.com/search?q=一次性洗脸巾加厚款",
+        "jd": "https://search.jd.com/Search?keyword=一次性洗脸巾加厚款"
+      }
     }
-  ]
+  ],
+  "totalProducts": 5,
+  "totalRuns": 6,
+  "lastRunDate": "2026-08-24",
+  "status": "运行中",
+  "updateTime": "2026-08-24 07:30"
 }
