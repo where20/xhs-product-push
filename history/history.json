@@ -61,5 +61,42 @@
     "productCount": 5,
     "updateTime": "2026-08-27 06:03",
     "status": "运行中"
+  },
+  {
+    "date": "2026-08-28",
+    "totalProducts": 5,
+    "totalRuns": 10,
+    "products": [
+      {
+        "id": 1,
+        "name": "西圣Bee小蜜蜂扩音器",
+        "category": "教学装备",
+        "price": "239元"
+      },
+      {
+        "id": 2,
+        "name": "惠普便携扫描仪",
+        "category": "学习工具",
+        "price": "399元"
+      },
+      {
+        "id": 3,
+        "name": "小米口袋照片打印机Pro",
+        "category": "创意数码",
+        "price": "599元"
+      },
+      {
+        "id": 4,
+        "name": "南卡DeepSleep睡眠耳机",
+        "category": "生活好物",
+        "price": "689元"
+      },
+      {
+        "id": 5,
+        "name": "书客SKR1屏幕挂灯",
+        "category": "学习照明",
+        "price": "289元"
+      }
+    ]
   }
 ]
