@@ -98,5 +98,12 @@
         "price": "289元"
       }
     ]
+  },
+  {
+    "date": "2026-08-29",
+    "totalRuns": 11,
+    "productCount": 5,
+    "updateTime": "2026-08-29 07:30",
+    "status": "运行中"
   }
 ]

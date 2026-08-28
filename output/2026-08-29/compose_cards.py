@@ -1,0 +1,300 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""生成5款商品详情长图（1080px宽），每款商品一张3000px高卡片，5等份裁剪"""
+
+import os
+from PIL import Image, ImageDraw, ImageFont
+
+# 配置
+TODAY = "2026-08-29"
+OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+FONT_PATH = "/System/Library/Fonts/STHeiti Light.ttc"
+WIDTH = 1080
+CARD_H = 3000
+GAP = 20
+
+# 5个商品数据
+PRODUCTS = [
+    {
+        "num": "01",
+        "category": "智能穿戴",
+        "title": "华为WATCH GT 6 Pro",
+        "subtitle": "钛合金旗舰 · 21天续航 · ECG心电 · 国补后¥1,688",
+        "desc": "钛合金旗舰运动手表，867mAh电池实现21天超长续航，告别一天一充。搭载玄玑感知系统，支持ECG心电采集、情绪识别、房颤筛查等专业健康监测；100+运动模式覆盖骑行、游泳、高尔夫等专业场景；5ATM+IP69K双防水认证，支持40米潜水。3000nit峰值亮度强光下清晰可见，全平台兼容安卓与iOS。2026年抖音精选好评率94.5%，累计销量突破39万台，2000-2500元智能手表赛道口碑断层领先。适合职场白领、运动爱好者与健康管理人群，送礼自用两相宜。",
+        "highlights": [
+            "867mAh超长续航 · 21天免充电 · 钛合金蓝宝石机身仅54.7g",
+            "玄玑感知系统 · ECG心电采集 · 12种情绪识别 · 301医院联合研发",
+            "100+运动模式 · 高尔夫矢量地图 · 40米潜水 · IP69K防水",
+            "3000nit峰值亮度 · 强光下抬腕即读 · AOD常亮7天",
+            "国补后¥1,688 · 21天续航 vs Apple Watch一天一充"
+        ],
+        "tags": ["钛合金旗舰", "21天续航", "ECG心电", "玄玑感知", "国补好价"],
+        "suitable": "职场白领 · 运动爱好者 · 中老年健康监测 · 骑行/高尔夫玩家",
+        "price_note": "国补后低至¥1,688 · 享15%国家换新补贴",
+        "img": f"{OUT_DIR}/product_1.jpg",
+        "color": "#1C3A5F",
+    },
+    {
+        "num": "02",
+        "category": "电竞外设",
+        "title": "罗技GPW5雪豹无线游戏鼠标",
+        "subtitle": "HITS电磁微动 · 8000Hz回报率 · 点击延迟11ms",
+        "desc": "罗技GPW系列第五代旗舰，业界首款搭载HITS电磁无触点微动，彻底告别双击隐患。点击延迟从传统42ms降至11ms，FPS急停、连点先手优势明显；HERO 2传感器支持44K DPI、888 IPS、8000Hz无线回报率，职业赛事级精准追踪。61g轻量化对称模具，中大手通用，支持5档触发深度、6档回弹速度、5档震动反馈自定义。90小时超长游戏续航，磁吸快充15分钟可用10小时；兼容POWERPLAY无线充电底座。适合CS2、无畏契约、APEX等FPS电竞玩家，送礼选礼盒版附赠足金键帽。",
+        "highlights": [
+            "HITS电磁微动 · 永久无双击 · 点击延迟11ms（传统42ms）",
+            "HERO 2传感器 · 44K DPI · 8000Hz回报率 · 媲美有线鼠标",
+            "61g轻量化 · GPW经典对称模具 · 18-21cm中大手通用",
+            "90小时游戏续航 · 15分钟快充 · 支持POWERPLAY无线充电",
+            "5档触发深度+6档震动反馈自定义 · 左右键独立设置"
+        ],
+        "tags": ["HITS电磁微动", "8000Hz回报率", "电竞旗舰", "零双击", "FPS神器"],
+        "suitable": "FPS电竞玩家 · CS2/无畏契约玩家 · MOBA连招玩家 · 送礼自用",
+        "price_note": "活动价¥1,299 · 礼盒版含足金键帽",
+        "img": f"{OUT_DIR}/product_2.jpg",
+        "color": "#1A1A1A",
+    },
+    {
+        "num": "03",
+        "category": "家居氛围灯",
+        "title": "万火星空投影灯",
+        "subtitle": "小红书爆款 · 21套投影盘 · 静音旋转 · 全网销量100万+",
+        "desc": "小红书#卧室星空顶 话题浏览超1600万次的氛围神器，2026年天猫/京东小夜灯类目销量TOP1品牌。21套高清投影盘涵盖星空、银河、北极光等主题，360°静音旋转无噪音，3米距离可投出约40㎡覆盖面积。光学透镜组替代廉价塑料片，Ra>80显色指数，星星边缘锐利有层次。无极调光+3000-4000K暖黄光，无频闪不伤眼。适合情侣浪漫卧室、学生宿舍租房党、送礼送女生闺蜜。",
+        "highlights": [
+            "21套高清投影盘 · 星空/银河/极光全涵盖 · 3米投40㎡",
+            "360°静音无刷电机 · 1米处约25分贝 · 夜间无噪音",
+            "Ra>80高显色LED · 无频闪 · 暖黄光呵护双眼",
+            "无极调光+无极转速 · 旋钮操作 · 傻瓜式老人小孩都会",
+            "连续8小时灯体仅40°C · 铝基板散热 · 耐用不光衰"
+        ],
+        "tags": ["星空顶", "小红书爆款", "静音旋转", "无频闪", "送礼神器"],
+        "suitable": "情侣/夫妻 · 学生宿舍 · 租房党 · 闺蜜/女友礼物 · 儿童房",
+        "price_note": "¥88爆款价 · 全网累计销量100万+",
+        "img": f"{OUT_DIR}/product_3.jpg",
+        "color": "#2C3E6B",
+    },
+    {
+        "num": "04",
+        "category": "数码配件",
+        "title": "ARZOPA阿卓帕14寸便携显示器",
+        "subtitle": "便携副屏全球销冠 · USB-C一线连 · 开学季¥999",
+        "desc": "便携显示器全球销量第一品牌（ARZOPA官方数据），亚马逊#1 Best-Selling Portable Monitor。14寸FHD IPS屏幕，仅0.4英寸厚、1.1磅超轻，一根USB-C线同时传输视频信号和供电。178°广视角，60Hz刷新率，支持横竖屏一键切换。广泛兼容MacBook、PC、手机、Switch、Steam Deck、Xbox等设备，即插即用无需驱动。内置双扬声器，开学季大学生笔记本副屏、程序员双屏、Switch外出大屏游戏首选。2026年便携显示器赛道口碑最佳，千元内性价比之王。",
+        "highlights": [
+            "14寸FHD IPS · 178°广视角 · 60Hz流畅刷新",
+            "仅1.1磅(0.5kg) · 0.4英寸厚 · 口袋级便携",
+            "USB-C一线直连 · 同时供电+视频 · 无需驱动即插即用",
+            "横竖屏一键切换 · 程序员/学生/游戏多场景",
+            "兼容MacBook/PC/Switch/Steam Deck等主流设备"
+        ],
+        "tags": ["便携副屏", "USB-C一线连", "全球销冠", "开学刚需", "多设备兼容"],
+        "suitable": "大学生笔记本副屏 · 程序员双屏 · Switch外出大屏 · 设计师便携校色",
+        "price_note": "开学季¥999-1,199 · 比日常省300元",
+        "img": f"{OUT_DIR}/product_4.jpg",
+        "color": "#2D5016",
+    },
+    {
+        "num": "05",
+        "category": "时尚配饰",
+        "title": "名创优品果冻鲨鱼夹",
+        "subtitle": "小红书果冻核美学顶流 · ¥16.9爆款 · 全网售罄补货",
+        "desc": "2026年小红书#果冻核美学 话题浏览逼近百万的穿搭顶流，以透明晶亮的低饱和粉彩色、通透胶状质感横扫夏季配饰赛道。名创优品门店粉色+蓝色两款售价¥16.9，上市后迅速售罄补货，店内陈列仅剩展示品。义乌批发市场价格¥1-2元/个，跨境出口订单活跃。透明果冻材质在灯光下格外醒目，与夏季清凉穿搭高度契合，自带减龄童趣属性。适合年轻女性日常穿搭、约会造型、送闺蜜同款。",
+        "highlights": [
+            "2026年小红书果冻核美学顶流 · 透明晶亮低饱和粉彩色",
+            "¥16.9名创优品爆款 · 门店迅速售罄补货",
+            "义乌批发¥1-2元/个 · 跨境出口订单活跃",
+            "透明胶状质感 · 灯光下格外醒目 · 减龄童趣属性",
+            "2026夏季清凉穿搭标配 · 小红书#果冻美学 百万级话题"
+        ],
+        "tags": ["果冻美学", "小红书爆款", "透明质感", "童趣减龄", "百元内好物"],
+        "suitable": "年轻女性 · 学生党 · 穿搭博主 · 闺蜜同款 · 约会造型",
+        "price_note": "零售¥16.9（名创优品）/ 批发¥1-2元",
+        "img": f"{OUT_DIR}/product_5.jpg",
+        "color": "#7B3F8A",
+    },
+]
+
+
+def load_font(size):
+    try:
+        return ImageFont.truetype(FONT_PATH, size)
+    except:
+        try:
+            return ImageFont.truetype("/System/Library/Fonts/PingFang.ttc", size)
+        except:
+            return ImageFont.load_default()
+
+
+def hex_to_rgb(hex_color):
+    h = hex_color.lstrip('#')
+    return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+
+
+def draw_product_card(product):
+    img = Image.open(product["img"]).convert("RGBA")
+    scale = WIDTH / img.width
+    new_h = int(img.height * scale)
+    img = img.resize((WIDTH, new_h), Image.LANCZOS)
+
+    card_h = CARD_H
+    card = Image.new("RGBA", (WIDTH, card_h), (255, 255, 255, 255))
+    draw = ImageDraw.Draw(card)
+
+    # 商品图
+    card.paste(img, (0, 0))
+
+    # 渐变遮罩
+    for i in range(80):
+        alpha = int(255 * i / 80)
+        overlay = Image.new("RGBA", (WIDTH, 1), (255, 255, 255, alpha))
+        card.paste(overlay, (0, new_h - 80 + i))
+
+    # 编号标签
+    num_font = load_font(72)
+    r, g, b = hex_to_rgb(product["color"])
+    draw.rounded_rectangle([30, new_h + 20, 160, new_h + 110], radius=16, fill=(r, g, b, 230))
+    draw.text((50, new_h + 25), f"#{product['num']}", font=num_font, fill=(255, 255, 255))
+
+    # 分类标签
+    cat_font = load_font(28)
+    bbox = draw.textbbox((0, 0), product["category"], font=cat_font)
+    tw = bbox[2] - bbox[0] + 24
+    draw.rounded_rectangle([170, new_h + 40, 170 + tw, new_h + 90], radius=16, fill=(100, 100, 100, 220))
+    draw.text((182, new_h + 48), product["category"], font=cat_font, fill=(255, 255, 255))
+
+    # 商品标题
+    title_font = load_font(60)
+    draw.text((40, new_h + 120), product["title"], font=title_font, fill=(30, 30, 30))
+
+    # 副标题
+    sub_font = load_font(28)
+    draw.text((40, new_h + 195), product["subtitle"], font=sub_font, fill=(100, 100, 100))
+
+    # 分隔线
+    sep_y = new_h + 245
+    draw.line([(40, sep_y), (WIDTH - 40, sep_y)], fill=(220, 220, 220), width=2)
+
+    # 描述文字（自动换行）
+    desc_font = load_font(30)
+    desc_text = product["desc"]
+    words = list(desc_text)
+    lines_desc = []
+    current = ""
+    for char in words:
+        test = current + char
+        bbox = draw.textbbox((0, 0), test, font=desc_font)
+        if bbox[2] - bbox[0] > WIDTH - 80:
+            lines_desc.append(current)
+            current = char
+        else:
+            current = test
+    if current:
+        lines_desc.append(current)
+
+    dy = sep_y + 20
+    for line in lines_desc:
+        draw.text((40, dy), line, font=desc_font, fill=(60, 60, 60))
+        dy += 48
+
+    # 核心亮点标题
+    hl_y = dy + 20
+    hl_title_font = load_font(34)
+    draw.text((40, hl_y), "★ 核心亮点", font=hl_title_font, fill=(30, 30, 30))
+    hl_y += 50
+
+    # 亮点列表
+    hl_font = load_font(28)
+    for i, hl in enumerate(product["highlights"]):
+        dot_x = 55
+        dot_y = hl_y + 4
+        cr, cg, cb = hex_to_rgb(product["color"])
+        draw.ellipse([dot_x, dot_y, dot_x + 16, dot_y + 16], fill=(cr, cg, cb))
+        draw.text((dot_x + 24, hl_y), f"{i+1}. {hl}", font=hl_font, fill=(50, 50, 50))
+        hl_y += 50
+
+    # 卖点标签
+    tag_y = hl_y + 20
+    tag_font = load_font(22)
+    x_pos = 40
+    for tag in product["tags"]:
+        bbox = draw.textbbox((0, 0), tag, font=tag_font)
+        tw = bbox[2] - bbox[0] + 20
+        if x_pos + tw > WIDTH - 40:
+            x_pos = 40
+            tag_y += 45
+        draw.rounded_rectangle([x_pos, tag_y, x_pos + tw, tag_y + 38], radius=19, fill=(242, 242, 244))
+        draw.text((x_pos + 10, tag_y + 6), tag, font=tag_font, fill=(80, 80, 80))
+        x_pos += tw + 12
+
+    # 适合人群
+    suy = tag_y + 55
+    draw.text((40, suy), f"适用人群：{product['suitable']}", font=hl_font, fill=(80, 80, 80))
+
+    # 价格说明
+    pricey = suy + 50
+    price_font = load_font(34)
+    draw.text((40, pricey), product["price_note"], font=price_font, fill=(cr, cg, cb))
+
+    # 底部品牌栏
+    bottom_y = card_h - 65
+    draw.rectangle([0, bottom_y, WIDTH, card_h], fill=(242, 242, 247))
+    brand_font = load_font(24)
+    brand_text = f"京一好物推荐 · {TODAY} · 小红书商品图文带货"
+    bw = draw.textbbox((0, 0), brand_text, font=brand_font)[2]
+    draw.text(((WIDTH - bw) // 2, bottom_y + 16), brand_text, font=brand_font, fill=(150, 150, 160))
+
+    # 转RGB
+    if card.mode == "RGBA":
+        white = Image.new("RGB", card.size, (255, 255, 255))
+        white.paste(card, mask=card.split()[3])
+        return white
+    return card
+
+
+def main():
+    # 顶部标题栏
+    header_h = 110
+    total_h = header_h + len(PRODUCTS) * (CARD_H + GAP)
+
+    canvas = Image.new("RGB", (WIDTH, total_h), (255, 255, 255))
+
+    # 顶部标题
+    header = Image.new("RGB", (WIDTH, header_h), (30, 30, 30))
+    hdraw = ImageDraw.Draw(header)
+    hfont = load_font(52)
+    hfont2 = load_font(28)
+    t = "📦 今日好物推荐"
+    tw = hdraw.textbbox((0, 0), t, font=hfont)[2]
+    hdraw.text(((WIDTH - tw) // 2, 25), t, font=hfont, fill=(255, 255, 255))
+    s = f"小红书曼纽带货 · 每日精选 {TODAY}"
+    sw = hdraw.textbbox((0, 0), s, font=hfont2)[2]
+    hdraw.text(((WIDTH - sw) // 2, 72), s, font=hfont2, fill=(180, 180, 180))
+    canvas.paste(header, (0, 0))
+
+    # 绘制每个商品卡片
+    y_offset = header_h
+    for i, product in enumerate(PRODUCTS):
+        card = draw_product_card(product)
+        canvas.paste(card, (0, y_offset))
+        if i < len(PRODUCTS) - 1:
+            gap = Image.new("RGB", (WIDTH, GAP), (245, 245, 245))
+            canvas.paste(gap, (0, y_offset + CARD_H))
+        y_offset += CARD_H + GAP
+        print(f"✅ 商品 {i+1}: {product['title']}")
+
+    # 保存全图
+    full_path = f"{OUT_DIR}/product_card_full.jpg"
+    canvas.save(full_path, "JPEG", quality=95)
+    print(f"\n✅ 全图已保存: {full_path}")
+
+    # 裁剪5份
+    for i in range(len(PRODUCTS)):
+        sy = header_h + i * (CARD_H + GAP)
+        slice_ = canvas.crop((0, sy, WIDTH, sy + CARD_H))
+        sp = f"{OUT_DIR}/product_slice_{i+1}.jpg"
+        slice_.save(sp, "JPEG", quality=88)
+        print(f"✅ 切片 {i+1}: {sp}")
+
+    print(f"\n🎉 完成！共生1张全图 + {len(PRODUCTS)}张切片")
+
+
+if __name__ == "__main__":
+    main()
