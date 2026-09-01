@@ -166,8 +166,10 @@ def main():
     token = get_token(app_id, app_secret)
     print(f"✅")
 
-    # Step 2: 上传图片（5 张商品图，orig_product_1~5.jpg）
-    image_files = sorted(glob.glob(os.path.join(output_dir, "orig_product_*.jpg")))
+    # Step 2: 上传图片（5 张裁剪图，优先 product_slice_*.jpg，其次兼容 orig_product_*.jpg）
+    image_files = sorted(glob.glob(os.path.join(output_dir, "product_slice_*.jpg")))
+    if not image_files:
+        image_files = sorted(glob.glob(os.path.join(output_dir, "orig_product_*.jpg")))
     image_keys = {}
     for img_path in image_files:
         fname = os.path.basename(img_path)
