@@ -1385,6 +1385,7 @@ setInterval(() => {
 }, 30000);
 
 // ===== 从 vs-data.json 加载对比数据（动态渲染） =====
+// 9/2 schema 修复: 兼容 data.comparisons (老 schema) + data.competitors (新 schema, db 导出)
 async function loadVsData() {
   const container = document.getElementById('vsPairs');
   const subtitleEl = document.getElementById('vsSubtitle');
@@ -1393,16 +1394,17 @@ async function loadVsData() {
     if (!res.ok) throw new Error('no vs data');
     const data = await res.json();
 
-    const comparisons = data.comparisons || [];
+    // 兼容两种 schema: comparisons(老) 或 competitors(新, db 导出格式)
+    const groups = data.comparisons || data.competitors || [];
     const updateTime = data.updateTime || '';
 
-    if (comparisons.length === 0) {
+    if (groups.length === 0) {
       container.innerHTML = '<div class="no-data">暂无对比数据</div>';
       subtitleEl.textContent = '等待数据加载';
       return;
     }
 
-    subtitleEl.textContent = `${comparisons.length}组对比 · 数据更新: ${updateTime}`;
+    subtitleEl.textContent = `${groups.length}组对比 · 数据更新: ${updateTime}`;
 
     // 重置 VS 图片数组
     currentVsProducts = [];
@@ -1415,13 +1417,55 @@ async function loadVsData() {
     const productById = {};
     productsArr.forEach(p => { productById[p.id] = p; });
 
-    container.innerHTML = comparisons.map(c => {
+    // 归一化: 新 schema (competitors[].items[]) → 老 schema (comparisons[].vs[])
+    // 新 schema 每组 items[0] 是主推商品, items[1-3] 是真竞品
+    // 老 schema 每组 vs[0] 是真竞品(右侧)
+    const normalized = groups.map((g, idx) => {
+      // 老 schema
+      if (g.vs) {
+        return {
+          productId: g.productId,
+          productName: g.productName,
+          vs: g.vs,
+          groupName: g.productName,
+        };
+      }
+      // 新 schema (db 导出)
+      if (g.items) {
+        // items[0] 是今日主推(关联 products[productId])
+        // items[1-3] 是真竞品
+        const mainItem = g.items[0];
+        const vsItems = g.items.slice(1);
+        return {
+          productId: idx + 1,  // 9/2 约定: 第 idx 组对应 product id = idx+1
+          productName: mainItem ? mainItem.name : '',
+          vs: vsItems.map(it => ({
+            name: it.name,
+            image: it.image,
+            price: it.price,
+            source: (it.jd_sales || '').substring(0, 60),  // 销量/排行摘要作为 source
+            // 9/2 schema 没 pros/cons 字段,从 advantage 字符串拆"+"或"·"或"；"
+            pros: (it.advantage || '').split(/[+·；;]/).filter(Boolean).slice(0, 3).join('，'),
+            cons: '',
+          })),
+        };
+      }
+      return null;
+    }).filter(Boolean);
+
+    if (normalized.length === 0) {
+      container.innerHTML = '<div class="no-data">暂无对比数据 (schema 不匹配)</div>';
+      subtitleEl.textContent = '等待数据加载';
+      return;
+    }
+
+    container.innerHTML = normalized.map(c => {
       const productName = c.productName || '';
       const productId = c.productId;
       const mainProduct = productById[productId] || {};
       const mainImg = mainProduct.image || '';
       const mainName = mainProduct.name || productName;
-      const mainPrice = mainProduct.priceRange || '';
+      const mainPrice = mainProduct.priceRange || mainProduct.price || '';
 
       const mainIndex = mainImg ? (currentVsProducts.push({ src: mainImg, name: mainName }), currentVsProducts.length - 1) : -1;
 
@@ -1431,7 +1475,7 @@ async function loadVsData() {
       const compIndex = currentVsProducts.length;
       if (competitor.image) currentVsProducts.push({ src: competitor.image, name: competitor.name || '' });
 
-      const prosList = (competitor.pros || '').split('，').filter(Boolean).slice(0, 2);
+      const prosList = (competitor.pros || '').split('，').filter(Boolean).slice(0, 3);
       const consList = (competitor.cons || '').split('，').filter(Boolean).slice(0, 1);
 
       return `
