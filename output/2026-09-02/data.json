@@ -24,7 +24,12 @@
       ],
       "suitable": "住校学生 · 北方/南方宿舍换季 · 6人宿舍拼单 · 湿衣晾晒/梅雨季 · 桑蚕丝等娇贵面料衣物",
       "price_note": "5支7.9元/20只24.9元/30只44.7元 · 京东自营月销10万+ · 6人宿舍人均不到5元",
-      "color": "#3B7A57"
+      "color": "#3B7A57",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_1.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_slice_1.jpg"
+      ]
     },
     {
       "id": 2,
@@ -48,7 +53,12 @@
       ],
       "suitable": "MacBook/联想/华为/游戏本用户 · 长期写论文/网课/赶DDL学生 · 颈椎不适人群 · 移动办公族",
       "price_note": "99元到手价（立减20） · 天猫旗舰店月销500+ · 3C数码配件榜单TOP10",
-      "color": "#2C2C2C"
+      "color": "#2C2C2C",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_2.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_2.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_slice_2.jpg"
+      ]
     },
     {
       "id": 3,
@@ -72,7 +82,12 @@
       ],
       "suitable": "住校学生教室午休 · 办公室一族午休 · 考研/考公自习室党 · 通勤族高铁飞机小憩",
       "price_note": "49-79元区间 · 严选自营周销5000+ · 当当8周年庆券后¥63.2 · 凑单满88包邮",
-      "color": "#7A6E5C"
+      "color": "#7A6E5C",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_3.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_3.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_slice_3.jpg"
+      ]
     },
     {
       "id": 4,
@@ -96,7 +111,12 @@
       ],
       "suitable": "住校学生深夜食堂 · 考研党半夜补能量 · 健身餐轻食党 · 宿舍简餐 · 单身上班族",
       "price_note": "¥144-159区间 · 苏泊尔官方旗舰 · 3C认证证书号2020010717322395 · 开学季宿舍拼单更划算",
-      "color": "#3FA796"
+      "color": "#3FA796",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_4.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_4.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_slice_4.jpg"
+      ]
     },
     {
       "id": 5,
@@ -120,7 +140,12 @@
       ],
       "suitable": "宿舍多设备党 · 苹果安卓混用用户 · 桌面整理强迫症 · 出差旅行族 · 数码配件囤货",
       "price_note": "¥29-39区间（1.2m编织） · 品胜官方旗舰 · 12个月质保 · 开学宿舍拼单3条起更划算",
-      "color": "#5A4FCF"
+      "color": "#5A4FCF",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_5.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_5.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_slice_5.jpg"
+      ]
     }
   ]
 }

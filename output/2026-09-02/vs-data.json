@@ -23,7 +23,8 @@
           "price": "¥24.9-44.7（20-30只装·京东自营）",
           "advantage": "肩宽42cm加宽设计+PP+PE双料共挤加厚+3°微仰角弧形肩头+底部防滑底托+两端硅胶凸棱锁边；5支7.9元到30支44.7元阶梯定价；京东自营月销10万+稳居品类榜首",
           "jd_sales": "2026秋季开学季宿舍晾晒换季爆款，搜狐报道20只装累计售罄37次，京东自营月销10万+是品类TOP1",
-          "color": "#3B7A57"
+          "color": "#3B7A57",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_1.jpg"
         },
         {
           "name": "卡维瑞加宽塑料衣架防滑无痕晾衣杆衣物衣架子",
@@ -56,7 +57,8 @@
           "price": "¥99（深空灰360°旋转款·天猫旗舰店）",
           "advantage": "加厚铝合金一体成型+镂空悬空结构360°全方位通风散热；0-11cm多档高度自由调节+360°旋转+多档倾角；底部预留超大收纳空间；Type-C/USB一线直连扩展秒变桌面工作站；MacBook/联想/华为/游戏本全机型通用",
           "jd_sales": "天猫旗舰店月销500+，3C数码配件榜单TOP10，2026年大学生笔记本散热+护颈刚需爆款",
-          "color": "#2C2C2C"
+          "color": "#2C2C2C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_2.jpg"
         },
         {
           "name": "京东京造360°旋转无极升降笔记本电脑支架",
@@ -89,7 +91,8 @@
           "price": "¥49-79（4色可选·严选自营/当当严选店）",
           "advantage": "MUJI无印良品制造商供货+内芯160g饱满微粒（单粒<1mm）+美国DOW陶氏环保聚氨酯原料+欧盟oeko-tex认证+6秒慢回弹+纯棉针织套面+35×45cm黄金尺寸+米色/军绿/灰色/深褐条纹4色+平面展开坐垫+卷起来抱枕+展开趴睡枕一垫三用",
           "jd_sales": "严选自营周销5000+，每次秒杀抢完人气爆品，当当店券后¥63.2（8周年庆）",
-          "color": "#7A6E5C"
+          "color": "#7A6E5C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_3.jpg"
         },
         {
           "name": "网易严选多功能午睡枕（DOW陶氏记忆棉款）",
@@ -122,7 +125,8 @@
           "price": "¥144-159（600W 1.2L·官方旗舰）",
           "advantage": "1.2L精巧一人食+分体式设计（锅体可端上桌当碗）+87mm加深锅体+上蒸下煮功能+600W额定功率符合宿舍限电标准+铝合金内胆+食品接触用不沾涂层+防干烧+自动断电双重保护+3C认证证书号2020010717322395+旋钮式操控零门槛+煮面煮粥煎蛋热牛奶烧水煮火锅一锅搞定",
           "jd_sales": "苏泊尔官方旗舰，2026年开学季宿舍迷你电煮锅销量第一，以旧换新一级能效20%补贴",
-          "color": "#3FA796"
+          "color": "#3FA796",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_4.jpg"
         },
         {
           "name": "苏泊尔(SUPOR)迷你电煮锅 H12YK29A（鑫方盛企业购）",
@@ -155,7 +159,8 @@
           "price": "¥29-39（1.2m编织·官方旗舰）",
           "advantage": "一根线集齐Lightning/Type-C/Micro USB三接口+编织尼龙外被耐磨抗拉扯防缠绕+3万次弯折测试比PVC耐用3-5倍+支持QC/PD/AFC/FCP多协议快充+三口同时输出充电速度不缩水+1.2米黄金线长+品胜老牌3C认证齐全+12个月质保",
           "jd_sales": "品胜官方旗舰，千万级用户口碑验证，开学宿舍拼单3条起更划算",
-          "color": "#5A4FCF"
+          "color": "#5A4FCF",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_5.jpg"
         },
         {
           "name": "倍思双Type-C/Lightning编织数据线",
@@ -180,5 +185,49 @@
         }
       ]
     }
-  ]
+  ],
+  "hotProducts": [
+    {
+      "name": "茶花CHAHUA宽肩加厚塑料衣架",
+      "category": "宽肩加厚塑料衣架 7.9-60元区间",
+      "price": "¥24.9-44.7（20-30只装·京东自营）",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_1.jpg",
+      "sales": "2026秋季开学季宿舍晾晒换季爆款，搜狐报道20只装累计售罄37次，京东自营月销10万+是品类TOP1",
+      "platform": "京东自营/天猫旗舰"
+    },
+    {
+      "name": "海备思Hagibis铝合金笔记本支架",
+      "category": "铝合金笔记本支架 30-150元区间",
+      "price": "¥99（深空灰360°旋转款·天猫旗舰店）",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_2.jpg",
+      "sales": "天猫旗舰店月销500+，3C数码配件榜单TOP10，2026年大学生笔记本散热+护颈刚需爆款",
+      "platform": "京东自营/天猫旗舰"
+    },
+    {
+      "name": "网易严选日式多功能手卷午睡枕",
+      "category": "日式多功能午睡枕 30-130元区间",
+      "price": "¥49-79（4色可选·严选自营/当当严选店）",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_3.jpg",
+      "sales": "严选自营周销5000+，每次秒杀抢完人气爆品，当当店券后¥63.2（8周年庆）",
+      "platform": "京东自营/天猫旗舰"
+    },
+    {
+      "name": "苏泊尔SUPOR电煮锅H12YK29",
+      "category": "宿舍迷你电煮锅 60-200元区间",
+      "price": "¥144-159（600W 1.2L·官方旗舰）",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_4.jpg",
+      "sales": "苏泊尔官方旗舰，2026年开学季宿舍迷你电煮锅销量第一，以旧换新一级能效20%补贴",
+      "platform": "京东自营/天猫旗舰"
+    },
+    {
+      "name": "品胜一拖三编织数据线",
+      "category": "一拖三编织数据线 20-60元区间",
+      "price": "¥29-39（1.2m编织·官方旗舰）",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-02_product_5.jpg",
+      "sales": "品胜官方旗舰，千万级用户口碑验证，开学宿舍拼单3条起更划算",
+      "platform": "京东自营/天猫旗舰"
+    }
+  ],
+  "dataSource": "WebSearch 真实数据 · 9/2 cron 自动化抓取",
+  "updateTime": "2026-09-02 07:30"
 }
