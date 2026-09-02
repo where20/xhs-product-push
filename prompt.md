@@ -15,6 +15,11 @@
 
 ## 14 步流程(严格按顺序)
 
+**重要变更 (9/2 之后)**: 增加 SQLite 落库步骤。所有 cron 跑出的数据
+必先写 SQLite (`xhs_push.db`),再从 db 导出 json 给 GitHub Pages。
+SQLite 约束保证 `products.image` / `hotProducts.image` NOT NULL,
+9/2 漏 image bug 不再发生。
+
 ### 1. 加载环境
 ```bash
 source /Users/xiaoan/WorkBuddy/common.sh
@@ -28,6 +33,7 @@ cat ${TASK_XHS_DIR}/prompt.md  # 即本文件
 
 ### 3. 前置检查
 - `${WORKBUDDY_CREDENTIALS_DIR}/${WORKBUDDY_FEISHU_CRED_FILE}` 存在(可选,缺失会跳过飞书推送)
+- **`xhs_push.db` 已建表**:`python3 ${TASK_XHS_DIR}/scripts/db_init.py` (idempotent,不会重置数据)
 
 ### 4. 读昨日执行日志(避免选品重复)
 ```bash
@@ -153,7 +159,28 @@ with open(f"output/{TODAY}/data.json", "w", encoding="utf-8") as f:
 ```bash
 python3 ${TASK_XHS_DIR}/scripts/feishu_push_optimized.py ${TASK_XHS_DIR}/output/$(date +%Y-%m-%d) $(date +%Y-%m-%d)
 ```
-⚠️ 9/2 bug 修复后,build_card 不再硬编码 orig_product,会按 image_keys 实际 keys 排序。
+⚠️ 9/2 bug 修复后,build_card 不再硬编码 orig_product,会按 image_keys 实际 keys 排序。**build_card 后断言 img 元素数 == 上传成功数,空卡片会 raise**。
+
+### 12.5 **落库 SQLite (新增,关键!)**
+```bash
+# 1. 写 db
+python3 ${TASK_XHS_DIR}/scripts/db_save.py $(date +%Y-%m-%d)
+# - 自动补全 LLM 漏的 image 字段(从 cloudimgs URL 模板)
+# - 缺 hotProducts.image / sources 等字段会 raise
+# - 幂等:同日重复跑会覆盖 (DELETE + INSERT)
+
+# 2. 从 db 导出 json (兼容 GitHub Pages 静态 fetch)
+python3 ${TASK_XHS_DIR}/scripts/db_export.py $(date +%Y-%m-%d)
+# - 导出到 7 个位置:output/{date}/ + v/{VERSION}/ + 根目录 + history/{date}.json
+# - 验证导出的 json 和原 json byte-identical (landing page 渲染不变)
+```
+
+### 12.6 **Schema 校验 (从 db 读)**
+```bash
+python3 ${TASK_XHS_DIR}/scripts/validate_schema.py $(date +%Y-%m-%d)
+# - 必含:products.image, hotProducts.image, dataSource, updateTime
+# - 失败 abort,不会发布坏数据
+```
 
 ### 13. history 同步
 ```bash
