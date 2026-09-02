@@ -69,12 +69,19 @@ def main():
         sys.exit(2)
 
     files_to_upload = [
+        # 1 全图 + 5 切片(给飞书卡片用)
         ("product_card_full.jpg", f"{date}_product_card_full.jpg"),
         ("product_slice_1.jpg",   f"{date}_product_slice_1.jpg"),
         ("product_slice_2.jpg",   f"{date}_product_slice_2.jpg"),
         ("product_slice_3.jpg",   f"{date}_product_slice_3.jpg"),
         ("product_slice_4.jpg",   f"{date}_product_slice_4.jpg"),
         ("product_slice_5.jpg",   f"{date}_product_slice_5.jpg"),
+        # 5 张 1:1 纯商品图(landing page 渲染用,9/2 bug 修复必须上传)
+        ("images/product_1.jpg",  f"{date}_product_1.jpg"),
+        ("images/product_2.jpg",  f"{date}_product_2.jpg"),
+        ("images/product_3.jpg",  f"{date}_product_3.jpg"),
+        ("images/product_4.jpg",  f"{date}_product_4.jpg"),
+        ("images/product_5.jpg",  f"{date}_product_5.jpg"),
     ]
 
     results = []

@@ -194,7 +194,14 @@ def main():
     # Step 3: 拼卡
     print("  [3/4] 构建 interactive card ...", end=" ", flush=True)
     card = build_card(image_keys, date_str)
-    print(f"✅ ({len(image_keys)} 张图)")
+    img_count = len([e for e in card["card"]["elements"] if e.get("tag") == "img"])
+    if img_count != len(image_keys):
+        # 9/2 bug: build_card 硬编码导致 elements 为空,StatusCode=0 但群里看不到图
+        raise RuntimeError(
+            f"❌ 卡片 img 数量 ({img_count}) != 上传成功数 ({len(image_keys)}),"
+            f"build_card 可能未匹配 image_keys。elements={card['card']['elements']}"
+        )
+    print(f"✅ ({img_count}/{len(image_keys)} 张图)")
 
     # Step 4: POST webhook
     print("  [4/4] POST 到飞书 webhook ...", end=" ", flush=True)
