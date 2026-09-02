@@ -82,18 +82,25 @@ def upload_image(token, img_path):
 
 def build_card(image_keys, date_str, product_data=None):
     """构建飞书卡片：
-    - 5 张精选商品图（orig_product_1~5.jpg）
+    - N 张精选商品图（按 image_keys 实际 keys 排序，兼容 product_slice_* / orig_product_* 命名）
     - 底部：来源说明
     """
     elements = []
 
-    # 按 orig_product_1~5 顺序排版图片
-    ordered = [f"orig_product_{i}.jpg" for i in range(1, 6)]
+    # 按 image_keys 的实际 keys 排序（main() 已经 sorted 过 glob 顺序）
+    # 兼容 product_slice_*.jpg 和 orig_product_*.jpg 两种命名
+    ordered = sorted(image_keys.keys(), key=lambda f: (
+        # product_slice_* 优先排前面（9/1 修复后的标准命名）
+        0 if "product_slice_" in f else
+        1 if "orig_product_" in f else
+        2,
+        f  # 同类内按文件名排序
+    ))
+    n = len(ordered)
     for i, fname in enumerate(ordered):
-        if fname in image_keys:
-            elements.append({"tag": "img", "img_key": image_keys[fname]})
-            if i < len(ordered) - 1:
-                elements.append({"tag": "hr"})
+        elements.append({"tag": "img", "img_key": image_keys[fname]})
+        if i < n - 1:
+            elements.append({"tag": "hr"})
 
     elements.append({
         "tag": "note",
