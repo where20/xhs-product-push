@@ -228,6 +228,6 @@
       "platform": "京东自营/天猫旗舰"
     }
   ],
-  "dataSource": "WebSearch 真实数据 · 9/2 cron 自动化抓取",
+  "dataSource": "WebSearch 真实数据 · SQLite db 导出",
   "updateTime": "2026-09-02 07:30"
 }
