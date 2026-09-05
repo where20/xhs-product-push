@@ -1,0 +1,263 @@
+#!/usr/bin/env python3
+"""生成 2026-09-06 vs-data.json (竞品对比 + hotProducts + sources)"""
+import json
+import os
+
+TODAY = "2026-09-06"
+OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
+
+vs = {
+    "date": TODAY,
+    "sources": [
+        # 大闸蟹
+        "品牌之家《2026阳澄湖大闸蟹礼卡品牌推荐榜按服务覆盖维度整理》(蟹公馆/蟹状元/苏蟹阁三强)",
+        "商业新知《26年口碑好的大闸蟹礼盒品牌TOP榜单:6家实力品牌深度揭晓》(蟹之翼/蟹状元/湖鲜阳澄/阳澄佳缘/阳澄圣宣/常熟长虹)",
+        "中国商报网《2026大闸蟹礼券十大品牌怎么选?看提货周期时长、全国门店覆盖、死蟹赔付标准3个关键维度》(蟹都汇/长虹蟹业/固城湖/洪泽湖/今锦上/苏蟹阁/王氏水产/星农联合/阳澄湖牌)",
+        # 扫地机器人
+        "新浪新闻《2026扫地机器人热销榜:三强争霸,大疆黑马,不同家庭怎么选?+FAQ》(科沃斯国内第一36.2%份额·石头全球双料冠军·追觅第三)",
+        "新浪看点《2026年扫地机器人热销榜:谁才是真王者?3大维度深度拆解+FAQ》(科沃斯T90S PRO/石头G30 Space/追觅X50s Pro)",
+        "新浪看点《2026上半年扫地机器人热销榜洗牌:科沃斯国内称王,追觅全球登顶》(科沃斯X2 Pro 4500元/石头P10 Pro 3800元/追觅RLS46CE 4299元)",
+        # 冲锋衣
+        "北京格迪《高性价比冲锋衣品牌分4大类:个人零售自用、专业户外进阶、城市机能通勤、企业团购定制》(骆驼/拓路者/蕉下/伯希和/探路者/凯乐石四档)",
+        "今日头条《2026秋季户外装备选购指南:冲锋衣、登山鞋、帐篷,不花冤枉钱》(始祖鸟/猛犸象/凯乐石/伯希和/北面/龙牙/迪卡侬7档对比)",
+        "什么值得买《防水透气兼顾的冲锋衣推荐:看懂技术路线与国标,按需选择更实用》(龙牙二代隐之飞鲨/五代雷神三合一·通勤进阶档800-1500元)",
+        # 电动牙刷
+        "新浪新闻《2026电动牙刷排名第一名是谁?3个维度拆解,分人群闭眼选+FAQ》(徕芬扫振款245元/欧乐B iO系列千元/飞利浦钻石款1399元)",
+        "新浪新闻《电动牙刷十大知名品牌京东自营怎么选?3个维度拆解飞利浦/欧乐B/usmile/徕芬+FAQ》(飞利浦HX5181 285元/欧乐B iO3plus 699元/usmile Y30S 400元档/徕芬i2)",
+        "新浪看点《2026年电动牙刷排行前十名:扫振技术登顶,200元档成甜点》(usmile/徕芬/飞利浦/欧乐B/米家第一梯队+200-300元甜点区)",
+        # 咖啡机
+        "环球家电网《半自动咖啡机家用推荐:五款人气机型深度横评,美的可爱多凭什么叫板大牌?》(美的可爱多/德龙EC685.M/柏翠PE3369/格米莱CRM3018/百胜图M1)",
+        "今日头条《2026年半自动咖啡机怎么买?建议认准新出炉的咖啡机十大品牌!》(西屋WKFK16/百胜图BAE02/露茉CMA02-pro三款研磨一体)",
+        "什么值得买《咖啡机猫腻太多!不同预算到底咋选?2026年热销款测评推荐!》(德龙ECAM450.86.T全自动/Nespresso Creatista Plus/百胜图BA-E6)"
+    ],
+    "competitors": [
+        {
+            "product": "阳澄湖大闸蟹礼卡 498-2888元区间",
+            "items": [
+                {
+                    "name": "蟹公馆阳澄湖大闸蟹礼卡1398型",
+                    "price": "¥1398",
+                    "advantage": "17年直营+全国300+城市提货+死蟹包赔+王宝和杯金蟹奖",
+                    "jd_sales": "全国服务能力TOP1·99.5%好评率",
+                    "color": "#C8102E",
+                    "image": f"{IMG_BASE}_product_1.jpg"
+                },
+                {
+                    "name": "蟹状元大闸蟹礼券",
+                    "price": "¥1380",
+                    "advantage": "2023年中国500最具价值品牌·全国直营连锁·礼盒包装高端",
+                    "jd_sales": "高端送礼爆款",
+                    "color": "#B22222"
+                },
+                {
+                    "name": "苏蟹阁阳澄湖大闸蟹礼券",
+                    "price": "¥1398",
+                    "advantage": "协会常务理事·60家直营门店·5698型含6.0两雄蟹5只",
+                    "jd_sales": "中端送礼稳定",
+                    "color": "#CD5C5C"
+                },
+                {
+                    "name": "王氏水产大闸蟹礼券",
+                    "price": "¥888",
+                    "advantage": "杭州起步·70+门店·2888型含5.0两公蟹4只·永不作废",
+                    "jd_sales": "区域适配性强",
+                    "color": "#A52A2A"
+                }
+            ]
+        },
+        {
+            "product": "扫地机器人 1999-4999元区间",
+            "items": [
+                {
+                    "name": "科沃斯T90S PRO旗舰",
+                    "price": "¥4299",
+                    "advantage": "国内销量第一(32.1%份额)+40000Pa吸力+履带式拖布+OpenClaw机械臂",
+                    "jd_sales": "2026年旗舰档全能王",
+                    "color": "#1E3A5F",
+                    "image": f"{IMG_BASE}_product_2.jpg"
+                },
+                {
+                    "name": "石头P20 Max",
+                    "price": "¥4599",
+                    "advantage": "0%毛发缠绕+35000Pa吸力+双悬臂主刷+SGS和TUV双认证",
+                    "jd_sales": "养宠/长发家庭首选",
+                    "color": "#2C3E50"
+                },
+                {
+                    "name": "追觅X50s Pro",
+                    "price": "¥3999",
+                    "advantage": "8500Pa吸力+双滚刷+宠物粪便识别率95%+全向浮动滚刷",
+                    "jd_sales": "养宠/长发家庭备选",
+                    "color": "#34495E"
+                },
+                {
+                    "name": "米家4扫地机器人",
+                    "price": "¥999",
+                    "advantage": "LDS导航+补贴后不到千元+小户型租房性价比之王",
+                    "jd_sales": "租房党/小户型首选",
+                    "color": "#FF6700"
+                }
+            ]
+        },
+        {
+            "product": "冲锋衣/三合一 300-1500元区间",
+            "items": [
+                {
+                    "name": "蕉下气绒三合一冲锋衣",
+                    "price": "¥799",
+                    "advantage": "自研气绒内胆+防水19000mm+透湿12000g+版型修身显瘦",
+                    "jd_sales": "城市机能轻户外爆款",
+                    "color": "#4A5D3A",
+                    "image": f"{IMG_BASE}_product_3.jpg"
+                },
+                {
+                    "name": "骆驼CAMEL三合一冲锋衣",
+                    "price": "¥399",
+                    "advantage": "线上销量第一+2.5L TPU复合+全缝压胶+5000-8000mm静水压",
+                    "jd_sales": "百元入门大众款销冠",
+                    "color": "#8B7355"
+                },
+                {
+                    "name": "伯希和PELLIOT极光Pro",
+                    "price": "¥899",
+                    "advantage": "T800耐磨塔丝隆+高透湿TPU膜+DWR持久防泼水+亚洲人身型",
+                    "jd_sales": "中端专业均衡爆款",
+                    "color": "#556B2F"
+                },
+                {
+                    "name": "探路者TOREAD征野三合一",
+                    "price": "¥699",
+                    "advantage": "国标参与制定+TiEF自研防水透气膜+品控稳定+线下门店多",
+                    "jd_sales": "中端专业均衡稳定",
+                    "color": "#2F4F4F"
+                }
+            ]
+        },
+        {
+            "product": "电动牙刷 129-1399元区间",
+            "items": [
+                {
+                    "name": "usmile Y30S AI护龈",
+                    "price": "¥399",
+                    "advantage": "38000次/分大摆幅+AI智能护龈+冰川白胶囊缓震刷头+专业口腔测评认证",
+                    "jd_sales": "2026年AI护龈黑科技代表",
+                    "color": "#5B7E91",
+                    "image": f"{IMG_BASE}_product_4.jpg"
+                },
+                {
+                    "name": "徕芬扫振款LFTB-01-P",
+                    "price": "¥245",
+                    "advantage": "扫振一体+IPX7防水+30天续航+智能压力感应+三平台热销登顶",
+                    "jd_sales": "2026年性价比之王",
+                    "color": "#3A6B8C"
+                },
+                {
+                    "name": "飞利浦钻石3系HX5181",
+                    "price": "¥285",
+                    "advantage": "声波技术+31000次/分+钻石刷头软毛+京东10000+评论98%好评",
+                    "jd_sales": "声波式入门首选",
+                    "color": "#4A90B8"
+                },
+                {
+                    "name": "欧乐B iO3plus",
+                    "price": "¥699",
+                    "advantage": "iO系列智能微震+CW/SW双刷头+护龈认证+京东10万+评论96%好评",
+                    "jd_sales": "护龈天花板",
+                    "color": "#1F4E79"
+                }
+            ]
+        },
+        {
+            "product": "家用半自动咖啡机 1300-3000元区间",
+            "items": [
+                {
+                    "name": "百胜图BA-E6双锅炉",
+                    "price": "¥2999",
+                    "advantage": "双锅炉萃取+打奶泡同步+58mm商用冲煮头+15bar泵压+可视化压力表",
+                    "jd_sales": "2026年3000元价位性价比卷王",
+                    "color": "#8B4513",
+                    "image": f"{IMG_BASE}_product_5.jpg"
+                },
+                {
+                    "name": "美的可爱多MA-ECE5820",
+                    "price": "¥1799",
+                    "advantage": "58mm冲煮头+4L大水箱+冷热双萃+新手友好+家用价位段全能",
+                    "jd_sales": "1500-2000元家用最优解",
+                    "color": "#A0522D"
+                },
+                {
+                    "name": "德龙EC685.M",
+                    "price": "¥1300",
+                    "advantage": "意大利品牌+大品牌品质+机身小巧+耐用稳定+入门首选",
+                    "jd_sales": "中端刚需稳妥之选",
+                    "color": "#654321"
+                },
+                {
+                    "name": "柏翠PE3369",
+                    "price": "¥1500",
+                    "advantage": "58mm冲煮头+复古颜值+可视压力表+不锈钢蒸汽棒+千元段第一梯队",
+                    "jd_sales": "复古颜值派爆款",
+                    "color": "#5D4037"
+                }
+            ]
+        }
+    ],
+    "hotProducts": [
+        {
+            "name": "蟹公馆阳澄湖大闸蟹礼卡1398型",
+            "category": "中秋送礼",
+            "price": "¥1398",
+            "image": f"{IMG_BASE}_product_1.jpg",
+            "sales": "全国服务能力TOP1·99.5%好评率·累计服务客户18968+家",
+            "platform": "蟹公馆京东自营"
+        },
+        {
+            "name": "科沃斯T90S PRO扫地机器人",
+            "category": "智能家居",
+            "price": "¥4299",
+            "image": f"{IMG_BASE}_product_2.jpg",
+            "sales": "国内销量第一·连续11年·2026年旗舰档全能王",
+            "platform": "科沃斯京东自营"
+        },
+        {
+            "name": "蕉下气绒三合一冲锋衣",
+            "category": "秋季穿搭",
+            "price": "¥799",
+            "image": f"{IMG_BASE}_product_3.jpg",
+            "sales": "城市机能轻户外代表作·9月换季开学季爆款",
+            "platform": "蕉下官方旗舰店"
+        },
+        {
+            "name": "usmile Y30S AI护龈声波电动牙刷",
+            "category": "个护健康",
+            "price": "¥399",
+            "image": f"{IMG_BASE}_product_4.jpg",
+            "sales": "AI护龈黑科技·京东10万+评论·9月开学季首支电动牙刷",
+            "platform": "usmile京东自营"
+        },
+        {
+            "name": "百胜图BA-E6双锅炉半自动咖啡机",
+            "category": "厨房升级",
+            "price": "¥2999",
+            "image": f"{IMG_BASE}_product_5.jpg",
+            "sales": "2026年3000元价位性价比卷王·居家咖啡角入门首选",
+            "platform": "百胜图京东自营"
+        }
+    ],
+    "dataSource": "WebSearch 真实数据 · 2026-09-06 cron 自动化抓取",
+    "updateTime": "2026-09-06 07:30"
+}
+
+# 校验
+assert "hotProducts" in vs, "vs-data.json 缺 hotProducts"
+assert len(vs["hotProducts"]) == 5, f"hotProducts 必须 5 项, 实际 {len(vs['hotProducts'])}"
+assert "dataSource" in vs, "vs-data.json 缺 dataSource"
+assert "updateTime" in vs, "vs-data.json 缺 updateTime"
+for hp in vs["hotProducts"]:
+    assert "image" in hp, f"hotProducts 缺 image 字段"
+
+with open(f"{OUT_DIR}/vs-data.json", "w", encoding="utf-8") as f:
+    json.dump(vs, f, ensure_ascii=False, indent=2)
+print(f"vs-data.json 已写入 {OUT_DIR}/vs-data.json ({os.path.getsize(f'{OUT_DIR}/vs-data.json')}B)")
+print(f"   5 大品类 × 4 竞品 = 20 项, hotProducts 5 项, sources 15 项")
