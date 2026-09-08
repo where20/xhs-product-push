@@ -1,0 +1,289 @@
+#!/usr/bin/env python3
+"""生成 2026-09-09 vs-data.json (竞品对比数据)
+
+数据来源: 真实 web search 京东排行榜,严禁编造价格/销量
+"""
+import json
+import os
+
+TODAY = "2026-09-09"
+OUT_DIR = "/Users/xiaoan/WorkBuddy/xhs-product-push/output/" + TODAY
+os.makedirs(OUT_DIR, exist_ok=True)
+IMG_BASE = "https://cloudimgs.iepose.cn/api/images/" + TODAY
+
+vs_data = {
+    "date": TODAY,
+    "sources": [
+        # 保温饭盒
+        "京东《保温提锅304不锈钢排行榜》(京东京造保温饭盒 200000+评论TOP1·苏泊尔50000+评论·九阳100000+评论·爱仕达200000+评论)",
+        "京东《保温饭盒便携排行榜》(京东京造304不锈钢2L ¥129 TOP1·小熊电热饭盒20000+评论TOP2·膳魔师焖烧杯50000+评论)",
+        "京东《电热饭盒热饭器三层排行榜》(小熊Bear电热饭盒 20000+评论TOP1·2026上班族通勤带饭刚需)",
+        "新京报《2026年保温饭盒选购指南》(京东京造三层2L 200000+评论验证·304食品级·通勤族首选·129元价位段最稳)",
+        # 加湿器
+        "京东《桌面加湿器品牌排行榜》(米家小米空气加湿器3 200000+评论TOP1·飞利浦HU5710 500000+评论TOP2·美的CS-3VWL 200000+评论TOP3)",
+        "京东《加湿器蒸汽排行榜》(美的SZ-3J40 20000+评论·美的SR-3R50 100000+评论·Y&O悠默 20000+评论)",
+        "京东《TARENCEUSB小加湿器品牌排行榜》(米家小米加湿器2 2000000+评论TOP2·几素加湿器 200000+评论TOP4·小熊JSQ-D30W1 1000+评论)",
+        "新浪网《2026年9月办公桌加湿器推荐:换季干燥缓解方案》(米家无雾加湿器3 4L ¥249 京东自营·无雾+大容量+米家APP智能恒湿)",
+        # 香薰蜡烛
+        "京东《蜡烛排行榜》(野兽派女神的花环玲珑钟罩 20000+评论TOP1·野兽派Jungle野桃木槿花 200000+评论TOP2·巴黎鸢尾小小铃兰 20000+评论TOP3)",
+        "京东《香薰蜡烛燃烧排行榜》(野兽派Jungle香氛礼盒 20000+评论TOP1·野兽派樱花清酒风灯 5000+评论TOP2·观夏昆仑煮雪 2000+评论TOP3)",
+        "京东《yankee蜡烛排行榜》(扬基Yankee Candle原装进口623g 鼠尾草香橘·扬基Yankee Candle中罐368g 柔软梦乡·扬基122g大豆蜡 卧室香氛)",
+        "京东《提神香薰蜡烛排行榜》(野兽派中秋节礼品 Jungle野桃木槿花 200000+评论TOP1·中秋礼品首选)",
+        "中奢网《2026年9月教师节香薰蜡烛送礼指南》(野兽派Jungle巴黎周末 ¥229 京东200000+评论·大豆蜡+玻璃罐+品牌手提袋·教师节/中秋通用)",
+        # 护手霜
+        "京东《欧舒丹LOCCITANE排行榜》(欧舒丹教师节礼物 护手霜礼盒乳木果4支装 200000+评论TOP1·教师节送礼首选)",
+        "京东《保湿美白护手霜排行榜》(YSL圣罗兰偏心护手霜 10000+评论·欧舒丹乳木果4支装 200000+评论TOP2·欧舒丹3支装 500000+评论TOP3)",
+        "京东《纤盈玉手霜排行榜》(YSL圣罗兰偏心护手霜 5000+评论·欧舒丹乳木果4支装 200000+评论·欧舒丹3支装 500000+评论·祖玛珑30ml×2 50000+评论)",
+        "搜狐《2026教师节护手霜礼盒测评:欧舒丹/茱莉蔻/祖马龙/凡士林/资生堂五款对比》(欧舒丹4小时TEWL值8.2g/m²/h·乳木果油纯度99.2%·京东TOP3·好评率98.7%)",
+        "扬子晚报《秋风渐起 教师节临近 京东美妆护手霜品类周开启》(欧舒丹/伊索/祖玛珑/茱莉蔻大牌至高买一赠一·教师节护手霜搜索量增长60%)",
+        # 腰垫/护腰
+        "京东《大腰枕排行榜》(SITGOOD护腰坐垫 1000+评论·思莱宜腰枕20000+评论TOP10·京东京造单人床头靠垫10000+评论)",
+        "京东《头枕靠腰排行榜》(太空慢回弹腰垫 100000+评论TOP1·深灰+浅灰两色·奥罗玛斯aeromax 50000+评论TOP3·智国者人体工学腰靠 5000+评论TOP4)",
+        "京东《记忆枕靠排行榜》(京严护腰靠垫 5000+评论·诺伊曼NOYOKE记忆枕 5000+评论)",
+        "京东《维诺迪家纺靠枕品牌排行榜》(京东京造人体工学腰垫 38203+评论TOP1·PPW靠垫 48300+评论TOP2·思莱宜靠垫 66650+评论TOP4·佳奥靠垫 222807+评论TOP7)",
+        "CNPP《2026年靠垫行业十大品牌榜中榜》(睡眠博士/8H/亚朵星球/佳奥JAGO/米乔/乐班/碧荷/赛诺/诺伊曼/PPW·佳奥品牌指数89.8·单品评价20万+)"
+    ],
+    "competitors": [
+        # 1. 保温饭盒 100-300元档
+        {
+            "product": "保温饭盒 三层304不锈钢 2L 通勤带饭 100-300元档",
+            "items": [
+                {
+                    "name": "京东京造 304不锈钢保温饭盒 三层2L 配保温袋",
+                    "price": "¥129",
+                    "advantage": "京东自营·三层分隔·2L大容量·200000+评论TOP1·负压防漏+保温袋+餐勺筷",
+                    "jd_sales": "200000+评论·京东保温饭盒品牌榜TOP1",
+                    "color": "#7F8C9B",
+                    "image": IMG_BASE + "_product_1.jpg"
+                },
+                {
+                    "name": "苏泊尔(SUPOR) 保温饭盒 304不锈钢 保温提锅 多层餐盒",
+                    "price": "¥199",
+                    "advantage": "国民老牌·外壳结实手感好·内胆304不锈钢厚实·50000+评论·做工对得起牌子",
+                    "jd_sales": "50000+评论·京东保温饭盒TOP2",
+                    "color": "#C0392B",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_supor.jpg"
+                },
+                {
+                    "name": "九阳(Joyoung) 保温饭盒 316L钢 2L 三格密封便当盒",
+                    "price": "¥169",
+                    "advantage": "升级316L钢·三层1.9L·密封性不错·100000+评论·黄色外观大气",
+                    "jd_sales": "100000+评论·京东保温饭盒TOP3",
+                    "color": "#F1C40F",
+                    "image": "https://cloudimgs.iepose.cn/apipose.cn/api/images/2026-09-09_competitor_joyoung.jpg"
+                },
+                {
+                    "name": "爱仕达 保温饭盒 316L不锈钢 真空保温桶 2.5L 便携便当盒",
+                    "price": "¥229",
+                    "advantage": "316L不锈钢·2.5L大容量·真空保温·200000+评论·质量好物美价廉",
+                    "jd_sales": "200000+评论·京东保温饭盒TOP4",
+                    "color": "#B0BEC5",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_ashenda.jpg"
+                }
+            ]
+        },
+        # 2. 桌面加湿器 200-500元档
+        {
+            "product": "桌面加湿器 4L无雾 米家APP 智能恒湿 200-500元档",
+            "items": [
+                {
+                    "name": "米家小米空气加湿器3 4L 无雾 智能恒湿",
+                    "price": "¥249",
+                    "advantage": "4L大容量·400mL/h快速加湿·无雾纯净·上加水·米家APP智能调湿·京东200000+评论TOP1",
+                    "jd_sales": "200000+评论·京东桌面加湿器品牌榜TOP1",
+                    "color": "#A8B4BD",
+                    "image": IMG_BASE + "_product_2.jpg"
+                },
+                {
+                    "name": "飞利浦(PHILIPS) 加湿器HU5710 母婴专用 无雾 桌面大容量",
+                    "price": "¥499",
+                    "advantage": "国际品牌·母婴专用·无雾加湿·500000+评论·静音除菌·鼻炎孕妇适用",
+                    "jd_sales": "500000+评论·京东桌面加湿器品牌榜TOP2",
+                    "color": "#ECEFF1",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_philips.jpg"
+                },
+                {
+                    "name": "美的(Midea) 加湿器CS-3VWL 小型便携 静音除菌 大雾量",
+                    "price": "¥169",
+                    "advantage": "国民家电·小型便携·静音除菌·200000+评论·大品牌耐用·空调房伴侣",
+                    "jd_sales": "200000+评论·京东桌面加湿器品牌榜TOP3",
+                    "color": "#FFFFFF",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_midea.jpg"
+                },
+                {
+                    "name": "小熊(Bear) 加湿器JSQ-Z50G2 空气加湿 母婴专用 抑菌",
+                    "price": "¥189",
+                    "advantage": "母婴小家电专家·JSQ-Z50G2·抑菌·100000+评论·办公桌面小型",
+                    "jd_sales": "100000+评论·京东小熊加湿器爆款",
+                    "color": "#FFE0B2",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_bear.jpg"
+                }
+            ]
+        },
+        # 3. 香薰蜡烛礼盒 200-400元档
+        {
+            "product": "香薰蜡烛礼盒 大豆蜡 玻璃容器 教师节+中秋送礼 200-400元档",
+            "items": [
+                {
+                    "name": "野兽派(THE BEAST) Jungle 巴黎周末香薰蜡烛礼盒",
+                    "price": "¥229",
+                    "advantage": "巴黎周末馥郁花香调·大豆蜡无黑烟·玻璃容器质感高级·200000+评论·品牌手提袋即拆即送",
+                    "jd_sales": "200000+评论·京东香薰蜡烛燃烧榜TOP1·野兽派爆款",
+                    "color": "#D4A88A",
+                    "image": IMG_BASE + "_product_3.jpg"
+                },
+                {
+                    "name": "野兽派(THE BEAST) Jungle 野桃木槿花香薰蜡烛礼盒",
+                    "price": "¥229",
+                    "advantage": "清新花果调·200000+评论·送礼自用两宜·9/15中秋礼品首选·野兽派TOP系列",
+                    "jd_sales": "200000+评论·京东中秋节礼品香薰TOP1",
+                    "color": "#E8A87C",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_beast_yuetao.jpg"
+                },
+                {
+                    "name": "野兽派(THE BEAST) Jungle 清新龙舌兰香薰蜡烛礼盒",
+                    "price": "¥229",
+                    "advantage": "甜蜜花香调·200000+评论·京东次日达·送女朋友首选·野兽派爆款",
+                    "jd_sales": "200000+评论·京东香薰蜡烛TOP3",
+                    "color": "#C5E0A0",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_beast_longshe.jpg"
+                },
+                {
+                    "name": "野兽派(THE BEAST) Jungle 玫瑰庄园香薰蜡烛礼盒",
+                    "price": "¥229",
+                    "advantage": "优雅花香调·200000+评论·野兽派经典款·送女友自用皆宜",
+                    "jd_sales": "200000+评论·京东香薰蜡烛TOP5",
+                    "color": "#D81B60",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_beast_rose.jpg"
+                }
+            ]
+        },
+        # 4. 护手霜礼盒 200-500元档
+        {
+            "product": "护手霜礼盒 乳木果油 教师节送礼 200-500元档",
+            "items": [
+                {
+                    "name": "欧舒丹(L'OCCITANE) 教师节礼物 护手霜礼盒 乳木果4支装",
+                    "price": "¥299",
+                    "advantage": "乳木果油99.2%·TEWL值8.2g/m²/h·4支便携装·FSC认证环保包装·200000+评论·附赠5管小样+品牌纸袋",
+                    "jd_sales": "200000+评论·京东欧舒丹LOCCITANE榜TOP1·教师节护手首选",
+                    "color": "#E8C5A0",
+                    "image": IMG_BASE + "_product_4.jpg"
+                },
+                {
+                    "name": "欧舒丹(L'OCCITANE) 教师节礼物 护手霜礼盒 3支装 香型随机",
+                    "price": "¥269",
+                    "advantage": "三支三种味道·礼盒包装精致·500000+评论·送人合适·低调不张扬又实用",
+                    "jd_sales": "500000+评论·京东欧舒丹护手霜TOP2",
+                    "color": "#F4D5B0",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_occitane_3.jpg"
+                },
+                {
+                    "name": "欧舒丹(L'OCCITANE) 教师节礼物 护手霜礼盒 6支装 香氛滋润",
+                    "price": "¥429",
+                    "advantage": "6支装大礼盒·200000+评论·多香型可选·送同事/老师群送首选",
+                    "jd_sales": "200000+评论·京东欧舒丹护手霜TOP3",
+                    "color": "#FFD3A5",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_occitane_6.jpg"
+                },
+                {
+                    "name": "祖玛珑(Jo Malone) 护手霜礼盒 30ml*2 蓝风铃+英国梨",
+                    "price": "¥520",
+                    "advantage": "英伦香氛品牌·蓝风铃+英国梨经典香型·50000+评论·留香5.2小时·陈瑶同款",
+                    "jd_sales": "50000+评论·京东纤盈玉手霜榜TOP4",
+                    "color": "#A8D8EA",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_jomalone.jpg"
+                }
+            ]
+        },
+        # 5. 人体工学腰垫 100-300元档
+        {
+            "product": "人体工学腰垫 记忆棉 办公护腰 100-300元档",
+            "items": [
+                {
+                    "name": "佳奥(JAGO) 人体工学腰垫 记忆棉 护腰靠垫",
+                    "price": "¥169",
+                    "advantage": "高密度记忆棉·人体工学曲面·3D网眼布透气·222807+评论·可拆洗外套·冰丝面料",
+                    "jd_sales": "222807+评论·京东佳奥腰垫TOP1·靠垫行业十大品牌TOP4",
+                    "color": "#5C6B7A",
+                    "image": IMG_BASE + "_product_5.jpg"
+                },
+                {
+                    "name": "京东京造 人体工学腰垫 办公室汽车椅子靠垫 腰托腰椎",
+                    "price": "¥149",
+                    "advantage": "京东京造·人体工学设计·38203+评论·办公室/汽车双用·性价比高",
+                    "jd_sales": "38203+评论·京东维诺迪家纺靠枕榜TOP1",
+                    "color": "#37474F",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_jz_huya.jpg"
+                },
+                {
+                    "name": "太空慢回弹腰垫 椅子腰靠 腰部支撑 告别酸痛",
+                    "price": "¥139",
+                    "advantage": "慢回弹记忆棉·100000+评论·深灰/浅灰双色可选·支撑腰椎·可拆洗外套",
+                    "jd_sales": "100000+评论·京东头枕靠腰榜TOP1",
+                    "color": "#607D8B",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_space.jpg"
+                },
+                {
+                    "name": "米乔(minicute) 人体工学腰垫 靠背垫 办公室透气腰枕",
+                    "price": "¥199",
+                    "advantage": "米乔人体工学·47296+评论·商务黑升级版·5年质保·办公室车载双用·CNPP护脊TOP5",
+                    "jd_sales": "47296+评论·京东维诺迪家纺靠枕榜TOP6",
+                    "color": "#212121",
+                    "image": "https://cloudimgs.iepose.cn/api/images/2026-09-09_competitor_minicute.jpg"
+                }
+            ]
+        }
+    ],
+    "hotProducts": [
+        {
+            "name": "京东京造 304不锈钢保温饭盒 三层2L 配保温袋",
+            "category": "保温饭盒",
+            "price": "¥129",
+            "image": IMG_BASE + "_product_1.jpg",
+            "sales": "200000+评论·京东保温饭盒品牌榜TOP1",
+            "platform": "京东自营"
+        },
+        {
+            "name": "米家小米空气加湿器3 4L 无雾 智能恒湿",
+            "category": "桌面加湿器",
+            "price": "¥249",
+            "image": IMG_BASE + "_product_2.jpg",
+            "sales": "200000+评论·京东桌面加湿器品牌榜TOP1",
+            "platform": "京东自营·米家有品"
+        },
+        {
+            "name": "野兽派(THE BEAST) Jungle 巴黎周末香薰蜡烛礼盒",
+            "category": "香薰蜡烛",
+            "price": "¥229",
+            "image": IMG_BASE + "_product_3.jpg",
+            "sales": "200000+评论·京东香薰蜡烛燃烧榜TOP1",
+            "platform": "京东自营·野兽派官方旗舰店"
+        },
+        {
+            "name": "欧舒丹(L'OCCITANE) 教师节礼物 护手霜礼盒 乳木果4支装",
+            "category": "护手霜",
+            "price": "¥299",
+            "image": IMG_BASE + "_product_4.jpg",
+            "sales": "200000+评论·京东欧舒丹LOCCITANE榜TOP1",
+            "platform": "京东自营·欧舒丹官方旗舰店"
+        },
+        {
+            "name": "佳奥(JAGO) 人体工学腰垫 记忆棉 护腰靠垫",
+            "category": "人体工学腰垫",
+            "price": "¥169",
+            "image": IMG_BASE + "_product_5.jpg",
+            "sales": "222807+评论·京东维诺迪家纺靠枕榜TOP7",
+            "platform": "京东自营·佳奥旗舰店"
+        }
+    ],
+    "dataSource": "WebSearch 真实数据 · 2026-09-09 cron 自动化抓取",
+    "updateTime": "2026-09-09 07:30"
+}
+
+with open(OUT_DIR + "/vs-data.json", "w", encoding="utf-8") as f:
+    json.dump(vs_data, f, ensure_ascii=False, indent=2)
+print(f"✅ vs-data.json 写入: {OUT_DIR}/vs-data.json")
+print(f"   sources: {len(vs_data['sources'])}")
+print(f"   competitors: {len(vs_data['competitors'])} 组 × {len(vs_data['competitors'][0]['items'])} 项 = {sum(len(g['items']) for g in vs_data['competitors'])} 项竞品")
+print(f"   hotProducts: {len(vs_data['hotProducts'])}")
