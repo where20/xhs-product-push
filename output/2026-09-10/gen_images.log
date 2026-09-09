@@ -1,0 +1,12 @@
+🚀 开始生成 5 张 1:1 商品图, 输出到 /Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-10/images
+  [1/5] generating... ✅ /Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-10/images/product_1.jpg (210.1KB)
+  [2/5] generating... ✅ /Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-10/images/product_2.jpg (102.5KB)
+  [3/5] generating... ✅ /Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-10/images/product_3.jpg (64.4KB)
+  [4/5] generating... ✅ /Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-10/images/product_4.jpg (189.4KB)
+  [5/5] generating... ✅ /Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-10/images/product_5.jpg (96.4KB)
+=== 生成完成 ===
+  product_1.jpg: 210.1KB
+  product_2.jpg: 102.5KB
+  product_3.jpg: 64.4KB
+  product_4.jpg: 189.4KB
+  product_5.jpg: 96.4KB
