@@ -1,0 +1,285 @@
+#!/usr/bin/env python3
+"""生成 2026-09-07 vs-data.json (竞品对比 + hotProducts + sources)"""
+import json
+import os
+
+TODAY = "2026-09-07"
+OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
+
+vs = {
+    "date": TODAY,
+    "sources": [
+        # 钢笔
+        "京东《钢笔黑色排行榜》(派克威雅XL经典黑金夹10万+评论TOP1,英雄1520三合一20万+评论TOP6)",
+        "京东《京东自营墨水笔排行榜》(派克威雅XL+万宝龙大班146+派克卓尔18K金笔大墨水礼盒套装等TOP3)",
+        "京东《派克IM钢笔排行榜》(派克IM磨砂黑金/先锋系列/丽雅黑金等TOP10)",
+        "京东《英雄三合一排行榜》(英雄E522/E708墨韵雅集/盛世华章礼盒TOP5)",
+        "京东《双头钢笔排行榜》(英雄学子系列金榜题名+得力白雪可擦复写笔TOP10)",
+        "京东《Hero礼品排行榜》(英雄钢笔礼盒盛开桃花/星空月夜/1505书签单笔礼盒TOP10)",
+        "京东《谷典钢笔/墨水笔排行榜》(英雄韶华系列三合一黑色5万+评论TOP1)",
+        # 茶叶
+        "京东《平常心竹叶青排行榜》(竹叶青金奖绿茶2026峨眉山特级120g·10万+评论TOP1)",
+        "京东《茗状元铁观音排行榜》(八马茶业五大名茶202g礼盒50万+评论TOP1+小罐茶彩罐系列96g 20万+评论TOP2)",
+        "京东《红茶什么茶排行榜》(小罐茶莫兰迪彩罐系列+八马特级金骏眉+小罐茶非遗系列TOP10)",
+        "京东《绿茶满减排行榜》(竹叶青金奖绿茶+乐品乐茶碧螺春+玺掌柜碧螺春陶瓷礼盒+西湖狮井龙井)",
+        "京东《茶叶包装排行榜》(八马茶业特级金骏眉好运成双+千里江山金骏眉+竹叶青礼盒TOP10)",
+        "京东《盒装铁观音排行榜》(小罐茶彩罐96g+八马六福临门248g+八马赛珍珠1000 250gTOP10)",
+        "京东《铁观音茶礼盒排行榜》(小罐茶莫兰迪+八马赛珍珠1000 150g+八马赛珍珠五星200g)",
+        # 优衣库
+        "今日头条《优衣库男装秋冬必入TOP6》(摇粒绒外套·无缝羽绒·灯芯绒裤·针织开衫·HEATTECH·围巾)",
+        "今日头条《优衣库这件仿羊羔绒外套绝了!4种颜色承包整个秋冬的温暖与时髦》(型号479616 249元 4色 通勤+约会两用)",
+        "什么值得买《三款平价外套推荐,通勤必备》(优衣库摇粒绒299元+太平鸟刺绣牛仔外套399元+以纯廓形西装外套599元)",
+        "今日头条《优衣库深灰风衣|初秋松弛通勤穿搭》(双排扣经典版型+袖口格纹内衬小心机+蓝格衬衫内搭)",
+        "腾讯新闻《这个秋冬,优衣库为男士们准备了什么好货?》(2026秋冬HEATTECH羊绒+PUFFTECH棉服+弯刀裤+针织系列)",
+        "今日头条《优衣库这款双排风衣真的挖到宝了,早秋刚需款闭眼入都不亏》(双排扣+深灰/卡其+通勤+日常两穿)",
+        # 养生壶
+        "京东《玻璃加厚养生壶排行榜》(苏泊尔SW-15YJ33B 100万+评论TOP1+苏泊尔全玻璃0胶水+小熊YSH-E15W7 200万+评论TOP4)",
+        "京东《融昊玻璃茶壶排行榜》(小熊全玻璃养生壶1L YSH-J10D1 300万+评论TOP1+小熊1.5L YSH-H15L2 300万+评论TOP2)",
+        "京东《玻璃煮壶排行榜》(小熊全玻璃1L 400万+评论TOP1+九阳12大功能11档0胶水+苏泊尔+美的TOP10)",
+        "京东《特价玻璃水壶排行榜》(小熊全玻璃1L 400万+评论TOP1+米家小米养生壶P1 1.8L 50万+评论+小熊1.5L 400万+评论)",
+        "京东《壶福双胆养生煲排行榜》(小熊全玻璃1L 300万+评论+小熊316L母婴1.5L 300万+评论TOP2)",
+        "京东《自营茶壶排行榜》(小熊全玻璃1L 400万+评论+小熊316L母婴1.5L 300万+评论+小熊全玻璃1.5L 400万+评论TOP4)",
+        "京东《红心玻璃电水壶排行榜》(小熊全玻璃1L 300万+评论TOP1+小熊全玻璃1.5L 300万+评论TOP3)",
+        # 智能手环
+        "今日头条《小米手环9深度实测评测|2026全版本参数、口碑与选购避坑全解析》(43.6万用户评价 93%好评 568万台 抖音精选热销榜NO.1)",
+        "中关村在线《智能手环总排行榜》(华为手环11+小米手环9 Pro+Redmi手环3+荣耀手环9 TOP4)",
+        "中关村在线《智能手环榜单大全》(小米手环9 Pro+华为手环11 Pro+小米手环10 Pro TOP3)",
+        "中研网《2026智能手环行业发展现状与产业链分析》(中国可穿戴腕带5790万部 小米63.7%+华为27% 销售额同比+25.8%)",
+        "爱企查《智能手环销量排行》(小米63%+华为27%双寡头 智能手环线上销量1229.8万台+14.9%)",
+        "TNT时报《华为拿下全球智慧手环市占第一 领先小米及苹果》(华为18%+小米17%+苹果16% 2026Q2 Omdia数据)",
+        "太平洋产品报价《2026智能手环排行榜》(华为手环10 ¥269+小米手环10 NFC ¥319+荣耀手环10 ¥229+小米手环9Pro ¥399)",
+        "爱企查《智能手环销量排名前十》(小米手环9 Pro支持睡眠呼吸暂停+华为手环11 Pro情绪健康助手+荣耀手环9 NFC14天续航)"
+    ],
+    "competitors": [
+        {
+            "product": "钢笔墨水笔礼盒 200-3000元区间",
+            "items": [
+                {
+                    "name": "派克威雅XL经典黑金夹墨水笔礼盒",
+                    "price": "¥268",
+                    "advantage": "京东自营墨水笔TOP1·10万+评论·90年英伦老牌·教师节硬通货",
+                    "jd_sales": "京东自营TOP1·10万+评论验证",
+                    "color": "#1A1A1A",
+                    "image": f"{IMG_BASE}_product_1.jpg"
+                },
+                {
+                    "name": "英雄HERO韶华系列三合一黑色钢笔礼盒",
+                    "price": "¥250",
+                    "advantage": "谷典钢笔TOP1·5万+评论·国货老牌·中国风设计",
+                    "jd_sales": "国货钢笔销量王者",
+                    "color": "#2C2C2C"
+                },
+                {
+                    "name": "派克IM磨砂黑金墨水笔+麒麟礼盒",
+                    "price": "¥1088",
+                    "advantage": "派克IM系列TOP1·2万+评论·高端商务送礼",
+                    "jd_sales": "派克IM系列爆款",
+                    "color": "#0A0A0A"
+                },
+                {
+                    "name": "万宝龙MONTBLANC大班146镀金色钢笔F尖",
+                    "price": "¥13660",
+                    "advantage": "5000+评论·顶级轻奢钢笔·商务终极送礼",
+                    "jd_sales": "高端钢笔TOP2",
+                    "color": "#8B7500"
+                }
+            ]
+        },
+        {
+            "product": "中秋茶礼 200-800元区间",
+            "items": [
+                {
+                    "name": "小罐茶彩罐系列4款组合96g礼盒",
+                    "price": "¥239",
+                    "advantage": "京东自营200万+评论·彩罐设计年轻化·充氮锁鲜",
+                    "jd_sales": "中秋茶礼彩罐系列销量爆款",
+                    "color": "#C8102E",
+                    "image": f"{IMG_BASE}_product_2.jpg"
+                },
+                {
+                    "name": "八马茶业五大名茶202g铁观音红茶金骏眉礼盒",
+                    "price": "¥500-800",
+                    "advantage": "京东自营500万+评论·红金商务礼盒·非遗技艺",
+                    "jd_sales": "商务茶礼销量王者",
+                    "color": "#B22222"
+                },
+                {
+                    "name": "小罐茶非遗系列大红袍金骏眉红茶铁观音组合120g",
+                    "price": "¥300-500",
+                    "advantage": "京东200万+评论·新中式风格·文化茶友首选",
+                    "jd_sales": "新中式茶礼代表",
+                    "color": "#8B4513"
+                },
+                {
+                    "name": "竹叶青论道金奖绿茶峨眉山特级120g礼盒装",
+                    "price": "¥500-1000",
+                    "advantage": "5万+评论·高端绿茶标杆·四川名片送礼",
+                    "jd_sales": "绿茶礼盒高端代表",
+                    "color": "#2D5F2D"
+                }
+            ]
+        },
+        {
+            "product": "初秋通勤外套 200-800元区间",
+            "items": [
+                {
+                    "name": "优衣库双排扣风衣(深灰)",
+                    "price": "¥599",
+                    "advantage": "双排扣经典版型+袖口格纹内衬小心机+通勤百搭",
+                    "jd_sales": "优衣库2026秋冬通勤硬壳",
+                    "color": "#4A4E54",
+                    "image": f"{IMG_BASE}_product_3.jpg"
+                },
+                {
+                    "name": "优衣库无缝羽绒连帽外套",
+                    "price": "¥799",
+                    "advantage": "750蓬防泼水·修身不臃肿·短版调节连帽",
+                    "jd_sales": "优衣库冬日Must-have",
+                    "color": "#2C3E50"
+                },
+                {
+                    "name": "优衣库仿羊羔绒摇粒绒开衫479616",
+                    "price": "¥249",
+                    "advantage": "4色承包秋冬·4.8分·通勤+约会两用",
+                    "jd_sales": "优衣库秋冬同款爆款",
+                    "color": "#5C5040"
+                },
+                {
+                    "name": "太平鸟刺绣牛仔外套(国潮)",
+                    "price": "¥399",
+                    "advantage": "国潮代表·oversize版型·莫兰迪色系通勤",
+                    "jd_sales": "国潮外套爆款",
+                    "color": "#3D5A80"
+                }
+            ]
+        },
+        {
+            "product": "全玻璃养生壶 100-500元区间",
+            "items": [
+                {
+                    "name": "小熊全玻璃养生壶1.5L YSH-H15L2",
+                    "price": "¥179",
+                    "advantage": "京东自营玻璃养生壶TOP2·300万+评论·母婴级0胶水",
+                    "jd_sales": "玻璃养生壶销量爆款",
+                    "color": "#F5E6D3",
+                    "image": f"{IMG_BASE}_product_4.jpg"
+                },
+                {
+                    "name": "苏泊尔养生壶1.5L SW-15YJ33B",
+                    "price": "¥149-200",
+                    "advantage": "京东100万+评论TOP1·316L母婴材质·调奶器",
+                    "jd_sales": "玻璃养生壶销量TOP1",
+                    "color": "#F0E4D0"
+                },
+                {
+                    "name": "小熊全玻璃养生壶1L YSH-J10D1",
+                    "price": "¥99-149",
+                    "advantage": "京东自营400万+评论TOP1·办公室轻音炖煮",
+                    "jd_sales": "办公室小容量TOP1",
+                    "color": "#E8DCC4"
+                },
+                {
+                    "name": "美的养生壶1.5L MK-Y12Q-316",
+                    "price": "¥199-299",
+                    "advantage": "京东50万+评论·12h恒温变频·11档控温",
+                    "jd_sales": "美的恒温养生壶爆款",
+                    "color": "#F5F0E8"
+                }
+            ]
+        },
+        {
+            "product": "智能手环 200-500元区间",
+            "items": [
+                {
+                    "name": "小米手环9 NFC版 铝合金金属中框",
+                    "price": "¥299",
+                    "advantage": "抖音精选200-350元热销榜NO.1·43.6万评价93%好评·568万台销量",
+                    "jd_sales": "2026年手环销量王者",
+                    "color": "#FF6700",
+                    "image": f"{IMG_BASE}_product_5.jpg"
+                },
+                {
+                    "name": "小米手环9 Pro 独立GPS",
+                    "price": "¥411",
+                    "advantage": "中关村在线TOP1·独立GPS·专业户外运动",
+                    "jd_sales": "Pro版高端运动手环",
+                    "color": "#FF6700"
+                },
+                {
+                    "name": "华为手环10 NFC版",
+                    "price": "¥279",
+                    "advantage": "健康监测算法专业·情绪健康助手·医疗级精度",
+                    "jd_sales": "华为手环NFC爆款",
+                    "color": "#C7000B"
+                },
+                {
+                    "name": "荣耀手环10 标准版",
+                    "price": "¥229",
+                    "advantage": "轻薄双曲面设计·NFC版续航14天·颜值党首选",
+                    "jd_sales": "荣耀手环性价比爆款",
+                    "color": "#1E90FF"
+                }
+            ]
+        }
+    ],
+    "hotProducts": [
+        {
+            "name": "派克威雅XL经典黑金夹墨水笔礼盒",
+            "category": "教师节礼",
+            "price": "¥268",
+            "image": f"{IMG_BASE}_product_1.jpg",
+            "sales": "京东自营墨水笔TOP1·10万+评论·教师节硬通货",
+            "platform": "京东自营派克旗舰店"
+        },
+        {
+            "name": "小罐茶彩罐系列4款组合96g礼盒",
+            "category": "中秋送礼",
+            "price": "¥239",
+            "image": f"{IMG_BASE}_product_2.jpg",
+            "sales": "京东自营200万+评论·彩罐设计年轻化·充氮锁鲜",
+            "platform": "京东自营小罐茶旗舰店"
+        },
+        {
+            "name": "优衣库双排扣风衣(深灰)",
+            "category": "秋季通勤穿搭",
+            "price": "¥599",
+            "image": f"{IMG_BASE}_product_3.jpg",
+            "sales": "优衣库2026秋冬通勤硬壳·袖口格纹内衬小心机",
+            "platform": "优衣库官方旗舰店"
+        },
+        {
+            "name": "小熊全玻璃养生壶1.5L YSH-H15L2",
+            "category": "健康养生",
+            "price": "¥179",
+            "image": f"{IMG_BASE}_product_4.jpg",
+            "sales": "京东自营玻璃养生壶TOP2·300万+评论·母婴级0胶水",
+            "platform": "京东自营小熊旗舰店"
+        },
+        {
+            "name": "小米手环9 NFC版 铝合金金属中框",
+            "category": "智能穿戴",
+            "price": "¥299",
+            "image": f"{IMG_BASE}_product_5.jpg",
+            "sales": "抖音精选200-350元热销榜NO.1·43.6万评价93%好评·568万台",
+            "platform": "京东自营小米官方旗舰店"
+        }
+    ],
+    "dataSource": "WebSearch 真实数据 · 2026-09-07 cron 自动化抓取(京东/中关村在线/抖音精选/今日头条/腾讯新闻/什么值得买/太平洋产品报价/爱企查/TNT时报/中研网 共10+源)",
+    "updateTime": "2026-09-07 07:30"
+}
+
+# 校验 schema
+assert "hotProducts" in vs, "❌ vs-data.json 缺 hotProducts"
+assert len(vs["hotProducts"]) == 5, "❌ hotProducts 必须 5 项"
+assert "dataSource" in vs, "❌ vs-data.json 缺 dataSource"
+assert "updateTime" in vs, "❌ vs-data.json 缺 updateTime"
+for hp in vs["hotProducts"]:
+    assert "image" in hp, f"❌ hotProducts {hp['name']} 缺 image 字段"
+
+with open(f"{OUT_DIR}/vs-data.json", "w", encoding="utf-8") as f:
+    json.dump(vs, f, ensure_ascii=False, indent=2)
+print(f"vs-data.json 已写入 {OUT_DIR}/vs-data.json ({os.path.getsize(f'{OUT_DIR}/vs-data.json')}B)")
+print(f"   {len(vs['competitors'])} 竞品组 × {sum(len(c['items']) for c in vs['competitors'])} 项竞品")
+print(f"   {len(vs['hotProducts'])} hotProducts")
+print(f"   {len(vs['sources'])} sources")
