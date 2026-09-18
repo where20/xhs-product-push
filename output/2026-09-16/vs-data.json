@@ -1,0 +1,214 @@
+{
+  "date": "2026-09-16",
+  "sources": [
+    "什么值得买 smzdm.com - 平价面霜横评",
+    "淘宝优惠 taouq.com - 阿胶糕品牌销量榜",
+    "京东自营排行榜 - 瑜伽垫/小家电",
+    "太平洋电脑网 pconline.com.cn - 平价面霜推荐",
+    "中关村在线 zol.com.cn - 电饼铛/破壁机热度榜",
+    "来叔生活百科 laishu.com - 欧莱雅小蜜罐评测",
+    "京东商品百科 - 京东京造四件套"
+  ],
+  "competitors": [
+    {
+      "product": "滋补养生 · 阿胶糕礼盒 ¥100-200 价位段",
+      "items": [
+        {
+          "name": "同仁堂 阿胶糕 即食礼盒(木糖醇版) 200g×2",
+          "price": "¥138",
+          "advantage": "东阿原产·阿胶含量 25%·配料仅 7 味·第三方检测齐全",
+          "jd_sales": "天猫阿里健康大药房月销 5,000+",
+          "color": "#C9A876",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_1.jpg"
+        },
+        {
+          "name": "桃小闺 阿胶糕(常规款)",
+          "price": "约 ¥168/盒",
+          "advantage": "阿胶含量 25%,木糖醇代糖,东阿产,小红书爆款",
+          "jd_sales": "天猫月销 8,000+(营销推荐为主)",
+          "color": "#E8B57E"
+        },
+        {
+          "name": "福牌 阿胶糕礼盒 即食低糖",
+          "price": "约 ¥96.8(原价 ¥119)",
+          "advantage": "黄河流域黑驴皮,九提九炙传统工艺,性价比",
+          "jd_sales": "天猫年销 74",
+          "color": "#D4A574"
+        },
+        {
+          "name": "东阿阿胶 桃花姬阿胶糕礼盒",
+          "price": "约 ¥298",
+          "advantage": "华润集团旗下,行业龙头标准制定者,适合女性长辈",
+          "jd_sales": "京东自营月销 10,000+",
+          "color": "#E8A0BF"
+        }
+      ]
+    },
+    {
+      "product": "换季护肤 · 抗老保湿面霜 ¥200-400 价位段",
+      "items": [
+        {
+          "name": "欧莱雅 L'OREAL 小蜜罐面霜 50ml",
+          "price": "¥299",
+          "advantage": "玻色因+四胜肽+麦卢卡蜂蜜,千元线同款成分价格 1/5",
+          "jd_sales": "京东自营 30 日销 20,000+",
+          "color": "#D4A574",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_2.jpg"
+        },
+        {
+          "name": "珀莱雅 红宝石面霜",
+          "price": "约 ¥289",
+          "advantage": "多重胜肽+重组胶原蛋白,淡纹紧致,分滋润/轻盈两版",
+          "jd_sales": "天猫月销 50,000+",
+          "color": "#C0392B"
+        },
+        {
+          "name": "薇诺娜 柔润保湿霜",
+          "price": "约 ¥268",
+          "advantage": "马齿苋+青刺果油,敏感肌/换季泛红首选",
+          "jd_sales": "京东自营月销 15,000+",
+          "color": "#A0C4E8"
+        },
+        {
+          "name": "珂润(Curel) 浸润保湿面霜",
+          "price": "约 ¥260(40g)",
+          "advantage": "神经酰胺修护屏障,水润不黏腻",
+          "jd_sales": "京东自营月销 20,000+",
+          "color": "#F0E6D2"
+        }
+      ]
+    },
+    {
+      "product": "厨房小家电 · 小型破壁机 ¥600-900 价位段",
+      "items": [
+        {
+          "name": "苏泊尔 SUPOR 小方糖破壁机 SP922S",
+          "price": "¥697.55",
+          "advantage": "0涂层 304 不锈钢,45000 转无刷变频,247mm 紧凑机身租房友好",
+          "jd_sales": "天猫精选月销 8,000+",
+          "color": "#5BA8A0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_3.jpg"
+        },
+        {
+          "name": "九阳 变频隔音罩可拆破壁机 B700",
+          "price": "¥609.75",
+          "advantage": "干豆/杂粮打磨均匀,豆浆免过滤,一键自清洁",
+          "jd_sales": "天猫精选月销 6,000+",
+          "color": "#E74C3C"
+        },
+        {
+          "name": "美的 MJ-BL1085 无刷变频破壁机 1.75L",
+          "price": "¥897.93",
+          "advantage": "高硼硅杯体,6 叶刀头,无刷变频静音,全家适用",
+          "jd_sales": "京东自营月销 12,000+",
+          "color": "#3498DB"
+        }
+      ]
+    },
+    {
+      "product": "家居家纺 · 60S 长绒棉四件套 ¥200-300 价位段",
+      "items": [
+        {
+          "name": "京东京造 60S 长绒棉贡缎四件套 1.5m",
+          "price": "¥230.05",
+          "advantage": "60S 精梳纱+300 根贡缎,新疆长绒棉,国标 A 类母婴可用",
+          "jd_sales": "京东自营好评 20 万+",
+          "color": "#A8C0D6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_4.jpg"
+        },
+        {
+          "name": "网易严选 60S 长绒棉四件套 1.5m",
+          "price": "约 ¥279",
+          "advantage": "新疆长绒棉,简约设计,严选品控",
+          "jd_sales": "京东自营月销 30,000+",
+          "color": "#B0B0B0"
+        },
+        {
+          "name": "罗莱家纺 LUOLAI 60S 长绒棉四件套",
+          "price": "约 ¥399",
+          "advantage": "家纺大牌,门店同款,线下渠道广",
+          "jd_sales": "天猫月销 5,000+",
+          "color": "#D4B5A0"
+        }
+      ]
+    },
+    {
+      "product": "运动健身 · TPE/NBR 瑜伽垫 ¥30-80 价位段",
+      "items": [
+        {
+          "name": "京东京造 TPE 瑜伽垫 6mm 183×66cm",
+          "price": "¥29.9-49.9",
+          "advantage": "TPE 环保无异味,6mm 加厚,双面防滑,京东自营好评 20 万+",
+          "jd_sales": "京东自营好评 20 万+",
+          "color": "#8FBC8F",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_5.jpg"
+        },
+        {
+          "name": "Keep NBR 瑜伽垫 加宽加厚 185×80×10cm",
+          "price": "约 ¥32.9-49.9",
+          "advantage": "Keep 品牌,NBR 材质回弹好,10mm 加厚减震",
+          "jd_sales": "天猫超市月销 30,000+",
+          "color": "#9B59B6"
+        },
+        {
+          "name": "李宁(LI-NING) 瑜伽垫 加厚 6mm",
+          "price": "约 ¥49.9",
+          "advantage": "运动大牌,TPE 防滑,京东品质保证",
+          "jd_sales": "京东自营月销 200,000+",
+          "color": "#C0392B"
+        },
+        {
+          "name": "Yottoy 瑜伽垫 TPE 加厚 183×80cm",
+          "price": "约 ¥69",
+          "advantage": "天然橡胶防滑,初学者友好",
+          "jd_sales": "京东月销 500,000+",
+          "color": "#27AE60"
+        }
+      ]
+    }
+  ],
+  "dataSource": "WebSearch 真实数据 · 2026-09-16 cron 自动化抓取",
+  "updateTime": "2026-09-16 07:30",
+  "hotProducts": [
+    {
+      "name": "同仁堂 阿胶糕 即食礼盒(独立小包装·木糖醇版)",
+      "category": "滋补养生",
+      "price": "¥138",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_1.jpg",
+      "sales": "天猫阿里健康大药房月销 5,000+,好评 99%",
+      "platform": "天猫·阿里健康大药房"
+    },
+    {
+      "name": "欧莱雅 L'OREAL 小蜜罐面霜 50ml",
+      "category": "换季护肤",
+      "price": "¥299",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_2.jpg",
+      "sales": "京东自营 30 日销 20,000+",
+      "platform": "京东自营·欧莱雅官方旗舰店"
+    },
+    {
+      "name": "苏泊尔 SUPOR 小方糖破壁机 SP922S",
+      "category": "厨房小家电",
+      "price": "¥697.55",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_3.jpg",
+      "sales": "天猫精选月销 8,000+,好评 99%",
+      "platform": "天猫精选·苏泊尔旗舰店"
+    },
+    {
+      "name": "京东京造 60S 长绒棉贡缎四件套 1.5m",
+      "category": "家居家纺",
+      "price": "¥230.05",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_4.jpg",
+      "sales": "京东自营好评 20 万+",
+      "platform": "京东自营·京东京造旗舰店"
+    },
+    {
+      "name": "京东京造 TPE 瑜伽垫 6mm",
+      "category": "运动健身",
+      "price": "¥29.9",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_5.jpg",
+      "sales": "京东自营好评 20 万+",
+      "platform": "京东自营·京东京造旗舰店"
+    }
+  ]
+}

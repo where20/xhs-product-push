@@ -1,0 +1,165 @@
+{
+  "date": "2026-09-16",
+  "totalProducts": 5,
+  "products": [
+    {
+      "id": 1,
+      "name": "同仁堂 阿胶糕 即食礼盒(独立小包装·木糖醇版)",
+      "category": "滋补养生",
+      "price": "¥138(200g×2盒)",
+      "desc": "同仁堂阿胶糕即食礼盒,每 100g 含阿胶约 25%,配料仅 7 味(阿胶/黑芝麻/核桃仁/红枣/枸杞/黄酒/木糖醇),无蔗糖无防腐剂。东阿原产地驴皮熬制,委托 CMA/CNAS 资质第三方机构出具动物源性检测报告,驴源性检出、猪马牛源未检出,原料可溯源。独立真空小包装单片密封锁鲜,出门通勤、办公室加餐、过节送礼均合适。",
+      "highlights": [
+        "东阿原产驴皮熬制,阿胶含量约 25%(每 100g)",
+        "木糖醇代糖配方,适配控糖饮食人群",
+        "配料仅 7 味,无防腐剂无人工添加剂",
+        "第三方动物源性检测报告齐全,原料可溯源",
+        "独立真空小包装,锁鲜便携两不误"
+      ],
+      "tags": ["同仁堂", "东阿原产", "控糖代糖", "独立包装", "送礼体面"],
+      "suitable": "中老年女性日常滋补、办公室加餐、中秋/国庆送礼",
+      "price_note": "天猫/京东 ¥138/2 盒,活动价可低至 ¥118",
+      "color": "#C9A876",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_1.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_slice_1.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "欧莱雅 L'OREAL 小蜜罐面霜(玻色因·麦卢卡蜂蜜) 50ml",
+      "category": "换季护肤",
+      "price": "¥299(50ml·正装)",
+      "desc": "欧莱雅金致臻颜花蜜奢养滋润面霜,主打成分三重协同:玻色因(欧莱雅千元面霜同款抗老成分) + 四胜肽(促进胶原生成,淡化干纹) + 麦卢卡蜂蜜(天然保湿因子,提升滋润度)。乳酪质地一抹化水,干皮秋冬不卡粉不脱皮,妆前可替代保湿精华打底,京东自营 30 日销 2 万+,性价比突出。",
+      "highlights": [
+        "玻色因+四胜肽+麦卢卡蜂蜜三重协同",
+        "乳酪质地一抹化水,干皮秋冬不卡粉",
+        "抗老+滋润+妆前打底一瓶多用",
+        "欧莱雅千元线同款成分,价格 1/5",
+        "京东 30 日销 2 万+,好评率 99%+"
+      ],
+      "tags": ["欧莱雅", "玻色因抗老", "秋冬滋润", "干皮救星", "高性价比"],
+      "suitable": "25+ 轻熟肌日常抗老、秋冬干皮混干皮、妆前打底",
+      "price_note": "京东自营 ¥299,常赠同款小样 50ml",
+      "color": "#D4A574",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_2.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_2.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_slice_2.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "苏泊尔 SUPOR 小方糖破壁机 SP922S(0涂层·小型)",
+      "category": "厨房小家电",
+      "price": "¥697.55(天猫)",
+      "desc": "苏泊尔 2026 全新小方糖破壁机 SP922S,杯体仅 247×150×308mm,和小型即热饮水机大小相近,租房党窄台面友好。45000 转/分钟无刷变频电机 + 8 叶精钢刀头 + 方形破壁仓,破壁细度 92 微米,豆浆无渣免过滤。零涂层 304 不锈钢内胆,搭配棋盘匀热系统不易糊底,支持高温自清洁。",
+      "highlights": [
+        "杯体仅 247mm 高,租房党窄台面友好",
+        "45000 转无刷变频电机,8 叶精钢刀头",
+        "破壁细度 92 微米,豆浆免过滤",
+        "零涂层 304 不锈钢内胆,安全无涂层脱膜风险",
+        "棋盘匀热系统+高温自清洁,不易糊底"
+      ],
+      "tags": ["苏泊尔", "0涂层", "小型破壁", "免过滤豆浆", "租房友好"],
+      "suitable": "租房党 1-3 口之家、办公室养生、健身轻食",
+      "price_note": "天猫精选 ¥697.55(淘金币可抵 49.57 元)",
+      "color": "#5BA8A0",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_3.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_3.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_slice_3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "京东京造 60S 长绒棉贡缎四件套(国标 A 类·1.5m 床)",
+      "category": "家居家纺",
+      "price": "¥230.05(京东自营·1.5m 床)",
+      "desc": "京东京造 60S 单股精梳纱长绒棉贡缎四件套,300 根高密度面料,新疆长绒棉日照 3000 小时以上,纤维长度比普通棉长 1.5 倍,贡缎织造工艺纵享丝滑睡感。国标 A 类母婴可用,敏感肌亦可贴睡,环保活性印染色泽鲜亮久洗不褪色。1.5m 床 4 件套含床单+被套+枕套×2,京东自营好评 20 万+。",
+      "highlights": [
+        "60S 单股精梳纱 + 300 根高密度",
+        "100% 新疆长绒棉,贡缎织造丝滑睡感",
+        "国标 A 类母婴可用,敏感肌友好",
+        "环保活性印染,久洗不褪色",
+        "京东自营 1.5m 床到手价 ¥230 起"
+      ],
+      "tags": ["京东京造", "60S长绒棉", "贡缎工艺", "A类母婴", "新疆棉"],
+      "suitable": "换季换新床品、乔迁新居、新婚铺床、孕妈家庭",
+      "price_note": "京东自营 ¥230.05 起,1.8m 床款 ¥269 起",
+      "color": "#A8C0D6",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_4.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_4.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_slice_4.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "京东京造 TPE 瑜伽垫 6mm 加厚防滑(183×66cm)",
+      "category": "运动健身",
+      "price": "¥29.9-49.9(京东自营)",
+      "desc": "京东京造 TPE 环保材质瑜伽垫,6mm 加厚设计对关节友好,183×66cm 大尺寸男士舒展够用,双面防滑纹路瑜伽/跳绳/仰卧起坐均不打滑移位。TPE 材质环保无异味,暴汗后无橡胶味释放。京东自营好评 20 万+,抹茶绿/砂岩灰/雪青紫多色可选,日常价 ¥49.9,常促销 ¥29.9 起。",
+      "highlights": [
+        "TPE 环保材质,暴汗无异味",
+        "6mm 加厚,对膝盖/手腕关节友好",
+        "183×66cm 大尺寸,男士舒展够用",
+        "双面防滑纹路,瑜伽/跳绳/健身全场景",
+        "京东自营日常 ¥49.9,促销 ¥29.9 起"
+      ],
+      "tags": ["京东京造", "TPE环保", "6mm加厚", "双面防滑", "高性价比"],
+      "suitable": "瑜伽初学者、居家跳绳、久坐人群拉伸、亲子运动",
+      "price_note": "京东自营 ¥29.9-49.9,大尺寸 185×80cm ¥59.9",
+      "color": "#8FBC8F",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_5.jpg",
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_5.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_slice_5.jpg"
+      ]
+    }
+  ],
+  "hotProducts": [
+    {
+      "name": "同仁堂 阿胶糕 即食礼盒(独立小包装·木糖醇版)",
+      "category": "滋补养生",
+      "price": "¥138",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_1.jpg",
+      "sales": "天猫阿里健康大药房月销 5,000+,好评 99%",
+      "platform": "天猫·阿里健康大药房"
+    },
+    {
+      "name": "欧莱雅 L'OREAL 小蜜罐面霜 50ml",
+      "category": "换季护肤",
+      "price": "¥299",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_2.jpg",
+      "sales": "京东自营 30 日销 20,000+",
+      "platform": "京东自营·欧莱雅官方旗舰店"
+    },
+    {
+      "name": "苏泊尔 SUPOR 小方糖破壁机 SP922S",
+      "category": "厨房小家电",
+      "price": "¥697.55",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_3.jpg",
+      "sales": "天猫精选月销 8,000+,好评 99%",
+      "platform": "天猫精选·苏泊尔旗舰店"
+    },
+    {
+      "name": "京东京造 60S 长绒棉贡缎四件套 1.5m",
+      "category": "家居家纺",
+      "price": "¥230.05",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_4.jpg",
+      "sales": "京东自营好评 20 万+",
+      "platform": "京东自营·京东京造旗舰店"
+    },
+    {
+      "name": "京东京造 TPE 瑜伽垫 6mm",
+      "category": "运动健身",
+      "price": "¥29.9",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-09-16_product_5.jpg",
+      "sales": "京东自营好评 20 万+",
+      "platform": "京东自营·京东京造旗舰店"
+    }
+  ],
+  "dataSource": "WebSearch 真实数据 · 2026-09-16 cron 自动化抓取(什么值得买/淘宝优惠/京东自营排行榜/京东商品百科)",
+  "updateTime": "2026-09-16 07:30"
+}
