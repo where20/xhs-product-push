@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-20",
+  "host": "https://cloudimgs.iepose.cn",
+  "endpoint": "/api/upload-file",
+  "uploaded": [
+    {
+      "success": true,
+      "filename": "2026-09-20_product_card_full.jpg",
+      "relPath": "2026-09-20_product_card_full.jpg",
+      "size": 895269,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_card_full.jpg",
+      "name": "product_card_full.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_slice_1.jpg",
+      "relPath": "2026-09-20_product_slice_1.jpg",
+      "size": 205223,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_slice_1.jpg",
+      "name": "product_slice_1.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_slice_2.jpg",
+      "relPath": "2026-09-20_product_slice_2.jpg",
+      "size": 208538,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_slice_2.jpg",
+      "name": "product_slice_2.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_slice_3.jpg",
+      "relPath": "2026-09-20_product_slice_3.jpg",
+      "size": 187531,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_slice_3.jpg",
+      "name": "product_slice_3.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_slice_4.jpg",
+      "relPath": "2026-09-20_product_slice_4.jpg",
+      "size": 256716,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_slice_4.jpg",
+      "name": "product_slice_4.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_slice_5.jpg",
+      "relPath": "2026-09-20_product_slice_5.jpg",
+      "size": 188901,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_slice_5.jpg",
+      "name": "product_slice_5.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_1.jpg",
+      "relPath": "2026-09-20_product_1.jpg",
+      "size": 119750,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_1.jpg",
+      "name": "images/product_1.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_2.jpg",
+      "relPath": "2026-09-20_product_2.jpg",
+      "size": 126028,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_2.jpg",
+      "name": "images/product_2.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_3.jpg",
+      "relPath": "2026-09-20_product_3.jpg",
+      "size": 90908,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_3.jpg",
+      "name": "images/product_3.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_4.jpg",
+      "relPath": "2026-09-20_product_4.jpg",
+      "size": 233630,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_4.jpg",
+      "name": "images/product_4.jpg"
+    },
+    {
+      "success": true,
+      "filename": "2026-09-20_product_5.jpg",
+      "relPath": "2026-09-20_product_5.jpg",
+      "size": 89326,
+      "url": "https://cloudimgs.iepose.cn/api/images/2026-09-20_product_5.jpg",
+      "name": "images/product_5.jpg"
+    }
+  ]
+}
