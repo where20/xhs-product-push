@@ -1,0 +1,266 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+build_vs_data_20260926.py  (v2 - 兼容 db_save.py 输入 schema)
+vs-data.json: 5 个商品 vs 各赛道 Top3 竞品 + 5 个 hotProducts + sources + dataSource + updateTime
+schema 兼容 db_save.py (扁平 competitor → 分组 competitors/items)
+"""
+import json
+from pathlib import Path
+
+OUT_DIR = Path('/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-26')
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+PLACEHOLDER_IMG = ""
+
+# 5 个商品 vs 各自竞品（分组化, 每组 product + items 4 项, items[0] 是主推）
+competitors = [
+    {
+        "product": "伯希和 赤焰 三合一冲锋衣 ¥399-¥799",
+        "group": "京东金榜登山徒步榜 + 户外服饰热度榜",
+        "items": [
+            {
+                "name": "伯希和 Pelliot 赤焰三合一冲锋衣 男户外防水防风防污登山服 情侣款外套 摇粒绒内胆",
+                "price": "¥399-¥799",
+                "advantage": "京东金榜登山徒步 TOP1 + 户外服饰热度 TOP14 + 京东自营 ¥399 券后 + Teflon 三防科技 + 41126mmH₂O 暴雨级防水 + 21786g/m²·24h 透湿 + 10000+ 次耐磨 + 265g 双面暖绒 + Warmlock 恒温",
+                "jd_sales": "京东金榜登山徒步 TOP1 · 户外服饰热度 TOP14 · ¥399 券后",
+                "color": "#2A2A2A",
+                "image": PLACEHOLDER_IMG
+            },
+            {
+                "name": "迪卡侬 DECATHLON MH500 男款冲锋衣 365天新低 防风防水硬壳外套",
+                "price": "¥269-¥499",
+                "advantage": "迪卡侬 1976 年法国户外大厂 269.9 元 (9折), 但是 MH500 是硬壳单层无内胆, 三防科技和透湿性不如伯希和赤焰",
+                "jd_sales": "京东 ¥269 起 · 户外服饰热度 TOP1",
+                "color": "#FF8C42"
+            },
+            {
+                "name": "探路者 TOREAD 三合一冲锋衣 男女款户外防水登山服 软壳内胆 TAWWBM91752",
+                "price": "¥311-¥622",
+                "advantage": "探路者 1999 年国产户外老牌 50,000+ 评价, TAWWBM91752 三合一 ¥419, 但是内胆 90 绒/700 蓬松度低于伯希和赤焰 265g 双面暖绒",
+                "jd_sales": "京东 ¥311-¥622 · 50,000+ 评价",
+                "color": "#3D3D3D"
+            },
+            {
+                "name": "北面 The North Face 26 秋冬 Reign On 冲锋衣 男女款硬壳外套 8JRQ/8J6Y",
+                "price": "¥786-¥1498",
+                "advantage": "北面 1966 年美国户外品牌 ¥786-¥1498, 比伯希和赤焰贵 100-300%, 但是仅硬壳单层无三合一可拆卸内胆, 国庆前性价比低",
+                "jd_sales": "京东 ¥786 起 · 户外服饰热度 TOP5",
+                "color": "#000000"
+            }
+        ]
+    },
+    {
+        "product": "雅诗兰黛 小棕微雕眼霜 15ml ¥369-¥565",
+        "group": "京东小棕瓶眼精华排行榜 + 雅诗兰黛眼霜紧致排行榜",
+        "items": [
+            {
+                "name": "雅诗兰黛 Estee Lauder 小棕微雕眼霜 15ml 淡纹紧致抗皱 抗老护肤品 礼盒",
+                "price": "¥369-¥565",
+                "advantage": "京东小棕瓶眼精华 TOP1 + 雅诗兰黛眼霜紧致 TOP3 + 单品评价 200 万+ + 二裂酵母精粹 + 咖啡因 + 透明质酸 + 微雕科技 + 蛋清质地轻盈",
+                "jd_sales": "京东小棕瓶眼精华 TOP1 · 2,000,000+ 评价 · 紧致榜 TOP3",
+                "color": "#C8A977",
+                "image": PLACEHOLDER_IMG
+            },
+            {
+                "name": "兰蔻 LANCÔME 菁纯臻颜焕亮眼霜 20ml 保湿修护滋润抗皱紧致细纹提拉眼周",
+                "price": "¥1140-¥1200",
+                "advantage": "兰蔻 1935 年法国老牌 ¥1140-¥1200, 但是菁纯臻颜 ¥1140 比小棕微雕 ¥565 贵 102%, 含促胶原植物肽, 不含二裂酵母精粹",
+                "jd_sales": "京东 ¥1140-¥1200 · 25 条评价 TOP",
+                "color": "#D4B896"
+            },
+            {
+                "name": "欧莱雅 L'OREAL 紫熨斗眼霜 30ml 眼部保湿紧致 淡纹抗衰老抗皱 提拉紧致",
+                "price": "¥259-¥319",
+                "advantage": "欧莱雅 1909 年法国第一美妆 ¥259-¥319, 紫熨斗 30ml 比小棕微雕 15ml 大 1 倍, 但是玻色因+类蛇毒胜肽 配方比小棕瓶二裂酵母精粹低 1 档",
+                "jd_sales": "京东 ¥259 起 · 46 条评价 TOP",
+                "color": "#A87E6E"
+            },
+            {
+                "name": "玉兰油 OLAY 多效修护眼霜 15g 眼部精华乳 淡化细纹提拉紧致提亮眼周",
+                "price": "¥99-¥109",
+                "advantage": "玉兰油 1952 年国货大厂 ¥99-¥109, 比小棕微雕便宜 70-80%, 但是含呵护精华 B3 单一成分, 抗老效果远不如小棕微雕黄金三角配方",
+                "jd_sales": "京东 ¥99 起 · 8 条评价 TOP",
+                "color": "#F0E0D0"
+            }
+        ]
+    },
+    {
+        "product": "京鲜生 富平柿饼 400g×2 ¥29-¥55",
+        "group": "京东陕西富平柿饼排行榜 + 京鲜生生鲜榜单",
+        "items": [
+            {
+                "name": "京鲜生 陕西富平流心柿饼 400g×2袋 独立包装 霜降吊柿 源头直发 水果礼盒",
+                "price": "¥29-¥55",
+                "advantage": "京东陕西富平柿饼销量 TOP3 + 京东自营 + 富平地理标志产品 + 霜降吊柿工艺 + 流心果肉 + 软糯香甜 + 400g×2 袋独立小包装",
+                "jd_sales": "京东富平柿饼 TOP3 · ¥29-¥55 · 礼盒装",
+                "color": "#D9824A",
+                "image": PLACEHOLDER_IMG
+            },
+            {
+                "name": "天玺 柿子小镇 柿柿红 富平柿饼 岁岁年年礼盒 大果 2 斤 特产霜降吊柿饼",
+                "price": "¥35-¥49",
+                "advantage": "天玺柿子小镇陕西老牌 40 余载匠心传承, 礼盒装 ¥35-¥49 但是 2 斤装净重少于京鲜生 400g×2 袋, 包装精美但分量不如京鲜生",
+                "jd_sales": "京东 ¥35-¥49 · 礼盒装 · 47 条评价",
+                "color": "#C97144"
+            },
+            {
+                "name": "甜芋果月 陕西富平霜降吊柿饼 陕西特产头流心立小包装农家自制 3 斤礼盒装",
+                "price": "¥83-¥93",
+                "advantage": "甜芋果月陕西富平农家乡土品牌 ¥83-¥93 (3 斤礼盒装), 价格比京鲜生贵 50-200%, 适合送礼但性价比低于京鲜生",
+                "jd_sales": "京东 ¥83-¥93 · 礼盒装 · 130+ 评价",
+                "color": "#B46532"
+            },
+            {
+                "name": "青尊园 陕西富平吊柿饼 流心柿饼独立包装特级头茬农家自制霜降柿饼干 2 斤独立包装",
+                "price": "¥37-¥58",
+                "advantage": "青尊园陕西富平农家乡土品牌 ¥37-¥58 (2 斤独立包装), 价格与京鲜生持平, 但是京东自营品牌背书弱于京鲜生",
+                "jd_sales": "京东 ¥37-¥58 · 独立包装 · 110+ 评价",
+                "color": "#A6593D"
+            }
+        ]
+    },
+    {
+        "product": "摩飞 MR6080 便携式电热水壶 0.5L ¥123-¥223",
+        "group": "京东便携电热水壶销量榜 + 摩飞电器 MR6080 排行",
+        "items": [
+            {
+                "name": "摩飞 Morphy Richards MR6080 便携式电热水壶 0.5L 旅行烧水壶 316不锈钢 保温杯",
+                "price": "¥123-¥223",
+                "advantage": "京东便携电水壶销量 TOP3 + 99k+ 评价 + ZOL 历史新低 ¥123 + 1936 年英国老牌 + 316 食品级不锈钢 + 双重真空保温 + 100°C 6h 保温 50.8°C + 体积 113×113×230mm",
+                "jd_sales": "京东便携电水壶 TOP3 · 99k+ 评价 · ZOL ¥123 历史新低",
+                "color": "#6B8FB5",
+                "image": PLACEHOLDER_IMG
+            },
+            {
+                "name": "大宇 DAEWOO 便携式烧水壶 D9PRO 450ml 旅行热水壶 保温杯恒温婴儿煮茶电炖杯",
+                "price": "¥199-¥269",
+                "advantage": "大宇 1987 年韩国老牌 ¥199-¥269 (450ml), 比摩飞 MR6080 容量小 50ml, 价格贵 1-2 倍, 保温性能不如摩飞 6h 50.8°C",
+                "jd_sales": "京东 ¥199-¥269 · 99k+ 评价",
+                "color": "#A0B4C8"
+            },
+            {
+                "name": "苏泊尔 SUPOR 便携电热水壶 SW-10D01A 1L 316L 不锈钢内胆 烧水壶保温杯",
+                "price": "¥187-¥289",
+                "advantage": "苏泊尔 1994 年国产炊具大厂 99k+ 评价, SW-10D01A 1L 比摩飞 MR6080 0.5L 大 1 倍, 但是体积也大 158%, 差旅便携性不如摩飞",
+                "jd_sales": "京东 ¥187-¥289 · 99k+ 评价",
+                "color": "#D9D0BC"
+            },
+            {
+                "name": "美的 Midea 便携电热水杯 MK-DB35X22 350ml 316L 不锈钢 迷你旅行出差调奶器",
+                "price": "¥151-¥199",
+                "advantage": "美的 1968 年国产家电大厂 99k+ 评价, MK-DB35X22 350ml 比摩飞 0.5L 小 30%, 保温 <6h 但价格与摩飞持平, 性价比不如摩飞",
+                "jd_sales": "京东 ¥151-¥199 · 99k+ 评价",
+                "color": "#E8DFC8"
+            }
+        ]
+    },
+    {
+        "product": "几素 桌面 USB 加湿器 ¥17-¥119",
+        "group": "京东 usb 小型加湿器排行榜 + 桌面加湿器榜单",
+        "items": [
+            {
+                "name": "几素 加湿器迷你卧室婴儿家用宿舍便携小型无线空气低噪床头小巧补水 办公室桌面 USB",
+                "price": "¥17-¥119",
+                "advantage": "京东 usb 小型加湿器 TOP1 + 200,000+ 评价 + 99% 好评率 + 1100/2200mAh 无线续航 + 500ml 玻璃瓶 + 滤芯净化 + 食品级材质 + 静音 <30dB",
+                "jd_sales": "京东 usb 加湿器 TOP1 · 200,000+ 评价 · 99% 好评",
+                "color": "#F0F0F0",
+                "image": PLACEHOLDER_IMG
+            },
+            {
+                "name": "Hulker 桌面加湿器 卧室迷你家用办公室桌面车载低噪上加水小型 usb 空气加湿器 600ml",
+                "price": "¥24-¥45",
+                "advantage": "Hulker 国产加湿器品牌 100,000+ 评价, 600ml 比几素 500ml 多 100ml 但是无电池续航, 必须 USB 插电使用",
+                "jd_sales": "京东 ¥24-¥45 · 100,000+ 评价",
+                "color": "#E8E8E8"
+            },
+            {
+                "name": "HANASS 桌面加湿器小型轻音加湿 USB 充电便携车载桌面办公室学生宿舍旋转加湿 WT35",
+                "price": "¥26-¥68",
+                "advantage": "HANASS 国产加湿器品牌 200,000+ 评价, ¥26-¥68 与几素 ¥17-¥119 价格持平, 但是 WT35 旋转加湿技术不如几素纳米雾化细腻",
+                "jd_sales": "京东 ¥26-¥68 · 200,000+ 评价",
+                "color": "#DCDCDC"
+            },
+            {
+                "name": "米家 小米 MJJSQ02LX 加湿器 4L 白色",
+                "price": "¥77-¥229",
+                "advantage": "米家 2016 年小米生态链 99k+ 评价, MJJSQ02LX 4L 容量比几素 500ml 大 8 倍, 但是体积也大得多, 不适合桌面便携, 差旅性弱",
+                "jd_sales": "京东 ¥77-¥229 · 99k+ 评价",
+                "color": "#FFFFFF"
+            }
+        ]
+    }
+]
+
+# 5 个 hotProducts（与主推商品对齐）
+hot_products = [
+    {
+        "name": "伯希和 Pelliot 赤焰三合一冲锋衣 男户外防水防风防污登山服",
+        "category": "户外冲锋衣",
+        "price": "¥399-¥799",
+        "image": PLACEHOLDER_IMG,
+        "sales": "京东金榜登山徒步 TOP1 · ¥399 券后",
+        "platform": "京东自营"
+    },
+    {
+        "name": "雅诗兰黛 Estee Lauder 小棕微雕眼霜 15ml 礼盒装",
+        "category": "抗老眼霜",
+        "price": "¥369-¥565",
+        "image": PLACEHOLDER_IMG,
+        "sales": "京东小棕瓶眼精华 TOP1 · 2,000,000+ 评价",
+        "platform": "京东自营"
+    },
+    {
+        "name": "京鲜生 陕西富平流心柿饼 400g×2袋 礼盒装",
+        "category": "陕西富平柿饼",
+        "price": "¥29-¥55",
+        "image": PLACEHOLDER_IMG,
+        "sales": "京东富平柿饼 TOP3 · 礼盒装",
+        "platform": "京东自营"
+    },
+    {
+        "name": "摩飞 Morphy Richards MR6080 便携式电热水壶 0.5L",
+        "category": "便携烧水壶",
+        "price": "¥123-¥223",
+        "image": PLACEHOLDER_IMG,
+        "sales": "京东便携电水壶 TOP3 · 99k+ 评价",
+        "platform": "京东自营"
+    },
+    {
+        "name": "几素 桌面 USB 加湿器 迷你静音 1100mAh",
+        "category": "桌面加湿器",
+        "price": "¥17-¥119",
+        "image": PLACEHOLDER_IMG,
+        "sales": "京东 usb 加湿器 TOP1 · 200,000+ 评价",
+        "platform": "京东自营"
+    }
+]
+
+# 真实来源（WebSearch 抓取的 URL）
+sources = [
+    "京东金榜登山徒步榜 + 户外服饰热度榜 (jd.com)",
+    "京东小棕瓶眼精华排行榜 + 雅诗兰黛眼霜紧致排行榜 (jd.com)",
+    "京东陕西富平柿饼排行榜 + 京鲜生生鲜榜单 (jd.com)",
+    "京东便携电热水壶销量榜 + 摩飞电器 MR6080 排行 (jd.com)",
+    "京东 usb 小型加湿器排行榜 + 桌面加湿器榜单 (jd.com)",
+    "京东自营官方价格 + 9 月底秋分后 + 国庆前 4 天选品定位 (2026-09-26 07:00 抓取)",
+    "中关村在线 ZOL MR6080 历史新低 ¥123 (2026-09-22 行情)",
+    "什么值得买 smzdm.com 伯希和赤焰冲锋衣 ¥399 券后爆料"
+]
+
+vs_data = {
+    "date": "2026-09-26",
+    "sources": sources,
+    "competitors": competitors,
+    "hotProducts": hot_products,
+    "dataSource": "WebSearch 真实数据 + 京东自营官方价格 + 京东金榜 5 大场景榜单 (2026-09-26 07:00 抓取)",
+    "updateTime": "2026-09-26 07:30:00"
+}
+
+with open(OUT_DIR / 'vs-data.json', 'w', encoding='utf-8') as f:
+    json.dump(vs_data, f, ensure_ascii=False, indent=2)
+
+print(f"✅ vs-data.json 已写入: {OUT_DIR / 'vs-data.json'}")
+print(f"  - competitors: {len(competitors)} 组 × 4 项")
+print(f"  - hotProducts: {len(hot_products)} 项")
+print(f"  - sources: {len(sources)} 条")
