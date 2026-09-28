@@ -3,14 +3,14 @@
 """上传今日长图 + 5 张裁剪图到 cloudimgs.iepose.cn (/api/upload-file 协议)
 
 用法: python3 scripts/upload_cloudimgs.py <date>
-      python3 scripts/upload_cloudimgs.py 2026-09-01
+      python3 scripts/upload_cloudimgs.py 2026-09-29
+
+实现: 用 curl 命令调用 (替代 Python urllib, 解决 cloudimgs Cloudflare connection refused 问题)
 """
 import json
 import os
+import subprocess
 import sys
-import urllib.request
-import urllib.error
-from datetime import datetime
 from pathlib import Path
 
 HOST = "https://cloudimgs.iepose.cn"
@@ -18,29 +18,21 @@ UPLOAD_PATH = "/api/upload-file"
 
 
 def upload_one(local_path: str, custom_name: str = None) -> dict:
-    """POST multipart 上传，返回 {success, filename, url, size, error}"""
-    boundary = "----xhs" + datetime.now().strftime("%Y%m%d%H%M%S%f")
+    """通过 curl 上传文件，返回 {success, filename, url, size, error}"""
     filename = custom_name or os.path.basename(local_path)
-    with open(local_path, "rb") as f:
-        file_bytes = f.read()
-
-    body = (
-        f"--{boundary}\r\n"
-        f'Content-Disposition: form-data; name="file"; filename="{filename}"\r\n'
-        f"Content-Type: image/jpeg\r\n\r\n"
-    ).encode() + file_bytes + f"\r\n--{boundary}--\r\n".encode()
-
-    req = urllib.request.Request(
-        HOST + UPLOAD_PATH,
-        data=body,
-        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"},
-        method="POST",
-    )
+    # 用 curl 调用，绕过 Python urllib Cloudflare connection refused 问题
+    cmd = [
+        "curl", "--noproxy", "*", "-sS", "-m", "60",
+        "-F", f"file=@{local_path};filename={filename}",
+        HOST + UPLOAD_PATH
+    ]
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode())
-    except urllib.error.HTTPError as e:
-        return {"success": False, "error": f"HTTP {e.code}: {e.reason}"}
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=65)
+        if result.returncode != 0:
+            return {"success": False, "error": f"curl exit {result.returncode}: {result.stderr.strip()}"}
+        data = json.loads(result.stdout)
+    except subprocess.TimeoutExpired:
+        return {"success": False, "error": "curl timeout"}
     except Exception as e:
         return {"success": False, "error": str(e)}
 
