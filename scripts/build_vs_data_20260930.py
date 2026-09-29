@@ -1,0 +1,286 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+build_vs_data_20260930.py
+生成 2026-09-30 vs-data.json (竞品对比 + 热销榜)
+
+⚠️ 所有价格/销量/参数均来自 2026-09-30 WebSearch 真实抓取结果,严禁编造
+来源:
+  - 京东洗地板机排行榜 / 京东卡骑仕吸尘器排行榜 (jd.com)
+  - 爱企查《洗地机销量排名前十名》2026
+  - 买购网《洗地机十大品牌2026》(2026-09-19 更新)
+  - 什么值得买 添可极客3.0 2026-09-22 实价
+  - 京东可拆卸键盘排行榜 / 京东机械充电键盘排行榜 (jd.com)
+  - 中关村在线 迈从 G87 V2 促销 (2026-09-30)
+  - 京东狗狗喂水器排行榜 / 京东电热水壶排行榜 (jd.com)
+  - 什么值得买 + 慢慢买 小佩 MAX2 实价 (2026-07)
+  - 什么值得买 大闸蟹实时好价榜 (2026-09-29/30)
+  - 京东霾净化器排行榜 / 京东空气净化器化器排行榜 (jd.com)
+  - 新浪网《2026年9月空气净化器热销榜》
+  - 北京科技报《2026年除甲醛空气净化器推荐》(bkweek.com)
+"""
+import json
+from pathlib import Path
+
+TODAY = "2026-09-30"
+OUT_DIR = Path(f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}")
+IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
+
+vs = {
+    "date": TODAY,
+    "sources": [
+        "京东洗地板机排行榜 + 京东卡骑仕吸尘器排行榜 (jd.com, 2026-09-30 抓取)",
+        "爱企查《洗地机销量排名前十名》2026 + 买购网《洗地机十大品牌2026》(2026-09-19 更新)",
+        "什么值得买 添可 FW52120ECN 极客3.0 实价 (2026-09-22)",
+        "京东可拆卸键盘排行榜 + 京东机械充电键盘排行榜 (jd.com, 2026-09-30 抓取)",
+        "中关村在线 迈从 MCHOSE G87 V2 促销实录 (2026-09-30)",
+        "京东狗狗喂水器排行榜 + 京东电热水壶排行榜 (jd.com, 2026-09-30 抓取)",
+        "什么值得买 + 慢慢买 小佩 PETKIT MAX2 实价 (2026-07 实录)",
+        "什么值得买 大闸蟹实时好价榜 + 螃蟹海鲜排行榜 (2026-09-29/30)",
+        "京东霾净化器排行榜 + 京东空气净化器化器排行榜 (jd.com, 2026-09-30 抓取)",
+        "新浪网《2026年9月空气净化器热销榜》+ 北京科技报《2026年除甲醛空气净化器推荐》",
+        "京东自营官方价格 + 国庆前 1 天 + 9 月底换季选品定位 (2026-09-30 07:00 抓取)",
+    ],
+    "competitors": [
+        {
+            "product": "家用洗地机 ¥1999-¥2999 价位段",
+            "items": [
+                {
+                    "name": "添可 Tineco 极客3.0 家用洗地机 FW52120ECN 全向助力防缠绕 0缠毛躺平 吸拖洗一体",
+                    "price": "¥2076-¥2999",
+                    "advantage": "京东洗地板机排行榜 TOP3 · 50 万+ 人评价 · 爱企查认证 2026 洗地机销量前十第一品牌（添可）· AI 全向助力 + 双重鲨齿 0 缠毛 + 180° 躺平 12.5cm 超薄 + 基站自清洁烘干 + 污水箱抗菌 14 天",
+                    "jd_sales": "京东洗地板机 TOP3 · 50 万+ 评价 · 添可官方",
+                    "color": "#4A5D6E",
+                    "image": f"{IMG_BASE}_product_1.jpg"
+                },
+                {
+                    "name": "石头 Roborock A30 Pro Steam 2.0 无线洗地机 180℃蒸汽 90℃热水 全向助力",
+                    "price": "¥2402.89-¥3266.67",
+                    "advantage": "京东洗地板机榜 TOP5/TOP7 · 20 万+ 人评价 · 180℃ 蒸汽 + 90℃ 热水双清洁（厨房重油污更强）· 但国补后仍需 ¥2402 起，比添可极客3.0 贵约 ¥326",
+                    "jd_sales": "京东洗地板机 TOP5 · 20 万+ 评价 · 什么值得买 09-22 实价 ¥2402.89",
+                    "color": "#7A8B99"
+                },
+                {
+                    "name": "追觅 DREAME T40 Max 180°平躺 100℃热水洗 无线洗地机",
+                    "price": "¥1316.65-¥1699",
+                    "advantage": "什么值得买 2026-09-22 实价 ¥1316.65（需用券），价位更低；但为单一热水路线（100℃），蒸汽爆喷与 0 缠毛双卖点不如添可极客3.0 完整",
+                    "jd_sales": "什么值得买 2026-09-22 · 生活电器热度榜 · ¥1316.65",
+                    "color": "#C89A5B"
+                },
+                {
+                    "name": "UWANT 友望 云朵3.0 蒸汽洗地机 380℃蒸汽源 9.8cm 极薄",
+                    "price": "什么值得买未披露统一价",
+                    "advantage": "京东洗地板机榜 TOP7/TOP10 · 2 万+ 人评价 · 380℃ 蒸汽源 + 9.8cm 极薄机身是全场最薄；但用户集中反馈「续航偏短」「污水桶易发臭」",
+                    "jd_sales": "京东洗地板机 TOP7 · 2 万+ 评价",
+                    "color": "#A8B8C8"
+                }
+            ]
+        },
+        {
+            "product": "三模客制化机械键盘 ¥179-¥330 价位段",
+            "items": [
+                {
+                    "name": "迈从 MCHOSE G87 V2 三模旋钮无线机械键盘 87键 Gasket结构 全键热插拔 快金轴",
+                    "price": "¥179.35-¥279.65",
+                    "advantage": "京东可拆卸键盘榜 TOP2 / 机械充电键盘榜 TOP4 · 20 万+ 人评价 · Gasket 结构 + PBT 双色键帽「麻将音」+ 全键热插拔 + 三模 + 旋钮，中关村在线 2026-09-30 实测三配色到手价 ¥179.35-279.65",
+                    "jd_sales": "京东可拆卸键盘 TOP2 · 20 万+ 评价 · 中关村在线 09-30 实测",
+                    "color": "#E87A96",
+                    "image": f"{IMG_BASE}_product_2.jpg"
+                },
+                {
+                    "name": "狼蛛 AULA S99 无线三模机械键盘 99键 RGB 拼色 静音",
+                    "price": "京东在售（价格未在搜索中披露）",
+                    "advantage": "京东可拆卸/无线键盘榜 TOP7/TOP8 · 20 万+ 人评价 · 99 键全配列带数字区；但用户复评「太塑料了，同价位跟迈从没得比」，材质口碑落后",
+                    "jd_sales": "京东可拆卸键盘 TOP7 · 20 万+ 评价",
+                    "color": "#8C9BA5"
+                },
+                {
+                    "name": "SKN 青龙4.0 Ultra 机械键盘 三模 Gasket结构 ZMK/QMK方案 黑曜轴",
+                    "price": "京东在售（价格未在搜索中披露）",
+                    "advantage": "京东机械充电键盘榜 TOP1/TOP6 · 10 万+ 人评价 · 客制化圈口碑强（ZMK/QMK 方案）；但评价量 10 万+ 不到迈从 G87 V2 的 10 万门槛线之上、20 万的一半",
+                    "jd_sales": "京东机械充电键盘 TOP1 · 10 万+ 评价",
+                    "color": "#6B7A8F"
+                },
+                {
+                    "name": "珂芝 KZZI K75V2 三模客制化机械键盘 82键 静音轴 PBT键帽",
+                    "price": "京东在售（价格未在搜索中披露）",
+                    "advantage": "京东 82 键盘榜 TOP1/TOP4/TOP6 · 5 万+ 人评价 · 静音轴 + 82 配列更紧凑；但评价量 5 万+，且配列偏小无独立数字区，办公需适应",
+                    "jd_sales": "京东 82 键盘 TOP1 · 5 万+ 评价",
+                    "color": "#E8B4C8"
+                }
+            ]
+        },
+        {
+            "product": "智能宠物饮水机 ¥220-¥510 价位段",
+            "items": [
+                {
+                    "name": "小佩 PETKIT 智能无线饮水机 MAX2 锂电款 猫咪饮水机 可沸水清洁 抑菌水泵 3L",
+                    "price": "¥223.75-¥288.23",
+                    "advantage": "京东狗狗喂水器榜 TOP5 + 电热水壶榜 TOP2 · 20 万+ 人评价 · 可沸水清洁（整机开水烫洗）+ 锂电免插电 + 静音水泵 + 3L 大水箱，什么值得买/慢慢买 2026-07 实录实付低至 ¥223.75-288.23",
+                    "jd_sales": "京东狗狗喂水器 TOP5 · 20 万+ 评价 · 小佩自营",
+                    "color": "#7FC8D4",
+                    "image": f"{IMG_BASE}_product_3.jpg"
+                },
+                {
+                    "name": "小佩 PETKIT 智能饮水机 SOLO 2 智能猫咪饮水机 过滤喝水器",
+                    "price": "¥207.95-¥212.95",
+                    "advantage": "慢慢买 2026-07 实录 30 天新低 ¥207.95 / 低于 60 天均价 ¥212.95，入门价位更低；但为 SOLO 2 基础款，非 MAX2 的可沸水清洁版本，国庆 7 天长周期储水能力弱于 MAX2 3L",
+                    "jd_sales": "慢慢买 30 天新低 · ¥207.95",
+                    "color": "#B0D8DE"
+                },
+                {
+                    "name": "GPN 悬挂式宠物自动饮水机 猫咪挂笼饮水器 狗狗喝水壶 喂水碗",
+                    "price": "京东在售（价格未在搜索中披露）",
+                    "advantage": "京东充电饮水器榜 TOP7 · 5 万+ 人评价 · 悬挂式设计省桌面、可装笼；但为「储水倒挂」非活水循环，水质新鲜度不如涌泉式 MAX2",
+                    "jd_sales": "京东充电饮水器 TOP7 · 5 万+ 评价",
+                    "color": "#9AB8C4"
+                },
+                {
+                    "name": "憨憨乐园 宠物猫碗自动喂食器 猫咪饮水机 狗狗食盆 喂水一体",
+                    "price": "京东在售（价格未在搜索中披露）",
+                    "advantage": "京东憨憨乐园饮水机榜 TOP1 · 20 万+ 人评价 · 喂食+喂水一体，评价量与 MAX2 同档；但为传统食盆+水碗结构，非活水循环，猫不爱喝水的痛点未解决",
+                    "jd_sales": "京东憨憨乐园饮水机 TOP1 · 20 万+ 评价",
+                    "color": "#C4A484"
+                }
+            ]
+        },
+        {
+            "product": "阳澄湖大闸蟹全母礼盒 ¥117-¥282 价位段",
+            "items": [
+                {
+                    "name": "阳澄湖大闸蟹 全母蟹 3.0-3.3两 8只装 鲜活礼盒 去绳足重 死蟹包赔",
+                    "price": "¥117-¥158",
+                    "advantage": "什么值得买 2026-09-29/30 连续两天实价：8 只装 ¥158（需用券/198 元档 8 折）、6 只装 ¥117 · 全母蟹规格（膏黄饱满）+ 去绳足重实标 + 死蟹包赔，是当前国庆前性价比最高的全母档",
+                    "jd_sales": "什么值得买实时好价榜 · 2026-09-29/30 · ¥158/¥117",
+                    "color": "#D4663C",
+                    "image": f"{IMG_BASE}_product_4.jpg"
+                },
+                {
+                    "name": "苏状元 阳澄湖大闸蟹礼券 8888型 公蟹4.5两 母蟹3.5两 4对8只",
+                    "price": "¥199-¥282",
+                    "advantage": "什么值得买 2026-09 榜 ¥199-¥282，公4.5两母3.5两是更大的公母配比；但公蟹占 4 只而公蟹出肉率低于母蟹，同价位下实际可食肉量不如全母款",
+                    "jd_sales": "什么值得买大闸蟹榜 · ¥199-¥282",
+                    "color": "#B8543A"
+                },
+                {
+                    "name": "阳澄·江南 大闸蟹礼券 1958型 公4.5两 母3.5两 4对8只",
+                    "price": "¥278-¥318",
+                    "advantage": "什么值得买礼品海鲜榜 ¥278-¥318，属礼券型（提货卡）适合远程送礼；但价格显著高于全母现货款，本地吃蟹性价比不如全母",
+                    "jd_sales": "什么值得买礼品海鲜榜 · ¥278-¥318",
+                    "color": "#8E4433"
+                },
+                {
+                    "name": "蟹友汇 阳澄江南 大闸蟹 558型 公3两 母2.5两 8只 中秋礼盒礼品卡",
+                    "price": "¥138",
+                    "advantage": "什么值得买 2026-09 实价 ¥138（6 折/188 元档），公母配比 + 规格中等；蟹卡型需提货，本地现吃不如现货礼盒方便",
+                    "jd_sales": "什么值得买实时好价 · ¥138",
+                    "color": "#A05A44"
+                }
+            ]
+        },
+        {
+            "product": "家用空气净化器 ¥733-¥2399 价位段",
+            "items": [
+                {
+                    "name": "米家空气净化器 5S AC-M24-SC 家用除甲醛 除过敏原 固态甲醛传感器 米家APP",
+                    "price": "¥733.33-¥1163.70",
+                    "advantage": "京东房间空气净化榜 TOP1 · 20 万+ 人评价 · 新浪网《2026年9月空气净化器热销榜》千元内销量款 · 每分钟 10000L 洁净空气 + 睡眠 32dB + 改性锰基催化剂常温分解甲醛（72h 去除率 99.6%）+ 瑞士固态甲醛传感器，什么值得买实付低至 ¥733.33",
+                    "jd_sales": "京东房间空气净化 TOP1 · 20 万+ 评价 · 新浪网 9 月热销榜",
+                    "color": "#5B8FF9",
+                    "image": f"{IMG_BASE}_product_5.jpg"
+                },
+                {
+                    "name": "小米净化器 6 Pro 双芯架构 大空间除菌除醛 母婴级",
+                    "price": "¥2399.20（首发到手价）",
+                    "advantage": "2026-01-06 首发到手价 ¥2399.20 · 甲醛 CADR 1000m³/h、颗粒物 1461m³/h，适用 87-150㎡ 大平层；但 TVOC CADR 仅 270m³/h，甲醛单点极致而 TVOC 偏弱，且滤芯 ¥449/14 个月（日均约 ¥1.07）",
+                    "jd_sales": "北京科技报 2026 除甲醛空净评测 · 首发 ¥2399.20",
+                    "color": "#4A7FC1"
+                },
+                {
+                    "name": "美的 KJ700G 系列 空气净化器 甲醛数显 净离子 催化分解",
+                    "price": "千元至两千元档（搜索未披露统一价）",
+                    "advantage": "北京科技报评测：甲醛 CADR 252.1-700m³/h（按子型号），正面彩屏 0.01mg/m³ 甲醛数显 + Plasma Ion 净离子主动消杀 + 美的美居 APP 联动；滤网 ¥199-420 但寿命 10-14 个月",
+                    "jd_sales": "北京科技报 2026 除甲醛空净评测 · 千元至两千元档",
+                    "color": "#6BAEE0"
+                },
+                {
+                    "name": "352 Z90 空气净化器 除甲醛除花粉 猫毛宠物 TVOC 除过敏",
+                    "price": "什么值得买未披露统一价",
+                    "advantage": "京东空气净化器化器榜 TOP8 · 5 万+ 人评价 · 养宠家庭定位明确；但为纯 HEPA+活性炭吸附路线，活性炭饱和后存在甲醛发酸反弹风险",
+                    "jd_sales": "京东空气净化器化器 TOP8 · 5 万+ 评价",
+                    "color": "#8CC4E0"
+                }
+            ]
+        }
+    ],
+    "hotProducts": [
+        {
+            "name": "添可 Tineco 极客3.0 家用洗地机 FW52120ECN 全向助力防缠绕",
+            "category": "家用洗地机",
+            "price": "¥2076-¥2999",
+            "image": f"{IMG_BASE}_product_1.jpg",
+            "sales": "京东洗地板机榜 TOP3 · 50 万+ 评价 · 什么值得买 2026-09-22 实付 ¥2076.83",
+            "platform": "京东自营 / 添可官方旗舰店"
+        },
+        {
+            "name": "迈从 MCHOSE G87 V2 三模旋钮无线机械键盘 87键 Gasket结构",
+            "category": "客制化机械键盘",
+            "price": "¥179.35-¥279.65",
+            "image": f"{IMG_BASE}_product_2.jpg",
+            "sales": "京东可拆卸键盘 TOP2 · 20 万+ 评价 · 中关村在线 2026-09-30 实测",
+            "platform": "京东自营 / 迈从旗舰店"
+        },
+        {
+            "name": "小佩 PETKIT 智能无线饮水机 MAX2 锂电款 可沸水清洁",
+            "category": "宠物智能饮水机",
+            "price": "¥223.75-¥288.23",
+            "image": f"{IMG_BASE}_product_3.jpg",
+            "sales": "京东狗狗喂水器 TOP5 · 20 万+ 评价 · 慢慢买 2026-07 实付 ¥223.75",
+            "platform": "京东自营 / 小佩京东自营旗舰店"
+        },
+        {
+            "name": "阳澄湖大闸蟹 全母蟹 3.0-3.3两 8只装 去绳足重 死蟹包赔",
+            "category": "生鲜水产礼盒",
+            "price": "¥117-¥158",
+            "image": f"{IMG_BASE}_product_4.jpg",
+            "sales": "什么值得买实时好价榜 · 2026-09-29/30 实价 · 8 只 ¥158",
+            "platform": "京东自营 / 生鲜旗舰"
+        },
+        {
+            "name": "米家空气净化器 5S AC-M24-SC 家用除甲醛 除过敏原",
+            "category": "家用空气净化器",
+            "price": "¥733.33-¥1163.70",
+            "image": f"{IMG_BASE}_product_5.jpg",
+            "sales": "京东房间空气净化榜 TOP1 · 20 万+ 评价 · 新浪网 2026 年 9 月热销榜千元内款",
+            "platform": "京东自营 / 小米官方旗舰店"
+        }
+    ],
+    "dataSource": "WebSearch 真实数据 · 2026-09-30 cron 自动化抓取（京东排行榜 + 什么值得买 + 中关村在线 + 新浪网 + 爱企查 + 北京科技报）",
+    "updateTime": "2026-09-30 07:30"
+}
+
+with open(OUT_DIR / "vs-data.json", "w", encoding="utf-8") as f:
+    json.dump(vs, f, ensure_ascii=False, indent=2)
+
+print(f"✅ vs-data.json 已生成: {OUT_DIR / 'vs-data.json'}")
+
+# Schema 校验
+d = json.load(open(OUT_DIR / "vs-data.json", encoding="utf-8"))
+assert "hotProducts" in d, "❌ vs-data.json 缺 hotProducts"
+assert len(d["hotProducts"]) == 5, "❌ hotProducts 必须 5 项"
+assert "dataSource" in d, "❌ vs-data.json 缺 dataSource"
+assert "updateTime" in d, "❌ vs-data.json 缺 updateTime"
+assert "sources" in d and len(d["sources"]) >= 3, "❌ sources 必填且 >=3 条"
+for hp in d["hotProducts"]:
+    assert "image" in hp, "❌ hotProducts 缺 image 字段"
+    assert hp["image"].startswith("https://"), "❌ hotProducts image 必须 CDN URL"
+    for k in ("name", "category", "price", "sales", "platform"):
+        assert k in hp and hp[k], f"❌ hotProducts 缺 {k}"
+assert len(d["competitors"]) == 5, "❌ competitors 必须 5 组"
+for c in d["competitors"]:
+    assert "product" in c and "items" in c and len(c["items"]) >= 3, "❌ competitors 结构错误"
+    assert "image" in c["items"][0], "❌ 竞品组首项(主推商品)必须带 image"
+print("✅ vs-data.json schema 校验通过")
+print(f"   sources: {len(d['sources'])} 条 | competitors: {len(d['competitors'])} 组 | hotProducts: {len(d['hotProducts'])} 项")
+for c in d["competitors"]:
+    print(f"   - {c['product']}  ({len(c['items'])} 个竞品)")

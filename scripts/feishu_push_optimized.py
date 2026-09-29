@@ -15,6 +15,17 @@ import json, os, sys, glob, urllib.request, urllib.error
 CRED_FILE = os.path.expanduser("~/.minimax/credentials/general/feishu.json")
 ENV_FILE = "/Users/xiaoan/WorkBuddy/config/env.json"
 
+# 2026-09-30 修复: 本机残留死代理 127.0.0.1:6696 (VPN 客户端未运行) 导致
+# urllib.request 全部报 [Errno 61] Connection refused, 飞书推送 100% 失败。
+# 凭证本身是真实有效的 (curl --noproxy '*' 可正常换到 tenant_access_token)。
+# 修法: 全局 opener 强制 ProxyHandler({}) 绕过系统/环境代理直连。
+_OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+
+
+def _urlopen(req, timeout):
+    """绕过死代理的 urlopen (等价 urllib.request.urlopen, 但不走 proxy)"""
+    return _OPENER.open(req, timeout=timeout)
+
 
 def load_creds():
     if not os.path.exists(CRED_FILE):
@@ -44,7 +55,7 @@ def get_token(app_id, app_secret):
         headers={"Content-Type": "application/json"},
         method="POST"
     )
-    with urllib.request.urlopen(req, timeout=15) as resp:
+    with _urlopen(req, timeout=15) as resp:
         data = json.loads(resp.read())
         if data.get("code") != 0:
             raise RuntimeError(f"Token 失败: {data}")
@@ -73,7 +84,7 @@ def upload_image(token, img_path):
         },
         method="POST"
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with _urlopen(req, timeout=60) as resp:
         result = json.loads(resp.read())
         if result.get("code") != 0:
             raise RuntimeError(f"上传失败 {fname}: {result}")
@@ -212,7 +223,7 @@ def main():
         method="POST"
     )
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with _urlopen(req, timeout=30) as resp:
             result = json.loads(resp.read())
             code = result.get("code", result.get("StatusCode"))
             if code == 0:
