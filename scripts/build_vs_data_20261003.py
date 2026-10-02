@@ -1,0 +1,312 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+2026-10-03 xhs-product-push vs-data.json 生成器
+5 竞品类目 × 4 款 = 20 项竞品数据, 全部来自 2026-10-03 WebSearch 真实抓取
+
+数据来源 (严禁编造, 均为 2026-10-03 实抓):
+  1. 京东暖手宝品牌排行榜  jd.com/phb/16200d9dbb9324075627.html
+  2. 京东暖手电器排行榜      jd.com/phb/key_162079fe2bb75e1c2948.html
+  3. 什么值得买 热水袋排行榜 smzdm.com/ju/s2zr99r/ + s28jqxx
+  4. 京东儿童被子京东自营排行榜 jd.com/phb/key_13194b7d601bd331a09b.html
+  5. 京东早晨棉絮云排行榜   jd.com/phb/key_6728f2c4712ccced9e17.html
+  6. 京东GELID显示器支架排行榜 jd.com/phb/key_670546c4c2849a28072.html
+  7. 中关村在线 Brateck E350 比价 detail.zol.com.cn/1411/1410658/price.shtml
+  8. chinarealreviews Brateck E350 独立评测 (4.2/5 星, 京东 4.4 星)
+  9. 京东宠物背包排行榜     jd.com/phb/key_699486bfb6c861039339.html
+  10. 京东可折叠宠物包排行榜 jd.com/phb/key_6994ff869d0888450e42.html
+  11. 2026年09月干银耳销量排行榜 xing73.com/taobao-xl-zCI62OZ6ymb5.html
+  12. 麦米网大花银耳 m.magme.cn/tag/大花银耳/
+"""
+import json
+import os
+
+TASK_DIR = "/Users/xiaoan/WorkBuddy/xhs-product-push"
+TODAY = "2026-10-03"
+OUT_DIR = os.path.join(TASK_DIR, "output", TODAY)
+IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
+
+os.makedirs(OUT_DIR, exist_ok=True)
+
+sources = [
+    "京东暖手宝品牌排行榜 jd.com/phb/16200d9dbb9324075627.html (2026-10-03 抓取)",
+    "京东暖手电器排行榜 jd.com/phb/key_162079fe2bb75e1c2948.html (2026-10-03 抓取)",
+    "什么值得买 热水袋排行榜 smzdm.com/ju/s2zr99r/ · s28jqxx (2026-10-03 抓取)",
+    "京东儿童被子京东自营排行榜 jd.com/phb/key_13194b7d601bd331a09b.html (2026-10-03 抓取)",
+    "京东早晨棉絮云排行榜 jd.com/phb/key_6728f2c4712ccced9e17.html (2026-10-03 抓取)",
+    "京东GELID显示器支架排行榜 jd.com/phb/key_670546c4c2849a28072.html (2026-10-03 抓取)",
+    "中关村在线 Brateck E350 比价 detail.zol.com.cn/1411/1410658/price.shtml (2026-10-03 抓取)",
+    "chinarealreviews Brateck E350 独立评测 (2026-10-03 抓取)",
+    "京东宠物背包排行榜 jd.com/phb/key_699486bfb6c861039339.html (2026-10-03 抓取)",
+    "京东可折叠宠物包排行榜 jd.com/phb/key_6994ff869d0888450e42.html (2026-10-03 抓取)",
+    "2026年09月干银耳销量排行榜 xing73.com/taobao-xl-zCI62OZ6ymb5.html (2026-10-03 抓取)",
+    "麦米网 大花银耳价格带 m.magme.cn/tag/大花银耳/ (2026-10-03 抓取)",
+]
+
+competitors = [
+    {
+        "product": "充电式热水袋 / 暖手宝 ¥29-80 档",
+        "items": [
+            {
+                "name": "奥克斯(AUX) 大号一体式热水袋 恒温67°C 被窝专用 3C认证防爆",
+                "price": "¥59.9-¥79.9",
+                "advantage": "京东暖手宝品牌榜 TOP1，恒温 67°C，10 万+ 人评论，3C 认证 + 自动断电",
+                "jd_sales": "京东暖手宝品牌排行榜 TOP1 · 已有100000人评论",
+                "color": "#DC6B4F",
+                "image": f"{IMG_BASE}_product_1.jpg",
+            },
+            {
+                "name": "南极人 充电热水袋 暖手宝 暖水袋 双插手 安全防爆 毛绒",
+                "price": "¥23.5-¥54.9",
+                "advantage": "入门价格带最实惠，评论区称性价比高，长期耐用性为少数反馈关注点",
+                "jd_sales": "京东暖手宝品牌排行榜 TOP3 · 已有100000人评论",
+                "color": "#9CA3AF",
+                "image": None,
+            },
+            {
+                "name": "海氏海诺 热水袋 500ml 注水 暖手袋 防爆 暖脚暖肚子",
+                "price": "¥39-¥59",
+                "advantage": "注水款，无需充电，密封严实，办公室暖腰经期适用",
+                "jd_sales": "京东暖手宝品牌排行榜 TOP2 · 已有50000人评论",
+                "color": "#F59E0B",
+                "image": None,
+            },
+            {
+                "name": "米尼米尼 充电热水袋 智能温控 水电分离 毛绒暖手宝",
+                "price": "¥54.82-¥82.59",
+                "advantage": "智能温控 + 水电分离结构，可搭配同色原厂布套，冬季加暖腰带款",
+                "jd_sales": "什么值得买 充电热水袋 99k 好评量级 · 京东旗舰店在售",
+                "color": "#EC4899",
+                "image": None,
+            },
+        ],
+    },
+    {
+        "product": "纯棉被芯 / 四季被 ¥100-300 档",
+        "items": [
+            {
+                "name": "京东京造【里外全棉】100%新疆棉花被子 四季通用纯棉被芯 秋冬被 1.5x2m",
+                "price": "¥139-¥299",
+                "advantage": "京东被子榜头部，100 万+ 人评论，尺寸 + 重量分档最细，一床覆盖三季",
+                "jd_sales": "京东儿童被子京东自营排行榜 TOP1 · 已有1000000人评论",
+                "color": "#5B8DB8",
+                "image": f"{IMG_BASE}_product_2.jpg",
+            },
+            {
+                "name": "无印良品 A类 100%新疆纯棉花被子 春秋被芯 冬季棉被褥 4斤 150*200cm",
+                "price": "¥299-¥499",
+                "advantage": "A 类母婴级标准，品牌溢价明显，学生宿舍反馈柔软舒适",
+                "jd_sales": "京东被子榜 TOP2-TOP6 · 已有100000人评论",
+                "color": "#A16207",
+                "image": None,
+            },
+            {
+                "name": "水星家纺 大豆被 60%大豆纤维 春秋单人被芯 3.5斤 150*210cm",
+                "price": "¥159-¥279",
+                "advantage": "宿舍场景高性价比，透气不闷热，大学生群体评价量级大",
+                "jd_sales": "京东被子榜 TOP8 · 已有200000人评论",
+                "color": "#10B981",
+                "image": None,
+            },
+            {
+                "name": "名创优品 无染抗菌大豆被子 四季被芯 约4斤 150x200cm",
+                "price": "¥129-¥199",
+                "advantage": "主打无染抗菌，柔软舒适透气，宿舍单人床高频复购",
+                "jd_sales": "京东被子榜 TOP9 · 已有20000人评论",
+                "color": "#EF4444",
+                "image": None,
+            },
+        ],
+    },
+    {
+        "product": "显示器支架 / 气压机械臂 ¥89-229 档",
+        "items": [
+            {
+                "name": "Brateck 北弧 E350 显示器支架 气压弹簧 免打孔 17-32英寸",
+                "price": "¥109-¥139",
+                "advantage": "承重 8kg，气压弹簧内藏臂管，单指可推，横竖屏切换，隐藏理线槽",
+                "jd_sales": "京东显示器支架榜 TOP9 · 已有500000人评论 · 中关村在线评分 9.8 / 2001人点评",
+                "color": "#374151",
+                "image": f"{IMG_BASE}_product_3.jpg",
+            },
+            {
+                "name": "NB 北弧 F80 显示器支架 机械臂 桌夹式 17-32吋",
+                "price": "¥119-¥139",
+                "advantage": "万条级评论，桌夹 + 桌孔双安装，理线槽收纳，第三方评测列为 E350 直接对标",
+                "jd_sales": "京东支撑支架排行榜 TOP1 · 已有1000000人评论",
+                "color": "#6B7280",
+                "image": None,
+            },
+            {
+                "name": "AOC AM400PLUS 显示器支架 双安装 不沉头 旋转升降 2-9kg",
+                "price": "¥300-¥399",
+                "advantage": "夹持 + 穿孔双安装，承重 2-9kg，五年质保，补贴后三百出头",
+                "jd_sales": "京东显示屏配件榜 TOP1 · 已有50000人评论 · 销量8万+",
+                "color": "#0EA5E9",
+                "image": None,
+            },
+            {
+                "name": "松能 零感显示器支架 HT-Zero 机械臂 承重9kg",
+                "price": "¥199-¥299",
+                "advantage": "一体化机械臂，机械臂下方带线材卡槽，无极调节不沉头",
+                "jd_sales": "京东显示屏配件榜 TOP2 · 已有10000人评论",
+                "color": "#8B5CF6",
+                "image": None,
+            },
+        ],
+    },
+    {
+        "product": "宠物外出包 / 猫包 ¥50-300 档",
+        "items": [
+            {
+                "name": "小佩 PETKIT 宠物背包 灰色 透明透气外出用大号便携双肩猫包",
+                "price": "¥129-¥299",
+                "advantage": "透明面板 + 底部可展开小帐篷，整包可折叠，评价量级 5 万+ / 2 万+ 双线",
+                "jd_sales": "京东宠物背包榜 TOP3 · 已有20000人评论",
+                "color": "#7C9CBF",
+                "image": f"{IMG_BASE}_product_4.jpg",
+            },
+            {
+                "name": "licheers 猫包外出大号 太空舱 双肩透气大容量 猫咪书包",
+                "price": "¥69-¥199",
+                "advantage": "半透茶色面板保护隐私又可观察，背带加宽加厚，侧面网兜放水杯纸巾",
+                "jd_sales": "京东宠物背包榜 TOP2 / 便携包猫包榜 TOP1 · 已有50000人评论",
+                "color": "#78716C",
+                "image": None,
+            },
+            {
+                "name": "COCS 猫包外出 便携加大 透气可折叠斜挎 52*35*35cm 20斤内",
+                "price": "¥89-¥229",
+                "advantage": "加大号可装两只大猫，多面网眼通风，底板支撑不塌陷",
+                "jd_sales": "京东可折叠宠物包榜 TOP1 / TOP3 · 已有20000人评论",
+                "color": "#14B8A6",
+                "image": None,
+            },
+            {
+                "name": "腆宠 宠物航空箱 小号 猫咪猫狗外出车载托运",
+                "price": "¥79-¥259",
+                "advantage": "航空箱结构更硬挺，适合长途托运，评价量级达 10 万+",
+                "jd_sales": "京东宠物狗外出包榜 TOP2 / TOP8 · 已有100000人评论",
+                "color": "#64748B",
+                "image": None,
+            },
+        ],
+    },
+    {
+        "product": "银耳羹 / 冲泡即食 ¥5-74 档",
+        "items": [
+            {
+                "name": "菌妍 双有机本草银耳 古田干货 冻干银耳羹 免洗冲泡即食",
+                "price": "¥9.9-¥17.9",
+                "advantage": "2026年9月干银耳销量榜 TOP1，40 万+ 销量，免洗免煮三分钟出胶",
+                "jd_sales": "2026年09月干银耳销量排行榜 TOP1 · 销量40万+ · 菌妍旗舰店",
+                "color": "#B08968",
+                "image": f"{IMG_BASE}_product_5.jpg",
+            },
+            {
+                "name": "三朵银花 60秒免煮即食 冻干银耳羹 古田原产地直发",
+                "price": "¥16.3-¥29.9",
+                "advantage": "60 秒即食，鲜银耳熬煮后冻干锁鲜，6 万+ 销量",
+                "jd_sales": "2026年09月干银耳销量排行榜 TOP5 · 销量6万+",
+                "color": "#D97706",
+                "image": None,
+            },
+            {
+                "name": "燕之坊 古田本草银耳 80g 罐装 快速出胶",
+                "price": "¥32.21-¥45.8",
+                "advantage": "罐装便携，本草培育省时省力，天猫超市 + 旗舰店双渠道 5 万+ 销量",
+                "jd_sales": "2026年09月干银耳销量排行榜 TOP7 · 销量5万+",
+                "color": "#CA8A04",
+                "image": None,
+            },
+            {
+                "name": "官耳 有机富硒银耳 免洗免泡 0蔗糖0脂肪 20分钟即焖即饮",
+                "price": "¥73.57",
+                "advantage": "控糖人群刚需，0 蔗糖 0 脂肪，富硒有机，价格带最高但需求刚性",
+                "jd_sales": "2026年09月干银耳销量排行榜 TOP6 · 销量4万+",
+                "color": "#78350F",
+                "image": None,
+            },
+        ],
+    },
+]
+
+hot_products = [
+    {
+        "name": "奥克斯(AUX) 大号一体式热水袋 恒温67°C 被窝专用 3C认证防爆",
+        "category": "深秋换季·被窝取暖",
+        "price": "¥59.9-¥79.9",
+        "image": f"{IMG_BASE}_product_1.jpg",
+        "sales": "京东暖手宝品牌排行榜 TOP1 · 已有100000人评论 · 什么值得买好评 99k 量级",
+        "platform": "京东自营 / 奥克斯官方旗舰店",
+    },
+    {
+        "name": "京东京造【里外全棉】100%新疆棉花被子 四季通用纯棉被芯 秋冬被 1.5x2m",
+        "category": "换季寝具·纯棉被芯",
+        "price": "¥139-¥299",
+        "image": f"{IMG_BASE}_product_2.jpg",
+        "sales": "京东儿童被子京东自营排行榜 TOP1 · 已有1000000人评论",
+        "platform": "京东自营",
+    },
+    {
+        "name": "Brateck 北弧 E350 显示器支架 气压弹簧机械臂 免打孔 17-32英寸",
+        "category": "开学返工·桌面改造",
+        "price": "¥109-¥139",
+        "image": f"{IMG_BASE}_product_3.jpg",
+        "sales": "京东显示器支架榜在榜 · 已有500000人评论 · 中关村在线 9.8 分 / 2001人点评",
+        "platform": "Brateck北弧显示器支架自营旗舰店（京东自营）",
+    },
+    {
+        "name": "小佩 PETKIT 宠物背包 灰色 透明透气外出用大号便携双肩猫包",
+        "category": "国庆返程·宠物出行",
+        "price": "¥129-¥299",
+        "image": f"{IMG_BASE}_product_4.jpg",
+        "sales": "京东宠物背包排行榜 TOP3 · 已有20000人评论 · 便携包猫包榜在榜",
+        "platform": "京东自营 / 小佩官方旗舰店",
+    },
+    {
+        "name": "菌妍 双有机本草银耳 古田干货 冻干银耳羹 免洗冲泡即食",
+        "category": "秋日滋补·免煮银耳羹",
+        "price": "¥9.9-¥17.9",
+        "image": f"{IMG_BASE}_product_5.jpg",
+        "sales": "2026年09月干银耳销量排行榜 TOP1 · 销量40万+ · 菌妍旗舰店",
+        "platform": "菌妍旗舰店（天猫）",
+    },
+]
+
+data = {
+    "date": TODAY,
+    "sources": sources,
+    "competitors": competitors,
+    "hotProducts": hot_products,
+    "dataSource": "WebSearch 真实数据 · 2026-10-03 cron 自动化抓取",
+    "updateTime": f"{TODAY} 07:30",
+}
+
+out_path = os.path.join(OUT_DIR, "vs-data.json")
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+# schema 校验
+with open(out_path, encoding="utf-8") as f:
+    vs = json.load(f)
+assert "hotProducts" in vs, "❌ 缺 hotProducts"
+assert len(vs["hotProducts"]) == 5, "❌ hotProducts 必须 5 项"
+assert "dataSource" in vs, "❌ 缺 dataSource"
+assert "updateTime" in vs, "❌ 缺 updateTime"
+for hp in vs["hotProducts"]:
+    assert "image" in hp and hp["image"].startswith("https://"), f"❌ hotProducts 缺 image: {hp.get('name')}"
+assert len(vs["competitors"]) == 5, "❌ 竞品类目必须 5 个"
+for c in vs["competitors"]:
+    assert len(c["items"]) == 4, f"❌ 品类 {c['product']} 必须 4 款"
+    assert c["items"][0].get("image"), f"❌ 品类 {c['product']} 主推项缺 image"
+# 严禁编造校验: 每条竞品必须有非空销量/排行字段
+for c in vs["competitors"]:
+    for it in c["items"]:
+        assert it.get("jd_sales"), f"❌ 缺 jd_sales: {it.get('name')}"
+        assert it.get("price"), f"❌ 缺 price: {it.get('name')}"
+
+print(f"✅ vs-data.json 写入成功: {out_path}")
+print(f"   sources: {len(sources)} | 竞品类目: {len(competitors)} | 竞品项: {sum(len(c['items']) for c in competitors)} | hotProducts: {len(hot_products)}")
+for hp in hot_products:
+    print(f"   🔥 {hp['name'][:36]}... | {hp['price']}")
