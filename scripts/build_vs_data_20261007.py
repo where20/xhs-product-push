@@ -1,0 +1,274 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+build_vs_data_20261007.py — 生成 2026-10-07 的 vs-data.json (竞品对比)
+
+竞品价格/销量/关注量全部来自 2026-10-07 WebSearch 真实抓取:
+  - 什么值得买 (smzdm.com) 各品类排行榜
+  - 京东排行榜 (jd.com/phb) 评论数
+  - xing73.com 月度销量榜
+  - 快家网 (bus-home.com) 京东11.11 报道
+严禁编造数字。
+"""
+import json
+import os
+
+TODAY = "2026-10-07"
+IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
+OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+
+sources = [
+    "什么值得买 smzdm.com《珐琅锅》《瑜伽垫》《【磨毛床单被套】》排行榜（2026-10-07 抓取）",
+    "京东排行榜 jd.com/phb《便携吹风》《充电式吹风》《电热吹风》（2026-10-07 抓取）",
+    "xing73.com《2026年09月裸色唇膏哑光销量排行榜》（2026-10-07 抓取）",
+    "快家网 bus-home.com《京东11.11个护福利升级 1元爆品限量抢》（2026-10-07 抓取）",
+    "新华报业网 / 澎湃新闻《2026国庆消费全景观察》（宏观趋势佐证）",
+    "联商网 linkshop.com《国庆返程高峰 京东MALL消费迎来假日翘尾效应》",
+]
+
+competitors = [
+    {
+        "product": "高速吹风机 300-500 元档",
+        "items": [
+            {
+                "name": "徕芬 Laifen 高速吹风机 SE2 智能温控 负离子护发",
+                "price": "¥364",
+                "advantage": "自研三相高速无刷电机 + 温度微处理芯片，21.5m/s 风速干发效率 +30%，控速比 SE 一代快 60%；京东11.11 国补后 ¥364 两年质保价保30天",
+                "jd_sales": "快家网《京东11.11个护福利升级》实锤到手价 ¥364",
+                "color": "#F0E6D8",
+                "image": f"{IMG_BASE}_product_1.jpg",
+            },
+            {
+                "name": "飞科 FLYCO 高速电吹风机 FH6371 负离子护发",
+                "price": "¥299 起（京东 50万+ 评论）",
+                "advantage": "评论基数最大，三档风速可调，价格更低；缺点是无恒温芯片，长发烘干预热体验一般",
+                "jd_sales": "京东《充电式吹风排行榜》TOP1，50万+ 评论",
+                "color": "#F1948A",
+            },
+            {
+                "name": "米家 小米 高速吹风机 H501 智能温控 11万转电机",
+                "price": "¥299 起（京东 50万+ 评论）",
+                "advantage": "11 万转电机风力强劲，小米生态 APP 联动；同价位里智能化更完整",
+                "jd_sales": "京东《橙色电吹风排行榜》TOP3，50万+ 评论",
+                "color": "#AEB6BF",
+            },
+            {
+                "name": "康夫 CONFU 5亿负离子吹风机 KF-3153 折叠",
+                "price": "¥100 以内（京东 100万+ 评论）",
+                "advantage": "价格屠夫，评论量 100万+ 断层第一；代价是高速电机和恒温逻辑不如徕芬",
+                "jd_sales": "京东《充电式吹风排行榜》TOP4，100万+ 评论",
+                "color": "#7F8C8D",
+            },
+        ],
+    },
+    {
+        "product": "珐琅铸铁炖锅 100-250 元档",
+        "items": [
+            {
+                "name": "京东京造 陶瓷轻珐琅锅 24cm 红色 铸铁煲汤锅",
+                "price": "¥124.96",
+                "advantage": "值友专享价 ¥124.96 拿到 24cm 大口径陶瓷轻珐琅，铸铁底保温导热不打折但明显更轻；同规格绿色款 ¥135.66",
+                "jd_sales": "什么值得买 2026-09-05 值友专享实锤 ¥124.96（返35积分后）",
+                "color": "#C0392B",
+                "image": f"{IMG_BASE}_product_2.jpg",
+            },
+            {
+                "name": "卡罗特 珐琅铸铁锅 24cm 鹅黄",
+                "price": "¥229",
+                "advantage": "颜色选择多（鹅黄/栀花白/樱花粉/浅蓝），24cm 同尺寸但贵近一倍",
+                "jd_sales": "什么值得买全网排行 ¥229，京东 5k 关注",
+                "color": "#F4D03F",
+            },
+            {
+                "name": "双立人 珐琅铸铁锅 20cm 亮红色",
+                "price": "¥216.15（需用券）",
+                "advantage": "德系工艺、品牌溢价，微压双耳设计；但口径只有 20cm，容量偏小",
+                "jd_sales": "什么值得买《汤锅珐琅锅》排行 ¥216.15（需用券）",
+                "color": "#E74C3C",
+            },
+            {
+                "name": "苏泊尔 SUPOR 珐琅锅 20cm 家用铸铁锅",
+                "price": "¥219",
+                "advantage": "国货大牌售后稳，电磁炉燃气通用；尺寸同样偏小 20cm",
+                "jd_sales": "什么值得买《汤锅珐琅锅》排行 ¥219",
+                "color": "#8E44AD",
+            },
+        ],
+    },
+    {
+        "product": "TPE 加宽瑜伽垫 40-120 元档",
+        "items": [
+            {
+                "name": "yottoy 瑜伽垫 TPE 防滑加厚加宽 185*80cm",
+                "price": "¥69",
+                "advantage": "185*80cm 在 ¥69 档里尺寸最大，比主流 183*61cm 宽出近 20cm，全身伸展不出界；TPE 回弹快不掉渣",
+                "jd_sales": "什么值得买全网排行 ¥69，京东 99k+ 关注",
+                "color": "#5DADE2",
+                "image": f"{IMG_BASE}_product_3.jpg",
+            },
+            {
+                "name": "Keep 瑜伽垫 2026新款 防滑减震 logo版",
+                "price": "¥43",
+                "advantage": "价格最低，Keep 品牌心智强；但规格偏小，183*80cm 是标准款而非加宽款",
+                "jd_sales": "什么值得买《瑜伽垫》排行 ¥43，京东 99k 关注",
+                "color": "#2E86C1",
+            },
+            {
+                "name": "特步 XTEP 瑜伽垫 TPE 加长2米 加厚加宽",
+                "price": "¥75.9",
+                "advantage": "2 米超长规格，跳跃类动作缓冲更足；价格比 yottoy 略高",
+                "jd_sales": "什么值得买《瑜伽垫》排行 ¥75.9，京东 99k 关注",
+                "color": "#D35400",
+            },
+            {
+                "name": "李宁 LI-NING 瑜伽垫 加厚10mm 794兰紫",
+                "price": "¥106",
+                "advantage": "10mm 加厚关节缓冲最强，静音减震好；贵 50% 且厚度偏硬不适合瑜伽拉伸",
+                "jd_sales": "什么值得买《瑜伽垫》排行 ¥106，京东 99k 关注",
+                "color": "#8E44AD",
+            },
+        ],
+    },
+    {
+        "product": "A类磨毛四件套 80-450 元档",
+        "items": [
+            {
+                "name": "京东京造 悦柔四件套 120g A类 磨毛 1.8米 科技灰",
+                "price": "¥103.45",
+                "advantage": "A类母婴级安全标准 + 120g 磨毛克重偏轻薄不闷汗，1.8m 大尺寸 ¥103.45；同系列亲肤款 ¥79.55",
+                "jd_sales": "什么值得买《【磨毛床单被套】》排行 ¥103.45",
+                "color": "#566573",
+                "image": f"{IMG_BASE}_product_4.jpg",
+            },
+            {
+                "name": "南极人 纯棉磨毛四件套 1.5m 海派绅士",
+                "price": "¥99（唯品会）",
+                "advantage": "价格几乎持平且纯棉可裸睡；尺寸只有 1.5m，四件套不是全 A 类标注",
+                "jd_sales": "什么值得买全网排行 ¥99，唯品会 99k 关注",
+                "color": "#7D6608",
+            },
+            {
+                "name": "无印良品 加厚纯棉磨毛四件套 奶昔白+豆绿",
+                "price": "¥129.05（天猫超市）",
+                "advantage": "无印风设计耐看，100% 纯棉加厚；品牌溢价明显，1.2m 单人款为主",
+                "jd_sales": "什么值得买全网排行 ¥129.05，天猫超市",
+                "color": "#D5DBDB",
+            },
+            {
+                "name": "水星家纺 A类抑菌全棉磨毛四件套 花园·浅枝青鸟 1.2m",
+                "price": "¥429",
+                "advantage": "A类 + 抑菌 + 60支长绒棉，参数天花板；但 ¥429 是京东京造的 4 倍，尺寸还只有 1.2m",
+                "jd_sales": "什么值得买全网排行 ¥429，京东",
+                "color": "#1A5276",
+            },
+        ],
+    },
+    {
+        "product": "雾面唇泥唇釉 30-100 元档",
+        "items": [
+            {
+                "name": "INTO YOU 联名女主角唇泥 雾面唇釉",
+                "price": "¥49（折后）",
+                "advantage": "2026年9月裸色唇膏哑光销量榜 TOP1，销量 60万+；雾面不假白黄黑皮友好，¥49 能对打 ¥210 的 MAC",
+                "jd_sales": "xing73.com 月榜 TOP1，销量 60万+",
+                "color": "#B5651D",
+                "image": f"{IMG_BASE}_product_5.jpg",
+            },
+            {
+                "name": "酵色 Joocyee 粉雾口红 哑光雾面",
+                "price": "¥69",
+                "advantage": "国货彩妆质感口碑好，粉雾是秋冬热门质地；销量 2万+ 比 INTO YOU 差一个量级",
+                "jd_sales": "xing73.com 月榜 TOP6，销量 2万+",
+                "color": "#D98880",
+            },
+            {
+                "name": "DPDP 气垫唇霜（颖儿同款）",
+                "price": "¥37.91（买1送1）",
+                "advantage": "买一送一拉低到手单价，气垫形态上妆快；销量 1万+，且是唇霜不是唇泥，质地不同",
+                "jd_sales": "xing73.com 月榜 TOP7，销量 1万+",
+                "color": "#AF7AC5",
+            },
+            {
+                "name": "MAC 轻尤雾弹唇膏 314/316/912",
+                "price": "¥210",
+                "advantage": "国际大牌调色天花板，一线专柜同款；价格是 INTO YOU 的 4 倍多，平价党门槛高",
+                "jd_sales": "xing73.com 月榜 TOP2，销量 10万+",
+                "color": "#C0392B",
+            },
+        ],
+    },
+]
+
+hot_products = [
+    {
+        "name": "徕芬 Laifen 高速吹风机 SE2 智能温控 负离子护发",
+        "category": "个护电器",
+        "price": "¥364",
+        "image": f"{IMG_BASE}_product_1.jpg",
+        "sales": "京东11.11 国补后 ¥364 两年质保价保30天；同价位带 5 个竞品评论基数 20万-100万+",
+        "platform": "京东自营 / 徕芬官方旗舰店",
+    },
+    {
+        "name": "京东京造 陶瓷轻珐琅锅 24cm 红色 铸铁煲汤锅",
+        "category": "厨房锅具",
+        "price": "¥124.96",
+        "image": f"{IMG_BASE}_product_2.jpg",
+        "sales": "什么值得买 2026-09-05 值友专享 ¥124.96；同价位竞品卡罗特 ¥229 / 双立人 ¥216.15",
+        "platform": "京东自营 / 京东京造旗舰店",
+    },
+    {
+        "name": "yottoy 瑜伽垫 TPE 防滑加厚加宽 185*80cm",
+        "category": "运动健身",
+        "price": "¥69",
+        "image": f"{IMG_BASE}_product_3.jpg",
+        "sales": "什么值得买全网排行 ¥69，京东 99k+ 关注；竞品 Keep ¥43 / 李宁 ¥106 / 特步 ¥75.9",
+        "platform": "京东自营 / 唯品会",
+    },
+    {
+        "name": "京东京造 悦柔四件套 120g A类 磨毛 1.8米 科技灰",
+        "category": "家居床品",
+        "price": "¥103.45",
+        "image": f"{IMG_BASE}_product_4.jpg",
+        "sales": "什么值得买排行 ¥103.45；竞品南极人 ¥99 / 无印良品 ¥129.05 / 水星家纺 ¥429",
+        "platform": "京东自营 / 京东京造旗舰店",
+    },
+    {
+        "name": "INTO YOU 联名女主角唇泥 雾面唇釉 哑光显色",
+        "category": "美妆个护",
+        "price": "¥49",
+        "image": f"{IMG_BASE}_product_5.jpg",
+        "sales": "2026年9月裸色唇膏哑光销量榜 TOP1，60万+；竞品酵色 ¥69(2万+) / MAC ¥210(10万+)",
+        "platform": "天猫 INTO YOU 旗舰店 / INTO YOU 京东自营",
+    },
+]
+
+doc = {
+    "date": TODAY,
+    "sources": sources,
+    "competitors": competitors,
+    "hotProducts": hot_products,
+    "dataSource": "WebSearch 真实数据 · 2026-10-07 cron 自动化抓取",
+    "updateTime": "2026-10-07 07:30",
+}
+
+os.makedirs(OUT_DIR, exist_ok=True)
+out_path = os.path.join(OUT_DIR, "vs-data.json")
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(doc, f, ensure_ascii=False, indent=2)
+
+# Schema 校验
+with open(out_path, encoding="utf-8") as f:
+    vs = json.load(f)
+assert "hotProducts" in vs, "❌ vs-data.json 缺 hotProducts"
+assert len(vs["hotProducts"]) == 5, "❌ hotProducts 必须 5 项"
+assert "dataSource" in vs, "❌ vs-data.json 缺 dataSource"
+assert "updateTime" in vs, "❌ vs-data.json 缺 updateTime"
+assert "sources" in vs and len(vs["sources"]) >= 3, "❌ sources 缺失或不足"
+assert len(vs["competitors"]) == 5, "❌ competitors 必须 5 组"
+for hp in vs["hotProducts"]:
+    assert "image" in hp and hp["image"].startswith("https://"), f"❌ hotProducts 缺 image: {hp.get('name')}"
+for i, c in enumerate(vs["competitors"], 1):
+    assert len(c["items"]) >= 3, f"❌ competitors[{i}] 竞品数不足 3"
+    assert "image" in c["items"][0], f"❌ competitors[{i}] 首个(主推)缺 image"
+print(f"✅ vs-data.json schema 校验通过 → {out_path}")
+print(f"   sources: {len(sources)} 条 | competitors: {len(competitors)} 组 | hotProducts: {len(hot_products)} 项")
