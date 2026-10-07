@@ -1,0 +1,276 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+build_vs_data_20261008.py — 生成 2026-10-08 的 vs-data.json (竞品对比)
+
+竞品价格全部来自 2026-10-08 WebSearch 真实抓取:
+  - 什么值得买 (smzdm.com) 2026 年 10 月各品类爆料
+  - 中国咖啡网 (gafei.com) 前街挂耳价格表
+  - 咖啡工房 (makecoffee.cn) 挂耳咖啡六款横评
+  - 十大品牌网 (cnpp.cn) / 品牌网 (10pinping.com) 2026 榜单
+严禁编造数字。
+"""
+import json
+import os
+
+TODAY = "2026-10-08"
+IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
+OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+
+sources = [
+    "什么值得买 smzdm.com《小熊 焖烧杯 316不锈钢 500ml》爆料（2026-10 抓取）",
+    "什么值得买 smzdm.com《卉苔 香薰机自动喷香机》《尘驰 香薰机》《康美太 香薰机》《蒂菲森 香薰机》爆料（2026-10 抓取）",
+    "什么值得买 smzdm.com《京东京造 便携 男士电动剃须刀》爆料（2026-10 抓取）",
+    "什么值得买 smzdm.com《HMJIA 电脑显示器增高架 H-X302H》《松能 笔记本显示器支架》爆料（2026-10 抓取）",
+    "什么值得买 post.smzdm.com《立体扩容收纳术》《咖啡形态大战》《表妹的国产咖啡机选购实录》社区文（2026-10 抓取）",
+    "中国咖啡网 gafei.com《前街当季挂耳29.9元10包》价格表（2026-10-04 抓取）",
+    "咖啡工房 makecoffee.cn《挂耳咖啡推荐哪款好?六款滤挂式单品咖啡豆风味与价格一次看懂》",
+    "十大品牌网 cnpp.cn《2026十大受欢迎的热水瓶品牌》《吸管杯十大品牌 2026》榜单",
+]
+
+competitors = [
+    {
+        "product": "挂耳咖啡 20-40 元档(口粮档)",
+        "items": [
+            {
+                "name": "前街咖啡 FrontStreet 当季挂耳 10包礼盒 5种风味",
+                "price": "¥29.9",
+                "advantage": "一盒十包含 5 种风味，一次覆盖非洲+美洲两大产区；挂耳属现萃形态，是 3 元档里离手冲最近的一种；单包合 ¥2.99",
+                "jd_sales": "中国咖啡网 2026-10-04 实锤：¥29.9/10 包全国包邮",
+                "color": "#C8A27A",
+                "image": f"{IMG_BASE}_product_1.jpg",
+            },
+            {
+                "name": "隅田川 咖啡液(冻干/浓缩液装)",
+                "price": "约 ¥1.8/杯",
+                "advantage": "咖啡液单杯成本更低，10 秒冷热水即溶，冰美式和拿铁容错高；缺点是预萃+杀菌熟制品，赏味期短、过期难察觉",
+                "jd_sales": "知乎/小红书社区实测口径：约 ¥1.8-3/杯",
+                "color": "#6B4E3D",
+            },
+            {
+                "name": "三顿半 冻干咖啡 头部品牌",
+                "price": "约 ¥6-7/颗",
+                "advantage": "头部冻干品牌，工艺稳定；缺点是同品牌不同渠道价差能翻倍，老粉吐槽涨价",
+                "jd_sales": "小红书 2026-10-03 成本帖 + 老粉晒单：日常价 ¥6-7/颗，转卖囤货可低至 ¥3/颗",
+                "color": "#A8B5A2",
+            },
+            {
+                "name": "AGF Blendy 滤泡式咖啡 特级 7g×18包",
+                "price": "¥209（约 ¥11/杯）",
+                "advantage": "日本品牌中烘焙，醇厚带木质香；代价是单价约为前街挂耳的 3.7 倍",
+                "jd_sales": "咖啡工房横评实价：$209 / 袋",
+                "color": "#D8C3A5",
+            },
+        ],
+    },
+    {
+        "product": "焖烧杯/保温杯 40-100 元档",
+        "items": [
+            {
+                "name": "小熊 Bear 焖烧杯 316不锈钢 宽大口径 500ml",
+                "price": "¥43.10",
+                "advantage": "316 不锈钢内胆比 304 更耐酸碱，适合装咖啡果汁；500ml + 宽大口径可焖料包麦片；京东自营好评率 96%",
+                "jd_sales": "什么值得买爆料：到手 ¥43.10（原价 ¥49.72，降幅 13%）",
+                "color": "#B8C4CC",
+                "image": f"{IMG_BASE}_product_2.jpg",
+            },
+            {
+                "name": "京东京造 保温杯(基础款)",
+                "price": "价位带 ¥40-80（榜单在列，无具体爆料价）",
+                "advantage": "做工扎实、配色百搭、耐磨耐刮；缺点是内胆多为 304，装微酸饮品不如 316",
+                "jd_sales": "腾讯搜一搜《保温杯品牌前十名》榜单推荐第 3 位",
+                "color": "#2F3E46",
+            },
+            {
+                "name": "富光 FUGUANG 保温杯",
+                "price": "价位带 ¥50-150（榜单在列，无具体爆料价）",
+                "advantage": "1984 年老品牌，双层口杯行业标准起草单位，品牌得票 8 万+、单品评价 100 万+；握持贴合是长板",
+                "jd_sales": "十大品牌网 CNPP 2026 榜：品牌指数 88.4，人气指数 89544，用户评分 9.4",
+                "color": "#8C9A9E",
+            },
+            {
+                "name": "膳魔师 THERMOS 保温杯",
+                "price": "¥150+（榜单在列，无具体爆料价）",
+                "advantage": "1904 年德国品牌，保温容器鼻祖，口碑指数 2192；代价是价格明显高于国产品牌",
+                "jd_sales": "十大品牌网 CNPP 2026 榜：品牌指数 83.5，口碑指数 2192，用户评分 9.4",
+                "color": "#B03A2E",
+            },
+        ],
+    },
+    {
+        "product": "家用香薰机/扩香机 80-250 元档",
+        "items": [
+            {
+                "name": "卉苔 香薰机 自动喷香机 精油专用 卧室夜灯",
+                "price": "¥79.9",
+                "advantage": "自动喷香而非被动扩香，定时定量喷雾留香更久；自带夜灯一物两用；同赛道价格最低",
+                "jd_sales": "什么值得买爆料：售价 ¥159.9，立减 80 元券后实付 ¥79.9",
+                "color": "#C9B6D6",
+                "image": f"{IMG_BASE}_product_3.jpg",
+            },
+            {
+                "name": "康美太 香薰机 自动喷香 扩香器 夜灯",
+                "price": "¥149",
+                "advantage": "同为自动喷香 + 夜灯路线，功能对位接近；差价主要在品牌溢价与做工",
+                "jd_sales": "什么值得买爆料：售价 ¥159，满 99 减 10 券后实付 ¥149",
+                "color": "#B8A9C7",
+            },
+            {
+                "name": "尘驰 香薰机 自动喷香雾 小扩香器 冷香仪",
+                "price": "¥197.2",
+                "advantage": "主打小户型冷香仪路线；价格是卉苔的 2.5 倍，性价比不如",
+                "jd_sales": "什么值得买爆料：售价 ¥292，15% 立减 34.8 + 60 元券后实付 ¥197.2",
+                "color": "#9B8AA8",
+            },
+            {
+                "name": "蒂菲森 香薰机 酒店大堂商用 卫生间专用",
+                "price": "¥227",
+                "advantage": "商用大空间/卫生间场景设计，喷雾覆盖强；家用卧室用属于配置过剩",
+                "jd_sales": "什么值得买爆料：售价 ¥268，立减 41 元后实付 ¥227",
+                "color": "#7D6E8A",
+            },
+        ],
+    },
+    {
+        "product": "显示器增高架/支架 8-250 元档",
+        "items": [
+            {
+                "name": "HMJIA 电脑显示器增高架 H-X302H 支架收纳架",
+                "price": "¥8.6",
+                "advantage": "不到一杯咖啡的钱就能抬高显示器矫正坐姿；底部镂空收纳键盘文件；代价是承重与木质感一般，适合单屏轻量使用",
+                "jd_sales": "什么值得买爆料：页面价 ¥11，立减 12% + 首购礼金减 1 元后实付 ¥8.6",
+                "color": "#E8E4DE",
+                "image": f"{IMG_BASE}_product_4.jpg",
+            },
+            {
+                "name": "松能 笔记本显示器支架 双屏一拖二 拼接",
+                "price": "¥249",
+                "advantage": "支持双屏拼接，笔记本+显示器双屏用户刚需；可参与国补；价格是 HMJIA 的 29 倍",
+                "jd_sales": "什么值得买爆料：京东自营活动价 ¥269，参与国补后实付 ¥249",
+                "color": "#4A4A4A",
+            },
+            {
+                "name": "北欧风木质显示器增高架(无具体爆料价)",
+                "price": "什么值得买社区口径：约 ¥20-60",
+                "advantage": "木质纹理温润，与桌面风格融合好，可选带抽屉/隔层款藏线材；价格带高于 HMJIA",
+                "jd_sales": "什么值得买社区《四款桌面收纳好物》推荐第 2 款（无具体爆料价）",
+                "color": "#C9B79C",
+            },
+            {
+                "name": "免打孔夹式洞洞板(桌面收纳套装搭配件)",
+                "price": "什么值得买社区口径：约 ¥30",
+                "advantage": "不打孔不粘贴、不损伤桌面，双面可用一面挂一面磁吸；作为增高架的配套件补齐零碎小物收纳",
+                "jd_sales": "什么值得买社区《立体扩容收纳术》价格带：均价约 ¥30",
+                "color": "#D5D0C8",
+            },
+        ],
+    },
+    {
+        "product": "男士电动剃须刀 50-200 元档",
+        "items": [
+            {
+                "name": "京东京造 便携男士电动剃须刀 JZTXD-1S 掌心剃须刀",
+                "price": "¥50.43",
+                "advantage": "刀头+刀网双浮动不扯须；7200 转/分电机配减震设计噪音温和；掌心圆弧机身单手握持；京东自营好评率 97%",
+                "jd_sales": "什么值得买爆料：¥66.4，叠满11减10+焕新补贴2.65+PLUS立减3.32后实付 ¥50.43；100% 值友认为值(3:0)",
+                "color": "#9FB3C8",
+                "image": f"{IMG_BASE}_product_5.jpg",
+            },
+            {
+                "name": "COSC 全金属掌心电动剃须刀 P5",
+                "price": "什么值得买相关笔记口径：¥50-100 区间（无具体爆料价）",
+                "advantage": "全金属机身质感更好，颜值党偏好；缺点是同价位段配置差异需看具体刀网",
+                "jd_sales": "什么值得买相关笔记《全金属掌心电动剃须刀P5，颜值性能靠谱》21 赞",
+                "color": "#B0B7BD",
+            },
+            {
+                "name": "京东京造 掌心剃须刀(常年价位)",
+                "price": "值友评论区口径：常年约 ¥49",
+                "advantage": "常销入门款，价格稳定；说明 ¥50 档是京东造该系列的稳定心智价位",
+                "jd_sales": "什么值得买评论区 10-03 用户补充：「这个不是常年49吗」",
+                "color": "#6E7B85",
+            },
+            {
+                "name": "荣耀亲选 高速护发吹风机 2亿负离子(同价位个护横向参考)",
+                "price": "¥59",
+                "advantage": "83% 值友认为值(10:2)，评论反馈风力大于 H501se；作为 ¥50-60 档个护小家电的价格锚点",
+                "jd_sales": "什么值得买爆料：活动价 ¥99，50-15 + 首购礼金 + 晒单返 20 后实付 ¥59",
+                "color": "#C5CBD3",
+            },
+        ],
+    },
+]
+
+hot_products = [
+    {
+        "name": "前街咖啡 FrontStreet 当季挂耳 10包礼盒 5种风味",
+        "category": "咖啡冲泡",
+        "price": "¥29.9",
+        "image": f"{IMG_BASE}_product_1.jpg",
+        "sales": "中国咖啡网 2026-10-04 实锤 ¥29.9/10 包；同店单品豆折后 ¥68-142；对比 AGF 7g×18 ¥209、伯朗 10g×10 ¥250",
+        "platform": "淘宝前街咖啡旗舰店 / 天猫",
+    },
+    {
+        "name": "小熊 Bear 焖烧杯 316不锈钢 宽大口径 500ml",
+        "category": "焖烧保温",
+        "price": "¥43.10",
+        "image": f"{IMG_BASE}_product_2.jpg",
+        "sales": "什么值得买爆料到手 ¥43.10（原价 ¥49.72，降幅 13%，好评率 96%）；316 内胆在 ¥40 档少见的配置",
+        "platform": "京东自营 / 小熊官方旗舰店",
+    },
+    {
+        "name": "卉苔 香薰机 自动喷香机 卧室夜灯",
+        "category": "家居香氛",
+        "price": "¥79.9",
+        "image": f"{IMG_BASE}_product_3.jpg",
+        "sales": "什么值得买爆料 ¥79.9；同赛道康美太 ¥149 / 尘驰 ¥197.2 / 蒂菲森 ¥227，为价格最低一档",
+        "platform": "天猫 / 卉苔旗舰店",
+    },
+    {
+        "name": "HMJIA 电脑显示器增高架 H-X302H",
+        "category": "桌面收纳",
+        "price": "¥8.6",
+        "image": f"{IMG_BASE}_product_4.jpg",
+        "sales": "什么值得买爆料 ¥8.6（页面价 ¥11 + 立减12% + 首购礼金）；竞品松能双屏款 ¥249，社区均价口径约 ¥20",
+        "platform": "京东 HMJIA家具京东自营专区",
+    },
+    {
+        "name": "京东京造 便携男士电动剃须刀 JZTXD-1S",
+        "category": "男士个护",
+        "price": "¥50.43",
+        "image": f"{IMG_BASE}_product_5.jpg",
+        "sales": "什么值得买爆料 ¥50.43（活动价 ¥66.4 多券叠加），好评率 97%，100% 值友认为值(3:0)",
+        "platform": "京东自营 / 京东京造旗舰店",
+    },
+]
+
+doc = {
+    "date": TODAY,
+    "sources": sources,
+    "competitors": competitors,
+    "hotProducts": hot_products,
+    "dataSource": "WebSearch 真实数据 · 2026-10-08 cron 自动化抓取",
+    "updateTime": "2026-10-08 07:30",
+}
+
+os.makedirs(OUT_DIR, exist_ok=True)
+out_path = os.path.join(OUT_DIR, "vs-data.json")
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(doc, f, ensure_ascii=False, indent=2)
+
+# Schema 校验
+with open(out_path, encoding="utf-8") as f:
+    vs = json.load(f)
+assert "hotProducts" in vs, "❌ vs-data.json 缺 hotProducts"
+assert len(vs["hotProducts"]) == 5, "❌ hotProducts 必须 5 项"
+assert "dataSource" in vs, "❌ vs-data.json 缺 dataSource"
+assert "updateTime" in vs, "❌ vs-data.json 缺 updateTime"
+assert "sources" in vs and len(vs["sources"]) >= 3, "❌ sources 缺失或不足"
+assert len(vs["competitors"]) == 5, "❌ competitors 必须 5 组"
+for hp in vs["hotProducts"]:
+    assert "image" in hp and hp["image"].startswith("https://"), f"❌ hotProducts 缺 image: {hp.get('name')}"
+for i, c in enumerate(vs["competitors"], 1):
+    assert len(c["items"]) >= 3, f"❌ competitors[{i}] 竞品数不足 3"
+    assert "image" in c["items"][0], f"❌ competitors[{i}] 首个(主推)缺 image"
+print(f"✅ vs-data.json schema 校验通过 → {out_path}")
+print(f"   sources: {len(sources)} 条 | competitors: {len(competitors)} 组 | hotProducts: {len(hot_products)} 项")
