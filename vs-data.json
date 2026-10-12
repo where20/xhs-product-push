@@ -1,228 +1,233 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "sources": [
-    "京东排行榜 jd.com/phb/key_1319cdc2709cb641a24f.html (纸尿裤M码榜)",
-    "京东排行榜 jd.com/phb/key_16204117b92b2bfaf15e.html (抽真空压缩袋榜)",
-    "京东排行榜 jd.com/phb/key_131591b4b419dea995a3.html (提花保暖内衣女榜)",
-    "淘宝销量榜 xing73.com (2026年10月20斤/10斤猫粮销量排行)",
-    "什么值得买 post.smzdm.com/p/ak8el999 (日归露营核心装备横评, 2026年5月行情)",
-    "十大品牌网 cnpp.cn/focus/3529570 (2026十大受欢迎纸尿裤品牌)",
-    "易有料 yiyouliao.com (2026秋衣秋裤保暖内衣选购指南, 京东2026年9月比价数据)"
+    "什么值得买 - 入秋扛把子轻便百搭的冲锋衣 https://post.smzdm.com/talk/p/a70p2k85",
+    "什么值得买 - 国庆出行冲锋衣怎么选 伯希和凯乐石骆驼三款实测 https://post.smzdm.com/p/axkzqrqw/",
+    "什么值得买 - 京东京造冲锋衣硬壳 199.5 元 https://www.smzdm.com/p/183344576",
+    "什么值得买 - 斯凯奇三合一冲锋衣 399 元 https://www.smzdm.com/p/183332863",
+    "中关村在线 - 儿童智能手表销量排行榜 https://mobile.zol.com.cn/1255/12554332.html",
+    "中关村在线 - 2026续航智能手表排行榜 https://m.zol.com.cn/article/12555265.html",
+    "DH3G - Amazfit 跃我 GTR 3 Pro 京东双十一畅销 https://www.dh3g.com/youxi-99572",
+    "什么值得买 - 九阳 PB-UL5B70 破壁机 448.89 元 https://www.smzdm.com/p/183685138",
+    "新浪 - 潮湿地区空调除湿选购指南(格力40L除湿机1200-1500元) https://www.sina.cn/gc/article/niuqcsv3343605.html",
+    "新浪财经 - 秋冬刚需家电合集(格力DH40EH 40L/天) https://finance.sina.com.cn/roll/2026-10-05/doc-iniuciqr4800196.shtml",
+    "中关村在线 - 格力 DH40EF 报价 https://www.zol.com/sales/7257877.html",
+    "什么值得买 - 欧莱雅小蜜罐 259.95 元 https://www.smzdm.com/p/183670073"
   ],
   "competitors": [
     {
-      "product": "宠物主粮 · 冻干猫粮 ¥200-400 段",
+      "product": "冲锋衣 300-900 元档",
       "items": [
         {
-          "name": "汪喵星球 天然低敏冻干主食餐 小方粒型 猫咪冻干 500g",
-          "price": "¥350（500g）",
-          "advantage": "天然低敏、小方粒型泡水 30 秒软化、常温保存免冷藏",
-          "jd_sales": "淘宝 2026年10月销量榜冻干猫粮 TOP1 品类销量 40万+",
-          "color": "#C97B4A",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_1.jpg"
+          "name": "迪卡侬 DECATHLON MH500 三合一冲锋衣 男户外防风防水硬壳",
+          "price": "¥330-375",
+          "advantage": "3L三层压胶全压胶硬壳,防水约20000mm级,同价位段难找对手",
+          "jd_sales": "什么值得买实测:大促价330-375元,被值友列为该价位段标杆",
+          "color": "#2E5A4E",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_1.jpg"
         },
         {
-          "name": "怪獸部落 98%慢烘乾燥鮮肉主食糧 800g",
-          "price": "¥980（800g）",
-          "advantage": "98% 高肉含量慢烘工艺,台湾 momo 总销量 >1.5万",
-          "jd_sales": "momo購物網 好评 1769 笔, 总销量 >1.5万",
-          "color": "#8B5E3C"
+          "name": "京东京造 冲锋衣 男女同款秋季防水夹克 户外硬壳 曜石黑",
+          "price": "¥199.5(满1元打5折)",
+          "advantage": "京东自营好评率97%,价格最低,但无压胶等级标注",
+          "jd_sales": "什么值得买爆料:京东活动售价399元,满1元打5折实付199.5元",
+          "color": "#374151"
         },
         {
-          "name": "麦富迪 MYFOODIE 天然鱼油成猫粮 10kg",
-          "price": "¥169（10kg 官方旗舰店）",
-          "advantage": "国民品牌大包装性价比路线,鱼油美毛",
-          "jd_sales": "淘宝销量榜 TOP8 麦富迪天然鱼油成猫粮 10kg 销量 6万+",
-          "color": "#D4A574"
+          "name": "斯凯奇 冲锋衣男 2026新款秋季三合一可拆卸连帽摇粒绒外套",
+          "price": "¥399(立减71元)",
+          "advantage": "品牌外套+三合一结构,日常通勤与户外两穿",
+          "jd_sales": "什么值得买爆料:天猫立减71元后到手价399元/件",
+          "color": "#D97706"
         },
         {
-          "name": "醇粹 金标无谷低敏冻干成幼猫粮 10斤",
-          "price": "¥75-161（10斤, 活动区间）",
-          "advantage": "无谷低敏冻干,618/双11 活动价波动大",
-          "jd_sales": "淘宝销量榜 TOP5/TOP8, 销量 9万-10万+",
-          "color": "#C8A165"
+          "name": "伯希和 PELLIOT 山野2.0 抓绒内胆可拆卸三合一冲锋衣 女款 12340106",
+          "price": "¥439.12",
+          "advantage": "抓绒内胆可拆卸,防水指数8000mm,山壳系列参数更全",
+          "jd_sales": "什么值得买值友分享:京东¥439.12,通勤徒步旅行一件顶三件",
+          "color": "#7C3AED"
         }
       ]
     },
     {
-      "product": "家居收纳 · 真空压缩袋 ¥50-200 段",
+      "product": "智能手表 200-1000 元档",
       "items": [
         {
-          "name": "京东京造 真空压缩收纳袋 家庭20件套 加厚棉被羽绒服 带电泵",
-          "price": "¥69-159（20件套）",
-          "advantage": "PA+PE 加厚 10-12 丝, 自带电泵, 20 件套一次搞定全家换季",
-          "jd_sales": "京东压缩袋排行榜 TOP4, 已有 200000 人评论",
-          "color": "#4A7C9E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_2.jpg"
+          "name": "Amazfit 跃我 GTR 3 Pro 智能手表 曜石黑 双频五星定位 21天续航",
+          "price": "¥999",
+          "advantage": "双频五星GPS+21天续航+150米防水,厚10.7mm重32g",
+          "jd_sales": "京东双十一智能手表畅销单品之一,ZOL两篇榜单在选",
+          "color": "#1F2937",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_2.jpg"
         },
         {
-          "name": "太力 真空压缩收纳袋 电动气泵抽真空 大容量11件",
-          "price": "京东销量 NO.1 价位段",
-          "advantage": "品类销量冠军, 11 件套 + 电动气泵组合",
-          "jd_sales": "京东抽真空压缩袋榜 TOP1, 已有 1000000 人评论",
-          "color": "#3D6B8E"
+          "name": "荣耀手表 X5i 1.97英寸极窄边大屏 29g轻薄机身",
+          "price": "¥209(参考价)/¥399(京东)",
+          "advantage": "29g超轻薄,户外实时气压定位",
+          "jd_sales": "中关村在线 2026智能手表天梯榜:基础健康运动齐全,续航稳定",
+          "color": "#0EA5E9"
         },
         {
-          "name": "收纳博士 真空压缩收纳袋 手泵9件套",
-          "price": "手泵款",
-          "advantage": "特厚材质, 放两个月不漏气回弹",
-          "jd_sales": "京东压缩袋榜 TOP6, 已有 2000000 人评论 (评论量最高)",
-          "color": "#5A8AA8"
+          "name": "HUAWEI 华为 儿童手表3 九重AI定位",
+          "price": "¥298",
+          "advantage": "室内外无缝追踪误差小于10米,IPX8防水,38g",
+          "jd_sales": "中关村在线儿童手表榜:安全型入门款,适合小学一年级",
+          "color": "#EF4444"
         },
         {
-          "name": "京东京造 真空封口机 双泵大吸力 80kPa 触屏款",
-          "price": "配真空袋*10",
-          "advantage": "双泵 80kPa 大吸力, 干湿两用, 但真空袋是后续消费大头",
-          "jd_sales": "京东压缩袋榜 TOP9, 已有 20000 人评论",
-          "color": "#6B8FA8"
+          "name": "努比亚 红魔手表 精钢版 医疗级PPG光学模组",
+          "price": "¥599",
+          "advantage": "AI运动识别区分太极八段锦,24天续航+30米防水",
+          "jd_sales": "中关村在线续航榜:精钢表壳,同价位质感突出",
+          "color": "#DC2626"
         }
       ]
     },
     {
-      "product": "秋冬季着 · 德绒保暖内衣 ¥60-180 段",
+      "product": "破壁机 300-500 元档",
       "items": [
         {
-          "name": "猫人 MiiOW 优品德绒羊毛蚕丝保暖内衣女套装 加厚无痕打底",
-          "price": "¥80.9-119.9",
-          "advantage": "羊毛+蚕丝+德绒三层复合, 无痕剪裁, 膝盖加厚",
-          "jd_sales": "京东比价数据 2026年9月; 麦米网同款已抢 1万+",
-          "color": "#B08968",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_3.jpg"
+          "name": "九阳 Joyoung 小旋风 B70(PB-UL5B70) 变频轻音 1.75L 破壁机",
+          "price": "¥448.89",
+          "advantage": "45000转/分10叶立体刀,豆浆粒径90微米,低至35分贝",
+          "jd_sales": "什么值得买10/07历史低价480.37元,当前实付448.89元",
+          "color": "#8B5CF6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_3.jpg"
         },
         {
-          "name": "雅鹿 yaloo 女士德绒发热保暖内衣 2套",
-          "price": "¥33.9-69.9（2套）",
-          "advantage": "无痕发热 7A 抗菌, 性价比极高",
-          "jd_sales": "淘宝 2026年9月榜单 TOP6/TOP8, 销量 700-800+",
-          "color": "#9E7B5B"
+          "name": "九阳 太空旗舰豆浆机 不用手洗养生2代K7Pro(紫火版)",
+          "price": "¥1999(参考价)",
+          "advantage": "洗烘一体免手洗,96h长效除菌率99.9999%,低糖米糊",
+          "jd_sales": "ITBear测评:懒人档首选,制浆噪音约50分贝",
+          "color": "#1E40AF"
         },
         {
-          "name": "都市丽人 德绒含羊绒蚕丝保暖内衣",
-          "price": "¥69.9（活动价）",
-          "advantage": "德绒 + 羊绒蚕丝复合, 活动价性价比突出",
-          "jd_sales": "易有料 2026 京东9月比价数据",
-          "color": "#C4A484"
+          "name": "BRUNO 小裙摆破壁机 1.5L 全自动清洁",
+          "price": "¥479",
+          "advantage": "高温自洁+象牙白外观,1200W电机,颜值路线",
+          "jd_sales": "百度Feed横评:适合家庭聚会大量制作,外观党偏好",
+          "color": "#F59E0B"
         },
         {
-          "name": "蕉内 热皮系列 男女抗菌保暖套装",
-          "price": "¥166（热皮 5 系背心 ¥107）",
-          "advantage": "无痕剪裁和版型是强项, 年轻人复购率高",
-          "jd_sales": "麦米网 蕉内热皮5系抗菌保暖背心已抢 4万+",
-          "color": "#6B5B4F"
+          "name": "荣事达 RD-200U68 多功能破壁机 1.6L",
+          "price": "¥139",
+          "advantage": "智能一键操作+预约降噪,入门价位",
+          "jd_sales": "百度Feed横评:京东月销100,预算有限家庭可选",
+          "color": "#0891B2"
         }
       ]
     },
     {
-      "product": "户外露营 · 黑胶天幕 ¥150-350 段",
+      "product": "除湿机 1200-3000 元档",
       "items": [
         {
-          "name": "挪客 Naturehike 20平黑胶天幕 速开遮阳挡雨",
-          "price": "¥239",
-          "advantage": "5分钟搭建, 3.2kg, 黑胶涂层防晒强五六度",
-          "jd_sales": "什么值得买 2026年5月 日归露营横评主力款",
-          "color": "#5B7C3F",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_4.jpg"
+          "name": "格力 GREE DH40EF 家用除湿机 40L/天 大容量 干衣防霉 智能恒湿",
+          "price": "¥1200-1500(40L旗舰档)",
+          "advantage": "40L/天覆盖90-120㎡,干衣模式,可叠加以旧换新补贴约162元",
+          "jd_sales": "新浪选购指南:全屋湿度过大时空调+除湿机组合性价比高",
+          "color": "#0EA5E9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_4.jpg"
         },
         {
-          "name": "牧高笛 Mobi Garden 20平天幕",
-          "price": "¥279",
-          "advantage": "2.9kg 最轻, 保冷 36 小时保温箱配套, 整套 <10kg",
-          "jd_sales": "什么值得买横评: 轻量化组合 ¥1045 整套",
-          "color": "#6B8E4E"
+          "name": "格力 DH40EF 家用除湿机 京东格力天硕专卖店",
+          "price": "¥2880",
+          "advantage": "40L/D除湿量,7L水箱,适用面积<61㎡,45分贝低噪",
+          "jd_sales": "中关村在线报价:京东格力天硕专卖店特价促销",
+          "color": "#0369A1"
         },
         {
-          "name": "原始人 20平速开天幕",
-          "price": "¥219",
-          "advantage": "3分钟速开 (最快), 亲子家庭组合 ¥903 起点",
-          "jd_sales": "什么值得买横评: 亲子家庭方案 ¥903 整套",
-          "color": "#4F7040"
+          "name": "格力 DH40EF 除湿机 天猫GREE官方旗舰店",
+          "price": "¥2180",
+          "advantage": "压缩机式智能除湿,微电脑控制,官方旗舰店渠道",
+          "jd_sales": "中关村在线报价:天猫官旗特价,包邮",
+          "color": "#0284C7"
         },
         {
-          "name": "探险者 20平天幕",
-          "price": "¥199（最低价）",
-          "advantage": "预算有限新手首选, 3.8kg 偏重适合开车去营地",
-          "jd_sales": "什么值得买横评: 新手组合 ¥476 整套",
-          "color": "#7A9455"
+          "name": "美的 HDY22L 石墨烯踢脚线取暖器 2200W",
+          "price": "南方无供暖家庭配套参考机型",
+          "advantage": "石墨烯导热+IP24防水+智能恒温,与除湿机搭配解决南方湿冷",
+          "jd_sales": "新浪财经秋冬刚需家电合集:南方优先除湿+取暖搭配",
+          "color": "#2563EB"
         }
       ]
     },
     {
-      "product": "母婴护理 · 超薄纸尿裤 ¥80-260 段",
+      "product": "抗初老面霜 200-400 元档",
       "items": [
         {
-          "name": "好奇 Huggies 铂金装小桃裤纸尿裤 M144片 透爽散热",
-          "price": "¥199-259",
-          "advantage": "花苞围腰不勒肚, 透爽散热表层, 京东 M 码榜 TOP1",
-          "jd_sales": "京东纸尿裤 M 码榜 TOP1, 已有 5000000 人评论",
-          "color": "#E8839A",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_5.jpg"
+          "name": "巴黎欧莱雅 小蜜罐 4.0 胶原面霜 滋润版 60ml 超分子重组胶原",
+          "price": "¥259.95(到手120ml)",
+          "advantage": "超分子重组胶原+玻色因PRO+黄金胜肽,丝缎质地润而不腻",
+          "jd_sales": "什么值得买实锤:京东339元,需用券到手259.95元",
+          "color": "#F59E0B",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_5.jpg"
         },
         {
-          "name": "好奇 Huggies 小森林纸尿裤 M50片 心钻",
-          "price": "心钻系列",
-          "advantage": "透氧顶配, 更低敏",
-          "jd_sales": "京东纸尿裤 M 码榜 TOP3, 已有 4000000 人评论",
-          "color": "#7FB8A4"
+          "name": "娇韵诗 至臻凝时面霜 50ml",
+          "price": "约¥2800",
+          "advantage": "月光花精萃温和修护,提亮淡干纹",
+          "jd_sales": "腾讯搜索横评:轻熟龄敏感肌可入围,预算充足偏好温和植萃",
+          "color": "#DB2777"
         },
         {
-          "name": "babycare 皇室狮子王国 弱酸纸尿裤 M50片",
-          "price": "弱酸系列",
-          "advantage": "弱酸配方亲肤透气",
-          "jd_sales": "京东纸尿裤 M 码榜 TOP2, 已有 3000000 人评论",
-          "color": "#F0B429"
+          "name": "海蓝之谜 奇迹晚霜 30ml",
+          "price": "¥1995起",
+          "advantage": "科技绒感膜快速成膜,1夜8重抗老,次日肤质+8%",
+          "jd_sales": "腾讯搜索横评:预算充足+要夜间修护主力首选",
+          "color": "#BE185D"
         },
         {
-          "name": "花王 妙而舒 Merries 纸尿裤 M64片",
-          "price": "双11 80片装可降至百元以内",
-          "advantage": "pH5.5 弱酸性面层中和尿液碱性刺激, 3D 透气膜",
-          "jd_sales": "京东纸尿裤 M 码榜 TOP5, 已有 5000000 人评论",
-          "color": "#D98CA0"
+          "name": "欧莱雅 小蜜罐 60ml*2罐 88VIP",
+          "price": "¥431(天猫国际)",
+          "advantage": "88VIP 95折+满200减25+立减120,双罐装折算更优",
+          "jd_sales": "什么值得买爆料:天猫国际活动售价600元,叠加优惠实付431元",
+          "color": "#FCD34D"
         }
       ]
     }
   ],
   "hotProducts": [
     {
-      "name": "汪喵星球 天然低敏冻干主食餐 小方粒型 500g",
-      "category": "宠物主粮",
-      "price": "¥350（500g）",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_1.jpg",
-      "sales": "淘宝 2026年10月冻干猫粮销量榜 TOP1 品类, 销量 40万+",
-      "platform": "天猫旗舰店 / 京东旗舰店"
+      "name": "迪卡侬 DECATHLON MH500 三合一冲锋衣 男户外防风防水硬壳",
+      "category": "户外服饰",
+      "price": "¥330-375",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_1.jpg",
+      "sales": "什么值得买实测对比:同价位段防水透气参数无明显短板",
+      "platform": "京东自营 / 线下门店"
     },
     {
-      "name": "京东京造 真空压缩收纳袋 家庭20件套 带电泵",
-      "category": "家居收纳",
-      "price": "¥69-159（20件套）",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_2.jpg",
-      "sales": "京东压缩袋排行榜 TOP4, 已有 200000 人评论",
+      "name": "Amazfit 跃我 GTR 3 Pro 智能手表 曜石黑 双频五星定位 21天续航",
+      "category": "智能穿戴",
+      "price": "¥999",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_2.jpg",
+      "sales": "京东双十一智能手表畅销单品,ZOL 两篇榜单在选",
       "platform": "京东自营"
     },
     {
-      "name": "猫人 MiiOW 优品德绒羊毛蚕丝保暖内衣女套装",
-      "category": "秋冬季着",
-      "price": "¥80.9-119.9",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_3.jpg",
-      "sales": "京东 2026年9月比价 ¥80.9; 同款已抢 1万+",
-      "platform": "京东自营 / 天猫旗舰店"
+      "name": "九阳 Joyoung 小旋风 B70(PB-UL5B70) 变频轻音 1.75L 破壁机",
+      "category": "厨房小电",
+      "price": "¥448.89",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_3.jpg",
+      "sales": "什么值得买 10/07 历史低价 480.37 元,当前实付 448.89 元",
+      "platform": "九阳京东自营旗舰店"
     },
     {
-      "name": "挪客 Naturehike 20平黑胶天幕 速开遮阳挡雨",
-      "category": "户外露营",
-      "price": "¥239",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_4.jpg",
-      "sales": "什么值得买日归露营横评基准款 (3.2kg / 5分钟搭建)",
-      "platform": "京东自营 / 天猫旗舰店"
+      "name": "格力 GREE DH40EF 家用除湿机 40L/天 大容量 干衣防霉 智能恒湿",
+      "category": "家居环境",
+      "price": "¥1200-1500",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_4.jpg",
+      "sales": "新浪选购指南:40L旗舰覆盖90-120㎡,可叠加以旧换新约162元",
+      "platform": "京东 / 天猫 GREE 官方旗舰店"
     },
     {
-      "name": "好奇 Huggies 铂金装小桃裤纸尿裤 M144片",
-      "category": "母婴护理",
-      "price": "¥199-259",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-12_product_5.jpg",
-      "sales": "京东纸尿裤 M 码排行榜 TOP1, 已有 5000000 人评论",
-      "platform": "京东自营 / 京东旗舰店"
+      "name": "巴黎欧莱雅 小蜜罐 4.0 胶原面霜 滋润版 60ml 超分子重组胶原",
+      "category": "美妆护肤",
+      "price": "¥259.95",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_5.jpg",
+      "sales": "什么值得买实锤:京东 339 元,需用券到手 259.95 元(赠 60ml)",
+      "platform": "京东自营 / 天猫官方旗舰店"
     }
   ],
   "dataSource": "WebSearch 真实数据 · SQLite db 导出",
-  "updateTime": "2026-10-12 07:30"
+  "updateTime": "2026-10-13 07:30"
 }
