@@ -1,233 +1,235 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "sources": [
-    "什么值得买 - 入秋扛把子轻便百搭的冲锋衣 https://post.smzdm.com/talk/p/a70p2k85",
-    "什么值得买 - 国庆出行冲锋衣怎么选 伯希和凯乐石骆驼三款实测 https://post.smzdm.com/p/axkzqrqw/",
-    "什么值得买 - 京东京造冲锋衣硬壳 199.5 元 https://www.smzdm.com/p/183344576",
-    "什么值得买 - 斯凯奇三合一冲锋衣 399 元 https://www.smzdm.com/p/183332863",
-    "中关村在线 - 儿童智能手表销量排行榜 https://mobile.zol.com.cn/1255/12554332.html",
-    "中关村在线 - 2026续航智能手表排行榜 https://m.zol.com.cn/article/12555265.html",
-    "DH3G - Amazfit 跃我 GTR 3 Pro 京东双十一畅销 https://www.dh3g.com/youxi-99572",
-    "什么值得买 - 九阳 PB-UL5B70 破壁机 448.89 元 https://www.smzdm.com/p/183685138",
-    "新浪 - 潮湿地区空调除湿选购指南(格力40L除湿机1200-1500元) https://www.sina.cn/gc/article/niuqcsv3343605.html",
-    "新浪财经 - 秋冬刚需家电合集(格力DH40EH 40L/天) https://finance.sina.com.cn/roll/2026-10-05/doc-iniuciqr4800196.shtml",
-    "中关村在线 - 格力 DH40EF 报价 https://www.zol.com/sales/7257877.html",
-    "什么值得买 - 欧莱雅小蜜罐 259.95 元 https://www.smzdm.com/p/183670073"
+    "爱企查 - 什么羽毛球拍好用不贵 (川崎KD-3 149元/李宁雷霆小钢炮 220元 京东参考价) https://aiqicha.baidu.com/details/ugknowledge?id=a2f753d6b402502ae4a99818d3d28fc8",
+    "爱企查 - 有性价比的中端羽毛球拍 (胜利纳米7 200-400元, 威克多白金小隼 450-520元) https://aiqicha.baidu.com/details/ugknowledge?id=e856c356c97a8ec1a4ebb60309f01c8a",
+    "十大品牌网CNPP - 羽毛球拍十大品牌2026 (尤尼克斯/威克多/李宁/川崎 品牌榜 2026-10-13 更新) https://www.cnpp.cn/china/2026/list_10527.html",
+    "新浪汽车 - 2026汽车坐垫怎么选不踩坑 (恒源祥羊毛138元起/卡饰社加热垫94元/牧宝果冻219元) https://auto.sina.cn/2026-10-01/detail-initteki6721577.d.html",
+    "新浪网 - 2026汽车坐垫推荐冬季选羊毛 (恒源祥三件套常卖428元/历史低价403元, 车优友全包围260元) https://www.sina.cn/news/article/comos_niukxhi4649000.html",
+    "新浪网 - 2026婴儿米粉推荐第一口辅食 (GB10769新国标 铁≥4mg/100g 二价铁) https://k.sina.com.cn/article_7879923652_1d5ae17c406801jf86.html",
+    "新浪网 - 宝宝第一口辅食实测6款高铁米粉 (爷爷的农场 铁6.26mg/100g+维C40mg 补铁效率第一) https://www.sina.cn/news/article/comos_nitzvpf3862239.html",
+    "新浪网 - 比例好冲的婴儿米粉实测5款 (爷爷的农场49.9元/盒冲泡顺滑度最佳, 小皮铁5.8mg最高) https://www.sina.cn/gc/article/nityptx6046976.html",
+    "腾讯新闻 - 护眼台灯六款主流机型光学实测 (公牛约399元, 独语N627-1 628元, 独语A8 1180元) https://new.qq.com/rain/a/20261013A093FB00",
+    "廊坊新闻网 - 护眼台灯六款横评 (公牛读写台灯399元 国AA/RG0/Ra95/4000K) https://www.lfnews.cn/portal.php?aid=133710&mod=view",
+    "华夏经济网 - 五款热门AA护眼台灯 (雷士Q999-BK 269元, 公牛Y09 199元) https://xhpy.cn/article/325561791624419.shtml",
+    "爱美日记 - 2026年10月短靴女他她销量排行榜TOP10 (天猫他她官方旗舰店实扫324个商品) https://www.am10.com/5Wa5WuL5zWa502Z6t_55/xl",
+    "搜狐时尚 - 今年秋天小棕鞋出圈 (哑光材质/窄圆鞋头/低跟三条挑选标准) https://fashion.sohu.com/a/1086224373_120435290",
+    "今日头条 - 双11即时零售大变局 (淘宝天猫10月15日晚8点预售, 京东10月12日开抢, 即时零售670亿同比+138.4%) https://www.toutiao.com/a7695337652903625225"
   ],
   "competitors": [
     {
-      "product": "冲锋衣 300-900 元档",
+      "product": "羽毛球拍 100-400 元入门段",
       "items": [
         {
-          "name": "迪卡侬 DECATHLON MH500 三合一冲锋衣 男户外防风防水硬壳",
-          "price": "¥330-375",
-          "advantage": "3L三层压胶全压胶硬壳,防水约20000mm级,同价位段难找对手",
-          "jd_sales": "什么值得买实测:大促价330-375元,被值友列为该价位段标杆",
-          "color": "#2E5A4E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_1.jpg"
+          "name": "李宁 LINING 雷霆小钢炮 AYPT307-4 全碳素羽毛球拍 4U 快攻入门",
+          "price": "¥220",
+          "advantage": "全碳素材质 + 4U 80-84g, 高弹性中杆杀球爆发力强, 大甜区容错率高, 被列为入门级神拍",
+          "jd_sales": "爱企查横评: 与ARC8/9500Pro同列 200-300 元入门级神拍, 京东参考价 220 元",
+          "color": "#1B6E4A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_1.jpg"
         },
         {
-          "name": "京东京造 冲锋衣 男女同款秋季防水夹克 户外硬壳 曜石黑",
-          "price": "¥199.5(满1元打5折)",
-          "advantage": "京东自营好评率97%,价格最低,但无压胶等级标注",
-          "jd_sales": "什么值得买爆料:京东活动售价399元,满1元打5折实付199.5元",
+          "name": "川崎 KAWASAKI KD-3 超轻碳素中杆羽毛球拍",
+          "price": "¥149",
+          "advantage": "整拍约 79g 超轻碳素, 挥拍省力甜区大, 容错率高, 适合初学者练基础动作",
+          "jd_sales": "爱企查横评: 100-200 元入门高性价比段代表, 京东参考价 149 元",
+          "color": "#1F4E79"
+        },
+        {
+          "name": "尤尼克斯 YONEX NR7000i 羽毛球拍",
+          "price": "入门款 (价格以渠道实时为准)",
+          "advantage": "高端技术下放, 控球精准, 相对同品牌高端系列性价比明显",
+          "jd_sales": "爱企查横评: 尤尼克斯高端款如 ARC11 PRO 超 1800 元, 入门款 NR7000i 更具性价比",
+          "color": "#8B1A1A"
+        },
+        {
+          "name": "胜利纳米7 羽毛球拍",
+          "price": "¥200-400",
+          "advantage": "攻守平衡甜区大, 耐操程度高, 十几年来高普及率, 中端拍之王",
+          "jd_sales": "爱企查横评: 预算 300-800 元公认性价比最高中端拍之一",
+          "color": "#2F4F4F"
+        }
+      ]
+    },
+    {
+      "product": "汽车坐垫 90-430 元冬季段",
+      "items": [
+        {
+          "name": "恒源祥 100%羊毛汽车坐垫三件套 短羊毛绒 新能源车适配",
+          "price": "¥428",
+          "advantage": "100%羊毛蓄热, 无靠背设计直接避开侧气囊阻挡, 覆盖特斯拉/理想/蔚来",
+          "jd_sales": "新浪汽车: 常卖价 428 元, 历史低价 403 元, 无靠背款避开气囊问题",
+          "color": "#7B4A2E",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_2.jpg"
+        },
+        {
+          "name": "卡饰社 双座独立控温加热坐垫",
+          "price": "¥94",
+          "advantage": "双座独立控温快热, 早晨热车 5 分钟暖臀, 100 元档性价比之王",
+          "jd_sales": "新浪汽车: 不到百元实现冬季暖臀, 什么值得买用户评价物流快质量好",
+          "color": "#B22222"
+        },
+        {
+          "name": "牧宝 超薄弹力丝透气坐垫",
+          "price": "¥151",
+          "advantage": "聚酯纤维 81%-90% 透气网眼, 超薄透气不闷, 南方潮湿四季通用",
+          "jd_sales": "新浪汽车: 南方车主/四季党首选, 标称防滑不位移",
+          "color": "#708090"
+        },
+        {
+          "name": "车优友 全包围仿皮汽车坐垫",
+          "price": "¥260",
+          "advantage": "全包围防脏耐磨损好擦洗, 带侧气囊专用开口设计, 网约车高频用车适用",
+          "jd_sales": "新浪汽车: 网约车/高频用户推荐, 全包围可避免 60km/h 急刹前滑约 15cm",
+          "color": "#2F4F2F"
+        }
+      ]
+    },
+    {
+      "product": "高铁婴儿米粉 28-70 元/罐",
+      "items": [
+        {
+          "name": "爷爷的农场 有机高铁米粉 250g 二价铁",
+          "price": "¥65 / 250g",
+          "advantage": "铁含量 6.26mg/100g 2026 实测横评全场第一, 二价铁 + 维C 40mg, 40℃冲泡无颗粒",
+          "jd_sales": "新浪 2026年9月实测: 补铁效率排名第一, 欧盟有机认证, 约 65 元/250g",
+          "color": "#C9A227",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_3.jpg"
+        },
+        {
+          "name": "小皮 Little Freddie 高铁侠有机米粉",
+          "price": "¥68 / 200g (3盒装165元)",
+          "advantage": "铁含量 5.8mg/100g 二价铁+维C, 中欧双有机认证, 粉质最细最好下咽",
+          "jd_sales": "新浪横评: 粉质最细, 50万+评论99%好评, 敏肌妈妈圈口碑最好",
+          "color": "#4A7C59"
+        },
+        {
+          "name": "嘉宝 国行版高铁米粉",
+          "price": "¥28 / 200g",
+          "advantage": "铁含量 4.2mg/100g 达国标, CHE水解工艺粉质细腻, 预算有限家庭性价比之选",
+          "jd_sales": "新浪横评: 预算有限家庭闭眼选, 老牌口碑 300万+评论99%好评",
+          "color": "#D2691E"
+        },
+        {
+          "name": "亨氏 经典高铁米粉",
+          "price": "¥32 / 250g",
+          "advantage": "百年国际品牌基础营养均衡, 明确不添加防腐剂, 经典款成熟配方",
+          "jd_sales": "新浪横评: 铁 4.9mg/100g 但为三价铁需搭配维C, 历史低价 12.32 元档",
+          "color": "#C1440E"
+        }
+      ]
+    },
+    {
+      "product": "国AA级护眼台灯 199-628 元档",
+      "items": [
+        {
+          "name": "公牛 ML-A012A-DS 爱眼台灯 SR 皓月白 国AA级读写台灯",
+          "price": "¥399",
+          "advantage": "国AA级照度, 弯月弧形灯头+偏光双重防眩减少手部阴影, RG0无频闪, Ra95, 4000K",
+          "jd_sales": "腾讯/廊坊横评: 国民品牌品控稳定 CCC认证, 基础护眼参数齐全",
+          "color": "#2D4A7C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_4.jpg"
+        },
+        {
+          "name": "独语 N627-1 旗舰版护眼台灯",
+          "price": "¥628",
+          "advantage": "照度均匀度实测 1.05 远超国标≤3, 650-700nm红光增益, 全光谱 Ra97.2 R9 93",
+          "jd_sales": "中国衡阳新闻网: 华测CMA检测+3C认证, 六百元档参数最富余的平价高配",
+          "color": "#4A5568"
+        },
+        {
+          "name": "雷士 Q999-BK 国AA级读写台灯",
+          "price": "¥269",
+          "advantage": "基础国AA照度达标, RG0蓝光防护, 无极调光触控操作, 品牌线下售后网点多",
+          "jd_sales": "华夏经济网: 入门级读写台灯适合预算有限家庭, 短板是单光设计无环境补光",
           "color": "#374151"
         },
         {
-          "name": "斯凯奇 冲锋衣男 2026新款秋季三合一可拆卸连帽摇粒绒外套",
-          "price": "¥399(立减71元)",
-          "advantage": "品牌外套+三合一结构,日常通勤与户外两穿",
-          "jd_sales": "什么值得买爆料:天猫立减71元后到手价399元/件",
-          "color": "#D97706"
-        },
-        {
-          "name": "伯希和 PELLIOT 山野2.0 抓绒内胆可拆卸三合一冲锋衣 女款 12340106",
-          "price": "¥439.12",
-          "advantage": "抓绒内胆可拆卸,防水指数8000mm,山壳系列参数更全",
-          "jd_sales": "什么值得买值友分享:京东¥439.12,通勤徒步旅行一件顶三件",
-          "color": "#7C3AED"
+          "name": "飞利浦 轩坦 护眼台灯",
+          "price": "¥579",
+          "advantage": "瞳乐光光学方案光线柔和, 蜂巢防眩结构, 入座感应+40分钟休息提醒, 售后体系完善",
+          "jd_sales": "腾讯新闻: 大牌品质, 国AA级照度 RG0无可视频闪 Ra≥95 多档色温可调",
+          "color": "#0F4C81"
         }
       ]
     },
     {
-      "product": "智能手表 200-1000 元档",
+      "product": "秋冬短靴/乐福鞋 200-450 元段",
       "items": [
         {
-          "name": "Amazfit 跃我 GTR 3 Pro 智能手表 曜石黑 双频五星定位 21天续航",
-          "price": "¥999",
-          "advantage": "双频五星GPS+21天续航+150米防水,厚10.7mm重32g",
-          "jd_sales": "京东双十一智能手表畅销单品之一,ZOL两篇榜单在选",
-          "color": "#1F2937",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_2.jpg"
+          "name": "TATA他她 卢昱晓同款喵爪靴 弹力加绒短靴 2026冬",
+          "price": "¥364",
+          "advantage": "2026年10月天猫短靴销量榜TOP2(7000+销量), 明星同款话题度, 弹力靴口不勒小腿",
+          "jd_sales": "爱美日记扫描天猫他她官方旗舰店324个商品后的10月销量榜TOP2",
+          "color": "#A0522D",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_5.jpg"
         },
         {
-          "name": "荣耀手表 X5i 1.97英寸极窄边大屏 29g轻薄机身",
-          "price": "¥209(参考价)/¥399(京东)",
-          "advantage": "29g超轻薄,户外实时气压定位",
-          "jd_sales": "中关村在线 2026智能手表天梯榜:基础健康运动齐全,续航稳定",
-          "color": "#0EA5E9"
+          "name": "TATA他她 加绒马丁靴 WXB06DD5",
+          "price": "¥434",
+          "advantage": "工装风加绒单靴, 商场同款百搭, 销量在同品牌短靴中排前列",
+          "jd_sales": "爱美日记10月销量榜TOP6, 销量 4000+",
+          "color": "#3F3F46"
         },
         {
-          "name": "HUAWEI 华为 儿童手表3 九重AI定位",
-          "price": "¥298",
-          "advantage": "室内外无缝追踪误差小于10米,IPX8防水,38g",
-          "jd_sales": "中关村在线儿童手表榜:安全型入门款,适合小学一年级",
-          "color": "#EF4444"
+          "name": "TATA他她 巡星者马丁靴 CG801DD5",
+          "price": "¥364",
+          "advantage": "千层厚底英伦工装短靴加绒单靴, 百搭简约",
+          "jd_sales": "爱美日记10月销量榜TOP1, 销量 3000+",
+          "color": "#44403C"
         },
         {
-          "name": "努比亚 红魔手表 精钢版 医疗级PPG光学模组",
-          "price": "¥599",
-          "advantage": "AI运动识别区分太极八段锦,24天续航+30米防水",
-          "jd_sales": "中关村在线续航榜:精钢表壳,同价位质感突出",
-          "color": "#DC2626"
-        }
-      ]
-    },
-    {
-      "product": "破壁机 300-500 元档",
-      "items": [
-        {
-          "name": "九阳 Joyoung 小旋风 B70(PB-UL5B70) 变频轻音 1.75L 破壁机",
-          "price": "¥448.89",
-          "advantage": "45000转/分10叶立体刀,豆浆粒径90微米,低至35分贝",
-          "jd_sales": "什么值得买10/07历史低价480.37元,当前实付448.89元",
-          "color": "#8B5CF6",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_3.jpg"
-        },
-        {
-          "name": "九阳 太空旗舰豆浆机 不用手洗养生2代K7Pro(紫火版)",
-          "price": "¥1999(参考价)",
-          "advantage": "洗烘一体免手洗,96h长效除菌率99.9999%,低糖米糊",
-          "jd_sales": "ITBear测评:懒人档首选,制浆噪音约50分贝",
-          "color": "#1E40AF"
-        },
-        {
-          "name": "BRUNO 小裙摆破壁机 1.5L 全自动清洁",
-          "price": "¥479",
-          "advantage": "高温自洁+象牙白外观,1200W电机,颜值路线",
-          "jd_sales": "百度Feed横评:适合家庭聚会大量制作,外观党偏好",
-          "color": "#F59E0B"
-        },
-        {
-          "name": "荣事达 RD-200U68 多功能破壁机 1.6L",
-          "price": "¥139",
-          "advantage": "智能一键操作+预约降噪,入门价位",
-          "jd_sales": "百度Feed横评:京东月销100,预算有限家庭可选",
-          "color": "#0891B2"
-        }
-      ]
-    },
-    {
-      "product": "除湿机 1200-3000 元档",
-      "items": [
-        {
-          "name": "格力 GREE DH40EF 家用除湿机 40L/天 大容量 干衣防霉 智能恒湿",
-          "price": "¥1200-1500(40L旗舰档)",
-          "advantage": "40L/天覆盖90-120㎡,干衣模式,可叠加以旧换新补贴约162元",
-          "jd_sales": "新浪选购指南:全屋湿度过大时空调+除湿机组合性价比高",
-          "color": "#0EA5E9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_4.jpg"
-        },
-        {
-          "name": "格力 DH40EF 家用除湿机 京东格力天硕专卖店",
-          "price": "¥2880",
-          "advantage": "40L/D除湿量,7L水箱,适用面积<61㎡,45分贝低噪",
-          "jd_sales": "中关村在线报价:京东格力天硕专卖店特价促销",
-          "color": "#0369A1"
-        },
-        {
-          "name": "格力 DH40EF 除湿机 天猫GREE官方旗舰店",
-          "price": "¥2180",
-          "advantage": "压缩机式智能除湿,微电脑控制,官方旗舰店渠道",
-          "jd_sales": "中关村在线报价:天猫官旗特价,包邮",
-          "color": "#0284C7"
-        },
-        {
-          "name": "美的 HDY22L 石墨烯踢脚线取暖器 2200W",
-          "price": "南方无供暖家庭配套参考机型",
-          "advantage": "石墨烯导热+IP24防水+智能恒温,与除湿机搭配解决南方湿冷",
-          "jd_sales": "新浪财经秋冬刚需家电合集:南方优先除湿+取暖搭配",
-          "color": "#2563EB"
-        }
-      ]
-    },
-    {
-      "product": "抗初老面霜 200-400 元档",
-      "items": [
-        {
-          "name": "巴黎欧莱雅 小蜜罐 4.0 胶原面霜 滋润版 60ml 超分子重组胶原",
-          "price": "¥259.95(到手120ml)",
-          "advantage": "超分子重组胶原+玻色因PRO+黄金胜肽,丝缎质地润而不腻",
-          "jd_sales": "什么值得买实锤:京东339元,需用券到手259.95元",
-          "color": "#F59E0B",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_5.jpg"
-        },
-        {
-          "name": "娇韵诗 至臻凝时面霜 50ml",
-          "price": "约¥2800",
-          "advantage": "月光花精萃温和修护,提亮淡干纹",
-          "jd_sales": "腾讯搜索横评:轻熟龄敏感肌可入围,预算充足偏好温和植萃",
-          "color": "#DB2777"
-        },
-        {
-          "name": "海蓝之谜 奇迹晚霜 30ml",
-          "price": "¥1995起",
-          "advantage": "科技绒感膜快速成膜,1夜8重抗老,次日肤质+8%",
-          "jd_sales": "腾讯搜索横评:预算充足+要夜间修护主力首选",
-          "color": "#BE185D"
-        },
-        {
-          "name": "欧莱雅 小蜜罐 60ml*2罐 88VIP",
-          "price": "¥431(天猫国际)",
-          "advantage": "88VIP 95折+满200减25+立减120,双罐装折算更优",
-          "jd_sales": "什么值得买爆料:天猫国际活动售价600元,叠加优惠实付431元",
-          "color": "#FCD34D"
+          "name": "百丽 羊皮英伦风乐福鞋",
+          "price": "¥229",
+          "advantage": "头层羊皮质感, 2-3cm 低跟软底, 一脚蹬通勤百搭, 真皮入门性价比标杆",
+          "jd_sales": "新浪乐福鞋横评: 200-300 元档性价比最高, 羊皮比同价位PU款值三倍",
+          "color": "#78350F"
         }
       ]
     }
   ],
   "hotProducts": [
     {
-      "name": "迪卡侬 DECATHLON MH500 三合一冲锋衣 男户外防风防水硬壳",
-      "category": "户外服饰",
-      "price": "¥330-375",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_1.jpg",
-      "sales": "什么值得买实测对比:同价位段防水透气参数无明显短板",
-      "platform": "京东自营 / 线下门店"
+      "name": "李宁 LINING 雷霆小钢炮 AYPT307-4 全碳素羽毛球拍 4U 快攻入门",
+      "category": "运动器材·羽毛球拍",
+      "price": "¥220",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_1.jpg",
+      "sales": "爱企查横评: 与 ARC8/9500Pro 同列 200-300 元入门级神拍, 京东参考价 220 元",
+      "platform": "京东自营 / 天猫李宁官方旗舰店"
     },
     {
-      "name": "Amazfit 跃我 GTR 3 Pro 智能手表 曜石黑 双频五星定位 21天续航",
-      "category": "智能穿戴",
-      "price": "¥999",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_2.jpg",
-      "sales": "京东双十一智能手表畅销单品,ZOL 两篇榜单在选",
-      "platform": "京东自营"
+      "name": "恒源祥 100%羊毛汽车坐垫三件套 短羊毛绒 冬季保暖 新能源车适配",
+      "category": "汽车用品·羊毛坐垫",
+      "price": "¥428",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_2.jpg",
+      "sales": "新浪汽车: 常卖价 428 元 / 历史低价 403 元, 专为特斯拉理想蔚来适配",
+      "platform": "天猫恒源祥官方旗舰店"
     },
     {
-      "name": "九阳 Joyoung 小旋风 B70(PB-UL5B70) 变频轻音 1.75L 破壁机",
-      "category": "厨房小电",
-      "price": "¥448.89",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_3.jpg",
-      "sales": "什么值得买 10/07 历史低价 480.37 元,当前实付 448.89 元",
-      "platform": "九阳京东自营旗舰店"
+      "name": "爷爷的农场 有机高铁米粉 250g 二价铁 6月龄宝宝第一口辅食",
+      "category": "母婴辅食·高铁米粉",
+      "price": "¥65",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_3.jpg",
+      "sales": "新浪 2026年9月实测横评: 铁含量 6.26mg/100g 补铁效率全场第一",
+      "platform": "天猫 / 京东旗舰店"
     },
     {
-      "name": "格力 GREE DH40EF 家用除湿机 40L/天 大容量 干衣防霉 智能恒湿",
-      "category": "家居环境",
-      "price": "¥1200-1500",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_4.jpg",
-      "sales": "新浪选购指南:40L旗舰覆盖90-120㎡,可叠加以旧换新约162元",
-      "platform": "京东 / 天猫 GREE 官方旗舰店"
+      "name": "公牛 ML-A012A-DS 爱眼台灯 SR 皓月白 国AA级读写台灯 4000K",
+      "category": "照明灯具·护眼台灯",
+      "price": "¥399",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_4.jpg",
+      "sales": "腾讯/廊坊实测: 国AA级+RG0+Ra95+4000K 硬指标齐全, 国民品牌 CCC 认证",
+      "platform": "京东自营 / 线下五金渠道"
     },
     {
-      "name": "巴黎欧莱雅 小蜜罐 4.0 胶原面霜 滋润版 60ml 超分子重组胶原",
-      "category": "美妆护肤",
-      "price": "¥259.95",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-13_product_5.jpg",
-      "sales": "什么值得买实锤:京东 339 元,需用券到手 259.95 元(赠 60ml)",
-      "platform": "京东自营 / 天猫官方旗舰店"
+      "name": "TATA他她 卢昱晓同款喵爪靴 弹力加绒短靴 2026冬 小棕皮",
+      "category": "鞋靴·加绒短靴",
+      "price": "¥364",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-14_product_5.jpg",
+      "sales": "爱美日记扫描天猫324个商品后: 2026年10月短靴销量榜 TOP2, 销量 7000+",
+      "platform": "天猫他她官方旗舰店"
     }
   ],
-  "dataSource": "WebSearch 真实数据 · SQLite db 导出",
-  "updateTime": "2026-10-13 07:30"
+  "dataSource": "WebSearch 真实数据 · 2026-10-14 cron 自动化抓取 (14 条来源 URL 全部可核对)",
+  "updateTime": "2026-10-14 07:30"
 }
