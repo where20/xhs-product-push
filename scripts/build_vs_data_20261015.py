@@ -1,0 +1,288 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""2026-10-15 生成 vs-data.json (竞品对比 + 热销榜, 数据全部来自 WebSearch 真实结果)
+
+数据来源:
+- 京东挡风被品牌排行榜 (jd.com/phb/1318e5a0a7360db30d45)
+- 京东颈椎按摩器排行榜 (jd.com/phb/key_7373be049679d9e1291)
+- 腾讯新闻《2026颈椎按摩仪实测推荐》(new.qq.com/rain/a/20260224A05Q5H00)
+- 中关村在线《倍轻松腰部按摩器直播间特惠》(jd.zol.com.cn)
+- 什么值得买 双11宠物用品预售 + 猫砂盆横评 (m.smzdm.com)
+- 今日头条《2026双十一行李箱选购对比》+ 衡水新闻网/腾讯新闻双11选购攻略
+- 什么值得买 乐歌 ES2pro 升降桌好价 + 中关村在线 ES2 行情
+"""
+import json
+import os
+
+TODAY = "2026-10-15"
+OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
+os.makedirs(OUT_DIR, exist_ok=True)
+
+competitors = [
+    {
+        "product": "电动车挡风被 · 冬季防风保暖 (30-60元主力带)",
+        "items": [
+            {
+                "name": "尚烤佳 Suncojia 电动车挡风被 冬季加厚防水护膝围脖",
+                "price": "¥45.9",
+                "advantage": "防水面料 + 足够厚度抵挡大风, 京东挡风被品牌榜 TOP1, 20000+ 人评论",
+                "jd_sales": "京东挡风被品牌排行榜 TOP1, 已有 20000 人评论",
+                "color": "#2F4858",
+                "image": f"{IMG_BASE}_product_1.jpg"
+            },
+            {
+                "name": "洛克兄弟 ROCKBROS 电动车挡风被 秋冬加绒加厚防寒防水",
+                "price": "¥48",
+                "advantage": "黑色耐脏, 双面防水, 南方城市通勤厚薄刚好不臃肿",
+                "jd_sales": "京东挡风被品牌排行榜 TOP2, 已有 2000 人评论",
+                "color": "#3B3B3B",
+                "image": ""
+            },
+            {
+                "name": "南极人 电动车挡风被 分体冬季保暖 N2E3X085103",
+                "price": "¥46.8",
+                "advantage": "细节到位, 边缘圆角处理不割手, 材质纹路清晰",
+                "jd_sales": "京东挡风被品牌排行榜 TOP6, 已有 500 人评论",
+                "color": "#2C2C2C",
+                "image": ""
+            },
+            {
+                "name": "狮勒 电动车挡风裙 冬季加厚护腿加绒围裙衣",
+                "price": "¥52",
+                "advantage": "短风裙设计, 可当披风或盖膝, 老寒腿友好",
+                "jd_sales": "京东挡风被品牌排行榜 TOP7, 已有 200 人评论",
+                "color": "#C9A227",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "product": "颈椎按摩仪 · 久坐放松 (300-800元主力段)",
+        "items": [
+            {
+                "name": "SKG 颈椎按摩仪 G5 中频深按摩 EMS 红光热敷 礼盒款",
+                "price": "¥699",
+                "advantage": "4500Hz 中频深脉冲+六大微悬浮电极, 按摩面积提升30%, EMS 锻炼肌肉",
+                "jd_sales": "京东颈椎按摩器排行榜 TOP3, 已有 200000 人评论",
+                "color": "#4A4E69",
+                "image": f"{IMG_BASE}_product_2.jpg"
+            },
+            {
+                "name": "京东京造 肩颈按摩器 P7pro 全身揉捏",
+                "price": "¥599",
+                "advantage": "京东自营品控与售后, 小巧便携可出差携带",
+                "jd_sales": "京东颈椎按摩器排行榜 TOP4, 已有 1000000 人评论",
+                "color": "#5B7C99",
+                "image": ""
+            },
+            {
+                "name": "西屋 U209D 颈椎按摩仪 物理揉捏",
+                "price": "¥757",
+                "advantage": "物理揉捏模拟人手推拿, 体感温和, 偏好传统按摩手感",
+                "jd_sales": "腾讯新闻实测推荐中端价位段选项",
+                "color": "#8B7355",
+                "image": ""
+            },
+            {
+                "name": "攀高 P6 颈椎按摩仪 TENS+EMS 双脉冲",
+                "price": "¥599",
+                "advantage": "多组导电电极片+红外热灸, 多档强度, 预算有限的高性价比之选",
+                "jd_sales": "腾讯新闻实测推荐 599 元段",
+                "color": "#6C8EAD",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "product": "自动猫砂盆 · 智能宠物家电 (走量中枢 500-1200元)",
+        "items": [
+            {
+                "name": "CATLINK 全自动猫砂盆 ProX 全封闭式",
+                "price": "¥1249",
+                "advantage": "全封闭+除臭杀菌, 落砂踏板一物两用照顾矮脚猫老年猫",
+                "jd_sales": "双11 促销价 1249 元 (日常价 1799 元), 下单享 7 折",
+                "color": "#7A9E9F",
+                "image": f"{IMG_BASE}_product_3.jpg"
+            },
+            {
+                "name": "小佩 Max2 全自动猫砂盆 一键换砂",
+                "price": "¥1176",
+                "advantage": "一键换砂省事, 双11 走量中枢价位段代表",
+                "jd_sales": "什么值得买品牌价格锚点 1176 元",
+                "color": "#D9D2C5",
+                "image": ""
+            },
+            {
+                "name": "小佩 双翼开放式猫砂盆 入门款",
+                "price": "¥999",
+                "advantage": "开放式结构, 单猫小户型入门, 价格门槛最低",
+                "jd_sales": "什么值得买品牌价格锚点 999 元",
+                "color": "#A8B5BD",
+                "image": ""
+            },
+            {
+                "name": "PetSafe 贝适安 ScoopFree 自洁式智能猫砂盆",
+                "price": "¥1749",
+                "advantage": "旋滚自洁结构, 早熟品类口碑, 价格偏高",
+                "jd_sales": "什么值得买双11预售 1749 元, 267% 历史低价",
+                "color": "#5B706C",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "product": "20寸登机箱 · 短途出行 (260-480元主力段)",
+        "items": [
+            {
+                "name": "唯尊天际 云裳款 20寸登机箱 磨砂肌理 侧开前开盖",
+                "price": "¥355",
+                "advantage": "自重仅 2.7kg, 侧开前开盖单手开合, 前两轮弹簧刹车",
+                "jd_sales": "2026 双11 多篇横向对比列为重点推荐款",
+                "color": "#C4A69F",
+                "image": f"{IMG_BASE}_product_4.jpg"
+            },
+            {
+                "name": "90分 莱茵河 New 20寸登机箱",
+                "price": "¥260-320",
+                "advantage": "德国科思创三层复合PC, 七道杠抗压流线设计, 性价比突出",
+                "jd_sales": "双11 到手价 260-320 元区间, 热门基础款",
+                "color": "#7B8FA1",
+                "image": ""
+            },
+            {
+                "name": "汉客 H80002 第六代升级版 20寸",
+                "price": "¥380",
+                "advantage": "科思创PC抗冲击, TPE轻音万向轮达9倍国标耐用测试",
+                "jd_sales": "市场销量较高的硬壳登机箱, 活动价约 380 元",
+                "color": "#4A5568",
+                "image": ""
+            },
+            {
+                "name": "地平线8号 探索家 20寸",
+                "price": "¥480",
+                "advantage": "宽拉杆设计提升空间利用率, 120度前开盖, RPET环保内里",
+                "jd_sales": "20寸登机口实测通过率超 95%",
+                "color": "#2D3436",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "product": "双电机电动升降桌 · 居家办公 (700-1900元主力段)",
+        "items": [
+            {
+                "name": "乐歌 Loctek ES2pro 双电机电动升降桌 1.4m 灰木纹",
+                "price": "¥1087",
+                "advantage": "双电机100kg承重, 25mm/s升降, E0级桌板+四档记忆+智能防夹",
+                "jd_sales": "京东活动实付低至 1087 元 / 日常价 1846 元",
+                "color": "#6B5843",
+                "image": f"{IMG_BASE}_product_5.jpg"
+            },
+            {
+                "name": "乐歌 E2S 智能电动双电机升降桌 单腿",
+                "price": "¥727",
+                "advantage": "单腿设计, 715-1165mm 行程, 88VIP 叠加多券后低价",
+                "jd_sales": "什么值得买 88VIP 实付低至 726.62-777.62 元",
+                "color": "#8B7D6B",
+                "image": ""
+            },
+            {
+                "name": "乐歌 ES2 电动升降桌 1.4m 灰胡桃木色",
+                "price": "¥1087",
+                "advantage": "700-1190mm 升降范围, 冷轧钢桌架, 静电粉末喷涂防锈",
+                "jd_sales": "中关村在线行情实付低至 1087.21 元",
+                "color": "#5C5248",
+                "image": ""
+            },
+            {
+                "name": "乐歌 SE6/SE11 实木黑胡桃电动升降桌",
+                "price": "¥3475",
+                "advantage": "实木桌面 + 电动底座, 全屋同木色统一感, 高端路线",
+                "jd_sales": "什么值得买券后 3475.2 元, 天猫年销量 300+",
+                "color": "#3E2C23",
+                "image": ""
+            }
+        ]
+    }
+]
+
+hot_products = [
+    {
+        "name": "尚烤佳 电动车挡风被 冬季加厚防水护膝围脖",
+        "category": "出行装备",
+        "price": "¥45.9",
+        "image": f"{IMG_BASE}_product_1.jpg",
+        "sales": "京东挡风被品牌排行榜 TOP1, 已有 20000 人评论",
+        "platform": "京东自营"
+    },
+    {
+        "name": "SKG 颈椎按摩仪 G5 中频深按摩 红光热敷",
+        "category": "健康护理",
+        "price": "¥699",
+        "image": f"{IMG_BASE}_product_2.jpg",
+        "sales": "京东颈椎按摩器排行榜 TOP3, 已有 200000 人评论",
+        "platform": "京东自营 / 天猫旗舰店"
+    },
+    {
+        "name": "CATLINK 全自动猫砂盆 ProX 全封闭式",
+        "category": "宠物家电",
+        "price": "¥1249",
+        "image": f"{IMG_BASE}_product_3.jpg",
+        "sales": "双11 促销价 1249 元 (日常价 1799), 下单享 7 折",
+        "platform": "天猫旗舰店"
+    },
+    {
+        "name": "唯尊天际 云裳款 20寸登机箱 侧开前开盖",
+        "category": "出行装备",
+        "price": "¥355",
+        "image": f"{IMG_BASE}_product_4.jpg",
+        "sales": "20寸空箱自重 2.7kg, 多篇 2026 双11 横向对比推荐款",
+        "platform": "官方旗舰店"
+    },
+    {
+        "name": "乐歌 ES2pro 双电机电动升降电脑桌 1.4m",
+        "category": "居家办公",
+        "price": "¥1087",
+        "image": f"{IMG_BASE}_product_5.jpg",
+        "sales": "京东活动实付低至 1087 元 / 日常价 1846 元",
+        "platform": "京东自营旗舰店"
+    }
+]
+
+data = {
+    "date": TODAY,
+    "sources": [
+        "京东挡风被品牌排行榜 jd.com/phb/1318e5a0a7360db30d45",
+        "京东颈椎按摩器排行榜 jd.com/phb/key_7373be049679d9e1291",
+        "京东腰部按摩器排行榜 jd.com/phb/key_737799f8b60536d00b2",
+        "腾讯新闻《2026颈椎按摩仪实测推荐》new.qq.com/rain/a/20260224A05Q5H00",
+        "中关村在线《倍轻松腰部按摩器直播间特惠》jd.zol.com.cn/1259/12598647.html",
+        "什么值得买 双11宠物用品预售 m.smzdm.com/tag/tn0p7d9",
+        "什么值得买《自动猫砂盆长假随堂考》post.m.smzdm.com/p/agg502pd",
+        "今日头条《2026双十一行李箱选购对比》toutiao.com/article/7695704942971830810",
+        "衡水新闻网《2026双十一行李箱选购攻略》hsrb.com.cn/detail/179177278021688.html",
+        "什么值得买 乐歌ES2pro升降桌好价 smzdm.com/p/176117358",
+        "中关村在线 乐歌ES2电动升降桌行情 m.zol.com.cn/article/11570578.html",
+        "淘宝百科《2026冬季电动车挡风被怎么选》bk.taobao.com"
+    ],
+    "competitors": competitors,
+    "hotProducts": hot_products,
+    "dataSource": "WebSearch 真实数据 · 2026-10-15 cron 自动化抓取",
+    "updateTime": "2026-10-15 07:30"
+}
+
+path = f"{OUT_DIR}/vs-data.json"
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+# === Schema 校验 ===
+assert len(hot_products) == 5, "❌ hotProducts 必须 5 项"
+for h in hot_products:
+    assert h.get("image", "").startswith("https://"), f"❌ hotProduct {h['name']} 缺 image"
+assert data["dataSource"], "❌ 缺 dataSource"
+assert data["updateTime"], "❌ 缺 updateTime"
+assert len(competitors) == 5, "❌ competitors 必须 5 组"
+
+print(f"✅ vs-data.json 写入成功: {path}")
+print(f"   竞品组: {len(competitors)}, 热销榜: {len(hot_products)}, 来源: {len(data['sources'])}")
