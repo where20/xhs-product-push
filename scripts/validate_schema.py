@@ -17,8 +17,8 @@ import os
 import sqlite3
 import sys
 
-DB_PATH = "/Users/xiaoan/WorkBuddy/xhs-product-push/xhs_push.db"
-TASK_DIR = "/Users/xiaoan/WorkBuddy/xhs-product-push"
+DB_PATH = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/xhs_push.db"
+TASK_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push"
 
 
 def validate_db(date_str: str) -> list:
@@ -53,13 +53,27 @@ def validate_db(date_str: str) -> list:
             errors.append(f"❌ products 应 5 个, db 里 {len(products)}")
 
         # 3. product_competitors
+        # 10/17 修正: 原为硬编码 `n_comp != 20` (5 组 × 4 项)。
+        # 该数字只是 9/2 那天恰好每组 4 条的快照, 不是数据完整性约束 ——
+        # 竞品条目按当天搜索深度浮动是正常的 (10/17 每组 5 条 / 共 25 条)。
+        # 改为「每组至少 4 条」: 仍然能抓到整组缺失, 但不惩罚更丰富的选品日。
+        MIN_PER_GROUP = 4
         cur = conn.execute(
-            "SELECT COUNT(*) FROM product_competitors pc JOIN products p ON p.id = pc.product_pk WHERE p.run_id = ?",
+            """SELECT p.product_id, COUNT(pc.id)
+               FROM products p
+               LEFT JOIN product_competitors pc ON pc.product_pk = p.id
+               WHERE p.run_id = ?
+               GROUP BY p.product_id
+               ORDER BY p.product_id""",
             (run_id,),
         )
-        n_comp = cur.fetchone()[0]
-        if n_comp != 20:  # 5 组 × 4 项
-            errors.append(f"❌ product_competitors 应 20, db 里 {n_comp}")
+        comp_groups = cur.fetchall()
+        for pid, n in comp_groups:
+            if n < MIN_PER_GROUP:
+                errors.append(
+                    f"❌ product {pid} 竞品仅 {n} 项, 至少需 {MIN_PER_GROUP} 项"
+                )
+        n_comp = sum(n for _, n in comp_groups)
 
         # 4. 主推商品 (is_main=1) 必须有 image
         cur = conn.execute(
