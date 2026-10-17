@@ -2,7 +2,7 @@
 # gen_images_20261013.sh — 2026-10-13 5 商品 1:1 配图 (mmx image generate)
 # 选品: 迪卡侬冲锋衣 / Amazfit 智能手表 / 九阳破壁机 / 格力除湿机 / 欧莱雅面霜
 set -u
-OUT=/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-10-13/images
+OUT=/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-10-13/images
 mkdir -p "$OUT"
 
 gen() {

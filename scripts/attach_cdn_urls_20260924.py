@@ -6,7 +6,7 @@
 import json
 from pathlib import Path
 
-OUT_DIR = Path('/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-24')
+OUT_DIR = Path('/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-09-24')
 
 with open(OUT_DIR / 'uploaded_urls.json', 'r', encoding='utf-8') as f:
     log = json.load(f)

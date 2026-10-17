@@ -23,7 +23,7 @@
 import json
 import os
 
-TASK_DIR = "/Users/xiaoan/WorkBuddy/xhs-product-push"
+TASK_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push"
 TODAY = "2026-10-03"
 OUT_DIR = os.path.join(TASK_DIR, "output", TODAY)
 IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"

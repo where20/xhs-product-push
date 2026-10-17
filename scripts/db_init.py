@@ -9,7 +9,7 @@ import os
 import sqlite3
 import sys
 
-DB_PATH = "/Users/xiaoan/WorkBuddy/xhs-product-push/xhs_push.db"
+DB_PATH = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/xhs_push.db"
 
 
 SCHEMA = """

@@ -30,7 +30,7 @@ const prompts = [
   }
 ];
 
-const OUT_DIR = '/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-09/images';
+const OUT_DIR = '/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-09-09/images';
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
 function genImage(prompt) {

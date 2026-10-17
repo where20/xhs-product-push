@@ -16,7 +16,7 @@ import json
 import os
 
 DATE = "2026-10-12"
-OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{DATE}"
+OUT_DIR = f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{DATE}"
 IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{DATE}"
 os.makedirs(OUT_DIR, exist_ok=True)
 

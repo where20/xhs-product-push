@@ -15,7 +15,7 @@ import os
 
 TODAY = "2026-10-07"
 IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
-OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+OUT_DIR = f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{TODAY}"
 
 sources = [
     "什么值得买 smzdm.com《珐琅锅》《瑜伽垫》《【磨毛床单被套】》排行榜（2026-10-07 抓取）",

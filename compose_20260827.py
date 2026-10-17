@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 TODAY = "2026-08-27"
 WS_DIR = "/Users/xiaoan/.minimax/sessions/mvs_d7b4e76ce61d449d81ef32e4659d16a1/workspace"
-OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+OUT_DIR = f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{TODAY}"
 IMG_W = 1080
 CARD_H = 1200   # 每张卡高度
 PAD = 24

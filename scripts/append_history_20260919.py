@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-HIST = Path('/Users/xiaoan/WorkBuddy/xhs-product-push/history/history.json')
+HIST = Path('/Users/xiaoan/Documents/TimeTask/xhs-product-push/history/history.json')
 TODAY = '2026-09-19'
 
 with open(HIST, 'r', encoding='utf-8') as f:

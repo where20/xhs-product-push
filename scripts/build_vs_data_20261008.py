@@ -15,7 +15,7 @@ import os
 
 TODAY = "2026-10-08"
 IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
-OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+OUT_DIR = f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{TODAY}"
 
 sources = [
     "什么值得买 smzdm.com《小熊 焖烧杯 316不锈钢 500ml》爆料（2026-10 抓取）",

@@ -1,7 +1,7 @@
 #!/bin/bash
 # gen_images_20261012.sh — 2026-10-12 5 商品 1:1 配图 (mmx image generate)
 set -u
-OUT=/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-10-12/images
+OUT=/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-10-12/images
 mkdir -p "$OUT"
 
 gen() {

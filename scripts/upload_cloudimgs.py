@@ -55,7 +55,7 @@ def main():
         print("usage: upload_cloudimgs.py <date>")
         sys.exit(1)
     date = sys.argv[1]
-    out_dir = Path(f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{date}")
+    out_dir = Path(f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{date}")
     if not out_dir.is_dir():
         print(f"❌ output dir not found: {out_dir}")
         sys.exit(2)

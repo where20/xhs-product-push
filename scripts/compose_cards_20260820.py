@@ -6,7 +6,7 @@ import os
 
 PYTHON_BIN = "/Users/xiaoan/.workbuddy/binaries/python/versions/3.13.12/bin/python3"
 FONT_PATH = "/System/Library/Fonts/STHeiti Light.ttc"
-OUT_DIR = "/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-08-20"
+OUT_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-08-20"
 DATA_FILE = f"{OUT_DIR}/data.json"
 CARD_W = 1080
 

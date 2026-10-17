@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-OUT_DIR = Path('/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-20')
+OUT_DIR = Path('/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-09-20')
 IMG_DIR = OUT_DIR / 'images'
 IMG_DIR.mkdir(parents=True, exist_ok=True)
 

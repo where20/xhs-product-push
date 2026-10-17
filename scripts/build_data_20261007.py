@@ -19,7 +19,7 @@ import os
 
 TODAY = "2026-10-07"
 IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
-OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+OUT_DIR = f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{TODAY}"
 
 products = [
     {

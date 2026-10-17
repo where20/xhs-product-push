@@ -7,7 +7,7 @@ vs-data.json: 5 个商品 vs 各赛道 Top3 竞品 + 5 个 hotProducts + sources
 import json
 from pathlib import Path
 
-OUT_DIR = Path('/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-29')
+OUT_DIR = Path('/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-09-29')
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 PLACEHOLDER_IMG = ""

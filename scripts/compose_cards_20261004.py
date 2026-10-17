@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 # === 配置 ===
 TODAY = "2026-10-04"
-OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+OUT_DIR = f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{TODAY}"
 FONT_PATH = "/System/Library/Fonts/STHeiti Light.ttc"
 WIDTH = 1080
 CARD_H = 3000

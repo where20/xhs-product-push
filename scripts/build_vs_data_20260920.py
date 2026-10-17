@@ -8,7 +8,7 @@ schema 兼容 db_save.py (扁平 competitor → 分组 competitors/items)
 import json
 from pathlib import Path
 
-OUT_DIR = Path('/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-20')
+OUT_DIR = Path('/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-09-20')
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 PLACEHOLDER_IMG = ""

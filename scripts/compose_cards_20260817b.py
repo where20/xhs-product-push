@@ -7,7 +7,7 @@ import os
 # 配置
 PYTHON_SYS = "/usr/bin/python3"
 FONT_PATH = "/System/Library/Fonts/STHeiti Light.ttc"
-OUT_DIR = "/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-08-17"
+OUT_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-08-17"
 DATA_FILE = f"{OUT_DIR}/data.json"
 CARD_W = 1080
 

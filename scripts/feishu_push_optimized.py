@@ -13,7 +13,14 @@ env.json 里 feishu.webhook_url 提供真实 webhook 地址
 import json, os, sys, glob, urllib.request, urllib.error
 
 CRED_FILE = os.path.expanduser("~/.minimax/credentials/general/feishu.json")
-ENV_FILE = "/Users/xiaoan/WorkBuddy/config/env.json"
+# 2026-10-15: 收敛到 TimeTask 项目内 config/。按脚本位置相对解析,
+# 任务目录再次搬迁时无需改这里。
+# 层级: <project>/xhs-product-push/scripts/feishu_push_optimized.py → 上溯 3 层到 <project>
+ENV_FILE = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+    "config",
+    "env.json",
+)
 
 # 2026-09-30 修复: 本机残留死代理 127.0.0.1:6696 (VPN 客户端未运行) 导致
 # urllib.request 全部报 [Errno 61] Connection refused, 飞书推送 100% 失败。

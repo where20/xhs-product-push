@@ -5,7 +5,7 @@
 export HTTPS_PROXY=http://127.0.0.1:7897
 export HTTP_PROXY=http://127.0.0.1:7897
 set -u
-OUT=/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-10-14/images
+OUT=/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-10-14/images
 mkdir -p "$OUT"
 
 gen() {

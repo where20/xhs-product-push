@@ -20,8 +20,8 @@ import sqlite3
 import sys
 import time
 
-DB_PATH = "/Users/xiaoan/WorkBuddy/xhs-product-push/xhs_push.db"
-TASK_DIR = "/Users/xiaoan/WorkBuddy/xhs-product-push"
+DB_PATH = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/xhs_push.db"
+TASK_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push"
 
 
 def _row_to_dict(row, cursor):

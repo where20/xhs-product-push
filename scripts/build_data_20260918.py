@@ -19,7 +19,7 @@ import json
 import os
 
 TODAY = "2026-09-18"
-OUT_DIR = "/Users/xiaoan/WorkBuddy/xhs-product-push/output/" + TODAY
+OUT_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/" + TODAY
 os.makedirs(OUT_DIR, exist_ok=True)
 os.makedirs(OUT_DIR + "/images", exist_ok=True)
 IMG_BASE = "https://cloudimgs.iepose.cn/api/images/" + TODAY

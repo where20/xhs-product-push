@@ -23,7 +23,7 @@ import json
 from pathlib import Path
 
 TODAY = "2026-09-30"
-OUT_DIR = Path(f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}")
+OUT_DIR = Path(f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{TODAY}")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
 

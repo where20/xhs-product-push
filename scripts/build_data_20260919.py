@@ -9,7 +9,7 @@ import json
 import os
 from pathlib import Path
 
-OUT_DIR = Path('/Users/xiaoan/WorkBuddy/xhs-product-push/output/2026-09-19')
+OUT_DIR = Path('/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-09-19')
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # 图床占位字段（待 upload_cloudimgs.py 上传后回填）

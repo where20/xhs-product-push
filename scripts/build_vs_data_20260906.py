@@ -4,7 +4,7 @@ import json
 import os
 
 TODAY = "2026-09-06"
-OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+OUT_DIR = f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{TODAY}"
 IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
 
 vs = {

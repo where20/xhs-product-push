@@ -7,7 +7,7 @@
 - landing page 数据更新
 
 ## 必读
-- `/Users/xiaoan/WorkBuddy/common.sh` 加载环境变量
+- `/Users/xiaoan/Documents/TimeTask/config/xhs.env.sh` 加载环境变量
 - 凭证: `~/.minimax/credentials/general/feishu.json` (appId/appSecret, 真实)
 - 图床: `cloudimgs.iepose.cn` POST /api/upload-file
 - 历史参考: `memory/$(date -d yesterday +%Y-%m-%d).md` (昨天的执行日志)
@@ -22,7 +22,7 @@ SQLite 约束保证 `products.image` / `hotProducts.image` NOT NULL,
 
 ### 1. 加载环境
 ```bash
-source /Users/xiaoan/WorkBuddy/common.sh
+source /Users/xiaoan/Documents/TimeTask/config/xhs.env.sh
 echo "TASK_XHS_DIR=$TASK_XHS_DIR IMG_HOST_PRIMARY=$IMG_HOST_PRIMARY"
 ```
 

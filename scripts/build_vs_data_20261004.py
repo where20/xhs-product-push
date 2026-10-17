@@ -11,7 +11,7 @@ import os
 
 TODAY = "2026-10-04"
 IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
-OUT_DIR = f"/Users/xiaoan/WorkBuddy/xhs-product-push/output/{TODAY}"
+OUT_DIR = f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{TODAY}"
 
 sources = [
     f"小红书电商学习中心《小红书种草学:2026 年小红书双11 趋势分析》(187 页) sgpjbg.com/labels/xiaohongshushuang11qushifenxi/1/7605461.html ({TODAY} 抓取)",
