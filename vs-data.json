@@ -1,268 +1,255 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "sources": [
-    "京东生鲜 11.11 官方通稿 · 金秋食蟹火锅开局秋补上桌 (http://www.zkxww.com/news/zhzx/2026-10-12/429824.html)",
-    "今日头条 · 10月必吃应季食材清单!秋冬润燥补身,平价新鲜不踩雷 (https://www.toutiao.com/article/7694817426365547058)",
-    "今日头条 · 2026蓝牙音箱音质耐用双强榜TOP10,闭眼入不踩雷 (https://m.toutiao.com/article/7642679928865735218)",
-    "搜狐 · 2026便携蓝牙音箱对比测评 黑鲨磁吸小钢炮 vs JBL Clip 5 等 (https://www.sohu.com/a/1061559104_121081803)",
-    "新浪网 · 2026智能门锁哪个品牌好性价比高?5款实测对比+FAQ (https://k.sina.com.cn/article_7879996008_1d5af326806801me3u.html)",
-    "新浪网 · 智能门锁哪个品牌的性价比最高? (https://www.sina.cn/gc/article/niufsvp3772484.html)",
-    "新民周刊 · 2026机洗囤货洗衣凝珠怎么挑?100元左右好用的洗衣凝珠盘点 (https://www.xinminweekly.com.cn/shenghuo/2026/08/27/50650.html)",
-    "买购网 · 洗衣凝珠选购攻略指南 (https://www.maigoo.com/product/list_7172.html)",
-    "京东 · 进口洗衣凝珠排行榜 (https://m.jd.com/phb/key_159010bc854a179fb12b3.html)",
-    "买购网 · 2026年十款热门316不锈钢保温杯产品榜 (https://m.maigoo.com/product/specs_11554.html)",
-    "京东 · 316不锈钢水杯品牌排行榜 (https://www.jd.com/phb/619663816649b478d8c5.html)",
-    "京东 · 保温杯新款品牌排行榜 (https://www.jd.com/phb/619659788978d4742843.html)"
+    "Neodrop · 10月8日全平台爆款清单:抖音前十全是秋冬保暖件,儿童占了五席 (2026) (https://neodrop.ai/zh-cn/post/tSar-m9ZnXW)",
+    "什么值得买 · 299元 飞利浦 小云肩Air加热披肩电热披毯暖身毯盖腿发热斗篷水洗 暖阳棕 (https://m.smzdm.com/p/183769927)",
+    "慢慢买 · 飞利浦暖身毯 全网优惠汇总 (https://cu.manmanbuy.com/DingyueDetail.aspx?PageID=&id=feilipunuanshentan&type=keyword)",
+    "京东 · 歐尼娜披肩排行榜 (https://www.jd.com/phb/key_13158b9dac6eee8be5f6.html)",
+    "京东 · 100纯羊绒围巾排行榜 (https://www.jd.com/phb/key_131522e16eae4eb0389c.html)",
+    "京东 · 羊绒围巾包装排行榜 (https://www.jd.com/phb/key_13151502b27bdcd188c1.html)",
+    "识货 · JIUMU/玖慕 保暖100%小山羊绒围巾 WR096 价格与渠道 (https://m.shihuo.cn/page/goodsDetail/6653293?goodsId=6653293&skuId=942396091&styleId=336612490)",
+    "慢慢买 · 玖慕(JIUMU)品牌全网折扣汇总 (https://zhekou.manmanbuy.com/pinpai/jiumu36281)",
+    "什么值得买 · 京东京造 一级不粘 纯钛炒锅 32cm (https://m.smzdm.com/p/183712727)",
+    "什么值得买 · 京东京造 有钛无涂层精铁炒锅 32cm (https://m.smzdm.com/p/183865284)",
+    "买购网 · 2026年十款热门纯钛炒锅产品榜 (https://www.maigoo.com/product/specs_14732.html)",
+    "今日头条 · 钛厨具到底好不好?和传统厨具比有什么优势,在哪买正品? (https://www.toutiao.com/article/7688647106696970815)",
+    "什么值得买 · 京东京造 可折叠 扫把簸箕套装 (https://www.smzdm.com/p/183873786)",
+    "什么值得买 · 26.86元 京东京造 可折叠 扫把簸箕套装 (https://m.smzdm.com/p/177947664)",
+    "京东 · 扫把套装组合排行榜 (https://www.jd.com/phb/key_15901694e17af323d15ac.html)",
+    "京东 · 清洁工具簸箕品牌排行榜 (https://www.jd.com/phb/1590118f7f46972c01696.html)",
+    "IT之家 · 1399→987 元:小米米家智能晾衣机 3 国补新低,4 分区设计、42 英寸灯板 (https://www.ithome.com/1/013/393.htm)",
+    "新浪财经 · 1399→987 元:小米米家智能晾衣机 3 国补新低 (2026-10-15) (https://finance.sina.cn/tech/2026-10-15/detail-inivhtui7411221.d.html)",
+    "什么值得买 · 米家 26年新品小米电动晾衣架3四分区晾晒智能晾衣机 (https://m.smzdm.com/p/183987205)"
   ],
   "competitors": [
     {
-      "product": "秋月梨/应季水果 ¥20-100 价位段",
+      "product": "电热披肩/发热披毯 ¥60-400 价位段",
       "items": [
         {
-          "name": "京东生鲜 山东烟台莱阳秋月梨 8斤装 产地直发",
-          "price": "¥29.6",
-          "advantage": "烟台莱阳产地直采直发源头直供,皮薄核小清甜爆汁;性凉清润,炖冰糖雪梨压秋燥咳嗽,老少皆宜",
-          "jd_sales": "京东生鲜 11.11 官方通稿(2026-10-12)· 8斤装源头直发,单斤低至 3.7 元",
-          "color": "#E8A33D",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_1.jpg"
+          "name": "飞利浦 PHILIPS 小云肩 Air 加热披肩 石墨烯速热 可机洗 5000mAh充电宝",
+          "price": "¥299(页面价¥399)",
+          "advantage": "石墨烯速热+三档调温,披上十几秒回温;发热模块可拆可机洗,同价位少有;附赠5000mAh充电宝一次充满撑一天,通勤出差都带得动",
+          "jd_sales": "什么值得买(2026-10-11)· 京东每满399减100,页面价¥399实付¥299;京东披肩榜TOP2 已有1万人评论",
+          "color": "#D96F4A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_1.jpg"
         },
         {
-          "name": "京东生鲜 烟台红富士苹果 10斤礼盒装",
-          "price": "¥59.8(10斤装)",
-          "advantage": "单果 190g 以上大果径,脆甜多汁果香浓郁;礼盒装适合送礼,全家囤着吃更划算",
-          "jd_sales": "京东生鲜 11.11 官方通稿 · 单果 190g 以上,单斤到手 5.98 元",
-          "color": "#C0392B"
+          "name": "京东京造 石墨烯发热披肩 暖宝宝 超柔软 无线加热 3C认证",
+          "price": "京东榜单在售",
+          "advantage": "京东京造自营线,披肩类京东榜单TOP1 已有2万人评论;主打粗纹理亲肤面料,发热快、可上飞机",
+          "jd_sales": "京东·歐尼娜披肩排行榜 TOP1 · 已有20000人评论",
+          "color": "#B08968",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_1.jpg"
         },
         {
-          "name": "京东生鲜 四川爱媛38号果冻橙 4.5-5斤装",
-          "price": "¥19.9-24.9(4.5-5斤装)",
-          "advantage": "皮薄多汁、酸甜可口,果肉化渣是它的招牌;秋季补水补维C一站搞定",
-          "jd_sales": "京东生鲜 11.11 官方通稿 · 4.5-5 斤装产地直采",
-          "color": "#F39C12"
+          "name": "梦多福 电热披肩发热暖身毯 USB加热盖毯 山栀绿 三档调温 石墨烯速热",
+          "price": "¥98",
+          "advantage": "USB 免插电不用绑充电宝,三档调温 + 石墨烯速热;山栀绿配色比米白耐脏,办公场景不显廉价",
+          "jd_sales": "什么值得买(2026-09-17)· 京东 ¥98;慢买/披肩类目多款同价位在售",
+          "color": "#7C9A7E",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_1.jpg"
         },
         {
-          "name": "京东生鲜 佳沛新西兰金奇异果 22粒原箱礼盒",
-          "price": "¥79.9(22粒)",
-          "advantage": "单果 146-175g 巨大果,天然维C小金矿,低GI 高营养;送礼自食两相宜",
-          "jd_sales": "京东生鲜 11.11 官方通稿 · 海外直采 22 粒原箱礼盒",
-          "color": "#8B9A5B"
+          "name": "京严 真3C 发热披肩电热暖身毯 连帽款 9大区速热 可机洗 150cm*85cm",
+          "price": "¥98.75",
+          "advantage": "白菜价区间同样带真3C认证和9大区速热,预算有限可入;加厚法兰绒连帽款,风大时护住脖颈",
+          "jd_sales": "什么值得买(2026-09-17)· 京东 112天新低 ¥98.75",
+          "color": "#8C9A9B",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_1.jpg"
         }
       ]
     },
     {
-      "product": "便携蓝牙音箱 ¥100-900 价位段",
+      "product": "羊绒围巾/山羊绒围脖 ¥100-900 价位段",
       "items": [
         {
-          "name": "JBL Clip 5 便携蓝牙音箱 IP67",
-          "price": "¥399",
-          "advantage": "实测 1 米声压 89.1dB、低频下潜 72Hz,同价位低音最有存在感;IP67 防尘防水 + 织物橡胶外壳,365g 掌心大小带金属挂扣",
-          "jd_sales": "今日头条 2026 音质耐用双强榜 TOP10 第 7 名 · 全球销量百万+,好评率 97%,续航实测 11 小时 08 分",
-          "color": "#3E4A5A",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_2.jpg"
+          "name": "玖慕 JIUMU 100%小山羊绒围巾 WR096 驼咖格 渐变晕染 礼盒装",
+          "price": "¥450(吊牌价¥899)",
+          "advantage": "100%小山羊绒非混纺,贴脖回温不扎不闷;驼咖格渐变配色黑大衣燕麦针织都能搭;礼盒+礼品袋+防尘袋三件套,送礼不用另外包",
+          "jd_sales": "识货·WR096 京东渠道最低价¥450;京东羊绒围巾/加厚女士围巾/山羊绒披肩多榜 TOP1,已有20000人评论",
+          "color": "#A67B5B",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_2.jpg"
         },
         {
-          "name": "飞利浦 DOT 户外防水小钢炮",
-          "price": "¥329",
-          "advantage": "3 英寸全频单元,低音强劲音量大不破音,户外声场够广;硅胶全包防摔纹理,IPX7 防水",
-          "jd_sales": "今日头条 2026 音质耐用双强榜 TOP10 第 8 名 · 好评率 95%,15 小时超长续航",
-          "color": "#2C3E50"
+          "name": "万事利 WENSLI 秋冬新款 100%山羊绒围巾 30cm*164cm",
+          "price": "¥559",
+          "advantage": "国货丝绸老牌出品,100%山羊绒;天猫旗舰店常促,页面价¥659减100到¥559,品质稳定",
+          "jd_sales": "什么值得买(2025-10-27)· 天猫页面价¥659实付¥559;京东羊绒围巾榜TOP2/3 已有2000人评论",
+          "color": "#9C7B62",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_2.jpg"
         },
         {
-          "name": "索尼 SRS-XB13 便携蓝牙音箱",
-          "price": "¥599",
-          "advantage": "索尼 EXTRA BASS 重低音技术,低频下潜深回弹快;磨砂硬壳 + 防摔橡胶圈,IPX7 级防尘防水,品控严格返修率极低",
-          "jd_sales": "今日头条 2026 音质耐用双强榜 TOP10 第 5 名 · 好评率 96%,续航 16 小时",
-          "color": "#4A6741"
+          "name": "恒源祥 100%山羊绒围巾 女秋冬披肩保暖轻奢围脖 送妈妈长辈",
+          "price": "京东榜单在售",
+          "advantage": "老字号国民品牌,京东100纯羊绒围巾榜TOP6已有1000人评论;性价比路线,长辈接受度高",
+          "jd_sales": "京东·100纯羊绒围巾排行榜 TOP6 · 已有1000人评论",
+          "color": "#7D6B5D",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_2.jpg"
         },
         {
-          "name": "漫步者 M230 复古木质便携音箱",
-          "price": "¥499",
-          "advantage": "2.75 英寸中低音 + 丝膜高音,三频均衡层次分明,千元内音质天花板;木质箱体 + 金属面板质感高级",
-          "jd_sales": "今日头条 2026 音质耐用双强榜 TOP10 第 6 名 · 好评率 98%,京东 10 万+ 评论",
-          "color": "#8B6F4E"
-        },
-        {
-          "name": "Redmi 红米蓝牙音箱 2",
-          "price": "¥99",
-          "advantage": "1.5 英寸全频 + 被动辐射器,百元档音质天花板;IP67 防尘防水 + 软硅胶机身防摔防滑,一体式挂带",
-          "jd_sales": "今日头条 2026 音质耐用双强榜 TOP10 第 10 名 · 累计销量 50 万+,好评率 97%,12 小时续航",
-          "color": "#FF6900"
+          "name": "海澜之家 HLA 纯羊绒男士围巾 秋冬保暖加厚 生日礼物礼盒",
+          "price": "京东榜单在售",
+          "advantage": "男装线同样有纯羊绒款,京东羊绒围巾榜TOP5已有2000人评论;贴脖不扎,男士送礼不容易出错",
+          "jd_sales": "京东·100纯羊绒围巾排行榜 TOP5 · 已有2000人评论",
+          "color": "#6E6259",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_2.jpg"
         }
       ]
     },
     {
-      "product": "智能指纹门锁 ¥650-3000 价位段",
+      "product": "纯钛/无涂层炒锅 32cm ¥400-1400 价位段",
       "items": [
         {
-          "name": "小米智能门锁 E10 半导体指纹",
-          "price": "¥999",
-          "advantage": "C 级直插锁芯技术开锁 ≥270 分钟 + 半导体活体指纹 + 机电分离结构三件套齐活;续航标称 8 个月,20%/10%/5% 三档电量预警",
-          "jd_sales": "新浪网 2026 智能门锁实测 · 入门性价比档 999-1299 元,对比小米 5C ¥659 / E30 ¥700 / 凯迪仕 F1 ¥1299",
-          "color": "#4A5568",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_3.jpg"
+          "name": "京东京造 一级不粘 纯钛炒锅 32cm 0涂层 燃气灶电磁炉通用",
+          "price": "¥699(叠国补+PLUS低至¥371)",
+          "advantage": "100%纯钛板材0涂层,钛含量≥99%,不跟酸碱反应不串味;密度仅碳钢57%约1.2kg,女生单手颠锅老人下厨都轻松;一级不粘标准",
+          "jd_sales": "什么值得买(2026-10-10)· 页面价¥699,叠国补+PLUS实付低至¥371.1,另有多次爆料¥428-536",
+          "color": "#5A6673",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_3.jpg"
         },
         {
-          "name": "小米智能门锁 5C",
-          "price": "¥659",
-          "advantage": "AI 指纹自学习 + 双电池续航 12 个月,米家生态联动;入门价位里好评率最高的一档",
-          "jd_sales": "新浪网 2026 智能门锁性价比 · 98% 好评率,入门首选",
-          "color": "#5B6B7C"
+          "name": "京东京造 有钛无涂层 精铁炒锅 32cm",
+          "price": "¥219(叠国补¥151.2)",
+          "advantage": "精铁路线,进价更低;同样0涂层,开锅养护成本比纯钛低,预算紧的入门选择",
+          "jd_sales": "什么值得买(2026-10-12)· 页面价¥219,叠每满减+国补实付¥151.2",
+          "color": "#6B7280",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_3.jpg"
         },
         {
-          "name": "小米智能门锁 E30 半自动",
-          "price": "¥700",
-          "advantage": "半自动设计结构简单故障率低,干电池续航 1-2 年;自带免费安装,适合租户或过渡性住房",
-          "jd_sales": "新浪网 2026 智能门锁实测 · 4-8 节 5 号碱性电池可用 1-2 年",
-          "color": "#6B7A8C"
+          "name": "炊大皇 纯钛炒锅 纯钛板0涂层 32cm 假一赔十",
+          "price": "¥693.1",
+          "advantage": "老牌锅具厂商出品,买购网纯钛炒锅榜收录;标注假一赔十,材质造假有赔付兜底",
+          "jd_sales": "买购网·2026年十款热门纯钛炒锅榜 · 参考价¥693.1;京东不锈钢有钛炒锅榜TOP4已有100万人评论",
+          "color": "#7A6A5D",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_3.jpg"
         },
         {
-          "name": "VOC T11-Face 3D 人脸锁",
-          "price": "约 ¥999(千元级)",
-          "advantage": "3D 结构光人脸 + 双摄 + 5000mAh 电池,0.5-2 米可识别;实测楼道全黑环境识别成功率 100%,对老人小孩浅指纹友好",
-          "jd_sales": "新浪网 2026 智能门锁实测 · 连续开关锁 1200 次未卡顿,五年质保",
-          "color": "#2D3748"
-        },
-        {
-          "name": "凯迪仕 Q20F PRO 全自动",
-          "price": "¥1200",
-          "advantage": "3D 人脸 + 广角双摄 + 红外夜视,无光楼道也能精准识别;全国 2000+ 线下售后网点,安装维修响应快",
-          "jd_sales": "新浪网 2026 智能门锁品牌推荐 · 独居友好款,1200 元 3D 人脸档",
-          "color": "#374151"
-        },
-        {
-          "name": "德施曼 Q5F Pro 双摄版",
-          "price": "¥1400",
-          "advantage": "3D 结构光人脸 + 上下双摄 + 自动落锁,安防监控需求档;AI 生物识别算法行业领先,暗光人脸识别精准",
-          "jd_sales": "新浪网 智能门锁品牌推荐前十 · 安防监控旗舰,1400 元双摄版",
-          "color": "#1F2937"
+          "name": "苏泊尔 SUPOR 100%纯钛炒锅 无涂层不粘锅 CC32T1 32cm",
+          "price": "¥1159(参考价)",
+          "advantage": "苏泊尔是《含钛厨具京东企业标准》首批打标品牌,材质造假10倍赔付;锅身减重20%约1.2kg,贝塞尔曲线锅身受热更均",
+          "jd_sales": "买购网·2026年十款热门纯钛炒锅榜TOP1 · 参考价¥1159;什么值得买多期爆料实付区间¥417-1101",
+          "color": "#8A6F5C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_3.jpg"
         }
       ]
     },
     {
-      "product": "香氛洗衣凝珠 ¥20-210 价位段",
+      "product": "扫把簸箕套装 ¥15-50 价位段",
       "items": [
         {
-          "name": "绽家 LYCOCELLE 洗衣凝珠 桂花味 四腔 60颗",
-          "price": "¥85.9",
-          "advantage": "一颗顶六件(洗衣液+留香珠+柔顺剂+护色片+除菌液+去味);双层爆香结构拿实用新型发明专利 ZL201922503547.4,微胶囊三段式留香 30 天",
-          "jd_sales": "新民周刊 2026 洗衣凝珠盘点 + 买购网参考价 ¥85.9 · 2026 Q1 抖音衣物清洁剂自营榜 TOP3、天猫店铺榜 TOP2;京东同款 12 颗装 50 万人评论",
-          "color": "#C97B6E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_4.jpg"
+          "name": "京东京造 可折叠扫把簸箕套装 加密梳齿 不粘头发 折叠收纳",
+          "price": "¥38.8(叠满减+国补约¥26.9)",
+          "advantage": "加密梳齿头发一刮就进簸箕不用脏手;可折叠收纳,小户型卫生间洗衣机旁塞得下;扫把头可旋转,沙发底床底够得着",
+          "jd_sales": "什么值得买 · 页面价¥38.8,每满37.9减10实付¥28.8,叠国补低至¥26.86;京东扫把套装组合榜TOP3已有20万人评论",
+          "color": "#4E9B8F",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_4.jpg"
         },
         {
-          "name": "立白 洗衣凝珠三合一 208颗",
-          "price": "¥79",
-          "advantage": "单腔浓缩技术快速溶解,大容量装折算单价亲民;适合家庭日常高频使用和换季囤货",
-          "jd_sales": "京东 进口洗衣凝珠排行榜 TOP5 · 已有 500 万人评论,208 颗大容量",
-          "color": "#E74C3C"
+          "name": "索邦 扫把簸箕套装 不粘头发梳齿 防缠发 大扫除神器",
+          "price": "京东榜单在售",
+          "advantage": "扫把套装类目全网销量第一梯队,多个京东榜单TOP1;主打防缠发梳齿,养宠家庭毛发清理友好",
+          "jd_sales": "京东·扫把套装组合排行榜 TOP1 · 已有200000人评论",
+          "color": "#3E7C8C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_4.jpg"
         },
         {
-          "name": "碧浪 ARIEL 四腔洗衣凝珠 53颗家庭装",
-          "price": "¥89.9",
-          "advantage": "专业四腔分区存放不同活性成分,杀菌除螨深层清洁护色同步进行;对顽固污渍处理能力强,大量复购好评",
-          "jd_sales": "买购网洗衣凝珠榜单 · 碧浪 53 颗家庭装参考价 ¥89.9",
-          "color": "#27AE60"
+          "name": "太太乐 旋转防风梳齿型 折叠簸箕+折叠扫把 扫把套装",
+          "price": "¥19.9",
+          "advantage": "白菜价双折叠款,防风簸箕不易扬尘;价格不到京东京造一半,租房党一次多买几个",
+          "jd_sales": "什么值得买 · 京东精选 ¥19.9(需用券)7折;京东清洁工具簸箕榜TOP6已有100万人评论",
+          "color": "#6D9DC5",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_4.jpg"
         },
         {
-          "name": "奥妙 OMO 桃桃春日除菌洗衣凝珠 50颗",
-          "price": "约 ¥40(50颗)",
-          "advantage": "三合一配方,除螨除菌功效显著并添加鲜花精油;开袋即闻清新香气,单腔基础款性价比高",
-          "jd_sales": "京东 进口洗衣凝珠排行榜 TOP1 · 已有 400 万人评论",
-          "color": "#F1948A"
-        },
-        {
-          "name": "威露士 Walch 9X 除菌洗衣凝珠 32粒×3盒",
-          "price": "¥205",
-          "advantage": "双腔结构除螨 96h 抑菌,洗衣液消毒液二合一;高端抑菌需求档,一次囤三个月量",
-          "jd_sales": "京东 进口洗衣凝珠排行榜 TOP6/TOP7 · 32 粒×3 盒 ¥205,50 万人评论",
-          "color": "#2980B9"
+          "name": "大卫 扫把簸箕套装 伸缩梳齿套扫 加大扫笤大梳齿软毛不粘头发 F10",
+          "price": "京东榜单在售",
+          "advantage": "伸缩杆可自由调节高度,打扫不用一直弯腰;加大软毛扫笤浓密柔韧,不伤地板;大扫除囤货的经典款",
+          "jd_sales": "京东·扫把畚箕套装排行榜 TOP7 · 已有500000人评论",
+          "color": "#4B6E8A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_4.jpg"
         }
       ]
     },
     {
-      "product": "316不锈钢保温杯 ¥30-500 价位段",
+      "product": "智能电动晾衣机 ¥600-2100 价位段",
       "items": [
         {
-          "name": "膳魔师 THERMOS 316L 保温杯 彩虹的梦 500ml",
-          "price": "¥213.5",
-          "advantage": "316L 医用级不锈钢内胆耐氧化无异味抗结垢;渐变彩虹配色 + 磨砂喷涂不沾指纹,一键弹盖单手开,广口好洗不留死角,外层不凝水",
-          "jd_sales": "买购网 2026 十款热门 316 保温杯榜 + 京东保温杯榜 · 500ml 参考价 ¥213.5,京东同款 10 万条评价,保冷 12 小时",
-          "color": "#7FC8D8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_5.jpg"
+          "name": "米家 小米电动晾衣机 3 四分区 94晾晒位 42英寸灯板 3000lm",
+          "price": "¥1587(叠国补¥987.43)",
+          "advantage": "4分区94晾晒位,内衣鞋袜不跟大件混晾;42英寸灯板3000lm,晾衣顺手当阳台灯;接入米家生态可定时,阳光足降下晾日落自动升起防潮;35kg满载6000次升降测试",
+          "jd_sales": "IT之家/新浪财经(2026-10-15)· 页面价¥1587,双11叠PLUS立减+15%国补后¥987.43,组合购低至¥933.47",
+          "color": "#3E7CB1",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_5.jpg"
         },
         {
-          "name": "米家 MIJIA 保温杯 316不锈钢 350ml",
-          "price": "¥53",
-          "advantage": "316 不锈钢便携大容量,米家生态链价格屠夫;350ml 单手可握,办公桌通勤都顺手",
-          "jd_sales": "京东 316 不锈钢水杯品牌榜 TOP4 / 保温杯新款榜 TOP1 · 已有 100 万人评论",
-          "color": "#FF6900"
+          "name": "好太太 智能晾衣机 隐形超薄 AI语音 阳台升降电动晾衣架 T30-XL",
+          "price": "¥2049(需用券)",
+          "advantage": "光触媒杀菌 + 离线语音控制,是米家生态之外的另一条路线;高端款位,杀菌功能是纯晾衣机没有的",
+          "jd_sales": "什么值得买(2026-10-10)· 京东 ¥2049(需用券);好太太系在好价榜多款在售",
+          "color": "#8B7BA8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_5.jpg"
         },
         {
-          "name": "富光 FUGUANG 316L 弹跳盖保温杯",
-          "price": "约 ¥90.47",
-          "advantage": "316L 不锈钢 + 弹跳盖单手开合,大容量长效保温保冷;品牌双层口杯行业标准起草单位,做功扎实",
-          "jd_sales": "京东 316 不锈钢水杯品牌榜 TOP1 · 已有 20 万人评论;富光时尚简约 316L 款销量 3 万",
-          "color": "#2E86C1"
+          "name": "米家 隐形电动晾衣架 双杆2米 隐藏式智能升降",
+          "price": "¥1675(7.4折自¥2250)",
+          "advantage": "双杆2米版本晾晒面积更大,预算充足且阳台尺寸够的家庭可选;同品牌同生态,APP 统一管理",
+          "jd_sales": "什么值得买(2026-10-13)· 京东 ¥1675 7.4折自¥2250",
+          "color": "#5C8AB8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_5.jpg"
         },
         {
-          "name": "象印 ZOJIRUSHI 316L 真空保温弹盖杯 SM-WE-36C-WA 360ml",
-          "price": "¥219",
-          "advantage": "日系真空保温工艺,360ml 男女便携尺寸;原装进口品牌溢价,但保温稳定性和做工是行业标杆",
-          "jd_sales": "买购网 2026 十款热门 316 保温杯榜 · 象印官方旗舰店 ¥219",
-          "color": "#566573"
-        },
-        {
-          "name": "特美刻 TOMIC 纯钛内胆保温杯 450ml",
-          "price": "¥169",
-          "advantage": "纯钛内胆 + 智能杯盖显温,茶水分离泡茶好用;钛材亲肤不串味,渐变配色颜值高",
-          "jd_sales": "京东杯子隔热品牌榜 TOP10 / 保温杯榜 · 已有 10 万人评论",
-          "color": "#7D6608"
+          "name": "京东京造 A5Pro 3D悬浮灯 UVC杀菌 电动晾衣架",
+          "price": "¥1248.8(7.2折)",
+          "advantage": "3D 悬浮灯 + UVC 杀菌,杀菌能力比纯晾衣机强一档;京东京造自营线,91天新低价",
+          "jd_sales": "什么值得买(2026-10-09)· 京东 ¥899 7.2折 ¥1248.8 页面价,91天新低",
+          "color": "#6E7FA8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_5.jpg"
         }
       ]
     }
   ],
   "hotProducts": [
     {
-      "name": "京东生鲜 山东烟台莱阳秋月梨 8斤装",
-      "category": "厨房生鲜",
-      "price": "¥29.6",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_1.jpg",
-      "sales": "京东生鲜 11.11 官方通稿 · 8 斤装源头直发,单斤低至 3.7 元",
-      "platform": "京东生鲜自营 / 烟台莱阳产地直采"
+      "name": "飞利浦 PHILIPS 小云肩 Air 加热披肩 石墨烯速热 可机洗",
+      "category": "通勤保暖 · 发热披肩",
+      "price": "¥299(页面价¥399)",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_1.jpg",
+      "sales": "抖音3C数码家电榜TOP2(2026-10-08 两席在榜);京东披肩榜TOP2已有1万人评论;什么值得买10-11爆料每满399减100",
+      "platform": "京东自营 / 飞利浦家居生活旗舰店"
     },
     {
-      "name": "JBL Clip 5 便携蓝牙音箱 IP67",
-      "category": "影音数码",
-      "price": "¥399",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_2.jpg",
-      "sales": "今日头条 2026 音质耐用双强榜 TOP10 第 7 名 · 全球销量百万+,好评率 97%",
-      "platform": "JBL 官方旗舰店 / 京东自营"
+      "name": "玖慕 JIUMU 100%小山羊绒围巾 WR096 驼咖格 礼盒装",
+      "category": "秋冬配饰 · 山羊绒围巾",
+      "price": "¥450(吊牌价¥899)",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_2.jpg",
+      "sales": "京东羊绒围巾/加厚女士围巾/山羊绒披肩多榜 TOP1,已有20000人评论;识货WR096全网最低¥450",
+      "platform": "京东自营 / 识货比价"
     },
     {
-      "name": "小米智能门锁 E10 半导体指纹",
-      "category": "入户安防",
-      "price": "¥999",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_3.jpg",
-      "sales": "新浪网 2026 智能门锁实测 · 入门性价比档 999-1299 元三选一",
-      "platform": "小米自营 / 米家商城"
+      "name": "京东京造 一级不粘 纯钛炒锅 32cm 0涂层",
+      "category": "厨房升级 · 0涂层炒锅",
+      "price": "¥699(叠国补+PLUS低至¥371)",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_3.jpg",
+      "sales": "买购网2026十款热门纯钛炒锅榜收录(JZTW32 参考价¥499);什么值得买10-10国补+PLUS实付低至¥371.1,好评率96%",
+      "platform": "京东自营 / 京东京造自营旗舰店"
     },
     {
-      "name": "绽家 LYCOCELLE 洗衣凝珠 桂花味 四腔 60颗",
-      "category": "衣物清洁",
-      "price": "¥85.9",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_4.jpg",
-      "sales": "2026 Q1 抖音衣物清洁剂自营榜 TOP3、天猫店铺榜 TOP2 · 京东同款 50 万人评论",
-      "platform": "绽家 LYCOCELLE 官方旗舰店 / 天猫"
+      "name": "京东京造 可折叠扫把簸箕套装 加密梳齿 不粘头发",
+      "category": "换季大扫除 · 扫把簸箕",
+      "price": "¥38.8(叠满减+国补约¥26.9)",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_4.jpg",
+      "sales": "抖音个护家清榜TOP1(2026-10-08 分享量3644次);京东扫把套装组合榜TOP3已有20万人评论,商品好评率99%",
+      "platform": "京东自营 / 京东京造自营旗舰店"
     },
     {
-      "name": "膳魔师 THERMOS 316L 保温杯 彩虹的梦 500ml",
-      "category": "水具居家",
-      "price": "¥213.5",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-18_product_5.jpg",
-      "sales": "京东保温杯榜 500ml 316L 渐变款 · 已有 10 万条评价,保冷 12 小时",
-      "platform": "膳魔师官方旗舰店 / 京东自营"
+      "name": "米家 小米电动晾衣机 3 四分区 94晾晒位 42英寸灯板",
+      "category": "阳台家电 · 智能晾衣机",
+      "price": "¥1587(叠国补¥987.43)",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-19_product_5.jpg",
+      "sales": "IT之家+新浪财经2026-10-15双11国补新低报道;政府补贴价¥1399,叠券后¥987.43,组合购低至¥933.47",
+      "platform": "小米京东自营旗舰店"
     }
   ],
   "dataSource": "WebSearch 真实数据 · SQLite db 导出",
-  "updateTime": "2026-10-18 07:30"
+  "updateTime": "2026-10-19 07:30"
 }

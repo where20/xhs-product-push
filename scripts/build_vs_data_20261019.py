@@ -1,0 +1,304 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""build_vs_data_20261019.py — 2026-10-19 生成 vs-data.json (竞品对比)
+
+⚠️ 所有价格/销量/评论数均来自 WebSearch 真实抓取结果, 严禁编造。
+   每个竞品条目的 jd_sales 字段后括号内标注来源出处。
+"""
+import json
+import os
+
+TODAY = "2026-10-19"
+OUT_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/2026-10-19"
+IMG_BASE = f"https://cloudimgs.iepose.cn/api/images/{TODAY}"
+
+
+def img(pid):
+    return f"{IMG_BASE}_product_{pid}.jpg"
+
+
+sources = [
+    "Neodrop · 10月8日全平台爆款清单:抖音前十全是秋冬保暖件,儿童占了五席 (2026) (https://neodrop.ai/zh-cn/post/tSar-m9ZnXW)",
+    "什么值得买 · 299元 飞利浦 小云肩Air加热披肩电热披毯暖身毯盖腿发热斗篷水洗 暖阳棕 (https://m.smzdm.com/p/183769927)",
+    "慢慢买 · 飞利浦暖身毯 全网优惠汇总 (https://cu.manmanbuy.com/DingyueDetail.aspx?PageID=&id=feilipunuanshentan&type=keyword)",
+    "京东 · 歐尼娜披肩排行榜 (https://www.jd.com/phb/key_13158b9dac6eee8be5f6.html)",
+    "京东 · 100纯羊绒围巾排行榜 (https://www.jd.com/phb/key_131522e16eae4eb0389c.html)",
+    "京东 · 羊绒围巾包装排行榜 (https://www.jd.com/phb/key_13151502b27bdcd188c1.html)",
+    "识货 · JIUMU/玖慕 保暖100%小山羊绒围巾 WR096 价格与渠道 (https://m.shihuo.cn/page/goodsDetail/6653293?goodsId=6653293&skuId=942396091&styleId=336612490)",
+    "慢慢买 · 玖慕(JIUMU)品牌全网折扣汇总 (https://zhekou.manmanbuy.com/pinpai/jiumu36281)",
+    "什么值得买 · 京东京造 一级不粘 纯钛炒锅 32cm (https://m.smzdm.com/p/183712727)",
+    "什么值得买 · 京东京造 有钛无涂层精铁炒锅 32cm (https://m.smzdm.com/p/183865284)",
+    "买购网 · 2026年十款热门纯钛炒锅产品榜 (https://www.maigoo.com/product/specs_14732.html)",
+    "今日头条 · 钛厨具到底好不好?和传统厨具比有什么优势,在哪买正品? (https://www.toutiao.com/article/7688647106696970815)",
+    "什么值得买 · 京东京造 可折叠 扫把簸箕套装 (https://www.smzdm.com/p/183873786)",
+    "什么值得买 · 26.86元 京东京造 可折叠 扫把簸箕套装 (https://m.smzdm.com/p/177947664)",
+    "京东 · 扫把套装组合排行榜 (https://www.jd.com/phb/key_15901694e17af323d15ac.html)",
+    "京东 · 清洁工具簸箕品牌排行榜 (https://www.jd.com/phb/1590118f7f46972c01696.html)",
+    "IT之家 · 1399→987 元:小米米家智能晾衣机 3 国补新低,4 分区设计、42 英寸灯板 (https://www.ithome.com/1/013/393.htm)",
+    "新浪财经 · 1399→987 元:小米米家智能晾衣机 3 国补新低 (2026-10-15) (https://finance.sina.cn/tech/2026-10-15/detail-inivhtui7411221.d.html)",
+    "什么值得买 · 米家 26年新品小米电动晾衣架3四分区晾晒智能晾衣机 (https://m.smzdm.com/p/183987205)",
+]
+
+competitors = [
+    {
+        "product": "电热披肩/发热披毯 ¥60-400 价位段",
+        "items": [
+            {
+                "name": "飞利浦 PHILIPS 小云肩 Air 加热披肩 石墨烯速热 可机洗 5000mAh充电宝",
+                "price": "¥299(页面价¥399)",
+                "advantage": "石墨烯速热+三档调温,披上十几秒回温;发热模块可拆可机洗,同价位少有;附赠5000mAh充电宝一次充满撑一天,通勤出差都带得动",
+                "jd_sales": "什么值得买(2026-10-11)· 京东每满399减100,页面价¥399实付¥299;京东披肩榜TOP2 已有1万人评论",
+                "color": "#D96F4A",
+                "image": img(1),
+            },
+            {
+                "name": "京东京造 石墨烯发热披肩 暖宝宝 超柔软 无线加热 3C认证",
+                "price": "京东榜单在售",
+                "advantage": "京东京造自营线,披肩类京东榜单TOP1 已有2万人评论;主打粗纹理亲肤面料,发热快、可上飞机",
+                "jd_sales": "京东·歐尼娜披肩排行榜 TOP1 · 已有20000人评论",
+                "color": "#B08968",
+                "image": img(1),
+            },
+            {
+                "name": "梦多福 电热披肩发热暖身毯 USB加热盖毯 山栀绿 三档调温 石墨烯速热",
+                "price": "¥98",
+                "advantage": "USB 免插电不用绑充电宝,三档调温 + 石墨烯速热;山栀绿配色比米白耐脏,办公场景不显廉价",
+                "jd_sales": "什么值得买(2026-09-17)· 京东 ¥98;慢买/披肩类目多款同价位在售",
+                "color": "#7C9A7E",
+                "image": img(1),
+            },
+            {
+                "name": "京严 真3C 发热披肩电热暖身毯 连帽款 9大区速热 可机洗 150cm*85cm",
+                "price": "¥98.75",
+                "advantage": "白菜价区间同样带真3C认证和9大区速热,预算有限可入;加厚法兰绒连帽款,风大时护住脖颈",
+                "jd_sales": "什么值得买(2026-09-17)· 京东 112天新低 ¥98.75",
+                "color": "#8C9A9B",
+                "image": img(1),
+            },
+        ],
+    },
+    {
+        "product": "羊绒围巾/山羊绒围脖 ¥100-900 价位段",
+        "items": [
+            {
+                "name": "玖慕 JIUMU 100%小山羊绒围巾 WR096 驼咖格 渐变晕染 礼盒装",
+                "price": "¥450(吊牌价¥899)",
+                "advantage": "100%小山羊绒非混纺,贴脖回温不扎不闷;驼咖格渐变配色黑大衣燕麦针织都能搭;礼盒+礼品袋+防尘袋三件套,送礼不用另外包",
+                "jd_sales": "识货·WR096 京东渠道最低价¥450;京东羊绒围巾/加厚女士围巾/山羊绒披肩多榜 TOP1,已有20000人评论",
+                "color": "#A67B5B",
+                "image": img(2),
+            },
+            {
+                "name": "万事利 WENSLI 秋冬新款 100%山羊绒围巾 30cm*164cm",
+                "price": "¥559",
+                "advantage": "国货丝绸老牌出品,100%山羊绒;天猫旗舰店常促,页面价¥659减100到¥559,品质稳定",
+                "jd_sales": "什么值得买(2025-10-27)· 天猫页面价¥659实付¥559;京东羊绒围巾榜TOP2/3 已有2000人评论",
+                "color": "#9C7B62",
+                "image": img(2),
+            },
+            {
+                "name": "恒源祥 100%山羊绒围巾 女秋冬披肩保暖轻奢围脖 送妈妈长辈",
+                "price": "京东榜单在售",
+                "advantage": "老字号国民品牌,京东100纯羊绒围巾榜TOP6已有1000人评论;性价比路线,长辈接受度高",
+                "jd_sales": "京东·100纯羊绒围巾排行榜 TOP6 · 已有1000人评论",
+                "color": "#7D6B5D",
+                "image": img(2),
+            },
+            {
+                "name": "海澜之家 HLA 纯羊绒男士围巾 秋冬保暖加厚 生日礼物礼盒",
+                "price": "京东榜单在售",
+                "advantage": "男装线同样有纯羊绒款,京东羊绒围巾榜TOP5已有2000人评论;贴脖不扎,男士送礼不容易出错",
+                "jd_sales": "京东·100纯羊绒围巾排行榜 TOP5 · 已有2000人评论",
+                "color": "#6E6259",
+                "image": img(2),
+            },
+        ],
+    },
+    {
+        "product": "纯钛/无涂层炒锅 32cm ¥400-1400 价位段",
+        "items": [
+            {
+                "name": "京东京造 一级不粘 纯钛炒锅 32cm 0涂层 燃气灶电磁炉通用",
+                "price": "¥699(叠国补+PLUS低至¥371)",
+                "advantage": "100%纯钛板材0涂层,钛含量≥99%,不跟酸碱反应不串味;密度仅碳钢57%约1.2kg,女生单手颠锅老人下厨都轻松;一级不粘标准",
+                "jd_sales": "什么值得买(2026-10-10)· 页面价¥699,叠国补+PLUS实付低至¥371.1,另有多次爆料¥428-536",
+                "color": "#5A6673",
+                "image": img(3),
+            },
+            {
+                "name": "京东京造 有钛无涂层 精铁炒锅 32cm",
+                "price": "¥219(叠国补¥151.2)",
+                "advantage": "精铁路线,进价更低;同样0涂层,开锅养护成本比纯钛低,预算紧的入门选择",
+                "jd_sales": "什么值得买(2026-10-12)· 页面价¥219,叠每满减+国补实付¥151.2",
+                "color": "#6B7280",
+                "image": img(3),
+            },
+            {
+                "name": "炊大皇 纯钛炒锅 纯钛板0涂层 32cm 假一赔十",
+                "price": "¥693.1",
+                "advantage": "老牌锅具厂商出品,买购网纯钛炒锅榜收录;标注假一赔十,材质造假有赔付兜底",
+                "jd_sales": "买购网·2026年十款热门纯钛炒锅榜 · 参考价¥693.1;京东不锈钢有钛炒锅榜TOP4已有100万人评论",
+                "color": "#7A6A5D",
+                "image": img(3),
+            },
+            {
+                "name": "苏泊尔 SUPOR 100%纯钛炒锅 无涂层不粘锅 CC32T1 32cm",
+                "price": "¥1159(参考价)",
+                "advantage": "苏泊尔是《含钛厨具京东企业标准》首批打标品牌,材质造假10倍赔付;锅身减重20%约1.2kg,贝塞尔曲线锅身受热更均",
+                "jd_sales": "买购网·2026年十款热门纯钛炒锅榜TOP1 · 参考价¥1159;什么值得买多期爆料实付区间¥417-1101",
+                "color": "#8A6F5C",
+                "image": img(3),
+            },
+        ],
+    },
+    {
+        "product": "扫把簸箕套装 ¥15-50 价位段",
+        "items": [
+            {
+                "name": "京东京造 可折叠扫把簸箕套装 加密梳齿 不粘头发 折叠收纳",
+                "price": "¥38.8(叠满减+国补约¥26.9)",
+                "advantage": "加密梳齿头发一刮就进簸箕不用脏手;可折叠收纳,小户型卫生间洗衣机旁塞得下;扫把头可旋转,沙发底床底够得着",
+                "jd_sales": "什么值得买 · 页面价¥38.8,每满37.9减10实付¥28.8,叠国补低至¥26.86;京东扫把套装组合榜TOP3已有20万人评论",
+                "color": "#4E9B8F",
+                "image": img(4),
+            },
+            {
+                "name": "索邦 扫把簸箕套装 不粘头发梳齿 防缠发 大扫除神器",
+                "price": "京东榜单在售",
+                "advantage": "扫把套装类目全网销量第一梯队,多个京东榜单TOP1;主打防缠发梳齿,养宠家庭毛发清理友好",
+                "jd_sales": "京东·扫把套装组合排行榜 TOP1 · 已有200000人评论",
+                "color": "#3E7C8C",
+                "image": img(4),
+            },
+            {
+                "name": "太太乐 旋转防风梳齿型 折叠簸箕+折叠扫把 扫把套装",
+                "price": "¥19.9",
+                "advantage": "白菜价双折叠款,防风簸箕不易扬尘;价格不到京东京造一半,租房党一次多买几个",
+                "jd_sales": "什么值得买 · 京东精选 ¥19.9(需用券)7折;京东清洁工具簸箕榜TOP6已有100万人评论",
+                "color": "#6D9DC5",
+                "image": img(4),
+            },
+            {
+                "name": "大卫 扫把簸箕套装 伸缩梳齿套扫 加大扫笤大梳齿软毛不粘头发 F10",
+                "price": "京东榜单在售",
+                "advantage": "伸缩杆可自由调节高度,打扫不用一直弯腰;加大软毛扫笤浓密柔韧,不伤地板;大扫除囤货的经典款",
+                "jd_sales": "京东·扫把畚箕套装排行榜 TOP7 · 已有500000人评论",
+                "color": "#4B6E8A",
+                "image": img(4),
+            },
+        ],
+    },
+    {
+        "product": "智能电动晾衣机 ¥600-2100 价位段",
+        "items": [
+            {
+                "name": "米家 小米电动晾衣机 3 四分区 94晾晒位 42英寸灯板 3000lm",
+                "price": "¥1587(叠国补¥987.43)",
+                "advantage": "4分区94晾晒位,内衣鞋袜不跟大件混晾;42英寸灯板3000lm,晾衣顺手当阳台灯;接入米家生态可定时,阳光足降下晾日落自动升起防潮;35kg满载6000次升降测试",
+                "jd_sales": "IT之家/新浪财经(2026-10-15)· 页面价¥1587,双11叠PLUS立减+15%国补后¥987.43,组合购低至¥933.47",
+                "color": "#3E7CB1",
+                "image": img(5),
+            },
+            {
+                "name": "好太太 智能晾衣机 隐形超薄 AI语音 阳台升降电动晾衣架 T30-XL",
+                "price": "¥2049(需用券)",
+                "advantage": "光触媒杀菌 + 离线语音控制,是米家生态之外的另一条路线;高端款位,杀菌功能是纯晾衣机没有的",
+                "jd_sales": "什么值得买(2026-10-10)· 京东 ¥2049(需用券);好太太系在好价榜多款在售",
+                "color": "#8B7BA8",
+                "image": img(5),
+            },
+            {
+                "name": "米家 隐形电动晾衣架 双杆2米 隐藏式智能升降",
+                "price": "¥1675(7.4折自¥2250)",
+                "advantage": "双杆2米版本晾晒面积更大,预算充足且阳台尺寸够的家庭可选;同品牌同生态,APP 统一管理",
+                "jd_sales": "什么值得买(2026-10-13)· 京东 ¥1675 7.4折自¥2250",
+                "color": "#5C8AB8",
+                "image": img(5),
+            },
+            {
+                "name": "京东京造 A5Pro 3D悬浮灯 UVC杀菌 电动晾衣架",
+                "price": "¥1248.8(7.2折)",
+                "advantage": "3D 悬浮灯 + UVC 杀菌,杀菌能力比纯晾衣机强一档;京东京造自营线,91天新低价",
+                "jd_sales": "什么值得买(2026-10-09)· 京东 ¥899 7.2折 ¥1248.8 页面价,91天新低",
+                "color": "#6E7FA8",
+                "image": img(5),
+            },
+        ],
+    },
+]
+
+hot_products = [
+    {
+        "name": "飞利浦 PHILIPS 小云肩 Air 加热披肩 石墨烯速热 可机洗",
+        "category": "通勤保暖 · 发热披肩",
+        "price": "¥299(页面价¥399)",
+        "image": img(1),
+        "sales": "抖音3C数码家电榜TOP2(2026-10-08 两席在榜);京东披肩榜TOP2已有1万人评论;什么值得买10-11爆料每满399减100",
+        "platform": "京东自营 / 飞利浦家居生活旗舰店",
+    },
+    {
+        "name": "玖慕 JIUMU 100%小山羊绒围巾 WR096 驼咖格 礼盒装",
+        "category": "秋冬配饰 · 山羊绒围巾",
+        "price": "¥450(吊牌价¥899)",
+        "image": img(2),
+        "sales": "京东羊绒围巾/加厚女士围巾/山羊绒披肩多榜 TOP1,已有20000人评论;识货WR096全网最低¥450",
+        "platform": "京东自营 / 识货比价",
+    },
+    {
+        "name": "京东京造 一级不粘 纯钛炒锅 32cm 0涂层",
+        "category": "厨房升级 · 0涂层炒锅",
+        "price": "¥699(叠国补+PLUS低至¥371)",
+        "image": img(3),
+        "sales": "买购网2026十款热门纯钛炒锅榜收录(JZTW32 参考价¥499);什么值得买10-10国补+PLUS实付低至¥371.1,好评率96%",
+        "platform": "京东自营 / 京东京造自营旗舰店",
+    },
+    {
+        "name": "京东京造 可折叠扫把簸箕套装 加密梳齿 不粘头发",
+        "category": "换季大扫除 · 扫把簸箕",
+        "price": "¥38.8(叠满减+国补约¥26.9)",
+        "image": img(4),
+        "sales": "抖音个护家清榜TOP1(2026-10-08 分享量3644次);京东扫把套装组合榜TOP3已有20万人评论,商品好评率99%",
+        "platform": "京东自营 / 京东京造自营旗舰店",
+    },
+    {
+        "name": "米家 小米电动晾衣机 3 四分区 94晾晒位 42英寸灯板",
+        "category": "阳台家电 · 智能晾衣机",
+        "price": "¥1587(叠国补¥987.43)",
+        "image": img(5),
+        "sales": "IT之家+新浪财经2026-10-15双11国补新低报道;政府补贴价¥1399,叠券后¥987.43,组合购低至¥933.47",
+        "platform": "小米京东自营旗舰店",
+    },
+]
+
+
+def main():
+    os.makedirs(OUT_DIR, exist_ok=True)
+    data = {
+        "date": TODAY,
+        "sources": sources,
+        "competitors": competitors,
+        "hotProducts": hot_products,
+        "dataSource": "WebSearch 真实数据 · 2026-10-19 cron 自动化抓取",
+        "updateTime": f"{TODAY} 07:30",
+    }
+    out = os.path.join(OUT_DIR, "vs-data.json")
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # schema 校验
+    assert "hotProducts" in data, "❌ vs-data.json 缺 hotProducts"
+    assert len(data["hotProducts"]) == 5, "❌ hotProducts 必须 5 项"
+    assert "dataSource" in data, "❌ vs-data.json 缺 dataSource"
+    assert "updateTime" in data, "❌ vs-data.json 缺 updateTime"
+    for hp in data["hotProducts"]:
+        assert "image" in hp and hp["image"].startswith("https://"), "❌ hotProducts 缺 image"
+    for c in competitors:
+        for it in c["items"]:
+            assert "image" in it and it["image"].startswith("https://"), "❌ competitor 缺 image"
+    print(f"✅ vs-data.json 生成并通过 schema 校验 → {out}")
+    print(f"   sources: {len(sources)} 条 | competitors: {len(competitors)} 组 / "
+          f"{sum(len(c['items']) for c in competitors)} 项 | hotProducts: {len(hot_products)} 项")
+
+
+if __name__ == "__main__":
+    main()
