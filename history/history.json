@@ -243,5 +243,12 @@
     "productCount": 5,
     "updateTime": "2026-10-19 07:30",
     "status": "运行中"
+  },
+  {
+    "date": "2026-10-20",
+    "totalRuns": 36,
+    "productCount": 5,
+    "updateTime": "2026-10-20 07:30",
+    "status": "运行中"
   }
 ]
