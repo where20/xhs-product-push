@@ -169,7 +169,18 @@ def save(date_str: str) -> int:
                     ),
                 )
                 n_competitors += 1
-        print(f"  ✅ product_competitors: {n_competitors} 项 (5 组 × 4 项)")
+        # 分组数与每组项数从实际数据动态计算。
+        # ⚠️ 旧版这里硬编码 "(5 组 × 4 项)", 实际每天竞品数会变(如 10-20 是 5 组 × 5 项),
+        #    硬编码文案会与真实数字矛盾, 导致读日志的人误判"漏写竞品"而去补数据。
+        group_sizes = [len(g.get("items", [])) for g in competitors]
+        if group_sizes:
+            size_desc = " × ".join(str(s) for s in sorted(set(group_sizes)))
+            print(
+                f"  ✅ product_competitors: {n_competitors} 项 "
+                f"({len(group_sizes)} 组 × {size_desc} 项/组)"
+            )
+        else:
+            print(f"  ✅ product_competitors: {n_competitors} 项")
 
         # 4. sources
         for src in sources:

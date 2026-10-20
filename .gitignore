@@ -4,3 +4,20 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# ── output/ 下的图片不入库 ─────────────────────────────
+# 理由 (2026-10-21):
+#   output/ 里的 472 张 jpg 共 215MB, 而落地页读的是 **图床 CDN 的 URL**
+#   (data.json 里 product.image = https://cloudimgs.iepose.cn/api/images/...)
+#   GitHub Pages 只从 output/ 取 data.json / vs-data.json 两个 JSON 作兜底,
+#   一张 jpg 都不读。
+#   → 这些图片的"分发副本"在 cloudimgs, 仓库里存一份纯属重复。
+#   → 历史提交里已有的副本用 `git rm --cached` 从索引移除(磁盘文件保留, 本地仍可重传)。
+#
+# ⚠️ 只排图片, 不排 json:
+#   index.html 的 fetch 链里有 `./output/${today}/data.json` 作为 fallback 数据源,
+#   output/{date}/*.json 必须继续入库。
+output/**/*.jpg
+
+# 本地 QA 产物(contact_sheet.py 生成, 只用于肉眼核对, 不发布)
+output/**/_contact_sheet.jpg
