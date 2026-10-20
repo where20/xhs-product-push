@@ -32,9 +32,17 @@ set -u
 REMOTE="${1:-origin}"
 BRANCH="${2:-main}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-TASK_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
+
+# 目标仓 = 当前目录所在 git 仓(优先, 这样父仓 TimeTask 也能直接复用本脚本);
+# 当前目录不在 git 仓里时, 回退到脚本所在仓(xhs-product-push)。
+if git rev-parse --git-dir >/dev/null 2>&1; then
+  TASK_DIR="$(pwd)"
+else
+  TASK_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
+fi
 
 cd "${TASK_DIR}" || exit 1
+echo "📁 目标仓: ${TASK_DIR} (${REMOTE}/${BRANCH})"
 
 # --- 候选代理列表: 环境变量优先, 再加常见本地端口 ---
 CANDIDATES=()
