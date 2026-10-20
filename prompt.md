@@ -207,8 +207,11 @@ PY
 cd ${TASK_XHS_DIR}
 git add output/${TODAY}/ history/ data.json vs-data.json v/ index.html memory/${TODAY}.md
 git commit -m "xhs-push: ${TODAY} 商品图文 (5个精选商品)"
-git -c http.proxy= -c https.proxy= push origin main
+bash ${TASK_XHS_DIR}/scripts/push_with_probe.sh origin main
 ```
+
+> `push_with_probe.sh` 会**动态探测**可用代理(端口有监听 + 经它访问 github.com 返回 200),
+> 探不到才直连。**不要手写 `git -c http.proxy=` 硬绕**——10/21 实测代理活着时绕过反而推不上去。
 ⚠️ **pathspec 注意**：仓库根目录**没有** `history.json` 这个文件，它在 `history/` 目录下。
 写 `git add history.json` 会让 git 报 `pathspec did not match any files`，
 而 `git add` 遇到坏 pathspec 会**整批中止**（已 add 的也作废），
@@ -234,16 +237,22 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
 
 ## 已知风险与约定
 
-- **本机有死代理**：`HTTP_PROXY`/`HTTPS_PROXY` 指向一个**没有进程监听的端口**（端口号会变，
-  10-17 是 7897，10-20 已变成 6696）。任何不显式绕过代理的 git/curl/mmx 调用都会失败。
-  **不要依赖"记住端口号"**，一律：
-  - git → `git -c http.proxy= -c https.proxy= push origin main`
-  - curl → `curl --noproxy "*" ...`
+- **本机代理端口会变，而且"活着/死掉"不固定**：`HTTP_PROXY`/`HTTPS_PROXY` 指向本地端口，
+  **有时有监听（clash-verge 在跑），有时没有**：
+  - 10-17 端口 7897 **无监听** → 必须绕过
+  - 10-20 端口 6696 **无监听** → 必须绕过
+  - 10-21 端口 6696 **有监听** → **绕过反而连不上**：`github.com` 直连 TCP 443 直接超时，
+    经代理 0.75s 返回 200；而 `api.github.com` / `codeload.github.com` 直连都正常
+  → **正确做法是"探测"，不是"记住端口号"，也不是"一律绕过"**：
+  - git → `bash scripts/push_with_probe.sh origin main`（自动探测，探不到才直连）
+  - curl → 同样先探活；**确认某端口没监听后**才用 `--noproxy "*"`
   - mmx → `gen_images.sh` 内部已处理，调用前别加代理
   - 飞书 → `feishu_push_optimized.py` 内部已处理
+  - 诊断口诀：`nc -z -G 2 127.0.0.1 <port>` 看有没有监听，
+    再 `curl -x http://127.0.0.1:<port> -m 20 -w '%{http_code}' https://github.com/` 看能不能真通
 - **不要用 `scripts/archive/push_via_api.py`**：10-17 代理故障时的临时绕行方案，
   会造成本地与远端 SHA 分叉（内容相同但哈希不同），后续推送全部变复杂。
-  现在直连可用，用 step 15 的普通 push 即可。
+  现在用 step 15 的 `push_with_probe.sh` 即可（自动选代理或直连）。
 - vs-data.json 的价格/销量数据必须来自真实搜索结果，**严禁编造**。
 - `history/{date}.json` 必须每执行一次同步一份；`history.json` 必须**追加**一条，不覆盖。
 - 补全缺失日期时用 `output/{date}/data.json` 扫描补全。
