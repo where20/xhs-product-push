@@ -57,6 +57,8 @@ cat ${TASK_XHS_DIR}/memory/$(date -v-1d +%Y-%m-%d).md 2>/dev/null | grep -A 20 "
 - 覆盖 5 大不同场景（不要全选数码/全选厨房）
 - 价格 ¥10-500 区间（小红书带货主力价位）
 - 价格/销量/评论数**必须来自真实搜索结果，严禁编造**
+- **先按价格带筛，再看销量**（10/22 踩坑：迪奥 30ml ¥594.5 超价被排除）
+- **同时抓真实商品页 URL**（`links.primary`），见 5.1
 
 ### 5. 写 3 个内容文件
 
@@ -73,11 +75,34 @@ cat ${TASK_XHS_DIR}/memory/$(date -v-1d +%Y-%m-%d).md 2>/dev/null | grep -A 20 "
     "tags": ["标签1","标签2","标签3","标签4","标签5"],
     "suitable": "适用人群",
     "price_note": "价格说明 + 渠道",
-    "color": "#RRGGBB"
+    "color": "#RRGGBB",
+    "links": {
+      "primary": "https://真实商品页URL",
+      "source": "苏宁/唯品会/什么值得买",
+      "extra": ["https://另一个真实商品页URL"]
+    }
   }
 ]
 ```
 > `image` / `images` **不要写**，脚本会自动按 CDN 模板补齐。
+
+**`links` 怎么来的（2026-10-22 新增，必填）**
+- 用 WebSearch 的 `search_type=shopping` 搜「商品名 + 商品详情页/购买」，
+  返回结果里带 `product.suning.com` / `www.vip.com` / `wiki.smzdm.com` /
+  `mitem.jd.hk` / `24h.pchome.com.tw` / `shop.theclub.com.hk` 这类**商品详情页**的即为可用。
+- ⚠️ **`search.jd.com` / `item.jd.com` 直链拿不到**（京东反爬，curl 无输出），
+  不要在它上面浪费时间。
+- 每个 URL 都要 `curl --noproxy '*' -o /dev/null -w '%{http_code}' -L` 核验一遍，
+  200/202 才写进 products.json。**严禁编造 URL**（编出来的链接 404 = 假带货链路）。
+- `links` 会落库（`products.links`）→ 落地页「购买」按钮直接指向该商品页。
+  历史 190 个商品没有 links，落地页会自动回退到京东搜索链接。
+
+**`color` 只能是 `#RRGGBB`**
+- 语义 = **商品主色**（浅灰垫 / 奶白机 / 金键盘…），不是主题色。
+- 脚本会把它派生成 `theme_color`（同色相、压暗到对白字 ≥4.5:1），
+  卡片和落地页共用这个派生色。**你只写商品主色，不要自己压暗**。
+- 必须是合法十六进制。写成 `"中国红礼盒 / 烫金书法字"` 这类描述串会被
+  `assert_data` 直接 raise（历史上 35 处坏数据就是这么来的）。
 
 #### 5.2 `output/{date}/vs.json` —— 竞品数据
 ```json
@@ -168,8 +193,11 @@ python3 ${TASK_XHS_DIR}/scripts/db_save.py   $TODAY
 python3 ${TASK_XHS_DIR}/scripts/db_export.py $TODAY $VERSION
 python3 ${TASK_XHS_DIR}/scripts/validate_schema.py $TODAY
 ```
-- `db_save` 幂等：同日重复跑会覆盖（DELETE + INSERT）
-- `db_export` 导出到 7 个位置：`output/{date}/` + `v/{VERSION}/` + 根目录 + `history/{date}.json`
+- `db_save` 幂等：同日重复跑会覆盖（DELETE + INSERT）；写完把 `runs.status` 置为「已完成」
+- `db_export` 导出到 **8 个位置**：`output/{date}/` + `v/{VERSION}/` + 根目录 +
+  `history/{date}.json` + `history/history.json`
+- `history/history.json`（落地页时间线索引）**由 db_export 自动重建**，
+  事实来源 = `history/{date}.json`，不要再手工追加（见 step 14）
 - `validate_schema` 失败即 abort，不会发布坏数据
 
 ### 13. 版本号更新 + 版本化路径（关键！防 CDN 和浏览器缓存旧数据）
@@ -185,22 +213,14 @@ cp "${TASK_XHS_DIR}/output/${TODAY}/vs-data.json" "${TASK_XHS_DIR}/vs-data.json"
 ```
 > `v/{VERSION}/` 目录由 step 12 的 `db_export.py` 创建，不用手动 mkdir。
 
-### 14. 更新 history.json（追加，不覆盖）
-用 `scripts/lib_xhs.py` 的辅助脚本，或直接：
-```bash
-python3 - <<'PY'
-import json, os
-TODAY = os.popen('date +%Y-%m-%d').read().strip()
-p = os.path.join(os.environ['TASK_XHS_DIR'], 'history', 'history.json')
-h = json.load(open(p, encoding='utf-8'))
-h = [e for e in h if e.get('date') != TODAY]        # 同日幂等: 先去掉旧 entry
-h.append({'date': TODAY, 'totalRuns': len(h) + 1, 'productCount': 5,
-          'updateTime': f'{TODAY} 07:30', 'status': '运行中'})
-json.dump(h, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-print(f'history.json: {len(h)} 条')
-PY
-```
-> `history/{date}.json` 由 `db_export.py` 写入，不用手动 cp。
+### 14. history.json（**已自动化，不用手工做**）
+`history/history.json` 由 step 12 的 `db_export.py` 自动重建：
+它扫 `history/{date}.json` 逐日生成时间线条目（date / totalRuns / productCount /
+updateTime / status），`status` 固定「已完成」。
+
+> ⚠️ 以前这一步靠 prompt 里的一段内联 python 手工追加，那段脚本出过 bug，
+> 结果 38 条记录的 status 全停在「运行中」，落地页"运行状态"永远显示进行中。
+> **现在不需要也不应该再手工追加** —— 手工改会被下一次 db_export 覆盖。
 
 ### 15. git add + commit + push
 ```bash
@@ -227,6 +247,12 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
 - 轮询等待 GitHub Pages 构建传播（实测约 40s，最多等 180s）
 - 校验：线上 DATA_VERSION、v/{VERSION}/data.json 内容与本地一致、
   5 商品 image 全为 CDN URL、11 张图在图床 HTTP 200
+- **页面渲染断言**（2026-10-22 新增）：用 Node + DOM stub 把**线上** index.html
+  的脚本真跑一遍，断言渲染结果里真的有价格、详情、购买链接，统计栏有值，
+  版本徽章跟随 DATA_VERSION。这一项专门抓"数据在但页面不显示"——
+  2026-10-22 之前模板写 `p.priceRange` / `p.description`，数据里却是
+  `p.price` / `p.desc`，字段对不上导致价格和详情整块不渲染，
+  而所有"检查文件存在"的脚本都发现不了。
 - 退出码 0 = 线上已完整切换到今天的数据
 
 ### 17. 写执行日志
@@ -254,7 +280,10 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
   会造成本地与远端 SHA 分叉（内容相同但哈希不同），后续推送全部变复杂。
   现在用 step 15 的 `push_with_probe.sh` 即可（自动选代理或直连）。
 - vs-data.json 的价格/销量数据必须来自真实搜索结果，**严禁编造**。
-- `history/{date}.json` 必须每执行一次同步一份；`history.json` 必须**追加**一条，不覆盖。
+- `history/{date}.json` 必须每执行一次同步一份（`db_export` 自动做）；
+  `history/history.json` 由 `db_export` **自动重建**，不要手工追加。
+- **links 里的 URL 严禁编造**：每个都要 curl 核验 200/202。
+  编造的链接 = 假带货链路，比没有链接更糟。
 - 补全缺失日期时用 `output/{date}/data.json` 扫描补全。
 - **GitHub Pages CDN 有 max-age=600 缓存 bug + 浏览器本地缓存**，
   必须在 step 13 更新 DATA_VERSION + 走 `v/{时间戳}/` 路径，landing page 才会拿到最新数据。
@@ -265,6 +294,8 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
 
 ## Schema 校验（脚本内已内置，失败即 abort）
 - `data.json`：`products[].image` 必须是 https CDN URL、`images[]` ≥1 项、
-  `highlights` 恰好 5 条、`tags` 恰好 5 个、`desc` ≥150 字
+  `highlights` 恰好 5 条、`tags` 恰好 5 个、`desc` ≥150 字、`price` 非空、
+  **`color` 必须是合法 `#RRGGBB`**（非法即 raise）、
+  **`links` 里的每个 URL 必须是 http(s) 绝对地址**
 - `vs-data.json`：`hotProducts` 恰好 5 项且每项含 CDN image、
   每组竞品 ≥4 项、`sources` ≥10 条、`dataSource` / `updateTime` 必填

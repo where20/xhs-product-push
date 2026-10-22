@@ -11,7 +11,8 @@
       [
         {"id":1, "name":"...", "category":"...", "price":"¥xx",
          "desc":"150-200字...", "highlights":["x5"], "tags":["x5"],
-         "suitable":"...", "price_note":"...", "color":"#RRGGBB"},
+         "suitable":"...", "price_note":"...", "color":"#RRGGBB",
+         "links":{"primary":"https://真实商品页", "source":"苏宁"}},
         ...
       ]
       (也接受 {"products":[...]} 包装形式)
@@ -20,17 +21,23 @@
 
 设计要点:
   - image / images 字段由脚本按 CDN 模板自动补齐, 内容文件不写死 URL
+  - theme_color 由 color 派生(对白字 ≥4.5:1), 卡片与落地页共用
+  - links 直接透传, 落地页优先用真实商品页, 缺失时前端回退京东搜索
+  - 顶层补 totalRuns / lastRunDate / status / updateTime 供落地页统计栏
   - schema 断言不通过直接 raise, 坏数据不会流到落库和发布
 """
 import json
 import os
 import sys
+from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib_xhs import (  # noqa: E402
     attach_images,
     assert_data,
+    derive_theme_color,
     out_dir,
+    published_stats,
     resolve_date,
     write_json,
 )
@@ -68,6 +75,7 @@ def main():
         sys.exit(2)
 
     products = load_products(src)
+    no_links = []
     for i, p in enumerate(products, 1):
         p.setdefault("id", i)
         for key in ("name", "category", "price", "desc", "highlights", "tags"):
@@ -76,10 +84,25 @@ def main():
         p.setdefault("suitable", "")
         p.setdefault("price_note", p["price"])
         p.setdefault("color", "#1C3A5F")
+        # 主题色: 把"商品主色"派生成对白字 ≥4.5:1 的可读色。
+        # 写进 data.json, 供 compose_cards 与落地页共用同一套配色。
+        p["theme_color"] = derive_theme_color(p["color"])
+        if not p.get("links"):
+            no_links.append(p["id"])
+
+    # ---- 落地页"运行实况"卡片的数据 ----
+    # 口径 = history/ 下已发布的每日数据文件(不含当天), 当天由本文件补上。
+    # 这样 build_data 与 db_export(写完 history/{date}.json 后再算) 结果一致。
+    stats = published_stats(exclude_dates=(date,))
 
     data = {
         "date": date,
         "totalProducts": len(products),
+        "totalRuns": stats["totalRuns"] + 1,
+        "totalProductImages": stats["totalProductImages"] + len(products),
+        "lastRunDate": date,
+        "status": "已完成",
+        "updateTime": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "products": attach_images({"products": products}, date)["products"],
     }
     assert_data(data)
@@ -87,9 +110,16 @@ def main():
     out = write_json(os.path.join(od, "data.json"), data)
     print(f"✅ data.json 生成并通过 schema 校验 → {out}")
     for p in data["products"]:
+        link = (p.get("links") or {}).get("primary", "")
         print(
             f"   [{p['id']}] {p['name'][:34]} | {p['category']} | {p['price']} "
-            f"| desc {len(p['desc'])}字 | 亮点{len(p['highlights'])} | 标签{len(p['tags'])}"
+            f"| desc {len(p['desc'])}字 | 亮点{len(p['highlights'])} | 标签{len(p['tags'])} "
+            f"| 色 {p['color']}→{p['theme_color']} | 链接 {link or '⚠️无'}"
+        )
+    if no_links:
+        print(
+            f"⚠️  product {no_links} 没有 links —— 落地页会回退到京东搜索链接。"
+            f" 建议当天用 WebSearch 抓真实商品页写进 products.json 的 links.primary"
         )
 
 

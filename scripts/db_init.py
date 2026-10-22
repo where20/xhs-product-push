@@ -9,7 +9,8 @@ import os
 import sqlite3
 import sys
 
-DB_PATH = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/xhs_push.db"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib_xhs import DB_PATH  # noqa: E402
 
 
 SCHEMA = """
@@ -108,6 +109,26 @@ CREATE INDEX IF NOT EXISTS idx_competitors_product_pk ON product_competitors(pro
 """
 
 
+def migrate(conn) -> list:
+    """幂等迁移: 给老库补新增的列。
+
+    SQLite 没有 `ADD COLUMN IF NOT EXISTS`, 只能先查 pragma 再决定。
+    · products.links  —— 真实商品页链接(JSON 字符串)。落地页购买按钮的数据源。
+      迁移前 190 个历史商品这个字段是空的, 落地页会回退到京东搜索链接。
+    """
+    applied = []
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(products)")}
+    if "links" not in cols:
+        conn.execute("ALTER TABLE products ADD COLUMN links TEXT")
+        applied.append("products.links")
+    if applied:
+        conn.commit()
+        print(f"🔧 迁移: 新增列 {', '.join(applied)}")
+    else:
+        print("🔧 迁移: 无需新增列 (schema 已是最新)")
+    return applied
+
+
 def init(db_path: str = DB_PATH) -> int:
     """建表。已存在则幂等。返回 row count (runs 表)"""
     os.makedirs(os.path.dirname(db_path), exist_ok=True)
@@ -115,6 +136,7 @@ def init(db_path: str = DB_PATH) -> int:
     try:
         conn.executescript(SCHEMA)
         conn.commit()
+        migrate(conn)
         # 统计
         cur = conn.execute("SELECT COUNT(*) FROM runs")
         n_runs = cur.fetchone()[0]

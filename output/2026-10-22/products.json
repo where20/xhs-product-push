@@ -21,7 +21,14 @@
     ],
     "suitable": "初学者、跳操健身党、租房党、宿舍学生、想在家跟练的人",
     "price_note": "什么值得买实测到手价¥30.29(页面价¥30.9),全网热销500万+、50万+评价94%好评;同价位的京东京造10mm为¥49.9,天然橡胶的yottoy要¥138",
-    "color": "#9AA5B1"
+    "color": "#9AA5B1",
+    "links": {
+      "primary": "https://product.suning.com/1000015651/12434518841.html",
+      "source": "苏宁",
+      "extra": [
+        "https://wiki.smzdm.com/p/o0rgymp"
+      ]
+    }
   },
   {
     "id": 2,
@@ -45,7 +52,14 @@
     ],
     "suitable": "程序员、办公族、学生党、电竞玩家、想低成本入门客制化的用户",
     "price_note": "什么值得买/中关村在线记录京东到手价¥359(页面价¥469.41-499,满300减40+满1件8.5折),京东11.11热门机械键盘品牌TOP3;同档位前行者X87v2仅¥239.65,VGN V98Pro V4为¥289",
-    "color": "#C9A227"
+    "color": "#C9A227",
+    "links": {
+      "primary": "https://shop.theclub.com.hk/mchose-k99-v3-wireless-gaming-keyboard-icy-creamsicle-switch-multi-options-mcho-k99v3-mo",
+      "source": "The Club",
+      "extra": [
+        "https://m.smzdm.com/p/174236967/"
+      ]
+    }
   },
   {
     "id": 3,
@@ -69,7 +83,15 @@
     ],
     "suitable": "爱做面食的家庭、烘焙新手、想解放双手的上班族、周末做面包的上班族",
     "price_note": "什么值得买记录京东活动价¥399、实付¥329.19,中关村在线另有¥322.19/¥252.75的叠加补贴价;同价位利仁HMJ-D5630为¥348,东菱DL-1349SE仅¥159",
-    "color": "#E8DCC8"
+    "color": "#E8DCC8",
+    "links": {
+      "primary": "https://product.suning.com/12451430946.html",
+      "source": "苏宁",
+      "extra": [
+        "https://m.zol.com.cn/article/11252637.html",
+        "https://cu.manmanbuy.com/discuxiao_17507480.aspx"
+      ]
+    }
   },
   {
     "id": 4,
@@ -93,7 +115,15 @@
     ],
     "suitable": "上班族养猫党、单猫家庭、经常出差短途旅行的人、想给猫定量控食的主人",
     "price_note": "什么值得买记录京东页面价¥375.9、券后到手¥293.9,慢慢买陶瓷碗版¥278.65(含国补)为133天新低;同价位小佩SOLO为¥273.77,米家喂食器2可视版¥359",
-    "color": "#EDEDE8"
+    "color": "#EDEDE8",
+    "links": {
+      "primary": "https://wiki.smzdm.com/p/70o393y",
+      "source": "什么值得买",
+      "extra": [
+        "https://wiki.smzdm.com/p/mzqzoyv/p3/",
+        "https://www.central.co.th/en/homerun-white-homerunpet-pet-feeder-pf20-pocelain-mkp2095530"
+      ]
+    }
   },
   {
     "id": 5,
@@ -117,6 +147,15 @@
     ],
     "suitable": "香水新手、想入第一瓶香的女生、办公室人群、需要送礼的用户、爱木质花香调的人",
     "price_note": "什么值得买记录京东页面价¥298.9,叠加政府补贴+PLUS会员后到手¥246.66;百亿补贴款¥299、京东自营款¥228,官方定价¥329。同类迪奥小姐30ml要¥594.5,雅顿绿茶30ml仅¥52.25",
-    "color": "#E8B4B8"
+    "color": "#E8B4B8",
+    "links": {
+      "primary": "https://www.vip.com/detail-0000000000-6920040719284303944.html",
+      "source": "唯品会",
+      "extra": [
+        "https://mitem.jd.hk/product/10232766225017.html",
+        "https://wiki.smzdm.com/p/mrjqpq3",
+        "https://wiki.smzdm.com/p/01y4d44"
+      ]
+    }
   }
 ]

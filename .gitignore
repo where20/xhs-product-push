@@ -21,3 +21,15 @@ output/**/*.jpg
 
 # 本地 QA 产物(contact_sheet.py 生成, 只用于肉眼核对, 不发布)
 output/**/_contact_sheet.jpg
+
+# ── SQLite 数据库不入库 (2026-10-22) ──────────────────────
+# 理由:
+#   1) 体积: xhs_push.db 已 913KB, 每次 cron 跑完都是一次新的二进制全量 diff。
+#      按 365 次/年算, 光它就是 ~330MB/年的 git 历史, 纯浪费。
+#   2) 发布的真源不是它: 落地页读的是 data.json / vs-data.json,
+#      每个已发布日的完整商品数据都在 history/{date}.json 里(入库),
+#      所以即使本地 DB 丢了, 仓库里的历史数据也一份不少。
+#   3) 它的角色是"中间态": db_save → db_export → json, DB 本身不上线。
+# → 用 git rm --cached 从索引移除(磁盘文件保留, 本地照常读写);
+#   历史提交里的副本仍留在 git 历史中, 需要时 git show 可以取回。
+xhs_push.db

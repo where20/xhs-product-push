@@ -13,6 +13,7 @@
   - data.json (根目录 fallback)
   - vs-data.json
   - history/{date}.json           (history 同步)
+  - history/history.json          (落地页时间线索引, 由上面这些文件自动重建)
 """
 import json
 import os
@@ -20,18 +21,31 @@ import sqlite3
 import sys
 import time
 
-DB_PATH = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/xhs_push.db"
-TASK_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib_xhs import (  # noqa: E402
+    DB_PATH,
+    TASK_DIR,
+    build_history_index,
+    derive_theme_color,
+    published_stats,
+)
 
 
 def _row_to_dict(row, cursor):
     return {c[0]: row[i] for i, c in enumerate(cursor.description)}
 
 
+def _has_column(conn, table, col):
+    return col in {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}
+
+
 def _load_products(conn, run_id: int) -> list:
+    has_links = _has_column(conn, "products", "links")
+    cols = "id, product_id, name, category, price, desc, suitable, price_note, color, image, image_slice"
+    if has_links:
+        cols += ", links"
     cur = conn.execute(
-        """SELECT id, product_id, name, category, price, desc, suitable, price_note, color, image, image_slice
-        FROM products WHERE run_id = ? ORDER BY product_id""",
+        f"SELECT {cols} FROM products WHERE run_id = ? ORDER BY product_id",
         (run_id,),
     )
     products = []
@@ -56,6 +70,15 @@ def _load_products(conn, run_id: int) -> list:
         if p.get("image_slice"):
             p["images"].append(p["image_slice"])
         p.pop("image_slice", None)
+        # 真实商品页链接(db 里存的是 JSON 字符串)
+        links = p.pop("links", None)
+        if links:
+            try:
+                p["links"] = json.loads(links)
+            except (TypeError, ValueError):
+                p["links"] = None
+        # 主题色: 由 color 现算, 不入库 —— 单一事实来源是 color
+        p["theme_color"] = derive_theme_color(p.get("color", "#1C3A5F"))
         products.append(p)
     return products
 
@@ -121,11 +144,27 @@ def export(date_str: str, version: int = None) -> int:
             print(f"❌ runs 表里没 {date_str} 数据,先跑 db_save.py")
             return 1
         run_id = run[0]
+        products = _load_products(conn, run_id)
+
+        # 发布即成功: db_export 是落库后的最后一步, 能走到这里说明本次 run 已完成。
+        # (历史遗留的 37 条 "运行中" 也在这里被归正 —— 配合 db_save 的同义更新。)
+        conn.execute("UPDATE runs SET status = '已完成' WHERE id = ?", (run_id,))
+        conn.commit()
+
+        # 统计口径与 build_data.py 完全一致:
+        #   history/ 已发布天数(不含当天) + 当天
+        # 两处用同一个 published_stats(), 避免"脚本算一套、页面显示另一套"。
+        stats = published_stats(exclude_dates=(date_str,))
 
         data = {
             "date": run[1],
             "totalProducts": run[3],
-            "products": _load_products(conn, run_id),
+            "totalRuns": stats["totalRuns"] + 1,
+            "totalProductImages": stats["totalProductImages"] + len(products),
+            "lastRunDate": date_str,
+            "status": "已完成",
+            "updateTime": run[4],
+            "products": products,
         }
         vs = {
             "date": run[1],
@@ -138,7 +177,7 @@ def export(date_str: str, version: int = None) -> int:
     finally:
         conn.close()
 
-    # 写入 5 个位置
+    # 写入 7 个位置
     out_dir = os.path.join(TASK_DIR, "output", date_str)
     v_dir = os.path.join(TASK_DIR, "v", str(version))
     os.makedirs(out_dir, exist_ok=True)
@@ -161,7 +200,13 @@ def export(date_str: str, version: int = None) -> int:
         rel = path.replace(TASK_DIR + "/", "")
         print(f"  📄 {rel} ({size}B)")
 
-    print(f"\n🎉 {date_str} → 7 个 json 已导出, version={version}")
+    # 第 8 个产物: history/history.json —— 落地页"历史记录"时间线索引。
+    # 以前靠 prompt.md 的内联脚本手工追加, 38 条 status 全停在"运行中"。
+    # 现在由 history/{date}.json 自动重建, 不再需要手工维护。
+    hpath, hentries = build_history_index()
+    print(f"  📄 history/history.json ({os.path.getsize(hpath)}B, {len(hentries)} 条)")
+
+    print(f"\n🎉 {date_str} → 8 个 json 已导出, version={version}")
     return 0
 
 

@@ -17,8 +17,8 @@ import os
 import sqlite3
 import sys
 
-DB_PATH = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/xhs_push.db"
-TASK_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib_xhs import DB_PATH, TASK_DIR  # noqa: E402
 
 
 def validate_db(date_str: str) -> list:

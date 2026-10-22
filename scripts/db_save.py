@@ -13,8 +13,8 @@ import os
 import sqlite3
 import sys
 
-DB_PATH = "/Users/xiaoan/Documents/TimeTask/xhs-product-push/xhs_push.db"
-TASK_DIR = "/Users/xiaoan/Documents/TimeTask/xhs-product-push"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib_xhs import DB_PATH, TASK_DIR  # noqa: E402
 
 
 def _img_base(date_str: str) -> str:
@@ -25,7 +25,12 @@ def save(date_str: str) -> int:
     out_dir = os.path.join(TASK_DIR, "output", date_str)
     data_path = os.path.join(out_dir, "data.json")
     vs_path = os.path.join(out_dir, "vs-data.json")
-    img_urls_path = os.path.join(out_dir, "image_urls.json")
+    # ⚠️ 文件名对齐: upload_cloudimgs.py 写的是 **uploaded_urls.json**,
+    #    这里以前读的是 image_urls.json —— 从来没读到过, 于是 img_urls 恒为空,
+    #    永远退回模板 URL(2026-10-22 修)。两个名字都兼容一下。
+    img_urls_path = os.path.join(out_dir, "uploaded_urls.json")
+    if not os.path.exists(img_urls_path):
+        img_urls_path = os.path.join(out_dir, "image_urls.json")
 
     if not os.path.exists(data_path):
         print(f"❌ {data_path} 不存在")
@@ -56,23 +61,43 @@ def save(date_str: str) -> int:
         print(f"❌ hotProducts 必须 5 项, 实际 {len(hot_products)}")
         return 1
 
-    # 读 uploaded image_urls(优先用)
+    # === 真实 CDN URL(来自 upload_cloudimgs 的 uploaded_urls.json) ===
+    # ⚠️ 为什么必须用真实 URL 而不是模板 URL:
+    #    图床对**同名**文件再上传会重命名成 {name}_{时间戳}_{n}.jpg。
+    #    所以确定性模板 URL `{date}_product_3.jpg` 永远指向"当天第一次上传"的那份,
+    #    重新合成/重传后落地页拿到的还是旧图(2026-10-22 实测: 模板 URL 给的仍是
+    #    改色前的浅米色卡片, 真实 URL 才是新卡片)。
+    #    另一个坑: 以前 upload_cloudimgs 写的是 {"uploaded": [列表]},
+    #    这里读的是 u["images"] → 形状对不上 → 永远退回模板 URL。
     img_urls = {}
+    slice_urls = {}
+    card_full_url = None
     if os.path.exists(img_urls_path):
         with open(img_urls_path, encoding="utf-8") as f:
             u = json.load(f)
-        img_urls = {int(k): v for k, v in u.get("images", {}).items()}
+        if isinstance(u.get("images"), dict):
+            img_urls = {int(k): v for k, v in u["images"].items()}
+        if isinstance(u.get("slices"), dict):
+            slice_urls = {int(k): v for k, v in u["slices"].items()}
+        card_full_url = u.get("card_full")
 
     # === 自动补全 image 字段(LLM 漏的) ===
     img_base = _img_base(date_str)
     for p in products:
-        if not p.get("image"):
-            pid = p["id"]
-            # 优先用 uploaded_urls,否则用 cloudimgs URL 模板
-            p["image"] = img_urls.get(pid) or f"{img_base}_product_{pid}.jpg"
-            print(f"  🔧 product {pid} 补 image: {p['image']}")
-        if not p.get("images") or not isinstance(p.get("images"), list):
-            pid = p["id"]
+        pid = p["id"]
+        real_img = img_urls.get(pid)
+        if real_img:
+            # 用真实上传 URL 覆盖模板 URL
+            if p.get("image") != real_img:
+                print(f"  🔧 product {pid} image → 真实上传 URL: {real_img}")
+            p["image"] = real_img
+        elif not p.get("image"):
+            p["image"] = f"{img_base}_product_{pid}.jpg"
+            print(f"  ⚠️ product {pid} 没有真实上传 URL, 退回模板: {p['image']}")
+        real_slice = slice_urls.get(pid)
+        if real_slice:
+            p["images"] = [p["image"], real_slice]
+        elif not p.get("images") or not isinstance(p.get("images"), list):
             p["images"] = [p["image"], f"{img_base}_product_slice_{pid}.jpg"]
     for hp in hot_products:
         if not hp.get("image"):
@@ -112,8 +137,8 @@ def save(date_str: str) -> int:
         for p in products:
             cur = conn.execute(
                 """INSERT INTO products
-                (run_id, product_id, name, category, price, desc, suitable, price_note, color, image, image_slice)
-                VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+                (run_id, product_id, name, category, price, desc, suitable, price_note, color, image, image_slice, links)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
                 (
                     run_id,
                     p["id"],
@@ -126,6 +151,10 @@ def save(date_str: str) -> int:
                     p.get("color", "#000000"),
                     p["image"],
                     p.get("images", [None])[1] if len(p.get("images", [])) > 1 else None,
+                    # 真实商品页链接(带货链路的落点)。老库没这列时自动降级为 NULL。
+                    json.dumps(p.get("links", {}), ensure_ascii=False)
+                    if p.get("links")
+                    else None,
                 ),
             )
             product_pk = cur.lastrowid
@@ -209,7 +238,14 @@ def save(date_str: str) -> int:
             )
         print(f"  ✅ hot_products: 5 项")
 
+        # 6. run 状态置为「已完成」
+        # 以前这里写死 "运行中" 且**从不更新**, 于是 db.runs 里 37 条历史记录
+        # 的 status 全部停在"运行中", 落地页"运行状态"卡片永远显示进行中。
+        # 语义: 走到这一步说明内容/图片/飞书都已完成 → 本次 run 成功。
+        conn.execute("UPDATE runs SET status = '已完成' WHERE id = ?", (run_id,))
+
         conn.commit()
+        print(f"  ✅ runs.status = 已完成")
         print(f"\n🎉 {date_str} 全部数据已落 SQLite")
         return 0
     except sqlite3.IntegrityError as e:

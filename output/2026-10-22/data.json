@@ -1,6 +1,11 @@
 {
   "date": "2026-10-22",
   "totalProducts": 5,
+  "totalRuns": 38,
+  "totalProductImages": 190,
+  "lastRunDate": "2026-10-22",
+  "status": "已完成",
+  "updateTime": "2026-10-22 07:30",
   "products": [
     {
       "name": "匹克 PEAK 瑜伽垫 8mm加厚 NBR防滑减震跳操隔音训练垫 男女健身垫",
@@ -10,7 +15,7 @@
       "suitable": "初学者、跳操健身党、租房党、宿舍学生、想在家跟练的人",
       "price_note": "什么值得买实测到手价¥30.29(页面价¥30.9),全网热销500万+、50万+评价94%好评;同价位的京东京造10mm为¥49.9,天然橡胶的yottoy要¥138",
       "color": "#9AA5B1",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_1.jpg",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_1_1792651308291_1.jpg",
       "id": 1,
       "highlights": [
         "8mm加厚NBR材质,减震耐磨,跪姿撑地膝盖手肘不硌",
@@ -27,9 +32,17 @@
         "平价好物"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_1.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_1.jpg"
-      ]
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_1_1792651308291_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_1_1792651306324_1.jpg"
+      ],
+      "links": {
+        "primary": "https://product.suning.com/1000015651/12434518841.html",
+        "source": "苏宁",
+        "extra": [
+          "https://wiki.smzdm.com/p/o0rgymp"
+        ]
+      },
+      "theme_color": "#697888"
     },
     {
       "name": "迈从 MCHOSE K99 V3 三模客制化机械键盘 99键 Gasket全键热插拔 琉光冰淇淋轴",
@@ -39,7 +52,7 @@
       "suitable": "程序员、办公族、学生党、电竞玩家、想低成本入门客制化的用户",
       "price_note": "什么值得买/中关村在线记录京东到手价¥359(页面价¥469.41-499,满300减40+满1件8.5折),京东11.11热门机械键盘品牌TOP3;同档位前行者X87v2仅¥239.65,VGN V98Pro V4为¥289",
       "color": "#C9A227",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_2.jpg",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_2_1792651308557_1.jpg",
       "id": 2,
       "highlights": [
         "Gasket悬浮结构+六层消音填充,声音闷柔没有廉价空腔音",
@@ -56,9 +69,17 @@
         "桌搭好物"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_2.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_2.jpg"
-      ]
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_2_1792651308557_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_2_1792651306762_1.jpg"
+      ],
+      "links": {
+        "primary": "https://shop.theclub.com.hk/mchose-k99-v3-wireless-gaming-keyboard-icy-creamsicle-switch-multi-options-mcho-k99v3-mo",
+        "source": "The Club",
+        "extra": [
+          "https://m.smzdm.com/p/174236967/"
+        ]
+      },
+      "theme_color": "#8F731C"
     },
     {
       "name": "小熊 Bear 和面机 HMJ-A50N1 5L 全自动揉面发酵醒面一体 厨师机",
@@ -68,7 +89,7 @@
       "suitable": "爱做面食的家庭、烘焙新手、想解放双手的上班族、周末做面包的上班族",
       "price_note": "什么值得买记录京东活动价¥399、实付¥329.19,中关村在线另有¥322.19/¥252.75的叠加补贴价;同价位利仁HMJ-D5630为¥348,东菱DL-1349SE仅¥159",
       "color": "#E8DCC8",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_3.jpg",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_3_1792651308806_1.jpg",
       "id": 3,
       "highlights": [
         "5分钟智能自动和面,揉出光滑劲道面团,手套膜轻松出手",
@@ -85,9 +106,18 @@
         "面食家庭"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_3.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_3.jpg"
-      ]
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_3_1792651308806_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_3_1792651307448_1.jpg"
+      ],
+      "links": {
+        "primary": "https://product.suning.com/12451430946.html",
+        "source": "苏宁",
+        "extra": [
+          "https://m.zol.com.cn/article/11252637.html",
+          "https://cu.manmanbuy.com/discuxiao_17507480.aspx"
+        ]
+      },
+      "theme_color": "#8F703C"
     },
     {
       "name": "霍曼 Homerun Real 智能自动喂食器 PF20 白色 4L 定时定量 不锈钢碗 远程投喂",
@@ -97,7 +127,7 @@
       "suitable": "上班族养猫党、单猫家庭、经常出差短途旅行的人、想给猫定量控食的主人",
       "price_note": "什么值得买记录京东页面价¥375.9、券后到手¥293.9,慢慢买陶瓷碗版¥278.65(含国补)为133天新低;同价位小佩SOLO为¥273.77,米家喂食器2可视版¥359",
       "color": "#EDEDE8",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_4.jpg",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_4_1792651309210_1.jpg",
       "id": 4,
       "highlights": [
         "4L粮仓够一只成年猫吃半个月,硅胶密封圈锁鲜防潮不返油",
@@ -114,9 +144,18 @@
         "铲屎官神器"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_4.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_4.jpg"
-      ]
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_4_1792651309210_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_4_1792651307698_1.jpg"
+      ],
+      "links": {
+        "primary": "https://wiki.smzdm.com/p/70o393y",
+        "source": "什么值得买",
+        "extra": [
+          "https://wiki.smzdm.com/p/mzqzoyv/p3/",
+          "https://www.central.co.th/en/homerun-white-homerunpet-pet-feeder-pf20-pocelain-mkp2095530"
+        ]
+      },
+      "theme_color": "#76765D"
     },
     {
       "name": "蔻驰 COACH 纽约淡香水 女士 30ml EDT 礼盒装 白玫瑰花香调 生日礼物",
@@ -126,7 +165,7 @@
       "suitable": "香水新手、想入第一瓶香的女生、办公室人群、需要送礼的用户、爱木质花香调的人",
       "price_note": "什么值得买记录京东页面价¥298.9,叠加政府补贴+PLUS会员后到手¥246.66;百亿补贴款¥299、京东自营款¥228,官方定价¥329。同类迪奥小姐30ml要¥594.5,雅顿绿茶30ml仅¥52.25",
       "color": "#E8B4B8",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_5.jpg",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_5_1792651309477_1.jpg",
       "id": 5,
       "highlights": [
         "前调香梨橘子葡萄柚,中调白玫瑰茉莉,后调雪松麝香,层次分明不撞香",
@@ -143,9 +182,19 @@
         "入门香氛"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_5.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_5.jpg"
-      ]
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_5_1792651309477_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-22_product_slice_5_1792651307984_1.jpg"
+      ],
+      "links": {
+        "primary": "https://www.vip.com/detail-0000000000-6920040719284303944.html",
+        "source": "唯品会",
+        "extra": [
+          "https://mitem.jd.hk/product/10232766225017.html",
+          "https://wiki.smzdm.com/p/mrjqpq3",
+          "https://wiki.smzdm.com/p/01y4d44"
+        ]
+      },
+      "theme_color": "#C84C55"
     }
   ]
 }

@@ -13,6 +13,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib_xhs import out_dir as xhs_out_dir  # noqa: E402
+
 HOST = "https://cloudimgs.iepose.cn"
 UPLOAD_PATH = "/api/upload-file"
 
@@ -55,7 +58,7 @@ def main():
         print("usage: upload_cloudimgs.py <date>")
         sys.exit(1)
     date = sys.argv[1]
-    out_dir = Path(f"/Users/xiaoan/Documents/TimeTask/xhs-product-push/output/{date}")
+    out_dir = Path(xhs_out_dir(date))
     if not out_dir.is_dir():
         print(f"❌ output dir not found: {out_dir}")
         sys.exit(2)
@@ -93,10 +96,39 @@ def main():
             print(f"   ❌ {r['error']}")
 
     # 写入 uploaded_urls.json
+    # ⚠️ images / slices 这两个映射是 db_save.py 的**唯一**图片来源。
+    #    图床对同名文件再上传会重命名成 {name}_{ts}_{n}, 确定性模板 URL 拿不到新图,
+    #    所以必须把上传接口返回的**真实 URL** 落到这里(pid → url)。
+    #    (2026-10-22 实测: 只写 uploaded 列表时 db_save 读不到 images,
+    #     落地页一直显示当天第一次上传的旧卡片。)
+    images_map, slices_map = {}, {}
+    card_full = None
+    for r in results:
+        if not r.get("success"):
+            continue
+        name = r.get("name", "")
+        if name.startswith("images/product_"):
+            try:
+                pid = int(name.split("product_")[1].split(".")[0])
+                images_map[str(pid)] = r["url"]
+            except ValueError:
+                pass
+        elif name.startswith("product_slice_"):
+            try:
+                pid = int(name.replace("product_slice_", "").split(".")[0])
+                slices_map[str(pid)] = r["url"]
+            except ValueError:
+                pass
+        elif name == "product_card_full.jpg":
+            card_full = r["url"]
+
     upload_log = {
         "date": date,
         "host": HOST,
         "endpoint": UPLOAD_PATH,
+        "images": images_map,      # {product_id: 1:1 纯图真实 URL}
+        "slices": slices_map,      # {product_id: 切片真实 URL}
+        "card_full": card_full,    # 长图真实 URL
         "uploaded": [r for r in results if r.get("success")],
     }
     log_path = out_dir / "uploaded_urls.json"

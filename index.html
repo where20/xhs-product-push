@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Cache-Control" content="1792624129" />
-<meta http-equiv="Pragma" content="1792624129" />
-<meta http-equiv="Expires" content="1792624129" />
+<meta http-equiv="Cache-Control" content="1792651346" />
+<meta http-equiv="Pragma" content="1792651346" />
+<meta http-equiv="Expires" content="1792651346" />
 <title>AI选品推送 v1789081508 — 小红书带货自动化</title>
-<meta name="data-version" content="1792624129" />
+<meta name="data-version" content="1792651346" />
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -1063,7 +1063,7 @@
     </div>
   </div>
   <div class="update-time" id="updateTime">数据加载中...</div>
-  <div id="debugVersion" style="position:fixed;top:60px;right:12px;background:rgba(255,107,53,0.95);color:#fff;padding:6px 10px;border-radius:6px;font-size:11px;font-family:monospace;z-index:9999;box-shadow:0 2px 8px rgba(0,0,0,0.3);">HTML v1787267344</div>
+  <div id="debugVersion" style="position:fixed;top:60px;right:12px;background:rgba(255,107,53,0.95);color:#fff;padding:6px 10px;border-radius:6px;font-size:11px;font-family:monospace;z-index:9999;box-shadow:0 2px 8px rgba(0,0,0,0.3);">HTML v<span id="debugVersionText">—</span></div>
   <div id="debugFetch" style="position:fixed;top:96px;right:12px;background:rgba(31,111,235,0.95);color:#fff;padding:6px 10px;border-radius:6px;font-size:10px;font-family:monospace;z-index:9999;box-shadow:0 2px 8px rgba(0,0,0,0.3);max-width:380px;word-break:break-all;">数据: 加载中...</div>
 </section>
 
@@ -1182,10 +1182,43 @@ let currentVsProducts = [];
 let currentVsIndex = 0;
 
 // 智能 fetch：版本参数 bust 浏览器缓存 + 路径版本 bust CDN 缓存 + cache:'no-store' 彻底绕过浏览器 fetch 缓存
-const DATA_VERSION = '1792624129'; // 每次 push 后同步更新此值（也写进 meta data-version 供 meta 读取）
+const DATA_VERSION = '1792651346'; // 每次 push 后同步更新此值（也写进 meta data-version 供 meta 读取）
 // 调试用:页面顶部显眼显示当前 DATA_VERSION,刷新后如果看到旧版本号说明 HTML 被缓存
 document.title = 'AI选品推送 v' + DATA_VERSION + ' — 小红书带货自动化';
 console.log('[xhs-push] DATA_VERSION =', DATA_VERSION, 'build:', new Date().toISOString());
+// 徽章文案以前是写死的 'HTML v1787267344', 页面换了版本它也不变 → 排查缓存时
+// 看到的是假版本号。现在由 DATA_VERSION 实时渲染。
+(function () {
+  const el = document.getElementById('debugVersionText');
+  if (el) el.textContent = 'v' + DATA_VERSION;
+})();
+// 本地日期(不是 UTC)。
+// ⚠️ 旧代码用 new Date().toISOString().slice(0,10) —— 那是 UTC 日期。
+// 定时任务 07:00 CST 跑, 那时 UTC 还是前一天 23:00, 于是页面去请求
+// ./output/2026-10-21/data.json, 而当天数据在 2026-10-22 目录 → 必然 404。
+function localDateStr(d) {
+  const t = d || new Date();
+  const y = t.getFullYear();
+  const m = String(t.getMonth() + 1).padStart(2, '0');
+  const dd = String(t.getDate()).padStart(2, '0');
+  return `${y}-${m}-${dd}`;
+}
+// 购买按钮渲染(两处商品列表共用)。
+// 优先级: links.primary(抓到的真实商品页) > links.jd/taobao/pdd > 京东搜索兜底。
+// 兜底的意义: 历史 190 个商品都没有 links, 没有兜底它们的购买位就是空的。
+function renderLinkButtons(p) {
+  const links = p.links || {};
+  const btns = [];
+  if (links.jd)      btns.push(`<a class="jd" href="${links.jd}" target="_blank" rel="noopener">🏪 京东</a>`);
+  if (links.taobao)  btns.push(`<a class="taobao" href="${links.taobao}" target="_blank" rel="noopener">🛒 淘宝</a>`);
+  if (links.pdd)     btns.push(`<a class="pdd" href="${links.pdd}" target="_blank" rel="noopener">💬 拼多多</a>`);
+  if (links.primary) btns.push(`<a class="jd" href="${links.primary}" target="_blank" rel="noopener">🔗 ${links.source || '立即购买'}</a>`);
+  if (!btns.length) {
+    const q = encodeURIComponent(p.name || '');
+    btns.push(`<a class="jd" href="https://search.jd.com/Search?keyword=${q}" target="_blank" rel="noopener">🏪 京东搜索</a>`);
+  }
+  return btns.join('');
+}
 function getDataVersion() {
   return DATA_VERSION;
 }
@@ -1195,7 +1228,7 @@ function bust(url) {
 // cache:'no-store' 强制 fetch 绕过浏览器 HTTP cache + disk cache,每次都重新请求
 const FETCH_OPTS = { cache: 'no-store' };
 async function smartFetchData() {
-  const today = new Date().toISOString().slice(0, 10);
+  const today = localDateStr();
   const tried = [];
   // 路径1: output/{date}/（每个 push 不同 commit，CDN 新鲜）
   try {
@@ -1218,7 +1251,7 @@ async function smartFetchData() {
   return {res: r3, url: u3};
 }
 async function smartFetchVs() {
-  const today = new Date().toISOString().slice(0, 10);
+  const today = localDateStr();
   try {
     const r = await fetch(bust(`./output/${today}/vs-data.json`), FETCH_OPTS);
     if (r.ok) return r;
@@ -1242,7 +1275,8 @@ async function loadData() {
 
     // 统计数据
     document.getElementById('totalRuns').textContent = data.totalRuns || 0;
-    document.getElementById('totalProducts').textContent = data.totalProducts || 0;
+    // "已生成商品图文"是累计口径, 用 totalProductImages; 老数据没这个字段时退回当日数量
+    document.getElementById('totalProducts').textContent = data.totalProductImages || data.totalProducts || 0;
     document.getElementById('lastRunDate').textContent = data.lastRunDate || '--';
     document.getElementById('status').textContent = data.status || '运行中';
     document.getElementById('updateTime').textContent = '最近更新：' + (data.updateTime || '--');
@@ -1252,12 +1286,10 @@ async function loadData() {
     if (currentProducts.length > 0) {
       const listEl = document.getElementById('productList');
       listEl.innerHTML = currentProducts.map((p, i) => {
-        // 平台链接按钮
-        const links = p.links || {};
-        const linkBtns = [];
-        if (links.jd)     linkBtns.push(`<a class="jd" href="${links.jd}" target="_blank" rel="noopener">🏪 京东</a>`);
-        if (links.taobao) linkBtns.push(`<a class="taobao" href="${links.taobao}" target="_blank" rel="noopener">🛒 淘宝</a>`);
-        if (links.pdd)    linkBtns.push(`<a class="pdd" href="${links.pdd}" target="_blank" rel="noopener">💬 拼多多</a>`);
+        // 平台链接按钮（真实商品页优先, 缺失时回退京东搜索）
+        const linkBtns = renderLinkButtons(p);
+        const priceText = p.priceRange || p.price || '';
+        const descText = p.description || p.desc || '';
         const tagsHtml = (p.tags || []).map(t => `<span class="tag-pill">${t}</span>`).join('');
         return `
           <div class="product-item" onclick="openLightbox(${i})">
@@ -1269,17 +1301,17 @@ async function loadData() {
             <div class="info">
               <div class="name">${p.title || p.name || ''}</div>
               <div class="category">${p.category || '精选好物'}</div>
-              ${p.priceRange ? `<div class="price">${p.priceRange}</div>` : ''}
+              ${priceText ? `<div class="price">${priceText}</div>` : ''}
               ${(p.tags && p.tags.length > 0) ? `<div class="tags-wrap">${tagsHtml}</div>` : ''}
-              ${linkBtns.length > 0 ? `<div class="platform-links">${linkBtns.join('')}</div>` : ''}
+              ${linkBtns ? `<div class="platform-links" onclick="event.stopPropagation();">${linkBtns}</div>` : ''}
             </div>
-            ${(p.description || (p.highlights && p.highlights.length > 0)) ? `
+            ${(descText || (p.highlights && p.highlights.length > 0)) ? `
             <div class="detail-toggle" onclick="event.stopPropagation();toggleDetails(this)">
               <span class="toggle-text">查看详情</span>
               <svg class="toggle-arrow" viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
             </div>
             <div class="product-details" style="display:none">
-              ${p.description ? `<p class="detail-desc">${p.description}</p>` : ''}
+              ${descText ? `<p class="detail-desc">${descText}</p>` : ''}
               ${(p.highlights && p.highlights.length > 0) ? `<ul class="detail-highlights">${p.highlights.map(h => `<li>${h}</li>`).join('')}</ul>` : ''}
             </div>` : ''}
           </div>
@@ -1377,7 +1409,7 @@ setInterval(() => {
   const el = document.getElementById('hotUpdateTime');
   if (el && lastHotUpdate) {
     // Re-read the time from the data
-    fetch('./output/' + new Date().toISOString().slice(0,10) + '/vs-data.json?t=' + Date.now(), FETCH_OPTS).catch(() => fetch('./vs-data.json?t=' + Date.now(), FETCH_OPTS))
+    fetch('./output/' + localDateStr() + '/vs-data.json?t=' + Date.now(), FETCH_OPTS).catch(() => fetch('./vs-data.json?t=' + Date.now(), FETCH_OPTS))
       .then(r => r.json())
       .then(d => { if (d.updateTime) el.textContent = relativeTime(d.updateTime); })
       .catch(() => {});
@@ -1636,11 +1668,8 @@ async function loadHistoryDay(date, el) {
       // 兼容新旧结构（有 image 用 image，无则用 products 数组里第一个 images 数组）
       listEl.innerHTML = currentProducts.map((p, i) => {
         const img = p.image || (p.images && p.images[0]) || '';
-        const links = p.links || {};
-        const linkBtns = [];
-        if (links.jd)     linkBtns.push(`<a class="jd" href="${links.jd}" target="_blank" rel="noopener">🏪 京东</a>`);
-        if (links.taobao) linkBtns.push(`<a class="taobao" href="${links.taobao}" target="_blank" rel="noopener">🛒 淘宝</a>`);
-        if (links.pdd)    linkBtns.push(`<a class="pdd" href="${links.pdd}" target="_blank" rel="noopener">💬 拼多多</a>`);
+        const linkBtns = renderLinkButtons(p);
+        const priceText = p.priceRange || p.price || '';
         const tagsHtml = (p.tags || []).map(t => `<span class="tag-pill">${t}</span>`).join('');
         return `
           <div class="product-item" onclick="openLightbox(${i})">
@@ -1652,9 +1681,9 @@ async function loadHistoryDay(date, el) {
             <div class="info">
               <div class="name">${p.title || p.name || ''}</div>
               <div class="category">${p.category || '精选好物'}</div>
-              ${p.priceRange ? `<div class="price">${p.priceRange}</div>` : ''}
+              ${priceText ? `<div class="price">${priceText}</div>` : ''}
               ${tagsHtml ? `<div class="tags-wrap">${tagsHtml}</div>` : ''}
-              ${linkBtns.length > 0 ? `<div class="platform-links">${linkBtns.join('')}</div>` : ''}
+              ${linkBtns ? `<div class="platform-links" onclick="event.stopPropagation();">${linkBtns}</div>` : ''}
             </div>
           </div>
         `;
