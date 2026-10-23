@@ -1,298 +1,372 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "sources": [
-    "https://www.jd.com/phb/key_6196596257ab673b80dc.html",
-    "https://www.jd.com/phb/key_61965965b4c35afed136.html",
-    "https://m.maigoo.com/news/544106.html",
-    "https://faxian.smzdm.com/h1s257t0f47c6p178/",
-    "https://faxian.smzdm.com/h1s257t0f1185c7p22/",
-    "https://www.sina.cn/gc/article/niveqvm8453473.html",
-    "https://m.smzdm.com/p/182581696",
-    "https://m.smzdm.com/p/183521728",
-    "https://cu.manmanbuy.com/dingyue/keyword/7tbhx57/4",
-    "https://cu.manmanbuy.com/dingyue/keyword/xiyijiqingxiji/3",
-    "https://beaut.taobao.com/topic/tumomianmo_7/4440c25c3b48ebf35868715776249fd7.html",
-    "https://goods.taobao.com/t/tumomianmo_4148/cbe88d26d38a82c2d246bedfcab4e12f.html",
-    "https://pinpai10.net/bang/shuimianmianmo.html",
-    "https://best.pconline.com.cn/guide/15119.html",
-    "https://m.smzdm.com/p/180892627",
-    "https://wiki.smzdm.com/p/x159m0j/dianping",
-    "https://g.pconline.com.cn/best/guide/53595.html",
-    "https://m.maigoo.com/goomai/285552.html",
-    "https://k.sina.com.cn/article_7879923669_1d5ae17d506801f1ti.html",
-    "https://k.sina.com.cn/article_7879996542_1d5af347e06804bc9e.html",
-    "https://m.smzdm.com/p/180819545",
-    "https://faxian.smzdm.com/h0s183t0f4457c1p89/"
+    "https://www.jd.com/phb/key_7379b406bab4a393dbf.html",
+    "https://www.jd.com/phb/737f6b9dd49f2f72a6f.html",
+    "https://www.jd.com/phb/key_6728125d45a61f6b9a5e.html",
+    "https://www.jd.com/phb/key_1319246a811449c78062.html",
+    "https://www.smzdm.com/ju/sxq3598/",
+    "https://www.smzdm.com/ju/swmr4jq",
+    "https://www.smzdm.com/ju/swm8lq9",
+    "https://m.smzdm.com/ju/sl8wx5y",
+    "https://m.smzdm.com/p/104989148/",
+    "https://m.smzdm.com/p/183954769",
+    "https://m.smzdm.com/p/183974061",
+    "https://m.smzdm.com/p/180172525/",
+    "https://m.smzdm.com/p/184248848",
+    "https://www.smzdm.com/p/182967845/",
+    "https://www.smzdm.com/p/183974061",
+    "https://post.smzdm.com/p/awwo9e64/",
+    "https://post.m.smzdm.com/p/apqmorp9",
+    "https://wiki.smzdm.com/p/wo5wdg8/",
+    "https://wiki.smzdm.com/p/75wve61",
+    "https://wiki.smzdm.com/p/jmp5ejv/canshu",
+    "https://wiki.smzdm.com/p/mzdvdgv/",
+    "https://m.xiaomitong123.com/news/13321.html",
+    "http://www.jinceping.com/post/9830.html",
+    "https://m.buy.mi.com/hk/item/3223711731",
+    "https://m.mydrivers.com/newsview/1146213.html",
+    "https://news.qq.com/rain/a/20260819A033W900",
+    "https://news.qq.com/rain/a/20260917A050D100?id=20260917A050D100",
+    "https://tech.ifeng.com/c/8vruyBD43w5",
+    "https://www.sina.cn/gc/article/niuhpzm5702047.html",
+    "https://g.pconline.com.cn/best/youhui/11686309.html",
+    "https://detail.zol.com.cn/dockingstation_cradle/ugreen/wuzhou/new_pic.html",
+    "https://detail.zol.com.cn/daily-care/panasonic_riwa_cate_yingqu_quqiwu/pic.html",
+    "https://oa.zol.com.cn/790/7900406.html",
+    "https://www.lulian.cn/product/1401.html",
+    "https://pinpai10.net/bang/tuijianlifaqi.html",
+    "https://m.zol.com.cn/article/11970909.html",
+    "https://m.zol.com.cn/article/10217971.html",
+    "https://m.zol.com.cn/article/12424262.html",
+    "https://m.zol.com.cn/article/12038149.html",
+    "https://fe.suning.com/bigimages/12433412247.html",
+    "https://fe.suning.com/bigimages/12433404755.html",
+    "https://review.suning.com/cmmdty_review/general-000000011053638782-0010326769-1-again.htm",
+    "https://list.suning.com/0-337512-0-1-0-0-0-0-0-0-6254066-6256028-10664947.html",
+    "https://faxian.smzdm.com/h1s183t0f4457c7p1",
+    "https://faxian.smzdm.com/h1s183t0f2595c1p63/",
+    "https://faxian.smzdm.com/h0s0t0f2595c5p241/",
+    "https://faxian.smzdm.com/h1s0t0f2595c7p66",
+    "https://cu.manmanbuy.com/dingyue/keyword/zuyutong/7",
+    "https://cu.manmanbuy.com/dingyue/keyword/8z583ph",
+    "https://cu.manmanbuy.com/dingyue/keyword/n7nnmmo/2?m/202511295984058-fscarbb.shtml",
+    "https://cu.manmanbuy.com/DingyueDetail.aspx?PageID=&id=chongwuweishuiqi&type=keyword",
+    "https://cu.manmanbuy.com/discuxiao_521940646.aspx",
+    "https://cu.manmanbuy.com/discuxiao_18017760.aspx",
+    "https://survey.shangpu-china.com/scdc/33548.html",
+    "https://survey.shangpu-china.com/scdc/33810.html",
+    "https://m.maigoo.com/goomai/284875.html"
   ],
   "competitors": [
     {
-      "product": "耐热玻璃保鲜盒 · ¥13-160",
+      "product": "泡脚桶 / 足浴盆 ¥100-500 价位段",
       "items": [
         {
-          "name": "乐扣乐扣 耐热玻璃保鲜盒 6件套 LLG445S914",
-          "price": "¥128.6",
-          "advantage": "京东保鲜盒6件套排行榜 TOP1，高硼硅玻璃四面锁扣 + 硅胶密封圈，微波炉烤箱冰箱三场景通用，六件套多容量一次配齐",
-          "jd_sales": "京东保鲜盒6件套排行榜 TOP1，已有 100000 人评论（来源：京东排行榜 / 买购网收录参考价 ¥128.6，乐扣乐扣自营旗舰店）",
-          "color": "#7B6BA8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_1.jpg"
+          "name": "米家 小米 杀菌足浴器2 全自动按摩加热泡脚盆 雨幕喷淋过小腿高深桶",
+          "price": "¥377",
+          "advantage": "专利管路UV杀菌99.9%边泡边杀,三段分区按摩+382mm深桶+可升降雨幕喷淋,950W DPS水电分离恒温35-48℃",
+          "jd_sales": "京东泡脚盆排行榜 TOP1,已有500000人评论(来源: jd.com/phb/key_7379b406bab4a393dbf.html)",
+          "color": "#EDF0F2",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_1.jpg"
         },
         {
-          "name": "乐扣乐扣 格拉斯耐热玻璃保鲜盒 单盒",
-          "price": "¥33.22",
-          "advantage": "唯品会同系单盒常卖价，30 天最低 ¥31、618 价 ¥31.95，蒸汽孔款免开盖防爆，加热更安全",
-          "jd_sales": "唯品会销量 500+、评论 2387 条、好评率 100%（来源：新浪/太平洋科技 2026-10 实测引用唯品会商品页）",
-          "color": "#7B6BA8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_1.jpg"
+          "name": "京东京造 泡脚桶Z7 高桶 全自动恒温加热按摩足浴盆 智能杀菌",
+          "price": "¥239",
+          "advantage": "京东自营高桶款,恒温加热+智能杀菌,价格比米家低一档",
+          "jd_sales": "京东泡脚盆高排行榜 TOP10,已有50000人评论(来源: jd.com/phb/737f6b9dd49f2f72a6f.html)",
+          "color": "#E8ECEE",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_1.jpg"
         },
         {
-          "name": "拜杰 高硼硅玻璃保鲜盒 650ml 圆形",
-          "price": "¥13.43",
-          "advantage": "极致性价比入门款，耐热 400℃，圆形无死角好清洗，2.4L 大容量款还能兼做腌咸菜的密封罐",
-          "jd_sales": "京东 10 万+ 评论、好评率 97%，常卖价 ¥14.9、历史最低 ¥11.9（来源：新浪 2026-10-14 实测）",
-          "color": "#7B6BA8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_1.jpg"
+          "name": "美的 Midea 泡脚桶杀菌足浴盆 ZL310 熏蒸暖泡喷淋",
+          "price": "¥347.4",
+          "advantage": "美的品牌背书,触控面板+带万向轮+水电分离漏电保护,排水口放水不用抬桶",
+          "jd_sales": "京东泡脚盆榜 TOP4,已有200000人评论(来源: smzdm.com/ju/swmr4jq)",
+          "color": "#E6EAEC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_1.jpg"
         },
         {
-          "name": "京东京造 高硼硅耐热玻璃保鲜盒 便当盒 六件套",
+          "name": "凯诗捷 KASJ T5 旗舰版 泡脚桶 自动按摩冲浪 液晶屏 四种模式 一秒折叠",
+          "price": "¥329",
+          "advantage": "一秒折叠省收纳空间,液晶屏+冲浪按摩,四种模式可调",
+          "jd_sales": "什么值得买泡脚桶全网排行,京东10k(来源: smzdm.com/ju/sxq3598/)",
+          "color": "#D9DEE2",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_1.jpg"
+        },
+        {
+          "name": "飞利浦 PHILIPS 小白桶 3222F 杀菌泡脚盆 全自动按摩加热恒温",
+          "price": "¥398.99",
+          "advantage": "飞利浦品牌,UV杀菌小白桶造型简洁,放浴室不突兀,按摩力度被评价为很舒服",
+          "jd_sales": "什么值得买熏蒸洗脚盆全网排行,京东99k(来源: smzdm.com/ju/swmr4jq)",
+          "color": "#F0F3F5",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_1.jpg"
+        },
+        {
+          "name": "小熊 Bear 折叠易收纳便携恒温加热养生足浴盆 ZYP-F05Y1",
+          "price": "¥149",
+          "advantage": "可折叠好收纳,滚轮按摩+恒温加热,小熊小家电口碑稳定,价格最低档",
+          "jd_sales": "什么值得买泡脚桶爆料,京东自营3折¥499(来源: m.smzdm.com/p/104989148/)",
+          "color": "#E3E7EA",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_1.jpg"
+        }
+      ]
+    },
+    {
+      "product": "Type-C 扩展坞 ¥30-300 价位段",
+      "items": [
+        {
+          "name": "绿联 UGREEN Type-C 3.2 扩展坞 10Gbps 四口 接口转换器 0.3米",
+          "price": "¥71.33",
+          "advantage": "四口全10Gbps,1G文件约1秒传,铝合金外壳散热好,0.3米短线不挡手,即插即用免驱",
+          "jd_sales": "什么值得买优惠精选,页面价¥94活动实付¥71.33,好评率99%(来源: m.smzdm.com/p/183954769)",
+          "color": "#454B52",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_2.jpg"
+        },
+        {
+          "name": "绿联 CM475 3×USB3.0 + Type-C PD100W 千兆网口 扩展坞",
+          "price": "¥139",
+          "advantage": "带千兆网口和PD100W快充,边用边充,铝合金壳,通勤办公一步到位",
+          "jd_sales": "中关村在线报价,京东¥139,已有3497人点评(来源: detail.zol.com.cn)",
+          "color": "#3E444B",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_2.jpg"
+        },
+        {
+          "name": "绿联 CM424 7合1 4K@60Hz + 千兆网口 + PD100W 扩展坞",
+          "price": "¥169",
+          "advantage": "2×USB3.0+Type-C+HDMI4K60Hz+千兆网+PD100W,接口更全适合固定工位",
+          "jd_sales": "中关村在线报价,京东¥169,已有252人点评(来源: detail.zol.com.cn)",
+          "color": "#3A4046",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_2.jpg"
+        },
+        {
+          "name": "绿联 CM490 4合1 双HDMI 4K/60Hz + 千兆网口 + SD/TF 双卡槽",
+          "price": "¥299",
+          "advantage": "双屏异显+双卡同读,摄影和剪辑用户的顶配档位",
+          "jd_sales": "中关村在线报价,京东¥299,已有214人点评(来源: detail.zol.com.cn)",
+          "color": "#353B41",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_2.jpg"
+        },
+        {
+          "name": "绿联 50985 4×USB3.0 基础四口扩展坞",
+          "price": "¥59",
+          "advantage": "最便宜的绿联四口款,只扩USB不需要投屏和网口时性价比最高",
+          "jd_sales": "中关村在线报价,京东¥59,已有1931人点评(来源: detail.zol.com.cn)",
+          "color": "#4A5057",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_2.jpg"
+        },
+        {
+          "name": "毕亚兹 Type-C 分线器 四合一扩展坞 多功能hub 集线器 USB3.0",
+          "price": "¥17.9",
+          "advantage": "白牌最低价,只需要多接一个USB口时的应急方案,不支持高速与投屏",
+          "jd_sales": "什么值得买爆料,京东8.5折实付¥17.9(来源: m.smzdm.com/p/184248848)",
+          "color": "#5A6068",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_2.jpg"
+        }
+      ]
+    },
+    {
+      "product": "宠物智能饮水机 ¥90-350 价位段",
+      "items": [
+        {
+          "name": "米家 智能宠物饮水机2 除菌版 3L UV-C 四重过滤 无线长续航",
+          "price": "¥199",
+          "advantage": "UV-C水泵除菌率99%,四重过滤含离子交换树脂软化水质,4000mAh无线续航90-100天,IPX7可整机冲洗",
+          "jd_sales": "小米京东自营首销定价¥199,官方参数3L/30dB/90天续航(来源: m.mydrivers.com/newsview/1146213.html)",
+          "color": "#F1F4F6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_3.jpg"
+        },
+        {
+          "name": "小佩 CT-W1S SOLO SE 宠物智能饮水机 暖白色 1.8L",
+          "price": "¥98.8",
+          "advantage": "小佩生态接入,1.8L小容量适合单猫,价格最低的智能饮水机",
+          "jd_sales": "什么值得买猫饮水机排行,京东30天新低(来源: smzdm.com/ju/swm8lq9)",
+          "color": "#EDE7E0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_3.jpg"
+        },
+        {
+          "name": "得力 deli Bembam 猫咪自动饮水机 银离子抑菌 2500ml",
+          "price": "¥120.96",
+          "advantage": "银离子抑菌+五重过滤,运行噪音低于20分贝接近耳语,续航超40天",
+          "jd_sales": "慢慢买宠物喂水器订阅,京东自营37天新低(来源: cu.manmanbuy.com/DingyueDetail.aspx)",
+          "color": "#E9ECEF",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_3.jpg"
+        },
+        {
+          "name": "霍曼 Homerun 宠物三代饮水机 Pro 2L 无线水泵",
+          "price": "¥258.39",
+          "advantage": "360度循环净化过滤,只流水不留垢,三重过滤+智能断电保护,品牌调性偏高端",
+          "jd_sales": "什么值得买爆料,京东需用券(来源: faxian.smzdm.com/h1s183t0f4457c7p1)",
+          "color": "#E2E6EA",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_3.jpg"
+        },
+        {
+          "name": "多尼斯 DOGNESS 宠物饮水机 猫咪自动循环活水 四重过滤低噪防干烧",
+          "price": "¥165.62",
+          "advantage": "四重过滤+低噪设计+防干烧保护,老牌宠物用品厂商,性价比路线",
+          "jd_sales": "什么值得买猫咪活水饮水器排行,京东20k(来源: m.smzdm.com/ju/sl8wx5y)",
+          "color": "#DFE4E8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_3.jpg"
+        },
+        {
+          "name": "小甜橙 猫咪饮水机 3L UVC 304不锈钢水盘",
+          "price": "¥120",
+          "advantage": "304不锈钢水盘无塑料划痕滋生细菌,UVC紫外除菌,百元档入门首选",
+          "jd_sales": "新浪宠物频道实测横评,百元级价位段推荐(来源: sina.cn/gc/article/niuhpzm5702047.html)",
+          "color": "#E6EAED",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_3.jpg"
+        }
+      ]
+    },
+    {
+      "product": "电动理发器 ¥40-350 价位段",
+      "items": [
+        {
+          "name": "飞科 FLYCO FC5908 电动理发器 成人儿童电推剪 全身水洗",
+          "price": "¥118.75",
+          "advantage": "陶瓷刀头不伤肤,智能防夹发系统,五档长度微调,全身水洗,180分钟续航带电量显示",
+          "jd_sales": "京东理发器榜 TOP1/TOP5 已有2000000人评论,苏宁自营¥118.75(来源: jd.com/phb/key_1319246a811449c78062.html)",
+          "color": "#2A2D30",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_4.jpg"
+        },
+        {
+          "name": "京东京造 T3 电动理发器 成人儿童两用 自助理发神器",
           "price": "¥79.9",
-          "advantage": "高硼硅玻璃厚实通透无异味不吸油，四边锁扣 + 硅胶圈不漏汤，分格设计饭菜不串味，京东自营次日达",
-          "jd_sales": "京东保鲜盒榜已有 20000 人评论（来源：京东排行榜 TOP4 / 12 点保鲜盒套装品牌榜 TOP1）",
-          "color": "#7B6BA8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_1.jpg"
+          "advantage": "国补后不到80元,成人儿童两用,小白入门零失败",
+          "jd_sales": "慢慢买京东京造理发器订阅,京东自营含国补低于双11(来源: cu.manmanbuy.com/dingyue/keyword/n7nnmmo/2)",
+          "color": "#31363B",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_4.jpg"
         },
         {
-          "name": "Glasslock 盖朗 钢化玻璃方形饭盒",
-          "price": "¥75",
-          "advantage": "韩国进口钢化玻璃，比普通玻璃更硬朗透亮，方形盒体便于塞进午餐包，耐高温可微波",
-          "jd_sales": "天猫 glasslock 旗舰店标价 ¥75，好评率 0%（新品暂无参考）（来源：太平洋科技 2026-10-10 引用商品页）",
-          "color": "#7B6BA8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_1.jpg"
-        }
-      ]
-    },
-    {
-      "product": "洗衣机槽清洁剂 · ¥8-100",
-      "items": [
-        {
-          "name": "老管家 洗衣机槽清洁剂 125g×3袋",
-          "price": "¥16.9",
-          "advantage": "活氧成分先软化后分解，瓦解机槽夹层顽固污渍，页面价 ¥19.9 参加每满 17 减 3 后到手价，无氯配方不伤内筒",
-          "jd_sales": "京东老管家自营旗舰店在售，到手 ¥16.9/件（来源：什么值得买 p/182581696 爆料页）",
-          "color": "#3E8E7E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_2.jpg"
-        },
-        {
-          "name": "京东京造 洗衣机槽清洁剂 125g×6袋 茉莉花香",
-          "price": "¥22.9",
-          "advantage": "六袋大容量带花香，活动价 ¥24.9 下单后实付 ¥22.9，京东自营物流次日达，滚筒波轮通用",
-          "jd_sales": "京东此款活动售价 ¥24.9，实付低至 ¥22.9（来源：什么值得买 p/183521728 爆料页）",
-          "color": "#3E8E7E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_2.jpg"
-        },
-        {
-          "name": "绿伞 洗衣机槽清洗剂 125g×6袋 抗菌",
-          "price": "¥16.9",
-          "advantage": "六袋装同价位容量翻倍，京东自营价格 ¥16.9 长期稳定，主打内槽抗菌除味",
-          "jd_sales": "京东售价 ¥16.9（来源：什么值得买「洗衣机除垢剂」爆料汇总页，2026-04-20）",
-          "color": "#3E8E7E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_2.jpg"
-        },
-        {
-          "name": "滴露 洗衣机清洗剂 金装柠檬 250ml×3瓶",
-          "price": "¥27",
-          "advantage": "5 效合 1 专用除菌液，实验条件下有效杀灭 99.9% 大肠杆菌与金黄色葡萄球菌，无需浸泡，折算单瓶 ¥9",
-          "jd_sales": "京东标价 ¥30，领满 30 减 3 券后实付 ¥27（来源：什么值得买 p/182631423）",
-          "color": "#3E8E7E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_2.jpg"
-        },
-        {
-          "name": "花王 洗衣机槽清洗剂 180g×5袋",
-          "price": "¥90.14",
-          "advantage": "日系进口线，强力除垢杀菌消毒，家庭囤货大包装，代价是单价明显高于国产款",
-          "jd_sales": "天猫专营店 ¥90.14（来源：什么值得买「洗衣机除垢剂」爆料汇总页，2026-10-12）",
-          "color": "#3E8E7E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_2.jpg"
-        }
-      ]
-    },
-    {
-      "product": "免洗涂抹式面膜 · ¥22-200",
-      "items": [
-        {
-          "name": "珀莱雅 解渴面膜 2.0 涂抹式睡眠面膜 75g",
+          "name": "雷瓦 RIWA RE-6305 静音防水电动理发器 钛金陶瓷刀头",
           "price": "¥99",
-          "advantage": "华熙生物 4D 玻尿酸 + 三重神经酰胺脂质体 + 泛醇，丝滑乳液质地可厚敷 15 分钟急救也可薄涂妆前打底，国产头部品牌大单品",
-          "jd_sales": "京东/天猫官方旗舰店销量 2 万+（来源：品牌推荐网 2026 睡眠面膜排行榜）",
-          "color": "#4A7FB5",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_3.jpg"
+          "advantage": "防夹发+油头雕刻+全身水洗,180分钟续航,小众品牌价格友好",
+          "jd_sales": "中关村在线理发器报价,京东¥99,已有1159人点评(来源: detail.zol.com.cn)",
+          "color": "#383D43",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_4.jpg"
         },
         {
-          "name": "珀莱雅 解渴面膜 舒缓补水款",
-          "price": "¥69",
-          "advantage": "同系列舒缓线，价格更低一档，敏感肌与换季泛红期更适合，配方路线一致",
-          "jd_sales": "京东旗舰店销量 3000，券后 ¥69（来源：品牌推荐网 2026 睡眠面膜排行榜）",
-          "color": "#4A7FB5",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_3.jpg"
+          "name": "飞利浦 PHILIPS HC5690/15 电动理发器 27档可调",
+          "price": "¥227.86",
+          "advantage": "发束导流技术不卡发,27档长度设定,90分钟续航,专为儿童设置的静音模式",
+          "jd_sales": "中关村在线促销,原价¥287.7实付¥227.86(来源: m.zol.com.cn/article/11970909.html)",
+          "color": "#3F454B",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_4.jpg"
         },
         {
-          "name": "相宜本草 光彩立现 绿茶睡眠面膜",
-          "price": "¥56.90",
-          "advantage": "绿茶养肤 + 免洗不粘枕，国货草本路线，主打清爽透润不厚重，夏季和油皮更友好",
-          "jd_sales": "天猫/京东旗舰店销量 6000，券后 ¥56.90（来源：百强排行网睡眠面膜品牌排名）",
-          "color": "#4A7FB5",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_3.jpg"
+          "name": "映趣 Boost 电动理发器 白色 陶瓷精磨刀头",
+          "price": "¥39",
+          "advantage": "0.5-2mm精细调节,IPX7全身水洗,充电1.5小时用120分钟,最低价入门",
+          "jd_sales": "中关村在线促销,京东¥69叠券补贴到手¥39(来源: m.zol.com.cn/article/10217971.html)",
+          "color": "#4A5057",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_4.jpg"
         },
         {
-          "name": "御泥坊 玫瑰睡眠面膜 玻尿酸补水",
-          "price": "¥72",
-          "advantage": "玫瑰精华 + 玻尿酸双补水，夜间滋养型质地偏滋润，适合干皮秋冬厚敷，价格比大牌低一个档",
-          "jd_sales": "天猫/京东旗舰店销量 4000，券后 ¥72（来源：百强排行网睡眠面膜品牌排名）",
-          "color": "#4A7FB5",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_3.jpg"
-        },
-        {
-          "name": "御泥坊 美白免洗睡眠面膜 熬夜淡斑补水",
-          "price": "¥113.40",
-          "advantage": "多效合一免洗面膜，熬夜暗沉急救 + 淡斑诉求同满足，但功效宣称的合规边界要留意",
-          "jd_sales": "天猫/京东旗舰店销量 8000，券后 ¥113.40（来源：百强排行网睡眠面膜品牌排名）",
-          "color": "#4A7FB5",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_3.jpg"
+          "name": "康夫 CONFU 理发器 24齿陶瓷动刀 LED显示 KF-T113",
+          "price": "¥99.9",
+          "advantage": "24齿陶瓷动刀配LED显示,发廊级配置下放到家用价",
+          "jd_sales": "2026推剪理发器十大品牌榜,销量1万券后¥99.9(来源: pinpai10.net/bang/tuijianlifaqi.html)",
+          "color": "#454B52",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_4.jpg"
         }
       ]
     },
     {
-      "product": "户外铝合金折叠椅 · ¥30-500",
+      "product": "车载吸尘器 ¥50-320 价位段",
       "items": [
         {
-          "name": "京东京造 轻野 超轻铝合金户外折叠桌椅套装 1桌2椅",
-          "price": "¥265",
-          "advantage": "一套含 1 桌 2 椅，超轻铝合金管材，展开即用不用装工具，折叠体积小好收纳，一整套低于单买两把椅子",
-          "jd_sales": "京东活动售价 ¥279，叠满减与 9.5 折后实付 ¥265；同系列轻野月亮椅京东已有 10000 人评论（来源：什么值得买 p/180892627 + 京东排行榜）",
-          "color": "#B99155",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_4.jpg"
+          "name": "京东京造 T9Pro 车载吸尘器 20000Pa 无线手持 吸吹充抽照明五合一",
+          "price": "¥188",
+          "advantage": "20000Pa三档吸力+无刷电机73000rpm,高亮LED补光灯看得清暗处,吸吹充抽照五合一,35分钟续航Type-C充电",
+          "jd_sales": "什么值得买优惠精选,页面价¥230满减后¥188,好评率99%(来源: m.smzdm.com/p/183974061)",
+          "color": "#DDE2E5",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_5.jpg"
         },
         {
-          "name": "挪客 Naturehike 超轻铝合金折叠月亮椅 夜幕黑(大号)",
+          "name": "爱图腾 M8Pro+ 二代 20000Pa 无线车载吸尘器 3个HEPA滤芯",
           "price": "¥219",
-          "advantage": "专业户外品牌，部分型号重量仅 325 克却能承重 360 斤，面料耐磨防泼水，单手即可展开或收纳",
-          "jd_sales": "Naturehike 官方旗舰店标价 ¥219（来源：买购网 2026 十款热门折叠椅产品榜 + 太平洋科技品牌横评）",
-          "color": "#B99155",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_4.jpg"
+          "advantage": "同价位吸力档配3个HEPA滤芯,过滤配置更高,大吸力款式标杆",
+          "jd_sales": "什么值得买猜你喜欢,低于常卖价(来源: m.smzdm.com/p/180172525/)",
+          "color": "#C9CFD4",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_5.jpg"
         },
         {
-          "name": "京东京造 超轻碳纤维月亮椅 户外折叠椅",
-          "price": "¥186.6",
-          "advantage": "碳纤维材质进一步压重量，168 斤乘坐不晃、加宽前后距优化坐姿，材质党的高性价比之选",
-          "jd_sales": "京东活动售价 ¥228，满 1 件减 30 元叠消费券 9.5 折后实付 ¥186.6（来源：什么值得买 p/172891774）",
-          "color": "#B99155",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_4.jpg"
+          "name": "得力 deli DL8080 车载吸尘器 5000Pa 手持有刷",
+          "price": "¥86",
+          "advantage": "5000Pa飓风吸力配5000mAh电池,18分钟稳定续航,百元档够用",
+          "jd_sales": "什么值得买爆料,京东需用券(来源: faxian.smzdm.com/h1s183t0f2595c1p63/)",
+          "color": "#D3D8DC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_5.jpg"
         },
         {
-          "name": "骆驼 CAMEL 户外露营折叠克米特椅 1J722C7586",
-          "price": "¥65.9",
-          "advantage": "传统露营椅型，坐感舒适、靠背支撑不错，价格只有千元级的一半，入门露营的高性价比之选",
-          "jd_sales": "骆驼户外装备自营旗舰店标价 ¥65.9（来源：买购网 2026 十款热门折叠椅产品榜）",
-          "color": "#B99155",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_4.jpg"
+          "name": "美的 Midea H3 车载吸尘器 极地白 5000Pa",
+          "price": "¥199",
+          "advantage": "2000毫安时电池,美的品牌售后网点密,极地白配色放车里不突兀",
+          "jd_sales": "什么值得买爆料,京东¥199(来源: faxian.smzdm.com/h1s183t0f2595c1p63/)",
+          "color": "#E2E7EA",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_5.jpg"
         },
         {
-          "name": "山扉 户外折叠椅 铝合金超轻高背椅",
-          "price": "¥469.5",
-          "advantage": "靠背贴合腰部曲线久坐不累，人体工学坐感突出，安艺/安泰系列结构更抗松动，舒适度党首选",
-          "jd_sales": "sunnyfeel 旗舰店标价 ¥469.5（来源：买购网 2026 十款热门折叠椅产品榜 + 太平洋科技品牌横评）",
-          "color": "#B99155",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_4.jpg"
-        }
-      ]
-    },
-    {
-      "product": "斜口陶瓷猫碗 · ¥13-80",
-      "items": [
-        {
-          "name": "PETSTAR 斜口陶瓷猫碗 浅咖色",
-          "price": "¥26.5",
-          "advantage": "15 度斜口让猫粮聚到低侧、胡须不撞壁，釉下彩陶瓷致密不挂油脂，宽底座自重推不翻，扁脸猫干饭不卡脸",
-          "jd_sales": "京东 2 万+ 评论、好评率 99%，常卖价 ¥26.5、历史最低 ¥19.19（来源：新浪宠物频道 2026-10 口碑整理）",
-          "color": "#C08B6A",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_5.jpg"
+          "name": "米家 MIJIA 随手吸尘器 家用小型手持式 车载车用",
+          "price": "¥309",
+          "advantage": "仅0.5kg无刷马达转速88000转/分钟,家车两用,买购网推荐产品榜收录",
+          "jd_sales": "买购网2026十款热门车用吸尘器榜,小米官方旗舰店参考价¥309(来源: m.maigoo.com/goomai/284875.html)",
+          "color": "#EDEFF1",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_5.jpg"
         },
         {
-          "name": "甜浪海 304 不锈钢双碗",
-          "price": "¥18.96",
-          "advantage": "304 食品级不锈钢耐摔耐造，双碗干湿分离，大容量防滑底盘，猫打架也不怕打碎，多猫家庭首选",
-          "jd_sales": "销量 10 万+，98% 好评率，京东常卖价 ¥18.96、历史最低 ¥16.96（来源：新浪宠物频道实测汇总）",
-          "color": "#C08B6A",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_5.jpg"
-        },
-        {
-          "name": "乐优派 高脚斜口陶瓷碗",
-          "price": "¥22.8",
-          "advantage": "高脚 + 斜口组合护颈，底座直径 15cm 重心压低，湿滑台面需 3kg 推力才侧滑，大容量防打翻",
-          "jd_sales": "京东热销 10 万+ 评论，高性价比首选（来源：新浪 2026-09 进口猫碗横评报告）",
-          "color": "#C08B6A",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_5.jpg"
-        },
-        {
-          "name": "小佩 PETKIT 15° 陶瓷碗",
-          "price": "¥80",
-          "advantage": "12cm 黄金高度 + 15 度斜口，猫进食颈椎角度约 20°，实测减少吐粮频率约 30%，护颈天花板",
-          "jd_sales": "天猫旗舰店约 ¥80（活动价），实测 12cm 高度 + 15 度斜口（来源：新浪铲屎官日记 2026-09-12 实测）",
-          "color": "#C08B6A",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_5.jpg"
-        },
-        {
-          "name": "BD 飞碟陶瓷碗",
-          "price": "¥40",
-          "advantage": "矮胖飞碟造型重心极低，8 斤英短实测推不动，15.7cm 宽口配月牙耳柄好拿好洗，防掀碗首选",
-          "jd_sales": "约 ¥40，实测 8 斤英短推不动（来源：新浪宠物频道猫碗横评）",
-          "color": "#C08B6A",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_5.jpg"
+          "name": "创维 车载吸尘器 G5 小型手持 吹吸两用 25000Pa",
+          "price": "¥165.1",
+          "advantage": "25000Pa是这批里吸力最高的,吹吸两用,限量抢",
+          "jd_sales": "什么值得买猜你喜欢,京东1.5折¥329(来源: m.smzdm.com/p/180172525/)",
+          "color": "#C5CBD0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_5.jpg"
         }
       ]
     }
   ],
   "hotProducts": [
     {
-      "name": "乐扣乐扣 耐热玻璃保鲜盒 6件套 LLG445S914",
-      "category": "厨房收纳 · 保鲜盒",
-      "price": "¥128.6",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_1.jpg",
-      "sales": "京东保鲜盒 6 件套排行榜 TOP1，已有 100000 人评论",
-      "platform": "京东 · 乐扣乐扣自营旗舰店"
+      "name": "米家 小米 杀菌足浴器2 全自动按摩加热泡脚盆 过小腿高深桶",
+      "category": "居家养生 · 泡脚桶",
+      "price": "¥377",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_1.jpg",
+      "sales": "京东泡脚盆排行榜 TOP1,已有500000人评论",
+      "platform": "京东自营"
     },
     {
-      "name": "老管家 洗衣机槽清洁剂 125g×3袋",
-      "category": "家电清洁 · 洗衣机槽清洁剂",
-      "price": "¥16.9",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_2.jpg",
-      "sales": "页面价 ¥19.9 参加每满 17 减 3，到手 ¥16.9，除垢杀菌祛味三效合一",
-      "platform": "京东 · 老管家自营旗舰店"
+      "name": "绿联 UGREEN Type-C 3.2 扩展坞 10Gbps 四口 接口转换器",
+      "category": "数码办公 · 扩展坞",
+      "price": "¥71.33",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_2.jpg",
+      "sales": "什么值得买优惠精选,页面价¥94活动实付¥71.33,好评率99%",
+      "platform": "绿联京东自营旗舰店"
     },
     {
-      "name": "珀莱雅 解渴面膜 2.0 涂抹式睡眠面膜 75g",
-      "category": "换季护肤 · 涂抹式补水面膜",
-      "price": "¥99",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_3.jpg",
-      "sales": "京东/天猫旗舰店销量 2 万+，实验室 35 名受试者连用 4 周 100% 认可更水润",
-      "platform": "京东 / 天猫 · 珀莱雅官方旗舰店"
+      "name": "米家 智能宠物饮水机2 除菌版 3L UV-C 四重过滤",
+      "category": "养宠日常 · 智能宠物饮水机",
+      "price": "¥199",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_3.jpg",
+      "sales": "小米京东自营首销定价¥199,UV-C除菌率99%,3L/30dB/90天续航",
+      "platform": "小米京东自营"
     },
     {
-      "name": "京东京造 轻野 超轻铝合金户外折叠桌椅套装 1桌2椅",
-      "category": "户外露营 · 铝合金折叠桌椅套装",
-      "price": "¥265",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_4.jpg",
-      "sales": "活动价 ¥279 叠券 9.5 折，同系列轻野月亮椅京东已有 10000 人评论",
-      "platform": "京东 · 京东京造自营旗舰店"
+      "name": "飞科 FLYCO FC5908 电动理发器 全身水洗 5档微调",
+      "category": "男士个护 · 电动理发器",
+      "price": "¥118.75",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_4.jpg",
+      "sales": "京东理发器榜已有2000000人评论,品牌推荐网销量20万",
+      "platform": "苏宁自营 / 飞科京东旗舰店"
     },
     {
-      "name": "PETSTAR 斜口陶瓷猫碗 浅咖色",
-      "category": "养宠 · 斜口护颈陶瓷猫碗",
-      "price": "¥26.5",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-23_product_5.jpg",
-      "sales": "京东 2 万+ 评论、好评率 99%，历史最低到过 ¥19.19",
-      "platform": "京东 · PETSTAR 自营旗舰店"
+      "name": "京东京造 T9Pro 车载吸尘器 20000Pa 吸吹充抽照明五合一",
+      "category": "汽车出行 · 车载吸尘器",
+      "price": "¥188",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_5.jpg",
+      "sales": "京东新品首发满100减20后¥188,页面价¥230,自研无刷电机73000rpm",
+      "platform": "京东自营"
     }
   ],
   "dataSource": "WebSearch 真实数据 · SQLite db 导出",
-  "updateTime": "2026-10-23 07:30"
+  "updateTime": "2026-10-24 07:30"
 }
