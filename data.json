@@ -1,221 +1,220 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "totalProducts": 5,
-  "totalRuns": 40,
-  "totalProductImages": 200,
-  "lastRunDate": "2026-10-24",
+  "totalRuns": 41,
+  "totalProductImages": 205,
+  "lastRunDate": "2026-10-25",
   "status": "已完成",
-  "updateTime": "2026-10-24 07:30",
+  "updateTime": "2026-10-25 07:30",
   "products": [
     {
-      "name": "米家 小米 杀菌足浴器2 全自动按摩加热泡脚盆 雨幕喷淋过小腿高深桶 足浴洗脚盆",
-      "category": "居家养生 · 秋冬泡脚桶",
-      "price": "¥377(泡脚桶·京东自营券后, 官方指导价¥499)",
-      "desc": "立秋后手脚冰凉、久坐一天小腿紧绷,泡脚是性价比最高的解压方式。米家杀菌足浴器2把紫外线模块藏在封闭循环管路里,水流经过时同步杀菌,官方标称杀菌率99.9%。足底三段分区按摩,脚掌滚揉、足弓指压、脚跟点推,外层TPE硅胶包裹不硌脚,力度三档可调。桶身高382mm水位可浸到小腿,配可升降雨幕喷淋。950W DPS水电分离加热,35-48℃恒温,七重电热防护,四轮加伸缩拉手装满水也能拖动。",
-      "suitable": "久坐上班族、下肢易凉人群、给父母长辈的实用送礼",
-      "price_note": "京东自营券后¥377,官方指导价¥499,首发价¥419;配日常元素艾草足浴包(价值¥59)",
-      "color": "#EDF0F2",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_1.jpg",
+      "name": "京东京造 9铬钢材 切片刀 家用锋利菜刀 进口花梨木手柄 切菜切肉通用",
+      "category": "厨房备菜 · 家用菜刀",
+      "price": "¥79.9(9铬钢切片刀·京东自营旗舰店历史低价, 叠补贴低至¥69.9)",
+      "desc": "90Cr18MoV三层复合钢板刀身, 刃口硬度HRC56-58, 15度水磨开刃, 刃口薄而不卷, 久用锋利不减。刀身刀柄一体金属结构, 口金与刀尾一体处理, 这种细节通常出现在百元以上厨刀。两侧镶嵌进口花梨木手柄, 不易掉屑, 握感扎实, 整体长32.3cm、宽9.8cm、重量417g, 微重但排切压切前配重不头重脚轻。刀尖角度大于60度, 切丝切块顺滑不粘食材, 但只适合切肉切菜, 不建议斩骨剁骨或切未解冻冻肉。",
+      "suitable": "每天做饭的家庭用户、想换一把趁手主刀的新手、租房党厨房基础配置",
+      "price_note": "京东自营旗舰店活动价¥89.9, 开门红到手¥79.9; 叠国家补贴后低至¥69.9; 同品牌67层大马士革钢版本另需¥229",
+      "color": "#A06B3D",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_1.jpg",
       "id": 1,
       "highlights": [
-        "专利管路UV杀菌99.9%,泡脚同时循环杀菌",
-        "三段分区按摩:脚掌滚揉/足弓指压/脚跟点推",
-        "382mm加高深桶,水位可浸到小腿",
-        "可升降雨幕喷淋,喷头三档高度可调",
-        "950W DPS水电分离加热,35-48℃恒温"
+        "90Cr18MoV三层复合钢, 刃口硬度HRC56-58",
+        "15度水磨开刃, 刃口薄而不卷, 久用锋利不减",
+        "进口花梨木手柄, 不易掉屑握感扎实, 湿手不打滑",
+        "刀身刀柄一体金属+口金刀尾一体处理, 百元级做工",
+        "417g微重前配重, 排切压切不头重脚轻"
       ],
       "tags": [
-        "足浴盆",
-        "泡脚桶",
-        "秋冬养生",
-        "米家",
-        "居家好物"
+        "菜刀",
+        "切片刀",
+        "厨房好物",
+        "花梨木手柄",
+        "9铬钢"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_1.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_slice_1.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_slice_1.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_7379b406bab4a393dbf.html",
-        "source": "京东",
+        "primary": "https://m.smzdm.com/p/183728267",
+        "source": "京东 / 什么值得买",
         "extra": [
-          "https://post.m.smzdm.com/p/apqmorp9",
-          "https://m.xiaomitong123.com/news/13321.html",
-          "https://post.smzdm.com/p/awwo9e64/",
-          "http://www.jinceping.com/post/9830.html",
-          "https://wiki.smzdm.com/p/mzdvdgv/",
-          "https://www.smzdm.com/ju/sxq3598/"
+          "https://faxian.smzdm.com/h1s183t0f47c7p185",
+          "https://m.smzdm.com/p/184371019",
+          "https://m.smzdm.com/p/102168354/",
+          "https://www.jd.com/phb/6196e99c1fbc6f944b5a.html",
+          "https://wiki.smzdm.com/p/8men15q",
+          "https://g.pconline.com.cn/best/guide/155941.html"
         ]
       },
-      "theme_color": "#627988"
+      "theme_color": "#A06B3D"
     },
     {
-      "name": "绿联 UGREEN Type-C 3.2 扩展坞 10Gbps 四口 接口转换器 0.3米",
-      "category": "数码办公 · 桌面扩展坞",
-      "price": "¥71.33(扩展坞·绿联京东自营活动价, 页面价¥94)",
-      "desc": "轻薄本只有一两个接口,插投影仪、鼠标、硬盘、充电器就得翻包找线。绿联Type-C 3.2扩展坞四口版,四个数据口全部支持USB3.2 Gen2 10Gbps,1G文件约1秒传完,移动硬盘拷4K素材不用干等。铝合金外壳散热好,长时间挂盘不降速。0.3米短线刚好卡在笔记本侧面不挡手。Windows和macOS即插即用免装驱动,同系列还有四合一到十合一多档口数可选。",
-      "suitable": "轻薄本用户、经常出差开会的人、MacBook用户、需要接多屏与读卡器的摄影爱好者",
-      "price_note": "绿联京东自营旗舰店活动实付¥71.33,页面价¥94,满200减25后折合¥71.57/件",
-      "color": "#454B52",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_2.jpg",
+      "name": "鱼跃 Yuwell YE8800AR 腕式电子血压计 快充语音款 老人家用 智能加压",
+      "category": "居家健康监测 · 腕式电子血压计",
+      "price": "¥159(YE8800AR快充语音款·电商参考价)",
+      "desc": "腕式设计不用缠袖带, 老人自己在家就能测。重量109g、尺寸89×62×21mm, 揣兜里能随身带走。内置500mAh锂电池支持USB充电, 一次充满约可测250次, 不用再惦记换纽扣电池。测完直接语音播报高压、低压和脉搏, 屏幕大数字配背光, 老花眼不用凑近看。压力精度正负3mmHg, 测量范围0-300mmHg, 通过二类医疗器械认证。智能加压不勒腕, 适配腕围13.5-21.5cm, 记忆功能可存多组数据, 复诊时直接调出来给医生看。",
+      "suitable": "关注父母血压的中年人、久坐办公族日常体检、差旅途中需要随手测量的用户",
+      "price_note": "电商参考价¥159; 同价位欧姆龙T10约¥169、T30约¥229、蓝牙款HEM-6231T约¥299; 鱼跃YE8100B约¥159",
+      "color": "#C5D0DA",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_2.jpg",
       "id": 2,
       "highlights": [
-        "四口全USB3.2 Gen2 10Gbps,1G文件约1秒传",
-        "铝合金外壳散热好,长时间挂盘不降速",
-        "0.3米短线,插在笔记本侧面不挡手",
-        "即插即用,兼容Windows与macOS免驱",
-        "同系列还有4-10合1多档口数可选"
+        "腕式免绑袖带, 老人独自在家就能完成测量",
+        "USB快充500mAh锂电池, 约250次测量续航",
+        "全程语音播报加大屏背光, 老花眼不凑近",
+        "正负3mmHg压力精度, 通过二类医疗器械认证",
+        "智能加压不勒腕, 适配腕围13.5-21.5cm"
       ],
       "tags": [
-        "扩展坞",
-        "Type-C",
-        "绿联",
-        "数码配件",
-        "桌面办公"
+        "血压计",
+        "腕式血压仪",
+        "送爸妈",
+        "居家健康",
+        "鱼跃"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_2.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_slice_2.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_2.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_slice_2.jpg"
       ],
       "links": {
-        "primary": "https://m.smzdm.com/p/183954769",
-        "source": "什么值得买 / 绿联京东自营旗舰店",
+        "primary": "https://wiki.smzdm.com/p/xzgm3v4/dianping",
+        "source": "什么值得买 / 京东",
         "extra": [
-          "https://wiki.smzdm.com/p/jmp5ejv/canshu",
-          "https://www.lulian.cn/product/1401.html",
-          "https://detail.zol.com.cn/dockingstation_cradle/ugreen/wuzhou/new_pic.html",
-          "https://oa.zol.com.cn/790/7900406.html",
-          "https://www.smzdm.com/p/182967845/",
-          "https://m.smzdm.com/p/184248848"
+          "https://m.sohu.com/a/1057332337_122645048",
+          "https://g.pconline.com.cn/best/guide/88486.html",
+          "https://g.pconline.com.cn/best/guide/163265.html",
+          "https://g.pconline.com.cn/best/guide/136950.html",
+          "https://nk.39.net/a/261002/r2xda3o.html"
         ]
       },
-      "theme_color": "#454B52"
+      "theme_color": "#5C7890"
     },
     {
-      "name": "米家 智能宠物饮水机2 除菌版 3L UV-C 四重过滤 无线长续航",
-      "category": "养宠日常 · 智能宠物饮水机",
-      "price": "¥199(3L·京东自营首销价)",
-      "desc": "猫天生不爱喝静水,喝不够容易出泌尿问题。米家智能宠物饮水机2除菌版用UV-C杀菌水泵,官方标称除菌率99%,紫外线藏在水泵内部不直射皮肤。四重过滤含PP棉拦截毛发、活性炭吸异味、离子交换树脂软化水质、抑菌棉抑菌。3L水箱单猫约15天饮水量,正面透明视窗看余量。4000mAh电池无线续航90到100天,IPX7防水可整机冲洗,噪音低至30dB。",
-      "suitable": "养猫家庭、多宠家庭、经常出差要远程照顾毛孩子的主人",
-      "price_note": "京东首销定价¥199,普通版¥199同价,滤芯需另行购买(建议每月更换)",
-      "color": "#F1F4F6",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_3.jpg",
+      "name": "梵都宠舍 猫窝四季通用 圆形蛋挞窝 带独立枕头 猫咪深睡窝 灰色XL号加厚绒布垫",
+      "category": "养宠过冬 · 猫咪深睡窝",
+      "price": "¥23.8(蛋挞猫窝XL号·京东自营, 低于60天均价)",
+      "desc": "深秋降温, 猫主子需要一个愿意钻进去的窝。圆形蛋挞造型, 内圈隆起把猫围住, 头部刚好枕在独立枕头上, 像人侧睡抱U型枕一样有包裹感, 猫友高频反馈是一回家就赖窝里不出来。短毛绒面料加填充棉, 厚度与透气平衡, 冬天锁温、夏天趴地板也不闷汗。XL号加大加厚绒布垫适合偏胖的成年猫, 体重偏小的选M号。垫子可拆洗, 机洗时套洗衣袋, 建议每周用粘毛器清一次毛屑, 每月机洗一次晒干即可。",
+      "suitable": "养猫家庭入冬添置窝具、胖猫或短毛猫需要包裹感、租房小空间的轻量床具",
+      "price_note": "京东自营¥23.8(标注低于60天均价); 同款M号¥19.8、L号¥23.6-23.8、XL号¥24.8-26.7; M号历史最低曾到¥12.39",
+      "color": "#B5BCC1",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_3.jpg",
       "id": 3,
       "highlights": [
-        "UV-C杀菌水泵,除菌率99%",
-        "四重过滤:PP棉+活性炭+离子树脂+抑菌棉",
-        "3L大水箱,单猫约15天饮水量",
-        "4000mAh电池,无线续航最长90-100天",
-        "IPX7防水可整机冲洗,运行噪音低至30dB"
+        "圆形蛋挞造型加独立枕头, 头部有专属承托",
+        "短毛绒加填充棉, 锁住温度同时不闷汗",
+        "XL号加厚绒布垫, 适合偏胖的成年猫",
+        "垫子可拆洗, 机洗装袋打理省事",
+        "四季通用, 冬天钻睡夏天趴地板"
       ],
       "tags": [
-        "宠物饮水机",
-        "养猫好物",
-        "米家",
-        "智能宠物",
-        "除菌"
+        "猫窝",
+        "宠物窝垫",
+        "猫咪深睡窝",
+        "养宠好物",
+        "梵都宠舍"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_3.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_slice_3.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_3.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_slice_3.jpg"
       ],
       "links": {
-        "primary": "https://m.buy.mi.com/hk/item/3223711731",
-        "source": "小米商城",
+        "primary": "https://m.smzdm.com/ju/sqxvmm5",
+        "source": "什么值得买 / 京东",
         "extra": [
-          "https://wiki.smzdm.com/p/75wve61",
-          "https://m.mydrivers.com/newsview/1146213.html",
-          "https://news.qq.com/rain/a/20260819A033W900",
-          "https://tech.ifeng.com/c/8vruyBD43w5",
-          "https://www.sina.cn/gc/article/niuhpzm5702047.html",
-          "https://www.smzdm.com/ju/swm8lq9"
+          "https://www.smzdm.com/ju/sqxvmm5",
+          "https://www.jd.com/phb/key_69947aae5c87208301fb.html",
+          "https://www.jd.com/phb/key_6994d67f5a65c411c045.html",
+          "https://www.jd.com/phb/key_6994c7f42beb9dcaa58c.html",
+          "https://k.sina.cn/article_7879849614_1d5acf68e06801eezq.html",
+          "https://cu.manmanbuy.com/dingyue/keyword/fandouchongshemaowo"
         ]
       },
-      "theme_color": "#5B7A8E"
+      "theme_color": "#6B7880"
     },
     {
-      "name": "飞科 FLYCO FC5908 电动理发器 成人儿童电推剪 全身水洗",
-      "category": "男士个护 · 居家理发器",
-      "price": "¥118.75(理发器·苏宁自营到手价)",
-      "desc": "去理发店剪个寸头二三十块还要排队,买台家用理发器自己推更省事。飞科FC5908是入门价里口碑最稳的一个,京东理发器榜评价量已破两百万,苏宁自营到手价¥118.75。陶瓷刀头配智能防夹发系统,推头发不打结不拉扯,新手第一次用也不容易卡住。五档长度微调,寸头鬓角渐变都能推。支持全身水洗,剪完直接冲水清理,180分钟续航带智能电量显示。",
-      "suitable": "男士日常自己剪发、给家中老人小孩推剪、需要出差带着用的人",
-      "price_note": "苏宁自营到手价¥118.75,苏宁旗舰店¥141.60,京东券后价¥159-¥200",
-      "color": "#2A2D30",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_4.jpg",
+      "name": "京东京造 6号乳胶复合床垫 6cm高弹性A类垫子褥子 榻榻米垫 1.5×2米",
+      "category": "睡眠升级 · 乳胶复合床垫褥",
+      "price": "¥190.39(1.5×2米6cm·京东自营旗舰店, 页面价¥231.55)",
+      "desc": "宿舍硬板床、出租屋床垫塌陷, 是换季睡眠质量的大头。这张京东京造6号乳胶复合床垫用泰国原液进口乳胶片做复合层, 6cm厚度高弹性结构回弹快不塌陷, 铺开散一小会就能直接上手用。A类等级面料柔软洁净, 拆开后几乎没有味道, 不用整夜通风晾味。1.5×2米正好铺满宿舍单人床或出租屋1.5米大床, 边缘挺括包边长期不起皱。京东评价里出现最多的三句就是尺寸刚好、很软、没有异味。",
+      "suitable": "住宿舍的学生党、租房打地铺的上班族、给老人房换一张软硬适中的褥子",
+      "price_note": "京东活动价¥231.55, 满199减20叠加补贴后实付¥190.39; 近期百亿补贴与会员价在¥183.55-¥226.28之间波动",
+      "color": "#E4E1DA",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_4.jpg",
       "id": 4,
       "highlights": [
-        "陶瓷刀头+智能防夹发,不卡发不扯疼",
-        "全身水洗,剪完直接冲水清理",
-        "五档长度微调,寸头到渐变都能推",
-        "180分钟持久续航,带智能电量显示",
-        "京东理发器榜已有200万人评论"
+        "泰国原液进口乳胶片复合层, 高弹性回弹不塌陷",
+        "6cm厚度铺上即用, 宿舍硬板床直接改善",
+        "A类等级面料, 拆封几乎无味不用晾一晚",
+        "1.5×2米标准尺寸, 宿舍和出租屋大床都能铺",
+        "边缘挺括包边, 长期使用不易起皱"
       ],
       "tags": [
-        "理发器",
-        "飞科",
-        "居家理发",
-        "男士个护",
-        "省钱好物"
+        "乳胶床垫",
+        "宿舍床垫",
+        "榻榻米垫",
+        "睡眠升级",
+        "京东京造"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_4.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_slice_4.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_4.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_slice_4.jpg"
       ],
       "links": {
-        "primary": "https://fe.suning.com/bigimages/12433412247.html",
-        "source": "苏宁易购",
+        "primary": "https://m.smzdm.com/p/177385356",
+        "source": "京东 / 什么值得买",
         "extra": [
-          "https://fe.suning.com/bigimages/12433404755.html",
-          "https://review.suning.com/cmmdty_review/general-000000011053638782-0010326769-1-again.htm",
-          "https://list.suning.com/0-337512-0-1-0-0-0-0-0-0-6254066-6256028-10664947.html",
-          "https://www.jd.com/phb/key_1319246a811449c78062.html",
-          "https://pinpai10.net/bang/tuijianlifaqi.html",
-          "https://detail.zol.com.cn/daily-care/panasonic_riwa_cate_yingqu_quqiwu/pic.html"
+          "https://m.smzdm.com/p/175952183",
+          "https://m.smzdm.com/p/174396557/",
+          "https://m.smzdm.com/p/177549599/",
+          "https://m.smzdm.com/p/176734044",
+          "https://www.jd.com/phb/key_152489030fc4dfa7b1b39.html",
+          "https://www.jd.com/phb/key_1620bbaf8578366e50d5.html"
         ]
       },
-      "theme_color": "#2A2D30"
+      "theme_color": "#7E745C"
     },
     {
-      "name": "京东京造 T9Pro 车载吸尘器 20000Pa 无线手持 吸吹充抽照明五合一",
-      "category": "汽车出行 · 车内清洁",
-      "price": "¥188(车载吸尘器·京东自营券后, 页面价¥230)",
-      "desc": "车里最容易脏的是座椅缝隙和脚垫,饼干渣、猫毛、沙子,抹布根本够不着。京东京造T9Pro用20000Pa三档可调吸力,自研第三代无刷电机转速73000rpm,饼干渣猫毛键盘灰一遍过。带高亮LED补光灯,暗处灰尘看得清。做成吸吹充抽照明五合一,还能给气球充气。内置三节电池续航约35分钟,Type-C充电,标配7件套配件。",
-      "suitable": "有车一族、经常带宠物坐车的车主、租房需要桌面除尘的人",
-      "price_note": "京东新品首发满100减20后¥188,页面价¥230;同系列T9Max金属灰礼盒装约¥279",
-      "color": "#DDE2E5",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_5.jpg",
+      "name": "阿尔法蛋 词典笔 D1Pro 2026 英语点读翻译笔 小初高全科扫描学习笔 512MB",
+      "category": "学习数码 · AI词典笔",
+      "price": "¥435.2(D1Pro 2026 512MB·京东自营旗舰店, 页面价¥572)",
+      "desc": "双11给孩子或弟弟妹妹挑的第一件学习数码。不用开机直接一扫就出结果, 识别快、发音标准, 离线也能查, 车上教室都用得上。512MB版本覆盖全科教材同步, 拍照搜题、点读跟读、口语测评、背单词听课文都能覆盖。D1Pro 2026 这一代在京东扫描笔排行榜和扫描京东排行榜都在前五, 已有100万人评论, 好评反馈集中在扫描灵敏、识别精准、发音标准、续航够用。机身小巧能放进书包, 孩子自己就能操作, 家长不用再陪着查单词。",
+      "suitable": "小学到高中全阶段学生、想在家辅导英语的家长、考研备考查词人群",
+      "price_note": "京东自营旗舰店页面价¥572, 1件8.5折叠满480减60后到手¥435.2; 近期D1Pro 2026 512MB在¥435.2-¥477.7区间, D1SE约¥294.1",
+      "color": "#2E3540",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_5.jpg",
       "id": 5,
       "highlights": [
-        "20000Pa三档吸力,无刷电机73000rpm",
-        "高亮LED补光灯,暗处灰尘看得清",
-        "吸吹充抽照明五合一全能机",
-        "三节电池续航提升30%,约35分钟",
-        "Type-C充电+7件套配件"
+        "不用开机一扫出结果, 识别快发音标准",
+        "离线也能查, 车上教室没网照样能用",
+        "全科教材同步加拍照搜题加口语测评",
+        "512MB版本容量充足, 续航够用不焦虑",
+        "京东扫描笔榜TOP5, 已有100万人评论"
       ],
       "tags": [
-        "车载吸尘器",
-        "京东京造",
-        "汽车用品",
-        "无刷电机",
-        "出行好物"
+        "词典笔",
+        "点读笔",
+        "学习机",
+        "双11学习好物",
+        "阿尔法蛋"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_5.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-24_product_slice_5.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_5.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-25_product_slice_5.jpg"
       ],
       "links": {
-        "primary": "https://wiki.smzdm.com/p/wo5wdg8/",
-        "source": "什么值得买百科 / 京东",
+        "primary": "https://m.smzdm.com/p/183019594/",
+        "source": "京东 / 什么值得买",
         "extra": [
-          "https://m.smzdm.com/p/183974061",
-          "https://www.smzdm.com/p/183974061",
-          "https://m.smzdm.com/p/180172525/",
-          "https://www.jd.com/phb/key_6728125d45a61f6b9a5e.html",
-          "https://faxian.smzdm.com/h1s183t0f2595c1p63/",
-          "https://m.maigoo.com/goomai/284875.html"
+          "https://www.smzdm.com/sou/12/p4/",
+          "https://www.jd.com/phb/key_6706892f207397981bb.html",
+          "https://www.jd.com/phb/key_672834f85800d120da36.html",
+          "https://www.jd.com/phb/key_6701cdfb0f9afcaeb93.html",
+          "https://m.smzdm.com/ju/sq61x64",
+          "https://www.smzdm.com/ju/sww1mw1"
         ]
       },
-      "theme_color": "#657985"
+      "theme_color": "#2E3540"
     }
   ]
 }
