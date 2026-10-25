@@ -285,5 +285,12 @@
     "productCount": 5,
     "updateTime": "2026-10-25 07:30",
     "status": "已完成"
+  },
+  {
+    "date": "2026-10-26",
+    "totalRuns": 42,
+    "productCount": 5,
+    "updateTime": "2026-10-26 07:30",
+    "status": "已完成"
   }
 ]

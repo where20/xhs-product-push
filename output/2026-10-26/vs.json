@@ -1,0 +1,302 @@
+{
+  "sources": [
+    "https://m.smzdm.com/p/177754345/",
+    "https://www.smzdm.com/p/154126335",
+    "https://detail.zol.com.cn/camera_equipment/xiaomi_d-link_pivotek/",
+    "https://www.mizhijia.net/wz/717298.html",
+    "https://cu.manmanbuy.com/discuxiao_19007534.aspx",
+    "https://www.jd.com/phb/key_6994a2e01a0a2392d748.html",
+    "https://www.jd.com/phb/69947f7ffe2574669344.html",
+    "https://www.jd.com/phb/key_69949819e341b69af00b.html",
+    "https://feed.baidu.com/feed/data/wise/landingpage?n_type=1&nid=9813623246229084369&p_from=-1",
+    "https://www.jd.com/phb/7375e627a44b1a4595b.html",
+    "https://m.smzdm.com/p/108570282/",
+    "https://m.smzdm.com/p/180734320/",
+    "https://www.maigoo.com/product/specs_14102.html",
+    "https://www.smzdm.com/ju/s58wyl7",
+    "https://m.smzdm.com/p/182160842/",
+    "https://m.smzdm.com/p/180840536/",
+    "https://m.smzdm.com/p/168579470/",
+    "https://m.zol.com.cn/article/8270413.html",
+    "http://860535.xyz/post/1760434675354",
+    "https://auto.sina.cn/2026-10-06/detail-iniuhitp5780002.d.html",
+    "https://k.sina.com.cn/article_7879849972_1d5acf7f406801kejs.html",
+    "https://k.sina.com.cn/article_7880069255_1d5b0508706801ppos.html",
+    "https://www.jd.com/phb/1319ba5fa74707c451e7.html",
+    "https://db.m.auto.sohu.com/model_2762/a/1072291878_122950389"
+  ],
+  "competitors": [
+    {
+      "product": "家用智能监控摄像头 ¥130-400",
+      "items": [
+        {
+          "name": "小米智能摄像机4 MJSXJ27CM 4K云台版 无卡",
+          "price": "¥167.65",
+          "advantage": "4K 3840×2160 + AI守护矩阵 + 双向语音,国补后实付不到¥170",
+          "jd_sales": "京东小米自营旗舰店活动价¥229叠国补后实付¥167.65(什么值得买);ZOL本周热门监控摄像机榜TOP3,售价¥249",
+          "color": "#F2F3F5"
+        },
+        {
+          "name": "小米智能摄像机3 云台版 MJSXJ15CM",
+          "price": "¥169",
+          "advantage": "500万有效像素,本地AI人形侦测+AI人脸识别,云存/microSD/NAS三存储",
+          "jd_sales": "ZOL报价京东在售价¥169,1261人点评,9.9分;低于同门4的画质档位",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "小米智能摄像机 C700+ 32G存储卡版",
+          "price": "¥279",
+          "advantage": "800万像素4K + 360度全景,主打婴儿看护场景",
+          "jd_sales": "慢慢买记录京东自营需领券¥279;月黑风高活动曾实付¥149(什么值得买)",
+          "color": "#F7F7F8"
+        },
+        {
+          "name": "小米智能摄像机 C500 双摄版 256G存储卡",
+          "price": "¥307.3",
+          "advantage": "双400万像素双摄,室内全方位覆盖",
+          "jd_sales": "京东活动售价¥439,广东地区中山适老化补贴后实付¥307.3(中关村在线)",
+          "color": "#EFF0F2"
+        },
+        {
+          "name": "小米智能摄像机4 变焦版",
+          "price": "¥399",
+          "advantage": "800万超广角+500万超长焦,9倍混合变焦,首发赠64GB存储卡",
+          "jd_sales": "小米之家首发价¥399,自研1TOPS算力芯片+双频WiFi6(米之家)",
+          "color": "#F2F3F5"
+        },
+        {
+          "name": "萤石 CP1 家用监控摄像机",
+          "price": "¥179",
+          "advantage": "传统监控品牌背书,入门级稳定方案",
+          "jd_sales": "ZOL本周热门监控摄像机榜TOP2,售价¥179;新增点评产品榜收录",
+          "color": "#E8E8E6"
+        }
+      ]
+    },
+    {
+      "product": "宠物烘干箱 ¥260-400 中端档",
+      "items": [
+        {
+          "name": "京猫 宠物烘干箱 方糖Pro 高配款 68L",
+          "price": "¥354.6",
+          "advantage": "68L大空间+3秒速热恒温+可拆卸安抚窗,快速模式30分钟吹干,三年保修",
+          "jd_sales": "搜狐四款实测横评给出的高配款到手价¥354.6;京东同品牌方糖Plus已有10000人评论",
+          "color": "#FFFFFF"
+        },
+        {
+          "name": "优宠 Yopet 宠物烘干箱 标准款 62L 800W",
+          "price": "¥268",
+          "advantage": "入门价位,30秒加热到39°C,6D循环风+底部直吹,单猫20分钟八成干",
+          "jd_sales": "搜狐实测横评入门款,3档调速+负离子+蓝牙智联标配",
+          "color": "#F3F1EC"
+        },
+        {
+          "name": "宠智迪 宠物烘干箱 70L标准款 1200W",
+          "price": "¥343",
+          "advantage": "底部环绕风+紫外线杀菌,负离子护发,新风每分钟换气55次,25斤内宠物可同时烘",
+          "jd_sales": "搜狐实测横评,25斤内宠物可装下,两只猫同时烘干不闷气",
+          "color": "#EDF1F4"
+        },
+        {
+          "name": "小红栗 宠物烘干箱 62L 可折叠",
+          "price": "¥279",
+          "advantage": "可折叠收纳省空间,62L可容纳两只小猫,39.6℃环境30分钟干毛,安全门锁防逃",
+          "jd_sales": "百度Feed十大品牌榜实测参考价¥279,箱体可拆卸易清洗",
+          "color": "#E9DCCB"
+        },
+        {
+          "name": "宠物智能烘干箱 75升 顶配版",
+          "price": "¥351",
+          "advantage": "35分贝超静音,6D环绕风20分钟烘干,UVC紫外线+等离子双杀菌",
+          "jd_sales": "百度Feed十大品牌榜参考价¥351;京东宠物烘干排行榜TOP3,已有1000人评论",
+          "color": "#E6EAEE"
+        },
+        {
+          "name": "霍曼 PD135 Ultra 智能烘干箱 135L",
+          "price": "¥2298.35",
+          "advantage": "135L超大容量,5.2m/s缓风技术,主动补氧+空气浴SPA,行业首推3年上门保修",
+          "jd_sales": "搜狐实测横评高端旗舰;京东宠物烘干排行榜多款霍曼单品已有100000人评论",
+          "color": "#DDDDE0"
+        }
+      ]
+    },
+    {
+      "product": "手持电动打蛋器 ¥25-135",
+      "items": [
+        {
+          "name": "九阳 手持电动打蛋器 S-LD150",
+          "price": "¥56",
+          "advantage": "1500mAh电池无线手持,五档调速,大品牌里价格最低的一档",
+          "jd_sales": "京东百亿补贴到手¥56(什么值得买);京东打蛋器品牌榜TOP3,已有200000人评论",
+          "color": "#F7F3EC"
+        },
+        {
+          "name": "小熊 手持迷你打蛋器 DDQ-B01K1",
+          "price": "¥61",
+          "advantage": "五档调速+双棒立体打发,舒适把手握持不酸,可立式设计不怕粘脏",
+          "jd_sales": "买购网2026电动打蛋器榜TOP1,九阳自营旗舰店同价位段,点赞21",
+          "color": "#F4F1EA"
+        },
+        {
+          "name": "荣事达 打蛋器 EGK661L 450W 六头",
+          "price": "¥77.89",
+          "advantage": "450W大功率配6个打蛋头,颜值高,不锈钢打蛋棒",
+          "jd_sales": "京东日常价¥116.45,30天新低¥77.89(什么值得买)",
+          "color": "#E8E9EB"
+        },
+        {
+          "name": "柏翠 家用电动无线充电式打蛋器 PE4580",
+          "price": "¥99",
+          "advantage": "内置1300mAh电池+无线充电,食品级304不锈钢打蛋棒,5档调速",
+          "jd_sales": "买购网2026电动打蛋器榜收录,柏翠厨电自营旗舰店",
+          "color": "#EFEAE1"
+        },
+        {
+          "name": "小熊 家用电动打蛋器 DDQ-B02L1 10档300W",
+          "price": "¥131",
+          "advantage": "10档调速+300W大功率,打发更快,可立式收纳",
+          "jd_sales": "买购网2026榜单TOP3,点赞12,小熊官方旗舰店",
+          "color": "#F2EDE3"
+        },
+        {
+          "name": "康佳 家用电动打蛋机 双棒五档",
+          "price": "¥24.9",
+          "advantage": "入门最低价,双棒可立式,一键退棒",
+          "jd_sales": "什么值得买奶油料理机价格榜收录,京东5k评论量级",
+          "color": "#E5E5E5"
+        }
+      ]
+    },
+    {
+      "product": "WiFi7 千兆双频路由器 ¥100-480",
+      "items": [
+        {
+          "name": "中兴 巡天 BE5100 千兆双频 WiFi7 路由器",
+          "price": "¥209",
+          "advantage": "WiFi7双频5100Mbps,5天线+5路独立FEM穿墙强,512MB内存,支持Mesh和青少年上网管理",
+          "jd_sales": "网络设备热度Top1,2545人评价98%好评(什么值得买精选);京东日常价¥209",
+          "color": "#2B2B2E"
+        },
+        {
+          "name": "中兴 巡天 BE3600 Pro 青云版",
+          "price": "¥189",
+          "advantage": "同价位首个立式设计,1×2.5G WAN + 3×千兆LAN,国风竹简外观,超100款APP定向管理",
+          "jd_sales": "什么值得买促销文京东售价¥189,叠焕新补贴更低;网络设备热度Top2,598人评论88%好评",
+          "color": "#D9D3C4"
+        },
+        {
+          "name": "华为 BE3 Pro 双频3600M WiFi7 路由器",
+          "price": "¥183.05",
+          "advantage": "大厂自研固件,双频3600M,信仰与售后网络是加分项",
+          "jd_sales": "什么值得买88VIP/国补实付¥183.05,原价¥399",
+          "color": "#3A3A3C"
+        },
+        {
+          "name": "小米 BE3600 Pro 双频2000M WiFi7 双路由套装",
+          "price": "¥475.15",
+          "advantage": "双机套装开箱即全屋覆盖,适合一步到位的Mesh需求",
+          "jd_sales": "网络设备热度Top4,127天新低,什么值得买记录¥475.15(京东)",
+          "color": "#EFEFEF"
+        },
+        {
+          "name": "腾达 泰山 BE3600 Ultra WiFi7 穿墙王",
+          "price": "¥101.72",
+          "advantage": "WiFi7下放到百元档,价格最低的WiFi7选择",
+          "jd_sales": "网络设备热度Top3,什么值得买记录¥101.72(京东,原价¥279)",
+          "color": "#1F1F22"
+        },
+        {
+          "name": "小米 AX3000T 双频3000M Mesh路由器 WiFi6",
+          "price": "¥128.79",
+          "advantage": "WiFi6常青款,单机即可覆盖,预算更紧的稳妥选择",
+          "jd_sales": "网络设备热度Top10,京东¥128.79(原价¥159)",
+          "color": "#F2F2F3"
+        }
+      ]
+    },
+    {
+      "product": "儿童安全座椅 ¥390-700 认证档",
+      "items": [
+        {
+          "name": "孩贝王 儿童安全座椅 C007 0-12岁 360度旋转",
+          "price": "¥499",
+          "advantage": "3C+i-Size认证并标注符合ADAC,360度单手旋转,ISOFIX+支撑腿,反向可用到13kg",
+          "jd_sales": "京东4岁儿童座椅品牌榜TOP2,已有2000人评论;新浪母婴实测¥499",
+          "color": "#C9C6BE"
+        },
+        {
+          "name": "惠尔顿 酷睿宝 儿童安全座椅 9个月-12岁",
+          "price": "¥399",
+          "advantage": "3C+ISOFIX,坐垫厚度和侧翼包裹性突出,同档性价比口碑款",
+          "jd_sales": "新浪母婴2026年9月实测推荐,评价为500元内性价比之王",
+          "color": "#B9C4CE"
+        },
+        {
+          "name": "初婴贝 儿童安全座椅 360度旋转款",
+          "price": "¥468",
+          "advantage": "3C+i-Size双认证,侧撞防护面积达85%,EPP缓冲+注塑骨架",
+          "jd_sales": "新浪母婴2026年9-10月实测,适用9个月-12岁",
+          "color": "#D8CFC6"
+        },
+        {
+          "name": "京东京造 儿童安全座椅 成长舱",
+          "price": "¥469",
+          "advantage": "3C+i-Size+ADAC双认证,一体注塑+EPS吸能,侧防得分9.2满分10",
+          "jd_sales": "新浪母婴实测京东好评率99%,500元内唯一i-Size模拟ADAC认证款",
+          "color": "#AEB6BD"
+        },
+        {
+          "name": "bebelock YC32N 儿童安全座椅",
+          "price": "¥698",
+          "advantage": "千元内唯一i-Size+ADAC双认证,单手360度旋转+90度悬停",
+          "jd_sales": "新浪汽车实测推荐,京东旗舰店评价超2万条、好评率98%以上",
+          "color": "#8E9398"
+        },
+        {
+          "name": "FORSUNNY YB111A 儿童安全座椅",
+          "price": "¥438",
+          "advantage": "360度旋转+钢骨架+ISOFIX/LATCH三合一,0-12岁全阶段",
+          "jd_sales": "新浪母婴实测,新品好评数为0%建议观望(2026年9月上线)",
+          "color": "#C2B7A6"
+        }
+      ]
+    }
+  ],
+  "hotProducts": [
+    {
+      "name": "小米智能摄像机4 MJSXJ27CM 4K云台版 无卡",
+      "category": "智能监控摄像头",
+      "price": "¥167.65",
+      "sales": "京东小米自营国补后实付¥167.65;ZOL本周热门监控摄像机榜TOP3(¥249)",
+      "platform": "京东自营"
+    },
+    {
+      "name": "京猫 宠物烘干箱 方糖Pro 高配款 68L",
+      "category": "宠物烘干箱",
+      "price": "¥354.6",
+      "sales": "四款实测横评高配款¥354.6;京东方糖系列单品已有10000人评论",
+      "platform": "京东自营"
+    },
+    {
+      "name": "九阳 手持电动打蛋器 S-LD150",
+      "category": "电动打蛋器",
+      "price": "¥56",
+      "sales": "京东百亿补贴¥56;京东打蛋器品类榜TOP3,已有200000人评论",
+      "platform": "京东自营"
+    },
+    {
+      "name": "中兴 巡天 BE5100 千兆双频 WiFi7 路由器",
+      "category": "WiFi7路由器",
+      "price": "¥209",
+      "sales": "网络设备热度Top1,2545人评价98%好评;京东日常价¥209",
+      "platform": "京东自营"
+    },
+    {
+      "name": "孩贝王 儿童安全座椅 C007 0-12岁 360度旋转",
+      "category": "儿童安全座椅",
+      "price": "¥499",
+      "sales": "京东4岁儿童座椅品牌榜TOP2,已有2000人评论;新浪母婴实测¥499",
+      "platform": "京东自营"
+    }
+  ]
+}
