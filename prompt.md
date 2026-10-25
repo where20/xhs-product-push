@@ -284,6 +284,19 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
   `history/history.json` 由 `db_export` **自动重建**，不要手工追加。
 - **links 里的 URL 严禁编造**：每个都要 curl 核验 200/202。
   编造的链接 = 假带货链路，比没有链接更糟。
+  ⚠️ **`www.sohu.com/a/...` 文章页 curl 恒 403**（直连 / 代理 / 浏览器 UA 全试过）。
+  要引用搜狐内容时改用可 200 的镜像域：`db.m.auto.sohu.com/model_.../a/...`、
+  `gov.sohu.com/a/...`。**别把 www.sohu.com 写进 links.primary**，否则落地页「购买」按钮点开就是 403。
+  💡 京东商品直链（`item.jd.com` / `search.jd.com`）依然拿不到，但 **`www.jd.com/phb/*.html`
+  排行榜页可以 curl 200**，且页内含商品名 + 真实评论数 + 榜单名次 —— 是 links.primary 的优质兜底。
+- **出图 prompt 里的颜色词必须跟 `products.json` 的 `color` 字段对齐**（2026-10-26 新增）：
+  `color` 不只决定卡片配色，**出图 prompt 写错颜色 = 配图与实物不符 = 假带货**。
+  10/26 实测：prompt 写 "white WiFi router"，但真实中兴巡天 BE5100 是黑色、color 写的是 `#2B2B2E`，
+  结果卡片深黑主题配一张白路由器，图文割裂。→ 写 prompt 前先看 `color` 字段，
+  把商品主色翻译进 prompt（如 `#2B2B2E` → "matte black"），出图后用 contact_sheet 二次核对颜色。
+- **WebSearch(search_type=shopping) 结果体积会爆**：单次输出常被外部化成 78KB+ 的 artifact。
+  → 用 `grep` 定向捞 `"link":` / 价格 / 评论数，**不要通读整个 artifact**；
+  一次搜不全就补搜，别在单次查询里堆太多关键词。
 - 补全缺失日期时用 `output/{date}/data.json` 扫描补全。
 - **GitHub Pages CDN 有 max-age=600 缓存 bug + 浏览器本地缓存**，
   必须在 step 13 更新 DATA_VERSION + 走 `v/{时间戳}/` 路径，landing page 才会拿到最新数据。
