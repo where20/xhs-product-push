@@ -1,202 +1,201 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "totalProducts": 5,
-  "totalRuns": 43,
-  "totalProductImages": 215,
-  "lastRunDate": "2026-10-27",
+  "totalRuns": 44,
+  "totalProductImages": 220,
+  "lastRunDate": "2026-10-28",
   "status": "已完成",
-  "updateTime": "2026-10-27 07:30",
+  "updateTime": "2026-10-28 07:30",
   "products": [
     {
-      "name": "CLITON 便携式咖啡机 3合1 车载无线迷你手持意式浓缩半自动 20Bar 80ml水箱",
-      "category": "厨房小电 · 便携意式咖啡机",
-      "price": "¥125(京东自营·含国补实付)",
-      "desc": "CLITON 这台便携咖啡机走的是 3合1 路线：20bar 高压萃取，咖啡粉、胶囊、手压三种模式都能用，16g 粉碗配 58mm 手柄，出品的油脂是实打实的。72W 小身量不接电也能跑，靠内置可拆卸电池供电，USB-C 随手充，电量与温度显示都做在机身上。80ml 水箱正好一杯意式的量，加热水按一下就出杯，拆开一冲就干净。整机塞进背包侧袋毫无压力，办公室、露营、车里都能随时开一杯。",
-      "suitable": "通勤上班族、露营爱好者、经常出差住酒店、想在办公室实现咖啡自由的人",
-      "price_note": "京东页面价¥211.25, 满200减25叠20%国补后实付¥125(慢慢买记录); 另一次爆料为活动价¥176、国补后¥149.6(什么值得买); 满1元打7折叠满减曾低至¥69.48, 单品折后价随活动在¥70-199之间浮动",
-      "color": "#232428",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_1.jpg",
+      "name": "东菱（Donlim）DL-4705 全自动面包机 白色",
+      "category": "厨房小电 · 全自动面包机",
+      "price": "¥424.14（京东自营·国家补贴后）",
+      "desc": "东菱DL-4705是京东面包机品类的常青爆款，同系列已有20万人评论。全自动和面机路线，支持预约、智能双撒（酵母与果料自动投放）、高成功率烘焙和冰淇淋机，一键跑完和面、发酵、烘烤：晚上睡前备好料定时启动，早上开门就是一屋子麦香。白色机身配彩色触屏。页面价569元，京东自营叠加国家补贴后实付424.14元，30天最低383.18元。想低成本解锁每天新鲜面包的仪式感，这台可以闭眼入。",
+      "suitable": "想在家做面包的烘焙新手、宿舍党、给娃准备辅食的家庭",
+      "price_note": "京东东菱自营旗舰店页面价¥569，国家补贴后实付¥424.14；30天最低¥383.18，双11价¥434.52",
+      "color": "#F2EFE9",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg",
       "id": 1,
       "highlights": [
-        "20bar 高压萃取 + 16g 粉碗 58mm 手柄, 出的油脂是实的",
-        "3合1 模式: 咖啡粉 / 胶囊 / 手压通吃, 一台顶三台",
-        "72W 小身量 + 可拆卸电池, USB-C 充电, 机身带电量显示",
-        "80ml 水箱, 加热水按一下即出杯, 拆开一冲就干净",
-        "整机可放进背包侧袋, 办公室 / 露营 / 车载都能用"
+        "20万人评论的京东品类爆款，同系列长期霸榜",
+        "智能双撒系统，酵母与坚果果料自动投料",
+        "支持预约，前一晚备料早上直接出炉",
+        "和面/发酵/烘烤/冰淇淋四合一，一机多用",
+        "白色机身+彩色触屏，烘焙小白也上手"
       ],
       "tags": [
-        "便携咖啡机",
-        "意式浓缩",
-        "车载咖啡",
-        "露营咖啡",
-        "无线电动"
+        "面包机",
+        "厨房小家电",
+        "烘焙小白",
+        "东菱Donlim",
+        "居家烘焙"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_1.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_slice_1.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_1.jpg"
       ],
       "links": {
-        "primary": "https://cu.manmanbuy.com/discuxiao_559543380.aspx",
-        "source": "慢慢买 · 京东CLITON京东自营旗舰店",
+        "primary": "https://www.jd.com/phb/73790aa704ec8849463.html",
+        "source": "京东排行榜 / 什么值得买 / 逛丢",
         "extra": [
-          "https://www.smzdm.com/p/181468275/",
-          "https://clitoncoffee.com/products/portable-espresso-coffee-machine-3-in-1-clt-12000053389519299",
-          "https://www.jd.com/phb/key_61966722f3260738a453.html"
+          "http://api.guangdiu.com/detail.php?id=27253508",
+          "https://m.zol.com.cn/article/10370967.html"
         ]
       },
-      "theme_color": "#232428"
+      "theme_color": "#86744F"
     },
     {
-      "name": "伯希和 PELLIOT 原石系列 三合一冲锋衣 男女 暮山紫 户外防风防水 可拆抓绒内胆",
-      "category": "户外运动 · 三合一冲锋衣",
-      "price": "¥299(史低·平时¥499)",
-      "desc": "入秋后最怕的是早晚温差大、中午又热。伯希和原石系列这件三合一冲锋衣把外壳加可拆抓绒内胆做成一套：外层防风防雨，压缩到位能扛住中雨；内胆是可拆卸的抓绒，一件顶三件，热了拆外壳单穿内胆当薄外套，冷了合体穿。暮山紫这个配色在户外装备里不常见，通勤穿不显土，拍照也有辨识度。内胆建议拍大一码，叠厚毛衣才不勒拉链。299 是历史低价，而且是限时券的价格，蹲活动比硬买划算。",
-      "suitable": "通勤族、周末徒步露营爱好者、怕早晚温差的城市打工人、想一件顶三件的入门户外玩家",
-      "price_note": "什么值得买《秋天第一件冲锋衣怎么挑?11件男士冲锋衣清单》第5位推荐, 到手价¥299为史低(平时¥499), 属限时券价格; 同系伯希和防风防水三合一冲锋衣11340105在户外服饰热度榜Top2曾低至¥194.5(3折659元), 可关注店铺实时券",
-      "color": "#7A6A8E",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_2.jpg",
+      "name": "ANGI BABY 婴儿推车 双向高景观 可坐可平躺 焦糖棕",
+      "category": "母婴出行 · 高景观双向婴儿推车",
+      "price": "¥439（京东自营·深层到手价）",
+      "desc": "ANGI BABY这款推车在京东婴儿推车/遛娃车品类榜排前排，已有5万人评论，主图直接标注深层到手价439元。整车走双向高景观路线，靠背能从坐姿调到接近平躺，新生儿能躺、大一点能坐；底盘带避震结构和大轮，推过石板路、减速带都不颠。焦糖棕座舱配香槟金金属车架和黑色大轮，质感强于普通布面推车。主图还标出一键易收车与大件保修，折叠后普通家用车后备箱也放得下。",
+      "suitable": "0岁到3岁的新生儿家庭、经常独自带娃出门的宝妈",
+      "price_note": "京东自营商品主图标注深层到手价¥439；什么值得买记录国补后到手约¥422.1，页面价¥469",
+      "color": "#8C5A3C",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg",
       "id": 2,
       "highlights": [
-        "三合一结构: 防风防雨外壳 + 可拆卸抓绒内胆, 一衣顶三件",
-        "外壳全压胶工艺, 中雨级别防护, 接缝不渗水",
-        "暮山紫配色, 户外装备里少见, 通勤和拍照都不违和",
-        "抓绒内胆可单穿当薄外套, 春秋冬三季通吃",
-        "¥299 为史低(平时¥499), 限时券价需蹲活动"
+        "京东婴儿推车品类榜前列，5万人评论口碑稳",
+        "双向高景观设计，正反推行随时与宝宝对视",
+        "靠背可坐可躺可平躺，新生儿到3岁都能用",
+        "避震车架+大轮设计，石板路减速带推着不颠",
+        "一键易收车，折叠后普通后备箱放得下"
       ],
       "tags": [
-        "三合一冲锋衣",
-        "户外装备",
-        "可拆抓绒内胆",
-        "通勤外套",
-        "防风防水"
+        "婴儿推车",
+        "遛娃神器",
+        "高景观双向",
+        "母婴出行",
+        "ANGI BABY"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_2.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_slice_2.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_2.jpg"
       ],
       "links": {
-        "primary": "https://post.smzdm.com/p/a82xgrxl/",
-        "source": "什么值得买 · 秋天第一件冲锋衣怎么挑?11件男士冲锋衣清单",
+        "primary": "https://www.jd.com/phb/1319838d9263200feff8.html",
+        "source": "京东排行榜 / 什么值得买",
         "extra": [
-          "https://m.smzdm.com/p/184232538",
-          "https://www.yoger.com.cn/info-39313.html"
+          "https://faxian.smzdm.com/h1s183t0f937c3p188/",
+          "https://k.sina.com.cn/article_7879777020_1d5abdafc06801e8dw.html"
         ]
       },
-      "theme_color": "#7A6A8E"
+      "theme_color": "#8C5A3C"
     },
     {
-      "name": "美的 Midea 高速护发吹风机 39亿等离子护发 大功率速干 家用负离子吹风筒 FG208 深空灰",
-      "category": "个护美发 · 高速负离子吹风机",
-      "price": "¥159(京东金榜款·日常价)",
-      "desc": "吹风机最怕两件事：吹干慢和吹伤头发。美的这台 FG208 走的是 68m/s 大风力路线，39 亿级等离子护发能一边吹一边把毛躁和静电压下去，负离子还顺带做点杀菌除螨的处理。深空灰的机身是很克制的简约风，握在手里重量轻，长发从头吹到脚也不用举酸手。档位给得全，风温和风速都能调，日常吹干和做造型切换不用来回等。京东金榜款常年有活动价，159 元这个档在高速吹风机里属于闭眼入的水平。",
-      "suitable": "长发、发量多、早上赶时间的学生党与上班族、对头发毛躁静电敏感的人群、宿舍租房党",
-      "price_note": "京东负离子吹风机排行榜TOP1同款FG208, 页面活动价¥159价位, 已有50万人评论并入选京东金榜款; 同品牌FJ308(8亿等离子1800W)为TOP9、50万人评论, 美的多款高速吹风机大促常在¥69-159之间跳动",
-      "color": "#3A3D42",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_3.jpg",
+      "name": "德尔玛（DEERMA）多功能便携式电动拖把 高温蒸汽 奶白",
+      "category": "家居清洁 · 高温蒸汽电动拖把",
+      "price": "¥349（京东自营）",
+      "desc": "德尔玛这款多功能便携式电动拖把在京东同类榜单里评价数接近9.1万条、好评率97%，是清洁小家电里的常青款。核心是105℃高温蒸汽，靠物理高温除菌，不依赖化学消毒液，拖完干得快基本不留水痕；边刷边蒸能钻进地砖缝隙乳化带走厨房油污。奶白机身配淡粉手柄，重量轻单手能推，附带多种刷头，地板地毯厨房一台全包。有娃有宠的家庭尤其实用，孩子光脚踩在刚拖过的地板上更安心。",
+      "suitable": "有娃有宠、怕化学残留的家庭；租房党、小户型、懒得弯腰拖地的上班族",
+      "price_note": "京东同类榜单参考价¥349（9.1万条评价）；买购网收录德尔玛DEM-ZQ610家用高温蒸汽拖把参考价¥351",
+      "color": "#F0E7E3",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg",
       "id": 3,
       "highlights": [
-        "68m/s 大风力, 厚湿发也能快速吹干, 缩短吹发时间",
-        "39亿级等离子护发 + 负离子, 抚平毛躁、压静电、顺带除螨",
-        "深空灰简约机身, 机身轻巧不坠手, 长发久握不酸",
-        "风温风速多档可调, 吹干与造型两种模式随手切",
-        "京东负离子吹风机排行榜TOP1, 已有50万人评论, 京东金榜款"
+        "9.1万条评价、97%好评率的清洁类常青款",
+        "105℃高温蒸汽物理除菌，不依赖化学消毒液",
+        "边刷边蒸深入地砖缝隙，厨房重油污一拖即净",
+        "奶白机身搭配淡粉手柄，轻盈单手好推",
+        "自带多种刷头，地板地毯厨房一台搞定"
       ],
       "tags": [
-        "高速吹风机",
-        "负离子护发",
-        "速干电吹风",
-        "家用美发",
-        "恒温护发"
+        "蒸汽拖把",
+        "电动拖把",
+        "家居清洁",
+        "德尔玛DEERMA",
+        "有娃家庭"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_3.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_slice_3.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_3.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_737aa9dbd67683bd97e.html",
-        "source": "京东 · 负离子吹风机排行榜",
+        "primary": "https://www.paihangbangtuijian.com/haowu/40763",
+        "source": "京东榜单 / 买购网 / 品牌网",
         "extra": [
-          "https://www.smzdm.com/tag/tkmy9xg/p172",
-          "https://www.toutiao.com/article/7660747254940058175/"
+          "https://www.maigoo.com/brand/webshop_23682.html",
+          "https://mdg.chinapp.com/ranking/19804.html"
         ]
       },
-      "theme_color": "#3A3D42"
+      "theme_color": "#9B6953"
     },
     {
-      "name": "小米 REDMI Watch 6 智能手表 蓝牙版 皎月银 澎湃OS 3 心率血氧监测 5ATM防水",
-      "category": "智能穿戴 · 运动健康手表",
-      "price": "¥441.15(京东·满500减50+15%国补后实付)",
-      "desc": "这块表最实在的一点是续航：5ATM 防水加 550mAh 电池，跑步、游泳都能戴，不用天天找充电头。46.4mm 表盘在手腕上不晃荡，高强铝表壳配 TPU 表带，皎月银配休闲装和运动服都不违和。澎湃 OS 3 跑得顺，心率、血氧、睡眠监测都在，抬手看一眼就知道昨晚睡得怎么样。活动价 599，叠 500-50 券和 15% 国补后能落到 441 上下，学生党和家长给小孩买入门款也够用。",
-      "suitable": "跑步健身人群、需要睡眠与心率监测的学生和上班族、给初高中孩子买第一块表的家庭",
-      "price_note": "京东活动售价¥599, 下单领满500减50券并参与15%国补后实付¥441.15(什么值得买); 典雅黑版本曾报¥466.65, 中关村在线记录另一档补贴后为¥509.15, 页面价¥569-599, 大促期间价格波动明显",
-      "color": "#C9CDD2",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_4.jpg",
+      "name": "米家（MIJIA）石墨烯踢脚线取暖器2 TJXDNQ08ZM",
+      "category": "过冬取暖 · 石墨烯踢脚线取暖器",
+      "price": "¥359.1（京东自营·国补后到手价）",
+      "desc": "米家石墨烯踢脚线取暖器2在京东取暖器热卖榜排前排，同款已有20万人评论，评价里最多的一句是5秒速热名副其实。2200W大功率配龙脊式铝翅片，通电几秒热风就起来，出风口贴地向上吹形成热空气墙，体感升温比油汀快。可以用米家APP和小爱同学远程调温，13档调温、0到2200W无级可切，IPX4级防水，放浴室也不怕。白色长条机身贴墙摆几乎不占地方，安静到夜里察觉不到，南方没暖气的家庭闭眼入。",
+      "suitable": "南方无供暖家庭、怕冷星人、小户型与租房党；卧室客厅浴室都能放",
+      "price_note": "京东自营页面价¥469.41，国家补贴后到手约¥359.1；慢慢买另记录含国补¥233.75、¥292.4等更低到手价",
+      "color": "#F0EEE9",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg",
       "id": 4,
       "highlights": [
-        "5ATM 防水 + 550mAh 电池, 跑步游泳都能戴, 续航不用天天充",
-        "46.4mm 高强铝表壳, 尺寸不晃荡, TPU 表带排汗不闷",
-        "澎湃OS 3, 心率 / 血氧 / 睡眠全天候监测, 抬腕即看",
-        "皎月银配色百搭, 休闲装、运动服、校园风都不违和",
-        "京东心率监测腕表排行榜TOP1, 已有100万人评论"
+        "京东取暖器热卖榜前列，20万人评论验证速热",
+        "5秒速热，2200W石墨烯大功率贴地送风",
+        "米家APP+小爱同学远程调温，13档无级调温",
+        "IPX4级防水，浴室干衣房都能放",
+        "白色长条机身贴墙摆，不占地几乎无噪音"
       ],
       "tags": [
-        "智能手表",
-        "运动手环",
-        "心率监测",
-        "血氧监测",
-        "长续航"
+        "踢脚线取暖器",
+        "石墨烯取暖",
+        "米家MIJIA",
+        "南方过冬",
+        "APP智能"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_4.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_slice_4.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_4.jpg"
       ],
       "links": {
-        "primary": "https://m.smzdm.com/p/184054482/",
-        "source": "什么值得买 · 红米 Watch 6 智能手表 蓝牙版 皎月银",
+        "primary": "https://www.jd.com/phb/key_737d59a11fa066346a7.html",
+        "source": "京东排行榜 / 什么值得买 / 慢慢买",
         "extra": [
-          "https://smartwear.zol.com.cn/1226/12269015.html",
-          "https://www.jd.com/phb/key_65210faa78d552ab2e4.html"
+          "https://www.smzdm.com/p/162831450/",
+          "https://post.smzdm.com/p/a5rxv0lx"
         ]
       },
-      "theme_color": "#6C7682"
+      "theme_color": "#817658"
     },
     {
-      "name": "膳魔师 THERMOS TELA-530 焖烧杯 530ml 白色 真空保温 带餐勺焖烧罐",
-      "category": "家居日用 · 焖烧保温杯",
-      "price": "¥110.46(京东·满1元打8折叠立减15%后实付)",
-      "desc": "膳魔师这个牌子做焖烧罐是专业户。TELA-530 是 530ml 的容量，早上出门前灌一壶热水丢进去，晚上回来直接能喝，保温这一关不用担心。真空内胆加上 316 不锈钢材质，焖银耳羹、卤鸡蛋、焖杂粮粥这些不用看火的东西都能做，配套食谱都印在说明里了。盖子是能直接当碗用的，自带一把折叠小勺，洗起来也就一个碗一个勺的量。白色外壳简约好洗，带提手好拎，通勤带饭或者早上带一杯出门都合适。",
-      "suitable": "上班族带饭、早上来不及做早餐的上班族、宝妈给孩子带辅食、健身上班要喝温水的人",
-      "price_note": "京东页面价¥170.58, 满1元打8折叠立减15%后实付¥110.46(什么值得买); 同款另一次PLUS券叠加后曾低至¥86.35, 品牌页面记录¥159.89(需用券), 双11期间建议蹲券",
-      "color": "#F2F1EE",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_5.jpg",
+      "name": "瑞格尔（Rigal）B1 Ultra 高亮版 290CVIA 云台投影仪 米白",
+      "category": "数码影音 · 便携云台投影仪",
+      "price": "¥285.3（京东自营·国家补贴后）",
+      "desc": "瑞格尔B1 Ultra高亮版在京东便宜投影仪品牌排行榜里已有50万人评论。290CVIA真实亮度配真1080P物理分辨率，夜里关灯在卧室白墙上投百寸大屏完全够看。米白色圆角机身配一体式金属云台，躺着不动也能把画面转到天花板上，TOF无感对焦加自动梯形校正全程免手动。定制OS系统6秒无广告开机，接入极光TV、酷喵、芒果TV等主流片源，5G投屏和HDMI直连都能用。国家补贴后到手价285.3元。",
+      "suitable": "租房党、小户型卧室、想窝家追剧的年轻人；预算有限但要亮度够",
+      "price_note": "什么值得买瑞格尔品牌页记录：京东现售¥317，国家补贴减¥31.70后到手¥285.30；同页B1Neo款¥233.10",
+      "color": "#E8E4DC",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg",
       "id": 5,
       "highlights": [
-        "530ml 容量刚好一人份, 真空内胆长效保温, 早晚温差也不怕",
-        "316 不锈钢内胆, 可焖银耳羹 / 卤蛋 / 杂粮粥, 配赠食谱",
-        "盖子可直接当碗用, 自带折叠小勺, 清洗量小",
-        "小提手拎取方便, 底部防滑, 通勤带饭不洒不漏",
-        "京东焖烧杯类榜单常驻TOP1, 已有2万人评论, 复古白配色耐看"
+        "京东便宜投影仪榜50万人评论，百元档机皇",
+        "290CVIA真实亮度+真1080P，卧室百寸大屏",
+        "一体式金属云台，躺投天花板不用挪机器",
+        "TOF无感自动对焦+梯形校正，新手开机即用",
+        "定制OS 6秒无广告开机，接主流片源+5G投屏"
       ],
       "tags": [
-        "焖烧杯",
-        "保温饭盒",
-        "316不锈钢",
-        "通勤带饭",
-        "免火焖煮"
+        "家用投影仪",
+        "卧室观影",
+        "百元机皇",
+        "瑞格尔Rigal",
+        "云台投影"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_5.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-27_product_slice_5.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_5.jpg"
       ],
       "links": {
-        "primary": "https://m.smzdm.com/p/184439297",
-        "source": "什么值得买 · THERMOS 膳魔师 TELA-530 焖烧杯 530ml 白色",
+        "primary": "https://www.jd.com/phb/6701e946ff254b35f65.html",
+        "source": "京东排行榜 / 什么值得买",
         "extra": [
-          "https://m.smzdm.com/p/184028135",
-          "https://www.jd.com/phb/key_619602c99166d0c38e2d.html"
+          "https://pinpai.smzdm.com/47345/youhui/",
+          "https://m.smzdm.com/p/184087127"
         ]
       },
-      "theme_color": "#7D7660"
+      "theme_color": "#837456"
     }
   ]
 }

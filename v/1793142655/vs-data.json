@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    "https://www.jd.com/phb/73790aa704ec8849463.html",
+    "https://www.jd.com/phb/73792b5da21a5ed363e.html",
+    "https://www.jd.com/phb/1319838d9263200feff8.html",
+    "https://www.jd.com/phb/1319fb9aec667fffd2d1.html",
+    "https://www.jd.com/phb/key_737d59a11fa066346a7.html",
+    "https://www.jd.com/phb/key_7370ca925451340c6f7.html",
+    "https://www.jd.com/phb/737b2ac2a82f4e8c3ec.html",
+    "https://www.jd.com/phb/6701e946ff254b35f65.html",
+    "https://www.jd.com/phb/670cd32b4b8a57e150f.html",
+    "https://www.jd.com/phb/key_670d2e856774c8c688a.html",
+    "http://api.guangdiu.com/detail.php?id=27253508",
+    "https://m.zol.com.cn/article/10370967.html",
+    "https://faxian.smzdm.com/h1s183t0f937c3p188/",
+    "https://www.paihangbangtuijian.com/haowu/40763",
+    "https://mdg.chinapp.com/ranking/19804.html",
+    "https://www.maigoo.com/brand/webshop_23682.html",
+    "https://www.smzdm.com/p/162831450/",
+    "https://post.smzdm.com/p/a5rxv0lx",
+    "https://cu.manmanbuy.com/dingyue/keyword/1nreiwf",
+    "https://pinpai.smzdm.com/47345/youhui/",
+    "https://m.smzdm.com/p/184087127",
+    "https://k.sina.com.cn/article_7879777020_1d5abdafc06801e8dw.html",
+    "https://www.sina.cn/news/article/comos_nivynsp6196204.html",
+    "https://m.baiqiang.cn/zhuanti/zhengqituoba.html",
+    "https://www.cnpp.cn/gouwu/list_8647.html"
+  ],
+  "competitors": [
+    {
+      "product": "面包机 / 烤面包机 ¥100-900 价位段",
+      "items": [
+        {
+          "name": "东菱（Donlim）DL-4705 全自动面包机 白色",
+          "price": "¥424.14",
+          "advantage": "智能双撒+预约，20万人评论的品类爆款",
+          "jd_sales": "京东面包机品类榜 TOP3，同系列已有200000人评论",
+          "color": "#F2EFE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+        },
+        {
+          "name": "北美电器（ACA）T3pro 全自动面包机 彩色触屏",
+          "price": "¥255.93",
+          "advantage": "彩色触屏升级款，面板操作更直观",
+          "jd_sales": "京东活动价¥405，满1元打8.8折+国补减45.17+首购礼金减55.3",
+          "color": "#F2EFE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+        },
+        {
+          "name": "柏翠（petrus）PE8855 Pro 双管面包机 米白色",
+          "price": "¥427.55",
+          "advantage": "双管加热，烘烤受热更均匀",
+          "jd_sales": "什么值得买记录含国补¥427.55，低于双11",
+          "color": "#F2EFE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+        },
+        {
+          "name": "海氏（Hauswirt）A5 全自动面包机 奶米白",
+          "price": "¥895.85",
+          "advantage": "千元档标杆，变频控温更稳",
+          "jd_sales": "什么值得买记录含国补¥895.85，226天新低",
+          "color": "#F2EFE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+        },
+        {
+          "name": "小熊（Bear）DSL-N02C5 烤面包机 三明治 50s速烤",
+          "price": "¥98.6",
+          "advantage": "百元档轻食机，50秒快烤出片",
+          "jd_sales": "什么值得买记录含国补¥98.6",
+          "color": "#F2EFE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+        }
+      ]
+    },
+    {
+      "product": "婴儿推车 / 遛娃车 ¥200-800 价位段",
+      "items": [
+        {
+          "name": "ANGI BABY 婴儿推车 双向高景观 可坐可平躺 焦糖棕",
+          "price": "¥439",
+          "advantage": "双向高景观+一键易收车，5万人评论",
+          "jd_sales": "京东婴儿推车/遛娃车品类榜 TOP1，已有50000人评论",
+          "color": "#8C5A3C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+        },
+        {
+          "name": "宝宝好 726 明星Plus 轻便折叠婴儿推车 浅灰白",
+          "price": "¥328",
+          "advantage": "轻便折叠，300元档口碑款",
+          "jd_sales": "京东页面价¥458，首购礼金减¥130",
+          "color": "#8C5A3C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+        },
+        {
+          "name": "XUM 婴儿推车 可坐可躺 PU轮轻奢绿",
+          "price": "¥399",
+          "advantage": "PU轮静音推行，轻奢配色上镜",
+          "jd_sales": "京东页面价¥499，满¥499减¥100",
+          "color": "#8C5A3C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+        },
+        {
+          "name": "逗逗熊 婴儿推车 玫瑰粉-奢华3代",
+          "price": "¥399",
+          "advantage": "双向可坐可躺，高颜值母婴向",
+          "jd_sales": "京东页面价¥459，每满¥200减¥30",
+          "color": "#8C5A3C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+        },
+        {
+          "name": "Little Tiger 铝合金轻便折叠婴儿推车 T18 黑色",
+          "price": "¥228.2",
+          "advantage": "铝合金车身仅2.3kg，单手可提",
+          "jd_sales": "京东页面价¥292，满¥200减¥20+国补减¥14.6",
+          "color": "#8C5A3C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+        }
+      ]
+    },
+    {
+      "product": "蒸汽拖把 / 电动拖把 ¥100-900 价位段",
+      "items": [
+        {
+          "name": "德尔玛（DEERMA）多功能便携式电动拖把 高温蒸汽 奶白",
+          "price": "¥349",
+          "advantage": "105℃高温蒸汽+多刷头，9.1万条评价",
+          "jd_sales": "京东榜单 TOP1，9.1万条评价、97%好评率",
+          "color": "#F0E7E3",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+        },
+        {
+          "name": "松下（Panasonic）蒸汽电动拖把",
+          "price": "¥449",
+          "advantage": "18秒快出蒸汽，5mm致薄机身进缝隙",
+          "jd_sales": "京东榜单 2.0万条评价、98%好评率",
+          "color": "#F0E7E3",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+        },
+        {
+          "name": "Shark 鲨客 免手洗电动拖把",
+          "price": "¥879",
+          "advantage": "自清洁桶免手洗拖布，高端线",
+          "jd_sales": "京东榜单多位红人大V推荐",
+          "color": "#F0E7E3",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+        },
+        {
+          "name": "宝家丽 家用智能电动拖把",
+          "price": "¥499",
+          "advantage": "140℃高压喷射蒸汽，按地面自动切换",
+          "jd_sales": "京东榜单多位红人大V推荐",
+          "color": "#F0E7E3",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+        },
+        {
+          "name": "百得（Black&Decker）高温除菌蒸汽电动拖把",
+          "price": "¥559",
+          "advantage": "140度高温蒸汽深入缝隙杀微生物",
+          "jd_sales": "京东榜单 2000+条评价、99%好评率",
+          "color": "#F0E7E3",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+        }
+      ]
+    },
+    {
+      "product": "踢脚线取暖器 ¥190-900 价位段",
+      "items": [
+        {
+          "name": "米家（MIJIA）石墨烯踢脚线取暖器2 TJXDNQ08ZM",
+          "price": "¥359.1",
+          "advantage": "5秒速热+APP远控，20万人评论",
+          "jd_sales": "京东电热取暖器榜 TOP2，已有200000人评论",
+          "color": "#F0EEE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
+        },
+        {
+          "name": "海尔（Haier）石墨烯踢脚线取暖器 HKS2215C",
+          "price": "¥359",
+          "advantage": "IPX4防水+智能温控，遥控加湿",
+          "jd_sales": "买购网收录海尔两季电器旗舰店参考价¥359",
+          "color": "#F0EEE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
+        },
+        {
+          "name": "先锋 踢脚线取暖器 DTJ-T18",
+          "price": "¥329",
+          "advantage": "四级防水，移动地暖零占地",
+          "jd_sales": "买购网收录先锋电器旗舰店参考价¥329",
+          "color": "#F0EEE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
+        },
+        {
+          "name": "苏泊尔（SUPOR）踢脚线取暖器 L121A-20",
+          "price": "¥199",
+          "advantage": "94片石墨烯，200元档入门首选",
+          "jd_sales": "买购网收录苏泊尔两季电器自营旗舰店参考价¥199",
+          "color": "#F0EEE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
+        },
+        {
+          "name": "美的（Midea）石墨烯踢脚线取暖器 HDV22U",
+          "price": "¥287.8",
+          "advantage": "速热节能，居浴两用",
+          "jd_sales": "买购网收录美的生活小家电旗舰店参考价¥287.8",
+          "color": "#F0EEE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
+        }
+      ]
+    },
+    {
+      "product": "家用投影仪 ¥170-700 价位段",
+      "items": [
+        {
+          "name": "瑞格尔（Rigal）B1 Ultra 高亮版 290CVIA 云台投影仪 米白",
+          "price": "¥285.3",
+          "advantage": "金属云台+TOF无感对焦，50万人评论",
+          "jd_sales": "京东便宜投影仪品牌榜 TOP5，已有500000人评论",
+          "color": "#E8E4DC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
+        },
+        {
+          "name": "瑞格尔（Rigal）B1 Neo 275CVIA 电动对焦投影仪",
+          "price": "¥233.1",
+          "advantage": "电动对焦入门款，京东50万人评论",
+          "jd_sales": "京东现售价¥299，惊喜红包+限时立减+国补后到手¥233.10",
+          "color": "#E8E4DC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
+        },
+        {
+          "name": "大眼橙 C3 Air 400CVIA 高亮云台投影仪",
+          "price": "¥654.26",
+          "advantage": "400CVIA亮度+一体化夜灯",
+          "jd_sales": "京东现售价¥739，PLUS立减+国补后到手¥654.26",
+          "color": "#E8E4DC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
+        },
+        {
+          "name": "飞利浦（PHILIPS）248新款 投影仪 家用卧室",
+          "price": "¥579",
+          "advantage": "AI语音+自动对焦+32G内存",
+          "jd_sales": "天猫淘金币可抵¥7.69后到手¥579",
+          "color": "#E8E4DC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
+        },
+        {
+          "name": "锐百科 家用投影仪 超高清 1080P 白色",
+          "price": "¥178",
+          "advantage": "百元级入门，租房党尝鲜款",
+          "jd_sales": "天猫淘金币可抵¥12.85后到手¥178",
+          "color": "#E8E4DC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
+        }
+      ]
+    }
+  ],
+  "hotProducts": [
+    {
+      "name": "东菱（Donlim）DL-4705 全自动面包机 白色",
+      "category": "厨房小电 · 全自动面包机",
+      "price": "¥424.14",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg",
+      "sales": "京东面包机品类榜 TOP3，同系列已有200000人评论",
+      "platform": "京东自营"
+    },
+    {
+      "name": "ANGI BABY 婴儿推车 双向高景观 可坐可平躺 焦糖棕",
+      "category": "母婴出行 · 高景观双向婴儿推车",
+      "price": "¥439",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg",
+      "sales": "京东婴儿推车/遛娃车品类榜 TOP1，已有50000人评论",
+      "platform": "京东自营"
+    },
+    {
+      "name": "德尔玛（DEERMA）多功能便携式电动拖把 高温蒸汽 奶白",
+      "category": "家居清洁 · 高温蒸汽电动拖把",
+      "price": "¥349",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg",
+      "sales": "京东电动拖把榜 TOP1，9.1万条评价、97%好评率",
+      "platform": "京东自营"
+    },
+    {
+      "name": "米家（MIJIA）石墨烯踢脚线取暖器2 TJXDNQ08ZM",
+      "category": "过冬取暖 · 石墨烯踢脚线取暖器",
+      "price": "¥359.1",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg",
+      "sales": "京东电热取暖器榜 TOP2，已有200000人评论",
+      "platform": "京东自营"
+    },
+    {
+      "name": "瑞格尔（Rigal）B1 Ultra 高亮版 290CVIA 云台投影仪 米白",
+      "category": "数码影音 · 便携云台投影仪",
+      "price": "¥285.3",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg",
+      "sales": "京东便宜投影仪品牌榜 TOP5，已有500000人评论",
+      "platform": "京东自营"
+    }
+  ],
+  "dataSource": "WebSearch 真实数据 · SQLite db 导出",
+  "updateTime": "2026-10-28 07:30"
+}
