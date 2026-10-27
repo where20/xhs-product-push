@@ -254,6 +254,18 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
   `p.price` / `p.desc`，字段对不上导致价格和详情整块不渲染，
   而所有"检查文件存在"的脚本都发现不了。
 - 退出码 0 = 线上已完整切换到今天的数据
+- **verify 失败先查 Pages 构建状态，别急着重复 push**（2026-10-28 新增）：
+  ```bash
+  gh run list --limit 3                       # 看 pages build and deployment 是不是 queued
+  gh api repos/where20/xhs-product-push/actions/runs/<id>/jobs   # steps 为空 = runner 没派发
+  gh api -X POST repos/where20/xhs-product-push/pages/builds     # 手动重触发构建
+  ```
+  - 10-28 实测：push 已成功（`git ls-remote` 也对），但 Pages run 卡在 `queued` 5 分钟，
+    线上还是旧版 `DATA_VERSION` + `v/{VERSION}/` 404。**这不是产物问题，是 GitHub runner 没派发**。
+  - 手动触发后新 run 立刻 `in_progress`（旧的 queued run 被 GitHub 自动 cancel，成对出现），
+    约 30s 后 `success`，线上随即切到新版本。
+  - 本仓库 `build_type=legacy`、**没有 .github/workflows**，只能靠 Pages 内建构建 + 上面这个 API 重触发。
+  - 重触发**不会**造成版本错配：两次构建指向同一个 commit。
 
 ### 17. 写执行日志
 `${TASK_XHS_DIR}/memory/$(date +%Y-%m-%d).md`
