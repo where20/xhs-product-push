@@ -1,201 +1,201 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "totalProducts": 5,
-  "totalRuns": 44,
-  "totalProductImages": 220,
-  "lastRunDate": "2026-10-28",
+  "totalRuns": 45,
+  "totalProductImages": 225,
+  "lastRunDate": "2026-10-29",
   "status": "已完成",
-  "updateTime": "2026-10-28 07:30",
+  "updateTime": "2026-10-29 07:30",
   "products": [
     {
-      "name": "东菱（Donlim）DL-4705 全自动面包机 白色",
-      "category": "厨房小电 · 全自动面包机",
-      "price": "¥424.14（京东自营·国家补贴后）",
-      "desc": "东菱DL-4705是京东面包机品类的常青爆款，同系列已有20万人评论。全自动和面机路线，支持预约、智能双撒（酵母与果料自动投放）、高成功率烘焙和冰淇淋机，一键跑完和面、发酵、烘烤：晚上睡前备好料定时启动，早上开门就是一屋子麦香。白色机身配彩色触屏。页面价569元，京东自营叠加国家补贴后实付424.14元，30天最低383.18元。想低成本解锁每天新鲜面包的仪式感，这台可以闭眼入。",
-      "suitable": "想在家做面包的烘焙新手、宿舍党、给娃准备辅食的家庭",
-      "price_note": "京东东菱自营旗舰店页面价¥569，国家补贴后实付¥424.14；30天最低¥383.18，双11价¥434.52",
-      "color": "#F2EFE9",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg",
+      "name": "洁柔 C&S 粉Face 抽纸 3层110抽*24包 原生木浆 可湿水纸巾 整箱卫生纸",
+      "category": "家居日用 · 家庭囤货纸品",
+      "price": "¥40.9(24包整箱·京东自营)",
+      "desc": "双十一囤纸清单的常青款。洁柔粉Face系列精选原生木浆,不含荧光增白剂,自然无香,整箱24包、单包110抽的三层结构,湿水后不易破,擦手擦脸擦台面都能应付。实测单包折算不到1.71元,按三口之家一个月用量囤两三箱非常合适;包装走的是淡奶油色调,放在客厅或餐边柜不违和。评论区高频词是柔韧、不掉屑、囤货划算,京东该单品累计评价已超500万条,好评率99%,属于闭眼囤不会踩雷的日用消耗品。",
+      "suitable": "家庭日常囤纸、母婴家庭、租房党、宿舍学生",
+      "price_note": "京东自营活动价¥53.1,叠满减后到手约¥40.9/件;多件凑单还可再低,页面价随活动波动",
+      "color": "#F0E6DA",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_1.jpg",
       "id": 1,
       "highlights": [
-        "20万人评论的京东品类爆款，同系列长期霸榜",
-        "智能双撒系统，酵母与坚果果料自动投料",
-        "支持预约，前一晚备料早上直接出炉",
-        "和面/发酵/烘烤/冰淇淋四合一，一机多用",
-        "白色机身+彩色触屏，烘焙小白也上手"
+        "3层110抽大包装,单包110抽一抽用",
+        "原生木浆无荧光增白剂,自然无香",
+        "湿水不易破,擦脸擦台面都OK",
+        "整箱24包,单包折算不到1.71元",
+        "京东该单品累计评价超500万条"
       ],
       "tags": [
-        "面包机",
-        "厨房小家电",
-        "烘焙小白",
-        "东菱Donlim",
-        "居家烘焙"
+        "双11囤货",
+        "家庭日用",
+        "原生木浆",
+        "可湿水抽纸",
+        "整箱装"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_1.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_slice_1.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/73790aa704ec8849463.html",
-        "source": "京东排行榜 / 什么值得买 / 逛丢",
+        "primary": "https://www.jd.com/phb/15901d0e49afb0fb6272c.html",
+        "source": "京东",
         "extra": [
-          "http://api.guangdiu.com/detail.php?id=27253508",
-          "https://m.zol.com.cn/article/10370967.html"
+          "https://www.smzdm.com/p/184179478",
+          "https://m.smzdm.com/p/184528102"
         ]
       },
-      "theme_color": "#86744F"
+      "theme_color": "#966D3D"
     },
     {
-      "name": "ANGI BABY 婴儿推车 双向高景观 可坐可平躺 焦糖棕",
-      "category": "母婴出行 · 高景观双向婴儿推车",
-      "price": "¥439（京东自营·深层到手价）",
-      "desc": "ANGI BABY这款推车在京东婴儿推车/遛娃车品类榜排前排，已有5万人评论，主图直接标注深层到手价439元。整车走双向高景观路线，靠背能从坐姿调到接近平躺，新生儿能躺、大一点能坐；底盘带避震结构和大轮，推过石板路、减速带都不颠。焦糖棕座舱配香槟金金属车架和黑色大轮，质感强于普通布面推车。主图还标出一键易收车与大件保修，折叠后普通家用车后备箱也放得下。",
-      "suitable": "0岁到3岁的新生儿家庭、经常独自带娃出门的宝妈",
-      "price_note": "京东自营商品主图标注深层到手价¥439；什么值得买记录国补后到手约¥422.1，页面价¥469",
-      "color": "#8C5A3C",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg",
+      "name": "美的 Midea YBD-X6PD AI交互吸烫机6.0 吸附式手持挂烫机 大蒸汽家用电熨斗",
+      "category": "衣物护理 · 换季手持挂烫机",
+      "price": "¥277.1(京东自营·实付低至)",
+      "desc": "深秋换季衣柜翻出来的毛衣大衣皱成一团,熨衣板又占地方,这台就是为小户型准备的。美的YBD-X6PD是新一代吸附式手持挂烫机,喷蒸汽的同时把衣物吸住固定在挂烫面板上,不用手拽着布料来回推,褶皱一烫就平。智能显示屏把干熨、湿熨、面料模式直接标出来,不用盲猜档位;机身小巧,塞进衣柜侧袋都行,出差带着也方便。评论里高频词是吸力大、升温快、不漏水不留水渍,京东该单品累计评价超200万条,深秋和冬天都是高频刚需。",
+      "suitable": "小户型租房党、宿舍学生、常出差上班族、羊毛真丝衣物人群",
+      "price_note": "京东活动价¥440,单件实付低至¥277.1;页面价约¥521,双11期间可关注满减与国补叠加",
+      "color": "#F2F2F0",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_2.jpg",
       "id": 2,
       "highlights": [
-        "京东婴儿推车品类榜前列，5万人评论口碑稳",
-        "双向高景观设计，正反推行随时与宝宝对视",
-        "靠背可坐可躺可平躺，新生儿到3岁都能用",
-        "避震车架+大轮设计，石板路减速带推着不颠",
-        "一键易收车，折叠后普通后备箱放得下"
+        "吸附式设计,喷蒸汽同时固定衣物",
+        "智能显示屏,干熨湿熨面料模式一目了然",
+        "机身小巧可折叠,出差携带方便",
+        "不漏水不留水渍,真丝羊毛都能烫",
+        "京东该单品累计评价超200万条"
       ],
       "tags": [
-        "婴儿推车",
-        "遛娃神器",
-        "高景观双向",
-        "母婴出行",
-        "ANGI BABY"
+        "换季熨衣",
+        "手持挂烫机",
+        "智能数显",
+        "免熨衣板",
+        "差旅便携"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_2.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_2.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_slice_2.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/1319838d9263200feff8.html",
-        "source": "京东排行榜 / 什么值得买",
+        "primary": "https://www.jd.com/phb/key_7374679d1fbfb46a418.html",
+        "source": "京东",
         "extra": [
-          "https://faxian.smzdm.com/h1s183t0f937c3p188/",
-          "https://k.sina.com.cn/article_7879777020_1d5abdafc06801e8dw.html"
+          "https://www.smzdm.com/p/184375908/",
+          "https://www.smzdm.com/p/183528126"
         ]
       },
-      "theme_color": "#8C5A3C"
+      "theme_color": "#777767"
     },
     {
-      "name": "德尔玛（DEERMA）多功能便携式电动拖把 高温蒸汽 奶白",
-      "category": "家居清洁 · 高温蒸汽电动拖把",
-      "price": "¥349（京东自营）",
-      "desc": "德尔玛这款多功能便携式电动拖把在京东同类榜单里评价数接近9.1万条、好评率97%，是清洁小家电里的常青款。核心是105℃高温蒸汽，靠物理高温除菌，不依赖化学消毒液，拖完干得快基本不留水痕；边刷边蒸能钻进地砖缝隙乳化带走厨房油污。奶白机身配淡粉手柄，重量轻单手能推，附带多种刷头，地板地毯厨房一台全包。有娃有宠的家庭尤其实用，孩子光脚踩在刚拖过的地板上更安心。",
-      "suitable": "有娃有宠、怕化学残留的家庭；租房党、小户型、懒得弯腰拖地的上班族",
-      "price_note": "京东同类榜单参考价¥349（9.1万条评价）；买购网收录德尔玛DEM-ZQ610家用高温蒸汽拖把参考价¥351",
-      "color": "#F0E7E3",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg",
+      "name": "斑马牌 ZEBRA JJ15 按动黑色中性笔 0.5mm 子弹头签字笔 学生考试刷题笔 10支装",
+      "category": "学习办公 · 考研季文具",
+      "price": "¥28.65(10支装·京东自营凑单价)",
+      "desc": "考研季和双11撞在一起,笔袋里这支是刚需。日本斑马1897年创立的老牌书写工具,JJ15是它的经典按动款型,0.5mm子弹头笔尖出墨均匀、不断墨不飞白;墨迹速干不易洇纸,考卷卷面不容易弄脏。半透明笔杆可以观察笔芯余量,防滑螺纹握位久写也不累手,弧形笔夹上印着品牌LOGO,10支装的排面摆桌上也好看。京东该单品累计评价超200万条,评论区反复出现的一支笔用了六年、囤着过中考高考的说法,属于学生党和办公族都认的签字笔。",
+      "suitable": "考研考公学生党、办公室文具党、家长给孩子的开学装备",
+      "price_note": "京东自营页面价¥57,4件凑单实付¥114.6,折合单件¥28.65;单件直购约¥45.9-72.8",
+      "color": "#1F1F1F",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_3.jpg",
       "id": 3,
       "highlights": [
-        "9.1万条评价、97%好评率的清洁类常青款",
-        "105℃高温蒸汽物理除菌，不依赖化学消毒液",
-        "边刷边蒸深入地砖缝隙，厨房重油污一拖即净",
-        "奶白机身搭配淡粉手柄，轻盈单手好推",
-        "自带多种刷头，地板地毯厨房一台搞定"
+        "0.5mm子弹头笔尖,出墨均匀不断墨",
+        "速干墨水不易洇纸,考试卷面不脏",
+        "半透明笔杆可观察笔芯余量",
+        "防滑螺纹握位,久写不累手",
+        "京东该单品累计评价超200万条"
       ],
       "tags": [
-        "蒸汽拖把",
-        "电动拖把",
-        "家居清洁",
-        "德尔玛DEERMA",
-        "有娃家庭"
+        "考研季",
+        "中性笔",
+        "考试刷题",
+        "速干不洇纸",
+        "学生党必囤"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_3.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_3.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_slice_3.jpg"
       ],
       "links": {
-        "primary": "https://www.paihangbangtuijian.com/haowu/40763",
-        "source": "京东榜单 / 买购网 / 品牌网",
+        "primary": "https://www.jd.com/phb/key_6709966c1f3cd21e6fc.html",
+        "source": "京东",
         "extra": [
-          "https://www.maigoo.com/brand/webshop_23682.html",
-          "https://mdg.chinapp.com/ranking/19804.html"
+          "https://www.smzdm.com/p/184561077",
+          "https://m.smzdm.com/p/183265318"
         ]
       },
-      "theme_color": "#9B6953"
+      "theme_color": "#1F1F1F"
     },
     {
-      "name": "米家（MIJIA）石墨烯踢脚线取暖器2 TJXDNQ08ZM",
-      "category": "过冬取暖 · 石墨烯踢脚线取暖器",
-      "price": "¥359.1（京东自营·国补后到手价）",
-      "desc": "米家石墨烯踢脚线取暖器2在京东取暖器热卖榜排前排，同款已有20万人评论，评价里最多的一句是5秒速热名副其实。2200W大功率配龙脊式铝翅片，通电几秒热风就起来，出风口贴地向上吹形成热空气墙，体感升温比油汀快。可以用米家APP和小爱同学远程调温，13档调温、0到2200W无级可切，IPX4级防水，放浴室也不怕。白色长条机身贴墙摆几乎不占地方，安静到夜里察觉不到，南方没暖气的家庭闭眼入。",
-      "suitable": "南方无供暖家庭、怕冷星人、小户型与租房党；卧室客厅浴室都能放",
-      "price_note": "京东自营页面价¥469.41，国家补贴后到手约¥359.1；慢慢买另记录含国补¥233.75、¥292.4等更低到手价",
-      "color": "#F0EEE9",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg",
+      "name": "海康威视 HIKVISION C6LITE 行车记录仪 单镜头 2K超清星光夜视 4G远程停车监控",
+      "category": "汽车出行 · 停车监控记录仪",
+      "price": "¥289(京东自营·单镜头64GB版)",
+      "desc": "双11前后自驾出行频率高,记录仪属于上车就该装好的一次性投入。海康威视依托自家安防监控技术做行车记录仪,C6LITE是京东行车记录仪单品热卖榜第1名。2560×1440P的2K分辨率,相比1080P清晰度提升约30%,车牌和路牌白天夜里都能认;内置RTC超级电容,停车监控状态下不亏电不怕高温,循环覆盖也稳定。4G远程监控支持手机远程查看,遇到剐蹭不用等交警到场也能调出画面。京东该单品累计评价超20万条,画质清晰、安装简单是评论区最集中的好评点。",
+      "suitable": "新手车主、网约车司机、长途自驾爱好者、有停车监控需求的车主",
+      "price_note": "京东活动价¥348.9,叠首购礼金+满1元打9折+立减5%+国补后实付低至¥204.01;日常到手约¥286.9",
+      "color": "#2B2B2E",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_4.jpg",
       "id": 4,
       "highlights": [
-        "京东取暖器热卖榜前列，20万人评论验证速热",
-        "5秒速热，2200W石墨烯大功率贴地送风",
-        "米家APP+小爱同学远程调温，13档无级调温",
-        "IPX4级防水，浴室干衣房都能放",
-        "白色长条机身贴墙摆，不占地几乎无噪音"
+        "2K超清,清晰度较1080P提升约30%",
+        "内置RTC超级电容,停车监控不亏电",
+        "4G远程监控,手机随时回看画面",
+        "京东行车记录仪单品热卖榜第1名",
+        "京东该单品累计评价超20万条"
       ],
       "tags": [
-        "踢脚线取暖器",
-        "石墨烯取暖",
-        "米家MIJIA",
-        "南方过冬",
-        "APP智能"
+        "双11车载",
+        "2K夜视",
+        "停车监控",
+        "远程查看",
+        "自驾必装"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_4.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_4.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_slice_4.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_737d59a11fa066346a7.html",
-        "source": "京东排行榜 / 什么值得买 / 慢慢买",
+        "primary": "https://www.jd.com/phb/key_6728facc75b31993b609.html",
+        "source": "京东",
         "extra": [
-          "https://www.smzdm.com/p/162831450/",
-          "https://post.smzdm.com/p/a5rxv0lx"
+          "https://www.smzdm.com/p/184427454",
+          "https://m.smzdm.com/p/182858399/"
         ]
       },
-      "theme_color": "#817658"
+      "theme_color": "#2B2B2E"
     },
     {
-      "name": "瑞格尔（Rigal）B1 Ultra 高亮版 290CVIA 云台投影仪 米白",
-      "category": "数码影音 · 便携云台投影仪",
-      "price": "¥285.3（京东自营·国家补贴后）",
-      "desc": "瑞格尔B1 Ultra高亮版在京东便宜投影仪品牌排行榜里已有50万人评论。290CVIA真实亮度配真1080P物理分辨率，夜里关灯在卧室白墙上投百寸大屏完全够看。米白色圆角机身配一体式金属云台，躺着不动也能把画面转到天花板上，TOF无感对焦加自动梯形校正全程免手动。定制OS系统6秒无广告开机，接入极光TV、酷喵、芒果TV等主流片源，5G投屏和HDMI直连都能用。国家补贴后到手价285.3元。",
-      "suitable": "租房党、小户型卧室、想窝家追剧的年轻人；预算有限但要亮度够",
-      "price_note": "什么值得买瑞格尔品牌页记录：京东现售¥317，国家补贴减¥31.70后到手¥285.30；同页B1Neo款¥233.10",
-      "color": "#E8E4DC",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg",
+      "name": "乖明星 我的世界磁力方块 磁吸积木拼装 儿童玩具 160多款自由组合DIY",
+      "category": "潮玩手办 · 磁力积木拼装",
+      "price": "¥28(京东自营·50颗粒4人仔礼盒)",
+      "desc": "秋天的周末带娃出门,比商场更省心的方案是给一套能自己拼的东西。乖明星这款我的世界磁力方块主打160多款图案自由组合,全部颗粒六面磁吸、不分正负极,吸力牢固不容易散块,颗粒表面光滑无毛刺,低龄宝宝也能上手搭。六面可拼意味着同一个方块六种用法,既能搭造型也能拿来做简单的立体数学启蒙,拼好之后还能当桌面摆件,一套顶两套。京东该单品累计评价超50万条,评论区高频词是咬合紧实、无异味、拼好能摆桌面,双11 作为礼物或亲子囤货都合适。",
+      "suitable": "3-10岁儿童家长、亲子陪伴需求、潮玩拼装爱好者、送礼人群",
+      "price_note": "京东自营现售价¥28,PLUS95折后到手¥26.6;秒杀日可低至¥36-37,大套装价格区间¥40-80",
+      "color": "#C9A227",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_5.jpg",
       "id": 5,
       "highlights": [
-        "京东便宜投影仪榜50万人评论，百元档机皇",
-        "290CVIA真实亮度+真1080P，卧室百寸大屏",
-        "一体式金属云台，躺投天花板不用挪机器",
-        "TOF无感自动对焦+梯形校正，新手开机即用",
-        "定制OS 6秒无广告开机，接主流片源+5G投屏"
+        "160多款图案,自由组合DIY",
+        "六面磁吸不分正负极,咬合牢固",
+        "颗粒光滑无毛刺,低龄也能上手",
+        "拼好可直接当桌面摆件",
+        "京东该单品累计评价超50万条"
       ],
       "tags": [
-        "家用投影仪",
-        "卧室观影",
-        "百元机皇",
-        "瑞格尔Rigal",
-        "云台投影"
+        "双11礼物",
+        "磁力积木",
+        "亲子互动",
+        "益智拼装",
+        "桌面摆件"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_slice_5.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_5.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_slice_5.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/6701e946ff254b35f65.html",
-        "source": "京东排行榜 / 什么值得买",
+        "primary": "https://www.jd.com/phb/62330b1b775ebbf4066d.html",
+        "source": "京东",
         "extra": [
-          "https://pinpai.smzdm.com/47345/youhui/",
-          "https://m.smzdm.com/p/184087127"
+          "https://www.smzdm.com/p/183668306",
+          "https://www.smzdm.com/sou/61437/"
         ]
       },
-      "theme_color": "#837456"
+      "theme_color": "#8F731C"
     }
   ]
 }

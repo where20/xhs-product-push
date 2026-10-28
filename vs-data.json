@@ -1,301 +1,290 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "sources": [
-    "https://www.jd.com/phb/73790aa704ec8849463.html",
-    "https://www.jd.com/phb/73792b5da21a5ed363e.html",
-    "https://www.jd.com/phb/1319838d9263200feff8.html",
-    "https://www.jd.com/phb/1319fb9aec667fffd2d1.html",
-    "https://www.jd.com/phb/key_737d59a11fa066346a7.html",
-    "https://www.jd.com/phb/key_7370ca925451340c6f7.html",
-    "https://www.jd.com/phb/737b2ac2a82f4e8c3ec.html",
-    "https://www.jd.com/phb/6701e946ff254b35f65.html",
-    "https://www.jd.com/phb/670cd32b4b8a57e150f.html",
-    "https://www.jd.com/phb/key_670d2e856774c8c688a.html",
-    "http://api.guangdiu.com/detail.php?id=27253508",
-    "https://m.zol.com.cn/article/10370967.html",
-    "https://faxian.smzdm.com/h1s183t0f937c3p188/",
-    "https://www.paihangbangtuijian.com/haowu/40763",
-    "https://mdg.chinapp.com/ranking/19804.html",
-    "https://www.maigoo.com/brand/webshop_23682.html",
-    "https://www.smzdm.com/p/162831450/",
-    "https://post.smzdm.com/p/a5rxv0lx",
-    "https://cu.manmanbuy.com/dingyue/keyword/1nreiwf",
-    "https://pinpai.smzdm.com/47345/youhui/",
-    "https://m.smzdm.com/p/184087127",
-    "https://k.sina.com.cn/article_7879777020_1d5abdafc06801e8dw.html",
-    "https://www.sina.cn/news/article/comos_nivynsp6196204.html",
-    "https://m.baiqiang.cn/zhuanti/zhengqituoba.html",
-    "https://www.cnpp.cn/gouwu/list_8647.html"
+    "https://www.jd.com/phb/15901d0e49afb0fb6272c.html",
+    "https://www.jd.com/phb/key_1320610ad56d939c5c56.html",
+    "https://www.jd.com/phb/key_7374679d1fbfb46a418.html",
+    "https://www.jd.com/phb/key_1620bb289b077b077e3e.html",
+    "https://www.jd.com/phb/key_6709966c1f3cd21e6fc.html",
+    "https://www.jd.com/phb/key_67083d0c627f6c2e875.html",
+    "https://www.jd.com/phb/key_6728facc75b31993b609.html",
+    "https://www.jd.com/phb/62330b1b775ebbf4066d.html",
+    "https://www.smzdm.com/p/184179478",
+    "https://www.smzdm.com/p/184375908/",
+    "https://www.smzdm.com/p/184561077",
+    "https://www.smzdm.com/p/184427454",
+    "https://www.smzdm.com/p/183668306",
+    "https://www.smzdm.com/p/184873457"
   ],
   "competitors": [
     {
-      "product": "面包机 / 烤面包机 ¥100-900 价位段",
+      "product": "家庭囤货整箱抽纸 ¥25-70 价位段",
       "items": [
         {
-          "name": "东菱（Donlim）DL-4705 全自动面包机 白色",
-          "price": "¥424.14",
-          "advantage": "智能双撒+预约，20万人评论的品类爆款",
-          "jd_sales": "京东面包机品类榜 TOP3，同系列已有200000人评论",
-          "color": "#F2EFE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+          "name": "洁柔抽纸 粉Face3层110抽*24包 可湿水纸巾卫生纸 柔韧抽纸整箱",
+          "price": "¥40.9",
+          "advantage": "3层原生木浆无荧光剂,湿水不易破,整箱24包单包折算不到1.71元",
+          "jd_sales": "京东抽纸活动品牌排行榜 TOP8 · 累计评价超500万条 · 好评率99%(来源 smzdm p/184179478)",
+          "color": "#F0E6DA",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_1.jpg"
         },
         {
-          "name": "北美电器（ACA）T3pro 全自动面包机 彩色触屏",
-          "price": "¥255.93",
-          "advantage": "彩色触屏升级款，面板操作更直观",
-          "jd_sales": "京东活动价¥405，满1元打8.8折+国补减45.17+首购礼金减55.3",
-          "color": "#F2EFE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+          "name": "心相印 抽纸 茶语丝享 3层120抽*27包S码 纸巾整箱卫生纸",
+          "price": "¥59.9",
+          "advantage": "单包120抽规格更大,27包装箱量,茶语丝享系列线品质稳定",
+          "jd_sales": "京东抽纸活动品牌排行榜 TOP1 · 累计评价超500万条(樊振东推荐款)",
+          "color": "#F0E6DA",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_1.jpg"
         },
         {
-          "name": "柏翠（petrus）PE8855 Pro 双管面包机 米白色",
-          "price": "¥427.55",
-          "advantage": "双管加热，烘烤受热更均匀",
-          "jd_sales": "什么值得买记录含国补¥427.55，低于双11",
-          "color": "#F2EFE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+          "name": "清风 抽纸 金装3层120抽*24包 纸抽 卫生纸面巾纸 整箱",
+          "price": "¥49.9",
+          "advantage": "金装系列三层加厚,24包整箱,促销期常有大额满减",
+          "jd_sales": "京东抽纸活动品牌排行榜 TOP2 · 累计评价超100万条(李昀锐同款)",
+          "color": "#F0E6DA",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_1.jpg"
         },
         {
-          "name": "海氏（Hauswirt）A5 全自动面包机 奶米白",
-          "price": "¥895.85",
-          "advantage": "千元档标杆，变频控温更稳",
-          "jd_sales": "什么值得买记录含国补¥895.85，226天新低",
-          "color": "#F2EFE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+          "name": "维达 Vinda 抽纸 3层100抽 软抽面巾纸 3层100抽*24包 湿水不易破",
+          "price": "¥35.9",
+          "advantage": "软抽设计抽取顺滑,细韧系列湿水不易破,24包规格价格门槛低",
+          "jd_sales": "京东抽纸活动品牌排行榜 TOP3 · 累计评价超50万条",
+          "color": "#F0E6DA",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_1.jpg"
         },
         {
-          "name": "小熊（Bear）DSL-N02C5 烤面包机 三明治 50s速烤",
-          "price": "¥98.6",
-          "advantage": "百元档轻食机，50秒快烤出片",
-          "jd_sales": "什么值得买记录含国补¥98.6",
-          "color": "#F2EFE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg"
+          "name": "得宝 TEMPO 抽纸 真M码 无香4层90抽*18包 湿水不易破",
+          "price": "¥69.9",
+          "advantage": "4层真M码高端线,无香配方,走精致路线,单包成本偏高",
+          "jd_sales": "京东抽纸活动品牌排行榜 TOP9 · 累计评价超300万条(一博同款)",
+          "color": "#F0E6DA",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_1.jpg"
         }
       ]
     },
     {
-      "product": "婴儿推车 / 遛娃车 ¥200-800 价位段",
+      "product": "换季手持挂烫机 ¥100-470 价位段",
       "items": [
         {
-          "name": "ANGI BABY 婴儿推车 双向高景观 可坐可平躺 焦糖棕",
-          "price": "¥439",
-          "advantage": "双向高景观+一键易收车，5万人评论",
-          "jd_sales": "京东婴儿推车/遛娃车品类榜 TOP1，已有50000人评论",
-          "color": "#8C5A3C",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+          "name": "美的 Midea AI交互吸烫机6.0 吸附式手持挂烫机 大蒸汽家用电熨斗 YBD-X6PD",
+          "price": "¥277.1",
+          "advantage": "吸附式设计喷蒸汽同时固定衣物,智能显示屏区分干熨湿熨面料模式,小巧可折叠",
+          "jd_sales": "京东熨烫机家用排行榜 TOP7 · 累计评价超200万条(来源 smzdm p/184375908 京东实付¥277.1)",
+          "color": "#F2F2F0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_2.jpg"
         },
         {
-          "name": "宝宝好 726 明星Plus 轻便折叠婴儿推车 浅灰白",
-          "price": "¥328",
-          "advantage": "轻便折叠，300元档口碑款",
-          "jd_sales": "京东页面价¥458，首购礼金减¥130",
-          "color": "#8C5A3C",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+          "name": "苏泊尔 SUPOR 新一代吸烫机 吸附式手持挂烫机 150ml大蒸汽 EGH-S920A",
+          "price": "¥269",
+          "advantage": "150ml大水箱长续航,手柄感应自动开关,蒸汽量同级领先",
+          "jd_sales": "京东熨烫机家用排行榜 TOP1 · 累计评价超20万条",
+          "color": "#F2F2F0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_2.jpg"
         },
         {
-          "name": "XUM 婴儿推车 可坐可躺 PU轮轻奢绿",
-          "price": "¥399",
-          "advantage": "PU轮静音推行，轻奢配色上镜",
-          "jd_sales": "京东页面价¥499，满¥499减¥100",
-          "color": "#8C5A3C",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+          "name": "米家 小米手持挂烫机2 18g/min 最大出汽量 MJGTJ02LF",
+          "price": "¥89.79",
+          "advantage": "价格最低档,把手可折叠便携,加热快,米家生态联动",
+          "jd_sales": "京东熨烫机家用排行榜 TOP2 · 累计评价超50万条 · 309天新低¥121",
+          "color": "#F2F2F0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_2.jpg"
         },
         {
-          "name": "逗逗熊 婴儿推车 玫瑰粉-奢华3代",
-          "price": "¥399",
-          "advantage": "双向可坐可躺，高颜值母婴向",
-          "jd_sales": "京东页面价¥459，每满¥200减¥30",
-          "color": "#8C5A3C",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+          "name": "美的 Midea 10档精熨 立式挂烫机/熨烫机 35g/min大蒸汽 YGD20P5",
+          "price": "¥189",
+          "advantage": "10档蒸汽调节适配不同面料,立式水箱容量大,服装店商用也够用",
+          "jd_sales": "京东熨烫机家用排行榜 TOP8 · 累计评价超100万条",
+          "color": "#F2F2F0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_2.jpg"
         },
         {
-          "name": "Little Tiger 铝合金轻便折叠婴儿推车 T18 黑色",
-          "price": "¥228.2",
-          "advantage": "铝合金车身仅2.3kg，单手可提",
-          "jd_sales": "京东页面价¥292，满¥200减¥20+国补减¥14.6",
-          "color": "#8C5A3C",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg"
+          "name": "飞利浦 PHILIPS 立式高端挂烫机 400g/min 1.2L AIS8540/60",
+          "price": "¥469",
+          "advantage": "400g/min大蒸汽量行业顶级,可挂烫亦可平熨,干蒸汽不湿衣",
+          "jd_sales": "京东熨烫机家用排行榜 TOP4 · 累计评价超5000条(高端TOP1款)",
+          "color": "#F2F2F0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_2.jpg"
         }
       ]
     },
     {
-      "product": "蒸汽拖把 / 电动拖把 ¥100-900 价位段",
+      "product": "考研季办公中性笔 ¥20-80 价位段",
       "items": [
         {
-          "name": "德尔玛（DEERMA）多功能便携式电动拖把 高温蒸汽 奶白",
-          "price": "¥349",
-          "advantage": "105℃高温蒸汽+多刷头，9.1万条评价",
-          "jd_sales": "京东榜单 TOP1，9.1万条评价、97%好评率",
-          "color": "#F0E7E3",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+          "name": "斑马牌 ZEBRA JJ15 按动黑色中性笔 0.5mm 子弹头签字笔 学生考试刷题笔 10支装",
+          "price": "¥28.65",
+          "advantage": "日本老牌1897年创立,0.5mm子弹头出墨均匀不断墨,速干不洇纸,半透明笔杆可看余量",
+          "jd_sales": "京东斑马圆珠笔排行榜 TOP1 · 累计评价超200万条(来源 smzdm p/184561077 4件凑单单件¥28.65)",
+          "color": "#1F1F1F",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_3.jpg"
         },
         {
-          "name": "松下（Panasonic）蒸汽电动拖把",
-          "price": "¥449",
-          "advantage": "18秒快出蒸汽，5mm致薄机身进缝隙",
-          "jd_sales": "京东榜单 2.0万条评价、98%好评率",
-          "color": "#F0E7E3",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+          "name": "斑马牌 ZEBRA JJ77 按动黑色中性笔 0.5mm 考试刷题专用笔 12支装",
+          "price": "¥22.35",
+          "advantage": "JJ77笔尖导墨结构升级,书写更顺滑,12支大包装适合考季一次性备足",
+          "jd_sales": "京东斑马牌排行榜 TOP4 · 累计评价超50万条",
+          "color": "#1F1F1F",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_3.jpg"
         },
         {
-          "name": "Shark 鲨客 免手洗电动拖把",
-          "price": "¥879",
-          "advantage": "自清洁桶免手洗拖布，高端线",
-          "jd_sales": "京东榜单多位红人大V推荐",
-          "color": "#F0E7E3",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+          "name": "百乐 PILOT JUICE果汁笔 按动黑色中性笔 0.5mm 学生考试刷题笔 10支装",
+          "price": "¥29.76",
+          "advantage": "果汁笔笔尖出墨极顺滑易出锋,握感轻,颜色选择多",
+          "jd_sales": "京东水笔竹子排行榜 TOP1 · 累计评价超200万条",
+          "color": "#1F1F1F",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_3.jpg"
         },
         {
-          "name": "宝家丽 家用智能电动拖把",
-          "price": "¥499",
-          "advantage": "140℃高压喷射蒸汽，按地面自动切换",
-          "jd_sales": "京东榜单多位红人大V推荐",
-          "color": "#F0E7E3",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+          "name": "小米 中性笔 10支装 黑色 0.5mm 商务办公中性笔会议笔",
+          "price": "¥9.9",
+          "advantage": "性价比之王,巨能写系列墨水充足,办公会议批量采购首选",
+          "jd_sales": "京东水笔竹子排行榜 TOP2 · 累计评价超500万条",
+          "color": "#1F1F1F",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_3.jpg"
         },
         {
-          "name": "百得（Black&Decker）高温除菌蒸汽电动拖把",
-          "price": "¥559",
-          "advantage": "140度高温蒸汽深入缝隙杀微生物",
-          "jd_sales": "京东榜单 2000+条评价、99%好评率",
-          "color": "#F0E7E3",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg"
+          "name": "uni三菱 uni-ball EYE 黑色中性笔 0.5mm 商务直液式水笔 UB-150 10支",
+          "price": "¥49.8",
+          "advantage": "三菱直液式墨水系统,笔尖顺滑不洇纸,商务签字质感高级",
+          "jd_sales": "京东水笔竹子排行榜 TOP8 · 累计评价超50万条",
+          "color": "#1F1F1F",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_3.jpg"
         }
       ]
     },
     {
-      "product": "踢脚线取暖器 ¥190-900 价位段",
+      "product": "停车监控行车记录仪 ¥120-460 价位段",
       "items": [
         {
-          "name": "米家（MIJIA）石墨烯踢脚线取暖器2 TJXDNQ08ZM",
-          "price": "¥359.1",
-          "advantage": "5秒速热+APP远控，20万人评论",
-          "jd_sales": "京东电热取暖器榜 TOP2，已有200000人评论",
-          "color": "#F0EEE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
+          "name": "海康威视 HIKVISION C6LITE 行车记录仪 单镜头 2K超清星光夜视 4G远程停车监控",
+          "price": "¥289",
+          "advantage": "2560×1440P 2K,清晰度较1080P提升约30%,内置RTC超级电容停车监控不亏电,4G远程查看",
+          "jd_sales": "京东停车监控记录仪排行榜 TOP2 · 累计评价超20万条(京东单品热卖榜第1名,来源 smzdm p/184427454)",
+          "color": "#2B2B2E",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_4.jpg"
         },
         {
-          "name": "海尔（Haier）石墨烯踢脚线取暖器 HKS2215C",
-          "price": "¥359",
-          "advantage": "IPX4防水+智能温控，遥控加湿",
-          "jd_sales": "买购网收录海尔两季电器旗舰店参考价¥359",
-          "color": "#F0EEE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
+          "name": "360 G300plus 2K超高清夜视 150°大光角全景 本机查看回放 行车记录仪",
+          "price": "¥218.2",
+          "advantage": "150°超大广角覆盖车头两侧,2K夜视,本机直接回放不依赖APP",
+          "jd_sales": "京东停车监控记录仪排行榜 TOP6 · 累计评价超20万条 · 154天新低¥218.2",
+          "color": "#2B2B2E",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_4.jpg"
         },
         {
-          "name": "先锋 踢脚线取暖器 DTJ-T18",
-          "price": "¥329",
-          "advantage": "四级防水，移动地暖零占地",
-          "jd_sales": "买购网收录先锋电器旗舰店参考价¥329",
-          "color": "#F0EEE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
+          "name": "海康威视 N6+ 行车记录仪 双镜头 1440P 前后双录流媒体后视镜 停车监控",
+          "price": "¥330.1",
+          "advantage": "前后双录加流媒体后视镜,集成倒车影像,一机两用",
+          "jd_sales": "京东停车监控记录仪排行榜 TOP8 · 累计评价超20万条",
+          "color": "#2B2B2E",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_4.jpg"
         },
         {
-          "name": "苏泊尔（SUPOR）踢脚线取暖器 L121A-20",
+          "name": "70迈 70MAI M310Pro 行车记录仪 4K超清夜视 停车监控 360度旋转",
+          "price": "¥119.2",
+          "advantage": "4K画质却只要一百多,360度旋转可车内车外两用,价格下探到最低档",
+          "jd_sales": "京东停车监控记录仪排行榜 TOP7 · 累计评价超2万条",
+          "color": "#2B2B2E",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_4.jpg"
+        },
+        {
+          "name": "盯盯拍 MINI Pro 行车记录仪 4K超高清夜视 360度旋转 停车监控 2026新款",
+          "price": "¥279",
+          "advantage": "迷你隐藏式机身不挡视线,4K画质,停车监控功能完整",
+          "jd_sales": "京东停车监控记录仪排行榜 TOP4 · 累计评价超10万条",
+          "color": "#2B2B2E",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_4.jpg"
+        }
+      ]
+    },
+    {
+      "product": "儿童磁力积木拼装 ¥25-100 价位段",
+      "items": [
+        {
+          "name": "乖明星 我的世界磁力方块 磁吸积木拼装 儿童玩具 男女孩3-10周岁生日礼物",
+          "price": "¥28",
+          "advantage": "160多款图案自由组合,六面磁吸不分正负极咬合牢固,颗粒无毛刺,拼好可当桌面摆件",
+          "jd_sales": "京东玩具积木拼装玩具品牌排行榜 TOP5 · 累计评价超50万条(来源 smzdm p/183668306 京东自营¥28 PLUS95折¥26.6)",
+          "color": "#C9A227",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_5.jpg"
+        },
+        {
+          "name": "乖明星 我的磁力方块世界 儿童玩具磁吸积木拼装 随机款 50颗粒4人仔 礼盒",
+          "price": "¥26.6",
+          "advantage": "礼盒装含4个拼装人仔,颗粒数明确可预期,送礼有仪式感",
+          "jd_sales": "京东玩具积木拼装玩具品牌排行榜 TOP5 同款系列 · 京东自营现售价¥28,PLUS95折¥26.6",
+          "color": "#C9A227",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_5.jpg"
+        },
+        {
+          "name": "布鲁奇 益智儿童磁力积木 100-299件 强磁72件套送收纳盒",
+          "price": "¥45.62",
+          "advantage": "100-299件大颗粒规格,送收纳盒方便收纳,家长回购率稳定",
+          "jd_sales": "京东磁力积木相关排行榜 · 京东现售价¥79.9,叠国补+PLUS95折+首购礼金实付¥45.62",
+          "color": "#C9A227",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_5.jpg"
+        },
+        {
+          "name": "Hape 德国儿童积木拼装玩具 1-3岁桶装大颗粒80粒进口山毛榉 E8402",
           "price": "¥199",
-          "advantage": "94片石墨烯，200元档入门首选",
-          "jd_sales": "买购网收录苏泊尔两季电器自营旗舰店参考价¥199",
-          "color": "#F0EEE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
+          "advantage": "进口榉木材质无毛刺无异味,德国品牌做工扎实,低龄段安全标准更高",
+          "jd_sales": "京东拼装积木品牌排行榜 TOP3 · 累计评价超20万条",
+          "color": "#C9A227",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_5.jpg"
         },
         {
-          "name": "美的（Midea）石墨烯踢脚线取暖器 HDV22U",
-          "price": "¥287.8",
-          "advantage": "速热节能，居浴两用",
-          "jd_sales": "买购网收录美的生活小家电旗舰店参考价¥287.8",
-          "color": "#F0EEE9",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg"
-        }
-      ]
-    },
-    {
-      "product": "家用投影仪 ¥170-700 价位段",
-      "items": [
-        {
-          "name": "瑞格尔（Rigal）B1 Ultra 高亮版 290CVIA 云台投影仪 米白",
-          "price": "¥285.3",
-          "advantage": "金属云台+TOF无感对焦，50万人评论",
-          "jd_sales": "京东便宜投影仪品牌榜 TOP5，已有500000人评论",
-          "color": "#E8E4DC",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
-        },
-        {
-          "name": "瑞格尔（Rigal）B1 Neo 275CVIA 电动对焦投影仪",
-          "price": "¥233.1",
-          "advantage": "电动对焦入门款，京东50万人评论",
-          "jd_sales": "京东现售价¥299，惊喜红包+限时立减+国补后到手¥233.10",
-          "color": "#E8E4DC",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
-        },
-        {
-          "name": "大眼橙 C3 Air 400CVIA 高亮云台投影仪",
-          "price": "¥654.26",
-          "advantage": "400CVIA亮度+一体化夜灯",
-          "jd_sales": "京东现售价¥739，PLUS立减+国补后到手¥654.26",
-          "color": "#E8E4DC",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
-        },
-        {
-          "name": "飞利浦（PHILIPS）248新款 投影仪 家用卧室",
-          "price": "¥579",
-          "advantage": "AI语音+自动对焦+32G内存",
-          "jd_sales": "天猫淘金币可抵¥7.69后到手¥579",
-          "color": "#E8E4DC",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
-        },
-        {
-          "name": "锐百科 家用投影仪 超高清 1080P 白色",
-          "price": "¥178",
-          "advantage": "百元级入门，租房党尝鲜款",
-          "jd_sales": "天猫淘金币可抵¥12.85后到手¥178",
-          "color": "#E8E4DC",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg"
+          "name": "若来 Rolife diy小屋小熊餐吧 积木玩具拼装模型房子 儿童生日礼物",
+          "price": "¥99",
+          "advantage": "成人向微缩场景拼装,拼完可长期陈列,送礼客单价更高",
+          "jd_sales": "京东玩具积木拼装玩具品牌排行榜 TOP10 · 累计评价超5万条",
+          "color": "#C9A227",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_5.jpg"
         }
       ]
     }
   ],
   "hotProducts": [
     {
-      "name": "东菱（Donlim）DL-4705 全自动面包机 白色",
-      "category": "厨房小电 · 全自动面包机",
-      "price": "¥424.14",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_1.jpg",
-      "sales": "京东面包机品类榜 TOP3，同系列已有200000人评论",
+      "name": "洁柔 C&S 粉Face 抽纸 3层110抽*24包 原生木浆 可湿水纸巾 整箱",
+      "category": "家居日用 · 家庭囤货纸品",
+      "price": "¥40.9",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_1.jpg",
+      "sales": "京东累计评价超500万条,好评率99%,抽纸活动品牌排行榜 TOP8",
       "platform": "京东自营"
     },
     {
-      "name": "ANGI BABY 婴儿推车 双向高景观 可坐可平躺 焦糖棕",
-      "category": "母婴出行 · 高景观双向婴儿推车",
-      "price": "¥439",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_2.jpg",
-      "sales": "京东婴儿推车/遛娃车品类榜 TOP1，已有50000人评论",
+      "name": "美的 Midea YBD-X6PD AI交互吸烫机6.0 吸附式手持挂烫机 大蒸汽家用电熨斗",
+      "category": "衣物护理 · 换季手持挂烫机",
+      "price": "¥277.1",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_2.jpg",
+      "sales": "京东累计评价超200万条,熨烫机家用排行榜 TOP7,单件实付低至¥277.1",
       "platform": "京东自营"
     },
     {
-      "name": "德尔玛（DEERMA）多功能便携式电动拖把 高温蒸汽 奶白",
-      "category": "家居清洁 · 高温蒸汽电动拖把",
-      "price": "¥349",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_3.jpg",
-      "sales": "京东电动拖把榜 TOP1，9.1万条评价、97%好评率",
+      "name": "斑马牌 ZEBRA JJ15 按动黑色中性笔 0.5mm 子弹头签字笔 学生考试刷题笔 10支装",
+      "category": "学习办公 · 考研季文具",
+      "price": "¥28.65",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_3.jpg",
+      "sales": "京东累计评价超200万条,斑马圆珠笔排行榜 TOP1,4件凑单单件¥28.65",
       "platform": "京东自营"
     },
     {
-      "name": "米家（MIJIA）石墨烯踢脚线取暖器2 TJXDNQ08ZM",
-      "category": "过冬取暖 · 石墨烯踢脚线取暖器",
-      "price": "¥359.1",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_4.jpg",
-      "sales": "京东电热取暖器榜 TOP2，已有200000人评论",
+      "name": "海康威视 HIKVISION C6LITE 行车记录仪 单镜头 2K超清星光夜视 4G远程停车监控",
+      "category": "汽车出行 · 停车监控记录仪",
+      "price": "¥289",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_4.jpg",
+      "sales": "京东累计评价超20万条,行车记录仪单品热卖榜第1名,停车监控记录仪排行榜 TOP2",
       "platform": "京东自营"
     },
     {
-      "name": "瑞格尔（Rigal）B1 Ultra 高亮版 290CVIA 云台投影仪 米白",
-      "category": "数码影音 · 便携云台投影仪",
-      "price": "¥285.3",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-28_product_5.jpg",
-      "sales": "京东便宜投影仪品牌榜 TOP5，已有500000人评论",
+      "name": "乖明星 我的世界磁力方块 磁吸积木拼装 儿童玩具 160多款自由组合DIY",
+      "category": "潮玩手办 · 磁力积木拼装",
+      "price": "¥28",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-10-29_product_5.jpg",
+      "sales": "京东累计评价超50万条,玩具积木拼装玩具品牌排行榜 TOP5,秒杀日到手¥36-37",
       "platform": "京东自营"
     }
   ],
   "dataSource": "WebSearch 真实数据 · SQLite db 导出",
-  "updateTime": "2026-10-28 07:30"
+  "updateTime": "2026-10-29 07:30"
 }
