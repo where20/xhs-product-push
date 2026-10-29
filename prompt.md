@@ -321,9 +321,14 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
 | 端点 | 结果 | 说明 / 替代方案 |
 |------|------|----------------|
 | `www.jd.com/phb/*.html`（榜单页） | ✅ **首选** | 服务端直出 name / sku / 评论数 / 主图。**只抓 phb** |
-| `www.smzdm.com/p/{id}` | ✅ | 价格明文在 HTML，**取价首选** |
+| `www.smzdm.com/p/{id}` | ✅ | 价格明文在 HTML；**GTM ecommerce JSON 里有 `"price": "13.9"` 权威实价字段 + brand + 标题** |
 | `m.smzdm.com/p/{id}` | ✅ 202 | smzdm 的移动域 |
-| `smzdm.com/sou/{关键词}` | ✅ | smzdm 搜索聚合页，可兜底 |
+| `www.smzdm.com/ju/{id}` | ✅ **2026-10-30 新增，取价首选** | 排行榜页服务端直出「**价格 + 商品名 + 平台 + 销量**」四元组。⚠️ **价格排在商品名之前**，必须用正则批量抽，不能肉眼读 |
+| `post.smzdm.com/p/a{id}` | ✅ **2026-10-30 新增** | 社区实测文，含横向实测价格 + 榜单名次 + 累计评价数，**带货场景最佳证据源** |
+| `www.maigoo.com/news/{id}.html` | ✅ **2026-10-30 新增** | 买购网产品榜，小件（护手霜等）真实参考价格 + 品牌故事 |
+| `goods.taobao.com/t/...` | ✅ **2026-10-30 新增** | 淘宝好物网，单品实测价 + 适用人群画像 |
+| `smzdm.com/sou/{关键词}` | ❌ **2026-10-30 实测已失效** | 返回 **404 壳页**，不是搜索结果。别再试 |
+| `search.smzdm.com` / `m.smzdm.com/sou/` | ❌ **2026-10-30 实测** | **202 JS 挑战**，209 字节空壳，反爬墙 |
 | `www.jd.com/phb/key_{hash}.html` | ✅ | 关键词型榜单页，同上 |
 | `p.3.cn/prices/mgets`（京东价格 API） | ❌ | **DNS 被劫持到内网假 IP**（10.x / 172.x）。DoH 查 google / cloudflare / alidns / doh.pub **结果全是假 IP** → 不是本机 DNS 问题，换 DoH 也救不了 |
 | `c0.3.cn/stock` | ❌ | 同上，HTTP 000 |
@@ -357,6 +362,46 @@ curl --noproxy '*' -sL 'https://www.smzdm.com/p/{id}' | grep -oE '"price":"[^"]+
 # 3) 全部链接 → 闸门核验
 python3 ${TASK_XHS_DIR}/scripts/verify_links.py $TODAY
 ```
+
+### ⭐ 更严谨的取价链路（2026-10-30 验证，强烈推荐）
+
+上面第 2 步只解决「单个商品页的价格」。**批量取价 + 竞品横评**用 smzdm 排行榜页：
+
+```bash
+# smzdm 排行榜页 = www.smzdm.com/ju/{id}，服务端直出价格
+# ⚠️ 关键：价格排在商品名前面，正则必须整段一起抽，否则价格会安到隔壁商品头上
+python3 - <<'PY'
+import re, subprocess
+UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+url="https://www.smzdm.com/ju/s3qrkmw/"   # 例：长绒电热毯排行榜
+h=subprocess.run(["curl","--noproxy","*","-m","30","-sL","-A",UA,
+                  "-H","Referer: https://www.smzdm.com/",url],
+                 capture_output=True).stdout.decode("utf-8","ignore")
+t=re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",h))
+body=t[t.find("排行榜"):]
+pat=re.compile(r"([\d.]+元)\s+(.+?)\s+(京东|天猫|唯品会|苏宁易购|拼多多|抖音商城)\s+([\d.]+[kKwW万]?)")
+for m in pat.finditer(body):
+    print(f"{m.group(1):>8} | {m.group(4):>6} | {m.group(2)[:80]}")
+PY
+```
+
+**去哪找 `ju/{id}` 排行榜页？**
+```bash
+# 用 WebSearch 搜品类名 + "排行榜" + smzdm，或直接搜 "smzdm 排行榜 <品类>"
+# 例：smzdm 排行榜 保温杯 / smzdm 排行榜 护手霜 / smzdm 排行榜 筷子
+```
+- 常见 `ju` 页：`s3qrkmw`(长绒电热毯) `sq6rkm7`(毛毯电热毯) `sp163nv`(保温杯) `sjl4myk`(护手霜)
+- 每个品类**多搜 2~3 个 `ju` 页**（价格随主推商品轮换，单页覆盖不全）
+
+**单商品权威实价**（竞品/主推都要用）→ `www.smzdm.com/p/{id}` 的 GTM JSON：
+```bash
+curl --noproxy '*' -sL -A "$UA" 'https://www.smzdm.com/p/184145430' \
+  | grep -oE '"price":\s*"[0-9.]+"' | head -1
+```
+
+### ⚠️ smzdm 搜索页全线失效（2026-10-30 实测，别再踩）
+`smzdm.com/sou/{关键词}` → **404 壳页**；`search.smzdm.com` / `m.smzdm.com/sou/` → **202 JS 挑战**。
+**取价不要再依赖 smzdm 搜索页**，走「WebSearch 找 `ju` 排行榜页 / `p` 商品页 → 直接 curl 解析」。
 
 ---
 
