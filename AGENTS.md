@@ -20,7 +20,7 @@
 | 类型 | 位置 | 谁写 |
 |------|------|------|
 | **内容**（每天不同） | `output/{date}/products.json`<br>`output/{date}/vs.json`<br>`output/{date}/image_prompts.json` | agent 写 |
-| **代码**（长期不变） | `scripts/` 下 13 个通用脚本 | 直接调，别改 |
+| **代码**（长期不变） | `scripts/` 下 15 个通用脚本 | 直接调，别改 |
 
 **绝对不要**再生成 `build_data_YYYYMMDD.py` 这类按日期的脚本。
 历史 93+ 份已归档到 `scripts/archive/`（只读，不要复活）。
@@ -34,7 +34,7 @@ cd ${TASK_XHS_DIR}
 python3 scripts/build_data.py 2026-10-22
 ```
 
-## 13 个脚本各自干什么
+## 脚本各自干什么
 
 | 脚本 | 作用 | 备注 |
 |------|------|------|
@@ -51,6 +51,12 @@ python3 scripts/build_data.py 2026-10-22
 | `db_export.py` | 导出 **8 个** json + 重建 history 索引 | |
 | `validate_schema.py` | 从 DB 校验 | 失败即 abort |
 | `verify_live.py` | 线上端到端闸门（含**页面渲染断言**） | |
+| `jd_fetch.py` | 京东榜单页 → 真实 name/sku/评论数/主图 | **2026-10-29 新增**，选品期数据获取 |
+| `verify_links.py` | 核验 products/vs 里所有 links/sources URL | **2026-10-29 新增**，发布前链接闸门 |
+
+> 两个新脚本（`jd_fetch.py` / `verify_links.py`）是 2026-10-29 把当天的探测结论
+> **固化入库**的产物 —— 之前解析逻辑躺在 `/tmp` 没入库，导致下一次又重写一遍。
+> 详见 `prompt.md` 的「数据源可用性矩阵」。
 
 ## 数据流
 
@@ -111,6 +117,21 @@ image_prompts  ┘         │
   所以 data.json 里的图片 URL 必须是 `uploaded_urls.json` 里的**真实 URL**，
   不能拼模板 —— 模板 URL 是 200 的，所有"CDN 可达性"检查都会通过，
   但内容是旧的。`db_save` 已经处理好了，别在别处再拼模板 URL。
+- **京东搜索/详情/价格接口全部拿不到**（2026-10-29 实测）：
+  `search.jd.com` / `so.m.jd.com` → 302「京东验证」；`item.jd.com/{sku}.html` → 200 但返回通用首页；
+  `api.m.jd.com` → `no access`；`p.3.cn/prices/mgets` → **DNS 被劫持到内网假 IP**（换 DoH 也一样）；
+  `list.jd.com` → Vite SPA 空壳。
+  → **只抓 `www.jd.com/phb/*.html` 榜单页**（服务端直出 name/sku/评论数/主图）。
+  完整矩阵见 `prompt.md` → 「数据源可用性矩阵」。
+- **京东榜单页内容会按关键词轮换**：URL 名义上是"抽纸榜"实际可能返回别的品类
+  → **必须逐条 read 真实商品名**，别凭 URL 或网页标题想当然。
+- **京东榜单页没有价格**：`price-rmb` span 值恒空（JS 渲染）→ **价格走 smzdm 商品页**（明文在 HTML）。
+- **curl 一律 `--noproxy '*'`**（除 git push 走 `push_with_probe.sh`）：
+  本机代理端口时活时死，且多个域名被 DNS 劫持，走代理反而更糟。
+- **macOS 没有 GNU `timeout` 命令**：临时脚本写 `timeout 20 curl ...` 会 command not found，
+  用 `curl -m 20`。（仓库 `scripts/` 里的 `timeout` 全是 `archive/*.mjs` 的 JS 属性，与 shell 无关。）
+- **链接核验已脚本化**：别再手写 bash 循环 curl —— 人肉核验必然漏。
+  用 `python3 scripts/verify_links.py $TODAY`，不可达即非零退出码。
 
 ## 加一天的标准动作
 
@@ -121,7 +142,11 @@ source /Users/xiaoan/Documents/TimeTask/config/xhs.env.sh
 cd ${TASK_XHS_DIR}
 TODAY=$(date +%Y-%m-%d)
 
-# 写 3 个内容文件 → build → 出图 → 肉眼核对 → 合成 → 上传 → 飞书 → 落库 → 导出
+# 选品取数(京东榜单页 → 真实 name/sku/评论数/主图)
+python3 scripts/jd_fetch.py --imgs 'https://www.jd.com/phb/....html'
+
+# 写 3 个内容文件 → 链接闸门 → build → 出图 → 肉眼核对 → 合成 → 上传 → 飞书 → 落库 → 导出
+python3 scripts/verify_links.py $TODAY               # ← 不可达即停
 python3 scripts/build_data.py    $TODAY
 python3 scripts/build_vs_data.py $TODAY
 bash    scripts/gen_images.sh    $TODAY

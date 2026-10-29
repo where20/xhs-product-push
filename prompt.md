@@ -60,6 +60,31 @@ cat ${TASK_XHS_DIR}/memory/$(date -v-1d +%Y-%m-%d).md 2>/dev/null | grep -A 20 "
 - **先按价格带筛，再看销量**（10/22 踩坑：迪奥 30ml ¥594.5 超价被排除）
 - **同时抓真实商品页 URL**（`links.primary`），见 5.1
 
+#### 4.1 京东榜单页取真实商品名/评论数/主图（2026-10-29 新增）
+
+WebSearch 在京东这类站点上很容易被反爬吃掉，**不要在 `search.jd.com` 上死磕**。
+改用**京东榜单页**（服务端直出，2026-10-29 实测稳定）：
+
+```bash
+# 榜单页 URL 形如 https://www.jd.com/phb/{id}.html 或 https://www.jd.com/phb/key_{hash}.html
+# --imgs 会下载 450×450 主图到临时目录，供肉眼验色
+python3 ${TASK_XHS_DIR}/scripts/jd_fetch.py --imgs \
+  'https://www.jd.com/phb/15901d0e49afb0fb6272c.html'
+```
+
+输出每条商品的：`name`（真实商品名）/ `sku` / `comments`（真实评论数）/ `image`（主图 URL）。
+
+⚠️ **三个必踩的坑**
+1. **榜单页内容会按关键词轮换**：URL 名义上是"抽纸榜"，实际可能返回别的品类
+   （10-29 实测：`木积盒子排行榜` 返回收纳盒、`水笔竹子排行榜` 返回水彩笔）。
+   → **标题和实际内容对不上，必须逐条 read 真实商品名**，别凭 URL 猜品类。
+2. **榜单页没有价格**：`<span class="price-rmb">` 的值恒为空（JS 渲染，抓不到）。
+   → **价格必须走 smzdm 商品页**（价格明文在 HTML，见 5.1）。
+3. **主图颜色要肉眼验**：10-26 踩坑——卡片写黑、真实商品是白 = 图文不符 = 假带货。
+   → 跑 `--imgs` 后逐张打开看，`color` 字段按真实主色填。
+
+价格/链接的完整取数链路见下方「数据源可用性矩阵」。
+
 ### 5. 写 3 个内容文件
 
 #### 5.1 `output/{date}/products.json` —— 5 个商品
@@ -96,6 +121,9 @@ cat ${TASK_XHS_DIR}/memory/$(date -v-1d +%Y-%m-%d).md 2>/dev/null | grep -A 20 "
   200/202 才写进 products.json。**严禁编造 URL**（编出来的链接 404 = 假带货链路）。
 - `links` 会落库（`products.links`）→ 落地页「购买」按钮直接指向该商品页。
   历史 190 个商品没有 links，落地页会自动回退到京东搜索链接。
+- 💡 **京东商品直链拿不到，但 `www.jd.com/phb/*.html` 榜单页可 200**，
+  页内含商品名 + 真实评论数 + 榜单名次 → 适合做 `links.primary` 兜底。
+- 💡 **smzdm 商品页可 200 且价格明文在 HTML** → 适合做 `links.extra` 和取价的来源。
 
 **`color` 只能是 `#RRGGBB`**
 - 语义 = **商品主色**（浅灰垫 / 奶白机 / 金键盘…），不是主题色。
@@ -144,6 +172,19 @@ cat ${TASK_XHS_DIR}/memory/$(date -v-1d +%Y-%m-%d).md 2>/dev/null | grep -A 20 "
 }
 ```
 每个 prompt 必须与 `products.json` 里**同序号的商品**严格对应。
+
+#### 5.4 链接可达性闸门（2026-10-29 新增，必做）
+```bash
+python3 ${TASK_XHS_DIR}/scripts/verify_links.py $TODAY
+```
+核验 `products.json` 的每个 `links.primary` + `links.extra[]`，以及 `vs.json` 的
+`sources[]`，要求全部 200/202。**有任何一条不可达 → 非零退出码 → 流程停下**，
+先换 URL 再往下走。
+
+- 脚本内置 `KNOWN_BAD_HOSTS` 提前拦截：`www.sohu.com`(恒403) / `search.jd.com` /
+  `item.jd.com` / `mitem.jd.hk` / `24h.pchome.com.tw`，并给出替代建议。
+- 某个 product 完全没写 `links` → 会明确告警（落地页会回退到京东搜索链接）。
+- ⚠️ 别再手写 bash 循环 curl —— 人肉核验必然漏，这一步就是为此脚本化的。
 
 ### 6. 生成 data.json / vs-data.json
 ```bash
@@ -270,6 +311,52 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
 ### 17. 写执行日志
 `${TASK_XHS_DIR}/memory/$(date +%Y-%m-%d).md`
 记录：执行时间 / 5 商品 / 选品来源 / 数据生成 / 工程产物 / Git 状态 / 踩坑 / 下次触发
+
+---
+
+## 数据源可用性矩阵（2026-10-29 实测固化，别再重复探测）
+
+**这张表是当天逐个端点实测出来的结果**。再花时间试错一遍就是纯浪费。
+
+| 端点 | 结果 | 说明 / 替代方案 |
+|------|------|----------------|
+| `www.jd.com/phb/*.html`（榜单页） | ✅ **首选** | 服务端直出 name / sku / 评论数 / 主图。**只抓 phb** |
+| `www.smzdm.com/p/{id}` | ✅ | 价格明文在 HTML，**取价首选** |
+| `m.smzdm.com/p/{id}` | ✅ 202 | smzdm 的移动域 |
+| `smzdm.com/sou/{关键词}` | ✅ | smzdm 搜索聚合页，可兜底 |
+| `www.jd.com/phb/key_{hash}.html` | ✅ | 关键词型榜单页，同上 |
+| `p.3.cn/prices/mgets`（京东价格 API） | ❌ | **DNS 被劫持到内网假 IP**（10.x / 172.x）。DoH 查 google / cloudflare / alidns / doh.pub **结果全是假 IP** → 不是本机 DNS 问题，换 DoH 也救不了 |
+| `c0.3.cn/stock` | ❌ | 同上，HTTP 000 |
+| `search.jd.com` | ❌ | 302 → 「京东验证」页 |
+| `so.m.jd.com` | ❌ | 302 → 「京东验证」页 |
+| `item.jd.com/{sku}.html` | ❌ | HTTP 200 但返回**通用首页**，无价格无评论数 |
+| `api.m.jd.com` client.action | ❌ | `{"code":"1","echo":"no access"}` |
+| `list.jd.com/list.html?cat=` | ❌ | 200 但是 **Vite SPA 空壳**，数据全在 JS 里 |
+| `search.suning.com` / `www.vip.com` | ⚠️ | 200 但**价格 JS 渲染**，抓不到价格 |
+| `www.sohu.com/a/...` | ❌ | 文章页**恒 403**（直连/代理/浏览器 UA 全试过）。改用镜像域 `db.m.auto.sohu.com/...` 或 `gov.sohu.com/...` |
+| `mitem.jd.hk` | ❌ | 404 |
+| `24h.pchome.com.tw` | ❌ | 连接失败 HTTP 000 |
+| `api.guangdiu.com/detail.php` | ❌ | HTTP 000 |
+| `cu.manmanbuy.com` | ⚠️ | 302 跳转到中转页，拿不到商品 |
+| `search.smzdm.com` | ⚠️ | 202 空壳 |
+
+**⚠️ 两条通用规则**
+1. **curl 一律加 `--noproxy '*'`**。本机代理端口时活时死，且上面多个域名被 DNS 劫持，
+   **走代理反而更糟**。例外只有 git push —— 那走 `scripts/push_with_probe.sh`（它自己探测）。
+2. **macOS 没有 GNU `timeout` 命令**。临时脚本里写 `timeout 20 curl ...` 会直接
+   `command not found`。用 `curl -m 20` 自带超时。（仓库 `scripts/` 里的 `timeout`
+   全部是 `archive/*.mjs` 的 JS 属性，与 shell 无关。）
+
+**标准取数链路（三步）**
+```bash
+# 1) 榜单页 → 真实 name / sku / 评论数 / 主图
+python3 ${TASK_XHS_DIR}/scripts/jd_fetch.py --imgs 'https://www.jd.com/phb/....html'
+#    ↓ 逐条 read 真实商品名（榜单内容会轮换）+ 肉眼验色
+# 2) 价格 → smzdm 商品页（榜单页 price-rmb 恒空）
+curl --noproxy '*' -sL 'https://www.smzdm.com/p/{id}' | grep -oE '"price":"[^"]+"'
+# 3) 全部链接 → 闸门核验
+python3 ${TASK_XHS_DIR}/scripts/verify_links.py $TODAY
+```
 
 ---
 
