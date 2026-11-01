@@ -1,199 +1,206 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "totalProducts": 5,
-  "totalRuns": 48,
-  "totalProductImages": 240,
-  "lastRunDate": "2026-11-01",
+  "totalRuns": 49,
+  "totalProductImages": 245,
+  "lastRunDate": "2026-11-02",
   "status": "已完成",
-  "updateTime": "2026-11-01 07:30",
+  "updateTime": "2026-11-02 07:30",
   "products": [
     {
-      "name": "珂润（Curel）补水保湿舒缓修护敏感肌男女士进口护肤品 生日礼物 保湿面霜40g",
-      "category": "秋冬面部护肤 · 屏障修护面霜",
-      "price": "¥135",
-      "desc": "日本花王旗下专为敏感肌做的药妆品牌 Curel 珂润，这支 40g 润浸保湿滋养乳霜是最经典也最经得起回购的单品。配方以神经酰胺和甘油为核心，一个补足屏障缺失的脂质、一个把水分锁在角质层里，另有蓝桉叶提取物帮缓解泛红干痒。无香料无酒精无色素，霜状质地温润软糯，推得开吸收快，不搓泥也不闷痘。40g 早晚用能撑两三个月，秋冬空调房厚敷很舒服。买购网珂润面霜榜瓶到手价约 135 元，京东神经酰胺护肤品榜该 SKU 已有 100 万人评论。",
-      "suitable": "干皮、混干皮、屏障受损的敏感肌，以及秋冬换季泛红干痒、长期待在空调房的上班族",
-      "price_note": "40g 单瓶到手 ¥135（买购网珂润面霜榜 / 珂润旗舰店）；成毅代言同款 ¥172；官方标价 ¥199，618 与双11 期间普遍落在 ¥170 上下",
-      "color": "#E3EDF1",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_1.jpg",
+      "name": "倍轻松（breo）N5mini颈椎按摩器按摩披肩肩颈按摩器颈部按摩 生日礼物送妈妈男女朋友",
+      "category": "双11年礼 · 肩颈放松按摩仪",
+      "price": "¥299",
+      "desc": "倍轻松 breo N5mini 肩颈按摩器是京东肩颈养生榜的常驻型号，累计 20 万人评论。揉捏机芯模拟真人指腹按压斜方肌与肩胛位置，配合恒温热敷，把久坐僵硬的地方一点点揉开。机身做了轻量化，戴上几乎没有坠感，办公室午休、居家追剧都能用。Type-C 充电，一次充满可支撑多次放松。京东主图标注到手价 299 元，支持 3 期免息、顺丰次日达，整机 2 年质保，是今年双十一给爸妈或伴侣挑年礼里最不容易出错的一件。",
+      "suitable": "久坐办公党、长期低头看手机的人、想给父母或伴侣送实用年礼的家庭",
+      "price_note": "¥299 为京东主图印制的到手价（3 期免息 / 顺丰次日达 / 2 年质保）；什么值得买同款 2400mAh 版本榜内价 253.99 元，双十一价保 11.11",
+      "color": "#E7DCCB",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_1.jpg",
       "id": 1,
       "highlights": [
-        "神经酰胺+甘油双核心，直接补足屏障缺失的脂质",
-        "无香料无酒精无色素，敏肌换季也能安心用",
-        "霜状质地软糯好推，吸收快，不搓泥不闷痘",
-        "40g 早晚用能撑 2-3 个月，空调房厚敷很受用",
-        "京东神经酰胺护肤品榜 TOP1，已有 100 万人评论"
+        "京东肩颈养生榜常驻型号，累计 20 万人评论",
+        "仿真人揉捏机芯，精准作用在斜方肌与肩胛",
+        "恒温热敷，肩颈僵冷时热着按更放松",
+        "轻量化机身，佩戴无明显坠感",
+        "京东主图到手价 299 元，3 期免息顺丰次日达"
       ],
       "tags": [
-        "珂润",
-        "保湿面霜",
-        "敏感肌",
-        "神经酰胺",
-        "换季修护"
+        "肩颈按摩仪",
+        "颈椎按摩器",
+        "双11年礼",
+        "送妈妈礼物",
+        "久坐放松"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_1.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_slice_1.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_slice_1.jpg"
       ],
       "links": {
-        "primary": "https://www.maigoo.com/news/529367.html",
-        "source": "买购网 · 珂润面霜热门产品榜",
+        "primary": "https://www.jd.com/phb/key_1620ee22d1a85f110e81.html",
+        "source": "京东肩颈养生排行榜",
         "extra": [
-          "https://www.jd.com/phb/key_1316f05977f33e90c2c9.html",
-          "https://www.paihangbangtuijian.com/haowu/21359"
+          "https://www.smzdm.com/ju/s1z5vww",
+          "https://jd.zol.com.cn/1263/12632274.html",
+          "https://m.smzdm.com/p/176980425/"
         ]
       },
-      "theme_color": "#487B90"
+      "theme_color": "#8F7042"
     },
     {
-      "name": "骆驼（CAMEL）雪地靴女冬季新款加绒保暖加厚棉鞋休闲懒人毛毛鞋 L23W275157驼色 38",
-      "category": "初冬通勤鞋履 · 加绒毛毛雪地靴",
-      "price": "¥169",
-      "desc": "双11 这双骆驼雪地靴是最值得囤的一双。货号 L23W275157，驼色，加绒内里配厚底结构，帮面是短毛绒加织物，橡胶大底在冰面上比普通棉鞋稳得多。整鞋帮高控制在 10 厘米以内，不会把腿显得笨重，配打底裤或直筒牛仔裤都是今年最利落的冬日搭配。双11 官方无门槛单直降，商品主图直接标出到手价 169 元，同系列日常参考价 309 到 449 元。京东厚底雪地棉短靴榜同款已有 1 万人评论。",
-      "suitable": "南方初冬到北方寒冬都适用的通勤女生与学生党，怕冷又不想穿得臃肿的人",
-      "price_note": "双11 到手价 ¥169（京东商品主图标注，官方无门槛单直降，活动 10/30 20:00-11/03）；买购网同系列参考价 ¥309-¥449，日常价更高",
-      "color": "#C79A6B",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_2.jpg",
+      "name": "炊大皇 天然竹菜板旋转可立砧板自带磨刀石竹菜板38*26*2.2cm",
+      "category": "厨房备菜 · 天然楠竹砧板",
+      "price": "¥29.3",
+      "desc": "炊大皇这款砧板精选天然楠竹整料制作，38×26×2.2cm，板面细密打磨不带毛刺，切配不挂丝不崩边。它最有意思的设计是底部自带磨刀石，菜板和磨刀器二合一，一个物件把厨房备菜台占用的空间压到最小。三面环形引水槽能兜住切西红柿时渗出的汁水，砧板可以 360° 旋转立放，洗完直接插进橱柜侧边沥干。京东竹砧板榜单 20 万人评论，买购网参考价 29.3 元，是这个价位里少见的「能立起来」的竹砧板。",
+      "suitable": "家里厨房台面紧张、爱下厨备菜、想换一块耐用竹砧板的用户",
+      "price_note": "¥29.3 为买购网（maigoo）该型号参考价格，京东榜单同款在售；买购网同品牌竹砧板价格带 ¥19.9-¥141.1",
+      "color": "#C8A879",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_2.jpg",
       "id": 2,
       "highlights": [
-        "双11 官方无门槛单直降，到手价直接打到 ¥169",
-        "商场同款品质标准，胶水粘合与车线走线更规整",
-        "加绒内里配厚底结构，隔绝地面寒气又不显笨重",
-        "驼色百搭，配打底裤或直筒牛仔裤都不过时",
-        "京东厚底雪地棉短靴榜同款 L23W275157 已有 1 万人评论"
+        "天然楠竹整料，38×26×2.2cm 加厚板身",
+        "底部自带磨刀石，砧板磨刀器二合一",
+        "360° 旋转立放设计，洗完直接插进橱柜沥干",
+        "三面环形引水槽，切水分汁不外溢",
+        "京东竹砧板榜单 20 万人评论，买购网参考价 29.3 元"
       ],
       "tags": [
-        "骆驼",
-        "雪地靴",
-        "毛毛鞋",
-        "加绒",
-        "驼色"
+        "竹砧板",
+        "厨房好物",
+        "自带磨刀石",
+        "可立放砧板",
+        "双11囤货"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_2.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_slice_2.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_2.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_slice_2.jpg"
       ],
       "links": {
-        "primary": "https://www.maigoo.com/news/529699.html",
-        "source": "买购网 · 骆驼靴子热门产品榜",
+        "primary": "https://www.jd.com/phb/6196286d7676df1f7b60.html",
+        "source": "京东竹砧板案板品牌排行榜",
         "extra": [
-          "https://www.jd.com/phb/key_11729e88800e97201aacf.html"
+          "https://www.maigoo.com/brand/product_15262.html",
+          "https://www.smzdm.com/ju/svkyz3n/",
+          "https://cnpp.cn/china/list_4735.html"
         ]
       },
-      "theme_color": "#9B6C3B"
+      "theme_color": "#926F3C"
     },
     {
-      "name": "妙洁 保鲜罩 300只 一次性食品级保鲜膜套 强韧不易破 餐具高适配",
-      "category": "厨房双11囤货 · 一次性食品保鲜罩",
-      "price": "¥19.9",
-      "desc": "给剩菜封保鲜膜总找不到尺寸、撕两下就破，是很多人厨房里的日常小烦恼。妙洁这只一次性保鲜罩整包 300 只，松紧束口的圈口直接套在碗盘上，深碗浅盘异形容器都能服帖盖住，不用裁剪也不用比尺寸。材质是食品级 PE，撕拉不容易裂，装带骨肉也不容易破漏，直接接触入口食材没有异味。用完即丢不用刷洗，还能挡住冰箱串味和飞虫。整包到手 19.9 元，单只不到 7 分钱，够用上大半年。",
-      "suitable": "经常存剩菜、切半水果的家庭用户，以及宿舍合租、租房党的小容量厨房",
-      "price_note": "300 只整包到手价 ¥19.9（京东商城，中关村在线好价情报多篇实测）；同线其他规格参考价 ¥9.9-¥29.9（买购网妙洁产品榜）",
-      "color": "#E7E3F3",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_3.jpg",
+      "name": "良品铺子美国进口开心果500g坚果罐装干果家庭囤货休闲零食年货团购送礼",
+      "category": "年货送礼 · 罐装进口开心果",
+      "price": "¥72.9",
+      "desc": "良品铺子这款美国进口开心果是京东干果年货礼盒榜的第一名，累计 300 万人评论。500g 罐装大果，产自美国加州地中海气候带，主打大颗粒、开口好剥，果仁饱满不空壳。罐身是黑色旋盖配深棕色哑光标签，摆在茶几上体面，自吃囤货也拿得出手。京东主图标注到手价 72.9 元，一斤装够一家人整个冬天囤着吃，年货节走亲访友送一罐，比散装要有面子得多。",
+      "suitable": "准备年货坚果的家庭、走亲访友需要体面伴手礼的人、办公室下午茶囤货党",
+      "price_note": "¥72.9 为京东主图印制的到手价（价保 11.11）；买购网同款 500g 美国开心果参考价 ¥69.8，什么值得买榜同系列 1 斤装 ¥79.9",
+      "color": "#7A4E2E",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_3.jpg",
       "id": 3,
       "highlights": [
-        "300 只整包到手 ¥19.9，单只成本不到 7 分钱",
-        "强韧不易破，套取时反复拉扯也不容易裂",
-        "松紧束口设计，深碗浅盘异形容器都能套服帖",
-        "食品级 PE 材质，直接接触食材没有异味",
-        "京东自营保鲜膜榜同款已有 200 万人评论"
+        "京东干果年货礼盒榜 TOP1，累计 300 万人评论",
+        "美国加州进口，大颗粒开口好剥不空壳",
+        "500g 罐装大果，黑色旋盖 + 深棕哑光标签",
+        "年货送礼体面，自吃囤货也不将就",
+        "京东主图到手价 72.9 元，价保 11.11"
       ],
       "tags": [
-        "妙洁",
-        "保鲜罩",
-        "厨房囤货",
-        "食品级",
-        "双11"
+        "开心果",
+        "年货礼盒",
+        "坚果囤货",
+        "走亲访友",
+        "美国进口"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_3.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_slice_3.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_3.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_slice_3.jpg"
       ],
       "links": {
-        "primary": "https://m.zol.com.cn/article/12582155.html",
-        "source": "中关村在线 · 好价情报",
+        "primary": "https://www.jd.com/phb/key_13207d7763cc94a0ef54.html",
+        "source": "京东干果年货礼盒排行榜",
         "extra": [
-          "https://www.jd.com/phb/key_6196c817d0090e30c575.html",
-          "https://m.maigoo.com/news/595750.html"
+          "https://m.maigoo.com/news/606291.html",
+          "https://www.maigoo.com/goomai/218534.html",
+          "https://www.smzdm.com/ju/sxq815v/"
         ]
       },
-      "theme_color": "#7C66BD"
+      "theme_color": "#7A4E2E"
     },
     {
-      "name": "蜂花王俊凯推荐柔顺护发素1L小麦蛋白营养护发素",
-      "category": "洗护囤货 · 小麦蛋白柔顺护发素",
-      "price": "¥19.9",
-      "desc": "换季头发一吹就毛躁打结，梳子下去卡在半路的姐妹，这瓶蜂花柔顺护发素真的该囤。小麦蛋白加氨基酸配方，能顺着发丝渗到发芯里，冬天吹干风那种干柴手感，洗完会明显变软变顺，一梳到底不卡结。1L 大容量按每次 10 毫升算够用小半年，价格只要 19.9 元，是用起来完全不心疼的国货老牌。蜂花线下超市常年有货，王俊凯代言后年轻客群明显变多。京东洗护榜上这支 SKU 已有 500 万人评论。",
-      "suitable": "烫染受损发质、冬季吹风静电严重的干性发质，以及追求性价比的家庭洗护囤货",
-      "price_note": "1L 单瓶到手价 ¥19.9（京东商品主图标注，11.11 抢先购）；买购网同款参考价 ¥19.9，450ml 款 ¥12.5",
-      "color": "#EFC13C",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_4.jpg",
+      "name": "雅鹿男士秋衣秋裤男100%纯棉抑菌保暖内衣男套装大码全棉秋冬季棉毛衫",
+      "category": "换季内搭 · 100%纯棉保暖内衣",
+      "price": "¥49.9",
+      "desc": "雅鹿这套男士秋衣秋裤是 100% 纯棉面料，衣身和里料都标注棉 100%，表里如一。京东主图标了新疆长绒棉、7A 级抗菌和温感升级三个卖点，配合立体剪裁，不勒脖子、不卷边、不紧绷。版型走「外薄内暖」路线，作为大衣内搭不臃肿，10 到 20 度的天气单穿也够。尺码从 M 覆盖到 4XL，父子俩可以一起买。什么值得买榜显示京东价 49.9 元，一条裤子不到一杯奶茶钱。",
+      "suitable": "南方过冬或北方有暖气的男性、皮肤敏感怕扎的人、给爸爸买基础内衣的家庭",
+      "price_note": "¥49.9 为什么值得买「雅鹿纯棉秋衣价格榜」内该型号的京东实价（榜单含 50k+ 条真实评价）；同榜同类款价带 ¥47.49-¥129",
+      "color": "#5C5C60",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_4.jpg",
       "id": 4,
       "highlights": [
-        "1L 大瓶到手 ¥19.9，按每次 10ml 能用小半年",
-        "小麦蛋白加氨基酸配方，渗透发芯修护受损发质",
-        "洗完一梳到底，干枯毛躁发质也能蓬松有光泽",
-        "国货老牌蜂花，王俊凯代言，双11 抢先购价",
-        "京东洗护榜同款已有 500 万人评论"
+        "衣身与里料均为棉 100%，表里如一不掺混纺",
+        "新疆长绒棉 + 温感升级，薄款也蓄热",
+        "7A 级抗菌，减少久穿异味与静电吸附",
+        "立体剪裁不勒脖不卷边，大码到 4XL",
+        "什么值得买榜京东价 49.9 元，8 仓直发"
       ],
       "tags": [
-        "蜂花",
-        "护发素",
-        "小麦蛋白",
-        "修护",
-        "囤货"
+        "保暖内衣",
+        "纯棉秋衣",
+        "男士内搭",
+        "换季囤货",
+        "送爸爸"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_4.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_slice_4.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_4.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_slice_4.jpg"
       ],
       "links": {
-        "primary": "https://www.maigoo.com/news/534566.html",
-        "source": "买购网 · 蜂花护发素热门产品榜",
+        "primary": "https://www.jd.com/phb/key_1315c7008b0d2ab9af8a.html",
+        "source": "京东男保暖衣大码排行榜",
         "extra": [
-          "https://www.jd.com/phb/key_167504df7e76298e3cbb5.html"
+          "https://www.smzdm.com/ju/s345kk0/",
+          "https://goods.taobao.com/t/baonuanshangzhuang_2147/b78526511eb6468beadc76beac9709ab.html",
+          "https://www.smzdm.com/ju/sqxwkq3"
         ]
       },
-      "theme_color": "#92700C"
+      "theme_color": "#5C5C60"
     },
     {
-      "name": "探拓(TECTOP)三合一两件套冲锋衣 加厚防寒保暖男户外登山滑雪外套抓绒内胆 JW7709 男款铁蓝色 XL",
-      "category": "初冬户外 · 三合一冲锋衣两件套",
-      "price": "¥233",
-      "desc": "初冬这种不上不下的温度，一件外套薄了冷厚了热，三合一最省事。探拓这支 JW7709 外层是防风防泼水的耐磨面料，内胆是可拆卸的加厚抓绒，冷了穿上热了拆下来，一件顶三件。细节挺到位，帽子可拆卸，下摆有松紧绳防钻风，袖口是松紧加魔术贴贴合手腕，里面还能再塞一件轻薄羽绒。铁蓝色实物很正，男女都能穿。什么值得买实测帖记录京东到手价 233 元，满 200 减 30 后低至 229 元，京东同款已有 2 万人评论。",
-      "suitable": "通勤加周末轻户外都要兼顾的人，以及预算有限又想买三合一的入门户外玩家",
-      "price_note": "京东到手价 ¥233（什么值得买实测帖）；活动价 ¥259，满 200 减 30 后实付低至 ¥229（什么值得买商品页）；买购网参考价 ¥233",
-      "color": "#527FA3",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_5.jpg",
+      "name": "雷士（NVC）小夜灯卧室睡眠床头灯氛围台灯婴儿喂奶起夜拍拍灯触控款5400mAh",
+      "category": "卧室氛围 · 充电触控床头小夜灯",
+      "price": "¥58",
+      "desc": "雷士 NVC 这款 5400mAh 触控小夜灯是京东卧室床头灯榜的热门型号，累计 10 万人评论。5400 毫安时的大电池充满一次，官方说法可以用 95 天，最低亮度当氛围灯能撑很久。三档色温可调——暖黄、暖白、正白，夜里起夜切暖黄不刺眼，手机上翻资料切暖白看得清。30 分钟定时关灯对哄睡特别实用。Type-C 接口，插手机充电器就行。京东主图标注补贴到手价 58 元，机身米白配胡桃木纹顶盖，放在床头柜上不突兀。",
+      "suitable": "卧室起夜怕摸黑的人、婴儿房喂奶家庭、租房党宿舍桌面氛围照明",
+      "price_note": "¥58 为京东主图印制的补贴到手价（日常到手价 68.2 元，焕新补贴立减 15%）；什么值得买社区实测同款记为京东 ¥57.97",
+      "color": "#F2EAE0",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_5.jpg",
       "id": 5,
       "highlights": [
-        "外层防风防泼水，抓绒内胆可拆卸，一件顶三件",
-        "帽可拆卸、下摆松紧绳、袖口魔术贴，户外细节到位",
-        "活动价 ¥259，满 200 减 30 后实付低至 ¥229",
-        "铁蓝色实物很正，男女同款情侣可穿",
-        "京东两件套三合一榜同款已有 2 万人评论"
+        "京东卧室床头灯榜热门款，累计 10 万人评论",
+        "5400mAh 大电池，官方称充满可用 95 天",
+        "暖黄 / 暖白 / 正白三档色温，无极调光",
+        "30 分钟定时自动关灯，哄睡场景省心",
+        "京东主图补贴到手价 58 元，米白机身胡桃木顶盖"
       ],
       "tags": [
-        "探拓",
-        "冲锋衣",
-        "三合一",
-        "户外",
-        "抓绒内胆"
+        "小夜灯",
+        "床头灯",
+        "氛围灯",
+        "婴儿喂奶灯",
+        "卧室好物"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_5.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-01_product_slice_5.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_5.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-02_product_slice_5.jpg"
       ],
       "links": {
-        "primary": "https://m.smzdm.com/p/128726288/",
-        "source": "什么值得买 · 商品页",
+        "primary": "https://www.jd.com/phb/key_9855926a0a2faf8c90dd.html",
+        "source": "京东灯饰卧室床头排行榜",
         "extra": [
-          "https://wiki.smzdm.com/p/ryppmr1",
-          "https://post.m.smzdm.com/talk/p/a90dmpp0"
+          "https://post.m.smzdm.com/talk/p/ak34xp7k/",
+          "https://wiki.smzdm.com/p/8mp617o/",
+          "https://www.smzdm.com/ju/s0kx88l"
         ]
       },
-      "theme_color": "#4F7A9C"
+      "theme_color": "#946E3E"
     }
   ]
 }
