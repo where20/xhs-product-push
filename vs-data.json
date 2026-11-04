@@ -1,343 +1,334 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "sources": [
-    "https://www.jd.com/phb/737a62a28d2d84f7b32.html",
-    "https://www.jd.com/phb/key_7377a5286a03ffeeed4.html",
-    "https://www.jd.com/phb/key_98479b79a547846f07a6.html",
-    "https://www.jd.com/phb/key_11729bd956a70fc3c30ae.html",
-    "https://www.jd.com/phb/key_11729b54c51c2650e0688.html",
-    "https://www.jd.com/phb/key_11729612169b61bf6c33d.html",
-    "https://www.jd.com/phb/key_11729826d7c130e3821e2.html",
-    "https://www.jd.com/phb/6196c0bca79f773d6a31.html",
-    "https://www.jd.com/phb/key_1620cd57aa04024299b8.html",
-    "https://www.jd.com/phb/key_1620ed1d59f5f02033ad.html",
-    "https://www.jd.com/phb/13150e4077076f962ab4.html",
-    "https://www.jd.com/phb/key_1315688d9809d7647438.html",
-    "https://www.jd.com/phb/key_131576f75ec02011e6f4.html",
-    "https://www.smzdm.com/ju/spnv191/",
-    "https://www.smzdm.com/ju/s346vvy/",
-    "https://www.smzdm.com/ju/s4r1155/",
-    "https://www.smzdm.com/ju/sz050wr/",
-    "https://www.smzdm.com/ju/sjl6lmn/",
-    "https://www.smzdm.com/p/116220043/",
-    "https://www.smzdm.com/p/184793954",
-    "https://m.smzdm.com/p/184097560",
-    "https://pinpai.smzdm.com/352468/youhui/p41",
-    "https://pinpai.smzdm.com/313294/youhui/p4",
-    "https://chihe.sohu.com/a/1079041450_122471764",
-    "https://feed.baidu.com/feed/data/wise/landingpage?n_type=1&nid=9368152575435093452&p_from=-1",
-    "https://shopping.baidu.com/rank/brand?allowVoteInNewPageC=0&secondTagID=1&srcid=5881&srcidFrom=5881&tagID=424382986&word=%E8%84%9A%E6%84%9F%E6%9C%80%E8%88%92%E6%9C%8D%E7%9A%84%E6%8B%96%E9%9E%8B",
-    "https://faxian.smzdm.com/h1s0t0f4539c0p120/"
+    "https://www.jd.com/phb/737a9fc37c3315cf03d.html",
+    "https://www.jd.com/phb/737deee63929e2943b8.html",
+    "https://www.jd.com/phb/key_737da2a7f63573b80cd.html",
+    "https://www.jd.com/phb/key_122184f000dc554a2dc5d.html",
+    "https://www.jd.com/phb/key_1524854009ddd5fbf39aa.html",
+    "https://www.jd.com/phb/key_737c153e7a2e73ee116.html",
+    "https://www.smzdm.com/p/183124739/",
+    "https://www.smzdm.com/p/184543125",
+    "https://www.smzdm.com/p/184362289",
+    "https://www.smzdm.com/p/183541424",
+    "https://m.smzdm.com/p/182830989",
+    "https://m.smzdm.com/p/177391610/",
+    "https://pinpai.smzdm.com/471187/youhui",
+    "https://jd.zol.com.cn/1238/12385778.html",
+    "https://price.zol.com.cn/1154/11546986.html",
+    "https://www.maigoo.com/news/603191.html",
+    "https://m.maigoo.com/goomai/217424.html",
+    "https://www.paizi.net/pinpai/top44903.html"
   ],
   "competitors": [
     {
-      "product": "欧式快热炉 / 对流取暖器 ¥129–499",
+      "product": "厨房早餐 · 复古多士炉 ¥80-550",
       "items": [
         {
-          "name": "荣事达（Royalstar）取暖器快热炉速热家用电热暖气片电暖气移动地暖无光卧室客厅暖风机烤火炉省电加热器室内NDL-2008",
-          "price": "¥129.9",
-          "advantage": "今日主推。同为无光无可见火焰的白色钢制快热炉，标称适用面积 15–25㎡、360° 立体环绕送风，价格却只有格力、米家、艾美特的三分之一到四分之一",
-          "jd_sales": "京东欧式快热炉榜在售 · 20000 人评论（11-04 实测）；价格取自该 SKU 主图印刷价 ¥129.9",
-          "color": "#F0F0EE",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_1.jpg"
+          "name": "北美电器（ACA）面包机 烤面包片机烤吐司机多士炉家用全自动早餐机三明治2片轻食机速烤AT-D10",
+          "price": "¥81.15",
+          "advantage": "0.99kg 轻机身比 A4 纸还小，35mm 加宽双烤槽，7 档烤色，600W 速烤 60 秒，环形提示灯显示加热状态",
+          "jd_sales": "京东 10000 人评论（京东榜单页 737a9fc37c3315cf03d 实测）",
+          "color": "#F2EFE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_1.jpg"
         },
         {
-          "name": "奥克斯（AUX）取暖器家用欧式快热炉电暖气取暖电暖炉暖风电暖器对流式烤火炉 IPX4级防水 NDL220-B37G",
+          "name": "德龙（Delonghi）面包机 复古家用小型吐司机烤面包片 加热解冻三明治早餐多士炉 CTO2003.VGR 橄榄绿 礼物",
+          "price": "¥521",
+          "advantage": "意式 icona 复古造型，橄榄绿配色，意大利品牌 1948 年至今的厨房电器口碑",
+          "jd_sales": "京东 20000 人评论（京东榜单页 737f4677ef444cb2339 实测）",
+          "color": "#7A7A52",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_1.jpg"
+        },
+        {
+          "name": "WMF德国福腾宝多士炉烤面包片 烤馒头片家用不锈钢吐司机烤面包片机7档双面烘烤 多士炉",
+          "price": "¥479",
+          "advantage": "德国品牌不锈钢机身，7 档双面烘烤，钢材质耐用度更高",
+          "jd_sales": "牌子网 123网吐司机品牌榜 TOP6（京东旗舰店在售）",
+          "color": "#B9BDC0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_1.jpg"
+        },
+        {
+          "name": "飞利浦（PHILIPS）面包机多士炉早餐吐司机全自动家用迷你烤面包机吐司方便携带早餐机 HD264010 磨砂白",
+          "price": "¥219",
+          "advantage": "小体积迷你款，磨砂白外壳，家用迷你定位更省台面",
+          "jd_sales": "牌子网 123网吐司机品牌榜 TOP1 飞利浦 京东旗舰店在售",
+          "color": "#E8E6E2",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_1.jpg"
+        },
+        {
+          "name": "美的（Midea）吐司机烤面包机家用片加热三明治早餐机小型全自动吐司多士炉 复古白",
           "price": "¥159",
-          "advantage": "一体式晾衣架设计，冬天还能顺手烘袜子，IPX4 级防水；价格比主推只贵三十元，是同价位里功能更全的一台",
-          "jd_sales": "京东欧式快热炉榜在售 · 200000 人评论（11-04 实测）；价格取自该 SKU 主图印刷价 ¥159",
-          "color": "#F0F0EE",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_1.jpg"
+          "advantage": "美的自有渠道价格带更低，复古白配色，美的品牌售后网点覆盖广",
+          "jd_sales": "牌子网 123网吐司机品牌榜 TOP9 美的 京东旗舰店在售",
+          "color": "#F5F3EF",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_1.jpg"
         },
         {
-          "name": "美的（Midea）【大白】电热取暖器/电暖器/电暖气家用/浴室暖风机/节能轻音/电热取暖炉烤火炉欧式快热炉 HDY20K",
-          "price": "¥199.0",
-          "advantage": "美的品牌背书，2000W 大功率 + 15° 壁檐泄水结构 + 防水开关，浴室可用；预算想多花四十块买大厂，这一档最稳",
-          "jd_sales": "京东欧式快热炉榜 TOP 级在售 · 500000 人评论（11-04 实测）；价格取自该 SKU 主图印刷价 ¥199.0",
-          "color": "#F0F0EE",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_1.jpg"
-        },
-        {
-          "name": "格力（GREE）【居浴两用】取暖器家用电暖气家用欧式快热炉电暖气浴室防水电暖气干衣无光轻音取暖气 NBDC-22",
-          "price": "¥349",
-          "advantage": "6 秒暖全屋、整机防水、智能恒温更省耗，530mm 宽机身覆盖面积大；品牌和做工是这一档的标杆，代价是价格三倍于主推",
-          "jd_sales": "京东欧式快热炉榜在售 · 100000 人评论（11-04 实测）；价格取自该 SKU 主图印刷价 ¥349",
-          "color": "#F0F0EE",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_1.jpg"
-        },
-        {
-          "name": "艾美特（AIRMATE）【全屋恒温】石墨烯取暖器/电暖器/电暖气/浴室暖风机/烤火炉 家用大面积升温抑菌遥控欧式快热炉",
-          "price": "¥369",
-          "advantage": "石墨烯导热 + 18–35℃ 智能恒温 + 母婴级抑菌 + 遥控操作，是主推最缺的「可调温可遥控」两项；适合怕冷又怕燥的家庭",
-          "jd_sales": "京东欧式快热炉榜在售 · 200000 人评论（11-04 实测）；价格取自该 SKU 主图印刷价 ¥369（页面另有 20 元 E 卡）",
-          "color": "#F0F0EE",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_1.jpg"
-        },
-        {
-          "name": "米家小米智能石墨烯取暖器欧式快热炉电暖器六档调温IPX4防水电热取暖器家用 KRDNQ05ZM",
-          "price": "¥499",
-          "advantage": "APP 智能控制 + 六档调温 + 居浴两用 + 石墨烯高效导热，是榜单里的顶配价位；适合愿意为智能联动和品牌溢价买单的人",
-          "jd_sales": "京东欧式快热炉榜 TOP1 · 500000 人评论（11-04 实测）；价格取自该 SKU 主图印刷补贴到手价 ¥499",
-          "color": "#F0F0EE",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_1.jpg"
+          "name": "汉美驰（HamiltonBeach）2片超宽槽烤面包机 家用吐司机 可调烤色 早餐机 不锈钢 自动断电 面包提升 黑色",
+          "price": "¥294.07",
+          "advantage": "超宽槽设计，均匀烘烤，百吉饼解冻、自动提升、自动断电一应俱全",
+          "jd_sales": "牌子网 123网吐司机品牌榜 TOP10 汉美驰 京东旗舰店在售",
+          "color": "#2E2E2E",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_1.jpg"
         }
       ]
     },
     {
-      "product": "冬季棉拖鞋 / 居家毛绒棉拖 ¥22–85",
+      "product": "口腔个护 · 便携冲牙器 ¥80-760",
       "items": [
         {
-          "name": "俞兆林（YUZHAOLIN）棉拖鞋男女冬季防滑轻便居家保暖棉拖鞋 YG307",
-          "price": "¥23.88",
-          "advantage": "今日主推。竖条毛绒鞋面 + 米白防滑胶底，京东 50000 人评论；同款两个档口销量 92 / 94，二十多块拿到大厂基础款",
-          "jd_sales": "百度购物男士拖鞋品牌榜 · 销量 92（另档位 ¥22.69 销量 94）；京东棉拖鞋榜在售 · 50000 人评论（11-04 实测）",
-          "color": "#7A8794",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_2.jpg"
+          "name": "拜尔专业智能杀菌冲牙器电动水牙线家用洗牙洁牙神器正畸专用洁齿 【杀菌款】M17银色",
+          "price": "¥299",
+          "advantage": "银色金属一体机身，四档力度可调，杀菌款定位正畸人群，到手价 299 元",
+          "jd_sales": "京东 20000 人评论（京东榜单页 737deee63929e2943b8 实测）",
+          "color": "#C8CBD0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_2.jpg"
         },
         {
-          "name": "俞兆林（YUZHAOLIN）棉拖鞋男女冬季棉鞋包跟棉拖鞋保暖家居棉拖鞋 YZL1903 灰色",
-          "price": "¥28.39",
-          "advantage": "同品牌包跟款，脚后跟有包裹感、穿脱不费劲，灰色百搭；价格只比主推多四块五，是同门里加绒更厚的一档",
-          "jd_sales": "百度购物男士拖鞋品牌榜 · 销量 65（11-04 实测）",
-          "color": "#7A8794",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_2.jpg"
+          "name": "洁碧【专业旗舰】医用级冲牙器GS10PRO洁净白 便携洗牙器水牙线牙齿冲洗器预防牙结石",
+          "price": "¥758.1",
+          "advantage": "水牙线鼻祖品牌，脉冲水流技术，医用级定位，附赠 8 支喷嘴",
+          "jd_sales": "京东 20000 人评论（京东榜单页 737deee63929e2943b8 实测）",
+          "color": "#F0F0EE",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_2.jpg"
         },
         {
-          "name": "路路佳(loloka)路路佳棉拖鞋男士2024新款冬季居家棉拖鞋保暖防滑大码棉拖鞋男式",
-          "price": "¥35.2",
-          "advantage": "主打防滑与大码，鞋底纹路更深、排水更快，浴室湿滑地面穿着更稳；价格中等，主打功能而非品牌",
-          "jd_sales": "百度购物男士拖鞋品牌榜（另有 ¥39.89 款好评 66 条、¥27.89 款销量 1，11-04 实测）",
-          "color": "#7A8794",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_2.jpg"
+          "name": "usmile笑容加冲牙器便携式水牙线洗牙器【新升级】除菌斑净澈口腔第三代C10S水韵紫3.0",
+          "price": "¥324",
+          "advantage": "樊振东代言，注氧小气泡水流不刺痛牙龈，IPX7 全身水洗，180ml 抽拉式水箱",
+          "jd_sales": "京东 200000 人评论（京东榜单页 737deee63929e2943b8 实测）",
+          "color": "#8B7BA8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_2.jpg"
         },
         {
-          "name": "卡帝乐鳄鱼(CARTELO)棉布拖鞋男士款秋冬季布底轻便软底低音居家用办公室内木地板拖鞋",
-          "price": "¥44.41",
-          "advantage": "鳄鱼纹底纹 + 3D 立体裁剪，前掌加宽 5mm，硅藻类鞋面透气排汗；品牌溢价明显，适合注重脚感的人",
-          "jd_sales": "百度购物男士拖鞋品牌榜 · 销量 1（11-04 实测）",
-          "color": "#7A8794",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_2.jpg"
+          "name": "博皓（prooral）冲牙器5025Plus手持立式洗牙器带数显水牙线成人洁牙器牙齿冲洗器 天空蓝270ml",
+          "price": "¥235",
+          "advantage": "1000000 人评论的爆款，手持立式两用，带数显，270ml 大水箱",
+          "jd_sales": "京东 1000000 人评论（京东榜单页 737deee63929e2943b8 实测）",
+          "color": "#6FB6DC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_2.jpg"
         },
         {
-          "name": "热风(Hotwind)男鞋勃肯鞋夏季新款男士复古休闲包头勃肯拖",
-          "price": "¥79",
-          "advantage": "可折叠鞋床设计，收纳减少 60% 仍保持回弹性能，适合出差带着走；另有 ¥85 款好评 1000 条，是这一档口碑最稳的",
-          "jd_sales": "百度购物男士拖鞋品牌榜 · 销量 100（¥85 款好评 1000 条，11-04 实测）",
-          "color": "#7A8794",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_2.jpg"
+          "name": "博皓（prooral）【无极调速】冲牙器F48手持立式洗牙器带数显成人洁牙器牙齿冲洗器 蓝色300ml",
+          "price": "¥489",
+          "advantage": "无极调速可连续调节力度，300ml 水箱，活动价 489 元满减后到手 189 元",
+          "jd_sales": "京东 1000000 人评论；中关村在线实测活动售价 489 元（jd.zol.com.cn/1238/12385778）",
+          "color": "#3D6FA8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_2.jpg"
         },
         {
-          "name": "足间舞(Toedance)足间舞盆型底棉拖鞋2025新款室内家居毛绒保暖厚底防滑拖鞋男士",
-          "price": "¥79",
-          "advantage": "专利分趾设计与 15° 前掌上扬，长时间站立行走更省力，透气孔矩阵让脚不闷；养生馆与久站人群会喜欢",
-          "jd_sales": "百度购物男士拖鞋品牌榜（另有 ¥93 冬季勃肯可外穿款、¥58.9 贝壳拖鞋款，11-04 实测）",
-          "color": "#7A8794",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_2.jpg"
+          "name": "米家小米立式冲牙器洗牙器水牙线 F300烟纱白创新散射脉冲4档模式牙齿冲洗器",
+          "price": "¥111",
+          "advantage": "米家生态链，散射脉冲水流，4 档模式，500000 人评论的基础款",
+          "jd_sales": "京东 500000 人评论（京东榜单页 737deee63929e2943b8 实测）",
+          "color": "#EDEFEF",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_2.jpg"
         }
       ]
     },
     {
-      "product": "陶瓷砂锅 / 煲汤炖锅 ¥47–185",
+      "product": "家居清洁 · 床上除螨仪 ¥99-700",
       "items": [
         {
-          "name": "佩尔森砂锅煲汤锅炖锅 养生煲耐高温不开裂陶瓷煲炖汤沙锅家用燃气炖锅 黄盖 5L",
-          "price": "¥51.7",
-          "advantage": "今日主推。芥末黄盖 + 深棕锅身，无釉天然陶土内胆不吸油不串味，5L 适用 4–8 人；活动价 ¥60.9 立减 15% 到手 ¥51.7",
-          "jd_sales": "京东砂锅榜在售 · 20000 人评论（11-04 实测）；什么值得买爆料页 p/184097560 实付 ¥51.7（页面价 ¥60.9）",
-          "color": "#C8A02E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_3.jpg"
+          "name": "UWANT【价保11.11】友望除螨仪器大白旗舰 【ultra升级大吸力】除螨床上吸尘器高温杀菌三合一除螨机",
+          "price": "¥379",
+          "advantage": "ultra 升级大吸力 + 高温杀菌 + 紫外线三合一，200000 人评论的类目旗舰",
+          "jd_sales": "京东 200000 人评论（京东榜单页 key_737da2a7f63573b80cd 实测）",
+          "color": "#EDE4D8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_3.jpg"
         },
         {
-          "name": "荣事达（Royalstar）砂锅煲汤陶瓷煲家用耐高温干烧不易裂炖汤锅燃气灶明火专用 3.3L",
-          "price": "¥47.53",
-          "advantage": "有钛陶瓷釉技术，不吸油不串味、抗干烧不易裂，360° 微压系统；容量 3.3L 偏小，两人份刚好",
-          "jd_sales": "什么值得买砂锅煲汤锅榜 · 京东 99k 销量（11-04 实测）；同系列 4.6L ¥74.12",
-          "color": "#C8A02E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_3.jpg"
+          "name": "UWANT 顶配版 友望大白旗舰除螨仪升级大功率 双杯除螨防缠 床上高温杀菌大吸力吸尘器三合一除螨机",
+          "price": "¥248",
+          "advantage": "同系列顶配版，双杯除螨防缠设计，叠券后 248 元",
+          "jd_sales": "什么值得买 优选好价记录 ¥248（需用券）",
+          "color": "#E4DCD2",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_3.jpg"
         },
         {
-          "name": "双喜 砂锅家用炖锅耐高温干烧不裂煲汤熬药煮粥焖饭养生汤锅陶瓷锅 3.5L",
-          "price": "¥69.27",
-          "advantage": "陶瓷 + 锂辉石复合材料，标称耐高温 650℃，锅沿加高防汤汁溢出；老字号牌面，价格比主推贵十几块",
-          "jd_sales": "什么值得买砂锅煲汤锅榜 · 京东在售（11-04 实测）",
-          "color": "#C8A02E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_3.jpg"
+          "name": "UWANT 友望除螨仪器太阳光旗舰版【100%净螨 母婴认证】高温杀菌吸尘器三合一大吸力除螨机",
+          "price": "¥359",
+          "advantage": "100% 净螨 + 母婴认证，高温杀菌技术，京东 50000 人评论",
+          "jd_sales": "京东 50000 人评论（京东榜单页 key_737da2a7f63573b80cd 实测）",
+          "color": "#E9E2D6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_3.jpg"
         },
         {
-          "name": "泥火匠陶瓷釉中彩小斑马汤煲 4.6L 养生砂锅明火中药炖汤锅汤煲",
-          "price": "¥101.25",
-          "advantage": "釉中彩工艺外观精致，3.5L / 4.6L / 6L 三档容量覆盖 2–6 人；同系列 3.5L ¥94.52、6L ¥128.88",
-          "jd_sales": "什么值得买砂锅煲汤锅榜 · 京东 99k 销量（11-04 实测）",
-          "color": "#C8A02E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_3.jpg"
+          "name": "UWANT 100 友望除螨仪器M100大吸力床上高温杀菌吸尘器三合一除螨机",
+          "price": "¥99",
+          "advantage": "入门价位就能上高温杀菌三合一，百元档里配置给得足",
+          "jd_sales": "什么值得买 优选好价记录 ¥99",
+          "color": "#DDD6CC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_3.jpg"
         },
         {
-          "name": "卡罗特 珐琅锅铸铁锅家用砂锅礼物炖锅炖盅煲汤锅焖烧锅不粘锅煮锅 采销推荐粉色珐琅锅 24cm",
-          "price": "¥134.5",
-          "advantage": "珐琅铸铁微压烹饪，能焖、能炖、能当锅也能当盘，锁汁锁味能力最强；工艺溢价明显，送礼体面",
-          "jd_sales": "什么值得买砂锅煲汤锅榜 · 京东在售（另见铸铁珐琅炖锅 ¥90.61 / ¥94.19 天猫超市，11-04 实测）",
-          "color": "#C8A02E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_3.jpg"
+          "name": "米家小米除螨仪2 Pro 升级双尘杯 智能LED屏 紫外线超声波除螨杀菌 床上去螨虫",
+          "price": "¥674.9",
+          "advantage": "米家双尘杯设计，智能 LED 屏显示尘螨量，紫外线加超声波双杀菌",
+          "jd_sales": "京东 500000 人评论（京东榜单页 key_737da2a7f63573b80cd 实测）",
+          "color": "#E8E8E8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_3.jpg"
         },
         {
-          "name": "康巴赫 耐高温干烧不开裂 陶瓷砂锅 2.5L",
-          "price": "¥59.73",
-          "advantage": "双矿材质 + 纳米钛内壁，抗菌率 99%，冰水交替都不易裂；2.5L 适合熬粥煮药炖小份汤",
-          "jd_sales": "什么值得买砂锅煲汤锅榜 · 天猫超市（11-04 实测）；4.5L 款另见 ¥104.5–¥209",
-          "color": "#C8A02E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_3.jpg"
+          "name": "UWANT 立体65℃热风烘干 除螨仪 大白",
+          "price": "¥380.12",
+          "advantage": "立体 65℃ 热风烘干，把除螨与被褥烘干合在一台机器里",
+          "jd_sales": "什么值得买 优选好价记录 ¥380.12（需用券）",
+          "color": "#EDE4D8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_3.jpg"
         }
       ]
     },
     {
-      "product": "浴室吸水地垫 / 卫浴防滑脚垫 ¥9–80",
+      "product": "生鲜年货 · 阳澄湖大闸蟹 ¥93-460",
       "items": [
         {
-          "name": "大江Ag+银离子 抗菌浴室地垫卫生间门口吸水垫厕所脚垫纯色 40x60cm",
-          "price": "¥29",
-          "advantage": "今日主推。Ag+ 银离子抗菌有效率 99.9%，浅灰短绒吸水快，40x60cm 摆放刚好；主图直标预计到手价 ¥29",
-          "jd_sales": "京东浴室地垫榜在售 · 500000 人评论（11-04 实测）；主图印刷「预计到手价 ¥29」，什么值得买同 SKU ¥26.93 / 京东 99k 销量",
-          "color": "#B7BBBF",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_4.jpg"
+          "name": "阳澄逍遥大闸蟹鲜活螃蟹全母蟹3.0-3.3两8只现货湖河蟹水产海鲜礼盒次日达",
+          "price": "¥218",
+          "advantage": "全母蟹 8 只装，去绳足重，每只都有黄，京东自营次日达",
+          "jd_sales": "京东 50000 人评论（京东榜单页 key_122184f000dc554a2dc5d 实测）",
+          "color": "#C4542A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_4.jpg"
         },
         {
-          "name": "大江Ag+银离子 抗菌浴室地垫卫生间门口吸水垫厕所脚垫纯色 50x110cm",
-          "price": "¥47.18",
-          "advantage": "同系列加大长条版，摆在洗手台到马桶的长条过道能一次铺满；银离子抗菌性能与主推一致",
-          "jd_sales": "什么值得买浴室垫榜 · 京东 99k 销量（11-04 实测）",
-          "color": "#B7BBBF",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_4.jpg"
+          "name": "【活蟹】阳澄联合鲜活大闸蟹现货全母蟹 3.0-3.3两 8只生鲜螃蟹精品礼品盒",
+          "price": "¥218",
+          "advantage": "京东蟹类销量 TOP1，BRC 认证 + 中科溯源 + Intertek 清洁食材认证三证齐备",
+          "jd_sales": "京东 200000 人评论（京东榜单页 key_12218a16ad5d737be8cd0 实测）",
+          "color": "#C4542A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_4.jpg"
         },
         {
-          "name": "大江Ag+银离子 抗菌浴室地垫卫生间门口吸水垫厕所脚垫纯色 60x90cm",
-          "price": "¥53.93",
-          "advantage": "60x90 大方版，淋浴区两人站位也够铺；同系列页面另有 ¥71.91 档位，按活动力度挑",
-          "jd_sales": "什么值得买浴室垫榜 · 京东 99k 销量（11-04 实测）",
-          "color": "#B7BBBF",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_4.jpg"
+          "name": "【活蟹】湖鲜阳澄 大闸蟹 去绳足重 全母蟹3.0-3.3两 8只 鲜活超大螃蟹海鲜生鲜礼盒装",
+          "price": "¥238",
+          "advantage": "专注大闸蟹养殖 30 年，主打自然水域蟹苗与源头当天捕捞直发，99% 好评",
+          "jd_sales": "京东 200000 人评论（京东榜单页 key_122184f000dc554a2dc5d 实测）",
+          "color": "#BE5030",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_4.jpg"
         },
         {
-          "name": "大江浴室地垫厕所浴室门口吸水防滑垫卡通趣味植绒卫生间地垫 60x110cm",
-          "price": "¥80.14",
-          "advantage": "卡通植绒造型，图案可爱，适合有小孩的家庭和宿舍；绒面偏厚吸水好，代价是价格明显更高",
-          "jd_sales": "什么值得买浴室垫榜 · 京东 99k 销量（11-04 实测）",
-          "color": "#B7BBBF",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_4.jpg"
+          "name": "【礼券】阳澄联合大闸蟹礼券8888型公5.0两母4.0两4对8只螃蟹券送礼盒礼品卡",
+          "price": "¥458",
+          "advantage": "公母搭配黄膏兼得，红色镂空手提礼盒，先锁规格后提货，异地送礼不担心时效",
+          "jd_sales": "京东 1000000 人评论（京东榜单页 key_12218a16ad5d737be8cd0 实测）",
+          "color": "#A62B22",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_4.jpg"
         },
         {
-          "name": "得喜（DeXi）硬硅藻泥吸水地垫吸水防滑垫厕所卫生间脚垫浴室吸水垫 39x60cm",
-          "price": "¥48.9",
-          "advantage": "硬硅藻泥材质可水洗、吸水后能自然风干，不容易发霉；主图标「预计到手价 ¥48.9」，比主推贵近二十元",
-          "jd_sales": "京东浴室地垫榜在售 · 5000 人评论（11-04 实测）；价格取自该 SKU 主图印刷价 ¥48.9",
-          "color": "#B7BBBF",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_4.jpg"
+          "name": "【活蟹】阳澄逍遥大闸蟹鲜活螃蟹全母蟹3.3-3.6两8只现货湖河蟹水产海鲜礼盒次日达",
+          "price": "¥218",
+          "advantage": "同品牌更大规格 3.3-3.6 两，蟹黄更饱满，单只成本接近 3.0-3.3 两款",
+          "jd_sales": "京东 50000 人评论（京东榜单页 key_122184f000dc554a2dc5d 实测）",
+          "color": "#C4542A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_4.jpg"
         },
         {
-          "name": "吉暖 朱迪尼克浴室地垫软硅藻泥卡通裸眼3D立体图案地垫洗手台地毯 40*60cm",
-          "price": "¥9.61",
-          "advantage": "裸眼 3D 立体图案 + 软硅藻泥，颜值是这一组里最高的，宿舍与出租屋布置出片；代价是销量仅个位数",
-          "jd_sales": "什么值得买浴室垫榜 · 京东销量 2（11-04 实测）",
-          "color": "#B7BBBF",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_4.jpg"
+          "name": "【活蟹】苏状元鲜活大闸蟹现货全母蟹3.0-3.3两8只螃蟹生鲜去绳足重海鲜礼盒",
+          "price": "¥93",
+          "advantage": "同规格里价格最低的一档，适合自吃囤货而非送礼，10 只装更低",
+          "jd_sales": "京东 100000 人评论（京东榜单页 key_12218a16ad5d737be8cd0 实测）",
+          "color": "#C05528",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_4.jpg"
         }
       ]
     },
     {
-      "product": "冬季针织毛线帽 / 纯羊毛帽 ¥27–298",
+      "product": "秋冬床品 · 纯棉四件套 ¥150-560",
       "items": [
         {
-          "name": "MISSION UV纯羊毛帽子秋冬男士加厚保暖针织帽毛线帽户外登山冷帽冬帽防寒帽",
-          "price": "¥67",
-          "advantage": "今日主推。主图标注 100% 绵羊毛，细密罗纹针织弹性足、风帽型收口挡额头，纯黑无多余装饰男女通用",
-          "jd_sales": "什么值得买户外毛线帽榜同名条目 · 京东 50k 销量（11-04 实测）；京东毛线帽榜在售 · 50000 人评论",
-          "color": "#1C1C1E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_5.jpg"
+          "name": "水星家纺床上纯棉a类被套床单四件套2026年新款亲肤套件全棉被罩220*240cm1.8米床-香蝶",
+          "price": "¥339",
+          "advantage": "100% 阳光棉 A 类面料，数字印花粉底花卉，双 11 三档满减 + 冬季家纺额外 15% 立减",
+          "jd_sales": "京东 200000 人评论（京东榜单页 key_1524854009ddd5fbf39aa 实测）",
+          "color": "#F0DCD8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_5.jpg"
         },
         {
-          "name": "京东京造 100%纯羊毛帽子秋冬加厚保暖毛线帽针织帽护耳防寒帽男",
-          "price": "¥49.5",
-          "advantage": "京东京造自营，同样标 100% 纯羊毛并带护耳设计，价格比主推低十七块；品牌溢价少，性价比更直给",
-          "jd_sales": "什么值得买针织毛线帽榜 · 京东在售（另档位 ¥59.9，11-04 实测）",
-          "color": "#1C1C1E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_5.jpg"
+          "name": "富安娜床上四件套纯棉100%全棉床单套件双人加大被套枕套汐颜1米8床粉家居馆",
+          "price": "¥299",
+          "advantage": "新疆棉斜纹织造，面料更紧实有垂坠感，粉玫瑰花卉鲜活印染，图案层次撑得起来",
+          "jd_sales": "京东 200000 人评论（京东榜单页 key_1524854009ddd5fbf39aa 实测）",
+          "color": "#F2D9DC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_5.jpg"
         },
         {
-          "name": "海澜之家帽子男士秋冬季毛线含羊毛百搭保暖户外运动骑车防寒防风针织帽 经典黑色（不加绒）",
-          "price": "¥53",
-          "advantage": "不加绒版本透气不闷，办公室和南方轻度降温更合适；加绒版本 ¥67、时尚灰 ¥77、茶墨黑 ¥87，价位排布清楚",
-          "jd_sales": "什么值得买针织毛线帽榜 · 京东 10k 销量（11-04 实测，同系列共 5 个款式在榜）",
-          "color": "#1C1C1E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_5.jpg"
+          "name": "无印良品【京东热销榜TOP1】100%纯棉四件套床上用品全棉床单被套200*230cm1.5/1.8米床",
+          "price": "¥178.95",
+          "advantage": "灰卡双色百搭，双面可用换心情，活性印染色牢度稳，B 类安全等级",
+          "jd_sales": "京东 200000 人评论（京东榜单页 key_1524854009ddd5fbf39aa 实测）",
+          "color": "#C9C6C0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_5.jpg"
         },
         {
-          "name": "红蜻蜓帽子男士冬季毛线帽加绒保暖棉帽户外骑车防寒防风护耳帽针织冷帽 两件套【毛线帽 手套】",
-          "price": "¥44.8",
-          "advantage": "毛线帽 + 手套两件套，一套顶两件，护耳帽型骑行更挡风；另有三件套 ¥53.8、加绒骑行面罩款 ¥28.2",
-          "jd_sales": "什么值得买户外毛线帽榜 · 京东 50k 销量（11-04 实测）；女士兔毛帽两件套另见 ¥58.57",
-          "color": "#1C1C1E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_5.jpg"
+          "name": "LOVO罗莱家纺 全棉四件套100%纯棉床单被套双人床上用品220*240cm",
+          "price": "¥219",
+          "advantage": "罗莱家纺自有品牌线，全棉斜纹品质稳定，双人床 220×240cm 标准尺寸",
+          "jd_sales": "京东 100000 人评论（京东榜单页 key_1524854009ddd5fbf39aa 实测）",
+          "color": "#E6E0D6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_5.jpg"
         },
         {
-          "name": "子瞻帽子男冬季毛线帽男士加绒加厚保暖户外骑车防寒防风滑雪针织帽女 黑色帽子 加绒加厚",
-          "price": "¥27",
-          "advantage": "同榜里价格最低的一档，加绒加厚配置只卖二十多块；加脖套版本 ¥36.79 / ¥37，功能更全但依然便宜",
-          "jd_sales": "什么值得买户外毛线帽榜 · 京东 99k 销量（11-04 实测）",
-          "color": "#1C1C1E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_5.jpg"
+          "name": "京东京造100%纯棉四件套全棉床单被套抑菌套件床上用品200*230cm1.5/1.8米床 咖色",
+          "price": "¥179",
+          "advantage": "精梳棉抗菌抑菌工艺，越洗越软，京东金榜四件套类金榜分 97.2，10 万人回购",
+          "jd_sales": "京东榜单页 key_1524854009ddd5fbf39aa 实测；网易文章引京东金榜数据",
+          "color": "#9A8B7C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_5.jpg"
         },
         {
-          "name": "利伯 2026新款100%纯山羊绒高档帽子男女情侣秋冬季双层加厚针织毛线帽 黑色",
-          "price": "¥298",
-          "advantage": "100% 纯山羊绒、双层加厚、高端线的存在——帽子加围巾套装 ¥986；质感最好但溢价极高，预算够再考虑",
-          "jd_sales": "什么值得买高档针织帽榜 · 京东 500 销量（11-04 实测）",
-          "color": "#1C1C1E",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_5.jpg"
+          "name": "水星家纺 四件套床上100%A类全棉针织床笠被套枕套耐磨耐洗双人套件1.5米床",
+          "price": "¥255.5",
+          "advantage": "同品牌 A 类针织款，床笠版型固定床垫不易跑位，耐磨耐洗",
+          "jd_sales": "什么值得买 优选好价记录 ¥255.5",
+          "color": "#EFE3DC",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_5.jpg"
         }
       ]
     }
   ],
   "hotProducts": [
     {
-      "name": "荣事达（Royalstar）取暖器快热炉速热家用电热暖气片电暖气移动地暖无光卧室客厅暖风机烤火炉省电加热器室内NDL-2008",
-      "category": "家居取暖 · 欧式快热炉",
-      "price": "¥129.9",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_1.jpg",
-      "sales": "京东欧式快热炉榜在售 · 20000 人评论，京东主图直标 ¥129.9，标称适用面积 15–25㎡",
-      "platform": "京东荣事达旗舰店"
+      "name": "北美电器（ACA）面包机 烤面包片机烤吐司机多士炉家用全自动早餐机三明治2片轻食机速烤AT-D10",
+      "category": "厨房早餐 · 复古多士炉",
+      "price": "¥81.15",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_1.jpg",
+      "sales": "京东 10000 人评论（京东榜单页实测）；中关村在线实测活动售价 81.15 元",
+      "platform": "京东自营 ACA北美电器旗舰店"
     },
     {
-      "name": "俞兆林（YUZHAOLIN）棉拖鞋男女冬季防滑轻便居家保暖棉拖鞋 YG307",
-      "category": "居家穿着 · 冬季棉拖",
-      "price": "¥23.88",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_2.jpg",
-      "sales": "百度购物男士拖鞋品牌榜销量 92（同款另一档位 ¥22.69 销量 94），京东棉拖鞋榜 50000 人评论",
-      "platform": "京东俞兆林旗舰店 / 百度购物多档口"
+      "name": "拜尔专业智能杀菌冲牙器电动水牙线家用洗牙洁牙神器正畸专用洁齿 【杀菌款】M17银色",
+      "category": "口腔个护 · 便携冲牙器",
+      "price": "¥299",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_2.jpg",
+      "sales": "京东 20000 人评论（京东榜单页实测）；主图标注到手价 299 元",
+      "platform": "京东 拜尔自营旗舰店"
     },
     {
-      "name": "佩尔森砂锅煲汤锅炖锅 养生煲耐高温不开裂陶瓷煲炖汤沙锅家用燃气炖锅 黄盖 5L",
-      "category": "厨房煲汤 · 陶瓷砂锅",
-      "price": "¥51.7",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_3.jpg",
-      "sales": "京东砂锅榜在售 · 20000 人评论，什么值得买爆料页实付 ¥51.7（页面价 ¥60.9 立减15%），榜单参考价 ¥185",
-      "platform": "京东佩尔森 CERAMICS 自营旗舰店"
+      "name": "UWANT【价保11.11】友望除螨仪器大白旗舰 【ultra升级大吸力】除螨床上吸尘器高温杀菌三合一除螨机",
+      "category": "家居清洁 · 床上除螨仪",
+      "price": "¥379",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_3.jpg",
+      "sales": "京东 200000 人评论（京东榜单页实测）；主图标注蹲单后到手价 379 元、日常价 509 元",
+      "platform": "京东 UWANT友望自营旗舰店"
     },
     {
-      "name": "大江Ag+银离子 抗菌浴室地垫卫生间门口吸水垫厕所脚垫纯色 40x60cm",
-      "category": "卫浴家清 · 浴室吸水地垫",
-      "price": "¥29",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_4.jpg",
-      "sales": "京东浴室地垫榜在售 · 500000 人评论，主图直标「预计到手价 ¥29」，什么值得买同 SKU ¥26.93 / 99k 销量",
-      "platform": "京东大江旗舰店 / 京东自营"
+      "name": "阳澄逍遥大闸蟹鲜活螃蟹全母蟹3.0-3.3两8只现货湖河蟹水产海鲜礼盒次日达",
+      "category": "生鲜年货 · 阳澄湖大闸蟹",
+      "price": "¥218",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_4.jpg",
+      "sales": "京东 50000 人评论（京东榜单页实测）；页面价 258 元，满减后 188-198 元",
+      "platform": "京东 阳澄逍遥京东自营旗舰店"
     },
     {
-      "name": "MISSION UV纯羊毛帽子秋冬男士加厚保暖针织帽毛线帽户外登山冷帽冬帽防寒帽",
-      "category": "秋冬出行 · 纯羊毛针织帽",
-      "price": "¥67",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-04_product_5.jpg",
-      "sales": "什么值得买户外毛线帽榜同名条目京东 50k 销量，京东毛线帽榜 50000 人评论，主图标注 100% 绵羊毛",
-      "platform": "京东 MISSION UV 旗舰店"
+      "name": "水星家纺床上纯棉a类被套床单四件套2026年新款亲肤套件全棉被罩220*240cm1.8米床-香蝶",
+      "category": "秋冬床品 · 纯棉四件套",
+      "price": "¥339",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-05_product_5.jpg",
+      "sales": "京东 200000 人评论（京东榜单页实测）；主图标注预计到手价 339 元",
+      "platform": "京东 水星家纺自营旗舰店"
     }
   ],
   "dataSource": "WebSearch 真实数据 · SQLite db 导出",
-  "updateTime": "2026-11-04 07:30"
+  "updateTime": "2026-11-05 07:30"
 }
