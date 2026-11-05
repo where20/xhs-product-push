@@ -80,7 +80,18 @@ else
 fi
 
 # --- 判据: 必须有 main -> main 或 SHA 区间行 ---
-if grep -qE "${BRANCH} -> ${BRANCH}|^[0-9a-f]{7}\.\.[0-9a-f]{7}" /tmp/xhs_push.log; then
+#
+# ⚠️ 2026-11-06 修正: 远端拒绝行本身含 "${BRANCH} -> ${BRANCH}" 字样:
+#     ! [remote rejected] main -> main (fatal error in commit_refs_rules)
+# 老逻辑用 grep -qE "${BRANCH} -> ${BRANCH}" 会把**拒绝**判成**成功**,
+# 导致脚本 exit 0 而实际远端没更新(今天真实踩到: GitHub 瞬时故障, 推了 4 次全被拒,
+# 脚本却连报 4 次 "✅ push 确认成功")。
+# → 必须**先**判拒绝, 再判成功; 且成功行要求出现在行首的 SHA 区间/新分支格式上。
+if grep -qE "remote rejected|! \[rejected\]|\[rejected\]|fatal error|error: failed to push" /tmp/xhs_push.log; then
+  echo "❌ push 被远端拒绝(见上方 remote rejected / fatal error 行) —— 判定为未推送成功" >&2
+  exit 1
+fi
+if grep -qE "^[[:space:]]*[0-9a-f]{7,}\.\.[0-9a-f]{7,}[[:space:]]+${BRANCH} -> ${BRANCH}|\*[[:space:]]+\[new branch\]" /tmp/xhs_push.log; then
   echo "✅ push 确认成功(见上方 SHA 区间行)"
   exit 0
 fi
