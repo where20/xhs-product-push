@@ -1,215 +1,219 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "totalProducts": 5,
-  "totalRuns": 53,
-  "totalProductImages": 265,
-  "lastRunDate": "2026-11-06",
+  "totalRuns": 54,
+  "totalProductImages": 270,
+  "lastRunDate": "2026-11-07",
   "status": "已完成",
-  "updateTime": "2026-11-06 07:30",
+  "updateTime": "2026-11-07 07:30",
   "products": [
     {
-      "name": "展艺 硅胶刮刀 烘焙蛋糕奶油黄油面粉团面糊抹刀刮板橡胶铲子工具",
-      "category": "厨房烘焙 · 硅胶刮刀",
-      "price": "¥13.9",
-      "desc": "展艺这款烘焙硅胶刮刀是新手入坑蛋糕圈的第一件工具。刮面采用柔性硅胶材质，贴合盆壁弧度，抹黄油、刮面糊、拌奶油都能贴着走，刮完基本不留死角。硅胶耐高温不粘连，烤盘上的油渍用热水冲一冲就干净，不吸油不串味。一体式手柄轻巧好握，手腕不用太用力就能刮动整盆面糊，边缘做薄刃处理，刮边角也顺手。什么值得买百科收录的刮刀品类里，展艺硅胶刮刀起步价 8.7 元，京东现售页面价 13.9 元，天猫同步在售 13.52 元、券后低至 8.42 元。",
-      "suitable": "第一次做蛋糕面包的新手；想低成本配齐基础烘焙工具的学生党；家里已有烤箱、只差一把刮刀的人",
-      "price_note": "京东现售页面价 ¥13.9（另一在售规格 16.9 元）；什么值得买爆料记录 16.9→15.21 元、13.9→12.51 元；天猫在售 13.52 元、券后 8.42 元（原价 32.9 元，天猫年销 1 万+）；什么值得买百科收录展艺硅胶刮刀 8.7 元起",
-      "color": "#E8AAAF",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_1.jpg",
+      "name": "南极人 3双装保暖鞋垫男棉冬季加绒加厚吸汗竹炭底女 混装 43",
+      "category": "冬季足部保暖 · 保暖鞋垫",
+      "price": "¥28.8",
+      "desc": "南极人这款3双装保暖鞋垫走的是「加绒内里+竹炭底」的实用路线，冬天脚底发凉的人换上去差别是能感觉到的。加绒表层贴脚不磨，长时间穿也不闷脚；鞋垫本体做过吸汗处理，棉鞋里待一天也不容易返潮。竹炭底层帮着吸走脚上的汗味和湿气，脱鞋之后不会留下很尴尬的脚臭味。3双装的量刚好够换着穿，一周三天轮换，脏了直接换新的，不用天天找地方晾。表层短绒踩上去有回弹但不会硌脚，走路久了脚底也不酸。混装规格从36码排到45码，家里几个人的鞋码基本都能覆盖。",
+      "suitable": "冬天脚底冰凉、穿棉鞋还觉得冷的人；外卖快递等长时间穿鞋的通勤族；南方湿冷天气、宿舍没有集中供暖的学生党",
+      "price_note": "买购网 2026 热门保暖鞋垫产品榜收录该款 3 双装竹炭底版本参考价 ¥28.8；京东 SKU 8312086（混装 43 码）页面 20 万人评论；同品牌 2 双装软木羊毛款 26.8 元、3 双装压缩羊毛毡款 25.8 元；足印部落 2 双装羊毛保暖款 25.8 元",
+      "color": "#EDE4D3",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_1.jpg",
       "id": 1,
       "highlights": [
-        "柔性硅胶刮面贴合盆壁，抹黄油刮面糊都不留死角",
-        "耐高温不粘连，烤盘油渍热水一冲就干净",
-        "一体式轻巧手柄，刮动整盆面糊手腕不用发力",
-        "边缘薄刃处理，刮缸壁和刮边角都顺手",
-        "京东 13.9 元，天猫券后低至 8.42 元，入门零压力"
+        "加绒内里贴脚不磨，长时间穿着也不闷脚",
+        "竹炭底层吸汗防臭，脱鞋后没脚味的尴尬",
+        "3双装换着穿，脏了直接换不用天天晾",
+        "短绒表层有回弹但不硌脚，走久了脚底不酸",
+        "36-45 码混装，一家人几个鞋码都能覆盖"
       ],
       "tags": [
-        "刮刀",
-        "硅胶刮刀",
-        "展艺",
-        "烘焙工具",
-        "厨房小工具"
+        "保暖鞋垫",
+        "鞋垫",
+        "南极人",
+        "冬季保暖",
+        "加绒鞋垫"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_1.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_slice_1.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_1.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/61962d8ddee2ea2534aa.html",
-        "source": "京东烘焙刮刀品牌榜 / 什么值得买百科 / 什么值得买爆料 / 天猫在售页",
+        "primary": "https://www.jd.com/phb/key_131865e640dc0811553d.html",
+        "source": "京东保暖加厚鞋垫排行榜 / 买购网 2026 热门保暖鞋垫产品榜 / 什么值得买保暖鞋垫与冬季鞋垫排行榜",
         "extra": [
-          "https://www.jd.com/phb/6196a6e0594f13a36356.html",
-          "https://wiki.m.smzdm.com/list/ky30z9y/p3",
-          "https://m.smzdm.com/p/104494619/",
-          "https://m.smzdm.com/p/150628991/",
-          "https://wiki.smzdm.com/p/gy51zen/",
-          "https://www.jd.com/phb/key_1318cfaac0148398ac03.html"
+          "https://www.maigoo.com/product/specs_14323.html",
+          "https://www.smzdm.com/ju/syq164n/",
+          "https://www.smzdm.com/ju/s99xwvv/",
+          "https://www.smzdm.com/ju/snkwq08/"
         ]
       },
-      "theme_color": "#CD4853"
+      "theme_color": "#8F723B"
     },
     {
-      "name": "松能X显示器支架 机械臂显示屏支架臂显示器增高架电竞电脑屏幕支架17-35英寸10KG适配 TX01-1B-B暗焰黑",
-      "category": "办公桌面 · 显示器支架",
-      "price": "¥168.99",
-      "desc": "松能X 显示器支架 TX01-1B-B 是单屏机械臂款，暗焰黑磨砂配色，桌面只留一个夹装底座加一条悬臂，线材能顺着臂身走线槽理顺，桌面不会一团乱。17 到 35 英寸屏幕都能夹，标称承重 10KG，家里的 27 寸 2K 屏和 32 寸曲面屏都托得住。悬臂多关节可调，俯仰、左右旋转、高低升降都能改，把视线拉到齐平高度，坐姿自然顺很多。底座支持夹装和穿孔两种安装方式，桌板太薄就直接穿桌过孔固定。京东页面价 168.99 元，叠加满减和补贴实付可到 135.19 元。",
-      "suitable": "桌面小、显示器占地方的租房党和居家办公党；经常换坐姿需要调整屏幕高度的人；想改造书桌桌面的数码爱好者",
-      "price_note": "京东页面价 ¥168.99，叠加满减 / 补贴实付约 ¥135.19（需买 3 件）；京东显示器臂品牌榜松能X 在榜 TOP8、20000 人评论；同系 TX01-2B-A 双屏款 ¥284.05（原价 339 元）；什么值得买爆料松能X 机械臂 274.74 元（需用券）/ 原价 459 元",
-      "color": "#151110",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_2.jpg",
+      "name": "神火（SupFire）RT04感应头灯超长续航LED夜钓强光充电超亮远射防水赶海工作钓鱼",
+      "category": "户外露营照明 · 感应头灯",
+      "price": "¥17.89",
+      "desc": "神火 RT04 是夜钓、夜跑、赶海这类夜间户外场景的老选手了。感应开关是它最顺手的地方：手在灯前一扫就亮，腾出双手继续干活，不用在黑暗里摸半天按钮。灯头可变焦调节，光束能从聚成一小点打到铺开的大范围泛光，近处照鱼、远处照路都能兼顾。内置锂电池可充电，一次充满够撑一个晚上的夜钓时段。机身做了防水处理，小雨天戴着赶海也不怕进水。整灯重量控制得轻，戴在头上跑起来没有明显坠感，帽带松紧可以调。",
+      "suitable": "夜钓和夜跑的钓友；露营、赶海、登山等夜间户外活动的人；需要在解放双手的同时照亮前方的维修、巡检工作者",
+      "price_note": "什么值得买「工作充电头灯」「远射充电头灯」两个榜单页均收录该款，京东 99k 人评论、现价 ¥17.89；神火品牌优惠页记录 16.92 元（活动价 19.9 元叠加 15% 起减）；什么值得买社区晒单同样记录 ¥17.89；京东 led 户外头灯排行榜该款 SKU 100153101268 显示 10 万人评论",
+      "color": "#2B2B2E",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_2.jpg",
       "id": 2,
       "highlights": [
-        "17-35 英寸通用夹装，标称承重 10KG，曲面屏也托得住",
-        "多关节悬臂，俯仰旋转升降全向可调，视线拉到齐平高度",
-        "臂身自带走线槽，线材不散落在桌面",
-        "夹装 / 穿孔两种底座，桌板太薄也能固定",
-        "京东页面价 168.99 元，叠加满减补贴实付约 135.19 元"
+        "挥手感应开关，手在灯前一扫就亮，双手不用停",
+        "灯头可变焦，光束能聚能散，近照远照都兼顾",
+        "内置锂电池充电，一次充满撑一个晚上夜钓",
+        "机身防水，小雨天赶海淋湿也不怕进水",
+        "重量轻帽带可调，戴着跑起来没有明显坠感"
       ],
       "tags": [
-        "显示器支架",
-        "机械臂",
-        "松能",
-        "桌面改造",
-        "电竞外设"
+        "头灯",
+        "感应头灯",
+        "神火",
+        "户外照明",
+        "夜钓"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_2.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_slice_2.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_2.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_2.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/67027ccc54b6071a5f0.html",
-        "source": "京东显示器臂品牌榜 / 什么值得买爆料页 / 什么值得买百科",
+        "primary": "https://www.jd.com/phb/key_13184bfdabbe3676ae6c.html",
+        "source": "京东 led 户外头灯排行榜 / 什么值得买工作充电头灯与远射充电头灯榜 / 神火品牌优惠页 / 什么值得买社区晒单",
         "extra": [
-          "https://m.jd.com/phb/67075b31aab1565230c.html",
-          "https://www.smzdm.com/p/184071658/",
-          "https://wiki.smzdm.com/p/1gqqr0y/",
-          "https://faxian.smzdm.com/h1s0t0f3365c5p1"
+          "https://www.smzdm.com/ju/spyz55j/",
+          "https://www.smzdm.com/ju/sp9jyy9/",
+          "https://www.smzdm.com/ju/sp08lj3/",
+          "https://www.smzdm.com/ju/s25m5n7/",
+          "https://pinpai.smzdm.com/4317/youhui/p74/",
+          "https://www.smzdm.com/p/175254990/",
+          "https://post.smzdm.com/talk/p/adz5zlmd/"
         ]
       },
-      "theme_color": "#151110"
+      "theme_color": "#2B2B2E"
     },
     {
-      "name": "特步（XTEP）瑜伽垫男士健身TPE女士家用加厚加大防滑专业减震跳操隔音训练垫",
-      "category": "居家健身 · 瑜伽垫",
-      "price": "¥45.9",
-      "desc": "特步这款 TPE 瑜伽垫是家居健身的高性价比底子。垫面是细密纹路，抓地力强，出汗后站上去也不容易打滑；TPE 材质回弹快，跪姿和仰卧起坐落地时有一定缓冲，膝盖手腕没那么遭罪。加厚加大版型铺开够做拉伸和核心训练，叠起来靠墙一立就收好，不占地方。男女通用，家里跟练、跑步后拉伸、产后修复都能用。京东瑜伽垫热卖榜第 1 名，累计评价 10 万+、全网热销 200 万+，页面价 45.9 元，另一在售规格 44.9 元。",
-      "suitable": "在家跟练瑜伽、跳操、拉伸的入门健身人群；刚开始练没经验、想要防滑不打滑的人；宿舍或租房空间有限需要好收纳的学生",
-      "price_note": "京东页面价 ¥45.9（另一在售规格 44.9 元）；什么值得买爆料 6mm 加厚岩石灰款 45.9 元、44.9 元（低于常卖价 46 元）；京东瑜伽垫热卖榜第 1 名、累计评价 10 万+、99% 好评、全网热销 200 万+；什么值得买瑜伽垫盘点记录到手 ¥43.29",
-      "color": "#8C8C8C",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_3.jpg",
+      "name": "沐驰斯顿手套男士秋冬季骑行电动车加绒防风防泼水保暖女士触屏棉滑雪手套 白色【男款圆标】均码加厚",
+      "category": "冬季通勤骑行 · 加绒保暖手套",
+      "price": "¥24.9",
+      "desc": "沐驰斯顿这双手套是给冬天骑电动车的人准备的。内里加绒贴手，戴上以后手指还能灵活活动，拧车把、捏刹车、握手机都不耽误；指尖做了触屏设计，外卖接单的时候不用摘手套，手冻僵了还得重新暖一次是很折磨的事。防风层挡得住冬天的冷风往袖口灌，防泼水面遇到小雨、小雪或者洗车沾到的水也不怕渗透。手腕处有粘带可以收紧，螺纹收边能把倒灌的缝隙堵住。白色外观简洁好搭，配深色车筐和外套都不违和。",
+      "suitable": "冬天骑电动车或自行车上下班通勤的人；外卖快递等需要在户外长时间握车把的人；手容易被冻僵、又需要随时操作手机的人",
+      "price_note": "什么值得买社区实测晒单页记录该款白色【男款圆标】均码加厚京东价 ¥24.9；京东该款 SKU 10086538697563 有 5 万人评论；同品牌手套加帽子围巾套装款在 33-52.5 元区间，什么值得买白色保暖手套榜可查",
+      "color": "#F2F2F2",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_3.jpg",
       "id": 3,
       "highlights": [
-        "细密纹路垫面抓地力强，出汗后依然不打滑",
-        "TPE 材质回弹快，跪姿落地有缓冲不硌膝盖",
-        "加厚加大版型，铺开够做拉伸和核心训练",
-        "叠起靠墙一立就收好，居家不占地",
-        "京东瑜伽垫热卖榜第 1 名，页面价 45.9 元"
+        "内里加绒贴手，戴上照样能拧车把捏刹车",
+        "指尖可触屏，接单回消息不用摘手套",
+        "防风袖口加防泼水面，雨雪天骑也不怕湿",
+        "手腕粘带可调，螺纹收边堵住倒灌的冷风",
+        "白色简洁百搭，配深色车筐外套都不违和"
       ],
       "tags": [
-        "瑜伽垫",
-        "TPE垫",
-        "特步XTEP",
-        "居家健身",
-        "跳操垫"
+        "保暖手套",
+        "骑行手套",
+        "沐驰斯顿",
+        "冬季通勤",
+        "触屏手套"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_3.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_slice_3.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_3.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_3.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/1318f1daf8ac7e6d3709.html",
-        "source": "京东瑜珈垫品牌榜 / 什么值得买瑜伽垫盘点 / 什么值得买爆料",
+        "primary": "https://www.jd.com/phb/key_1315ffae8e1f6bdaf31f.html",
+        "source": "京东冬季针织手套排行榜 / 京东厚触屏手套与男款帽子手套排行榜 / 什么值得买白色保暖手套榜 / 什么值得买社区实测晒单",
         "extra": [
-          "https://www.jd.com/phb/13186568c37507e01864.html",
-          "https://post.m.smzdm.com/p/az8o3rkr",
-          "https://www.smzdm.com/ju/s66y8nz/",
-          "https://www.smzdm.com/p/183165587/"
+          "https://www.smzdm.com/ju/swl0yym/",
+          "https://post.m.smzdm.com/talk/p/awo4elom",
+          "https://www.jd.com/phb/key_1315b64ccedb35de225b.html",
+          "https://www.jd.com/phb/key_16726b17dd7686549a4a.html",
+          "https://www.smzdm.com/ju/s1z48xl"
+        ]
+      },
+      "theme_color": "#747474"
+    },
+    {
+      "name": "艾曼格（IMOGY）艾曼格保温水壶家用保温壶学生宿舍大容量热水壶不锈钢保暖瓶",
+      "category": "办公泡茶 · 316L 不锈钢保温壶",
+      "price": "¥81.7",
+      "desc": "艾曼格这款保温壶是按办公室泡茶的需求做的。内胆用的是 316L 不锈钢，不锈钢材质没有异味，泡绿茶、泡咖啡、装白开水都不串味；壶盖是按压式的，单手一按就能出水，泡茶过程中不用一直去拧盖子。壶身容量够大，一次灌满能满足一整个上午的续水需求，桌上摆着不用频繁跑茶水间。外面是不锈钢外壳，不太留指纹，办公室桌面上放着也干净。外观是简洁的银色直筒造型，摆工位不突兀，送人也不寒酸。",
+      "suitable": "办公室工位需要长期喝热水、泡茶的人；宿舍没有饮水机、想自己备壶的学生党；想给家人或同事送一份实用礼物的人",
+      "price_note": "什么值得买保温壶榜单页收录该款多个容量版本，京东 99k 人评论，现价 ¥81.7（按压大容量 316L 款 70.04 元、316L 家用款 76.6 元、焖茶款 87.04 元）；陶瓷内胆茶水分离款 127.2-151.2 元；同榜苏泊尔玻璃内胆 1.7L 款 87.9 元、2L 款 97.9 元",
+      "color": "#B8BCC0",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_4.jpg",
+      "id": 4,
+      "highlights": [
+        "316L 不锈钢内胆，泡茶泡咖啡都不串味",
+        "按压式壶盖，单手一按就出水不用拧",
+        "大容量一次灌满撑一上午，省去反复接水",
+        "不锈钢外壳不易留指纹，桌面摆着干净",
+        "简洁银色直筒造型，工位摆放和送礼都合适"
+      ],
+      "tags": [
+        "保温壶",
+        "316L保温壶",
+        "艾曼格",
+        "办公室泡茶",
+        "热水壶"
+      ],
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_4.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_4.jpg"
+      ],
+      "links": {
+        "primary": "https://www.jd.com/phb/key_61960ad3e23bab91be9e.html",
+        "source": "京东 2000 毫升热水壶排行榜 / 什么值得买保温壶榜 / 买购网 2026 热门保温壶产品榜 / 什么值得买真空保温壶榜 / 艾曼格品牌优惠页",
+        "extra": [
+          "https://www.smzdm.com/ju/s29rw38/",
+          "https://pinpai.smzdm.com/344234/youhui/p3/",
+          "https://www.jd.com/phb/key_6196442b6e31531506e9.html",
+          "https://www.jd.com/phb/key_6196e5b8d68c0a24df9e.html",
+          "https://m.maigoo.com/goomai/245240.html",
+          "https://www.smzdm.com/ju/s0rwkjn/",
+          "https://www.smzdm.com/ju/sprl5yr"
+        ]
+      },
+      "theme_color": "#6F767E"
+    },
+    {
+      "name": "美肤语手持美甲灯一字灯便携蓄电款烤灯 甲油胶光疗灯速干不黑手MF8202",
+      "category": "居家美甲 · 手持光疗烤灯",
+      "price": "¥15.9",
+      "desc": "美肤语 MF8202 是给居家做美甲的人准备的一字灯。手持造型，涂好甲油胶把手指一根根伸进去烤，不用把整只手压在灯板上，光位随便调，做花式和猫眼的时候更好控制。内里是可蓄电电池，充一次电能用好几颗，不用一直插着充电线，做美甲的时候桌面干净不拖线。一字灯的灯珠排列做得比较均匀，照到指甲两侧不会只烤到中间。黑手是光疗灯最常见的问题，这款主打速干不黑手，边缘残留的胶也照得进去。机身小巧，做完随手一收就能塞进抽屉。",
+      "suitable": "在家自己做美甲、涂甲油胶的新手；宿舍空间小、桌面放不下大台灯的学生党；偶尔做一次美甲、想低成本试水的人",
+      "price_note": "什么值得买美甲灯三个榜单页均收录该款 MF8202，京东 50k 人评论，现价 ¥15.9；同品牌升级数显款 MF8220 35.9 元、MF8258 29.8 元；一只柚手持款 15.11 元（京东 99k 人评论）；Miss Candy PT068 手持款 33.1 元",
+      "color": "#F0F0F0",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_5.jpg",
+      "id": 5,
+      "highlights": [
+        "手持一字灯，指甲一根根伸进去烤，光位好控制",
+        "内置蓄电电池，充一次能用好几颗，不用拖充电线",
+        "灯珠排列均匀，烤到指甲两侧不只照中间",
+        "主打速干不黑手，边缘残留胶也照得进去",
+        "机身小巧，做完直接塞抽屉，下次拿出来就能用"
+      ],
+      "tags": [
+        "美甲灯",
+        "光疗灯",
+        "美肤语",
+        "居家美甲",
+        "甲油胶"
+      ],
+      "images": [
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_5.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_5.jpg"
+      ],
+      "links": {
+        "primary": "https://www.jd.com/phb/13163efdeaa40c0946b6.html",
+        "source": "京东 led 美甲烤灯排行榜 / 什么值得买美甲灯三个排行榜 / 美肤语品牌优惠页 / 京东光疗工具品牌排行榜",
+        "extra": [
+          "https://www.smzdm.com/ju/s2m8xzy/",
+          "https://www.smzdm.com/ju/sn01k0l/",
+          "https://www.smzdm.com/ju/s25vzn9/",
+          "https://pinpai.smzdm.com/62462/youhui/p3/",
+          "https://www.jd.com/phb/13166b77762ce6dec2cf.html"
         ]
       },
       "theme_color": "#767676"
-    },
-    {
-      "name": "阿飞和巴弟鲜肉烘焙猫粮成猫幼猫全阶段猫粮鸡肉口味营养美毛5kg*2袋10kg",
-      "category": "宠物主粮 · 烘焙猫粮",
-      "price": "¥269",
-      "desc": "阿飞和巴弟鲜肉烘焙猫粮是 5kg×2 袋的 10kg 装，鲜肉加烘焙工艺，兼顾适口性和营养密度。冻干双拼加鲜肉配方，以鸡肉为主原料，颗粒做成小三角方便小颗粒猫吞咽，全阶段适用，成猫幼猫都能吃。配方里加了美毛相关成分，牛磺酸、卵磷脂这一类，喂出来的毛色会更顺亮。袋身是米色底配亮黄色色块，10kg 双袋比单一大袋更好搬也更好开封分装。京东活动价 269 元，PLUS 会员 95 折实付 255.55 元，百亿补贴一度做到 342 元降到 215.05 元。",
-      "suitable": "多猫家庭或单猫一次囤粮的养猫人；正在换粮、想要高肉高适口性口粮的挑嘴猫家庭；关注美毛和毛球问题的铲屎官",
-      "price_note": "京东活动价 ¥269，PLUS 会员 95 折实付 ¥255.55（什么值得买爆料记录）；百亿补贴活动 ¥342→¥215.05；京东宠物猫营养品牌榜阿飞和巴弟 TOP3、500000 人评论",
-      "color": "#FFB400",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_4.jpg",
-      "id": 4,
-      "highlights": [
-        "鲜肉加冻干双拼，烘焙工艺颗粒小三角好吞咽",
-        "全阶段配方，成猫幼猫都吃，不用分阶段换粮",
-        "含牛磺酸卵磷脂等美毛成分，毛色更顺亮",
-        "米色袋身配亮黄色色块，双 5kg 袋好搬好分装",
-        "活动价 269 元，PLUS 95 折 255.55 元，百亿补贴低至 215.05 元"
-      ],
-      "tags": [
-        "猫粮",
-        "阿飞和巴弟",
-        "烘焙粮",
-        "美毛",
-        "双11囤货"
-      ],
-      "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_4.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_slice_4.jpg"
-      ],
-      "links": {
-        "primary": "https://www.jd.com/phb/6994e69b8560c16d46bd.html",
-        "source": "京东宠物猫营养品牌榜 / 什么值得买爆料 / 新浪实测长文",
-        "extra": [
-          "https://www.smzdm.com/p/185303757",
-          "https://m.smzdm.com/p/175857354/",
-          "https://k.sina.com.cn/article_7880068206_1d5b04c6e06809dvv0.html",
-          "https://www.sina.cn/gc/article/niwhtfy2273290.html",
-          "https://www.sina.cn/news/article/comos_nistrnr6659274.html"
-        ]
-      },
-      "theme_color": "#9C6E00"
-    },
-    {
-      "name": "90分行李箱20英寸莱茵河经典2026新款 拉杆箱登机旅行箱密码箱钛金灰",
-      "category": "出行差旅 · 登机箱",
-      "price": "¥298",
-      "desc": "90分莱茵河经典 20 寸拉杆箱是标准的通勤登机箱款式，钛金灰低饱和配色，放在地铁和高铁行李架上都不显眼。20 英寸是标准登机尺寸，能直接上飞机不用托运，出差和周末短途刚好够用。箱体带密码锁，开合不用翻钥匙，TSA 锁也能过安检。万向轮走起来安静，在瓷砖和机场地砖上推不吵。箱面是耐磨纹路，脏了拿湿布擦就行。什么值得买百科收录的莱茵河升级款参数显示为 PC 材质、TSA 密码锁、万向轮、可登机。双 11 活动价 298 元，叠加后实付 208.6 到 209.18 元，中关村在线记录过 218 元的到手价。",
-      "suitable": "一年出差两三次的商务差旅人群；周末短途游和常坐高铁的人；想一步到位买对箱、懒得反复挑款式的人",
-      "price_note": "双 11 活动价 ¥298（什么值得买爆料 298→208.6 元、PLUS 209.18 元）；中关村在线记录 90 分莱茵河 20 英寸拉杆箱 218 元、同款页面 306 元；京东拉杆箱品牌榜 500000 人评论；什么值得买百科莱茵河升级款 PC 材质钛金灰 20 英寸 395.1 元起",
-      "color": "#535353",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_5.jpg",
-      "id": 5,
-      "highlights": [
-        "20 英寸标准登机尺寸，上飞机不用托运",
-        "TSA 密码锁，安检过关不用拆箱",
-        "静音万向轮，瓷砖和机场地砖上推不吵",
-        "PC 硬壳耐磨纹路，脏了湿布擦即可",
-        "活动价 298 元，叠加实付 208.6 到 209.18 元"
-      ],
-      "tags": [
-        "行李箱",
-        "拉杆箱",
-        "90分",
-        "登机箱",
-        "差旅"
-      ],
-      "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_5.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-06_product_slice_5.jpg"
-      ],
-      "links": {
-        "primary": "https://www.jd.com/phb/173299eb91e014c9636cf.html",
-        "source": "京东拉杆箱品牌榜 / 中关村在线 / 什么值得买百科",
-        "extra": [
-          "https://www.jd.com/phb/key_173291302449324329b77.html",
-          "https://ucwap.zol.com.cn/article/article.php?id=12568680",
-          "https://m.zol.com.cn/article/11661579.html",
-          "https://wiki.smzdm.com/p/1re7wxy/canshu",
-          "https://wiki.smzdm.com/p/zxx5mdr"
-        ]
-      },
-      "theme_color": "#535353"
     }
   ]
 }
