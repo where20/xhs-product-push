@@ -82,10 +82,13 @@ pick_proxy() {
 }
 
 # --- 探测: 直连 github.com ---
-direct_ok() {
-  local code
-  code="$(curl --noproxy '*' -sS -o /dev/null -m 20 -w '%{http_code}' https://github.com/ 2>/dev/null)"
-  [ "${code}" = "200" ]
+# ⚠️ 必须连**实际连上的那个 IP** 一起拿回来:
+#    github.com 有十几个 A 记录, 系统 DNS 每次返回的顺序/集合可能不同,
+#    探测时 curl 连上的 IP 和随后 git 自己解析到的 IP **可能不是同一个**。
+#    11-07 实测: 探测阶段 curl 直连 200, 但随后 git 直连 push 走了被卡的 HK IP → 75s 超时。
+#    → 探测到哪个 IP 通, push 就用哪个 IP (http.curloptResolve), 保证探测与推送**同一条路径**。
+direct_probe() {
+  curl --noproxy '*' -sS -o /dev/null -m 20 -w '%{http_code} %{remote_ip}' https://github.com/ 2>/dev/null
 }
 
 # --- 探测: 直连 + 指定可达 IP ---
@@ -132,19 +135,24 @@ if PROXY="$(pick_proxy || true)"; [ -n "${PROXY}" ]; then
   MODE="proxy"
   GIT_EXTRA=(-c "http.proxy=${PROXY}" -c "https.proxy=${PROXY}")
   echo "🔌 探测到可用代理: ${PROXY}"
-elif direct_ok; then
-  MODE="direct"
-  GIT_EXTRA=(-c http.proxy= -c https.proxy=)
-  echo "🔌 未探测到可用代理 → 直连推送"
-elif GIT_IP="$(pick_ip || true)"; [ -n "${GIT_IP}" ]; then
-  MODE="ip"
-  # ⚠️ http.curloptResolve 只在**不走代理**时生效, 必须同时关掉代理
-  GIT_EXTRA=(-c http.proxy= -c https.proxy= -c "http.curloptResolve=github.com:443:${GIT_IP}")
-  echo "🔌 无代理且直连 github.com:443 不通 → 指定可达 IP 推送: ${GIT_IP}"
 else
-  echo "🔌 未探测到任何可用通道 → 直连推送(可能失败)" >&2
-  MODE="direct"
-  GIT_EXTRA=(-c http.proxy= -c https.proxy=)
+  DPROBE="$(direct_probe || true)"
+  DCODE="${DPROBE%% *}"
+  DIP="${DPROBE##* }"
+  if [ "${DCODE}" = "200" ] && [ "${DIP}" != "${DPROBE}" ]; then
+    MODE="ip"
+    # ⚠️ http.curloptResolve 只在**不走代理**时生效, 必须同时关掉代理
+    GIT_EXTRA=(-c http.proxy= -c https.proxy= -c "http.curloptResolve=github.com:443:${DIP}")
+    echo "🔌 未探测到可用代理 → 直连可用, 锁定实际连上的 IP 推送: ${DIP}"
+  elif GIT_IP="$(pick_ip || true)"; [ -n "${GIT_IP}" ]; then
+    MODE="ip"
+    GIT_EXTRA=(-c http.proxy= -c https.proxy= -c "http.curloptResolve=github.com:443:${GIT_IP}")
+    echo "🔌 无代理且直连 github.com:443 不通 → 指定可达 IP 推送: ${GIT_IP}"
+  else
+    echo "🔌 未探测到任何可用通道 → 直连推送(可能失败)" >&2
+    MODE="direct"
+    GIT_EXTRA=(-c http.proxy= -c https.proxy=)
+  fi
 fi
 
 echo "   传输模式: ${MODE}"
@@ -184,6 +192,7 @@ if [ "${MODE}" = "direct" ] && [ "${PUSH_RC}" -ne 0 ]; then
     if ! grep -qE "remote rejected|! \[rejected\]|\[rejected\]|fatal error|error: failed to push" /tmp/xhs_push.log \
        && grep -qE "^[[:space:]]*[0-9a-f]{7,}\.\.[0-9a-f]{7,}[[:space:]]+${BRANCH} -> ${BRANCH}|\*[[:space:]]+\[new branch\]" /tmp/xhs_push.log; then
       echo "✅ push 确认成功(见上方 SHA 区间行)"
+      verify_remote_sha -c http.proxy= -c https.proxy= -c "http.curloptResolve=github.com:443:${GIT_IP}"
       exit 0
     fi
   fi
