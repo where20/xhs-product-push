@@ -1,219 +1,205 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "totalProducts": 5,
-  "totalRuns": 54,
-  "totalProductImages": 270,
-  "lastRunDate": "2026-11-07",
+  "totalRuns": 55,
+  "totalProductImages": 275,
+  "lastRunDate": "2026-11-08",
   "status": "已完成",
-  "updateTime": "2026-11-07 07:30",
+  "updateTime": "2026-11-08 07:30",
   "products": [
     {
-      "name": "南极人 3双装保暖鞋垫男棉冬季加绒加厚吸汗竹炭底女 混装 43",
-      "category": "冬季足部保暖 · 保暖鞋垫",
-      "price": "¥28.8",
-      "desc": "南极人这款3双装保暖鞋垫走的是「加绒内里+竹炭底」的实用路线，冬天脚底发凉的人换上去差别是能感觉到的。加绒表层贴脚不磨，长时间穿也不闷脚；鞋垫本体做过吸汗处理，棉鞋里待一天也不容易返潮。竹炭底层帮着吸走脚上的汗味和湿气，脱鞋之后不会留下很尴尬的脚臭味。3双装的量刚好够换着穿，一周三天轮换，脏了直接换新的，不用天天找地方晾。表层短绒踩上去有回弹但不会硌脚，走路久了脚底也不酸。混装规格从36码排到45码，家里几个人的鞋码基本都能覆盖。",
-      "suitable": "冬天脚底冰凉、穿棉鞋还觉得冷的人；外卖快递等长时间穿鞋的通勤族；南方湿冷天气、宿舍没有集中供暖的学生党",
-      "price_note": "买购网 2026 热门保暖鞋垫产品榜收录该款 3 双装竹炭底版本参考价 ¥28.8；京东 SKU 8312086（混装 43 码）页面 20 万人评论；同品牌 2 双装软木羊毛款 26.8 元、3 双装压缩羊毛毡款 25.8 元；足印部落 2 双装羊毛保暖款 25.8 元",
-      "color": "#EDE4D3",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_1.jpg",
+      "name": "洁丽雅（Grace）A类毛毯冬季加厚加绒毯子被子盖毯铺床午睡毯沙发毯半岛蓝1.5m*2m",
+      "category": "家居床品/毛毯盖毯",
+      "price": "¥52.38",
+      "desc": "初冬一到，沙发和床铺之间最缺的就是一条盖得住又轻软的毯子。洁丽雅这款A类双层加绒加厚毛毯，官方主图主打触感轻柔、蓬松如云，1.5米×2米的规格刚好覆盖一张单人床，也可以当沙发盖毯搭在腿上。券后参考价约52元，和同系列2米×2.3米大尺寸比价格门槛更低，适合第一次囤冬季盖毯的人。半岛蓝是低饱和灰蓝调，耐看不挑家具，原木床头柜、奶油沙发都能压得住。走A类标准意味着贴身盖、直接接触皮肤这一层更放心，洗后也不容易掉毛结球。办公室午休、宿舍床铺、居家追剧盖腿，一条毯子把三个场景都覆盖了，宿舍党不用买第二床被子。",
+      "suitable": "单人宿舍学生、租房党、小户型家庭、办公室午休人群",
+      "price_note": "什么值得买毛毯热销榜（ju/sll3jw8、ju/sm94jnk、ju/s6k4j15）洁丽雅 A类/3A抗菌塔芙绒加厚毛毯 1.5×2M 券后 ¥52.38，同尺寸卡其色 ¥55.20；smzdm 百科页 wiki.smzdm.com/p/1r7vj3y 该系列 55.21 元起。京东榜单在售款为同系列「半岛蓝 1.5m*2m」（第7位，5000人评论）",
+      "color": "#8FAAB4",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_1.jpg",
       "id": 1,
       "highlights": [
-        "加绒内里贴脚不磨，长时间穿着也不闷脚",
-        "竹炭底层吸汗防臭，脱鞋后没脚味的尴尬",
-        "3双装换着穿，脏了直接换不用天天晾",
-        "短绒表层有回弹但不硌脚，走久了脚底不酸",
-        "36-45 码混装，一家人几个鞋码都能覆盖"
+        "A类双层加绒，触感轻柔蓬松如云",
+        "1.5米×2米单人尺寸，盖铺两用不浪费",
+        "券后约52元，双11囤货价门槛低",
+        "半岛蓝低饱和灰蓝，百搭不挑家具",
+        "盖毯午睡毯沙发毯三场景通用"
       ],
       "tags": [
-        "保暖鞋垫",
-        "鞋垫",
-        "南极人",
-        "冬季保暖",
-        "加绒鞋垫"
+        "毛毯",
+        "冬季盖毯",
+        "沙发毯",
+        "午睡毯",
+        "学生宿舍"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_1.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_1.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_slice_1.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_131865e640dc0811553d.html",
-        "source": "京东保暖加厚鞋垫排行榜 / 买购网 2026 热门保暖鞋垫产品榜 / 什么值得买保暖鞋垫与冬季鞋垫排行榜",
+        "primary": "https://www.jd.com/phb/key_1524849d18f033d30ae30.html",
+        "source": "京东榜单 + 什么值得买",
         "extra": [
-          "https://www.maigoo.com/product/specs_14323.html",
-          "https://www.smzdm.com/ju/syq164n/",
-          "https://www.smzdm.com/ju/s99xwvv/",
-          "https://www.smzdm.com/ju/snkwq08/"
+          "https://wiki.smzdm.com/p/1r7vj3y/",
+          "https://www.smzdm.com/ju/sll3jw8/",
+          "https://www.smzdm.com/ju/sm94jnk/",
+          "https://www.smzdm.com/ju/s6k4j15/"
         ]
       },
-      "theme_color": "#8F723B"
+      "theme_color": "#5B7B87"
     },
     {
-      "name": "神火（SupFire）RT04感应头灯超长续航LED夜钓强光充电超亮远射防水赶海工作钓鱼",
-      "category": "户外露营照明 · 感应头灯",
-      "price": "¥17.89",
-      "desc": "神火 RT04 是夜钓、夜跑、赶海这类夜间户外场景的老选手了。感应开关是它最顺手的地方：手在灯前一扫就亮，腾出双手继续干活，不用在黑暗里摸半天按钮。灯头可变焦调节，光束能从聚成一小点打到铺开的大范围泛光，近处照鱼、远处照路都能兼顾。内置锂电池可充电，一次充满够撑一个晚上的夜钓时段。机身做了防水处理，小雨天戴着赶海也不怕进水。整灯重量控制得轻，戴在头上跑起来没有明显坠感，帽带松紧可以调。",
-      "suitable": "夜钓和夜跑的钓友；露营、赶海、登山等夜间户外活动的人；需要在解放双手的同时照亮前方的维修、巡检工作者",
-      "price_note": "什么值得买「工作充电头灯」「远射充电头灯」两个榜单页均收录该款，京东 99k 人评论、现价 ¥17.89；神火品牌优惠页记录 16.92 元（活动价 19.9 元叠加 15% 起减）；什么值得买社区晒单同样记录 ¥17.89；京东 led 户外头灯排行榜该款 SKU 100153101268 显示 10 万人评论",
-      "color": "#2B2B2E",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_2.jpg",
+      "name": "泰福高（TAFUCO）保温饭盒可焖烧双层超长保温饭桶316不锈钢上班族冬季食品级T0270",
+      "category": "上班族带饭/焖烧杯",
+      "price": "¥148",
+      "desc": "焖烧杯是冬天带饭上班族的刚需——早上在家焖好粥、炖上汤，中午不用排队也没有冷掉的尴尬。泰福高T0270用的是316不锈钢材质，比常见的304更耐酸碱、抗腐蚀，焖银耳羹和红豆粥不容易带金属味。双层真空结构主打超长保温，早上十点焖好的饭菜，到中午十二点打开还是热的。1L容量对上班族刚好是一顿主饭加一份汤的分量，自带提手和餐具，上班拎着走不烫手。买购网收录的T0270参考价148元，是焖烧杯品类里少见的“316钢+日本厨具品牌”配置，比膳魔师、象印这些进口大牌便宜一大截。淡紫色机身在办公桌上辨识度也高，同事一眼就知道你是自带饭的。",
+      "suitable": "上班族带饭、学生宿舍、健身后补餐、居家焖粥炖汤人群",
+      "price_note": "买购网 T0270 型号参考价 ¥148（maigoo/news/577278 与 maigoo/goomai/218155 两处同型号同价），CNPP 焦点榜 cnpp.cn/focus/235837 同为 ¥148；同品牌 T0270-316不锈钢-1L【带包+餐具】套装价 ¥178。京东双11主图标注全线立减 15%，实付更低",
+      "color": "#B6ABC7",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_2.jpg",
       "id": 2,
       "highlights": [
-        "挥手感应开关，手在灯前一扫就亮，双手不用停",
-        "灯头可变焦，光束能聚能散，近照远照都兼顾",
-        "内置锂电池充电，一次充满撑一个晚上夜钓",
-        "机身防水，小雨天赶海淋湿也不怕进水",
-        "重量轻帽带可调，戴着跑起来没有明显坠感"
+        "316不锈钢内胆，焖粥炖汤没有金属味",
+        "双层真空超长保温，午饭到点还是热的",
+        "1L大容量，自带提手与折叠餐具",
+        "焖烧杯品类 ¥148，比进口大牌省一半",
+        "淡紫色机身，办公桌上辨识度高"
       ],
       "tags": [
-        "头灯",
-        "感应头灯",
-        "神火",
-        "户外照明",
-        "夜钓"
+        "焖烧杯",
+        "保温饭盒",
+        "上班族带饭",
+        "不锈钢焖烧壶",
+        "便当杯"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_2.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_2.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_2.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_slice_2.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_13184bfdabbe3676ae6c.html",
-        "source": "京东 led 户外头灯排行榜 / 什么值得买工作充电头灯与远射充电头灯榜 / 神火品牌优惠页 / 什么值得买社区晒单",
+        "primary": "https://www.jd.com/phb/61964e36a5afb71dc59e.html",
+        "source": "买购网 + CNPP + 京东榜单",
         "extra": [
-          "https://www.smzdm.com/ju/spyz55j/",
-          "https://www.smzdm.com/ju/sp9jyy9/",
-          "https://www.smzdm.com/ju/sp08lj3/",
-          "https://www.smzdm.com/ju/s25m5n7/",
-          "https://pinpai.smzdm.com/4317/youhui/p74/",
-          "https://www.smzdm.com/p/175254990/",
-          "https://post.smzdm.com/talk/p/adz5zlmd/"
+          "https://www.maigoo.com/news/577278.html",
+          "https://www.maigoo.com/goomai/218155.html",
+          "https://www.cnpp.cn/focus/235837.html"
         ]
       },
-      "theme_color": "#2B2B2E"
+      "theme_color": "#806D9E"
     },
     {
-      "name": "沐驰斯顿手套男士秋冬季骑行电动车加绒防风防泼水保暖女士触屏棉滑雪手套 白色【男款圆标】均码加厚",
-      "category": "冬季通勤骑行 · 加绒保暖手套",
-      "price": "¥24.9",
-      "desc": "沐驰斯顿这双手套是给冬天骑电动车的人准备的。内里加绒贴手，戴上以后手指还能灵活活动，拧车把、捏刹车、握手机都不耽误；指尖做了触屏设计，外卖接单的时候不用摘手套，手冻僵了还得重新暖一次是很折磨的事。防风层挡得住冬天的冷风往袖口灌，防泼水面遇到小雨、小雪或者洗车沾到的水也不怕渗透。手腕处有粘带可以收紧，螺纹收边能把倒灌的缝隙堵住。白色外观简洁好搭，配深色车筐和外套都不违和。",
-      "suitable": "冬天骑电动车或自行车上下班通勤的人；外卖快递等需要在户外长时间握车把的人；手容易被冻僵、又需要随时操作手机的人",
-      "price_note": "什么值得买社区实测晒单页记录该款白色【男款圆标】均码加厚京东价 ¥24.9；京东该款 SKU 10086538697563 有 5 万人评论；同品牌手套加帽子围巾套装款在 33-52.5 元区间，什么值得买白色保暖手套榜可查",
-      "color": "#F2F2F2",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_3.jpg",
+      "name": "璞医香薰衣草睡眠喷雾75ml法国进口舒压助眠节日礼物【papi酱同款】",
+      "category": "助眠香氛/睡眠喷雾",
+      "price": "¥225",
+      "desc": "睡前最难的不是困，是脑子停不下来。璞医这支75ml睡眠喷雾用12种植物精油复配——真正薰衣草、罗马洋甘菊、柏树、柠檬草、苦橙叶、檀香和橙花，喷出来是柔和的花香余韵，不冲也不刺鼻，闻着像躺进一片普罗旺斯薰衣草田。水基配方不含酒精、防腐剂和人工香料，喷在枕巾或床单上不会留下油印，敏感肌也友好。微米雾化喷头一按即散，不会把枕头喷湿，睡前在枕边15厘米轻喷三五下，整个房间十秒内就安静下来。包装标注1岁以上可用，节日里当礼物送家人朋友也拿得出手。京东渠道两万条评价，天猫海外旗舰店优惠价能到122元，双11期间属于可以闭眼下单的价位。",
+      "suitable": "熬夜加班人群、入睡困难浅眠者、宿舍学生、爱香氛的睡前仪式感人群",
+      "price_note": "什么值得买助眠香薰榜 ju/s2mj77w 同款『璞医香薰衣草精油睡眠喷雾75ml』京东价 ¥225（2万人评论）；淘宝好物网同款限时优惠价 ¥128，淘宝百科口径 120-180 元，京东价含品牌溢价",
+      "color": "#7B4BC4",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_3.jpg",
       "id": 3,
       "highlights": [
-        "内里加绒贴手，戴上照样能拧车把捏刹车",
-        "指尖可触屏，接单回消息不用摘手套",
-        "防风袖口加防泼水面，雨雪天骑也不怕湿",
-        "手腕粘带可调，螺纹收边堵住倒灌的冷风",
-        "白色简洁百搭，配深色车筐外套都不违和"
+        "12种植物精油复配，柔和花香不刺鼻",
+        "水基配方无酒精，喷枕巾不留油印",
+        "微米雾化喷头一按即散，不沾湿枕头",
+        "睡前枕边15cm喷3-5下，10秒充满房间",
+        "75ml小巧瓶身，1岁以上可用可送礼"
       ],
       "tags": [
-        "保暖手套",
-        "骑行手套",
-        "沐驰斯顿",
-        "冬季通勤",
-        "触屏手套"
+        "助眠香薰",
+        "睡眠喷雾",
+        "香薰枕喷雾",
+        "睡前仪式感",
+        "法国香氛"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_3.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_3.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_3.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_slice_3.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_1315ffae8e1f6bdaf31f.html",
-        "source": "京东冬季针织手套排行榜 / 京东厚触屏手套与男款帽子手套排行榜 / 什么值得买白色保暖手套榜 / 什么值得买社区实测晒单",
+        "primary": "https://www.jd.com/phb/key_16725905d7d0368a1f91.html",
+        "source": "什么值得买 + 天猫 + 京东榜单",
         "extra": [
-          "https://www.smzdm.com/ju/swl0yym/",
-          "https://post.m.smzdm.com/talk/p/awo4elom",
-          "https://www.jd.com/phb/key_1315b64ccedb35de225b.html",
-          "https://www.jd.com/phb/key_16726b17dd7686549a4a.html",
-          "https://www.smzdm.com/ju/s1z48xl"
+          "https://www.smzdm.com/ju/s2mj77w/",
+          "https://goods.taobao.com/t/shentipenwu_1074/b64f82066d46df2cb3f1a94ae9b69aed.html",
+          "https://bk.taobao.com/k/fufangjingyou_10956/0587fed4ba975468ca3c7122419b6faf.html"
         ]
       },
-      "theme_color": "#747474"
+      "theme_color": "#7B4BC4"
     },
     {
-      "name": "艾曼格（IMOGY）艾曼格保温水壶家用保温壶学生宿舍大容量热水壶不锈钢保暖瓶",
-      "category": "办公泡茶 · 316L 不锈钢保温壶",
-      "price": "¥81.7",
-      "desc": "艾曼格这款保温壶是按办公室泡茶的需求做的。内胆用的是 316L 不锈钢，不锈钢材质没有异味，泡绿茶、泡咖啡、装白开水都不串味；壶盖是按压式的，单手一按就能出水，泡茶过程中不用一直去拧盖子。壶身容量够大，一次灌满能满足一整个上午的续水需求，桌上摆着不用频繁跑茶水间。外面是不锈钢外壳，不太留指纹，办公室桌面上放着也干净。外观是简洁的银色直筒造型，摆工位不突兀，送人也不寒酸。",
-      "suitable": "办公室工位需要长期喝热水、泡茶的人；宿舍没有饮水机、想自己备壶的学生党；想给家人或同事送一份实用礼物的人",
-      "price_note": "什么值得买保温壶榜单页收录该款多个容量版本，京东 99k 人评论，现价 ¥81.7（按压大容量 316L 款 70.04 元、316L 家用款 76.6 元、焖茶款 87.04 元）；陶瓷内胆茶水分离款 127.2-151.2 元；同榜苏泊尔玻璃内胆 1.7L 款 87.9 元、2L 款 97.9 元",
-      "color": "#B8BCC0",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_4.jpg",
+      "name": "图拉斯磁吸充电宝【小巧轻薄丨自带线】3c认证可上飞机小云宝10000毫安低温快充移动电源适用苹果18Pro",
+      "category": "数码配件/移动电源",
+      "price": "¥198",
+      "desc": "出门在外最怕的不是没电，是包里的充电宝一半是砖头、另一半忘带线。图拉斯小云宝把磁吸无线充和自带线塞进了10000毫安的方形机身里——贴在iPhone背面就能开始充，线不用的时候收在机身侧边，一根多余的线都不用带。3C认证意味着能带上飞机和高铁，10000毫安放进通勤包几乎不占地方。深空灰的金属磨砂质感在数码配件里属于耐看那一挂，不沾指纹。双11主图到手价198元，什么值得买榜单上同款券后195.61元，比两百出头的飞利浦、倍思磁吸款价格优势明显。想要更大容量可以看同品牌小冰充45W自带双线款，294.4元。",
+      "suitable": "iPhone 用户、通勤族、常出差人士、宿舍学生",
+      "price_note": "京东双11主图印刷到手价 ¥198；什么值得买充电宝榜 ju/s2ly0j7 同款『图拉斯 小云宝 磁吸充电宝 自带线 10000mAh 3C认证 适配iPhone 18』券后 ¥195.61；smzdm 商品页 p/183506841 记录京东活动售价 ¥328、实付低至 ¥278 为日常价，双11价明显更低",
+      "color": "#3C3C40",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_4.jpg",
       "id": 4,
       "highlights": [
-        "316L 不锈钢内胆，泡茶泡咖啡都不串味",
-        "按压式壶盖，单手一按就出水不用拧",
-        "大容量一次灌满撑一上午，省去反复接水",
-        "不锈钢外壳不易留指纹，桌面摆着干净",
-        "简洁银色直筒造型，工位摆放和送礼都合适"
+        "磁吸无线充+自带线二合一，少带一根线",
+        "10000毫安小体积，通勤包零负担",
+        "3C认证可上飞机高铁，出行合规不慌",
+        "双11到手价¥198，同款券后¥195.61",
+        "深空灰磨砂金属面，不留指纹"
       ],
       "tags": [
-        "保温壶",
-        "316L保温壶",
-        "艾曼格",
-        "办公室泡茶",
-        "热水壶"
+        "磁吸充电宝",
+        "自带线充电宝",
+        "10000毫安",
+        "苹果手机配件",
+        "登机行李"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_4.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_4.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_4.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_slice_4.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_61960ad3e23bab91be9e.html",
-        "source": "京东 2000 毫升热水壶排行榜 / 什么值得买保温壶榜 / 买购网 2026 热门保温壶产品榜 / 什么值得买真空保温壶榜 / 艾曼格品牌优惠页",
+        "primary": "https://m.jd.com/phb/9987f1f85836bf3b518a.html",
+        "source": "京东榜单主图 + 什么值得买",
         "extra": [
-          "https://www.smzdm.com/ju/s29rw38/",
-          "https://pinpai.smzdm.com/344234/youhui/p3/",
-          "https://www.jd.com/phb/key_6196442b6e31531506e9.html",
-          "https://www.jd.com/phb/key_6196e5b8d68c0a24df9e.html",
-          "https://m.maigoo.com/goomai/245240.html",
-          "https://www.smzdm.com/ju/s0rwkjn/",
-          "https://www.smzdm.com/ju/sprl5yr"
+          "https://www.smzdm.com/ju/s2ly0j7/",
+          "https://www.smzdm.com/p/183506841/"
         ]
       },
-      "theme_color": "#6F767E"
+      "theme_color": "#3C3C40"
     },
     {
-      "name": "美肤语手持美甲灯一字灯便携蓄电款烤灯 甲油胶光疗灯速干不黑手MF8202",
-      "category": "居家美甲 · 手持光疗烤灯",
-      "price": "¥15.9",
-      "desc": "美肤语 MF8202 是给居家做美甲的人准备的一字灯。手持造型，涂好甲油胶把手指一根根伸进去烤，不用把整只手压在灯板上，光位随便调，做花式和猫眼的时候更好控制。内里是可蓄电电池，充一次电能用好几颗，不用一直插着充电线，做美甲的时候桌面干净不拖线。一字灯的灯珠排列做得比较均匀，照到指甲两侧不会只烤到中间。黑手是光疗灯最常见的问题，这款主打速干不黑手，边缘残留的胶也照得进去。机身小巧，做完随手一收就能塞进抽屉。",
-      "suitable": "在家自己做美甲、涂甲油胶的新手；宿舍空间小、桌面放不下大台灯的学生党；偶尔做一次美甲、想低成本试水的人",
-      "price_note": "什么值得买美甲灯三个榜单页均收录该款 MF8202，京东 50k 人评论，现价 ¥15.9；同品牌升级数显款 MF8220 35.9 元、MF8258 29.8 元；一只柚手持款 15.11 元（京东 99k 人评论）；Miss Candy PT068 手持款 33.1 元",
-      "color": "#F0F0F0",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_5.jpg",
+      "name": "有棵树【肌理按摩】男士袜子男纯棉中筒10A抗菌消臭秋冬抗起球防螨长袜",
+      "category": "商务袜品/中筒袜",
+      "price": "¥44.9",
+      "desc": "通勤党挑袜子的标准很朴素：脚上一整天不闷、不臭、不掉跟。有棵树这款中筒袜用的是纯棉亲肤纱线，10A级抗菌消臭配4级抗起球，商务深色系穿出去不出戏，配西装和休闲皮鞋都不违和。抗菌消臭不是靠一次性的化学涂层堆出来的，洗涤次数多了也不会失效。多色组合装把黑、灰、军绿、棕、浅灰一次配齐，同事面前换着穿也不会重样。44.9元的参考价折算下来单双不到9元，是可以闭眼复购的消耗品。有棵树是2018年成立的贴身衣物品牌，主打“把健康穿在里面”，自营旗舰店发货，脚跟做了加厚处理，走一天路脚底板不容易磨。秋天贴身穿、冬天垫在加厚袜里面都合适。",
+      "suitable": "通勤上班族、穿西装的商务男士、需要高频换洗的日常人群",
+      "price_note": "买购网有棵树男袜榜（maigoo/news/647759 与 maigoo/goomai/245274 两处同款同价）参考价 ¥44.9，标注品牌 YOUKESHU、有棵树自营旗舰店；同品牌春夏纯棉短袜 ¥49.9、船袜 ¥44.9 属不同款不可混用。京东榜单在售为【肌理按摩】长袜（第2位，20万人评论）",
+      "color": "#2E2E30",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_5.jpg",
       "id": 5,
       "highlights": [
-        "手持一字灯，指甲一根根伸进去烤，光位好控制",
-        "内置蓄电电池，充一次能用好几颗，不用拖充电线",
-        "灯珠排列均匀，烤到指甲两侧不只照中间",
-        "主打速干不黑手，边缘残留胶也照得进去",
-        "机身小巧，做完直接塞抽屉，下次拿出来就能用"
+        "纯棉亲肤纱线，10A级抗菌消臭不闷脚",
+        "4级抗起球，洗后不毛边不起球",
+        "商务中筒款，配西装皮鞋都不违和",
+        "参考价¥44.9，单双折算不到9元",
+        "多色组合装，同事面前换着穿不重样"
       ],
       "tags": [
-        "美甲灯",
-        "光疗灯",
-        "美肤语",
-        "居家美甲",
-        "甲油胶"
+        "商务袜",
+        "男袜",
+        "纯棉袜",
+        "抗菌防臭",
+        "中筒袜"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_5.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-07_product_slice_5.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_5.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-08_product_slice_5.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/13163efdeaa40c0946b6.html",
-        "source": "京东 led 美甲烤灯排行榜 / 什么值得买美甲灯三个排行榜 / 美肤语品牌优惠页 / 京东光疗工具品牌排行榜",
+        "primary": "https://www.jd.com/phb/13159736666f0ac29578.html",
+        "source": "买购网 + 京东榜单",
         "extra": [
-          "https://www.smzdm.com/ju/s2m8xzy/",
-          "https://www.smzdm.com/ju/sn01k0l/",
-          "https://www.smzdm.com/ju/s25vzn9/",
-          "https://pinpai.smzdm.com/62462/youhui/p3/",
-          "https://www.jd.com/phb/13166b77762ce6dec2cf.html"
+          "https://m.maigoo.com/news/647759.html",
+          "https://m.maigoo.com/goomai/245274.html"
         ]
       },
-      "theme_color": "#767676"
+      "theme_color": "#2E2E30"
     }
   ]
 }
