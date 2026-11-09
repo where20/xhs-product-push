@@ -61,7 +61,10 @@ CANDIDATES=()
 for v in "${HTTPS_PROXY:-}" "${HTTP_PROXY:-}" "${https_proxy:-}" "${http_proxy:-}"; do
   [ -n "${v}" ] && CANDIDATES+=("${v}")
 done
-for p in 7897 7890 7891 1080 10808 10809 6152 9090; do
+# 2026-11-10 实测: 本机 clash-verge 监听端口是 **6696**, 不在下面这个列表里,
+# 导致 pick_proxy 全部落空 → 误判"无代理" → 回落 pick_ip 选到不可达 IP → push 75s 超时。
+# 6696 必须常驻候选(端口有监听 + curl 探活 200 才算命中, 不会误用)。
+for p in 7897 7890 7891 1080 10808 10809 6152 9090 6696; do
   CANDIDATES+=("http://127.0.0.1:${p}")
 done
 
