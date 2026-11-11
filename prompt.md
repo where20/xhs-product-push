@@ -331,8 +331,9 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
 |------|------|----------------|
 | `www.jd.com/phb/*.html`（榜单页） | ✅ **首选** | 服务端直出 name / sku / 评论数 / 主图。**只抓 phb** |
 | **jd 商品主图（`s450x450` 原图）** | ✅ **2026-11-03 增补 · 最强 SKU 级价源** | 主图上直接印「预计到手价 ¥31.20」「2件8折」，**与 SKU 严格同源**；同时是验色的唯一依据。用 `parse_phb()` 的原始 `image` 字段拼 `/n1/s450x450_jfs/` 下载（**打印出来的 URL 会被截断，直接 curl 会 405**） |
-| `www.smzdm.com/p/{id}` | ⚠️ **2026-11-03 修正** | 多数页价格明文在 HTML、GTM JSON 里有 `"price"`；但**部分页退化成 1.6KB JS 壳**（`p/439703` 实测 `"price"`/`"name"` 全空）→ 抓不到就换 `ju/` 榜或 `wiki.smzdm.com` |
-| `m.smzdm.com/p/{id}` | ✅ 202 | smzdm 的移动域 |
+| `www.smzdm.com/p/{id}` | ⚠️ **2026-11-12 修正** | 多数页价格明文在 HTML、GTM JSON 里有 `"price"`；但**部分页退化成 1.6KB JS 壳**（`p/439703` 实测 `"price"`/`"name"` 全空）→ 抓不到就换 `ju/` 榜或 `wiki.smzdm.com`。⚠️ **2026-11-12：同一时段高频抓取后主域会被腾讯 WAF 限流，全部 `/p/` `/sou/` `/fenlei/` 变 403**（body 仅 1697 字节 `TencentCaptcha`）→ **写进文件的链接一律用 `m.smzdm.com/p/{id}/`** |
+| `m.smzdm.com/p/{id}/` | ✅ **2026-11-12 固化 · 写文件的安全形态** | 移动域稳定返回 **202**，`verify_links.py` 正好接受 200/202。**⚠️ 必须带尾斜杠**。WAF 限流时它是唯一还能过的 smzdm 形态（`/sou/{id}/` `/ju/{id}` 同样 202） |
+| **`www.smzdm.com/sou/{数字分类ID}/p1`** | ✅ **2026-11-12 新增 · 目前最高效价源** | **数字 ID 直达**（比 `ju/{slug}` 好发现：`ju` 首页是 1249B 壳、`site:smzdm.com/ju` 搜不到），返回 160KB+ 真实爆料流水。HTML 结构：`<li class="feed-row-wide">` → `feed-block-title` + `class="z-highlight">价格元` + `feed-block-extras`（日期+商城）。已验证 ID：**13748** 桌面加湿器 / **56105** 妈妈丝巾 / **2084** 护眼灯 / **23008** 阅读护眼灯 / **37027** 整理收纳箱 / **4534** 收纳箱。⚠️ 抓取量别太猛，否则触发 WAF 限流（见上一行） |
 | `www.smzdm.com/ju/{id}` | ✅ **2026-10-30 新增，取价首选** | 排行榜页服务端直出「**价格 + 商品名 + 平台 + 销量**」四元组。⚠️ **价格排在商品名之前**，必须用正则批量抽，不能肉眼读。⚠️ **2026-11-03：同分类页两次抓内容会轮换** → 标题对不上就换页重抓；**同一商品会连出多条不同价**（靠"标题逐字相同 + 平台 + 销量"三要素定位） |
 | **`wiki.smzdm.com/p/{id}`（什么值得买百科）** | ✅ **2026-11-03 增补 · 带规格品类最优** | 页面明文「XX 元起 / **京东 最低 ¥XX**」+ **规格逐字对应**（18CM / 直径20cm / 200mm）。比 `ju/` 榜更适合绑 SKU |
 | **`faxian.smzdm.com/h{...}/`（爆料页）** | ✅ **2026-11-03 增补** | 活动价完整拆解（「活动价 ¥18.8 → 满1件8.8折 → 实付 ¥16.54」） |
@@ -342,11 +343,14 @@ python3 ${TASK_XHS_DIR}/scripts/verify_live.py $TODAY
 | **`pinpai10.net/bang/{品类}.html`（牌子网）** | ⚠️ **2026-11-03 修正** | **是「品牌榜」不是「商品榜」**：只有品牌介绍 + 品牌下精选商品轮播（威恒那次轮出来的是电机/钓鱼竿），**没有「销量 N 券后:¥X」这种行**。只能取品牌背景，取价请走 `ju/` 或 `wiki.smzdm.com` |
 | `post.smzdm.com/p/a{id}` | ✅ **2026-10-30 新增** | 社区实测文，含横向实测价格 + 榜单名次 + 累计评价数，**带货场景最佳证据源** |
 | `www.maigoo.com/news/{id}.html` | ✅ **2026-10-30 新增** | 买购网产品榜，小件（护手霜等）真实参考价格 + 品牌故事 |
+| **`best.pconline.com.cn/youhui/{id}.html`（聚超值）** | ✅ **2026-11-12 新增 · 「京东活动价」口径最准** | 原文形如「京东活动价252.0元(原价272.0元)」+ 商品卖点描述 + 商品全名，是**京东活动价口径**的首选源。分类页 `best.pconline.com.cn/fenlei/{id}/youhui/` 也可 |
+| **`m.maigoo.com/webshop/{id}.html`（买购网网店页）** | ✅ **2026-11-12 新增** | 京东旗舰店在售价 + **评论数**（如「￥293 评论:10000 万事利丝绸旗舰店」），用来交叉验证主推价 |
+| `www.baicaio.com/item/{id}.html` | ❌ **2026-11-12 实测 403** | 白菜哦网，恒 403，不可用 |
 | `goods.taobao.com/t/...` | ✅ **2026-10-30 新增** | 淘宝好物网，单品实测价 + 适用人群画像 |
 | `smzdm.com/sou/{关键词}` | ❌ **2026-10-30 实测已失效** | 返回 **404 壳页**，不是搜索结果。别再试 |
 | `search.smzdm.com` / `m.smzdm.com/sou/` | ❌ **2026-10-30 实测** | **202 JS 挑战**，209 字节空壳，反爬墙 |
 | `www.jd.com/phb/key_{hash}.html` | ✅ | 关键词型榜单页，同上 |
-| `p.3.cn/prices/mgets`（京东价格 API） | ❌ | **DNS 被劫持到内网假 IP**（10.x / 172.x）。DoH 查 google / cloudflare / alidns / doh.pub **结果全是假 IP** → 不是本机 DNS 问题，换 DoH 也救不了 |
+| `p.3.cn/prices/mgets`（京东价格 API） | ❌ | **DNS 被劫持到内网假 IP**（10.x / 172.x）。DoH 查 google / cloudflare / alidns / doh.pub **结果全是假 IP** → 不是本机 DNS 问题，换 DoH 也救不了。⚠️ **2026-11-12 复测：`wq.jd.com` 403 / `msitepp.jd.com` 302 / `item-soa.jd.com` 302 —— 京东价格 API 已全线失效，别再试**；榜单页 `price-rmb` 是 JS 渲染恒空 → **京东真实到手价只能从 450×450 主图实印读** |
 | `c0.3.cn/stock` | ❌ | 同上，HTTP 000 |
 | `search.jd.com` | ❌ | 302 → 「京东验证」页 |
 | `so.m.jd.com` | ❌ | 302 → 「京东验证」页 |
@@ -454,6 +458,16 @@ curl --noproxy '*' -sL -A "$UA" 'https://www.smzdm.com/p/184145430' \
   10/26 实测：prompt 写 "white WiFi router"，但真实中兴巡天 BE5100 是黑色、color 写的是 `#2B2B2E`，
   结果卡片深黑主题配一张白路由器，图文割裂。→ 写 prompt 前先看 `color` 字段，
   把商品主色翻译进 prompt（如 `#2B2B2E` → "matte black"），出图后用 contact_sheet 二次核对颜色。
+- **「no text」永远兜不住带面板的家电，AI 一定自造品牌字**（2026-11-12 固化）：
+  11-12 台灯 prompt 已写 "absolutely no printed characters on the base, the stem or the touch control strip"，
+  AI 仍在**灯杆正面印了一列竖排假品牌字**；加湿器 prompt 强调「顶部单旋钮 + 无图标」，
+  AI 反手在旋钮下方印了 "on / t1/Wash / 1.0.1" 三处假字符，**比不写还糟**。
+  → **正确修法不是加禁止词，是把带标签/带按键的物件整个移出画面**：
+  - 台灯类 → 控件只放在**灯头下沿**，灯杆必须素面（"the stem is a completely blank smooth white column with absolutely nothing on its surface"）
+  - 加湿器类 → **拍背面**（"photographed from the rear three-quarter angle so that the controls sit on the far side"）
+  - 遥控器 / 主机 / 键帽 → 参考 11-11：**删掉配件只拍本体**、**低角度侧拍让顶面不可见**
+  → 每张出图**必须 2×/3× 放大逐张扫**（contact sheet 看整体不算数），
+    候选图先 `cp` 备份旧图到 `/tmp`，肉眼确认干净才覆盖。
 - **WebSearch(search_type=shopping) 结果体积会爆**：单次输出常被外部化成 78KB+ 的 artifact。
   → 用 `grep` 定向捞 `"link":` / 价格 / 评论数，**不要通读整个 artifact**；
   一次搜不全就补搜，别在单次查询里堆太多关键词。
