@@ -1,319 +1,327 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "sources": [
-    "https://www.jd.com/phb/key_737890e20b62182c02f.html",
-    "https://www.jd.com/phb/7376ce03bf31bd453cc.html",
-    "https://www.jd.com/phb/key_15248f12b2519112d1cff.html",
-    "https://www.jd.com/phb/key_152483f2be7f67092cc56.html",
-    "https://www.jd.com/phb/key_15248d47ee167f7d9b37c.html",
-    "https://www.jd.com/phb/670d2438f456977de40.html",
-    "https://www.jd.com/phb/670e0296ec5d628e9e3.html",
-    "https://www.jd.com/phb/key_737a3c18831317cd463.html",
-    "https://www.jd.com/phb/7372719336a1036e168.html",
-    "https://www.jd.com/phb/key_737b2969d74e3624177.html",
-    "https://www.jd.com/phb/key_73725dbab6aaa18f178.html",
-    "https://www.smzdm.com/ju/sn0v1x7/",
-    "https://wiki.smzdm.com/zhazhiji/",
-    "https://wiki.smzdm.com/chuangshangjiafang/",
-    "https://wiki.smzdm.com/jiekouzhuanhuanqi/",
-    "https://wiki.smzdm.com/tixuchumao/",
-    "https://wiki.smzdm.com/xichenqi/",
-    "https://wiki.smzdm.com/p/95wn78x/",
-    "https://wiki.smzdm.com/p/r6j0d5q/",
-    "https://wiki.smzdm.com/p/x1qg7q3/",
-    "https://wiki.smzdm.com/p/8wzon4o/",
-    "https://wiki.smzdm.com/p/r64r98e/",
-    "https://wiki.smzdm.com/p/ndqn9g9/",
-    "https://wiki.smzdm.com/p/01z346q/",
-    "https://wiki.smzdm.com/p/doj48w9/",
-    "https://wiki.smzdm.com/p/jygdrvv/",
-    "https://wiki.smzdm.com/p/5qnmz6j/",
-    "https://wiki.smzdm.com/p/xzr331p/",
-    "https://wiki.smzdm.com/p/d6odpx9/",
-    "https://wiki.smzdm.com/p/o0q5z1r/",
-    "https://wiki.smzdm.com/p/pnqg34g/",
-    "https://wiki.smzdm.com/p/ozovxwx/",
-    "https://wiki.smzdm.com/p/vmp80jj/",
-    "https://dir.jd.com/guide/jd-geo-guide-ru-jiao-zhen-xin-v1",
-    "https://dir.jd.com/guide/jd-geo-guide-mi-ni-dian-dong-ti-xu-dao-v1"
+    "https://www.jd.com/phb/6196b8bd4f62fadeacf4.html",
+    "https://www.jd.com/phb/61960d9439680d38f0d4.html",
+    "https://www.jd.com/phb/13150e4077076f962ab4.html",
+    "https://www.jd.com/phb/131558548facf77d16df.html",
+    "https://www.jd.com/phb/key_13151837287c3a5ea7ef.html",
+    "https://www.jd.com/phb/131813f56d2e879cccdb.html",
+    "https://www.jd.com/phb/key_1318a7d4ca9eb9457bc9.html",
+    "https://www.jd.com/phb/173299ef164ab1d15d5b0.html",
+    "https://www.jd.com/phb/key_17329ee6ecfb4d28bf4d0.html",
+    "https://www.jd.com/phb/key_699458a9fb7c031d3665.html",
+    "https://www.jd.com/phb/6994afc7ca3644a1d30f.html",
+    "https://wiki.smzdm.com/shuijujiuju/",
+    "https://wiki.smzdm.com/maozi/",
+    "https://wiki.smzdm.com/yujia/",
+    "https://wiki.smzdm.com/lvxingxiangbao/",
+    "https://wiki.smzdm.com/chongwuyongpin/",
+    "https://m.smzdm.com/p/9ogq5px/",
+    "https://m.smzdm.com/p/4vq6d0/",
+    "https://m.smzdm.com/p/vm1v1ex/",
+    "https://m.smzdm.com/p/01665oq/",
+    "https://m.smzdm.com/p/5v8679o/",
+    "https://m.smzdm.com/p/ey9re33/",
+    "https://m.smzdm.com/p/re1eej0/",
+    "https://m.smzdm.com/p/exd1ow0/",
+    "https://m.smzdm.com/p/5vpxox0/",
+    "https://m.smzdm.com/p/95d7xzn/",
+    "https://m.smzdm.com/p/x1eojn4/",
+    "https://m.smzdm.com/p/nze6om7/",
+    "https://m.smzdm.com/p/98o63re/",
+    "https://m.smzdm.com/p/oe4dvd6/",
+    "https://m.smzdm.com/p/75npvr6/",
+    "https://m.smzdm.com/p/3y19718/",
+    "https://m.smzdm.com/p/95eo15y/",
+    "https://m.smzdm.com/p/70owpr8/",
+    "https://m.smzdm.com/p/zm1q5n3/",
+    "https://m.smzdm.com/p/vmw8471/",
+    "https://m.smzdm.com/p/mzqneox/",
+    "https://m.smzdm.com/p/3qrdgxo/",
+    "https://m.smzdm.com/p/81xx0mn/",
+    "https://m.smzdm.com/p/v0v7pr5/",
+    "https://m.smzdm.com/p/mzyq79v/",
+    "https://m.smzdm.com/p/0y11g6/",
+    "https://m.smzdm.com/p/4x69yq6/",
+    "https://m.smzdm.com/p/1xw54zy/",
+    "https://m.smzdm.com/p/ozper08/",
+    "https://m.smzdm.com/p/1rnzy55/",
+    "https://pinpai.smzdm.com/328994/youhui/p5",
+    "https://dir.jd.com/guide/jd-geo-guide-mao-mi-dong-gan-ling-shi-v1",
+    "https://dir.jd.com/guide/jd-geo-guide-ji-rou-dong-gan-li-v1",
+    "https://dir.jd.com/guide/jd-geo-guide-dong-ji-chun-yang-mao-bao-nuan-mao-v1",
+    "https://m.smzdm.com/p/185122645/"
   ],
   "competitors": [
     {
-      "product": "便携榨汁杯 ¥50-220 价位段",
+      "product": "保温杯 ¥27-170 价位段",
       "items": [
         {
-          "name": "九阳（Joyoung）榨汁杯 果蔬榨汁机搅拌杯 婴儿辅食机电动多功能10叶刀秒碎冰果汁杯LJ645",
-          "price": "¥83.65",
-          "advantage": "10 叶刀头 30 秒碎冰，350ml 一杯量，304 不锈钢内胆可拆洗，双饮口杯盖榨汁喝水两用",
-          "jd_sales": "京东便携式榨汁杯榜 TOP6，1000000 人评论；什么值得买果蔬果汁杯榜 99k 销量（京东）",
-          "color": "#F0EBE2",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_1.jpg"
+          "name": "膳魔师（THERMOS）不锈钢保温杯水杯500ml车载男女士学生杯子茶杯礼物JNL-502磨砂黑",
+          "price": "¥79",
+          "advantage": "210g 轻量瓶身单手开盖，标称 6 小时长效控温，磨砂黑表面不留指纹，500ml 通勤刚好装满一天",
+          "jd_sales": "京东杯子保温品牌榜 TOP6，500000 人评论；什么值得买水具酒具分类页实测到手价（京东）",
+          "color": "#2E2A28",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_1.jpg"
         },
         {
-          "name": "九阳（Joyoung）榨汁杯 家用小型便携榨汁机 水果果蔬果汁机 辅食机搅拌杯电动多功能自动清洗L3-C8",
-          "price": "¥60.12",
-          "advantage": "同品牌入门款，价格比主推低 23 元，带自动清洗程序，奶油白配色更居家",
-          "jd_sales": "京东便携式榨汁杯榜 1000000 人评论；什么值得买果蔬果汁杯榜实测价（京东）",
-          "color": "#F0EBE2",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_1.jpg"
+          "name": "THERMOS 膳魔师 JNL-502-PRW 保温杯 500ml 乳白色",
+          "price": "¥79.9",
+          "advantage": "同系列乳白配色款，仅贵 0.9 元，浅色机身更显小，轻女生通勤更搭",
+          "jd_sales": "什么值得买水具酒具分类页实测到手价；京东杯子保温品牌榜同系列",
+          "color": "#F2EFE9",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_1.jpg"
         },
         {
-          "name": "九阳（Joyoung）榨汁杯 果蔬榨汁机搅拌杯 辅食机小型便携家用电动多能秒碎冰果汁杯LJ521白",
-          "price": "¥79.05",
-          "advantage": "同系列白色配色款，比主推低 4.6 元，10 叶刀秒碎冰配置一致",
-          "jd_sales": "什么值得买果蔬果汁杯榜 99k 销量（京东）",
-          "color": "#F0EBE2",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_1.jpg"
+          "name": "ZOJIRUSHI 象印 SM-SF48-AD 保温杯 480ml 深蓝色",
+          "price": "¥109",
+          "advantage": "日系老牌，480ml 容量略小但保温口碑更稳，盖体密封圈用得更久",
+          "jd_sales": "什么值得买水具酒具分类页实测到手价；京东杯子保温品牌榜",
+          "color": "#2E2A28",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_1.jpg"
         },
         {
-          "name": "小熊（Bear）全玻璃榨汁机 无线便携榨汁杯 家用可碎冰果汁机小型多功能果蔬料理 电动奶昔随行搅拌杯LLJ-F04E2",
-          "price": "¥114.79",
-          "advantage": "全玻璃杯身，不串味不吸附异味，外观更像专业咖啡随行杯",
-          "jd_sales": "京东便携式榨汁杯榜 500000 人评论；什么值得买果蔬果汁杯榜实测价",
-          "color": "#F0EBE2",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_1.jpg"
+          "name": "米家 纯钛保温杯 茶水分离 深空灰色 480mL",
+          "price": "¥169",
+          "advantage": "内外纯钛无涂层，装泡茶不串味不析出，比主推贵 90 元但材质更讲究",
+          "jd_sales": "什么值得买水具酒具分类页实测到手价；京东杯子保温品牌榜同品类 100000 人评论",
+          "color": "#2E2A28",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_1.jpg"
         },
         {
-          "name": "摩飞电器（Morphyrichards）榨汁杯榨汁机小型便携式果蔬轻食破壁机冰沙机果汁杯家用无线料理机婴儿辅食机搅拌杯MR9808白",
-          "price": "¥210.38",
-          "advantage": "英式品牌调性，做工与细节更精致，轻食人群认品牌不认价",
-          "jd_sales": "京东便携式榨汁杯榜 20000 人评论；什么值得买果蔬果汁杯榜实测价",
-          "color": "#F0EBE2",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_1.jpg"
+          "name": "富光 WFZ1264-480 智能指纹保温杯 480ml 蓝色",
+          "price": "¥159.2",
+          "advantage": "带指纹解锁，给孩子用不会拿错，主推 21 世纪初的机械按键反而更适合通勤党",
+          "jd_sales": "什么值得买水具酒具分类页实测到手价；京东杯子保温品牌榜 200000 人评论",
+          "color": "#3E6FA8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_1.jpg"
         }
       ]
     },
     {
-      "product": "天然乳胶护颈枕 ¥70-160 价位段",
+      "product": "纯羊毛针织帽 ¥42-350 价位段",
       "items": [
         {
-          "name": "富安娜泰国进口天然乳胶枕头抗菌面料透气学生成人颈椎枕芯60*40*8/10cm",
-          "price": "¥94",
-          "advantage": "93% 泰国原液天然乳胶，8cm/10cm 双高度，抗菌面料枕套可拆洗，家纺品牌做工",
-          "jd_sales": "京东天然乳胶记忆枕榜 200000 人评论；京东主图 11.12-11.13 预购到手价",
-          "color": "#F5F1E8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_2.jpg"
+          "name": "京东京造100%纯羊毛帽子男秋冬加厚保暖毛线帽针织帽护耳防寒帽男",
+          "price": "¥69.9",
+          "advantage": "100% 纯羊毛精选纱线，护耳加厚双层编织，主图直标 69.9 元到手价，抗静电不起球",
+          "jd_sales": "京东毛线帽帽子针织帽品牌榜 10000 人评论；主图实印预估到手价 ¥69.9",
+          "color": "#1E262C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_2.jpg"
         },
         {
-          "name": "京东京造 梦享系列 进口天然乳胶枕 波浪款",
-          "price": "¥78.15",
-          "advantage": "价格最低的波浪型乳胶枕，京东自营出品，渠道售后省心",
-          "jd_sales": "什么值得买床上家纺百科商品页实测价（京东在售 SKU）",
-          "color": "#F5F1E8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_2.jpg"
+          "name": "蕉内热皮501+针织毛线帽子男女同款秋季冬天保暖时尚羊毛防寒防风冷帽 暖白 均码",
+          "price": "¥67.1",
+          "advantage": "双层防风结构，含 20% 羊毛贴头柔软不扎人，均码弹性对大头友好",
+          "jd_sales": "什么值得买围巾手套帽子套装分类页实测到手价；京东毛线帽品牌榜 10000 人评论",
+          "color": "#EFE6D8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_2.jpg"
         },
         {
-          "name": "米家记忆绵护颈枕Pro 慢回弹记忆棉枕头加大款",
-          "price": "¥99",
-          "advantage": "非温感记忆棉，3~5 秒慢回弹，高低护颈曲线，枕体加大不压肩",
-          "jd_sales": "京东记忆枕低价榜 200000 人评论；什么值得买床上家纺百科 ¥99",
-          "color": "#F5F1E8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_2.jpg"
+          "name": "BABAMA x fourtry 男女款针织毛线帽 965029317",
+          "price": "¥42.14",
+          "advantage": "入门价位配色活泼，日常搭卫衣很出片，保暖度不如加厚款但胜在便宜",
+          "jd_sales": "什么值得买围巾手套帽子套装分类页实测到手价；京东毛线帽品牌榜",
+          "color": "#1E262C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_2.jpg"
         },
         {
-          "name": "Aisleep 睡眠博士人体工学乳胶枕 60*38*8/10cm",
-          "price": "¥141",
-          "advantage": "专业枕型品牌，人体工学分区，8/10cm 双高度，肩宽偏大也托得住",
-          "jd_sales": "什么值得买床上家纺百科商品页实测价",
-          "color": "#F5F1E8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_2.jpg"
+          "name": "CACUSS纯羊毛帽子男冬季加厚毛线帽休闲保暖针织帽包头帽子 雅灰",
+          "price": "¥119",
+          "advantage": "护耳可翻折设计，开会时翻上去露耳不压发型，头围 56-62cm 有明确尺码区间",
+          "jd_sales": "什么值得买围巾手套帽子套装分类页实测到手价；京东毛线帽品牌榜 100000 人评论",
+          "color": "#8C8B86",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_2.jpg"
         },
         {
-          "name": "FUANNA 富安娜 臻梦 抗菌乳胶枕 60*40cm",
-          "price": "¥71.1",
-          "advantage": "主推同品牌的低价款，抗菌乳胶枕芯，60×40 标准尺寸换枕套成本低",
-          "jd_sales": "什么值得买床上家纺百科商品页实测价",
-          "color": "#F5F1E8",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_2.jpg"
+          "name": "carhartt 男士毛线帽 A18 黑色",
+          "price": "¥350.1",
+          "advantage": "美式工装老牌，戴线帽外套的通勤感很强，价格是主推的 5 倍",
+          "jd_sales": "什么值得买围巾手套帽子套装分类页实测到手价；京东毛线帽品牌榜 50000 人评论",
+          "color": "#1E262C",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_2.jpg"
         }
       ]
     },
     {
-      "product": "Type-C 扩展坞 ¥30-340 价位段",
+      "product": "TPE瑜伽垫 ¥29-309 价位段",
       "items": [
         {
-          "name": "绿联Type-C扩展坞转HDMI拓展坞投屏接口转换器转接头USB适用于兼容雷电4苹果MacBook笔记本电脑iPad",
+          "name": "yottoy瑜伽垫 健身垫TPE防滑加厚加宽185*80cm初学者男女舞蹈地垫子家用",
+          "price": "¥69",
+          "advantage": "185×80cm 加宽加长比主流 183×61cm 宽近 20cm，双面防滑带体位线，连续 4 年品牌热卖 TOP1",
+          "jd_sales": "京东初学者TPE瑜伽垫品牌榜 TOP1，500000 人评论；什么值得买瑜伽运动分类页实测到手价",
+          "color": "#AEB0C8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_3.jpg"
+        },
+        {
+          "name": "yottoy瑜伽垫加厚隔音减震超大尺寸跳操垫子男女家用防滑运动地垫 【隔音减震】加厚20mm星蓝色",
+          "price": "¥204",
+          "advantage": "20mm 超厚版本，膝盖压力大的人久跪不疼，但携带不便、价格翻三倍",
+          "jd_sales": "什么值得买瑜伽运动分类页实测到手价；京东初学者TPE瑜伽垫品牌榜同品牌 500000 人评论",
+          "color": "#AEB0C8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_3.jpg"
+        },
+        {
+          "name": "京东京造瑜伽垫 TPE加厚加宽垫运动跳操男女防滑地垫",
+          "price": "¥47.4",
+          "advantage": "同价位里少见的加宽款，性价比路线，比主推低 21.6 元，日常跳操足够",
+          "jd_sales": "什么值得买瑜伽运动分类页实测到手价；京东初学者TPE瑜伽垫品牌榜 20000 人评论",
+          "color": "#AEB0C8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_3.jpg"
+        },
+        {
+          "name": "Keep瑜伽垫男女士垫加宽加厚防滑减震运动地垫初学者家用 樱花-粉色 1850*800*10mm",
+          "price": "¥42.9",
+          "advantage": "10mm 厚度配樱花粉配色，拍照出片率高，主推更薄但配色更直给女性用户",
+          "jd_sales": "什么值得买瑜伽运动分类页实测到手价；京东初学者TPE瑜伽垫品牌榜 100000 人评论",
+          "color": "#E5B8C0",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_3.jpg"
+        },
+        {
+          "name": "HATHA YOGA 哈他 曼陀罗系列 彼岸曼陀 瑜伽垫 黑色 5mm",
+          "price": "¥309",
+          "advantage": "天然橡胶高端线，湿手湿脚抓地力最强，专业馆同款，价格是主推的四倍多",
+          "jd_sales": "什么值得买瑜伽运动分类页实测到手价；京东初学者TPE瑜伽垫品牌榜",
+          "color": "#AEB0C8",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_3.jpg"
+        }
+      ]
+    },
+    {
+      "product": "20-26寸万向轮拉杆箱 ¥139-1299 价位段",
+      "items": [
+        {
+          "name": "米家小米行李箱20英寸拉杆箱可登机箱万向轮旅行箱男女小型密码箱黑色",
+          "price": "¥239",
+          "advantage": "20 寸免托运登机尺寸，一体成型竖纹抗压耐摔，四轮静音顺滑，预估到手价比建议零售价省 30 元",
+          "jd_sales": "京东万向轮拉杆箱品牌榜 TOP4，500000 人评论；什么值得买旅行箱包分类页实测到手价（京东）",
+          "color": "#33353A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_4.jpg"
+        },
+        {
+          "name": "京东京造 无界系列 PC拉杆箱 jz2558 云海白 20英寸",
+          "price": "¥229",
+          "advantage": "同尺寸白配色，PC 箱体比主推更耐刮，预算比主推低 10 元",
+          "jd_sales": "什么值得买旅行箱包分类页实测到手价；京东万向轮拉杆箱品牌榜 200000 人评论",
+          "color": "#EDEAE4",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_4.jpg"
+        },
+        {
+          "name": "soo 拉杆箱 A330 黑色 26英寸",
+          "price": "¥139",
+          "advantage": "26 寸大容量价格最低，托运/搬家/宿舍全塞得下，但需要托运且装满后很沉",
+          "jd_sales": "什么值得买旅行箱包分类页实测到手价；京东万向轮拉杆箱品牌榜 1000000 人评论",
+          "color": "#33353A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_4.jpg"
+        },
+        {
+          "name": "Carany/卡拉羊 行李箱 芝士黄（顺滑减震万向轮） 20英寸",
+          "price": "¥332.01",
+          "advantage": "芝士黄配色在雪地机场和校园里辨识度极高，20 寸同时免托运",
+          "jd_sales": "什么值得买旅行箱包分类页实测到手价；京东万向轮拉杆箱品牌榜",
+          "color": "#33353A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_4.jpg"
+        },
+        {
+          "name": "LEVEL8 地平线8号 POWER系列 拉杆箱 LA-1653-14T00 灰色 20英寸",
+          "price": "¥1299",
+          "advantage": "国产高端箱包线，宽拉杆不占内部空间、同尺寸能多装，是主推的五倍价",
+          "jd_sales": "",
+          "color": "#33353A",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_4.jpg"
+        }
+      ]
+    },
+    {
+      "product": "冻干宠物零食 ¥49-360 价位段",
+      "items": [
+        {
+          "name": "WEYES冻干鸡肉粒500g桶装成幼猫狗宠物零食冻干鸡胸肉干营养高蛋白",
+          "price": "¥62",
+          "advantage": "500g 桶装单一鸡胸肉源 0 添加，原切小方块不是碎末，猫狗通用还能当训练奖励，百亿补贴到手价",
+          "jd_sales": "京东冻干宠物零食榜 TOP1，500000 人评论；什么值得买 WEYES 品牌专区实测到手价（京东）",
+          "color": "#C9C2B6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_5.jpg"
+        },
+        {
+          "name": "HEBIAN 盒边 猫零食 鸡胸肉冻干零食 30g*15袋",
           "price": "¥49.9",
-          "advantage": "4K 投屏加 USB 拓展键鼠，ESD 防静电加 TVS 过压双保护，铝合金机身",
-          "jd_sales": "京东 usb 拓展坞品牌榜 TOP1，1000000 人评论；京东主图 24 大扩展坞热卖榜 TOP1",
-          "color": "#55525F",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_3.jpg"
+          "advantage": "小袋分装便于试口和按周分装，30g 一袋开一袋不浪费，但单价折算比桶装高",
+          "jd_sales": "什么值得买宠物分类页实测到手价；京东冻干宠物零食榜",
+          "color": "#C9C2B6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_5.jpg"
         },
         {
-          "name": "京东京造 五合一 Type-C扩展坞",
-          "price": "¥33.23",
-          "advantage": "五合一里价格最低的一档，基础办公接键鼠、U 盘够用",
-          "jd_sales": "什么值得买接口转换器百科商品页实测价",
-          "color": "#55525F",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_3.jpg"
+          "name": "YANXUAN 网易严选 冻干双拼猫粮 无谷全价 1.8kg*4袋",
+          "price": "¥360.05",
+          "advantage": "冻干双拼进主粮里，兼顾口感和全价营养，是零食的平替方案但单价高不少",
+          "jd_sales": "什么值得买宠物分类页实测到手价；京东冻干宠物零食榜 500000 人评论",
+          "color": "#C9C2B6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_5.jpg"
         },
         {
-          "name": "京东京造 PD100W快充 Type-C五合一扩展坞",
-          "price": "¥54.9",
-          "advantage": "PD100W 快充五合一，笔记本边用边充不抢电",
-          "jd_sales": "什么值得买接口转换器百科商品页实测价",
-          "color": "#55525F",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_3.jpg"
+          "name": "麦富迪 BARF霸弗生骨肉主食冻干双拼猫粮 鸡肉配方 1.8kg",
+          "price": "¥74",
+          "advantage": "生骨肉配方走 raw 路线，鸡肉单一，和主推价差 12 元但定位更进阶",
+          "jd_sales": "什么值得买宠物分类页实测到手价；京东冻干宠物零食榜",
+          "color": "#C9C2B6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_5.jpg"
         },
         {
-          "name": "UGREEN 绿联 20920 Type-C扩展坞 四合一 灰色",
-          "price": "¥62.1",
-          "advantage": "同品牌四合一轻量款，机身更薄，便携收纳更省事",
-          "jd_sales": "什么值得买接口转换器百科商品页实测价",
-          "color": "#55525F",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_3.jpg"
-        },
-        {
-          "name": "UGREEN 绿联 Type-C扩展坞 五合一 0.2m 太空灰 HDMI+千兆网口+PD+USB3.0*2",
-          "price": "¥143.1",
-          "advantage": "带千兆网口和 PD 快充，五合一一步到位，固定台式办公更合适",
-          "jd_sales": "什么值得买接口转换器百科商品页实测价",
-          "color": "#55525F",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_3.jpg"
-        },
-        {
-          "name": "belkin 贝尔金 F4U092btSGY Type-C扩展坞 6合一 银色",
-          "price": "¥335.35",
-          "advantage": "六合一，4K60Hz 投屏，100W PD 供电，苹果生态用户的高端选项",
-          "jd_sales": "什么值得买接口转换器百科商品页实测价",
-          "color": "#55525F",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_3.jpg"
-        }
-      ]
-    },
-    {
-      "product": "电动剃须刀 ¥80-380 价位段",
-      "items": [
-        {
-          "name": "飞科电动剃须刀【王一博推荐】男士刮胡须刀FS903节日送男友爸爸父亲礼物",
-          "price": "¥113",
-          "advantage": "双环刀网贴合下颌和嘴角死角，1 小时快充，全身水洗刀网可拆",
-          "jd_sales": "京东电动剃须刀榜 4000000 人评论；什么值得买商品百科实测价",
-          "color": "#2B2B2B",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_4.jpg"
-        },
-        {
-          "name": "MIJIA 米家 S100 电动剃须刀 黑色",
-          "price": "¥84.9",
-          "advantage": "双环云纹刀网减漏剃，机身小巧便携，出差通勤塞包不占地",
-          "jd_sales": "京东电动剃刀品牌榜 20000 人评论；什么值得买剃须除毛百科 ¥84.9",
-          "color": "#2B2B2B",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_4.jpg"
-        },
-        {
-          "name": "Panasonic 松下 青春锤子系列 ES-RM31 电动剃须刀 科技银",
-          "price": "¥214.97",
-          "advantage": "双滚轮往复式，剃感顺滑不拉扯，Type-C 充电",
-          "jd_sales": "什么值得买剃须除毛百科商品页实测价",
-          "color": "#2B2B2B",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_4.jpg"
-        },
-        {
-          "name": "BRAUN 博朗 3000S 电动剃须刀 黑色",
-          "price": "¥278.8",
-          "advantage": "德国品牌往复式，刀网耐用，胡须偏硬偏浓密的用户更适配",
-          "jd_sales": "什么值得买剃须除毛百科商品页实测价",
-          "color": "#2B2B2B",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_4.jpg"
-        },
-        {
-          "name": "PHILIPS 飞利浦 S5887/10 SkinIQ智能感应 红色 电动剃须刀",
-          "price": "¥369.55",
-          "advantage": "SkinIQ 智能感应调节，红色限定配色，礼盒感更强",
-          "jd_sales": "什么值得买剃须除毛百科商品页实测价",
-          "color": "#2B2B2B",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_4.jpg"
-        }
-      ]
-    },
-    {
-      "product": "无线除螨仪/手持吸尘器 ¥300-1900 价位段",
-      "items": [
-        {
-          "name": "UWANT【价同11.11】友望除螨仪器大白旗舰 【ultra升级大吸力】除螨床上吸尘器高温杀菌三合一除螨机",
-          "price": "¥379",
-          "advantage": "ultra 升级大吸力，高温杀菌加紫外线双效，下单终生送海绵滤芯",
-          "jd_sales": "京东吸螨器榜 200000 人评论；京东主图销售启后到手价 ¥379（日常价 ¥509）",
-          "color": "#EFE9E0",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_5.jpg"
-        },
-        {
-          "name": "UWANT友望 CM2306大白ultra 双杯尘螨分离 大白 手持式吸尘器",
-          "price": "¥302.94",
-          "advantage": "双杯设计把尘和螨分开收集，倒灰时不会二次扬尘",
-          "jd_sales": "什么值得买吸尘器百科商品页实测价",
-          "color": "#EFE9E0",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_5.jpg"
-        },
-        {
-          "name": "CEYEE 希亦 RM1 手持除螨仪",
-          "price": "¥359",
-          "advantage": "纯手持轻量机身，适合沙发、局部床品快速扫一遍",
-          "jd_sales": "什么值得买吸尘器百科商品页实测价",
-          "color": "#EFE9E0",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_5.jpg"
-        },
-        {
-          "name": "dyson 戴森 V8 Fluffy 手持式吸尘器 2023款",
-          "price": "¥1599",
-          "advantage": "128AW 强劲吸力，软绒滚刷贴地，官方标称 99% 高效除螨",
-          "jd_sales": "什么值得买吸尘器百科商品页实测价",
-          "color": "#EFE9E0",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_5.jpg"
-        },
-        {
-          "name": "dreame 追觅 Z20 Station 手持式吸尘器",
-          "price": "¥1826.5",
-          "advantage": "230AW 强吸，140° 绿光显尘看得见浮尘，100 天免倒尘",
-          "jd_sales": "什么值得买吸尘器百科商品页实测价",
-          "color": "#EFE9E0",
-          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_5.jpg"
+          "name": "Toptrees领先 海陆双拼系列猫粮湿粮零食礼包 315g",
+          "price": "¥13.21",
+          "advantage": "小规格礼包低门槛试水，海陆双拼补鱼油蛋黄，换毛期功能向更强",
+          "jd_sales": "什么值得买宠物分类页实测到手价；京东冻干宠物零食榜",
+          "color": "#C9C2B6",
+          "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_5.jpg"
         }
       ]
     }
   ],
   "hotProducts": [
     {
-      "name": "九阳（Joyoung）榨汁杯 果蔬榨汁机搅拌杯 婴儿辅食机电动多功能10叶刀秒碎冰果汁杯LJ645",
-      "category": "厨房小电 · 便携榨汁杯",
-      "price": "¥83.65",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_1.jpg",
-      "sales": "京东便携式榨汁杯榜 TOP6，1000000 人评论；什么值得买果蔬果汁杯榜 99k 销量",
+      "name": "膳魔师（THERMOS）不锈钢保温杯水杯500ml车载男女士学生杯子茶杯礼物JNL-502磨砂黑",
+      "category": "居家水具 · 磨砂黑保温杯",
+      "price": "¥79",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_1.jpg",
+      "sales": "京东杯子保温品牌榜 TOP6，500000 人评论；什么值得买水具酒具分类页实测到手价",
       "platform": "京东自营"
     },
     {
-      "name": "富安娜泰国进口天然乳胶枕头抗菌面料透气学生成人颈椎枕芯60*40*8/10cm",
-      "category": "睡眠寝具 · 天然乳胶护颈枕",
-      "price": "¥94",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_2.jpg",
-      "sales": "京东天然乳胶记忆枕榜 200000 人评论，11.12-11.13 预购到手价 ¥94",
+      "name": "京东京造100%纯羊毛帽子男秋冬加厚保暖毛线帽针织帽护耳防寒帽男",
+      "category": "冬季配饰 · 纯羊毛针织帽",
+      "price": "¥69.9",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_2.jpg",
+      "sales": "京东毛线帽帽子针织帽品牌榜 10000 人评论，主图实印预估到手价 ¥69.9",
       "platform": "京东自营"
     },
     {
-      "name": "绿联Type-C扩展坞转HDMI拓展坞投屏接口转换器转接头USB适用于兼容雷电4苹果MacBook笔记本电脑iPad",
-      "category": "数码配件 · Type-C 多口扩展坞",
-      "price": "¥49.9",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_3.jpg",
-      "sales": "京东 usb 拓展坞品牌榜 TOP1，1000000 人评论，24 大扩展坞热卖榜 TOP1",
+      "name": "yottoy瑜伽垫 健身垫TPE防滑加厚加宽185*80cm初学者男女舞蹈地垫子家用",
+      "category": "运动健身 · TPE防滑瑜伽垫",
+      "price": "¥69",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_3.jpg",
+      "sales": "京东初学者TPE瑜伽垫品牌榜 TOP1，连续 4 年品牌热卖，500000 人评论",
       "platform": "京东自营"
     },
     {
-      "name": "飞科电动剃须刀【王一博推荐】男士刮胡须刀FS903节日送男友爸爸父亲礼物",
-      "category": "个护电器 · 声波双环电动剃须刀",
-      "price": "¥113",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_4.jpg",
-      "sales": "京东电动剃须刀榜 4000000 人评论，什么值得买商品百科实测 ¥113",
+      "name": "米家小米行李箱20英寸拉杆箱可登机箱万向轮旅行箱男女小型密码箱黑色",
+      "category": "出行箱包 · 20寸万向轮登机箱",
+      "price": "¥239",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_4.jpg",
+      "sales": "京东万向轮拉杆箱品牌榜 TOP4，500000 人评论，主图预估到手价 ¥239",
       "platform": "京东自营"
     },
     {
-      "name": "UWANT【价同11.11】友望除螨仪器大白旗舰 【ultra升级大吸力】除螨床上吸尘器高温杀菌三合一除螨机",
-      "category": "家居清洁 · 无线除螨仪",
-      "price": "¥379",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-14_product_5.jpg",
-      "sales": "京东吸螨器榜 200000 人评论，旗舰清洁 TOP1，日常价 ¥509 活动到手 ¥379",
+      "name": "WEYES冻干鸡肉粒500g桶装成幼猫狗宠物零食冻干鸡胸肉干营养高蛋白",
+      "category": "宠物食品 · 冻干鸡肉粒零食",
+      "price": "¥62",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-15_product_5.jpg",
+      "sales": "京东冻干宠物零食榜 TOP1，500000 人评论，什么值得买品牌专区百亿补贴到手价",
       "platform": "京东自营"
     }
   ],
   "dataSource": "WebSearch 真实数据 · SQLite db 导出",
-  "updateTime": "2026-11-14 07:30"
+  "updateTime": "2026-11-15 07:30"
 }
