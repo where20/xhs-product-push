@@ -1,203 +1,201 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "totalProducts": 5,
-  "totalRuns": 65,
-  "totalProductImages": 325,
-  "lastRunDate": "2026-11-18",
+  "totalRuns": 66,
+  "totalProductImages": 330,
+  "lastRunDate": "2026-11-19",
   "status": "已完成",
-  "updateTime": "2026-11-18 07:30",
+  "updateTime": "2026-11-19 07:30",
   "products": [
     {
-      "name": "NECTAR IX维生素原B5身体乳大白罐男女士持久留香补水保湿干燥皮肤润肤500g",
-      "category": "个护美妆 · 身体乳",
-      "price": "¥19.9(500g·京东换购到手)",
-      "desc": "含维生素原B5的深层补水保湿霜,质地轻盈不黏腻,吸收快,涂完不糊衣服。500g 大容量,秋冬换季往身上厚涂也不心疼,一次抹到位。京东自营页面价¥159,凑单换购到手低至¥19.9,单次成本不到四毛钱。京东榜单已有100000人评论,什么值得买爆料显示该商品好评率99%,换季干痒、手肘膝盖粗糙部位都能拿它救急。",
-      "suitable": "秋冬换季皮肤干燥、预算有限的学生党和上班族,全身大容量涂抹需求",
-      "price_note": "京东自营页面价¥159,凑单换购实付低至¥19.9(什么值得买2026-11-09爆料)",
-      "color": "#8DBA49",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_1.jpg",
+      "name": "米家 小米泡脚桶杀菌足浴器2 全自动按摩加热泡脚盆雨幕喷淋过小腿高深桶足浴洗脚 生日礼物送妈妈送长辈",
+      "category": "家居养生 · 泡脚桶",
+      "price": "¥419(京东自营·杀菌足浴器2)",
+      "desc": "米家杀菌足浴器2,950W DPS水电分离加热,管路内置紫外线杀菌,官方标称杀菌率99.9%。三段分区按摩盘,脚掌滚揉、足弓指压、脚跟点推,外层TPE硅胶包覆不硌脚。可升降雨幕喷淋,三档高度调节,桶身382mm高,深泡能覆盖小腿。35到48℃一度一档调温,5到60分钟定时,记忆上次设置。京东榜单已有500000人评论,官方指导价499元、首发价419元,首发送30包草本泡脚包,冬天给爸妈囤一台送长辈很体面。",
+      "suitable": "冬天手脚冰凉、想给爸妈或长辈添个礼物的家庭,以及久坐一天需要放松小腿的上班族",
+      "price_note": "京东自营活动预估到手价¥419(读自京东450×450官方主图实印),官方指导价¥499、首发价¥419",
+      "color": "#F0EDE6",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_1.jpg",
       "id": 1,
       "highlights": [
-        "500g 超大容量,全身厚涂不心疼",
-        "含维生素原B5,换季干燥起皮急救",
-        "质地轻盈不油腻,吸收快不粘衣",
-        "京东换购到手¥19.9,单次成本极低",
-        "京东榜单已有100000人评论,回购率高"
+        "管路紫外线杀菌,官方标称杀菌率99.9%",
+        "三段分区按摩,脚掌足弓脚跟各按各的",
+        "可升降雨幕喷淋,深桶382mm能泡到小腿",
+        "950W水电分离加热,35-48℃一度一档可调",
+        "京东榜单500000人评论,首发价419元"
       ],
       "tags": [
-        "身体乳",
-        "换季护肤",
-        "平价保湿",
-        "维生素B5",
-        "干燥急救"
+        "泡脚桶",
+        "足浴器",
+        "送妈妈",
+        "米家",
+        "冬季养生"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_1.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_slice_1.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_1.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_slice_1.jpg"
       ],
       "links": {
-        "primary": "https://m.smzdm.com/p/186158326/",
+        "primary": "https://m.smzdm.com/p/184709837/",
         "source": "什么值得买",
         "extra": [
-          "https://m.smzdm.com/p/185727436/",
-          "https://www.jd.com/phb/key_131923ad3d938646b7f0.html"
+          "https://m.smzdm.com/p/185691747/",
+          "https://www.jd.com/phb/key_7371d5f2bb6d33e6256.html"
         ]
       },
-      "theme_color": "#608030"
+      "theme_color": "#84744F"
     },
     {
-      "name": "米家小米手持挂烫机2 18g/min最大出汽量 小型蒸汽电熨斗熨烫机除皱熨斗便携可折叠MJGTJ02LF",
-      "category": "家居洗护 · 手持挂烫机",
-      "price": "¥119起(折叠款·京东自营)",
-      "desc": "米家手持挂烫机2,18g/min 蒸汽量,26 秒快速出蒸汽,衬衫西裤的褶皱一推就平。机身可折叠,收起来只有巴掌大,塞进登机箱也不占地方,出差旅行随手带上。干湿两用,还能顺带除菌除螨。京东榜单已有500000人评论,好物榜同类挂烫机也有47.4万条评价、98%好评率,是米家小家电里口碑最稳的一档,早八人赶时间的救星。",
-      "suitable": "早八赶时间的上班族、经常出差的差旅党、宿舍空间有限的学生党",
-      "price_note": "京东自营活动预估到手价¥119起(读自京东450×450官方主图)",
-      "color": "#EFEEEA",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_2.jpg",
+      "name": "京东京造 便携式意式咖啡机浓缩胶囊半自动摩卡壶萃取机小型家用户外办公室",
+      "category": "厨房小家电 · 便携咖啡机",
+      "price": "¥167.9(京东自营·国补实付)",
+      "desc": "京东京造便携式意式咖啡机,磨砂黑工程塑料机身,整机约780g、尺寸约24×14×16cm,放进双肩包侧袋或登机箱不占地方。支持咖啡粉和Nespresso胶囊双模式萃取,51mm不锈钢粉碗配压粉锤,胶囊模式塞两颗就能出杯。9到12Bar泵压,30秒速热预热,USB-C供电,实测配20000mAh移动电源可连续萃取约60杯。80ml304不锈钢储水仓刚好一杯浓缩,粉碗水箱都能拆下来直接冲。不用再排队买咖啡,一天两杯自己在家做,咖啡店一杯二三十能省下一半。",
+      "suitable": "早八需要续命的上班族、经常出差的差旅党、露营野餐想喝现萃又不想背大机器的人",
+      "price_note": "京东京东京造自营旗舰店活动售价¥167.9,国家补贴下单1件实付¥167.9(什么值得买2026年爆料)",
+      "color": "#2B2B2E",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_2.jpg",
       "id": 2,
       "highlights": [
-        "18g/min 大蒸汽,26秒快速预热出汽",
-        "机身可折叠,收纳不占地方",
-        "干湿两用,还能除菌除螨",
-        "差旅通勤随手带,皱衬衫一推就平",
-        "京东榜单已有500000人评论,销量口碑双高"
+        "胶囊咖啡粉双模式,51mm不锈钢粉碗可压实",
+        "9-12Bar泵压,浓缩油脂层绵密持久",
+        "USB-C供电,移动电源可连出约60杯",
+        "磨砂黑机身780g,双肩包侧袋塞得下",
+        "30秒速热,约3分钟从准备到喝上咖啡"
       ],
       "tags": [
-        "手持挂烫机",
-        "差旅好物",
-        "除皱神器",
-        "米家",
-        "小家电"
+        "便携咖啡机",
+        "意式浓缩",
+        "办公室好物",
+        "USB-C供电",
+        "京东京造"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_2.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_slice_2.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_2.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_slice_2.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_16200b0b883e16e21247.html",
-        "source": "京东排行榜",
+        "primary": "https://m.smzdm.com/p/179244909/",
+        "source": "什么值得买",
         "extra": [
-          "https://m.paihangbangtuijian.com/haowu/20900",
-          "https://www.paizi.net/pinpai/topvidihd.html"
+          "https://www.jd.com/phb/key_7370a2f02139693c60c.html",
+          "https://www.paizi.net/pinpai/toptidjee.html"
         ]
       },
-      "theme_color": "#7B765E"
+      "theme_color": "#2B2B2E"
     },
     {
-      "name": "弱水时砂OPENFEEL MK2【金榜TOP1】耳夹式蓝牙耳机无线开放式不入耳舒适佩戴运动通话降噪长续航2026最新款",
-      "category": "数码配件 · 开放式耳夹耳机",
-      "price": "¥259起(耳夹式·京东)",
-      "desc": "开放式耳夹式蓝牙耳机,不用塞进耳道,久戴不胀痛,跑步通勤都能听见环境音更安全。旗舰级 HiFi 调音,通话降噪在线,单耳重量轻到几乎无感,充电盒小巧兜里一揣就走。什么值得买耳夹耳机 TOP10 榜单金榜第一,京东榜单已有20000人评论,戴过的人基本都回购,耳道敏感的姐妹尤其值得试。通话收音清晰,地铁里也能听清对方说话,一天下来不用总摘下来充电。",
-      "suitable": "耳道敏感久戴不适的人、跑步健身党、需要随时注意路况的通勤人群",
-      "price_note": "京东活动预估到手价¥259起(读自京东450×450官方主图)",
-      "color": "#BDB8B6",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_3.jpg",
+      "name": "巴黎欧莱雅 玻尿酸安瓶面膜4.0 20片装 含赠到手65片",
+      "category": "个护美妆 · 补水面膜",
+      "price": "¥439(京东自营·20片含赠65片)",
+      "desc": "欧莱雅玻尿酸安瓶面膜4.0,锁鲜安瓶精华搭配轻薄服帖膜布,上脸吸收快不黏腻。20片正装叠品牌赠礼,共到手65片,折算单片才几块钱,敷好几个月也用不完。京东榜单已有1000000人评论,是欧莱雅家回购率最高的那一档。什么值得买爆料页面价¥439,叠券后单片到手能压到¥311上下,叠满减还能再低一点。换季泛红、熬夜后干糙、空调房缺水,随手拿一片救急,敷完第二天上妆不卡粉。",
+      "suitable": "换季干燥泛红、熬夜后肌肤暗沉的通勤女生,以及想低成本试大牌面膜的新手",
+      "price_note": "京东欧莱雅自营旗舰店页面价¥439,满1000减150后主商品单件到手约¥311(什么值得买爆料),含赠到手65片",
+      "color": "#8E6FB5",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_3.jpg",
       "id": 3,
       "highlights": [
-        "开放式不入耳,久戴耳朵不胀痛",
-        "环境音透传,跑步通勤更安全",
-        "旗舰级 HiFi 调音,人声通透清晰",
-        "充电盒小巧,单耳轻到几乎无感",
-        "smzdm 耳夹耳机 TOP10 金榜第一"
+        "20片正装叠赠礼,共到手65片囤着不心疼",
+        "锁鲜安瓶精华,上脸吸收快不黏腻",
+        "京东榜单1000000人评论,回购率断层第一",
+        "换季泛红熬夜干糙,敷一片救急",
+        "券后单片到手¥311上下,单片才几块钱"
       ],
       "tags": [
-        "开放式耳机",
-        "耳夹式",
-        "运动耳机",
-        "不入耳",
-        "通话降噪"
+        "补水面膜",
+        "欧莱雅",
+        "换季护肤",
+        "囤货装",
+        "安瓶精华"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_3.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_slice_3.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_3.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_slice_3.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_65240cd401777d5e078.html",
-        "source": "京东排行榜",
+        "primary": "https://m.smzdm.com/p/185690032/",
+        "source": "什么值得买",
         "extra": [
-          "https://post.m.smzdm.com/talk/p/aomqog27",
-          "https://post.smzdm.com/talk/p/a82pkoqq/"
+          "https://www.smzdm.com/p/185372828/",
+          "https://www.jd.com/phb/key_131613bd8f33ce5e9331.html"
         ]
       },
-      "theme_color": "#7D7471"
+      "theme_color": "#8867B1"
     },
     {
-      "name": "九阳(Joyoung) 焖烧杯316L不锈钢保温饭盒男女士学生真空保温杯闷烧壶罐520ml",
-      "category": "厨房厨具 · 焖烧杯",
-      "price": "¥126(520ml·京东自营)",
-      "desc": "316L 不锈钢内胆焖烧杯,睡前放燕麦杂粮粥,早上开盖还是温热的,不用早起看火。宽口大直径,手伸得进去洗,不会藏污纳垢。配可折叠提手和不锈钢折叠勺,盖子还能直接当碗用。京东榜单已有50000人评论,牌子网焖烧罐榜九阳热度1768,上班族和学生的带饭标配,冬天装汤带饭尤其顺手。内胆容量够焖银耳雪梨汤,冬天在办公室当养生盅用也很合适。",
-      "suitable": "自己带饭的上班族、宿舍没法开火的 students、想早上喝热粥的懒人",
-      "price_note": "京东自营渠道到手价¥126(什么值得买闷烧保温杯分类 2026-11-10 爆料)",
-      "color": "#E8E3D5",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_4.jpg",
+      "name": "李宁 赤兔9PRO 无板竞训跑步鞋男子体测专业减震运动鞋 ARPW001",
+      "category": "运动户外 · 专业跑鞋",
+      "price": "¥323.1(京东自营·叠券到手)",
+      "desc": "李宁赤兔9PRO,无板竞训定位,专攻体测和日常训练减震。鞋面透气网布,中底轻弹缓震,落地有回弹但不过分软,长距离跑步不累脚。京东李宁自营旗舰店活动售价¥549,叠1件9折加满549减107元优惠券后,当前到手价¥323.1,降幅10%,低于上次爆料价¥359。京东跑鞋专业榜已有50000人评论,是赤兔系列里稳的一档。体测前穿它跑个5公里当热身,或日常通勤配一身运动装,脚感比普通休闲鞋扎实得多。",
+      "suitable": "体测考生、需要日常慢跑的健身党,以及通勤想穿得运动又不失体面的上班族",
+      "price_note": "京东李宁自营旗舰店活动售价¥549,叠1件9折+满549减107元优惠券后当前到手价¥323.10,低于上次爆料价¥359(什么值得买爆料)",
+      "color": "#D9463C",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_4.jpg",
       "id": 4,
       "highlights": [
-        "316L 不锈钢内胆,焖粥炖汤更安心",
-        "宽口大直径,伸手进去好清洗",
-        "可折叠提手 + 折叠勺,盖子可当碗",
-        "实测保温数小时,早上开盖仍温热",
-        "京东榜单已有50000人评论,带饭人群口碑款"
+        "无板竞训定位,专业减震适合体测和日常训练",
+        "透气网布鞋面,长距离跑步不闷脚",
+        "京东榜单50000人评论,赤兔系列口碑款",
+        "叠券后到手¥323.1,三百出头价位很能打",
+        "中底轻弹有回弹,落地不软塌"
       ],
       "tags": [
-        "焖烧杯",
-        "保温饭盒",
-        "焖粥神器",
-        "316不锈钢",
-        "上班带饭"
+        "跑步鞋",
+        "李宁",
+        "体测装备",
+        "减震",
+        "运动鞋"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_4.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_slice_4.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_4.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_slice_4.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_6196be3fc9ac60922979.html",
-        "source": "京东排行榜",
+        "primary": "https://m.smzdm.com/p/183911959/",
+        "source": "什么值得买",
         "extra": [
-          "https://www.smzdm.com/sou/32185",
-          "https://www.maigoo.com/zhishi/211431.html",
-          "https://www.paizi.net/pinpai/topoheihg.html"
+          "https://m.smzdm.com/p/185587640/",
+          "https://www.jd.com/phb/key_1318eb24e367740d7d81.html"
         ]
       },
-      "theme_color": "#847548"
+      "theme_color": "#D73D33"
     },
     {
-      "name": "雅迪冬季防寒保暖头盔3c认证新国标A类摩登光芒电动车摩托车自行车助力车通用轻奢冬盔-奶油米",
-      "category": "户外骑行 · 冬季头盔",
-      "price": "¥106.6(奶油米·京东)",
-      "desc": "3C 认证新国标 A 类冬盔,加厚保暖内衬加防寒耳罩,立冬以后早上出门不再冻耳朵。透气防雾镜片,冬天起雾看不清路的问题一并解决。奶油米配色带一点复古摩登感,哑光壳面不挑衣服。京东销量 20k,榜单已有20000人评论,同价位普通头盔多在47~78元,这一款卖到106元换来的是保暖内衬加3C认证,通勤代步和周末骑行都能戴。",
-      "suitable": "冬天骑电动车上下班的通勤族、送娃家长、周末城市骑行爱好者",
-      "price_note": "京东渠道到手价¥106.6(什么值得买雅迪助力车价格榜,京东销量20k)",
-      "color": "#EDE5D6",
-      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_5.jpg",
+      "name": "NB 显示器支架 机械臂 电脑显示屏支架臂 显示屏幕升降悬空托增高架桌夹式底座 适配aoc卓威17-32吋A3",
+      "category": "数码桌面 · 显示器支架",
+      "price": "¥119(京东自营·A3机械臂)",
+      "desc": "NB显示器支架A3,机械弹簧结构加双快装,免打孔桌夹式安装,适配17到32吋屏幕。承重2到9kg,VESA孔距75×75mm或100×100mm都适用,桌面厚度20到80mm都能夹。装上后屏幕悬空,键盘鼠标能铺开一大片,桌面一下清爽。京东自营日常售价119到129元,11.11期间叠加超级补贴和凑单满3件8折,实付最低压到47.13元。京东榜单已有1000000人评论,是机械臂支架里性价比最扎实的一档。",
+      "suitable": "长期伏案的办公党、在宿舍或租房桌面小需要抢空间的人,以及想改造桌搭的数码爱好者",
+      "price_note": "京东NB自营日常售价¥119~129元,11.11叠加超级补贴+满3件8折后凑单实付低至¥47.13(IT之家实测),常规到手¥119",
+      "color": "#3A3A3E",
+      "image": "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_5.jpg",
       "id": 5,
       "highlights": [
-        "3C 认证新国标 A 类,安全有硬标",
-        "加厚保暖内衬 + 防寒耳罩,冬天不冻耳朵",
-        "防雾透气镜片,冬天不起雾不挡路",
-        "奶油米复古配色,哑光壳面不挑穿搭",
-        "京东销量 20k,榜单已有20000人评论"
+        "机械弹簧结构,推拉升降手感顺滑不垂头",
+        "免打孔桌夹安装,桌面厚度20-80mm适用",
+        "适配17-32吋,承重2-9kg,VESA双孔距",
+        "双快装结构,换屏搬屏都省事",
+        "京东榜单1000000人评论,11.11到手47元起"
       ],
       "tags": [
-        "骑行头盔",
-        "电动车头盔",
-        "冬季保暖",
-        "3C认证",
-        "奶油米"
+        "显示器支架",
+        "机械臂",
+        "桌搭改造",
+        "NB",
+        "护颈办公"
       ],
       "images": [
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_5.jpg",
-        "https://cloudimgs.iepose.cn/api/images/2026-11-18_product_slice_5.jpg"
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_5.jpg",
+        "https://cloudimgs.iepose.cn/api/images/2026-11-19_product_slice_5.jpg"
       ],
       "links": {
-        "primary": "https://www.jd.com/phb/key_1318992d6950ebcb8950.html",
-        "source": "京东排行榜",
+        "primary": "https://m.smzdm.com/p/185128482/",
+        "source": "什么值得买",
         "extra": [
-          "https://www.smzdm.com/ju/svl7wly/",
-          "https://www.smzdm.com/ju/s01mxqw",
-          "https://www.paizi.net/pinpai/topshfchh.html"
+          "https://www.ithome.com/1/024/747.htm",
+          "https://www.jd.com/phb/key_670cef57d63ce28245d.html"
         ]
       },
-      "theme_color": "#8D723E"
+      "theme_color": "#3A3A3E"
     }
   ]
 }
