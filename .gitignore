@@ -1,0 +1,29 @@
+# ── 本项目已停止运营 (2026-11-27) ────────────────────────
+# 线上仓库只发布停运说明页(index.html)与域名绑定(CNAME)。
+# 以下内容仅保留在本地, 不发布到公开仓库:
+#
+#   scripts/            流水线脚本(选品/出图/合成/上传/推送/校验)
+#   prompt.md           选品与文案生成 prompt
+#   AGENTS.md           运维说明与踩坑记录
+#   xhs-ai-pack/        配置包
+#   imghost_cleanup_log.json  图床清理审计日志(含其它项目的素材清单, 绝不外泄)
+#   images/             本地图片目录
+#   .last_version       本地版本戳
+#
+# 理由: 线上只保留"已停止运营"的状态说明, 不保留任何可追溯的流水线实现与历史痕迹。
+# 这些文件若日后要重新启用项目, 本地直接可用, 随时可再提交。
+
+scripts/
+prompt.md
+AGENTS.md
+xhs-ai-pack/
+imghost_cleanup_log.json
+images/
+.last_version
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
